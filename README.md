@@ -18,13 +18,3 @@ O projeto é voltado para desenvolvedores, pesquisadores de segurança e estudan
 Este repositório opera sob a doutrina de **Fair Use** (Uso Aceitável), especificamente voltado para a **interoperabilidade, pesquisa e estudo educacional**. Não há qualquer intenção comercial ou de lucro, e este projeto não substitui a obra original no mercado.
 
 A propriedade intelectual, o título "Harvest Moon" (atualmente "Story of Seasons"), bem como todos os personagens e conceitos pertencem exclusivamente à Marvelous Inc., Natsume e respectivos detentores de direitos.
-
-## ⚙️ Como Compilar (Build Instructions)
-
-Para gerar uma ROM funcional a partir deste código fonte, **é estritamente necessário possuir uma cópia original e legal do jogo**. A compilação falhará se você não fornecer os recursos originais.
-
-1. Faça o dump legal do seu cartucho original de *Harvest Moon (SNES)*.
-2. Renomeie o arquivo para `baserom.sfc` e coloque-o na pasta raiz do repositório.
-3. Execute o extrator de *assets* (isso irá retirar as músicas e gráficos da sua ROM e colocá-los nas pastas corretas do projeto):
-   ```bash
-   make extract
