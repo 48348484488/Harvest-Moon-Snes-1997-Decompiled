@@ -1,0 +1,6 @@
+visual_domain,entries,unique_refs,candidate_refs_total,cc_object_parameter_state_setup,cc_object_visual_pointer_setup
+general_livestock_visual_context,128,188,136,2,126
+npc_family_event_visual_context,22,77,25,0,22
+cow_livestock_visual_context,14,41,25,0,14
+dog_pet_visual_context,8,32,12,0,8
+chicken_poultry_visual_context,4,5,6,0,4

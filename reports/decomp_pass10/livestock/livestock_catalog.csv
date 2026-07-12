@@ -1,0 +1,10 @@
+item,value
+labels_related_to_livestock,104
+xrefs_related_to_livestock,900
+chicken_slots,13
+chicken_slot_size_bytes,8
+cow_slots,12
+cow_slot_size_bytes,16
+chicken_spawn_entries,13
+cow_spawn_entries,13
+build_status,byte-perfect

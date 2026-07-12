@@ -1,0 +1,13 @@
+metric,value,percent
+total_eventscript_entries,1288,100.000
+previous_pass92_pending_entries,911,70.730
+closed_in_pass93_structural_roles,334,25.932
+closed_total_after_pass93,711,55.202
+pending_after_pass93,577,44.798
+pending_reduction_from_pass92,334,36.663
+closed_role::audio_sfx_trigger,79,23.653
+closed_role::state_gate_branch_router,63,18.862
+closed_role::transition_map_flow,62,18.563
+closed_role::flag_value_update,50,14.970
+closed_role::object_parameter_setup,47,14.072
+closed_role::motion_velocity_update,33,9.880

@@ -1,0 +1,9 @@
+tool_group,mask_hex,notes
+sickle / gold sickle,01,requires tile-property bit 0
+hoe / gold hoe,02,requires tile-property bit 1
+hammer / gold hammer,04,requires tile-property bit 2
+axe / gold axe,08,requires tile-property bit 3
+watering can,,farm accepts watering; non-farm can fill from water tile properties $00F0/$00F4
+sprinkler,,routes to sprinkler-specific multi-tile logic
+crop/grass seeds,,routes to seedused branch; actual planting routines are separate
+paint,,paint-specific branch

@@ -1,0 +1,7 @@
+resolution_class,unique_refs,percent_of_refs
+source_address_line_match,139,52.852
+exact_gobj_id,69,26.236
+unresolved_asset_table_or_immediate,24,9.125
+visual_param_or_non_gobj_id,20,7.605
+exact_gobj_animation_sequence_lowword,10,3.802
+runtime_cc_state_or_wram_pointer,1,0.380

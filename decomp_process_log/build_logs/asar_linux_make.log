@@ -1,0 +1,20 @@
+[  5%] Building CXX object asar/CMakeFiles/asar-standalone.dir/interface-cli.cpp.o
+[ 10%] Building CXX object asar/CMakeFiles/asar-standalone.dir/addr2line.cpp.o
+[ 15%] Building CXX object asar/CMakeFiles/asar-standalone.dir/arch-65816.cpp.o
+[ 21%] Building CXX object asar/CMakeFiles/asar-standalone.dir/arch-spc700.cpp.o
+[ 26%] Building CXX object asar/CMakeFiles/asar-standalone.dir/arch-superfx.cpp.o
+[ 31%] Building CXX object asar/CMakeFiles/asar-standalone.dir/assembleblock.cpp.o
+[ 36%] Building CXX object asar/CMakeFiles/asar-standalone.dir/crc32.cpp.o
+[ 42%] Building CXX object asar/CMakeFiles/asar-standalone.dir/libcon.cpp.o
+[ 47%] Building CXX object asar/CMakeFiles/asar-standalone.dir/libsmw.cpp.o
+[ 52%] Building CXX object asar/CMakeFiles/asar-standalone.dir/libstr.cpp.o
+[ 57%] Building CXX object asar/CMakeFiles/asar-standalone.dir/macro.cpp.o
+[ 63%] Building CXX object asar/CMakeFiles/asar-standalone.dir/main.cpp.o
+[ 68%] Building CXX object asar/CMakeFiles/asar-standalone.dir/asar_math.cpp.o
+[ 73%] Building CXX object asar/CMakeFiles/asar-standalone.dir/virtualfile.cpp.o
+[ 78%] Building CXX object asar/CMakeFiles/asar-standalone.dir/warnings.cpp.o
+[ 84%] Building CXX object asar/CMakeFiles/asar-standalone.dir/errors.cpp.o
+[ 89%] Building CXX object asar/CMakeFiles/asar-standalone.dir/platform/file-helpers.cpp.o
+[ 94%] Building CXX object asar/CMakeFiles/asar-standalone.dir/platform/linux/file-helpers-linux.cpp.o
+[100%] Linking CXX executable bin/asar
+[100%] Built target asar-standalone

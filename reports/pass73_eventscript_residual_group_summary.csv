@@ -1,0 +1,73 @@
+group,entries,commands,residual_hits,known_percent,dominant_residual_category,top_residual_bytes
+$00,136,480,5,98.958,short_script_then_inline_residual_payload,$93:2 $81:1 $91:1 $C1:1
+$01,16,329,12,96.353,long_script_then_inline_residual_payload,$B4:5 $CB:1 $62:1 $A8:1 $5C:1 $A4:1 $A3:1 $D2:1
+$02,16,225,12,94.667,short_script_then_inline_residual_payload,$BA:11 $F3:1
+$03,16,207,14,93.237,short_script_then_inline_residual_payload,$C6:13 $DB:1
+$04,16,395,8,97.975,entry_starts_as_residual_table_or_pointer_row,$91:8
+$05,16,108,15,86.111,entry_starts_as_residual_table_or_pointer_row,$67:15
+$06,16,333,9,97.297,short_script_then_inline_residual_payload,$72:9
+$07,16,389,8,97.943,entry_starts_as_residual_table_or_pointer_row,$DF:8
+$08,16,312,8,97.436,short_script_then_inline_residual_payload,$E8:8
+$09,16,76,16,78.947,entry_starts_as_residual_table_or_pointer_row,$5B:15 $5C:1
+$0A,16,28,10,64.286,entry_starts_as_residual_table_or_pointer_row,$FA:10
+$0B,16,91,5,94.505,entry_starts_as_residual_table_or_pointer_row,$7A:3 $EE:2
+$0C,16,16,14,12.500,entry_starts_as_residual_table_or_pointer_row,$88:14
+$0D,16,30,14,53.333,short_script_then_inline_residual_payload,$D4:14
+$0E,16,648,0,100.000,none,
+$0F,16,22,10,54.545,entry_starts_as_residual_table_or_pointer_row,$D8:10
+$10,16,35,15,57.143,short_script_then_inline_residual_payload,$88:15
+$11,16,16,15,6.250,entry_starts_as_residual_table_or_pointer_row,$C0:15
+$12,16,31,15,51.613,short_script_then_inline_residual_payload,$89:15
+$13,16,16,15,6.250,entry_starts_as_residual_table_or_pointer_row,$F2:15
+$14,16,42,11,73.810,short_script_then_inline_residual_payload,$8D:11
+$15,16,62,16,74.194,short_script_then_inline_residual_payload,$8E:15 $7B:1
+$16,16,31,15,51.613,short_script_then_inline_residual_payload,$C5:15
+$17,16,17,16,5.882,entry_starts_as_residual_table_or_pointer_row,$E5:15 $B4:1
+$18,16,18,15,16.667,entry_starts_as_residual_table_or_pointer_row,$B5:15
+$19,16,16,14,12.500,entry_starts_as_residual_table_or_pointer_row,$F3:14
+$1A,16,16,14,12.500,entry_starts_as_residual_table_or_pointer_row,$D3:14
+$1B,16,17,15,11.765,entry_starts_as_residual_table_or_pointer_row,$F2:14 $B4:1
+$1C,16,17,14,17.647,entry_starts_as_residual_table_or_pointer_row,$5C:13 $B4:1
+$1D,16,21,12,42.857,entry_starts_as_residual_table_or_pointer_row,$9A:12
+$1E,16,16,15,6.250,entry_starts_as_residual_table_or_pointer_row,$5F:15
+$1F,16,29,13,55.172,short_script_then_inline_residual_payload,$9E:13
+$20,16,31,15,51.613,short_script_then_inline_residual_payload,$9F:15
+$21,16,17,15,11.765,entry_starts_as_residual_table_or_pointer_row,$F8:15
+$22,16,16,3,81.250,entry_starts_as_residual_table_or_pointer_row,$9F:3
+$23,16,24,15,37.500,entry_starts_as_residual_table_or_pointer_row,$75:15
+$24,16,36,16,55.556,entry_starts_as_residual_table_or_pointer_row,$D5:12 $5F:2 $7B:1 $9B:1
+$25,16,40,15,62.500,short_script_then_inline_residual_payload,$B6:15
+$26,16,21,15,28.571,entry_starts_as_residual_table_or_pointer_row,$7E:14 $B4:1
+$27,16,20,12,40.000,entry_starts_as_residual_table_or_pointer_row,$EB:12
+$28,16,32,12,62.500,short_script_then_inline_residual_payload,$C4:12
+$29,16,18,15,16.667,entry_starts_as_residual_table_or_pointer_row,$D8:15
+$2A,16,56,15,73.214,short_script_then_inline_residual_payload,$C5:15
+$2B,16,24,15,37.500,entry_starts_as_residual_table_or_pointer_row,$68:15
+$2C,16,22,15,31.818,entry_starts_as_residual_table_or_pointer_row,$A4:15
+$2D,16,49,15,69.388,short_script_then_inline_residual_payload,$C6:15
+$2E,16,32,16,50.000,short_script_then_inline_residual_payload,$C7:15 $B4:1
+$2F,16,17,16,5.882,entry_starts_as_residual_table_or_pointer_row,$E3:15 $B4:1
+$30,16,257,16,93.774,long_script_then_inline_residual_payload,$B4:16
+$31,16,17,16,5.882,entry_starts_as_residual_table_or_pointer_row,$5F:15 $B4:1
+$32,16,17,16,5.882,entry_starts_as_residual_table_or_pointer_row,$76:15 $B4:1
+$33,16,17,16,5.882,entry_starts_as_residual_table_or_pointer_row,$EA:15 $B4:1
+$34,16,34,16,52.941,short_script_then_inline_residual_payload,$D0:15 $B4:1
+$35,16,18,16,11.111,entry_starts_as_residual_table_or_pointer_row,$80:15 $B4:1
+$36,16,17,16,5.882,entry_starts_as_residual_table_or_pointer_row,$EC:15 $B4:1
+$37,16,19,16,15.789,entry_starts_as_residual_table_or_pointer_row,$67:15 $B4:1
+$38,16,32,16,50.000,short_script_then_inline_residual_payload,$D5:15 $B4:1
+$39,16,17,16,5.882,entry_starts_as_residual_table_or_pointer_row,$92:15 $B4:1
+$3A,16,32,16,50.000,short_script_then_inline_residual_payload,$DC:14 $B4:2
+$3B,16,18,16,11.111,entry_starts_as_residual_table_or_pointer_row,$ED:14 $B4:2
+$3C,16,18,16,11.111,entry_starts_as_residual_table_or_pointer_row,$B4:16
+$3D,16,32,16,50.000,short_script_then_inline_residual_payload,$FF:14 $B4:2
+$3E,16,32,16,50.000,short_script_then_inline_residual_payload,$E4:15 $B4:1
+$3F,16,32,16,50.000,short_script_then_inline_residual_payload,$E7:15 $B4:1
+$40,16,17,16,5.882,entry_starts_as_residual_table_or_pointer_row,$CF:15 $B4:1
+$41,16,18,16,11.111,entry_starts_as_residual_table_or_pointer_row,$A9:15 $B4:1
+$42,16,1796,2,99.889,short_script_then_inline_residual_payload,$B4:2
+$43,16,231,15,93.506,entry_starts_as_residual_table_or_pointer_row,$F1:11 $CD:1 $83:1 $68:1 $C4:1
+$44,16,523,11,97.897,short_script_then_inline_residual_payload,$A4:11
+$45,16,166,10,93.976,short_script_then_inline_residual_payload,$A7:10
+$46,16,29,16,44.828,short_script_then_inline_residual_payload,$B4:13 $AE:3
+$47,32,657,30,95.434,short_script_then_inline_residual_payload,$B4:30

@@ -1,0 +1,13 @@
+id_hex,name,notes
+00,Sunny / clear default,SetWeatherFlags: usually no bit except special summer sunny path
+01,Rain,Sets weather flag $0002 when not winter; treated as snow in winter
+02,Snow,"Sets rain flag in spring, snow flag otherwise"
+03,Hurricane,Sets weather flag $0010
+04,Fair / special clear,Sets flag $0200 plus event flags
+05,Thunder / storm special,Sets flag $0100 plus event flags
+06,Flower Festival climate,Festival override: Spring day 22
+07,Harvest Festival climate,Festival override: Fall day 11
+08,Thanksgiving climate,Festival override: Winter day 9
+09,Star Night climate,Festival override: Winter day 23
+0A,New Year climate,Festival override: Winter day 30
+0B,Egg Festival climate,Festival override: Fall day 19

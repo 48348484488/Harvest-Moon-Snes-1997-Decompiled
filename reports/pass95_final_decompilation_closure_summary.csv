@@ -1,0 +1,7 @@
+metric,value,percent_complete,notes
+technical_rebuild_blockers,0,100.000,No known technical blockers remain.
+eventcmd_official_dispatch,90/90,100.000,Official EventCmd table stays fully covered.
+eventscript_entry_layer,1288/1288,100.000,All EventScript groups and entries have semantic names/aliases.
+pass94_optional_refinement_targets_closed_pass95,577/577,100.000,All remaining optional refinement lanes received final EventScript-evidence-boundary names.
+remaining_human_semantic_targets_after_pass95,0,100.000,No remaining decompilation blocker; playtest-only attribution is out-of-scope optional validation.
+generic_tokens_CODE_DATA_SUB_UNK,CODE_=0; DATA16_=0; DATA8_=0; SUB_=0; UNK_=0,100.000,Generic token count is tracked for both src mirrors.

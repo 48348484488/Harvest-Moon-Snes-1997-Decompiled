@@ -1,0 +1,14 @@
+category,groups,percent
+table_driven_scene,29,40.278
+dialog_anchor,18,25.000
+state_gate_router,6,8.333
+tool_interaction,5,6.944
+audio_sequence,2,2.778
+held_item_context,2,2.778
+item_money_shipping,2,2.778
+object_visual_setup,2,2.778
+transition_router,2,2.778
+cutscene_motion,1,1.389
+cutscene_object_transition,1,1.389
+item_object_interaction,1,1.389
+tile_object_payload,1,1.389

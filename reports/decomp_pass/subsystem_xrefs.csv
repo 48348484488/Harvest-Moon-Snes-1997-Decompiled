@@ -1,0 +1,1554 @@
+subsystem,symbol,file,line,text
+stamina,!game_state,src/code_banks/bank_80.asm,50,LDA.B !game_state
+stamina,!game_state,src/code_banks/bank_80.asm,52,STA.B !game_state
+time_day_cycle,!hour,src/code_banks/bank_80.asm,1875,LDA.L !hour
+time_day_cycle,!time_running,src/code_banks/bank_80.asm,1912,LDA.W !time_running
+time_day_cycle,!hour,src/code_banks/bank_80.asm,1941,LDA.L !hour
+time_day_cycle,!palette_to_load,src/code_banks/bank_80.asm,2115,STA.W !palette_to_load
+time_day_cycle,!hour,src/code_banks/bank_80.asm,2363,LDA.L !hour
+time_day_cycle,!palette_to_load,src/code_banks/bank_80.asm,2395,STA.W !palette_to_load
+time_day_cycle,!hour,src/code_banks/bank_80.asm,2419,LDA.L !hour
+time_day_cycle,!hour,src/code_banks/bank_80.asm,2474,LDA.L !hour
+time_day_cycle,!season,src/code_banks/bank_80.asm,2498,LDA.L !season
+time_day_cycle,!hour,src/code_banks/bank_80.asm,2556,LDA.L !hour
+time_day_cycle,!hour,src/code_banks/bank_80.asm,2661,LDA.L !hour
+time_day_cycle,!palette_to_load,src/code_banks/bank_80.asm,2693,CMP.W !palette_to_load
+time_day_cycle,!palette_to_load,src/code_banks/bank_80.asm,2701,STA.W !palette_to_load
+time_day_cycle,!hour,src/code_banks/bank_80.asm,2713,LDA.L !hour
+time_day_cycle,!season,src/code_banks/bank_80.asm,2748,LDA.L !season
+time_day_cycle,!hour,src/code_banks/bank_80.asm,2798,LDA.L !hour                        ;8095EA;7F1F1C;Hour
+time_day_cycle,!season,src/code_banks/bank_80.asm,2828,LDA.L !season                        ;809629;7F1F19;Season
+stamina,!game_state,src/code_banks/bank_80.asm,2940,LDA.B !game_state
+stamina,!game_state,src/code_banks/bank_80.asm,2942,STA.B !game_state
+time_day_cycle,!time_running,src/code_banks/bank_80.asm,2975,STZ.W !time_running
+time_day_cycle,!time_running,src/code_banks/bank_80.asm,2989,STA.W !time_running
+time_day_cycle,!hour,src/code_banks/bank_80.asm,3079,LDA.L !hour                        ;809812;7F1F1C;
+stamina,!game_state,src/code_banks/bank_80.asm,3211,AND.B !game_state
+stamina,!game_state,src/code_banks/bank_80.asm,3212,STA.B !game_state
+stamina,!game_state,src/code_banks/bank_80.asm,3219,AND.B !game_state
+stamina,!game_state,src/code_banks/bank_80.asm,3220,STA.B !game_state
+tools_items,!item_on_hand,src/code_banks/bank_80.asm,3222,LDA.W !item_on_hand
+tools_items,!item_on_hand,src/code_banks/bank_80.asm,3264,STZ.W !item_on_hand
+stamina,!game_state,src/code_banks/bank_80.asm,3268,AND.B !game_state
+stamina,!game_state,src/code_banks/bank_80.asm,3269,STA.B !game_state
+stamina,!player_action,src/code_banks/bank_80.asm,3283,STA.B !player_action
+time_day_cycle,!time_running,src/code_banks/bank_80.asm,3329,; hour/week/season/day/festival flags and can stop !time_running during
+stamina,!game_state,src/code_banks/bank_80.asm,3356,LDA.B !game_state
+stamina,!player_action,src/code_banks/bank_80.asm,3396,STA.B !player_action
+stamina,!game_state,src/code_banks/bank_80.asm,3398,LDA.B !game_state
+stamina,!game_state,src/code_banks/bank_80.asm,3400,STA.B !game_state
+time_day_cycle,!season,src/code_banks/bank_80.asm,3443,ADC.L !season
+time_day_cycle,!day,src/code_banks/bank_80.asm,3451,LDA.L !day
+time_day_cycle,!season,src/code_banks/bank_80.asm,3468,LDA.L !season
+time_day_cycle,!season,src/code_banks/bank_80.asm,3476,LDA.L !season
+time_day_cycle,!hour,src/code_banks/bank_80.asm,3493,LDA.L !hour
+time_day_cycle,!hour,src/code_banks/bank_80.asm,3503,LDA.L !hour
+time_day_cycle,!weekday,src/code_banks/bank_80.asm,3513,LDA.L !weekday
+time_day_cycle,!season,src/code_banks/bank_80.asm,3524,LDA.L !season
+time_day_cycle,!day,src/code_banks/bank_80.asm,3527,LDA.L !day
+time_day_cycle,!weekday,src/code_banks/bank_80.asm,3534,LDA.L !weekday
+time_day_cycle,!weekday,src/code_banks/bank_80.asm,3544,LDA.L !weekday
+stamina,!game_state,src/code_banks/bank_80.asm,3563,AND.B !game_state
+stamina,!game_state,src/code_banks/bank_80.asm,3564,STA.B !game_state
+time_day_cycle,!time_running,src/code_banks/bank_80.asm,3574,STZ.W !time_running
+stamina,!player_action,src/code_banks/bank_80.asm,3610,STA.B !player_action
+time_day_cycle,!hour,src/code_banks/bank_80.asm,3669,LDA.L !hour                        ;809CEE;7F1F1C;
+time_day_cycle,!hour,src/code_banks/bank_80.asm,3673,STA.L !hour                        ;809CF7;7F1F1C;
+stamina,!game_state,src/code_banks/bank_80.asm,3767,LDA.B !game_state                            ;809D89;0000D2;
+stamina,!game_state,src/code_banks/bank_80.asm,3775,LDA.B !game_state                            ;809D95;0000D2;
+stamina,!game_state,src/code_banks/bank_80.asm,3783,LDA.B !game_state                            ;809DA1;0000D2;
+stamina,!player_action,src/code_banks/bank_80.asm,3806,LDA.B !player_action                            ;809DC5;0000D4;
+stamina,!player_action,src/code_banks/bank_80.asm,3814,LDA.B !player_action                            ;809DD1;0000D4;
+stamina,!player_action,src/code_banks/bank_80.asm,3822,LDA.B !player_action                            ;809DDD;0000D4;
+stamina,!player_action,src/code_banks/bank_80.asm,3830,LDA.B !player_action                            ;809DE9;0000D4;
+stamina,!player_action,src/code_banks/bank_80.asm,3839,STA.B !player_action                            ;809DF8;0000D4;
+time_day_cycle,!season,src/code_banks/bank_80.asm,3846,LDA.L !season                        ;809E01;7F1F19;
+time_day_cycle,!season,src/code_banks/bank_80.asm,3881,LDA.L !season                        ;809E43;7F1F19;
+time_day_cycle,!season,src/code_banks/bank_80.asm,3909,LDA.L !season                        ;809E81;7F1F19;
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,4,";;;;;;;; PASS07: main dispatcher for the current held item. Uses !item_on_hand, the tile in front, held-item tables, and may route to shipping/bin/shop/special-place logic."
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,14,LDA.W !item_on_hand                          ;818013;00091D;
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,253,STA.W !item_on_hand                          ;8181C4;00091D;
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,266,STA.W !item_on_hand                          ;8181DE;00091D;
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,279,STA.W !item_on_hand                          ;8181F8;00091D;
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,445,STZ.W !item_on_hand                          ;818348;00091D;
+stamina,!player_action,src/code_banks/bank_81.asm,448,STA.B !player_action                            ;818350;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,452,AND.B !game_state                            ;81835A;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,453,STA.B !game_state                            ;81835C;0000D2;
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,473,STZ.W !item_on_hand                          ;81838C;00091D;
+stamina,!player_action,src/code_banks/bank_81.asm,476,STA.B !player_action                            ;818394;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,480,AND.B !game_state                            ;81839E;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,481,STA.B !game_state                            ;8183A0;0000D2;
+tools_items,!shed_items_row_2,src/code_banks/bank_81.asm,618,LDA.L !shed_items_row_2                        ;8184A5;7F1F01;
+tools_items,!shed_items_row_2,src/code_banks/bank_81.asm,620,STA.L !shed_items_row_2                        ;8184AB;7F1F01;
+tools_items,!tool_selected,src/code_banks/bank_81.asm,622,LDA.W !tool_selected                          ;8184B1;000921;
+tools_items,!tool_selected,src/code_banks/bank_81.asm,625,STZ.W !tool_selected                          ;8184B8;000921;
+tools_items,!tool_backpack,src/code_banks/bank_81.asm,628,LDA.W !tool_backpack                          ;8184BD;000923;
+tools_items,!tool_backpack,src/code_banks/bank_81.asm,631,STZ.W !tool_backpack                          ;8184C4;000923;
+tools_items,!seeds_grass_N,src/code_banks/bank_81.asm,634,LDA.W !seeds_grass_N                          ;8184C9;000927;
+tools_items,!seeds_grass_N,src/code_banks/bank_81.asm,638,STA.W !seeds_grass_N                          ;8184D1;000927;
+tools_items,!shed_items_row_1,src/code_banks/bank_81.asm,647,LDA.L !shed_items_row_1                        ;8184E1;7F1F00;
+tools_items,!shed_items_row_1,src/code_banks/bank_81.asm,649,STA.L !shed_items_row_1                        ;8184E7;7F1F00;
+tools_items,!tool_selected,src/code_banks/bank_81.asm,651,LDA.W !tool_selected                          ;8184ED;000921;
+tools_items,!tool_selected,src/code_banks/bank_81.asm,654,STZ.W !tool_selected                          ;8184F4;000921;
+tools_items,!tool_backpack,src/code_banks/bank_81.asm,657,LDA.W !tool_backpack                          ;8184F9;000923;
+tools_items,!tool_backpack,src/code_banks/bank_81.asm,660,STZ.W !tool_backpack                          ;818500;000923;
+tools_items,!seeds_corn_N,src/code_banks/bank_81.asm,663,LDA.W !seeds_corn_N                          ;818505;000928;
+tools_items,!seeds_corn_N,src/code_banks/bank_81.asm,667,STA.W !seeds_corn_N                          ;81850D;000928;
+tools_items,!shed_items_row_1,src/code_banks/bank_81.asm,676,LDA.L !shed_items_row_1                        ;81851D;7F1F00;
+tools_items,!shed_items_row_1,src/code_banks/bank_81.asm,678,STA.L !shed_items_row_1                        ;818523;7F1F00;
+tools_items,!tool_selected,src/code_banks/bank_81.asm,680,LDA.W !tool_selected                          ;818529;000921;
+tools_items,!tool_selected,src/code_banks/bank_81.asm,683,STZ.W !tool_selected                          ;818530;000921;
+tools_items,!tool_backpack,src/code_banks/bank_81.asm,686,LDA.W !tool_backpack                          ;818535;000923;
+tools_items,!tool_backpack,src/code_banks/bank_81.asm,689,STZ.W !tool_backpack                          ;81853C;000923;
+tools_items,!seeds_tomato_N,src/code_banks/bank_81.asm,692,LDA.W !seeds_tomato_N                          ;818541;000929;
+tools_items,!seeds_tomato_N,src/code_banks/bank_81.asm,696,STA.W !seeds_tomato_N                          ;818549;000929;
+tools_items,!shed_items_row_1,src/code_banks/bank_81.asm,705,LDA.L !shed_items_row_1                        ;818559;7F1F00;
+tools_items,!shed_items_row_1,src/code_banks/bank_81.asm,707,STA.L !shed_items_row_1                        ;81855F;7F1F00;
+tools_items,!tool_selected,src/code_banks/bank_81.asm,709,LDA.W !tool_selected                          ;818565;000921;
+tools_items,!tool_selected,src/code_banks/bank_81.asm,712,STZ.W !tool_selected                          ;81856C;000921;
+tools_items,!tool_backpack,src/code_banks/bank_81.asm,715,LDA.W !tool_backpack                          ;818571;000923;
+tools_items,!tool_backpack,src/code_banks/bank_81.asm,718,STZ.W !tool_backpack                          ;818578;000923;
+tools_items,!seeds_potato_N,src/code_banks/bank_81.asm,721,LDA.W !seeds_potato_N                          ;81857D;00092A;
+tools_items,!seeds_potato_N,src/code_banks/bank_81.asm,725,STA.W !seeds_potato_N                          ;818585;00092A;
+tools_items,!shed_items_row_1,src/code_banks/bank_81.asm,734,LDA.L !shed_items_row_1                        ;818595;7F1F00;
+tools_items,!shed_items_row_1,src/code_banks/bank_81.asm,736,STA.L !shed_items_row_1                        ;81859B;7F1F00;
+tools_items,!tool_selected,src/code_banks/bank_81.asm,738,LDA.W !tool_selected                          ;8185A1;000921;
+tools_items,!tool_selected,src/code_banks/bank_81.asm,741,STZ.W !tool_selected                          ;8185A8;000921;
+tools_items,!tool_backpack,src/code_banks/bank_81.asm,744,LDA.W !tool_backpack                          ;8185AD;000923;
+tools_items,!tool_backpack,src/code_banks/bank_81.asm,747,STZ.W !tool_backpack                          ;8185B4;000923;
+tools_items,!seeds_turnip_N,src/code_banks/bank_81.asm,750,LDA.W !seeds_turnip_N                          ;8185B9;00092B;
+tools_items,!seeds_turnip_N,src/code_banks/bank_81.asm,754,STA.W !seeds_turnip_N                          ;8185C1;00092B;
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,767,STA.W !item_on_hand                          ;8185DB;00091D;
+tools_items,!shed_items_row_2,src/code_banks/bank_81.asm,776,LDA.L !shed_items_row_2                        ;8185EB;7F1F01;
+tools_items,!shed_items_row_2,src/code_banks/bank_81.asm,778,STA.L !shed_items_row_2                        ;8185F1;7F1F01;
+tools_items,!shed_items_row_2,src/code_banks/bank_81.asm,787,LDA.L !shed_items_row_2                        ;818602;7F1F01;
+tools_items,!shed_items_row_2,src/code_banks/bank_81.asm,789,STA.L !shed_items_row_2                        ;818608;7F1F01;
+tools_items,!shed_items_row_2,src/code_banks/bank_81.asm,798,LDA.L !shed_items_row_2                        ;818619;7F1F01;
+tools_items,!shed_items_row_2,src/code_banks/bank_81.asm,800,STA.L !shed_items_row_2                        ;81861F;7F1F01;
+tools_items,!shed_items_row_3,src/code_banks/bank_81.asm,809,LDA.L !shed_items_row_3                        ;818630;7F1F02;
+tools_items,!shed_items_row_3,src/code_banks/bank_81.asm,811,STA.L !shed_items_row_3                        ;818636;7F1F02;
+tools_items,!shed_items_row_1,src/code_banks/bank_81.asm,812,LDA.L !shed_items_row_1                        ;81863A;7F1F00;
+tools_items,!shed_items_row_1,src/code_banks/bank_81.asm,814,STA.L !shed_items_row_1                        ;818640;7F1F00;
+tools_items,!tool_selected,src/code_banks/bank_81.asm,815,LDA.W !tool_selected                          ;818644;000921;
+tools_items,!tool_selected,src/code_banks/bank_81.asm,818,STZ.W !tool_selected                          ;81864B;000921;
+tools_items,!tool_backpack,src/code_banks/bank_81.asm,821,LDA.W !tool_backpack                          ;818650;000923;
+tools_items,!tool_backpack,src/code_banks/bank_81.asm,824,STZ.W !tool_backpack                          ;818657;000923;
+tools_items,!shed_items_row_3,src/code_banks/bank_81.asm,833,LDA.L !shed_items_row_3                        ;818667;7F1F02;
+tools_items,!shed_items_row_3,src/code_banks/bank_81.asm,835,STA.L !shed_items_row_3                        ;81866D;7F1F02;
+tools_items,!shed_items_row_1,src/code_banks/bank_81.asm,836,LDA.L !shed_items_row_1                        ;818671;7F1F00;
+tools_items,!shed_items_row_1,src/code_banks/bank_81.asm,838,STA.L !shed_items_row_1                        ;818677;7F1F00;
+tools_items,!tool_selected,src/code_banks/bank_81.asm,839,LDA.W !tool_selected                          ;81867B;000921;
+tools_items,!tool_selected,src/code_banks/bank_81.asm,842,STZ.W !tool_selected                          ;818682;000921;
+tools_items,!tool_backpack,src/code_banks/bank_81.asm,845,LDA.W !tool_backpack                          ;818687;000923;
+tools_items,!tool_backpack,src/code_banks/bank_81.asm,848,STZ.W !tool_backpack                          ;81868E;000923;
+tools_items,!shed_items_row_3,src/code_banks/bank_81.asm,857,LDA.L !shed_items_row_3                        ;81869E;7F1F02;
+tools_items,!shed_items_row_3,src/code_banks/bank_81.asm,859,STA.L !shed_items_row_3                        ;8186A4;7F1F02;
+tools_items,!shed_items_row_1,src/code_banks/bank_81.asm,860,LDA.L !shed_items_row_1                        ;8186A8;7F1F00;
+tools_items,!shed_items_row_1,src/code_banks/bank_81.asm,862,STA.L !shed_items_row_1                        ;8186AE;7F1F00;
+tools_items,!tool_selected,src/code_banks/bank_81.asm,863,LDA.W !tool_selected                          ;8186B2;000921;
+tools_items,!tool_selected,src/code_banks/bank_81.asm,866,STZ.W !tool_selected                          ;8186B9;000921;
+tools_items,!tool_backpack,src/code_banks/bank_81.asm,869,LDA.W !tool_backpack                          ;8186BE;000923;
+tools_items,!tool_backpack,src/code_banks/bank_81.asm,872,STZ.W !tool_backpack                          ;8186C5;000923;
+tools_items,!shed_items_row_3,src/code_banks/bank_81.asm,881,LDA.L !shed_items_row_3                        ;8186D5;7F1F02;
+tools_items,!shed_items_row_3,src/code_banks/bank_81.asm,883,STA.L !shed_items_row_3                        ;8186DB;7F1F02;
+tools_items,!shed_items_row_1,src/code_banks/bank_81.asm,884,LDA.L !shed_items_row_1                        ;8186DF;7F1F00;
+tools_items,!shed_items_row_1,src/code_banks/bank_81.asm,886,STA.L !shed_items_row_1                        ;8186E5;7F1F00;
+tools_items,!tool_selected,src/code_banks/bank_81.asm,887,LDA.W !tool_selected                          ;8186E9;000921;
+tools_items,!tool_selected,src/code_banks/bank_81.asm,890,STZ.W !tool_selected                          ;8186F0;000921;
+tools_items,!tool_backpack,src/code_banks/bank_81.asm,893,LDA.W !tool_backpack                          ;8186F5;000923;
+tools_items,!tool_backpack,src/code_banks/bank_81.asm,896,STZ.W !tool_backpack                          ;8186FC;000923;
+tools_items,!shed_items_row_3,src/code_banks/bank_81.asm,905,LDA.L !shed_items_row_3                        ;81870C;7F1F02;
+tools_items,!shed_items_row_3,src/code_banks/bank_81.asm,907,STA.L !shed_items_row_3                        ;818712;7F1F02;
+tools_items,!shed_items_row_2,src/code_banks/bank_81.asm,908,LDA.L !shed_items_row_2                        ;818716;7F1F01;
+tools_items,!shed_items_row_2,src/code_banks/bank_81.asm,910,STA.L !shed_items_row_2                        ;81871C;7F1F01;
+tools_items,!tool_selected,src/code_banks/bank_81.asm,911,LDA.W !tool_selected                          ;818720;000921;
+tools_items,!tool_selected,src/code_banks/bank_81.asm,914,STZ.W !tool_selected                          ;818727;000921;
+tools_items,!tool_backpack,src/code_banks/bank_81.asm,917,LDA.W !tool_backpack                          ;81872C;000923;
+tools_items,!tool_backpack,src/code_banks/bank_81.asm,920,STZ.W !tool_backpack                          ;818733;000923;
+tools_items,!shed_items_row_2,src/code_banks/bank_81.asm,929,LDA.L !shed_items_row_2                        ;818743;7F1F01;
+tools_items,!shed_items_row_2,src/code_banks/bank_81.asm,931,STA.L !shed_items_row_2                        ;818749;7F1F01;
+tools_items,!shed_items_row_2,src/code_banks/bank_81.asm,940,LDA.L !shed_items_row_2                        ;81875A;7F1F01;
+tools_items,!shed_items_row_2,src/code_banks/bank_81.asm,942,STA.L !shed_items_row_2                        ;818760;7F1F01;
+tools_items,!shed_items_row_4,src/code_banks/bank_81.asm,951,LDA.L !shed_items_row_4                        ;818771;7F1F03;
+tools_items,!shed_items_row_4,src/code_banks/bank_81.asm,953,STA.L !shed_items_row_4                        ;818777;7F1F03;
+tools_items,!feed_chicks_N,src/code_banks/bank_81.asm,955,STA.W !feed_chicks_N                          ;81877D;00092D;
+tools_items,!shed_items_row_4,src/code_banks/bank_81.asm,964,LDA.L !shed_items_row_4                        ;81878D;7F1F03;
+tools_items,!shed_items_row_4,src/code_banks/bank_81.asm,966,STA.L !shed_items_row_4                        ;818793;7F1F03;
+tools_items,!feed_cow_N,src/code_banks/bank_81.asm,968,STA.W !feed_cow_N                          ;818799;00092C;
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,981,STA.W !item_on_hand                          ;8187B3;00091D;
+tools_items,!tool_backpack,src/code_banks/bank_81.asm,997,LDA.W !tool_backpack                          ;8187C7;000923;
+tools_items,!tool_selected,src/code_banks/bank_81.asm,999,LDA.W !tool_selected                          ;8187CC;000921;
+tools_items,!tool_backpack,src/code_banks/bank_81.asm,1000,STA.W !tool_backpack                          ;8187CF;000923;
+tools_items,!tool_selected,src/code_banks/bank_81.asm,1008,STA.W !tool_selected                          ;8187DD;000921;
+tools_items,!shed_items_row_1,src/code_banks/bank_81.asm,1030,"LDA.L !shed_items_row_1,X                      ;818804;7F1F00;"
+tools_items,!shed_items_row_1,src/code_banks/bank_81.asm,1032,"STA.L !shed_items_row_1,X                      ;81880A;7F1F00;"
+stamina,!player_action,src/code_banks/bank_81.asm,1035,STA.B !player_action                            ;818813;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,1039,AND.B !game_state                            ;81881D;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,1040,STA.B !game_state                            ;81881F;0000D2;
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,1047,STZ.W !item_on_hand                          ;818832;00091D;
+stamina,!player_action,src/code_banks/bank_81.asm,1452,STA.B !player_action                            ;818AB0;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,1456,AND.B !game_state                            ;818ABA;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,1457,STA.B !game_state                            ;818ABC;0000D2;
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,1460,STZ.W !item_on_hand                          ;818AC4;00091D;
+stamina,!player_action,src/code_banks/bank_81.asm,1530,STA.B !player_action                            ;818B4C;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,1534,AND.B !game_state                            ;818B56;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,1535,STA.B !game_state                            ;818B58;0000D2;
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,1538,STZ.W !item_on_hand                          ;818B60;00091D;
+stamina,!player_action,src/code_banks/bank_81.asm,1589,STA.B !player_action                            ;818BBE;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,1593,AND.B !game_state                            ;818BC8;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,1594,STA.B !game_state                            ;818BCA;0000D2;
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,1601,STZ.W !item_on_hand                          ;818BDD;00091D;
+stamina,!game_state,src/code_banks/bank_81.asm,1621,AND.B !game_state                            ;818C06;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,1622,STA.B !game_state                            ;818C08;0000D2;
+stamina,!player_action,src/code_banks/bank_81.asm,1628,STA.B !player_action                            ;818C11;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,1630,LDA.B !game_state                            ;818C15;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,1632,STA.B !game_state                            ;818C1A;0000D2;
+stamina,!player_action,src/code_banks/bank_81.asm,1648,LDA.B !player_action                            ;818C34;0000D4;
+stamina,!player_action,src/code_banks/bank_81.asm,1688,LDA.B !player_action                            ;818C87;0000D4;
+stamina,!player_action,src/code_banks/bank_81.asm,1762,STA.B !player_action                            ;818D33;0000D4;
+stamina,!player_action,src/code_banks/bank_81.asm,1809,STA.B !player_action                            ;818DA6;0000D4;
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,1836,STZ.W !item_on_hand                          ;818DE7;00091D;
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,1853,STZ.W !item_on_hand                          ;818E09;00091D;
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,1866,LDA.W !item_on_hand                          ;818E1D;00091D;
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,1895,LDA.W !item_on_hand                          ;818E5E;00091D;
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,1899,LDA.W !item_on_hand                          ;818E68;00091D;
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,1916,STZ.W !item_on_hand                          ;818E92;00091D;
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,1921,STZ.W !item_on_hand                          ;818E9A;00091D;
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,2076,STZ.W !item_on_hand                          ;818FD2;00091D;
+stamina,!game_state,src/code_banks/bank_81.asm,2099,LDA.B !game_state                            ;819008;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,2101,STA.B !game_state                            ;81900D;0000D2;
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,2121,STZ.W !item_on_hand                          ;819032;00091D;
+stamina,!player_action,src/code_banks/bank_81.asm,2124,STA.B !player_action                            ;81903A;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,2128,AND.B !game_state                            ;819044;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,2129,STA.B !game_state                            ;819046;0000D2;
+stamina,!player_action,src/code_banks/bank_81.asm,2141,LDA.B !player_action                            ;819059;0000D4;
+stamina,!player_action,src/code_banks/bank_81.asm,2181,LDA.B !player_action                            ;8190AC;0000D4;
+time_day_cycle,!weekday,src/code_banks/bank_81.asm,2216,CODE_8190EB: LDA.L !weekday                        ;8190EB;7F1F1A;
+time_day_cycle,!hour,src/code_banks/bank_81.asm,2221,CODE_8190F4: LDA.L !hour                        ;8190F4;7F1F1C;
+stamina,!player_action,src/code_banks/bank_81.asm,2276,STA.B !player_action                            ;81916D;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,2280,AND.B !game_state                            ;819177;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,2281,STA.B !game_state                            ;819179;0000D2;
+time_day_cycle,!hour,src/code_banks/bank_81.asm,2328,CODE_8191DE: LDA.L !hour                        ;8191DE;7F1F1C;
+shipping_money,!shipping_moneyL,src/code_banks/bank_81.asm,2337,ADC.L !shipping_moneyL                        ;8191F2;7F1F07;
+shipping_money,!shipping_moneyL,src/code_banks/bank_81.asm,2338,STA.L !shipping_moneyL                        ;8191F6;7F1F07;
+shipping_money,!shipping_moneyH,src/code_banks/bank_81.asm,2340,LDA.L !shipping_moneyH                        ;8191FC;7F1F09;
+shipping_money,!shipping_moneyH,src/code_banks/bank_81.asm,2342,STA.L !shipping_moneyH                        ;819202;7F1F09;
+stamina,!player_action,src/code_banks/bank_81.asm,2367,LDA.B !player_action                            ;819238;0000D4;
+stamina,!player_action,src/code_banks/bank_81.asm,2407,LDA.B !player_action                            ;81928B;0000D4;
+stamina,!player_action,src/code_banks/bank_81.asm,2519,STA.B !player_action                            ;819374;0000D4;
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,2566,; Indexes HeldItem_ShippingPriceTable using !item_on_hand * 2 + 1.
+time_day_cycle,!hour,src/code_banks/bank_81.asm,2587,+ LDA.L !hour
+shipping_money,!shipping_moneyL,src/code_banks/bank_81.asm,2596,ADC.L !shipping_moneyL
+shipping_money,!shipping_moneyL,src/code_banks/bank_81.asm,2597,STA.L !shipping_moneyL
+shipping_money,!shipping_moneyH,src/code_banks/bank_81.asm,2599,LDA.L !shipping_moneyH
+shipping_money,!shipping_moneyH,src/code_banks/bank_81.asm,2601,STA.L !shipping_moneyH
+stamina,!game_state,src/code_banks/bank_81.asm,2633,AND.B !game_state
+stamina,!game_state,src/code_banks/bank_81.asm,2634,STA.B !game_state
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,2636,STZ.W !item_on_hand
+stamina,!game_state,src/code_banks/bank_81.asm,2649,AND.B !game_state
+stamina,!game_state,src/code_banks/bank_81.asm,2650,STA.B !game_state                              ;Allows walking
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,2652,STZ.W !item_on_hand
+stamina,!game_state,src/code_banks/bank_81.asm,2665,AND.B !game_state
+stamina,!game_state,src/code_banks/bank_81.asm,2666,STA.B !game_state                              ;Allows walking
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,2668,STZ.W !item_on_hand
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,2675,LDA.W !item_on_hand
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,2735,STZ.W !item_on_hand
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,2835,LDA.W !item_on_hand                          ;8195F6;00091D;
+time_day_cycle,!hour,src/code_banks/bank_81.asm,2838,LDA.L !hour                        ;8195FD;7F1F1C;
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,2871,STZ.W !item_on_hand                          ;81964E;00091D;
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,2880,STZ.W !item_on_hand                          ;81965F;00091D;
+stamina,!game_state,src/code_banks/bank_81.asm,2911,LDA.B !game_state                            ;8196A7;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,2913,STA.B !game_state                            ;8196AC;0000D2;
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,2918,;;;;;;;; PASS07: 24-bit pointer table indexed by !item_on_hand*3. Points to graphics/placement metadata used while carrying/using items.
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,2938,;;;;;;;; PASS07: indirect JSR table indexed by !item_on_hand*2. Entries point to held-item behavior routines in bank 81.
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,3073,; 2-byte records indexed by !item_on_hand * 2.
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,3078,;;;;;;;; PASS07: two-byte table indexed by !item_on_hand*2. Low byte is tile/action value for placement; high byte is shipping value added to !shipping_money.
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,3093,; 3-byte records indexed by !item_on_hand * 3.
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,3096,;;;;;;;; PASS07: 3-byte records indexed by !item_on_hand*3. Word=text id/dialog pointer; byte=sell value used by AddMoney for some direct-sale cases.
+time_day_cycle,!season,src/code_banks/bank_81.asm,3409,LDA.L !season                        ;81A593;7F1F19;
+tools_items,!tool_backpack,src/code_banks/bank_81.asm,3998,LDA.W !tool_backpack                          ;81A94E;000923;
+tools_items,!tool_selected,src/code_banks/bank_81.asm,4003,CODE_81A956: LDA.W !tool_selected                          ;81A956;000921;
+tools_items,!tool_selected,src/code_banks/bank_81.asm,4032,LDA.W !tool_selected                          ;81A989;000921;
+tools_items,!tool_selected,src/code_banks/bank_81.asm,4056,LDA.W !tool_selected                          ;81A9B5;000921;
+tools_items,!shed_items_row_1,src/code_banks/bank_81.asm,4079,"LDA.L !shed_items_row_1,X                      ;81A9DA;7F1F00;"
+tools_items,!shed_items_row_1,src/code_banks/bank_81.asm,4081,"STA.L !shed_items_row_1,X                      ;81A9E0;7F1F00;"
+time_day_cycle,!season,src/code_banks/bank_81.asm,4633,LDA.L !season
+time_day_cycle,!season,src/code_banks/bank_81.asm,4658,LDA.L !season
+time_day_cycle,!season,src/code_banks/bank_81.asm,4682,LDA.L !season
+time_day_cycle,!season,src/code_banks/bank_81.asm,4693,LDA.L !season
+tools_items,!tool_selected,src/code_banks/bank_81.asm,4736,LDA.W !tool_selected
+tools_items,!tool_backpack,src/code_banks/bank_81.asm,4739,LDA.W !tool_backpack
+tools_items,!tool_selected,src/code_banks/bank_81.asm,4754,LDA.W !tool_selected
+tools_items,!tool_backpack,src/code_banks/bank_81.asm,4757,LDA.W !tool_backpack
+tools_items,!tool_selected,src/code_banks/bank_81.asm,4768,LDA.W !tool_selected
+tools_items,!tool_backpack,src/code_banks/bank_81.asm,4771,LDA.W !tool_backpack
+tools_items,!tool_selected,src/code_banks/bank_81.asm,4782,LDA.W !tool_selected
+tools_items,!tool_backpack,src/code_banks/bank_81.asm,4785,LDA.W !tool_backpack
+tools_items,!tool_selected,src/code_banks/bank_81.asm,4800,LDA.W !tool_selected
+tools_items,!tool_backpack,src/code_banks/bank_81.asm,4803,LDA.W !tool_backpack
+tools_items,!tool_selected,src/code_banks/bank_81.asm,4818,LDA.W !tool_selected
+tools_items,!tool_backpack,src/code_banks/bank_81.asm,4821,LDA.W !tool_backpack
+tools_items,!tool_selected,src/code_banks/bank_81.asm,4836,LDA.W !tool_selected
+tools_items,!tool_backpack,src/code_banks/bank_81.asm,4839,LDA.W !tool_backpack
+tools_items,!tool_selected,src/code_banks/bank_81.asm,4854,LDA.W !tool_selected
+tools_items,!tool_backpack,src/code_banks/bank_81.asm,4857,LDA.W !tool_backpack
+time_day_cycle,!year,src/code_banks/bank_81.asm,4860,LDA.L !year
+time_day_cycle,!season,src/code_banks/bank_81.asm,4863,LDA.L !season
+time_day_cycle,!day,src/code_banks/bank_81.asm,4867,LDA.L !day
+tools_items,!tool_selected,src/code_banks/bank_81.asm,4904,LDA.W !tool_selected
+tools_items,!tool_backpack,src/code_banks/bank_81.asm,4907,LDA.W !tool_backpack
+tools_items,!tool_selected,src/code_banks/bank_81.asm,4918,LDA.W !tool_selected
+tools_items,!tool_backpack,src/code_banks/bank_81.asm,4921,LDA.W !tool_backpack
+tools_items,!tool_selected,src/code_banks/bank_81.asm,4932,LDA.W !tool_selected
+tools_items,!tool_backpack,src/code_banks/bank_81.asm,4935,LDA.W !tool_backpack
+tools_items,!tool_selected,src/code_banks/bank_81.asm,4946,LDA.W !tool_selected
+tools_items,!tool_backpack,src/code_banks/bank_81.asm,4949,LDA.W !tool_backpack
+tools_items,!shed_items_row_1,src/code_banks/bank_81.asm,5255,"LDA.L !shed_items_row_1,X                      ;81B33A;7F1F00;"
+tools_items,!shed_items_row_1,src/code_banks/bank_81.asm,5262,"LDA.L !shed_items_row_1,X                      ;81B346;7F1F00;"
+stamina,!game_state,src/code_banks/bank_81.asm,5498,LDA.B !game_state                            ;81BFBD;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,5504,LDA.B !game_state
+stamina,!player_action,src/code_banks/bank_81.asm,5511,LDA.B !player_action                            ;81BFD5;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,5517,LDA.B !game_state                            ;81BFDE;0000D2;
+stamina,!player_action,src/code_banks/bank_81.asm,5523,CODE_81BFE8: LDA.B !player_action                            ;81BFE8;0000D4;
+stamina,!player_action,src/code_banks/bank_81.asm,5541,LDA.B !player_action                            ;81C004;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,5567,LDA.B !game_state                            ;81C065;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,5574,LDA.B !game_state                            ;81C071;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,5576,STA.B !game_state                            ;81C076;0000D2;
+tools_items,!tool_backpack,src/code_banks/bank_81.asm,5581,LDA.W !tool_backpack                          ;81C07F;000923;
+stamina,!player_action,src/code_banks/bank_81.asm,5594,STA.B !player_action                            ;81C09C;0000D4;
+tools_items,!tool_selected,src/code_banks/bank_81.asm,5596,LDA.W !tool_selected                          ;81C0A0;000921;
+tools_items,!tool_backpack,src/code_banks/bank_81.asm,5598,LDA.W !tool_backpack                          ;81C0A4;000923;
+tools_items,!tool_selected,src/code_banks/bank_81.asm,5599,STA.W !tool_selected                          ;81C0A7;000921;
+tools_items,!tool_backpack,src/code_banks/bank_81.asm,5601,STA.W !tool_backpack                          ;81C0AB;000923;
+stamina,!player_action,src/code_banks/bank_81.asm,5619,STA.B !player_action                            ;81C0D4;0000D4;
+stamina,!player_action,src/code_banks/bank_81.asm,5665,STA.B !player_action                            ;81C141;0000D4;
+stamina,!player_action,src/code_banks/bank_81.asm,5693,STA.B !player_action                            ;81C183;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,5697,AND.B !game_state                            ;81C18D;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,5698,STA.B !game_state                            ;81C18F;0000D2;
+stamina,!player_action,src/code_banks/bank_81.asm,5719,STA.B !player_action                            ;81C1C0;0000D4;
+stamina,!player_action,src/code_banks/bank_81.asm,5748,STA.B !player_action                            ;81C20C;0000D4;
+stamina,!player_action,src/code_banks/bank_81.asm,5763,STA.B !player_action                            ;81C22D;0000D4;
+stamina,!player_action,src/code_banks/bank_81.asm,5785,STA.B !player_action                            ;81C25E;0000D4;
+stamina,!player_action,src/code_banks/bank_81.asm,5800,STA.B !player_action                            ;81C27E;0000D4;
+stamina,!player_action,src/code_banks/bank_81.asm,5819,STA.B !player_action                            ;81C2AA;0000D4;
+stamina,!player_action,src/code_banks/bank_81.asm,5831,STA.B !player_action                            ;81C2C3;0000D4;
+stamina,!player_action,src/code_banks/bank_81.asm,5896,STA.B !player_action                            ;81C35F;0000D4;
+stamina,!player_action,src/code_banks/bank_81.asm,5917,STA.B !player_action                            ;81C390;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,5923,LDA.B !game_state                            ;81C399;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,5930,LDA.B !game_state                            ;81C3A5;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,5932,STA.B !game_state                            ;81C3AA;0000D2;
+tools_items,!tool_selected,src/code_banks/bank_81.asm,5937,LDA.W !tool_selected                          ;81C3B3;000921;
+time_day_cycle,!hour,src/code_banks/bank_81.asm,5956,LDA.L !hour                        ;81C3DA;7F1F1C;
+stamina,!player_action,src/code_banks/bank_81.asm,6094,STA.B !player_action                            ;81C4E7;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,6100,LDA.B !game_state                            ;81C4F0;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,6107,LDA.B !game_state                            ;81C4FC;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,6109,STA.B !game_state                            ;81C501;0000D2;
+stamina,!player_action,src/code_banks/bank_81.asm,6118,STA.B !player_action                            ;81C515;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,6124,LDA.B !game_state                            ;81C51E;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,6131,LDA.B !game_state                            ;81C52A;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,6133,STA.B !game_state                            ;81C52F;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,6157,AND.B !game_state                            ;81C560;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,6158,STA.B !game_state                            ;81C562;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,6160,LDA.B !game_state                            ;81C566;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,6167,LDA.B !game_state                            ;81C572;0000D2;
+stamina,!player_action,src/code_banks/bank_81.asm,6181,STA.B !player_action                            ;81C58F;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,6207,LDA.B !game_state                            ;81C5BF;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,6214,LDA.B !game_state                            ;81C5CB;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,6221,LDA.B !game_state                            ;81C5D7;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,6228,LDA.B !game_state                            ;81C5E3;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,6235,LDA.B !game_state                            ;81C5EF;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,6315,AND.B !game_state                            ;81C678;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,6316,STA.B !game_state                            ;81C67A;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,6318,LDA.B !game_state                            ;81C67E;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,6324,CODE_81C688: LDA.B !game_state                            ;81C688;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,6330,CODE_81C692: LDA.B !game_state                            ;81C692;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,6336,CODE_81C69C: LDA.B !game_state                            ;81C69C;0000D2;
+stamina,!player_action,src/code_banks/bank_81.asm,6414,STA.B !player_action                            ;81C72A;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,6425,AND.B !game_state                            ;81C740;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,6426,STA.B !game_state                            ;81C742;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,6428,LDA.B !game_state                            ;81C746;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,6431,LDA.B !game_state                            ;81C74D;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,6437,CODE_81C757: LDA.B !game_state                            ;81C757;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,6444,LDA.B !game_state                            ;81C763;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,6450,CODE_81C76D: LDA.B !game_state                            ;81C76D;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,6456,CODE_81C777: LDA.B !game_state                            ;81C777;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,6462,CODE_81C781: LDA.B !game_state                            ;81C781;0000D2;
+stamina,!player_action,src/code_banks/bank_81.asm,6556,STA.B !player_action                            ;81C82F;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,6567,AND.B !game_state                            ;81C845;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,6568,STA.B !game_state                            ;81C847;0000D2;
+stamina,!player_action,src/code_banks/bank_81.asm,6578,STA.B !player_action                            ;81C85F;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,6586,LDA.B !game_state                            ;81C86F;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,6593,LDA.B !game_state                            ;81C87B;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,6595,STA.B !game_state                            ;81C880;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,6597,LDA.B !game_state                            ;81C884;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,6603,CODE_81C88E: LDA.B !game_state                            ;81C88E;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,6609,CODE_81C898: LDA.B !game_state                            ;81C898;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,6682,LDA.B !game_state                            ;81C92D;0000D2;
+stamina,!player_action,src/code_banks/bank_81.asm,6711,STA.B !player_action                            ;81C966;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,6715,AND.B !game_state                            ;81C970;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,6716,STA.B !game_state                            ;81C972;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,6730,AND.B !game_state                            ;81C98A;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,6731,STA.B !game_state                            ;81C98C;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,6737,LDA.B !game_state                            ;81C995;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,6744,LDA.B !game_state                            ;81C9A1;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,6746,STA.B !game_state                            ;81C9A6;0000D2;
+stamina,!player_action,src/code_banks/bank_81.asm,6761,STA.B !player_action                            ;81C9C9;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,6763,LDA.B !game_state                            ;81C9CD;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,6765,STA.B !game_state                            ;81C9D2;0000D2;
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,6767,LDA.W !item_on_hand                          ;81C9D6;00091D;
+tools_items,!old_item_on_hand,src/code_banks/bank_81.asm,6768,STA.W !old_item_on_hand                          ;81C9D9;00091E;
+stamina,!game_state,src/code_banks/bank_81.asm,6774,LDA.B !game_state                            ;81C9E3;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,6781,LDA.B !game_state                            ;81C9EF;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,6783,STA.B !game_state                            ;81C9F4;0000D2;
+stamina,!player_action,src/code_banks/bank_81.asm,6804,STA.B !player_action                            ;81CA25;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,6808,AND.B !game_state                            ;81CA2F;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,6809,STA.B !game_state                            ;81CA31;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,6816,LDA.B !game_state                            ;81CA3C;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,6823,LDA.B !game_state                            ;81CA48;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,6825,STA.B !game_state                            ;81CA4D;0000D2;
+stamina,!player_action,src/code_banks/bank_81.asm,6852,STA.B !player_action                            ;81CA85;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,6856,AND.B !game_state                            ;81CA8F;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,6857,STA.B !game_state                            ;81CA91;0000D2;
+stamina,!player_action,src/code_banks/bank_81.asm,6863,STA.B !player_action                            ;81CA9B;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,6867,AND.B !game_state                            ;81CAA5;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,6868,STA.B !game_state                            ;81CAA7;0000D2;
+stamina,!max_stamina,src/code_banks/bank_81.asm,6880,LDA.W !max_stamina                          ;81CAC1;000917;
+stamina,!max_stamina,src/code_banks/bank_81.asm,6883,STA.W !max_stamina                          ;81CAC7;000917;
+stamina,!player_action,src/code_banks/bank_81.asm,6886,STA.B !player_action                            ;81CACF;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,6890,AND.B !game_state                            ;81CAD9;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,6891,STA.B !game_state                            ;81CADB;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,6923,LDA.B !game_state                            ;81CB1A;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,6930,LDA.B !game_state                            ;81CB26;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,6932,STA.B !game_state                            ;81CB2B;0000D2;
+stamina,!player_action,src/code_banks/bank_81.asm,6946,STA.B !player_action                            ;81CB4A;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,6950,AND.B !game_state                            ;81CB54;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,6951,STA.B !game_state                            ;81CB56;0000D2;
+stamina,!player_action,src/code_banks/bank_81.asm,6966,STA.B !player_action                            ;81CB72;0000D4;
+stamina,!player_action,src/code_banks/bank_81.asm,6996,LDA.B !player_action                            ;81CBA2;0000D4;
+stamina,!player_action,src/code_banks/bank_81.asm,7003,LDA.B !player_action                            ;81CBAE;0000D4;
+stamina,!player_action,src/code_banks/bank_81.asm,7010,LDA.B !player_action                            ;81CBBA;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,7017,LDA.B !game_state                            ;81CBC6;0000D2;
+stamina,!player_action,src/code_banks/bank_81.asm,7084,LDA.B !player_action                            ;81CC46;0000D4;
+stamina,!player_action,src/code_banks/bank_81.asm,7091,LDA.B !player_action                            ;81CC52;0000D4;
+stamina,!player_action,src/code_banks/bank_81.asm,7098,LDA.B !player_action                            ;81CC5E;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,7105,LDA.B !game_state                            ;81CC6A;0000D2;
+stamina,!player_action,src/code_banks/bank_81.asm,7172,LDA.B !player_action                            ;81CCEA;0000D4;
+stamina,!player_action,src/code_banks/bank_81.asm,7179,LDA.B !player_action                            ;81CCF6;0000D4;
+stamina,!player_action,src/code_banks/bank_81.asm,7186,LDA.B !player_action                            ;81CD02;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,7193,LDA.B !game_state                            ;81CD0E;0000D2;
+stamina,!player_action,src/code_banks/bank_81.asm,7260,LDA.B !player_action                            ;81CD8E;0000D4;
+stamina,!player_action,src/code_banks/bank_81.asm,7267,LDA.B !player_action                            ;81CD9A;0000D4;
+stamina,!player_action,src/code_banks/bank_81.asm,7274,LDA.B !player_action                            ;81CDA6;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,7281,LDA.B !game_state                            ;81CDB2;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,7642,AND.B !game_state                            ;81D05C;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,7643,STA.B !game_state                            ;81D05E;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,7651,"; flag in !game_state, triggers fatigue animation/action, and updates the"
+stamina,!max_stamina,src/code_banks/bank_81.asm,7684,LDA.W !max_stamina
+stamina,!current_stamina,src/code_banks/bank_81.asm,7688,LDA.W !current_stamina
+stamina,!game_state,src/code_banks/bank_81.asm,7701,AND.B !game_state
+stamina,!game_state,src/code_banks/bank_81.asm,7702,STA.B !game_state                             ;clears flag 8
+stamina,!current_stamina,src/code_banks/bank_81.asm,7709,STZ.W !current_stamina
+stamina,!game_state,src/code_banks/bank_81.asm,7711,LDA.B !game_state
+stamina,!game_state,src/code_banks/bank_81.asm,7713,STA.B !game_state                             ;sets flag 8
+stamina,!player_action,src/code_banks/bank_81.asm,7719,STA.B !player_action
+stamina,!max_stamina,src/code_banks/bank_81.asm,7727,LDA.W !max_stamina
+stamina,!current_stamina,src/code_banks/bank_81.asm,7728,STA.W !current_stamina
+stamina,!game_state,src/code_banks/bank_81.asm,7732,AND.B !game_state
+stamina,!game_state,src/code_banks/bank_81.asm,7733,STA.B !game_state                             ;clears flag 8
+stamina,!current_stamina,src/code_banks/bank_81.asm,7738,LDA.W !current_stamina
+stamina,!current_stamina,src/code_banks/bank_81.asm,7741,STA.W !current_stamina
+stamina,!max_stamina,src/code_banks/bank_81.asm,7748,LDA.W !max_stamina
+stamina,!current_stamina,src/code_banks/bank_81.asm,7751,CMP.W !current_stamina
+stamina,!max_stamina,src/code_banks/bank_81.asm,7769,LDA.W !max_stamina
+stamina,!current_stamina,src/code_banks/bank_81.asm,7777,+ CMP.W !current_stamina
+stamina,!player_action,src/code_banks/bank_81.asm,7795,STA.B !player_action
+time_day_cycle,!time_running,src/code_banks/bank_81.asm,7982,LDA.W !time_running
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,8094,STA.W !item_on_hand
+stamina,!player_action,src/code_banks/bank_81.asm,8097,STA.B !player_action
+stamina,!game_state,src/code_banks/bank_81.asm,8103,AND.B !game_state
+stamina,!game_state,src/code_banks/bank_81.asm,8104,STA.B !game_state
+stamina,!game_state,src/code_banks/bank_81.asm,8154,AND.B !game_state
+stamina,!game_state,src/code_banks/bank_81.asm,8155,STA.B !game_state
+stamina,!game_state,src/code_banks/bank_81.asm,8174,AND.B !game_state
+stamina,!game_state,src/code_banks/bank_81.asm,8175,STA.B !game_state
+stamina,!game_state,src/code_banks/bank_81.asm,8185,AND.B !game_state
+stamina,!game_state,src/code_banks/bank_81.asm,8186,STA.B !game_state
+stamina,!game_state,src/code_banks/bank_81.asm,8217,LDA.B !game_state
+stamina,!game_state,src/code_banks/bank_81.asm,8219,STA.B !game_state
+time_day_cycle,!season,src/code_banks/bank_81.asm,8244,LDA.L !season
+stamina,!game_state,src/code_banks/bank_81.asm,8282,AND.B !game_state
+stamina,!game_state,src/code_banks/bank_81.asm,8283,STA.B !game_state
+stamina,!game_state,src/code_banks/bank_81.asm,8287,AND.B !game_state
+stamina,!game_state,src/code_banks/bank_81.asm,8288,STA.B !game_state
+time_day_cycle,!time_running,src/code_banks/bank_81.asm,8350,LDA.W !time_running                          ;81D833;000973;
+time_day_cycle,!time_running,src/code_banks/bank_81.asm,8352,STA.W !time_running                          ;81D838;000973;
+stamina,!game_state,src/code_banks/bank_81.asm,8384,AND.B !game_state                            ;81D878;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,8385,STA.B !game_state                            ;81D87A;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,8406,LDA.B !game_state                            ;81D8B0;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,8408,STA.B !game_state                            ;81D8B5;0000D2;
+stamina,!player_action,src/code_banks/bank_81.asm,8411,STA.B !player_action                            ;81D8BC;0000D4;
+stamina,!player_action,src/code_banks/bank_81.asm,8429,STA.B !player_action                            ;81D8E3;0000D4;
+time_day_cycle,!time_running,src/code_banks/bank_81.asm,8435,LDA.W !time_running                          ;81D8F2;000973;
+time_day_cycle,!time_running,src/code_banks/bank_81.asm,8437,STA.W !time_running                          ;81D8F7;000973;
+stamina,!game_state,src/code_banks/bank_81.asm,8446,LDA.B !game_state                            ;81D90C;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,8448,STA.B !game_state                            ;81D911;0000D2;
+stamina,!player_action,src/code_banks/bank_81.asm,8451,STA.B !player_action                            ;81D918;0000D4;
+stamina,!player_action,src/code_banks/bank_81.asm,8471,STA.B !player_action                            ;81D944;0000D4;
+time_day_cycle,!time_running,src/code_banks/bank_81.asm,8484,LDA.W !time_running                          ;81D961;000973;
+time_day_cycle,!time_running,src/code_banks/bank_81.asm,8486,STA.W !time_running                          ;81D966;000973;
+stamina,!game_state,src/code_banks/bank_81.asm,8496,AND.B !game_state                            ;81D974;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,8497,STA.B !game_state                            ;81D976;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,8506,LDA.B !game_state                            ;81D986;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,8508,STA.B !game_state                            ;81D98B;0000D2;
+stamina,!player_action,src/code_banks/bank_81.asm,8511,STA.B !player_action                            ;81D992;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,8534,AND.B !game_state                            ;81D9C7;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,8535,STA.B !game_state                            ;81D9C9;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,8547,LDA.B !game_state                            ;81D9DD;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,8549,STA.B !game_state                            ;81D9E2;0000D2;
+time_day_cycle,!season,src/code_banks/bank_81.asm,8577,LDA.L !season                        ;81DA18;7F1F19;
+stamina,!game_state,src/code_banks/bank_81.asm,8618,AND.B !game_state                            ;81DA71;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,8619,STA.B !game_state                            ;81DA73;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,8623,AND.B !game_state                            ;81DA7D;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,8624,STA.B !game_state                            ;81DA7F;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,8636,LDA.B !game_state                            ;81DA93;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,8638,STA.B !game_state                            ;81DA98;0000D2;
+time_day_cycle,!season,src/code_banks/bank_81.asm,8666,LDA.L !season                        ;81DACE;7F1F19;
+stamina,!game_state,src/code_banks/bank_81.asm,8707,AND.B !game_state                            ;81DB27;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,8708,STA.B !game_state                            ;81DB29;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,8712,AND.B !game_state                            ;81DB33;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,8713,STA.B !game_state                            ;81DB35;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,8757,AND.B !game_state                            ;81DB8C;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,8758,STA.B !game_state                            ;81DB8E;0000D2;
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,8779,STA.W !item_on_hand                          ;81DBB5;00091D;
+stamina,!player_action,src/code_banks/bank_81.asm,8782,STA.B !player_action                            ;81DBBD;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,8787,AND.B !game_state                            ;81DBC7;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,8788,STA.B !game_state                            ;81DBC9;0000D2;
+time_day_cycle,!season,src/code_banks/bank_81.asm,8848,LDA.L !season                        ;81DC2F;7F1F19;
+stamina,!game_state,src/code_banks/bank_81.asm,8863,AND.B !game_state                            ;81DC52;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,8864,STA.B !game_state                            ;81DC54;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,8932,AND.B !game_state                            ;81DCC9;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,8933,STA.B !game_state                            ;81DCCB;0000D2;
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,8944,STA.W !item_on_hand                          ;81DCDC;00091D;
+stamina,!player_action,src/code_banks/bank_81.asm,8947,STA.B !player_action                            ;81DCE4;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,8951,AND.B !game_state                            ;81DCEE;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,8952,STA.B !game_state                            ;81DCF0;0000D2;
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,8962,STA.W !item_on_hand                          ;81DD01;00091D;
+stamina,!player_action,src/code_banks/bank_81.asm,8965,STA.B !player_action                            ;81DD09;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,8969,AND.B !game_state                            ;81DD13;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,8970,STA.B !game_state                            ;81DD15;0000D2;
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,8980,STA.W !item_on_hand                          ;81DD26;00091D;
+stamina,!player_action,src/code_banks/bank_81.asm,8983,STA.B !player_action                            ;81DD2E;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,8987,AND.B !game_state                            ;81DD38;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,8988,STA.B !game_state                            ;81DD3A;0000D2;
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,8998,STA.W !item_on_hand                          ;81DD4B;00091D;
+stamina,!player_action,src/code_banks/bank_81.asm,9001,STA.B !player_action                            ;81DD53;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,9005,AND.B !game_state                            ;81DD5D;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9006,STA.B !game_state                            ;81DD5F;0000D2;
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,9016,STA.W !item_on_hand                          ;81DD70;00091D;
+stamina,!player_action,src/code_banks/bank_81.asm,9019,STA.B !player_action                            ;81DD78;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,9023,AND.B !game_state                            ;81DD82;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9024,STA.B !game_state                            ;81DD84;0000D2;
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,9034,STA.W !item_on_hand                          ;81DD95;00091D;
+stamina,!player_action,src/code_banks/bank_81.asm,9037,STA.B !player_action                            ;81DD9D;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,9041,AND.B !game_state                            ;81DDA7;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9042,STA.B !game_state                            ;81DDA9;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9095,AND.B !game_state                            ;81DE17;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9096,STA.B !game_state                            ;81DE19;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9149,AND.B !game_state                            ;81DE83;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9150,STA.B !game_state                            ;81DE85;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9217,AND.B !game_state                            ;81DF0C;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9218,STA.B !game_state                            ;81DF0E;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9256,AND.B !game_state                            ;81DF63;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9257,STA.B !game_state                            ;81DF65;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9271,AND.B !game_state                            ;81DF85;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9272,STA.B !game_state                            ;81DF87;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9290,AND.B !game_state                            ;81DFB4;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9291,STA.B !game_state                            ;81DFB6;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9348,AND.B !game_state                            ;81E027;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9349,STA.B !game_state                            ;81E029;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9363,AND.B !game_state                            ;81E049;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9364,STA.B !game_state                            ;81E04B;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9388,AND.B !game_state                            ;81E083;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9389,STA.B !game_state                            ;81E085;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9403,AND.B !game_state                            ;81E0A5;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9404,STA.B !game_state                            ;81E0A7;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9429,AND.B !game_state                            ;81E0E8;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9430,STA.B !game_state                            ;81E0EA;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9487,AND.B !game_state                            ;81E153;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9488,STA.B !game_state                            ;81E155;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9502,AND.B !game_state                            ;81E175;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9503,STA.B !game_state                            ;81E177;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9527,AND.B !game_state                            ;81E1AF;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9528,STA.B !game_state                            ;81E1B1;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9542,AND.B !game_state                            ;81E1D0;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9543,STA.B !game_state                            ;81E1D2;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9572,AND.B !game_state                            ;81E21B;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9573,STA.B !game_state                            ;81E21D;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9591,AND.B !game_state                            ;81E240;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9592,STA.B !game_state                            ;81E242;0000D2;
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,9602,STA.W !item_on_hand                          ;81E253;00091D;
+stamina,!player_action,src/code_banks/bank_81.asm,9605,STA.B !player_action                            ;81E25B;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,9609,AND.B !game_state                            ;81E265;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9610,STA.B !game_state                            ;81E267;0000D2;
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,9620,STA.W !item_on_hand                          ;81E278;00091D;
+stamina,!player_action,src/code_banks/bank_81.asm,9623,STA.B !player_action                            ;81E280;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,9627,AND.B !game_state                            ;81E28A;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9628,STA.B !game_state                            ;81E28C;0000D2;
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,9638,STA.W !item_on_hand                          ;81E29D;00091D;
+stamina,!player_action,src/code_banks/bank_81.asm,9641,STA.B !player_action                            ;81E2A5;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,9645,AND.B !game_state                            ;81E2AF;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9646,STA.B !game_state                            ;81E2B1;0000D2;
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,9656,STA.W !item_on_hand                          ;81E2C2;00091D;
+stamina,!player_action,src/code_banks/bank_81.asm,9659,STA.B !player_action                            ;81E2CA;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,9663,AND.B !game_state                            ;81E2D4;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9664,STA.B !game_state                            ;81E2D6;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9716,AND.B !game_state                            ;81E344;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9717,STA.B !game_state                            ;81E346;0000D2;
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,9728,STA.W !item_on_hand                          ;81E357;00091D;
+stamina,!player_action,src/code_banks/bank_81.asm,9731,STA.B !player_action                            ;81E35F;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,9735,AND.B !game_state                            ;81E369;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9736,STA.B !game_state                            ;81E36B;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9751,AND.B !game_state                            ;81E38F;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9752,STA.B !game_state                            ;81E391;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9804,AND.B !game_state                            ;81E3FF;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9805,STA.B !game_state                            ;81E401;0000D2;
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,9816,STA.W !item_on_hand                          ;81E412;00091D;
+stamina,!player_action,src/code_banks/bank_81.asm,9819,STA.B !player_action                            ;81E41A;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,9823,AND.B !game_state                            ;81E424;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9824,STA.B !game_state                            ;81E426;0000D2;
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,9834,STA.W !item_on_hand                          ;81E437;00091D;
+stamina,!player_action,src/code_banks/bank_81.asm,9837,STA.B !player_action                            ;81E43F;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,9841,AND.B !game_state                            ;81E449;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9842,STA.B !game_state                            ;81E44B;0000D2;
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,9852,STA.W !item_on_hand                          ;81E45C;00091D;
+stamina,!player_action,src/code_banks/bank_81.asm,9855,STA.B !player_action                            ;81E464;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,9859,AND.B !game_state                            ;81E46E;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9860,STA.B !game_state                            ;81E470;0000D2;
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,9870,STA.W !item_on_hand                          ;81E481;00091D;
+stamina,!player_action,src/code_banks/bank_81.asm,9873,STA.B !player_action                            ;81E489;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,9877,AND.B !game_state                            ;81E493;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9878,STA.B !game_state                            ;81E495;0000D2;
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,9888,STA.W !item_on_hand                          ;81E4A6;00091D;
+stamina,!player_action,src/code_banks/bank_81.asm,9891,STA.B !player_action                            ;81E4AE;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,9895,AND.B !game_state                            ;81E4B8;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9896,STA.B !game_state                            ;81E4BA;0000D2;
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,9906,STA.W !item_on_hand                          ;81E4CB;00091D;
+stamina,!player_action,src/code_banks/bank_81.asm,9909,STA.B !player_action                            ;81E4D3;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,9913,AND.B !game_state                            ;81E4DD;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9914,STA.B !game_state                            ;81E4DF;0000D2;
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,9924,STA.W !item_on_hand                          ;81E4F0;00091D;
+stamina,!player_action,src/code_banks/bank_81.asm,9927,STA.B !player_action                            ;81E4F8;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,9931,AND.B !game_state                            ;81E502;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9932,STA.B !game_state                            ;81E504;0000D2;
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,9942,STA.W !item_on_hand                          ;81E515;00091D;
+stamina,!player_action,src/code_banks/bank_81.asm,9945,STA.B !player_action                            ;81E51D;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,9949,AND.B !game_state                            ;81E527;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,9950,STA.B !game_state                            ;81E529;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,10002,AND.B !game_state                            ;81E597;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,10003,STA.B !game_state                            ;81E599;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,10062,AND.B !game_state                            ;81E610;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,10063,STA.B !game_state                            ;81E612;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,10077,AND.B !game_state                            ;81E632;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,10078,STA.B !game_state                            ;81E634;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,10092,AND.B !game_state                            ;81E654;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,10093,STA.B !game_state                            ;81E656;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,10107,AND.B !game_state                            ;81E676;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,10108,STA.B !game_state                            ;81E678;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,10122,AND.B !game_state                            ;81E698;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,10123,STA.B !game_state                            ;81E69A;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,10141,AND.B !game_state                            ;81E6BE;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,10142,STA.B !game_state                            ;81E6C0;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,10147,LDA.B !game_state                            ;81E6C7;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,10149,STA.B !game_state                            ;81E6CC;0000D2;
+stamina,!player_action,src/code_banks/bank_81.asm,10152,STA.B !player_action                            ;81E6D3;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,10156,AND.B !game_state                            ;81E6DD;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,10157,STA.B !game_state                            ;81E6DF;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,10176,LDA.B !game_state                            ;81E702;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,10178,STA.B !game_state                            ;81E707;0000D2;
+stamina,!player_action,src/code_banks/bank_81.asm,10181,STA.B !player_action                            ;81E70E;0000D4;
+tools_items,!shed_items_row_2,src/code_banks/bank_81.asm,10200,LDA.L !shed_items_row_2                        ;81E737;7F1F01;
+tools_items,!tool_selected,src/code_banks/bank_81.asm,10203,LDA.W !tool_selected                          ;81E73F;000921;
+tools_items,!shed_items_row_2,src/code_banks/bank_81.asm,10232,LDA.L !shed_items_row_2                        ;81E77A;7F1F01;
+tools_items,!shed_items_row_2,src/code_banks/bank_81.asm,10234,STA.L !shed_items_row_2                        ;81E780;7F1F01;
+stamina,!game_state,src/code_banks/bank_81.asm,10245,AND.B !game_state                            ;81E799;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,10246,STA.B !game_state                            ;81E79B;0000D2;
+time_day_cycle,!year,src/code_banks/bank_81.asm,10326,LDA.L !year                        ;81E816;7F1F18;
+stamina,!game_state,src/code_banks/bank_81.asm,10546,AND.B !game_state                            ;81EA0A;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,10547,STA.B !game_state                            ;81EA0C;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,10584,AND.B !game_state                            ;81EA59;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,10585,STA.B !game_state                            ;81EA5B;0000D2;
+tools_items,!shed_items_row_3,src/code_banks/bank_81.asm,10709,LDA.L !shed_items_row_3                        ;81EB6C;7F1F02;
+tools_items,!shed_items_row_3,src/code_banks/bank_81.asm,10711,STA.L !shed_items_row_3                        ;81EB72;7F1F02;
+time_day_cycle,!season,src/code_banks/bank_81.asm,10817,LDA.L !season                        ;81EC2B;7F1F19;
+stamina,!game_state,src/code_banks/bank_81.asm,10999,AND.B !game_state                            ;81EDCD;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,11000,STA.B !game_state                            ;81EDCF;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,11037,AND.B !game_state                            ;81EE1C;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,11038,STA.B !game_state                            ;81EE1E;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,11248,LDA.B !game_state                            ;81EFE3;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,11250,STA.B !game_state                            ;81EFE8;0000D2;
+stamina,!player_action,src/code_banks/bank_81.asm,11253,STA.B !player_action                            ;81EFEF;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,11305,AND.B !game_state                            ;81F05C;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,11306,STA.B !game_state                            ;81F05E;0000D2;
+shipping_money,!shipping_moneyL,src/code_banks/bank_81.asm,11350,LDA.L !shipping_moneyL                        ;81F0AE;7F1F07;
+shipping_money,!shipping_moneyH,src/code_banks/bank_81.asm,11353,LDA.L !shipping_moneyH                        ;81F0B6;7F1F09;
+stamina,!game_state,src/code_banks/bank_81.asm,11399,AND.B !game_state                            ;81F11A;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,11400,STA.B !game_state                            ;81F11C;0000D2;
+time_day_cycle,!year,src/code_banks/bank_81.asm,11433,LDA.L !year                        ;81F14E;7F1F18;
+time_day_cycle,!season,src/code_banks/bank_81.asm,11435,LDA.L !season                        ;81F154;7F1F19;
+stamina,!game_state,src/code_banks/bank_81.asm,11517,AND.B !game_state                            ;81F20A;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,11518,STA.B !game_state                            ;81F20C;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,11728,AND.B !game_state                            ;81F3D2;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,11729,STA.B !game_state                            ;81F3D4;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,11816,AND.B !game_state                            ;81F488;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,11817,STA.B !game_state                            ;81F48A;0000D2;
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,11922,STA.W !item_on_hand                          ;81F57D;00091D;
+stamina,!player_action,src/code_banks/bank_81.asm,11925,STA.B !player_action                            ;81F585;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,11929,AND.B !game_state                            ;81F58F;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,11930,STA.B !game_state                            ;81F591;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,11942,AND.B !game_state                            ;81F5AB;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,11943,STA.B !game_state                            ;81F5AD;0000D2;
+stamina,!player_action,src/code_banks/bank_81.asm,12044,STA.B !player_action                            ;81F67C;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,12066,AND.B !game_state                            ;81F6AF;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,12067,STA.B !game_state                            ;81F6B1;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,12079,AND.B !game_state                            ;81F6C9;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,12080,STA.B !game_state                            ;81F6CB;0000D2;
+stamina,!player_action,src/code_banks/bank_81.asm,12083,STA.B !player_action                            ;81F6D2;0000D4;
+stamina,!player_action,src/code_banks/bank_81.asm,12187,STA.B !player_action                            ;81F7A4;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,12209,AND.B !game_state                            ;81F7D7;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,12210,STA.B !game_state                            ;81F7D9;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,12222,AND.B !game_state                            ;81F7F1;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,12223,STA.B !game_state                            ;81F7F3;0000D2;
+stamina,!player_action,src/code_banks/bank_81.asm,12226,STA.B !player_action                            ;81F7FA;0000D4;
+tools_items,!item_on_hand,src/code_banks/bank_81.asm,12241,STA.W !item_on_hand                          ;81F816;00091D;
+stamina,!player_action,src/code_banks/bank_81.asm,12244,STA.B !player_action                            ;81F81E;0000D4;
+stamina,!game_state,src/code_banks/bank_81.asm,12248,AND.B !game_state                            ;81F828;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,12249,STA.B !game_state                            ;81F82A;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,12340,AND.B !game_state                            ;81F8D3;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,12341,STA.B !game_state                            ;81F8D5;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,12355,AND.B !game_state                            ;81F8F5;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,12356,STA.B !game_state                            ;81F8F7;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,12370,AND.B !game_state                            ;81F917;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,12371,STA.B !game_state                            ;81F919;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,12389,AND.B !game_state                            ;81F93D;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,12390,STA.B !game_state                            ;81F93F;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,12448,AND.B !game_state                            ;81F9B6;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,12449,STA.B !game_state                            ;81F9B8;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,12463,AND.B !game_state                            ;81F9D8;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,12464,STA.B !game_state                            ;81F9DA;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,12478,AND.B !game_state                            ;81F9FA;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,12479,STA.B !game_state                            ;81F9FC;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,12493,AND.B !game_state                            ;81FA1C;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,12494,STA.B !game_state                            ;81FA1E;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,12508,AND.B !game_state                            ;81FA3E;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,12509,STA.B !game_state                            ;81FA40;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,12527,AND.B !game_state                            ;81FA64;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,12528,STA.B !game_state                            ;81FA66;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,12540,AND.B !game_state                            ;81FA7F;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,12541,STA.B !game_state                            ;81FA81;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,12562,AND.B !game_state                            ;81FAAF;0000D2;
+stamina,!game_state,src/code_banks/bank_81.asm,12563,STA.B !game_state                            ;81FAB1;0000D2;
+time_day_cycle,!time_running,src/code_banks/bank_82.asm,4,; - Checks !time_running bit 1 ($02) to force the nightly day rollover.
+time_day_cycle,!time_running,src/code_banks/bank_82.asm,5,; - Checks !time_running bit 0 ($01) to allow/stop the visible clock.
+time_day_cycle,!time_running,src/code_banks/bank_82.asm,12,LDA.W !time_running
+time_day_cycle,!time_running,src/code_banks/bank_82.asm,17,+ LDA.W !time_running
+time_day_cycle,!seconds,src/code_banks/bank_82.asm,29,LDA.L !seconds
+time_day_cycle,!seconds,src/code_banks/bank_82.asm,31,STA.L !seconds
+time_day_cycle,!seconds,src/code_banks/bank_82.asm,35,STA.L !seconds
+time_day_cycle,!minutes,src/code_banks/bank_82.asm,36,LDA.L !minutes
+time_day_cycle,!minutes,src/code_banks/bank_82.asm,38,STA.L !minutes
+time_day_cycle,!minutes,src/code_banks/bank_82.asm,42,STA.L !minutes
+time_day_cycle,!hour,src/code_banks/bank_82.asm,43,LDA.L !hour
+time_day_cycle,!hour,src/code_banks/bank_82.asm,47,STA.L !hour
+time_day_cycle,!hour,src/code_banks/bank_82.asm,51,LDA.L !hour
+time_day_cycle,!palette_to_load,src/code_banks/bank_82.asm,71,LDA.W !palette_to_load
+time_day_cycle,!palette_to_load,src/code_banks/bank_82.asm,76,CMP.W !palette_to_load
+time_day_cycle,!hour,src/code_banks/bank_82.asm,86,"; Runs only when !hour == 12. Adds 20 stamina and, unless blocked by"
+time_day_cycle,!hour,src/code_banks/bank_82.asm,92,LDA.L !hour
+stamina,!game_state,src/code_banks/bank_82.asm,102,LDA.B !game_state
+stamina,!player_action,src/code_banks/bank_82.asm,108,LDA.B !player_action
+stamina,!game_state,src/code_banks/bank_82.asm,144,LDA.B !game_state
+stamina,!game_state,src/code_banks/bank_82.asm,156,LDA.B !game_state
+stamina,!game_state,src/code_banks/bank_82.asm,158,STA.B !game_state
+stamina,!game_state,src/code_banks/bank_82.asm,160,LDA.B !game_state                      ;BUG
+stamina,!game_state,src/code_banks/bank_82.asm,162,STA.B !game_state
+time_day_cycle,!hour,src/code_banks/bank_82.asm,167,; Runs from Clock_UpdateAndDispatchHourlyEvents when !hour reaches 17.
+time_day_cycle,!hour,src/code_banks/bank_82.asm,177,LDA.L !hour
+shipping_money,!shipping_moneyL,src/code_banks/bank_82.asm,198,"; If !shipping_moneyL/H is non-zero, uses text $031A (daily shipping total)."
+stamina,!game_state,src/code_banks/bank_82.asm,208,LDA.B !game_state
+shipping_money,!shipping_moneyL,src/code_banks/bank_82.asm,218,LDA.L !shipping_moneyL
+shipping_money,!shipping_moneyH,src/code_banks/bank_82.asm,221,LDA.L !shipping_moneyH
+time_day_cycle,!weather_tomorrow,src/code_banks/bank_82.asm,248,LDA.W !weather_tomorrow
+time_day_cycle,!weekday,src/code_banks/bank_82.asm,377,LDA.L !weekday
+time_day_cycle,!weekday,src/code_banks/bank_82.asm,385,STA.L !weekday
+time_day_cycle,!day,src/code_banks/bank_82.asm,386,LDA.L !day
+time_day_cycle,!season,src/code_banks/bank_82.asm,390,LDA.L !season
+time_day_cycle,!year,src/code_banks/bank_82.asm,394,LDA.L !year
+time_day_cycle,!year,src/code_banks/bank_82.asm,396,STA.L !year
+time_day_cycle,!season,src/code_banks/bank_82.asm,406,STA.L !season
+time_day_cycle,!day,src/code_banks/bank_82.asm,411,STA.L !day
+time_day_cycle,!hour,src/code_banks/bank_82.asm,465,STA.L !hour
+time_day_cycle,!minutes,src/code_banks/bank_82.asm,467,STA.L !minutes
+time_day_cycle,!seconds,src/code_banks/bank_82.asm,469,STA.L !seconds
+stamina,!game_state,src/code_banks/bank_82.asm,479,STZ.B !game_state
+stamina,!player_action,src/code_banks/bank_82.asm,480,STZ.B !player_action
+stamina,!max_stamina,src/code_banks/bank_82.asm,482,LDA.W !max_stamina
+stamina,!current_stamina,src/code_banks/bank_82.asm,483,STA.W !current_stamina
+stamina,!game_state,src/code_banks/bank_82.asm,486,LDA.B !game_state
+stamina,!game_state,src/code_banks/bank_82.asm,488,STA.B !game_state
+stamina,!player_action,src/code_banks/bank_82.asm,491,STA.B !player_action
+shipping_money,!shipping_moneyL,src/code_banks/bank_82.asm,507,LDA.L !shipping_moneyL
+shipping_money,!shipping_moneyH,src/code_banks/bank_82.asm,510,LDA.L !shipping_moneyH
+shipping_money,!shipping_moneyL,src/code_banks/bank_82.asm,515,STA.L !shipping_moneyL
+shipping_money,!shipping_moneyH,src/code_banks/bank_82.asm,518,STA.L !shipping_moneyH
+tools_items,!shed_items_row_3,src/code_banks/bank_82.asm,612,LDA.L !shed_items_row_3
+tools_items,!shed_items_row_3,src/code_banks/bank_82.asm,614,STA.L !shed_items_row_3
+tools_items,!tool_selected,src/code_banks/bank_82.asm,634,LDA.W !tool_selected
+tools_items,!tool_selected,src/code_banks/bank_82.asm,637,STZ.W !tool_selected                   ;remove Hoe
+tools_items,!tool_backpack,src/code_banks/bank_82.asm,641,LDA.W !tool_backpack
+tools_items,!tool_backpack,src/code_banks/bank_82.asm,644,STZ.W !tool_backpack
+tools_items,!shed_items_row_1,src/code_banks/bank_82.asm,648,LDA.L !shed_items_row_1
+tools_items,!shed_items_row_1,src/code_banks/bank_82.asm,650,STA.L !shed_items_row_1
+tools_items,!shed_items_row_3,src/code_banks/bank_82.asm,651,LDA.L !shed_items_row_3
+tools_items,!shed_items_row_3,src/code_banks/bank_82.asm,653,STA.L !shed_items_row_3
+tools_items,!shed_items_row_3,src/code_banks/bank_82.asm,789,LDA.L !shed_items_row_3
+tools_items,!shed_items_row_3,src/code_banks/bank_82.asm,791,STA.L !shed_items_row_3
+time_day_cycle,!time_running,src/code_banks/bank_82.asm,804,LDA.W !time_running
+time_day_cycle,!year,src/code_banks/bank_82.asm,821,STA.L !year
+time_day_cycle,!season,src/code_banks/bank_82.asm,823,STA.L !season
+time_day_cycle,!day,src/code_banks/bank_82.asm,825,STA.L !day
+time_day_cycle,!time_running,src/code_banks/bank_82.asm,829,STZ.W !time_running
+tools_items,!item_on_hand,src/code_banks/bank_82.asm,831,STZ.W !item_on_hand
+stamina,!game_state,src/code_banks/bank_82.asm,835,AND.B !game_state
+stamina,!game_state,src/code_banks/bank_82.asm,836,STA.B !game_state
+stamina,!game_state,src/code_banks/bank_82.asm,860,LDA.B !game_state
+stamina,!game_state,src/code_banks/bank_82.asm,862,STA.B !game_state
+time_day_cycle,!season,src/code_banks/bank_82.asm,1128,LDA.L !season
+time_day_cycle,!weekday,src/code_banks/bank_82.asm,1160,LDA.L !weekday
+time_day_cycle,!day,src/code_banks/bank_82.asm,1205,LDA.L !day
+time_day_cycle,!weather_tomorrow,src/code_banks/bank_82.asm,1274,; PASS13_WEATHER_FLAGS: converts !weather_tomorrow into current-day flags.
+time_day_cycle,!weather_tomorrow,src/code_banks/bank_82.asm,1283,LDA.W !weather_tomorrow
+time_day_cycle,!season,src/code_banks/bank_82.asm,1302,LDA.L !season
+time_day_cycle,!season,src/code_banks/bank_82.asm,1315,LDA.L !season
+time_day_cycle,!season,src/code_banks/bank_82.asm,1333,LDA.L !season
+time_day_cycle,!season,src/code_banks/bank_82.asm,1396,LDA.L !season
+time_day_cycle,!day,src/code_banks/bank_82.asm,1398,LDA.L !day
+time_day_cycle,!weather_tomorrow,src/code_banks/bank_82.asm,1406,STA.W !weather_tomorrow
+time_day_cycle,!season,src/code_banks/bank_82.asm,1411,LDA.L !season
+time_day_cycle,!day,src/code_banks/bank_82.asm,1414,LDA.L !day
+time_day_cycle,!weather_tomorrow,src/code_banks/bank_82.asm,1419,STA.W !weather_tomorrow
+time_day_cycle,!day,src/code_banks/bank_82.asm,1424,LDA.L !day
+time_day_cycle,!weather_tomorrow,src/code_banks/bank_82.asm,1432,STA.W !weather_tomorrow
+time_day_cycle,!season,src/code_banks/bank_82.asm,1437,LDA.L !season
+time_day_cycle,!day,src/code_banks/bank_82.asm,1443,LDA.L !day
+time_day_cycle,!weather_tomorrow,src/code_banks/bank_82.asm,1448,STA.W !weather_tomorrow
+time_day_cycle,!day,src/code_banks/bank_82.asm,1453,LDA.L !day
+time_day_cycle,!weather_tomorrow,src/code_banks/bank_82.asm,1458,STA.W !weather_tomorrow
+time_day_cycle,!day,src/code_banks/bank_82.asm,1463,LDA.L !day
+time_day_cycle,!weather_tomorrow,src/code_banks/bank_82.asm,1468,STA.W !weather_tomorrow
+time_day_cycle,!year,src/code_banks/bank_82.asm,1473,LDA.L !year
+time_day_cycle,!day,src/code_banks/bank_82.asm,1486,LDA.L !day
+time_day_cycle,!season,src/code_banks/bank_82.asm,1491,LDA.L !season
+time_day_cycle,!weather_tomorrow,src/code_banks/bank_82.asm,1508,STA.W !weather_tomorrow
+time_day_cycle,!year,src/code_banks/bank_82.asm,1513,LDA.L !year
+time_day_cycle,!day,src/code_banks/bank_82.asm,1520,LDA.L !day
+time_day_cycle,!season,src/code_banks/bank_82.asm,1525,LDA.L !season
+time_day_cycle,!weather_tomorrow,src/code_banks/bank_82.asm,1538,STA.W !weather_tomorrow
+time_day_cycle,!day,src/code_banks/bank_82.asm,1543,LDA.L !day
+time_day_cycle,!season,src/code_banks/bank_82.asm,1549,LDA.L !season
+time_day_cycle,!weather_tomorrow,src/code_banks/bank_82.asm,1574,STA.W !weather_tomorrow
+time_day_cycle,!season,src/code_banks/bank_82.asm,1581,LDA.L !season
+time_day_cycle,!weather_tomorrow,src/code_banks/bank_82.asm,1591,STA.W !weather_tomorrow
+time_day_cycle,!season,src/code_banks/bank_82.asm,1598,LDA.L !season
+time_day_cycle,!weather_tomorrow,src/code_banks/bank_82.asm,1608,STA.W !weather_tomorrow
+time_day_cycle,!weather_tomorrow,src/code_banks/bank_82.asm,1614,STA.W !weather_tomorrow
+tools_items,!tool_selected,src/code_banks/bank_82.asm,1747,LDA.W !tool_selected                          ;828FC6;000921;
+tools_items,!tool_selected,src/code_banks/bank_82.asm,1776,LDA.W !tool_selected
+tools_items,!tool_selected,src/code_banks/bank_82.asm,1818,LDA.W !tool_selected
+stamina,!game_state,src/code_banks/bank_82.asm,1840,LDA.B !game_state
+tools_items,!tool_selected,src/code_banks/bank_82.asm,1851,LDA.W !tool_selected
+stamina,!player_action,src/code_banks/bank_82.asm,1863,STA.B !player_action
+tools_items,!tool_selected,src/code_banks/bank_82.asm,1875,LDA.W !tool_selected
+time_day_cycle,!season,src/code_banks/bank_82.asm,2147,LDA.L !season
+time_day_cycle,!season,src/code_banks/bank_82.asm,2501,LDA.L !season                        ;82A8DC;7F1F19;
+time_day_cycle,!season,src/code_banks/bank_82.asm,2511,LDA.L !season                        ;82A8F2;7F1F19;
+time_day_cycle,!season,src/code_banks/bank_82.asm,2521,LDA.L !season
+time_day_cycle,!season,src/code_banks/bank_82.asm,2531,LDA.L !season                        ;82A91D;7F1F19;
+time_day_cycle,!day,src/code_banks/bank_82.asm,2536,LDA.L !day                        ;82A929;7F1F1B;
+time_day_cycle,!season,src/code_banks/bank_82.asm,2587,LDA.L !season
+time_day_cycle,!day,src/code_banks/bank_82.asm,2590,LDA.L !day
+tools_items,!tool_selected,src/code_banks/bank_82.asm,2731,LDA.W !tool_selected
+time_day_cycle,!season,src/code_banks/bank_82.asm,3056,LDA.L !season
+time_day_cycle,!season,src/code_banks/bank_82.asm,3146,LDA.L !season
+time_day_cycle,!season,src/code_banks/bank_82.asm,3219,LDA.L !season
+tools_items,!item_on_hand,src/code_banks/bank_82.asm,3226,STA.W !item_on_hand
+stamina,!player_action,src/code_banks/bank_82.asm,3229,STA.B !player_action
+stamina,!game_state,src/code_banks/bank_82.asm,3242,LDA.B !game_state
+time_day_cycle,!hour,src/code_banks/bank_82.asm,3283,LDA.L !hour
+time_day_cycle,!hour,src/code_banks/bank_82.asm,3293,LDA.L !hour
+time_day_cycle,!weekday,src/code_banks/bank_82.asm,3303,LDA.L !weekday
+time_day_cycle,!weekday,src/code_banks/bank_82.asm,3314,LDA.L !weekday
+time_day_cycle,!weekday,src/code_banks/bank_82.asm,3324,LDA.L !weekday
+stamina,!game_state,src/code_banks/bank_82.asm,3390,LDA.B !game_state
+stamina,!game_state,src/code_banks/bank_82.asm,3392,STA.B !game_state
+stamina,!player_action,src/code_banks/bank_82.asm,3395,STA.B !player_action
+time_day_cycle,!hour,src/code_banks/bank_82.asm,4448,STA.L !hour                        ;82D1D8;7F1F1C;
+time_day_cycle,!minutes,src/code_banks/bank_82.asm,4450,STA.L !minutes                        ;82D1DE;7F1F1D;
+time_day_cycle,!seconds,src/code_banks/bank_82.asm,4452,STA.L !seconds                        ;82D1E4;7F1F1E;
+tools_items,!shed_items_row_1,src/code_banks/bank_82.asm,4493,STA.L !shed_items_row_1                        ;82D268;7F1F00;
+tools_items,!shed_items_row_2,src/code_banks/bank_82.asm,4495,STA.L !shed_items_row_2                        ;82D26E;7F1F01;
+tools_items,!shed_items_row_3,src/code_banks/bank_82.asm,4497,STA.L !shed_items_row_3                        ;82D274;7F1F02;
+tools_items,!shed_items_row_4,src/code_banks/bank_82.asm,4499,STA.L !shed_items_row_4                        ;82D27A;7F1F03;
+tools_items,!tool_selected,src/code_banks/bank_82.asm,4500,STZ.W !tool_selected                          ;82D27E;000921;
+tools_items,!tool_backpack,src/code_banks/bank_82.asm,4501,STZ.W !tool_backpack                          ;82D281;000923;
+tools_items,!seeds_grass_N,src/code_banks/bank_82.asm,4503,STA.W !seeds_grass_N                          ;82D286;000927;
+tools_items,!seeds_turnip_N,src/code_banks/bank_82.asm,4504,STA.W !seeds_turnip_N                          ;82D289;00092B;
+tools_items,!seeds_corn_N,src/code_banks/bank_82.asm,4505,STA.W !seeds_corn_N                          ;82D28C;000928;
+tools_items,!seeds_tomato_N,src/code_banks/bank_82.asm,4506,STA.W !seeds_tomato_N                          ;82D28F;000929;
+stamina,!game_state,src/code_banks/bank_82.asm,4509,STZ.B !game_state                            ;82D297;0000D2;
+stamina,!player_action,src/code_banks/bank_82.asm,4510,STZ.B !player_action                            ;82D299;0000D4;
+stamina,!game_state,src/code_banks/bank_82.asm,4513,LDA.B !game_state                            ;82D29F;0000D2;
+stamina,!game_state,src/code_banks/bank_82.asm,4515,STA.B !game_state                            ;82D2A4;0000D2;
+stamina,!player_action,src/code_banks/bank_82.asm,4518,STA.B !player_action                            ;82D2AB;0000D4;
+time_day_cycle,!time_running,src/code_banks/bank_82.asm,4529,STZ.W !time_running                          ;82D2C6;000973;
+time_day_cycle,!season,src/code_banks/bank_82.asm,4531,STA.L !season                        ;82D2CB;7F1F19;
+tools_items,!item_on_hand,src/code_banks/bank_82.asm,4533,STZ.W !item_on_hand                          ;82D2D1;00091D;
+stamina,!game_state,src/code_banks/bank_82.asm,4537,AND.B !game_state                            ;82D2DC;0000D2;
+stamina,!game_state,src/code_banks/bank_82.asm,4538,STA.B !game_state                            ;82D2DE;0000D2;
+time_day_cycle,!hour,src/code_banks/bank_82.asm,4642,STA.L !hour                        ;82D3DF;7F1F1C;
+time_day_cycle,!minutes,src/code_banks/bank_82.asm,4644,STA.L !minutes                        ;82D3E5;7F1F1D;
+time_day_cycle,!seconds,src/code_banks/bank_82.asm,4646,STA.L !seconds                        ;82D3EB;7F1F1E;
+tools_items,!shed_items_row_1,src/code_banks/bank_82.asm,4684,STA.L !shed_items_row_1                        ;82D467;7F1F00;
+tools_items,!shed_items_row_2,src/code_banks/bank_82.asm,4686,STA.L !shed_items_row_2                        ;82D46D;7F1F01;
+tools_items,!shed_items_row_3,src/code_banks/bank_82.asm,4688,STA.L !shed_items_row_3                        ;82D473;7F1F02;
+tools_items,!shed_items_row_4,src/code_banks/bank_82.asm,4690,STA.L !shed_items_row_4                        ;82D479;7F1F03;
+tools_items,!tool_selected,src/code_banks/bank_82.asm,4691,STZ.W !tool_selected                          ;82D47D;000921;
+tools_items,!tool_backpack,src/code_banks/bank_82.asm,4692,STZ.W !tool_backpack                          ;82D480;000923;
+tools_items,!seeds_grass_N,src/code_banks/bank_82.asm,4694,STA.W !seeds_grass_N                          ;82D485;000927;
+tools_items,!seeds_turnip_N,src/code_banks/bank_82.asm,4695,STA.W !seeds_turnip_N                          ;82D488;00092B;
+stamina,!game_state,src/code_banks/bank_82.asm,4701,STZ.B !game_state                            ;82D498;0000D2;
+stamina,!player_action,src/code_banks/bank_82.asm,4702,STZ.B !player_action                            ;82D49A;0000D4;
+stamina,!game_state,src/code_banks/bank_82.asm,4705,LDA.B !game_state                            ;82D4A0;0000D2;
+stamina,!game_state,src/code_banks/bank_82.asm,4707,STA.B !game_state                            ;82D4A5;0000D2;
+stamina,!player_action,src/code_banks/bank_82.asm,4710,STA.B !player_action                            ;82D4AC;0000D4;
+time_day_cycle,!time_running,src/code_banks/bank_82.asm,4721,STZ.W !time_running                          ;82D4C7;000973;
+time_day_cycle,!season,src/code_banks/bank_82.asm,4723,STA.L !season                        ;82D4CC;7F1F19;
+tools_items,!item_on_hand,src/code_banks/bank_82.asm,4725,STZ.W !item_on_hand                          ;82D4D2;00091D;
+stamina,!game_state,src/code_banks/bank_82.asm,4729,AND.B !game_state                            ;82D4DD;0000D2;
+stamina,!game_state,src/code_banks/bank_82.asm,4730,STA.B !game_state                            ;82D4DF;0000D2;
+stamina,!game_state,src/code_banks/bank_82.asm,5204,LDA.B !game_state
+stamina,!game_state,src/code_banks/bank_82.asm,5206,STA.B !game_state
+stamina,!player_action,src/code_banks/bank_82.asm,5209,STA.B !player_action
+time_day_cycle,!year,src/code_banks/bank_82.asm,6567,LDA.L !year                        ;82E465;7F1F18;
+time_day_cycle,!year,src/code_banks/bank_82.asm,6588,LDA.L !year                        ;82E49E;7F1F18;
+time_day_cycle,!year,src/code_banks/bank_82.asm,6605,LDA.L !year                        ;82E4CB;7F1F18;
+time_day_cycle,!day,src/code_banks/bank_82.asm,6624,LDA.L !day                        ;82E4F7;7F1F1B;
+tools_items,!watering_can_water,src/code_banks/bank_82_toolanimation_subrutines.asm,139,LDA.W !watering_can_water
+tools_items,!watering_can_water,src/code_banks/bank_82_toolanimation_subrutines.asm,164,STA.W !watering_can_water
+stamina,!player_action,src/code_banks/bank_82_toolused_subrutines.asm,14,STA.B !player_action
+time_day_cycle,!season,src/code_banks/bank_82_toolused_subrutines.asm,27,LDA.L !season
+time_day_cycle,!season,src/code_banks/bank_82_toolused_subrutines.asm,119,LDA.L !season
+stamina,!player_action,src/code_banks/bank_82_toolused_subrutines.asm,149,STA.B !player_action
+time_day_cycle,!season,src/code_banks/bank_82_toolused_subrutines.asm,170,LDA.L !season
+stamina,!player_action,src/code_banks/bank_82_toolused_subrutines.asm,292,STA.B !player_action
+stamina,!player_action,src/code_banks/bank_82_toolused_subrutines.asm,470,STA.B !player_action
+stamina,!player_action,src/code_banks/bank_82_toolused_subrutines.asm,734,STA.B !player_action
+time_day_cycle,!season,src/code_banks/bank_82_toolused_subrutines.asm,756,LDA.L !season
+tools_items,!seeds_corn_N,src/code_banks/bank_82_toolused_subrutines.asm,777,LDA.W !seeds_corn_N
+tools_items,!seeds_corn_N,src/code_banks/bank_82_toolused_subrutines.asm,779,STA.W !seeds_corn_N
+tools_items,!tool_selected,src/code_banks/bank_82_toolused_subrutines.asm,781,STZ.W !tool_selected
+stamina,!player_action,src/code_banks/bank_82_toolused_subrutines.asm,786,STA.B !player_action
+time_day_cycle,!season,src/code_banks/bank_82_toolused_subrutines.asm,808,LDA.L !season
+tools_items,!seeds_tomato_N,src/code_banks/bank_82_toolused_subrutines.asm,829,LDA.W !seeds_tomato_N
+tools_items,!seeds_tomato_N,src/code_banks/bank_82_toolused_subrutines.asm,831,STA.W !seeds_tomato_N
+tools_items,!tool_selected,src/code_banks/bank_82_toolused_subrutines.asm,833,STZ.W !tool_selected
+stamina,!player_action,src/code_banks/bank_82_toolused_subrutines.asm,838,STA.B !player_action
+time_day_cycle,!season,src/code_banks/bank_82_toolused_subrutines.asm,860,LDA.L !season
+tools_items,!seeds_potato_N,src/code_banks/bank_82_toolused_subrutines.asm,880,LDA.W !seeds_potato_N
+tools_items,!seeds_potato_N,src/code_banks/bank_82_toolused_subrutines.asm,882,STA.W !seeds_potato_N
+tools_items,!tool_selected,src/code_banks/bank_82_toolused_subrutines.asm,884,STZ.W !tool_selected
+stamina,!player_action,src/code_banks/bank_82_toolused_subrutines.asm,889,STA.B !player_action
+time_day_cycle,!season,src/code_banks/bank_82_toolused_subrutines.asm,911,LDA.L !season
+tools_items,!seeds_turnip_N,src/code_banks/bank_82_toolused_subrutines.asm,931,LDA.W !seeds_turnip_N
+tools_items,!seeds_turnip_N,src/code_banks/bank_82_toolused_subrutines.asm,933,STA.W !seeds_turnip_N
+tools_items,!tool_selected,src/code_banks/bank_82_toolused_subrutines.asm,935,STZ.W !tool_selected
+stamina,!player_action,src/code_banks/bank_82_toolused_subrutines.asm,940,STA.B !player_action
+stamina,!player_action,src/code_banks/bank_82_toolused_subrutines.asm,951,STA.B !player_action
+tools_items,!tool_selected,src/code_banks/bank_82_toolused_subrutines.asm,953,STZ.W !tool_selected
+stamina,!player_action,src/code_banks/bank_82_toolused_subrutines.asm,967,STA.B !player_action
+tools_items,!tool_selected,src/code_banks/bank_82_toolused_subrutines.asm,969,STZ.W !tool_selected
+stamina,!player_action,src/code_banks/bank_82_toolused_subrutines.asm,983,STA.B !player_action
+time_day_cycle,!season,src/code_banks/bank_82_toolused_subrutines.asm,1005,LDA.L !season
+tools_items,!seeds_grass_N,src/code_banks/bank_82_toolused_subrutines.asm,1030,LDA.W !seeds_grass_N
+tools_items,!seeds_grass_N,src/code_banks/bank_82_toolused_subrutines.asm,1032,STA.W !seeds_grass_N
+tools_items,!tool_selected,src/code_banks/bank_82_toolused_subrutines.asm,1034,STZ.W !tool_selected
+stamina,!player_action,src/code_banks/bank_82_toolused_subrutines.asm,1039,STA.B !player_action
+stamina,!player_action,src/code_banks/bank_82_toolused_subrutines.asm,1144,STA.B !player_action
+stamina,!player_action,src/code_banks/bank_82_toolused_subrutines.asm,1155,STA.B !player_action
+stamina,!player_action,src/code_banks/bank_82_toolused_subrutines.asm,1163,STA.B !player_action
+tools_items,!watering_can_water,src/code_banks/bank_82_toolused_subrutines.asm,1185,LDA.W !watering_can_water
+tools_items,!watering_can_water,src/code_banks/bank_82_toolused_subrutines.asm,1188,STA.W !watering_can_water
+stamina,!player_action,src/code_banks/bank_82_toolused_subrutines.asm,1219,STA.B !player_action
+time_day_cycle,!season,src/code_banks/bank_82_toolused_subrutines.asm,1239,LDA.L !season
+time_day_cycle,!season,src/code_banks/bank_82_toolused_subrutines.asm,1331,LDA.L !season
+stamina,!player_action,src/code_banks/bank_82_toolused_subrutines.asm,1368,STA.B !player_action
+time_day_cycle,!season,src/code_banks/bank_82_toolused_subrutines.asm,1394,LDA.L !season
+stamina,!player_action,src/code_banks/bank_82_toolused_subrutines.asm,1525,STA.B !player_action
+stamina,!player_action,src/code_banks/bank_82_toolused_subrutines.asm,1675,STA.B !player_action
+stamina,!player_action,src/code_banks/bank_82_toolused_subrutines.asm,1874,STA.B !player_action
+stamina,!player_action,src/code_banks/bank_82_toolused_subrutines.asm,1933,STA.B !player_action
+time_day_cycle,!hour,src/code_banks/bank_82_toolused_subrutines.asm,1944,LDA.L !hour
+tools_items,!tool_selected,src/code_banks/bank_82_toolused_subrutines.asm,1957,STZ.W !tool_selected
+stamina,!player_action,src/code_banks/bank_82_toolused_subrutines.asm,1962,STA.B !player_action                            ;82A3A7;0000D4;
+time_day_cycle,!hour,src/code_banks/bank_82_toolused_subrutines.asm,1970,LDA.L !hour
+tools_items,!tool_selected,src/code_banks/bank_82_toolused_subrutines.asm,1995,STZ.W !tool_selected
+stamina,!player_action,src/code_banks/bank_82_toolused_subrutines.asm,2000,STA.B !player_action
+stamina,!player_action,src/code_banks/bank_82_toolused_subrutines.asm,2009,STA.B !player_action
+tools_items,!feed_chicks_N,src/code_banks/bank_82_toolused_subrutines.asm,2080,LDA.W !feed_chicks_N
+tools_items,!feed_chicks_N,src/code_banks/bank_82_toolused_subrutines.asm,2082,STA.W !feed_chicks_N
+tools_items,!tool_selected,src/code_banks/bank_82_toolused_subrutines.asm,2084,STZ.W !tool_selected
+stamina,!player_action,src/code_banks/bank_82_toolused_subrutines.asm,2092,STA.B !player_action
+tools_items,!feed_cow_N,src/code_banks/bank_82_toolused_subrutines.asm,2159,LDA.W !feed_cow_N
+tools_items,!feed_cow_N,src/code_banks/bank_82_toolused_subrutines.asm,2161,STA.W !feed_cow_N
+tools_items,!tool_selected,src/code_banks/bank_82_toolused_subrutines.asm,2163,STZ.W !tool_selected
+stamina,!player_action,src/code_banks/bank_82_toolused_subrutines.asm,2168,STA.B !player_action
+time_day_cycle,!time_running,src/code_banks/bank_83.asm,2335,STZ.W !time_running
+time_day_cycle,!time_running,src/code_banks/bank_83.asm,2379,LDA.W !time_running                          ;839431;000973;
+time_day_cycle,!time_running,src/code_banks/bank_83.asm,2381,STA.W !time_running                          ;839436;000973;
+time_day_cycle,!year,src/code_banks/bank_83.asm,4641,STA.L !year
+time_day_cycle,!season,src/code_banks/bank_83.asm,4643,STA.L !season
+time_day_cycle,!weekday,src/code_banks/bank_83.asm,4645,STA.L !weekday
+time_day_cycle,!day,src/code_banks/bank_83.asm,4647,STA.L !day
+tools_items,!seeds_grass_N,src/code_banks/bank_83.asm,4649,STA.W !seeds_grass_N
+tools_items,!seeds_corn_N,src/code_banks/bank_83.asm,4650,STZ.W !seeds_corn_N
+tools_items,!seeds_tomato_N,src/code_banks/bank_83.asm,4651,STZ.W !seeds_tomato_N
+tools_items,!seeds_potato_N,src/code_banks/bank_83.asm,4652,STZ.W !seeds_potato_N
+tools_items,!seeds_turnip_N,src/code_banks/bank_83.asm,4653,STZ.W !seeds_turnip_N
+tools_items,!feed_cow_N,src/code_banks/bank_83.asm,4654,STZ.W !feed_cow_N
+tools_items,!feed_chicks_N,src/code_banks/bank_83.asm,4655,STZ.W !feed_chicks_N
+time_day_cycle,!weather_tomorrow,src/code_banks/bank_83.asm,4660,STZ.W !weather_tomorrow
+stamina,!max_stamina,src/code_banks/bank_83.asm,4662,STA.W !max_stamina
+tools_items,!tool_selected,src/code_banks/bank_83.asm,4663,STZ.W !tool_selected
+tools_items,!watering_can_water,src/code_banks/bank_83.asm,4664,STZ.W !watering_can_water
+tools_items,!tool_backpack,src/code_banks/bank_83.asm,4683,STZ.W !tool_backpack
+shipping_money,!moneyL,src/code_banks/bank_83.asm,4745,STA.L !moneyL
+shipping_money,!moneyH,src/code_banks/bank_83.asm,4748,STA.L !moneyH
+tools_items,!shed_items_row_1,src/code_banks/bank_83.asm,4760,STA.L !shed_items_row_1
+tools_items,!shed_items_row_2,src/code_banks/bank_83.asm,4762,STA.L !shed_items_row_2
+tools_items,!shed_items_row_3,src/code_banks/bank_83.asm,4764,STA.L !shed_items_row_3
+tools_items,!shed_items_row_4,src/code_banks/bank_83.asm,4766,STA.L !shed_items_row_4
+shipping_money,!shipping_moneyL,src/code_banks/bank_83.asm,4854,STA.L !shipping_moneyL
+shipping_money,!shipping_moneyH,src/code_banks/bank_83.asm,4857,STA.L !shipping_moneyH
+stamina,!game_state,src/code_banks/bank_83.asm,4862,STZ.B !game_state
+time_day_cycle,!time_running,src/code_banks/bank_83.asm,4867,STZ.W !time_running
+time_day_cycle,!hour,src/code_banks/bank_83.asm,4889,STA.L !hour
+time_day_cycle,!minutes,src/code_banks/bank_83.asm,4891,STA.L !minutes
+time_day_cycle,!seconds,src/code_banks/bank_83.asm,4893,STA.L !seconds
+stamina,!game_state,src/code_banks/bank_83.asm,4915,LDA.B !game_state
+stamina,!game_state,src/code_banks/bank_83.asm,4917,STA.B !game_state
+stamina,!player_action,src/code_banks/bank_83.asm,4920,STA.B !player_action
+stamina,!max_stamina,src/code_banks/bank_83.asm,4933,LDA.W !max_stamina
+stamina,!current_stamina,src/code_banks/bank_83.asm,4934,STA.W !current_stamina
+tools_items,!item_on_hand,src/code_banks/bank_83.asm,4943,STZ.W !item_on_hand
+tools_items,!old_item_on_hand,src/code_banks/bank_83.asm,4944,STZ.W !old_item_on_hand
+stamina,!game_state,src/code_banks/bank_83.asm,5542,LDA.B !game_state                            ;83B153;0000D2;
+shipping_money,!moneyL,src/code_banks/bank_83.asm,5636,LDA.L !moneyL
+shipping_money,!moneyH,src/code_banks/bank_83.asm,5641,LDA.L !moneyH
+shipping_money,!moneyL,src/code_banks/bank_83.asm,5654,STA.L !moneyL
+shipping_money,!moneyH,src/code_banks/bank_83.asm,5657,STA.L !moneyH
+shipping_money,!moneyL,src/code_banks/bank_83.asm,5670,STA.L !moneyL
+shipping_money,!moneyH,src/code_banks/bank_83.asm,5673,STA.L !moneyH
+time_day_cycle,!year,src/code_banks/bank_83.asm,5804,STA.L !year
+time_day_cycle,!season,src/code_banks/bank_83.asm,5807,STA.L !season
+time_day_cycle,!weekday,src/code_banks/bank_83.asm,5810,STA.L !weekday
+time_day_cycle,!day,src/code_banks/bank_83.asm,5813,STA.L !day
+tools_items,!seeds_grass_N,src/code_banks/bank_83.asm,5816,STA.W !seeds_grass_N
+tools_items,!seeds_corn_N,src/code_banks/bank_83.asm,5819,STA.W !seeds_corn_N
+tools_items,!seeds_tomato_N,src/code_banks/bank_83.asm,5822,STA.W !seeds_tomato_N
+tools_items,!seeds_potato_N,src/code_banks/bank_83.asm,5825,STA.W !seeds_potato_N
+tools_items,!seeds_turnip_N,src/code_banks/bank_83.asm,5828,STA.W !seeds_turnip_N
+tools_items,!feed_cow_N,src/code_banks/bank_83.asm,5831,STA.W !feed_cow_N
+tools_items,!feed_chicks_N,src/code_banks/bank_83.asm,5834,STA.W !feed_chicks_N
+time_day_cycle,!weather_tomorrow,src/code_banks/bank_83.asm,5843,STA.W !weather_tomorrow
+stamina,!max_stamina,src/code_banks/bank_83.asm,5846,STA.W !max_stamina
+tools_items,!tool_selected,src/code_banks/bank_83.asm,5849,STA.W !tool_selected
+tools_items,!watering_can_water,src/code_banks/bank_83.asm,5852,STA.W !watering_can_water
+tools_items,!tool_backpack,src/code_banks/bank_83.asm,5882,STA.W !tool_backpack
+shipping_money,!moneyL,src/code_banks/bank_83.asm,5974,STA.L !moneyL
+shipping_money,!moneyH,src/code_banks/bank_83.asm,5978,STA.L !moneyH
+tools_items,!shed_items_row_1,src/code_banks/bank_83.asm,6010,STA.L !shed_items_row_1
+tools_items,!shed_items_row_2,src/code_banks/bank_83.asm,6013,STA.L !shed_items_row_2
+tools_items,!shed_items_row_3,src/code_banks/bank_83.asm,6016,STA.L !shed_items_row_3
+tools_items,!shed_items_row_4,src/code_banks/bank_83.asm,6019,STA.L !shed_items_row_4
+time_day_cycle,!year,src/code_banks/bank_83.asm,6206,LDA.L !year
+time_day_cycle,!season,src/code_banks/bank_83.asm,6209,LDA.L !season
+time_day_cycle,!weekday,src/code_banks/bank_83.asm,6212,LDA.L !weekday
+time_day_cycle,!day,src/code_banks/bank_83.asm,6215,LDA.L !day
+tools_items,!seeds_grass_N,src/code_banks/bank_83.asm,6218,LDA.W !seeds_grass_N
+tools_items,!seeds_corn_N,src/code_banks/bank_83.asm,6221,LDA.W !seeds_corn_N
+tools_items,!seeds_tomato_N,src/code_banks/bank_83.asm,6224,LDA.W !seeds_tomato_N
+tools_items,!seeds_potato_N,src/code_banks/bank_83.asm,6227,LDA.W !seeds_potato_N
+tools_items,!seeds_turnip_N,src/code_banks/bank_83.asm,6230,LDA.W !seeds_turnip_N
+tools_items,!feed_cow_N,src/code_banks/bank_83.asm,6233,LDA.W !feed_cow_N
+tools_items,!feed_chicks_N,src/code_banks/bank_83.asm,6236,LDA.W !feed_chicks_N
+time_day_cycle,!weather_tomorrow,src/code_banks/bank_83.asm,6245,LDA.W !weather_tomorrow
+stamina,!max_stamina,src/code_banks/bank_83.asm,6248,LDA.W !max_stamina
+tools_items,!tool_selected,src/code_banks/bank_83.asm,6251,LDA.W !tool_selected
+tools_items,!watering_can_water,src/code_banks/bank_83.asm,6254,LDA.W !watering_can_water
+tools_items,!tool_backpack,src/code_banks/bank_83.asm,6284,LDA.W !tool_backpack
+shipping_money,!moneyL,src/code_banks/bank_83.asm,6376,LDA.L !moneyL
+shipping_money,!moneyH,src/code_banks/bank_83.asm,6380,LDA.L !moneyH
+tools_items,!shed_items_row_1,src/code_banks/bank_83.asm,6399,LDA.L !shed_items_row_1
+tools_items,!shed_items_row_2,src/code_banks/bank_83.asm,6402,LDA.L !shed_items_row_2
+tools_items,!shed_items_row_3,src/code_banks/bank_83.asm,6405,LDA.L !shed_items_row_3
+tools_items,!shed_items_row_4,src/code_banks/bank_83.asm,6408,LDA.L !shed_items_row_4
+time_day_cycle,!year,src/code_banks/bank_83.asm,6600,STA.L !year
+time_day_cycle,!season,src/code_banks/bank_83.asm,6603,STA.L !season
+time_day_cycle,!day,src/code_banks/bank_83.asm,6606,STA.L !day
+time_day_cycle,!weather_tomorrow,src/code_banks/bank_83.asm,7253,LDA.W !weather_tomorrow
+stamina,!game_state,src/code_banks/bank_83.asm,8229,LDA.B !game_state
+stamina,!game_state,src/code_banks/bank_83.asm,8363,LDA.B !game_state
+time_day_cycle,!season,src/code_banks/bank_83.asm,8564,LDA.L !season
+time_day_cycle,!hour,src/code_banks/bank_83.asm,8954,LDA.L !hour                        ;83CC55;7F1F1C;Hour
+time_day_cycle,!minutes,src/code_banks/bank_83.asm,8960,CODE_83CC60: LDA.L !minutes                        ;83CC60;7F1F1D;Minutes
+time_day_cycle,!seconds,src/code_banks/bank_83.asm,8965,CODE_83CC69: LDA.L !seconds                        ;83CC69;7F1F1E;
+time_day_cycle,!day,src/code_banks/bank_83.asm,8970,CODE_83CC72: LDA.L !day                        ;83CC72;7F1F1B;Day Number
+stamina,!game_state,src/code_banks/bank_83.asm,9173,LDA.B !game_state                            ;83CE84;0000D2;
+stamina,!game_state,src/code_banks/bank_83.asm,9175,STA.B !game_state                            ;83CE89;0000D2;
+stamina,!player_action,src/code_banks/bank_83.asm,9178,STA.B !player_action                            ;83CE90;0000D4;
+time_day_cycle,!weather_tomorrow,src/code_banks/bank_83.asm,9235,LDA.W !weather_tomorrow                          ;83CF14;00098C;
+time_day_cycle,!hour,src/code_banks/bank_83.asm,9238,LDA.L !hour                        ;83CF1B;7F1F1C;
+time_day_cycle,!minutes,src/code_banks/bank_83.asm,9241,LDA.L !minutes                        ;83CF23;7F1F1D;
+time_day_cycle,!seconds,src/code_banks/bank_83.asm,9243,LDA.L !seconds                        ;83CF29;7F1F1E;
+time_day_cycle,!hour,src/code_banks/bank_83.asm,9261,LDA.L !hour                        ;83CF4F;7F1F1C;
+time_day_cycle,!minutes,src/code_banks/bank_83.asm,9264,LDA.L !minutes                        ;83CF57;7F1F1D;
+time_day_cycle,!seconds,src/code_banks/bank_83.asm,9266,LDA.L !seconds                        ;83CF5D;7F1F1E;
+time_day_cycle,!hour,src/code_banks/bank_83.asm,9281,LDA.L !hour                        ;83CF80;7F1F1C;
+time_day_cycle,!minutes,src/code_banks/bank_83.asm,9284,LDA.L !minutes                        ;83CF88;7F1F1D;
+time_day_cycle,!seconds,src/code_banks/bank_83.asm,9286,LDA.L !seconds                        ;83CF8E;7F1F1E;
+time_day_cycle,!year,src/code_banks/bank_83.asm,9301,LDA.L !year                        ;83CFB1;7F1F18;
+time_day_cycle,!season,src/code_banks/bank_83.asm,9303,LDA.L !season                        ;83CFB7;7F1F19;
+time_day_cycle,!day,src/code_banks/bank_83.asm,9306,LDA.L !day                        ;83CFBF;7F1F1B;
+time_day_cycle,!hour,src/code_banks/bank_83.asm,9309,LDA.L !hour                        ;83CFC7;7F1F1C;
+time_day_cycle,!minutes,src/code_banks/bank_83.asm,9312,LDA.L !minutes                        ;83CFCF;7F1F1D;
+time_day_cycle,!seconds,src/code_banks/bank_83.asm,9314,LDA.L !seconds                        ;83CFD5;7F1F1E;
+stamina,!game_state,src/code_banks/bank_83.asm,9343,LDA.B !game_state                            ;83D021;0000D2;
+stamina,!game_state,src/code_banks/bank_83.asm,9345,STA.B !game_state                            ;83D026;0000D2;
+stamina,!player_action,src/code_banks/bank_83.asm,9348,STA.B !player_action                            ;83D02D;0000D4;
+stamina,!game_state,src/code_banks/bank_83.asm,9394,LDA.B !game_state                            ;83D0A3;0000D2;
+stamina,!game_state,src/code_banks/bank_83.asm,9396,STA.B !game_state                            ;83D0A8;0000D2;
+stamina,!player_action,src/code_banks/bank_83.asm,9399,STA.B !player_action                            ;83D0AF;0000D4;
+stamina,!game_state,src/code_banks/bank_83.asm,9425,LDA.B !game_state                            ;83D0F0;0000D2;
+stamina,!game_state,src/code_banks/bank_83.asm,9427,STA.B !game_state                            ;83D0F5;0000D2;
+stamina,!player_action,src/code_banks/bank_83.asm,9430,STA.B !player_action                            ;83D0FC;0000D4;
+time_day_cycle,!year,src/code_banks/bank_83.asm,9436,LDA.L !year                        ;83D103;7F1F18;
+time_day_cycle,!hour,src/code_banks/bank_83.asm,9438,LDA.L !hour                        ;83D109;7F1F1C;
+time_day_cycle,!seconds,src/code_banks/bank_83.asm,9443,LDA.L !seconds                        ;83D117;7F1F1E;
+shipping_money,!moneyL,src/code_banks/bank_83.asm,9450,LDA.L !moneyL                        ;83D129;7F1F04;
+shipping_money,!moneyH,src/code_banks/bank_83.asm,9454,LDA.L !moneyH                        ;83D133;7F1F06;
+time_day_cycle,!year,src/code_banks/bank_83.asm,9475,LDA.L !year                        ;83D167;7F1F18;
+time_day_cycle,!season,src/code_banks/bank_83.asm,9477,LDA.L !season                        ;83D16D;7F1F19;
+time_day_cycle,!hour,src/code_banks/bank_83.asm,9482,LDA.L !hour                        ;83D177;7F1F1C;
+time_day_cycle,!minutes,src/code_banks/bank_83.asm,9485,LDA.L !minutes                        ;83D17F;7F1F1D;
+time_day_cycle,!seconds,src/code_banks/bank_83.asm,9487,LDA.L !seconds                        ;83D185;7F1F1E;
+time_day_cycle,!weekday,src/code_banks/bank_83.asm,9489,LDA.L !weekday                        ;83D18B;7F1F1A;
+time_day_cycle,!season,src/code_banks/bank_83.asm,9517,LDA.L !season                        ;83D1D2;7F1F19;
+time_day_cycle,!day,src/code_banks/bank_83.asm,9520,LDA.L !day                        ;83D1DA;7F1F1B;
+time_day_cycle,!hour,src/code_banks/bank_83.asm,9580,LDA.L !hour                        ;83D26D;7F1F1C;
+time_day_cycle,!minutes,src/code_banks/bank_83.asm,9583,LDA.L !minutes                        ;83D275;7F1F1D;
+time_day_cycle,!seconds,src/code_banks/bank_83.asm,9585,LDA.L !seconds                        ;83D27B;7F1F1E;
+time_day_cycle,!hour,src/code_banks/bank_83.asm,9605,LDA.L !hour                        ;83D2AA;7F1F1C;
+time_day_cycle,!minutes,src/code_banks/bank_83.asm,9608,LDA.L !minutes                        ;83D2B2;7F1F1D;
+time_day_cycle,!seconds,src/code_banks/bank_83.asm,9610,LDA.L !seconds                        ;83D2B8;7F1F1E;
+time_day_cycle,!season,src/code_banks/bank_83.asm,9645,LDA.L !season                        ;83D308;7F1F19;
+time_day_cycle,!day,src/code_banks/bank_83.asm,9651,CODE_83D313: LDA.L !day                        ;83D313;7F1F1B;
+time_day_cycle,!hour,src/code_banks/bank_83.asm,9657,CODE_83D31E: LDA.L !hour                        ;83D31E;7F1F1C;
+time_day_cycle,!season,src/code_banks/bank_83.asm,9730,LDA.L !season                        ;83D3BC;7F1F19;
+time_day_cycle,!day,src/code_banks/bank_83.asm,9732,LDA.L !day                        ;83D3C2;7F1F1B;
+time_day_cycle,!hour,src/code_banks/bank_83.asm,9735,LDA.L !hour                        ;83D3CA;7F1F1C;
+time_day_cycle,!season,src/code_banks/bank_83.asm,9748,LDA.L !season                        ;83D3E6;7F1F19;
+time_day_cycle,!day,src/code_banks/bank_83.asm,9751,LDA.L !day                        ;83D3EE;7F1F1B;
+time_day_cycle,!hour,src/code_banks/bank_83.asm,9754,LDA.L !hour                        ;83D3F6;7F1F1C;
+time_day_cycle,!season,src/code_banks/bank_83.asm,9767,LDA.L !season                        ;83D412;7F1F19;
+time_day_cycle,!day,src/code_banks/bank_83.asm,9770,LDA.L !day                        ;83D41A;7F1F1B;
+time_day_cycle,!hour,src/code_banks/bank_83.asm,9773,LDA.L !hour                        ;83D422;7F1F1C;
+time_day_cycle,!weather_tomorrow,src/code_banks/bank_83.asm,9810,LDA.W !weather_tomorrow                          ;83D479;00098C;
+time_day_cycle,!weekday,src/code_banks/bank_83.asm,9824,LDA.L !weekday                        ;83D49D;7F1F1A;
+time_day_cycle,!season,src/code_banks/bank_83.asm,9873,LDA.L !season                        ;83D503;7F1F19;
+time_day_cycle,!day,src/code_banks/bank_83.asm,9876,LDA.L !day                        ;83D50B;7F1F1B;
+time_day_cycle,!hour,src/code_banks/bank_83.asm,9879,LDA.L !hour                        ;83D513;7F1F1C;
+time_day_cycle,!weather_tomorrow,src/code_banks/bank_83.asm,9908,LDA.W !weather_tomorrow                          ;83D554;00098C;
+time_day_cycle,!weather_tomorrow,src/code_banks/bank_83.asm,9911,LDA.W !weather_tomorrow                          ;83D55B;00098C;
+time_day_cycle,!weekday,src/code_banks/bank_83.asm,9925,LDA.L !weekday                        ;83D57F;7F1F1A;
+time_day_cycle,!season,src/code_banks/bank_83.asm,9999,LDA.L !season                        ;83D617;7F1F19;
+time_day_cycle,!day,src/code_banks/bank_83.asm,10002,LDA.L !day                        ;83D61F;7F1F1B;
+time_day_cycle,!hour,src/code_banks/bank_83.asm,10005,LDA.L !hour                        ;83D627;7F1F1C;
+time_day_cycle,!season,src/code_banks/bank_83.asm,10018,LDA.L !season                        ;83D643;7F1F19;
+time_day_cycle,!day,src/code_banks/bank_83.asm,10021,LDA.L !day                        ;83D64B;7F1F1B;
+time_day_cycle,!weather_tomorrow,src/code_banks/bank_83.asm,10057,LDA.W !weather_tomorrow                          ;83D69A;00098C;
+time_day_cycle,!weather_tomorrow,src/code_banks/bank_83.asm,10060,LDA.W !weather_tomorrow                          ;83D6A1;00098C;
+time_day_cycle,!weekday,src/code_banks/bank_83.asm,10083,LDA.L !weekday                        ;83D6D4;7F1F1A;
+time_day_cycle,!weather_tomorrow,src/code_banks/bank_83.asm,10181,LDA.W !weather_tomorrow                          ;83D79F;00098C;
+time_day_cycle,!weather_tomorrow,src/code_banks/bank_83.asm,10184,LDA.W !weather_tomorrow                          ;83D7A6;00098C;
+time_day_cycle,!weather_tomorrow,src/code_banks/bank_83.asm,10307,LDA.W !weather_tomorrow                          ;83D8B0;00098C;
+time_day_cycle,!weather_tomorrow,src/code_banks/bank_83.asm,10310,LDA.W !weather_tomorrow                          ;83D8B7;00098C;
+time_day_cycle,!weather_tomorrow,src/code_banks/bank_83.asm,10421,LDA.W !weather_tomorrow                          ;83D9A6;00098C;
+time_day_cycle,!weather_tomorrow,src/code_banks/bank_83.asm,10424,LDA.W !weather_tomorrow                          ;83D9AD;00098C;
+time_day_cycle,!weather_tomorrow,src/code_banks/bank_83.asm,10516,LDA.W !weather_tomorrow                          ;83DA74;00098C;
+time_day_cycle,!weather_tomorrow,src/code_banks/bank_83.asm,10519,LDA.W !weather_tomorrow                          ;83DA7B;00098C;
+time_day_cycle,!weather_tomorrow,src/code_banks/bank_83.asm,10590,LDA.W !weather_tomorrow                          ;83DB16;00098C;
+time_day_cycle,!weather_tomorrow,src/code_banks/bank_83.asm,10593,LDA.W !weather_tomorrow                          ;83DB1D;00098C;
+time_day_cycle,!season,src/code_banks/bank_83.asm,10667,LDA.L !season                        ;83DBBB;7F1F19;
+time_day_cycle,!day,src/code_banks/bank_83.asm,10670,LDA.L !day                        ;83DBC3;7F1F1B;
+time_day_cycle,!year,src/code_banks/bank_83.asm,10794,LDA.L !year                        ;83DCE3;7F1F18;
+time_day_cycle,!season,src/code_banks/bank_83.asm,10796,LDA.L !season                        ;83DCE9;7F1F19;
+time_day_cycle,!day,src/code_banks/bank_83.asm,10799,LDA.L !day                        ;83DCF1;7F1F1B;
+time_day_cycle,!weekday,src/code_banks/bank_83.asm,10823,LDA.L !weekday                        ;83DD24;7F1F1A;
+time_day_cycle,!weekday,src/code_banks/bank_83.asm,10846,LDA.L !weekday                        ;83DD5B;7F1F1A;
+time_day_cycle,!year,src/code_banks/bank_83.asm,10894,LDA.L !year                        ;83DDC6;7F1F18;
+time_day_cycle,!season,src/code_banks/bank_83.asm,10896,LDA.L !season                        ;83DDCC;7F1F19;
+time_day_cycle,!day,src/code_banks/bank_83.asm,10901,LDA.L !day                        ;83DDD8;7F1F1B;
+stamina,!game_state,src/code_banks/bank_83.asm,11004,LDA.B !game_state                            ;83DEC4;0000D2;
+stamina,!game_state,src/code_banks/bank_83.asm,11006,STA.B !game_state                            ;83DEC9;0000D2;
+stamina,!player_action,src/code_banks/bank_83.asm,11009,STA.B !player_action                            ;83DED0;0000D4;
+time_day_cycle,!year,src/code_banks/bank_83.asm,11015,LDA.L !year                        ;83DED7;7F1F18;
+time_day_cycle,!season,src/code_banks/bank_83.asm,11018,LDA.L !season                        ;83DEDF;7F1F19;
+time_day_cycle,!day,src/code_banks/bank_83.asm,11021,LDA.L !day                        ;83DEE7;7F1F1B;
+time_day_cycle,!hour,src/code_banks/bank_83.asm,11327,LDA.L !hour                        ;83E1BE;7F1F1C;
+time_day_cycle,!minutes,src/code_banks/bank_83.asm,11330,LDA.L !minutes                        ;83E1C6;7F1F1D;
+time_day_cycle,!seconds,src/code_banks/bank_83.asm,11332,LDA.L !seconds                        ;83E1CC;7F1F1E;
+time_day_cycle,!year,src/code_banks/bank_83.asm,11491,LDA.L !year                        ;83E344;7F1F18;
+time_day_cycle,!season,src/code_banks/bank_83.asm,11494,LDA.L !season                        ;83E34C;7F1F19;
+time_day_cycle,!day,src/code_banks/bank_83.asm,11497,LDA.L !day                        ;83E354;7F1F1B;
+time_day_cycle,!hour,src/code_banks/bank_83.asm,11500,LDA.L !hour                        ;83E35C;7F1F1C;
+time_day_cycle,!minutes,src/code_banks/bank_83.asm,11503,LDA.L !minutes                        ;83E364;7F1F1D;
+time_day_cycle,!seconds,src/code_banks/bank_83.asm,11505,LDA.L !seconds                        ;83E36A;7F1F1E;
+time_day_cycle,!year,src/code_banks/bank_83.asm,11517,LDA.L !year                        ;83E384;7F1F18;
+time_day_cycle,!season,src/code_banks/bank_83.asm,11520,LDA.L !season                        ;83E38C;7F1F19;
+time_day_cycle,!day,src/code_banks/bank_83.asm,11523,LDA.L !day                        ;83E394;7F1F1B;
+time_day_cycle,!hour,src/code_banks/bank_83.asm,11526,LDA.L !hour                        ;83E39C;7F1F1C;
+time_day_cycle,!minutes,src/code_banks/bank_83.asm,11529,LDA.L !minutes                        ;83E3A4;7F1F1D;
+time_day_cycle,!seconds,src/code_banks/bank_83.asm,11531,LDA.L !seconds                        ;83E3AA;7F1F1E;
+time_day_cycle,!season,src/code_banks/bank_83.asm,11543,LDA.L !season                        ;83E3C4;7F1F19;
+time_day_cycle,!day,src/code_banks/bank_83.asm,11545,LDA.L !day                        ;83E3CA;7F1F1B;
+time_day_cycle,!season,src/code_banks/bank_83.asm,11558,LDA.L !season                        ;83E3E6;7F1F19;
+time_day_cycle,!day,src/code_banks/bank_83.asm,11561,LDA.L !day                        ;83E3EE;7F1F1B;
+time_day_cycle,!year,src/code_banks/bank_83.asm,11612,LDA.L !year                        ;83E468;7F1F18;
+time_day_cycle,!season,src/code_banks/bank_83.asm,11615,LDA.L !season                        ;83E470;7F1F19;
+stamina,!game_state,src/code_banks/bank_83.asm,11673,LDA.B !game_state                            ;83E4FA;0000D2;
+stamina,!game_state,src/code_banks/bank_83.asm,11682,AND.B !game_state                            ;83E50C;0000D2;
+stamina,!game_state,src/code_banks/bank_83.asm,11683,STA.B !game_state                            ;83E50E;0000D2;
+time_day_cycle,!season,src/code_banks/bank_83.asm,11685,LDA.L !season                        ;83E512;7F1F19;
+time_day_cycle,!weekday,src/code_banks/bank_83.asm,11723,LDA.L !weekday                        ;83E56D;7F1F1A;
+time_day_cycle,!season,src/code_banks/bank_83.asm,11795,LDA.L !season                        ;83E607;7F1F19;
+time_day_cycle,!day,src/code_banks/bank_83.asm,11798,LDA.L !day                        ;83E60F;7F1F1B;
+time_day_cycle,!season,src/code_banks/bank_83.asm,11815,LDA.L !season                        ;83E636;7F1F19;
+time_day_cycle,!day,src/code_banks/bank_83.asm,11818,LDA.L !day                        ;83E63E;7F1F1B;
+time_day_cycle,!season,src/code_banks/bank_83.asm,11835,LDA.L !season                        ;83E665;7F1F19;
+time_day_cycle,!day,src/code_banks/bank_83.asm,11838,LDA.L !day                        ;83E66D;7F1F1B;
+time_day_cycle,!season,src/code_banks/bank_83.asm,11855,LDA.L !season                        ;83E694;7F1F19;
+time_day_cycle,!day,src/code_banks/bank_83.asm,11857,LDA.L !day                        ;83E69A;7F1F1B;
+tools_items,!shed_items_row_1,src/code_banks/bank_83.asm,12030,STA.L !shed_items_row_1                        ;83E959;7F1F00;
+tools_items,!shed_items_row_2,src/code_banks/bank_83.asm,12032,STA.L !shed_items_row_2                        ;83E95F;7F1F01;
+tools_items,!shed_items_row_3,src/code_banks/bank_83.asm,12034,STA.L !shed_items_row_3                        ;83E965;7F1F02;
+tools_items,!shed_items_row_4,src/code_banks/bank_83.asm,12036,STA.L !shed_items_row_4                        ;83E96B;7F1F03;
+tools_items,!tool_selected,src/code_banks/bank_83.asm,12037,STZ.W !tool_selected                          ;83E96F;000921;
+tools_items,!tool_backpack,src/code_banks/bank_83.asm,12038,STZ.W !tool_backpack                          ;83E972;000923;
+tools_items,!shed_items_row_1,src/code_banks/bank_83.asm,12101,STA.L !shed_items_row_1                        ;83EA09;7F1F00;
+tools_items,!shed_items_row_2,src/code_banks/bank_83.asm,12103,STA.L !shed_items_row_2                        ;83EA0F;7F1F01;
+tools_items,!shed_items_row_3,src/code_banks/bank_83.asm,12105,STA.L !shed_items_row_3                        ;83EA15;7F1F02;
+tools_items,!shed_items_row_4,src/code_banks/bank_83.asm,12107,STA.L !shed_items_row_4                        ;83EA1B;7F1F03;
+tools_items,!tool_selected,src/code_banks/bank_83.asm,12108,STZ.W !tool_selected                          ;83EA1F;000921;
+tools_items,!tool_backpack,src/code_banks/bank_83.asm,12109,STZ.W !tool_backpack                          ;83EA22;000923;
+time_day_cycle,!hour,src/code_banks/bank_83.asm,12276,STA.L !hour                        ;83EBAE;7F1F1C;
+time_day_cycle,!minutes,src/code_banks/bank_83.asm,12278,STA.L !minutes                        ;83EBB4;7F1F1D;
+time_day_cycle,!seconds,src/code_banks/bank_83.asm,12280,STA.L !seconds                        ;83EBBA;7F1F1E;
+stamina,!game_state,src/code_banks/bank_83.asm,12283,STZ.B !game_state                            ;83EBC3;0000D2;
+stamina,!player_action,src/code_banks/bank_83.asm,12284,STZ.B !player_action                            ;83EBC5;0000D4;
+stamina,!max_stamina,src/code_banks/bank_83.asm,12286,LDA.W !max_stamina                          ;83EBC9;000917;
+stamina,!current_stamina,src/code_banks/bank_83.asm,12287,STA.W !current_stamina                          ;83EBCC;000918;
+stamina,!game_state,src/code_banks/bank_83.asm,12290,LDA.B !game_state                            ;83EBD4;0000D2;
+stamina,!game_state,src/code_banks/bank_83.asm,12292,STA.B !game_state                            ;83EBD9;0000D2;
+stamina,!player_action,src/code_banks/bank_83.asm,12295,STA.B !player_action                            ;83EBE0;0000D4;
+time_day_cycle,!time_running,src/code_banks/bank_83.asm,12306,STZ.W !time_running                          ;83EBFB;000973;
+tools_items,!item_on_hand,src/code_banks/bank_83.asm,12308,STZ.W !item_on_hand                          ;83EC00;00091D;
+stamina,!game_state,src/code_banks/bank_83.asm,12312,AND.B !game_state                            ;83EC0B;0000D2;
+stamina,!game_state,src/code_banks/bank_83.asm,12313,STA.B !game_state                            ;83EC0D;0000D2;
+shipping_money,!moneyL,src/code_banks/bank_83.asm,12887,LDA.L !moneyL                        ;83F0A1;7F1F04;
+shipping_money,!moneyH,src/code_banks/bank_83.asm,12891,LDA.L !moneyH                        ;83F0AB;7F1F06;
+shipping_money,!moneyL,src/code_banks/bank_83.asm,13092,LDA.L !moneyL
+stamina,!max_stamina,src/code_banks/bank_83.asm,13128,LDA.W !max_stamina
+stamina,!player_action,src/code_banks/bank_84.asm,222,LDA.B !player_action
+time_day_cycle,!time_running,src/code_banks/bank_84.asm,1370,STA.W !time_running
+time_day_cycle,!time_running,src/code_banks/bank_84.asm,1391,STA.W !time_running
+time_day_cycle,!hour,src/code_banks/bank_84.asm,1413,STA.L !hour
+stamina,!game_state,src/code_banks/bank_84.asm,1518,AND.B !game_state
+stamina,!game_state,src/code_banks/bank_84.asm,1519,STA.B !game_state
+stamina,!game_state,src/code_banks/bank_84.asm,1814,LDA.B !game_state
+stamina,!game_state,src/code_banks/bank_84.asm,1816,STA.B !game_state
+stamina,!game_state,src/code_banks/bank_84.asm,2116,LDA.B !game_state
+stamina,!game_state,src/code_banks/bank_84.asm,2118,STA.B !game_state
+stamina,!player_action,src/code_banks/bank_84.asm,2336,LDA.B !player_action
+stamina,!player_action,src/code_banks/bank_84.asm,2343,LDA.B !player_action
+stamina,!player_action,src/code_banks/bank_84.asm,2350,LDA.B !player_action
+stamina,!player_action,src/code_banks/bank_84.asm,2357,LDA.B !player_action
+stamina,!game_state,src/code_banks/bank_84.asm,2364,LDA.B !game_state
+stamina,!game_state,src/code_banks/bank_84.asm,2439,LDA.B !game_state
+stamina,!game_state,src/code_banks/bank_84.asm,2441,STA.B !game_state
+stamina,!player_action,src/code_banks/bank_84.asm,2444,STA.B !player_action
+stamina,!player_action,src/code_banks/bank_84.asm,3119,LDA.B !player_action
+stamina,!player_action,src/code_banks/bank_84.asm,3126,LDA.B !player_action
+stamina,!player_action,src/code_banks/bank_84.asm,3133,LDA.B !player_action
+stamina,!player_action,src/code_banks/bank_84.asm,3140,LDA.B !player_action
+stamina,!game_state,src/code_banks/bank_84.asm,3147,LDA.B !game_state
+stamina,!player_action,src/code_banks/bank_84.asm,3167,LDA.B !player_action
+tools_items,!item_on_hand,src/code_banks/bank_84.asm,3174,LDA.W !item_on_hand
+tools_items,!old_item_on_hand,src/code_banks/bank_84.asm,3176,STA.W !old_item_on_hand
+stamina,!game_state,src/code_banks/bank_84.asm,3240,LDA.B !game_state
+stamina,!game_state,src/code_banks/bank_84.asm,3242,STA.B !game_state
+stamina,!player_action,src/code_banks/bank_84.asm,3245,STA.B !player_action
+stamina,!player_action,src/code_banks/bank_84.asm,3430,LDA.B !player_action
+stamina,!game_state,src/code_banks/bank_84.asm,3451,LDA.B !game_state
+stamina,!game_state,src/code_banks/bank_84.asm,3457,LDA.B !game_state
+stamina,!game_state,src/code_banks/bank_84.asm,3477,LDA.B !game_state
+stamina,!player_action,src/code_banks/bank_84.asm,3483,LDA.B !player_action
+stamina,!player_action,src/code_banks/bank_84.asm,3489,LDA.B !player_action
+tools_items,!item_on_hand,src/code_banks/bank_84.asm,3496,LDA.W !item_on_hand
+tools_items,!item_on_hand,src/code_banks/bank_84.asm,3559,STA.W !item_on_hand
+stamina,!player_action,src/code_banks/bank_84.asm,3562,STA.B !player_action
+tools_items,!item_on_hand,src/code_banks/bank_84.asm,3577,STA.W !item_on_hand
+stamina,!player_action,src/code_banks/bank_84.asm,3580,STA.B !player_action
+stamina,!game_state,src/code_banks/bank_84.asm,3693,LDA.B !game_state
+stamina,!game_state,src/code_banks/bank_84.asm,3695,STA.B !game_state
+stamina,!player_action,src/code_banks/bank_84.asm,3698,STA.B !player_action
+stamina,!player_action,src/code_banks/bank_84.asm,3785,LDA.B !player_action
+stamina,!player_action,src/code_banks/bank_84.asm,3792,LDA.B !player_action
+stamina,!player_action,src/code_banks/bank_84.asm,3799,LDA.B !player_action
+stamina,!player_action,src/code_banks/bank_84.asm,3806,LDA.B !player_action
+stamina,!game_state,src/code_banks/bank_84.asm,3813,LDA.B !game_state
+stamina,!game_state,src/code_banks/bank_84.asm,3819,LDA.B !game_state
+tools_items,!tool_selected,src/code_banks/bank_84.asm,4110,LDA.W !tool_selected
+tools_items,!item_on_hand,src/code_banks/bank_84.asm,4169,STA.W !item_on_hand
+tools_items,!item_on_hand,src/code_banks/bank_84.asm,4178,STA.W !item_on_hand
+tools_items,!item_on_hand,src/code_banks/bank_84.asm,4184,STA.W !item_on_hand
+stamina,!player_action,src/code_banks/bank_84.asm,4189,STA.B !player_action
+stamina,!game_state,src/code_banks/bank_84.asm,5132,LDA.B !game_state                            ;84A510;0000D2;
+stamina,!game_state,src/code_banks/bank_84.asm,5134,STA.B !game_state                            ;84A515;0000D2;
+stamina,!player_action,src/code_banks/bank_84.asm,5137,STA.B !player_action                            ;84A51C;0000D4;
+time_day_cycle,!season,src/code_banks/bank_84.asm,5211,LDA.L !season                        ;84A5B9;7F1F19;
+stamina,!player_action,src/code_banks/bank_84.asm,5736,LDA.B !player_action                            ;84A96A;0000D4;
+stamina,!player_action,src/code_banks/bank_84.asm,5743,LDA.B !player_action                            ;84A976;0000D4;
+stamina,!player_action,src/code_banks/bank_84.asm,5750,LDA.B !player_action                            ;84A982;0000D4;
+stamina,!player_action,src/code_banks/bank_84.asm,5757,LDA.B !player_action                            ;84A98E;0000D4;
+stamina,!game_state,src/code_banks/bank_84.asm,5764,LDA.B !game_state                            ;84A99A;0000D2;
+stamina,!game_state,src/code_banks/bank_84.asm,5778,LDA.B !game_state                            ;84A9B9;0000D2;
+stamina,!player_action,src/code_banks/bank_84.asm,5784,LDA.B !player_action                            ;84A9C3;0000D4;
+tools_items,!item_on_hand,src/code_banks/bank_84.asm,5791,LDA.W !item_on_hand                          ;84A9CF;00091D;
+tools_items,!item_on_hand,src/code_banks/bank_84.asm,5823,STA.W !item_on_hand                          ;84AA13;00091D;
+stamina,!player_action,src/code_banks/bank_84.asm,5826,STA.B !player_action                            ;84AA1B;0000D4;
+stamina,!player_action,src/code_banks/bank_84.asm,5884,LDA.B !player_action                            ;84AA7B;0000D4;
+stamina,!player_action,src/code_banks/bank_84.asm,5891,LDA.B !player_action                            ;84AA87;0000D4;
+stamina,!player_action,src/code_banks/bank_84.asm,5898,LDA.B !player_action                            ;84AA93;0000D4;
+stamina,!player_action,src/code_banks/bank_84.asm,5905,LDA.B !player_action                            ;84AA9F;0000D4;
+stamina,!game_state,src/code_banks/bank_84.asm,5912,LDA.B !game_state                            ;84AAAB;0000D2;
+tools_items,!item_on_hand,src/code_banks/bank_84.asm,5926,LDA.W !item_on_hand                          ;84AACA;00091D;
+tools_items,!item_on_hand,src/code_banks/bank_84.asm,5958,STA.W !item_on_hand                          ;84AB0E;00091D;
+stamina,!player_action,src/code_banks/bank_84.asm,5961,STA.B !player_action                            ;84AB16;0000D4;
+stamina,!player_action,src/code_banks/bank_84.asm,6090,LDA.B !player_action                            ;84AC0B;0000D4;
+stamina,!player_action,src/code_banks/bank_84.asm,6097,LDA.B !player_action                            ;84AC17;0000D4;
+stamina,!player_action,src/code_banks/bank_84.asm,6104,LDA.B !player_action                            ;84AC23;0000D4;
+stamina,!player_action,src/code_banks/bank_84.asm,6111,LDA.B !player_action                            ;84AC2F;0000D4;
+stamina,!game_state,src/code_banks/bank_84.asm,6118,LDA.B !game_state                            ;84AC3B;0000D2;
+stamina,!game_state,src/code_banks/bank_84.asm,6185,LDA.B !game_state                            ;84ACC2;0000D2;
+stamina,!game_state,src/code_banks/bank_84.asm,6192,LDA.B !game_state                            ;84ACCE;0000D2;
+stamina,!player_action,src/code_banks/bank_84.asm,6199,LDA.B !player_action                            ;84ACDA;0000D4;
+stamina,!player_action,src/code_banks/bank_84.asm,6207,STA.B !player_action                            ;84ACE9;0000D4;
+stamina,!game_state,src/code_banks/bank_84.asm,6301,LDA.B !game_state                            ;84ADA6;0000D2;
+stamina,!game_state,src/code_banks/bank_84.asm,6303,STA.B !game_state                            ;84ADAB;0000D2;
+stamina,!player_action,src/code_banks/bank_84.asm,6513,LDA.B !player_action                            ;84AF3A;0000D4;
+stamina,!player_action,src/code_banks/bank_84.asm,6520,LDA.B !player_action                            ;84AF46;0000D4;
+stamina,!player_action,src/code_banks/bank_84.asm,6527,LDA.B !player_action                            ;84AF52;0000D4;
+stamina,!player_action,src/code_banks/bank_84.asm,6534,LDA.B !player_action                            ;84AF5E;0000D4;
+stamina,!game_state,src/code_banks/bank_84.asm,6541,LDA.B !game_state                            ;84AF6A;0000D2;
+tools_items,!item_on_hand,src/code_banks/bank_84.asm,6558,LDA.W !item_on_hand                          ;84AF8C;00091D;
+stamina,!game_state,src/code_banks/bank_84.asm,6564,LDA.B !game_state                            ;84AF96;0000D2;
+stamina,!game_state,src/code_banks/bank_84.asm,6570,LDA.B !game_state                            ;84AFA0;0000D2;
+stamina,!player_action,src/code_banks/bank_84.asm,6576,LDA.B !player_action                            ;84AFAA;0000D4;
+stamina,!player_action,src/code_banks/bank_84.asm,6582,LDA.B !player_action                            ;84AFB4;0000D4;
+stamina,!game_state,src/code_banks/bank_84.asm,6603,LDA.B !game_state                            ;84AFDF;0000D2;
+stamina,!game_state,src/code_banks/bank_84.asm,6605,STA.B !game_state                            ;84AFE4;0000D2;
+stamina,!game_state,src/code_banks/bank_84.asm,7077,LDA.B !game_state                            ;84B38D;0000D2;
+stamina,!game_state,src/code_banks/bank_84.asm,7118,LDA.B !game_state                            ;84B3E0;0000D2;
+stamina,!game_state,src/code_banks/bank_84.asm,7120,STA.B !game_state                            ;84B3E5;0000D2;
+stamina,!game_state,src/code_banks/bank_84.asm,7146,AND.B !game_state                            ;84B411;0000D2;
+stamina,!game_state,src/code_banks/bank_84.asm,7147,STA.B !game_state                            ;84B413;0000D2;
+stamina,!player_action,src/code_banks/bank_84.asm,7150,STA.B !player_action                            ;84B41A;0000D4;
+stamina,!game_state,src/code_banks/bank_84.asm,7163,LDA.B !game_state                            ;84B42B;0000D2;
+stamina,!game_state,src/code_banks/bank_84.asm,7208,LDA.B !game_state                            ;84B48B;0000D2;
+stamina,!game_state,src/code_banks/bank_84.asm,7210,STA.B !game_state                            ;84B490;0000D2;
+stamina,!game_state,src/code_banks/bank_84.asm,7236,AND.B !game_state                            ;84B4BC;0000D2;
+stamina,!game_state,src/code_banks/bank_84.asm,7237,STA.B !game_state                            ;84B4BE;0000D2;
+stamina,!player_action,src/code_banks/bank_84.asm,7240,STA.B !player_action                            ;84B4C5;0000D4;
+tools_items,!item_on_hand,src/code_banks/bank_84.asm,7261,STA.W !item_on_hand                          ;84B4EC;00091D;
+stamina,!game_state,src/code_banks/bank_84.asm,7268,LDA.B !game_state                            ;84B4FB;0000D2;
+stamina,!game_state,src/code_banks/bank_84.asm,7270,STA.B !game_state                            ;84B500;0000D2;
+tools_items,!item_on_hand,src/code_banks/bank_84.asm,7328,STA.W !item_on_hand                          ;84B566;00091D;
+stamina,!player_action,src/code_banks/bank_84.asm,7336,STA.B !player_action                            ;84B578;0000D4;
+stamina,!player_action,src/code_banks/bank_84.asm,7350,STA.B !player_action                            ;84B58C;0000D4;
+shipping_money,!moneyL,src/code_banks/bank_84.asm,7463,STA.L !moneyL                        ;84B659;7F1F04;
+shipping_money,!moneyH,src/code_banks/bank_84.asm,7466,STA.L !moneyH                        ;84B661;7F1F06;
+tools_items,!item_on_hand,src/code_banks/bank_84.asm,7882,"; to interact and hands are empty, sets !item_on_hand=$08 and player_action=$0004."
+stamina,!player_action,src/code_banks/bank_84.asm,7899,LDA.B !player_action
+stamina,!player_action,src/code_banks/bank_84.asm,7906,LDA.B !player_action
+stamina,!player_action,src/code_banks/bank_84.asm,7913,LDA.B !player_action
+stamina,!player_action,src/code_banks/bank_84.asm,7920,LDA.B !player_action
+stamina,!game_state,src/code_banks/bank_84.asm,7927,LDA.B !game_state
+stamina,!game_state,src/code_banks/bank_84.asm,7941,LDA.B !game_state
+stamina,!player_action,src/code_banks/bank_84.asm,7947,LDA.B !player_action
+tools_items,!item_on_hand,src/code_banks/bank_84.asm,7954,LDA.W !item_on_hand
+tools_items,!item_on_hand,src/code_banks/bank_84.asm,7981,STA.W !item_on_hand
+stamina,!player_action,src/code_banks/bank_84.asm,7984,STA.B !player_action
+stamina,!player_action,src/code_banks/bank_84.asm,8075,LDA.B !player_action
+tools_items,!tool_selected,src/code_banks/bank_84.asm,8188,; This clears !tool_selected and !tool_backpack after OR-ing the corresponding
+tools_items,!tool_backpack,src/code_banks/bank_84.asm,8188,; This clears !tool_selected and !tool_backpack after OR-ing the corresponding
+tools_items,!tool_selected,src/code_banks/bank_84.asm,8195,LDA.W !tool_selected
+tools_items,!shed_items_row_1,src/code_banks/bank_84.asm,8217,"LDA.L !shed_items_row_1,X"
+tools_items,!shed_items_row_1,src/code_banks/bank_84.asm,8219,"STA.L !shed_items_row_1,X"
+tools_items,!tool_selected,src/code_banks/bank_84.asm,8220,STZ.W !tool_selected
+tools_items,!tool_backpack,src/code_banks/bank_84.asm,8227,LDA.W !tool_backpack
+tools_items,!shed_items_row_1,src/code_banks/bank_84.asm,8249,"LDA.L !shed_items_row_1,X"
+tools_items,!shed_items_row_1,src/code_banks/bank_84.asm,8251,"STA.L !shed_items_row_1,X"
+tools_items,!tool_backpack,src/code_banks/bank_84.asm,8252,STZ.W !tool_backpack
+tools_items,!item_on_hand,src/code_banks/bank_84.asm,8265,LDA.W !item_on_hand
+tools_items,!item_on_hand,src/code_banks/bank_84.asm,8271,STZ.W !item_on_hand
+tools_items,!item_on_hand,src/code_banks/bank_84.asm,8314,STZ.W !item_on_hand
+stamina,!game_state,src/code_banks/bank_84.asm,8324,LDA.B !game_state
+stamina,!game_state,src/code_banks/bank_84.asm,8333,AND.B !game_state
+stamina,!game_state,src/code_banks/bank_84.asm,8334,STA.B !game_state
+time_day_cycle,!season,src/code_banks/bank_84.asm,8336,LDA.L !season
+tools_items,!item_on_hand,src/code_banks/bank_84.asm,8360,LDA.W !item_on_hand                          ;84BCAA;00091D;
+tools_items,!item_on_hand,src/code_banks/bank_84.asm,8371,CODE_84BCBE: STZ.W !item_on_hand                          ;84BCBE;00091D;
+tools_items,!item_on_hand,src/code_banks/bank_84.asm,8409,STZ.W !item_on_hand                          ;84BD0A;00091D;
+stamina,!game_state,src/code_banks/bank_84.asm,8414,LDA.B !game_state                            ;84BD11;0000D2;
+stamina,!game_state,src/code_banks/bank_84.asm,8423,AND.B !game_state                            ;84BD23;0000D2;
+stamina,!game_state,src/code_banks/bank_84.asm,8424,STA.B !game_state                            ;84BD25;0000D2;
+time_day_cycle,!season,src/code_banks/bank_84.asm,8426,LDA.L !season                        ;84BD29;7F1F19;
+stamina,!player_action,src/code_banks/bank_84.asm,8454,LDA.B !player_action                            ;84BD62;0000D4;
+stamina,!player_action,src/code_banks/bank_84.asm,8461,LDA.B !player_action                            ;84BD6E;0000D4;
+stamina,!player_action,src/code_banks/bank_84.asm,8468,LDA.B !player_action                            ;84BD7A;0000D4;
+stamina,!player_action,src/code_banks/bank_84.asm,8475,LDA.B !player_action                            ;84BD86;0000D4;
+stamina,!game_state,src/code_banks/bank_84.asm,8482,LDA.B !game_state                            ;84BD92;0000D2;
+stamina,!game_state,src/code_banks/bank_84.asm,8496,LDA.B !game_state                            ;84BDB1;0000D2;
+tools_items,!item_on_hand,src/code_banks/bank_84.asm,8503,LDA.W !item_on_hand                          ;84BDBD;00091D;
+stamina,!player_action,src/code_banks/bank_84.asm,8559,LDA.B !player_action                            ;84BE2B;0000D4;
+stamina,!player_action,src/code_banks/bank_84.asm,8566,LDA.B !player_action                            ;84BE37;0000D4;
+stamina,!player_action,src/code_banks/bank_84.asm,8573,LDA.B !player_action                            ;84BE43;0000D4;
+stamina,!player_action,src/code_banks/bank_84.asm,8580,LDA.B !player_action                            ;84BE4F;0000D4;
+stamina,!game_state,src/code_banks/bank_84.asm,8587,LDA.B !game_state                            ;84BE5B;0000D2;
+stamina,!game_state,src/code_banks/bank_84.asm,8601,LDA.B !game_state                            ;84BE7A;0000D2;
+tools_items,!item_on_hand,src/code_banks/bank_84.asm,8608,LDA.W !item_on_hand                          ;84BE86;00091D;
+tools_items,!tool_selected,src/code_banks/bank_84.asm,8744,LDA.W !tool_selected                          ;84BF8F;000921;
+stamina,!player_action,src/code_banks/bank_84.asm,8748,STA.B !player_action                            ;84BF99;0000D4;
+stamina,!player_action,src/code_banks/bank_84.asm,8813,STA.B !player_action                            ;84C011;0000D4;
+stamina,!player_action,src/code_banks/bank_84.asm,9181,LDA.B !player_action
+stamina,!game_state,src/code_banks/bank_84.asm,9722,LDA.B !game_state
+stamina,!player_action,src/code_banks/bank_84.asm,9727,+ LDA.B !player_action
+stamina,!game_state,src/code_banks/bank_84.asm,9738,LDA.B !game_state
+stamina,!game_state,src/code_banks/bank_84.asm,9744,LDA.B !game_state
+stamina,!player_action,src/code_banks/bank_84.asm,9750,LDA.B !player_action
+stamina,!player_action,src/code_banks/bank_84.asm,9760,LDX.B !player_action
+stamina,!game_state,src/code_banks/bank_84.asm,9789,LDA.B !game_state
+stamina,!player_action,src/code_banks/bank_84.asm,9795,LDA.B !player_action
+stamina,!game_state,src/code_banks/bank_84.asm,9807,LDA.B !game_state
+stamina,!player_action,src/code_banks/bank_84.asm,9948,STA.B !player_action                            ;84C887;0000D4;
+stamina,!player_action,src/code_banks/bank_84.asm,9969,STA.B !player_action                            ;84C8A9;0000D4;
+stamina,!player_action,src/code_banks/bank_84.asm,9989,STA.B !player_action                            ;84C8CC;0000D4;
+stamina,!player_action,src/code_banks/bank_84.asm,10009,STA.B !player_action                            ;84C8EF;0000D4;
+stamina,!player_action,src/code_banks/bank_84.asm,10029,STA.B !player_action                            ;84C912;0000D4;
+stamina,!player_action,src/code_banks/bank_84.asm,10035,STA.B !player_action                            ;84C91C;0000D4;
+stamina,!player_action,src/code_banks/bank_84.asm,10041,STA.B !player_action                            ;84C926;0000D4;
+stamina,!player_action,src/code_banks/bank_84.asm,10047,STA.B !player_action                            ;84C930;0000D4;
+stamina,!player_action,src/code_banks/bank_84.asm,10054,STA.B !player_action
+stamina,!player_action,src/code_banks/bank_84.asm,10074,STA.B !player_action
+stamina,!player_action,src/code_banks/bank_84.asm,10084,STA.B !player_action
+stamina,!player_action,src/code_banks/bank_84.asm,10105,STA.B !player_action                            ;84C99D;0000D4;
+stamina,!player_action,src/code_banks/bank_84.asm,10114,STA.B !player_action                            ;84C9AE;0000D4;
+stamina,!player_action,src/code_banks/bank_84.asm,10135,STA.B !player_action                            ;84C9D7;0000D4;
+stamina,!player_action,src/code_banks/bank_84.asm,10144,STA.B !player_action                            ;84C9E8;0000D4;
+stamina,!player_action,src/code_banks/bank_84.asm,10165,STA.B !player_action                            ;84CA11;0000D4;
+stamina,!game_state,src/code_banks/bank_84.asm,10174,LDA.B !game_state
+stamina,!game_state,src/code_banks/bank_84.asm,10194,LDA.B !game_state                            ;84CA51;0000D2;
+stamina,!game_state,src/code_banks/bank_84.asm,10196,STA.B !game_state                            ;84CA56;0000D2;
+stamina,!player_action,src/code_banks/bank_84.asm,10229,STA.B !player_action                            ;84CA99;0000D4;
+stamina,!player_action,src/code_banks/bank_84.asm,10235,STA.B !player_action
+stamina,!game_state,src/code_banks/bank_84.asm,10242,LDA.B !game_state
+stamina,!game_state,src/code_banks/bank_84.asm,10247,+ LDA.B !game_state
+stamina,!game_state,src/code_banks/bank_84.asm,10258,LDA.B !game_state
+stamina,!player_action,src/code_banks/bank_84.asm,10281,STA.B !player_action
+stamina,!player_action,src/code_banks/bank_84.asm,10300,STA.B !player_action                            ;84CB28;0000D4;
+stamina,!player_action,src/code_banks/bank_84.asm,10407,STA.B !player_action                            ;84CC0C;0000D4;
+stamina,!game_state,src/code_banks/bank_84.asm,10411,AND.B !game_state                            ;84CC16;0000D2;
+stamina,!game_state,src/code_banks/bank_84.asm,10412,STA.B !game_state                            ;84CC18;0000D2;
+stamina,!player_action,src/code_banks/bank_84.asm,10517,STA.B !player_action                            ;84CCED;0000D4;
+stamina,!game_state,src/code_banks/bank_84.asm,10594,LDA.B !game_state
+stamina,!game_state,src/code_banks/bank_84.asm,10600,LDA.B !game_state
+stamina,!game_state,src/code_banks/bank_84.asm,10606,LDA.B !game_state
+stamina,!player_action,src/code_banks/bank_84.asm,10612,LDA.B !player_action
+stamina,!player_action,src/code_banks/bank_84.asm,10618,LDA.B !player_action
+stamina,!player_action,src/code_banks/bank_84.asm,10624,LDA.B !player_action
+tools_items,!tool_selected,src/code_banks/bank_84.asm,10635,LDA.W !tool_selected
+stamina,!player_action,src/code_banks/bank_84.asm,10640,STA.B !player_action
+stamina,!player_action,src/code_banks/bank_84.asm,10648,STA.B !player_action
+stamina,!player_action,src/code_banks/bank_84.asm,10654,STA.B !player_action
+stamina,!player_action,src/code_banks/bank_84.asm,10660,STA.B !player_action
+stamina,!game_state,src/code_banks/bank_84.asm,10677,LDA.B !game_state
+stamina,!game_state,src/code_banks/bank_84.asm,10683,LDA.B !game_state
+stamina,!game_state,src/code_banks/bank_84.asm,10689,LDA.B !game_state
+stamina,!player_action,src/code_banks/bank_84.asm,10701,STA.B !player_action
+stamina,!game_state,src/code_banks/bank_84.asm,10708,LDA.B !game_state
+stamina,!game_state,src/code_banks/bank_84.asm,10714,LDA.B !game_state
+stamina,!game_state,src/code_banks/bank_84.asm,10720,LDA.B !game_state
+stamina,!player_action,src/code_banks/bank_84.asm,10732,STA.B !player_action
+stamina,!game_state,src/code_banks/bank_84.asm,10739,LDA.B !game_state
+stamina,!game_state,src/code_banks/bank_84.asm,10745,LDA.B !game_state
+stamina,!game_state,src/code_banks/bank_84.asm,10751,LDA.B !game_state
+stamina,!player_action,src/code_banks/bank_84.asm,10758,STA.B !player_action
+stamina,!game_state,src/code_banks/bank_84.asm,10765,LDA.B !game_state
+stamina,!game_state,src/code_banks/bank_84.asm,10772,LDA.B !game_state
+stamina,!game_state,src/code_banks/bank_84.asm,10778,LDA.B !game_state
+stamina,!player_action,src/code_banks/bank_84.asm,10785,STA.B !player_action
+stamina,!game_state,src/constants/ram.asm,30,!game_state = $D2 ;16b
+time_day_cycle,!palette_to_load,src/constants/ram.asm,90,!palette_to_load = $017B ;8b
+time_day_cycle,!next_hourly_palette,src/constants/ram.asm,91,!next_hourly_palette = $017C ;8b
+stamina,!max_stamina,src/constants/ram.asm,203,!max_stamina = $0917 ;8b
+stamina,!current_stamina,src/constants/ram.asm,204,!current_stamina = $0918 ;8b
+tools_items,!item_on_hand,src/constants/ram.asm,208,!item_on_hand = $091D ;8b PASS24: held item ID currently carried/used; zero means empty hands.
+tools_items,!old_item_on_hand,src/constants/ram.asm,209,!old_item_on_hand = $091E ;8b
+tools_items,!tool_selected,src/constants/ram.asm,211,!tool_selected = $0921 ;8b PASS24: active tool slot selected from inventory/tool shed display.
+tools_items,!tool_backpack,src/constants/ram.asm,213,!tool_backpack = $0923 ;8b PASS24: secondary/backpack tool slot used by inventory/tool-return flows.
+stamina,!player_action,src/constants/ram.asm,216,!player_action = $D4 ;16b TODO
+time_day_cycle,!time_running,src/constants/ram.asm,257,"!time_running = $0973 ;16b 0:stop, 1:run, 2:skip to next day"
+time_day_cycle,!year,src/constants/ram.asm,258,!year = $7F1F18 ;8b
+time_day_cycle,!season,src/constants/ram.asm,259,!season = $7F1F19 ;8b
+time_day_cycle,!weekday,src/constants/ram.asm,260,!weekday = $7F1F1A ;8b
+time_day_cycle,!day,src/constants/ram.asm,261,!day = $7F1F1B ;8b
+time_day_cycle,!hour,src/constants/ram.asm,262,!hour = $7F1F1C ;8b military time in hex
+time_day_cycle,!minutes,src/constants/ram.asm,263,!minutes = $7F1F1D ;8b
+time_day_cycle,!seconds,src/constants/ram.asm,264,!seconds = $7F1F1E ;8b
+tools_items,!watering_can_water,src/constants/ram.asm,270,!watering_can_water = $0926 ;8b
+tools_items,!seeds_grass_N,src/constants/ram.asm,271,!seeds_grass_N = $0927 ;8b
+tools_items,!seeds_corn_N,src/constants/ram.asm,272,!seeds_corn_N = $0928 ;8b
+tools_items,!seeds_tomato_N,src/constants/ram.asm,273,!seeds_tomato_N = $0929 ;8b
+tools_items,!seeds_potato_N,src/constants/ram.asm,274,!seeds_potato_N = $092A ;8b
+tools_items,!seeds_turnip_N,src/constants/ram.asm,275,!seeds_turnip_N = $092B ;8b
+tools_items,!feed_cow_N,src/constants/ram.asm,276,!feed_cow_N = $092C ;8b
+tools_items,!feed_chicks_N,src/constants/ram.asm,277,!feed_chicks_N = $092D ;8b
+shipping_money,!shipping_moneyL,src/constants/ram.asm,284,!shipping_moneyL = $7F1F07 ;24-bit daily shipping accumulator low word. Added to wallet at night reset.
+shipping_money,!shipping_moneyH,src/constants/ram.asm,285,!shipping_moneyH = $7F1F09 ;24-bit daily shipping accumulator high byte.
+time_day_cycle,!weather_tomorrow,src/constants/ram.asm,292,!weather_tomorrow = $098C ;8b
+shipping_money,!moneyL,src/constants/ram.asm,327,!moneyL = $7F1F04 ;wallet money low word. Used with !moneyH as 24-bit value.
+shipping_money,!moneyH,src/constants/ram.asm,327,!moneyL = $7F1F04 ;wallet money low word. Used with !moneyH as 24-bit value.
+shipping_money,!moneyH,src/constants/ram.asm,328,!moneyH = $7F1F06 ;wallet money high byte. AddMoney clamps wallet to $0F423F.
+tools_items,!shed_items_row_1,src/constants/ram.asm,329,!shed_items_row_1 = $7F1F00 ;8b tomc ahps
+tools_items,!shed_items_row_2,src/constants/ram.asm,338,!shed_items_row_2 = $7F1F01 ;8b wrip gbmc
+tools_items,!shed_items_row_3,src/constants/ram.asm,347,!shed_items_row_3 = $7F1F02 ;8b fdbr ahps
+tools_items,!shed_items_row_4,src/constants/ram.asm,356,!shed_items_row_4 = $7F1F03 ;b ? TODO

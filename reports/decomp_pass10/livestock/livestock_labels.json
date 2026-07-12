@@ -1,0 +1,626 @@
+[
+  {
+    "label": "SetCowNameBought",
+    "addr": "80815F",
+    "file": "src/code_banks/bank_80.asm",
+    "line": 144
+  },
+  {
+    "label": "SetCowNameBorn",
+    "addr": "8081D2",
+    "file": "src/code_banks/bank_80.asm",
+    "line": 189
+  },
+  {
+    "label": "SetDogName",
+    "addr": "808254",
+    "file": "src/code_banks/bank_80.asm",
+    "line": 239
+  },
+  {
+    "label": "SetHorseName",
+    "addr": "8082C6",
+    "file": "src/code_banks/bank_80.asm",
+    "line": 286
+  },
+  {
+    "label": "ReplaceTilesBarn",
+    "addr": "81B0A8",
+    "file": "src/code_banks/bank_81.asm",
+    "line": 4975
+  },
+  {
+    "label": "Cow_Feed_Flags",
+    "addr": "82A571",
+    "file": "src/code_banks/bank_82.asm",
+    "line": 1920
+  },
+  {
+    "label": "ToolAnimationCowMedicine",
+    "addr": "829142",
+    "file": "src/code_banks/bank_82_toolanimation_subrutines.asm",
+    "line": 70
+  },
+  {
+    "label": "ToolAnimationMilker",
+    "addr": "82918D",
+    "file": "src/code_banks/bank_82_toolanimation_subrutines.asm",
+    "line": 114
+  },
+  {
+    "label": "ToolAnimationChickenFeed",
+    "addr": "82923F",
+    "file": "src/code_banks/bank_82_toolanimation_subrutines.asm",
+    "line": 226
+  },
+  {
+    "label": "ToolAnimationCowFeed",
+    "addr": "82924B",
+    "file": "src/code_banks/bank_82_toolanimation_subrutines.asm",
+    "line": 234
+  },
+  {
+    "label": "ToolUsedCowMedicine",
+    "addr": "829B11",
+    "file": "src/code_banks/bank_82_toolused_subrutines.asm",
+    "line": 948
+  },
+  {
+    "label": "ToolUsedMilker",
+    "addr": "829CC0",
+    "file": "src/code_banks/bank_82_toolused_subrutines.asm",
+    "line": 1152
+  },
+  {
+    "label": "ToolUsedChickenFeed",
+    "addr": "82A414",
+    "file": "src/code_banks/bank_82_toolused_subrutines.asm",
+    "line": 2018
+  },
+  {
+    "label": "ToolUsedCowFeed",
+    "addr": "82A4C2",
+    "file": "src/code_banks/bank_82_toolused_subrutines.asm",
+    "line": 2097
+  },
+  {
+    "label": "Livestock_DailyStatusAndFeedingUpdate",
+    "addr": "83BC5A",
+    "file": "src/code_banks/bank_83.asm",
+    "line": 6723
+  },
+  {
+    "label": "Livestock_SpawnVisibleAnimalObjects",
+    "addr": "",
+    "file": "src/code_banks/bank_83.asm",
+    "line": 7513
+  },
+  {
+    "label": "AddNewChicken",
+    "addr": "83C807",
+    "file": "src/code_banks/bank_83.asm",
+    "line": 8324
+  },
+  {
+    "label": "AddNewCow",
+    "addr": "83C8DC",
+    "file": "src/code_banks/bank_83.asm",
+    "line": 8447
+  },
+  {
+    "label": "GetChickenPointer",
+    "addr": "83C995",
+    "file": "src/code_banks/bank_83.asm",
+    "line": 8555
+  },
+  {
+    "label": "GetCowPointer",
+    "addr": "83C9A7",
+    "file": "src/code_banks/bank_83.asm",
+    "line": 8571
+  },
+  {
+    "label": "UnusedBarnCoopCheck",
+    "addr": "83C9BA",
+    "file": "src/code_banks/bank_83.asm",
+    "line": 8588
+  },
+  {
+    "label": "Chicken_CoopSpawnPositionTable",
+    "addr": "",
+    "file": "src/code_banks/bank_83.asm",
+    "line": 8646
+  },
+  {
+    "label": "Cow_BarnSpawnPositionTable",
+    "addr": "",
+    "file": "src/code_banks/bank_83.asm",
+    "line": 8651
+  },
+  {
+    "label": "Chicken_EggLaidBitmaskTable",
+    "addr": "",
+    "file": "src/code_banks/bank_83.asm",
+    "line": 8655
+  },
+  {
+    "label": "Event_UNKChickenRelated",
+    "addr": "849857",
+    "file": "src/code_banks/bank_84.asm",
+    "line": 3377
+  },
+  {
+    "label": "Event_UNKCowRelated",
+    "addr": "849AD4",
+    "file": "src/code_banks/bank_84.asm",
+    "line": 3710
+  },
+  {
+    "label": "Event_UNKDogRelated",
+    "addr": "84AF06",
+    "file": "src/code_banks/bank_84.asm",
+    "line": 6482
+  },
+  {
+    "label": "Event_UNKChickenRelated2",
+    "addr": "84BBDA",
+    "file": "src/code_banks/bank_84.asm",
+    "line": 8241
+  },
+  {
+    "label": "Text_Manual_Milker",
+    "addr": "",
+    "file": "src/data_banks/bank_B6.asm",
+    "line": 292
+  },
+  {
+    "label": "Text_Cow_Talk",
+    "addr": "",
+    "file": "src/data_banks/bank_B6.asm",
+    "line": 556
+  },
+  {
+    "label": "Text_Cow_Talk_Cranky",
+    "addr": "",
+    "file": "src/data_banks/bank_B6.asm",
+    "line": 563
+  },
+  {
+    "label": "Text_Cow_Talk_Sick",
+    "addr": "",
+    "file": "src/data_banks/bank_B6.asm",
+    "line": 567
+  },
+  {
+    "label": "Text_Cow_Talk_Pregnant",
+    "addr": "",
+    "file": "src/data_banks/bank_B6.asm",
+    "line": 578
+  },
+  {
+    "label": "Text_036_Animal_AskFloristFlowersAskLivestock",
+    "addr": "",
+    "file": "src/data_banks/bank_B6.asm",
+    "line": 607
+  },
+  {
+    "label": "Text_052_Animal_HicWorkingLikeDogOnly",
+    "addr": "",
+    "file": "src/data_banks/bank_B6.asm",
+    "line": 978
+  },
+  {
+    "label": "Text_05C_Animal_ToughTakeCareCowsTake",
+    "addr": "",
+    "file": "src/data_banks/bank_B6.asm",
+    "line": 1110
+  },
+  {
+    "label": "Text_05D_Animal_HensLayEggsPutCage",
+    "addr": "",
+    "file": "src/data_banks/bank_B6.asm",
+    "line": 1132
+  },
+  {
+    "label": "Text_05E_Weather_YoungBoyPutLivestockInside",
+    "addr": "",
+    "file": "src/data_banks/bank_B6.asm",
+    "line": 1152
+  },
+  {
+    "label": "Text_05F_Animal_KnowCowsGiveMoreMilk",
+    "addr": "",
+    "file": "src/data_banks/bank_B6.asm",
+    "line": 1164
+  },
+  {
+    "label": "Text_0CE_Animal_EiBarkWildDogswhenCome",
+    "addr": "",
+    "file": "src/data_banks/bank_B6.asm",
+    "line": 2294
+  },
+  {
+    "label": "Text_100_Sign_ShippingBoxLivestockAfterTalking",
+    "addr": "",
+    "file": "src/data_banks/bank_B7.asm",
+    "line": 556
+  },
+  {
+    "label": "Text_10E_Manual_HowdyPutThoseCowsPen",
+    "addr": "",
+    "file": "src/data_banks/bank_B7.asm",
+    "line": 755
+  },
+  {
+    "label": "Text_14A_Animal_ThenCowNowMineHawker",
+    "addr": "",
+    "file": "src/data_banks/bank_B7.asm",
+    "line": 1549
+  },
+  {
+    "label": "Text_14B_Sign_CowMineNowPutSeed",
+    "addr": "",
+    "file": "src/data_banks/bank_B7.asm",
+    "line": 1559
+  },
+  {
+    "label": "Text_15F_Animal_HavePutLivestockPenLets",
+    "addr": "",
+    "file": "src/data_banks/bank_B7.asm",
+    "line": 1795
+  },
+  {
+    "label": "Text_16C_Weather_CowsSimpleKeepOutGround",
+    "addr": "",
+    "file": "src/data_banks/bank_B7.asm",
+    "line": 1908
+  },
+  {
+    "label": "Text_172_Animal_HaveSeenMoleScaresCows",
+    "addr": "",
+    "file": "src/data_banks/bank_B7.asm",
+    "line": 1975
+  },
+  {
+    "label": "Text_187_Animal_AutoMilkingYogurtMakerSpecial",
+    "addr": "",
+    "file": "src/data_banks/bank_B7.asm",
+    "line": 2110
+  },
+  {
+    "label": "Text_273_Weather_InformationEventHaveAnnualeggFestival",
+    "addr": "",
+    "file": "src/data_banks/bank_B8.asm",
+    "line": 2151
+  },
+  {
+    "label": "Text_274_Animal_EggFestivalTomorrowStopWork",
+    "addr": "",
+    "file": "src/data_banks/bank_B8.asm",
+    "line": 2172
+  },
+  {
+    "label": "Text_2A7_Animal_UsedPlentyMilkEggs",
+    "addr": "",
+    "file": "src/data_banks/bank_B9.asm",
+    "line": 279
+  },
+  {
+    "label": "Text_2DD_Animal_NowAnnualEggSearchinggameAutumn",
+    "addr": "",
+    "file": "src/data_banks/bank_B9.asm",
+    "line": 805
+  },
+  {
+    "label": "Text_2EA_Animal_WinnerYearsEggFestivalMr",
+    "addr": "",
+    "file": "src/data_banks/bank_B9.asm",
+    "line": 917
+  },
+  {
+    "label": "Text_2FB_Manual_BuyingCowThenGiveBell",
+    "addr": "",
+    "file": "src/data_banks/bank_B9.asm",
+    "line": 1055
+  },
+  {
+    "label": "Text_300_Animal_HorseHasBecomeBigMade",
+    "addr": "",
+    "file": "src/data_banks/bank_B9.asm",
+    "line": 1121
+  },
+  {
+    "label": "Text_301_Animal_MedicineCowsSickHealsOnly",
+    "addr": "",
+    "file": "src/data_banks/bank_B9.asm",
+    "line": 1145
+  },
+  {
+    "label": "Text_305_Animal_WantTodayBuyCowSell",
+    "addr": "",
+    "file": "src/data_banks/bank_B9.asm",
+    "line": 1198
+  },
+  {
+    "label": "Text_307_Animal_CowCostsGBuyingOne",
+    "addr": "",
+    "file": "src/data_banks/bank_B9.asm",
+    "line": 1219
+  },
+  {
+    "label": "Text_309_Animal_IfWantSellCowsAgain",
+    "addr": "",
+    "file": "src/data_banks/bank_B9.asm",
+    "line": 1240
+  },
+  {
+    "label": "Text_30A_Animal_ChickenCostsGButWant",
+    "addr": "",
+    "file": "src/data_banks/bank_B9.asm",
+    "line": 1249
+  },
+  {
+    "label": "Text_30C_Animal_PutCowPenTakeGood",
+    "addr": "",
+    "file": "src/data_banks/bank_B9.asm",
+    "line": 1277
+  },
+  {
+    "label": "Text_30D_Animal_EvenThinkSellingCowCondition",
+    "addr": "",
+    "file": "src/data_banks/bank_B9.asm",
+    "line": 1293
+  },
+  {
+    "label": "Text_312_Manual_MilkerMilkUsingTowardCow",
+    "addr": "",
+    "file": "src/data_banks/bank_B9.asm",
+    "line": 1349
+  },
+  {
+    "label": "Text_314_Manual_BrushCowsBecomeHappyBrush",
+    "addr": "",
+    "file": "src/data_banks/bank_B9.asm",
+    "line": 1374
+  },
+  {
+    "label": "Text_315_Animal_FatherHeavenHelpPreciousCow",
+    "addr": "",
+    "file": "src/data_banks/bank_B9.asm",
+    "line": 1399
+  },
+  {
+    "label": "Text_316_Animal_IdiotTellTakeCareCows",
+    "addr": "",
+    "file": "src/data_banks/bank_B9.asm",
+    "line": 1407
+  },
+  {
+    "label": "Text_341_Sign_FeedCowsFeedingsPerBag",
+    "addr": "",
+    "file": "src/data_banks/bank_B9.asm",
+    "line": 1989
+  },
+  {
+    "label": "Text_342_Sign_FeedChickensFeedingsPerBag",
+    "addr": "",
+    "file": "src/data_banks/bank_B9.asm",
+    "line": 2015
+  },
+  {
+    "label": "Text_34B_Animal_PlaceHatchEggsPlaceEggs",
+    "addr": "",
+    "file": "src/data_banks/bank_B9.asm",
+    "line": 2203
+  },
+  {
+    "label": "Text_34C_Animal_ShippingBoxEggs",
+    "addr": "",
+    "file": "src/data_banks/bank_B9.asm",
+    "line": 2211
+  },
+  {
+    "label": "Text_34D_Animal_ShippingBoxMilk",
+    "addr": "",
+    "file": "src/data_banks/bank_B9.asm",
+    "line": 2215
+  },
+  {
+    "label": "Text_34E_Animal_GetCowsGiveBirth",
+    "addr": "",
+    "file": "src/data_banks/bank_B9.asm",
+    "line": 2219
+  },
+  {
+    "label": "Text_350_Animal_MilkBuyingGdoAgreeMoney",
+    "addr": "",
+    "file": "src/data_banks/bank_B9.asm",
+    "line": 2236
+  },
+  {
+    "label": "Text_351_Animal_MilkBuyingGbutMoneyHv",
+    "addr": "",
+    "file": "src/data_banks/bank_B9.asm",
+    "line": 2252
+  },
+  {
+    "label": "Text_352_Animal_MilkBuyingGbutMoneyHw",
+    "addr": "",
+    "file": "src/data_banks/bank_B9.asm",
+    "line": 2268
+  },
+  {
+    "label": "Text_357_Animal_FreshEggBuyingGBut",
+    "addr": "",
+    "file": "src/data_banks/bank_BA.asm",
+    "line": 24
+  },
+  {
+    "label": "Text_360_Animal_GoodLordGoldenEggNever",
+    "addr": "",
+    "file": "src/data_banks/bank_BA.asm",
+    "line": 180
+  },
+  {
+    "label": "Text_37C_Animal_LooksLikeOrnamentChickenBut",
+    "addr": "",
+    "file": "src/data_banks/bank_BA.asm",
+    "line": 441
+  },
+  {
+    "label": "Text_384_Animal_PrizeEggFestivalCharmProtect",
+    "addr": "",
+    "file": "src/data_banks/bank_BA.asm",
+    "line": 497
+  },
+  {
+    "label": "Text_38F_Animal_WinnerYearsEggFestivalLivestock",
+    "addr": "",
+    "file": "src/data_banks/bank_BA.asm",
+    "line": 581
+  },
+  {
+    "label": "Text_390_Animal_BeepTimeUpNextEgg",
+    "addr": "",
+    "file": "src/data_banks/bank_BA.asm",
+    "line": 592
+  },
+  {
+    "label": "Text_3A3_Animal_AhChickenFeather",
+    "addr": "",
+    "file": "src/data_banks/bank_BA.asm",
+    "line": 810
+  },
+  {
+    "label": "Text_3B7_Animal_BeingCrowdedMakesLivestockStressed",
+    "addr": "",
+    "file": "src/data_banks/bank_BA.asm",
+    "line": 940
+  },
+  {
+    "label": "Text_3CF_Manual_PrettyHardMoveCowsAs",
+    "addr": "",
+    "file": "src/data_banks/bank_BA.asm",
+    "line": 1197
+  },
+  {
+    "label": "Text_3D0_Animal_DealingLivestocktodayBecomeSickOutside",
+    "addr": "",
+    "file": "src/data_banks/bank_BA.asm",
+    "line": 1218
+  },
+  {
+    "label": "Text_3F2_Animal_PrizeEggFestivalDifferentEvery",
+    "addr": "",
+    "file": "src/data_banks/bank_BA.asm",
+    "line": 1584
+  },
+  {
+    "label": "Text_3F3_Animal_EggFestivalHeldPublicSquare",
+    "addr": "",
+    "file": "src/data_banks/bank_BA.asm",
+    "line": 1597
+  },
+  {
+    "label": "Text_3F4_Animal_WinAgainEggFestivalTomorrow",
+    "addr": "",
+    "file": "src/data_banks/bank_BA.asm",
+    "line": 1607
+  },
+  {
+    "label": "Text_407_Animal_WinterGoodTimeFriendsLivestock",
+    "addr": "",
+    "file": "src/data_banks/bank_BA.asm",
+    "line": 1799
+  },
+  {
+    "label": "Text_418_Animal_UumWantEgg",
+    "addr": "",
+    "file": "src/data_banks/bank_BA.asm",
+    "line": 1977
+  },
+  {
+    "label": "Text_41B_Animal_WantEggWantOneEgg",
+    "addr": "",
+    "file": "src/data_banks/bank_BA.asm",
+    "line": 1995
+  },
+  {
+    "label": "Text_426_Animal_HearWildDogsSometimesCome",
+    "addr": "",
+    "file": "src/data_banks/bank_BA.asm",
+    "line": 2083
+  },
+  {
+    "label": "Text_445_Animal_CowCChickenC",
+    "addr": "",
+    "file": "src/data_banks/bank_BB.asm",
+    "line": 109
+  },
+  {
+    "label": "Text_447_Animal_CowsBestAffectionRateEk",
+    "addr": "",
+    "file": "src/data_banks/bank_BB.asm",
+    "line": 119
+  },
+  {
+    "label": "Text_459_Animal_LivestockNoteCowChickenMilk",
+    "addr": "",
+    "file": "src/data_banks/bank_BB.asm",
+    "line": 287
+  },
+  {
+    "label": "Text_45A_Weather_CowsSaleYoungOnesMilk",
+    "addr": "",
+    "file": "src/data_banks/bank_BB.asm",
+    "line": 299
+  },
+  {
+    "label": "Text_45B_Manual_EquipMilkerPointYButton",
+    "addr": "",
+    "file": "src/data_banks/bank_BB.asm",
+    "line": 345
+  },
+  {
+    "label": "Text_45C_Weather_CowsEatGrownGrassGrass",
+    "addr": "",
+    "file": "src/data_banks/bank_BB.asm",
+    "line": 376
+  },
+  {
+    "label": "Text_45D_Weather_ChickensLayOneEggDay",
+    "addr": "",
+    "file": "src/data_banks/bank_BB.asm",
+    "line": 400
+  },
+  {
+    "label": "Text_45E_Animal_EggsBecomeChicksDayswhenIncubate",
+    "addr": "",
+    "file": "src/data_banks/bank_BB.asm",
+    "line": 431
+  },
+  {
+    "label": "Text_48F_Animal_StrangeLookingOrnamentofChickenLooks",
+    "addr": "",
+    "file": "src/data_banks/bank_BB.asm",
+    "line": 1043
+  },
+  {
+    "label": "MapEggFestival",
+    "addr": "80ACBD",
+    "file": "src/maps/Maps_Graphics.asm",
+    "line": 350
+  },
+  {
+    "label": "MapBarn",
+    "addr": "80AFCE",
+    "file": "src/maps/Maps_Graphics.asm",
+    "line": 888
+  },
+  {
+    "label": "MapCoop",
+    "addr": "80AFE7",
+    "file": "src/maps/Maps_Graphics.asm",
+    "line": 906
+  }
+]

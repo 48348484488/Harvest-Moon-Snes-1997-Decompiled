@@ -1,0 +1,2412 @@
+[
+  {
+    "address": "$80:DD5B",
+    "label": "PaletteAnimScript_DD5B",
+    "colors_count": 8,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$DD5B",
+    "self_loop": "yes",
+    "colors": "$7F79 $3A11 $6A8E $5E0D $6AD2 $5E0D $6A8E $3A11"
+  },
+  {
+    "address": "$80:DD78",
+    "label": "PaletteAnimScript_DD78",
+    "colors_count": 8,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$DD78",
+    "self_loop": "yes",
+    "colors": "$6AD2 $6A8E $5E0D $6AD2 $3A11 $6AD2 $5E0D $6A8E"
+  },
+  {
+    "address": "$80:DD95",
+    "label": "PaletteAnimScript_DD95",
+    "colors_count": 8,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$DD95",
+    "self_loop": "yes",
+    "colors": "$6A8E $5E0D $6AD2 $3A11 $5E0D $3A11 $6AD2 $5E0D"
+  },
+  {
+    "address": "$80:DDB2",
+    "label": "PaletteAnimScript_DDB2",
+    "colors_count": 8,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$DDB2",
+    "self_loop": "yes",
+    "colors": "$5E0D $6AD2 $4253 $5E0D $6A8E $5E0D $4253 $6AD2"
+  },
+  {
+    "address": "$80:DDCF",
+    "label": "PaletteAnimScript_DDCF",
+    "colors_count": 8,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$DDCF",
+    "self_loop": "yes",
+    "colors": "$539D $2E12 $1DFB $1D94 $2EFE $1D94 $1DFB $2E12"
+  },
+  {
+    "address": "$80:DDEC",
+    "label": "PaletteAnimScript_DDEC",
+    "colors_count": 8,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$DDEC",
+    "self_loop": "yes",
+    "colors": "$2EFE $1DFB $1D94 $2EFE $2E12 $2EFE $1D94 $1DFB"
+  },
+  {
+    "address": "$80:DE09",
+    "label": "PaletteAnimScript_DE09",
+    "colors_count": 8,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$DE09",
+    "self_loop": "yes",
+    "colors": "$1DFB $1D94 $2EFE $2E12 $1D94 $2E12 $2EFE $1D94"
+  },
+  {
+    "address": "$80:DE26",
+    "label": "PaletteAnimScript_DE26",
+    "colors_count": 8,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$DE26",
+    "self_loop": "yes",
+    "colors": "$1D94 $2EFE $2E74 $1DFB $1DFB $1DFB $2E74 $2EFE"
+  },
+  {
+    "address": "$80:DE43",
+    "label": "PaletteAnimScript_DE43",
+    "colors_count": 8,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$DE43",
+    "self_loop": "yes",
+    "colors": "$5A52 $314C $356B $2908 $5A52 $2908 $356B $314C"
+  },
+  {
+    "address": "$80:DE60",
+    "label": "PaletteAnimScript_DE60",
+    "colors_count": 8,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$DE60",
+    "self_loop": "yes",
+    "colors": "$45EF $49EF $2908 $5A52 $314C $5A52 $2908 $49EF"
+  },
+  {
+    "address": "$80:DE7D",
+    "label": "PaletteAnimScript_DE7D",
+    "colors_count": 8,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$DE7D",
+    "self_loop": "yes",
+    "colors": "$356B $394A $5A52 $314C $2908 $314C $5A52 $394A"
+  },
+  {
+    "address": "$80:DE9A",
+    "label": "PaletteAnimScript_DE9A",
+    "colors_count": 8,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$DE9A",
+    "self_loop": "yes",
+    "colors": "$2908 $5A52 $314C $356B $356B $356B $314C $5A52"
+  },
+  {
+    "address": "$80:DEB7",
+    "label": "PaletteAnimScript_DEB7",
+    "colors_count": 8,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$DEB7",
+    "self_loop": "yes",
+    "colors": "$456B $1CE7 $28E7 $2908 $456B $2908 $28E7 $1CE7"
+  },
+  {
+    "address": "$80:DED4",
+    "label": "PaletteAnimScript_DED4",
+    "colors_count": 8,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$DED4",
+    "self_loop": "yes",
+    "colors": "$3508 $3508 $28E7 $2908 $456B $2908 $28E7 $3508"
+  },
+  {
+    "address": "$80:DEF1",
+    "label": "PaletteAnimScript_DEF1",
+    "colors_count": 8,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$DEF1",
+    "self_loop": "yes",
+    "colors": "$28E7 $28E7 $456B $1CE7 $290B $1CE7 $456B $28E7"
+  },
+  {
+    "address": "$80:DF0E",
+    "label": "PaletteAnimScript_DF0E",
+    "colors_count": 8,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$DF0E",
+    "self_loop": "yes",
+    "colors": "$28C5 $456B $3508 $28E7 $1CE7 $28E7 $3508 $456B"
+  },
+  {
+    "address": "$80:DF2B",
+    "label": "PaletteAnimScript_DF2B",
+    "colors_count": 8,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$DF2B",
+    "self_loop": "yes",
+    "colors": "$7F99 $320F $5A8E $524D $62D2 $524D $5A8E $320F"
+  },
+  {
+    "address": "$80:DF48",
+    "label": "PaletteAnimScript_DF48",
+    "colors_count": 8,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$DF48",
+    "self_loop": "yes",
+    "colors": "$62D2 $5A8E $524D $62D2 $320F $62D2 $524D $5A8E"
+  },
+  {
+    "address": "$80:DF65",
+    "label": "PaletteAnimScript_DF65",
+    "colors_count": 8,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$DF65",
+    "self_loop": "yes",
+    "colors": "$5A8E $524D $62D2 $320F $5A8E $320F $62D2 $524D"
+  },
+  {
+    "address": "$80:DF82",
+    "label": "PaletteAnimScript_DF82",
+    "colors_count": 8,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$DF82",
+    "self_loop": "yes",
+    "colors": "$524D $62D2 $320F $5A8E $524D $5A8E $320F $62D2"
+  },
+  {
+    "address": "$80:DF9F",
+    "label": "PaletteAnimScript_DF9F",
+    "colors_count": 8,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$DF9F",
+    "self_loop": "yes",
+    "colors": "$23FE $2298 $11DB $029B $031F $029B $11DB $2298"
+  },
+  {
+    "address": "$80:DFBC",
+    "label": "PaletteAnimScript_DFBC",
+    "colors_count": 8,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$DFBC",
+    "self_loop": "yes",
+    "colors": "$031F $11DC $01B6 $031F $2276 $031F $01B6 $11DC"
+  },
+  {
+    "address": "$80:DFD9",
+    "label": "PaletteAnimScript_DFD9",
+    "colors_count": 8,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$DFD9",
+    "self_loop": "yes",
+    "colors": "$11DB $01B6 $031F $2276 $125F $2276 $031F $01B6"
+  },
+  {
+    "address": "$80:DFF6",
+    "label": "PaletteAnimScript_DFF6",
+    "colors_count": 8,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$DFF6",
+    "self_loop": "yes",
+    "colors": "$01B6 $031F $2276 $11DB $01B6 $11DB $2276 $031F"
+  },
+  {
+    "address": "$80:E013",
+    "label": "PaletteAnimScript_E013",
+    "colors_count": 8,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$E013",
+    "self_loop": "yes",
+    "colors": "$51CD $216B $496B $4587 $51CD $4587 $496B $216B"
+  },
+  {
+    "address": "$80:E030",
+    "label": "PaletteAnimScript_E030",
+    "colors_count": 8,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$E030",
+    "self_loop": "yes",
+    "colors": "$496B $496B $4587 $51CD $216B $51CD $4587 $496B"
+  },
+  {
+    "address": "$80:E04D",
+    "label": "PaletteAnimScript_E04D",
+    "colors_count": 8,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$E04D",
+    "self_loop": "yes",
+    "colors": "$11DB $01B6 $031F $2276 $125F $2276 $031F $01B6"
+  },
+  {
+    "address": "$80:E06A",
+    "label": "PaletteAnimScript_E06A",
+    "colors_count": 8,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$E06A",
+    "self_loop": "yes",
+    "colors": "$3507 $51CD $216B $696B $4587 $496B $216B $51CD"
+  },
+  {
+    "address": "$80:E087",
+    "label": "PaletteAnimScript_E087",
+    "colors_count": 8,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$E087",
+    "self_loop": "yes",
+    "colors": "$6140 $20C6 $4104 $30C0 $4564 $30C0 $4104 $20C6"
+  },
+  {
+    "address": "$80:E0A4",
+    "label": "PaletteAnimScript_E0A4",
+    "colors_count": 8,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$E0A4",
+    "self_loop": "yes",
+    "colors": "$4564 $4104 $30C0 $4564 $20C6 $4564 $30C0 $4104"
+  },
+  {
+    "address": "$80:E0C1",
+    "label": "PaletteAnimScript_E0C1",
+    "colors_count": 8,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$E0C1",
+    "self_loop": "yes",
+    "colors": "$4104 $30C0 $4564 $20C6 $4104 $20C6 $4564 $30C0"
+  },
+  {
+    "address": "$80:E0DE",
+    "label": "PaletteAnimScript_E0DE",
+    "colors_count": 8,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$E0DE",
+    "self_loop": "yes",
+    "colors": "$30C0 $4564 $20C6 $4104 $30C0 $4104 $20C6 $4564"
+  },
+  {
+    "address": "$80:E0FB",
+    "label": "PaletteAnimScript_E0FB",
+    "colors_count": 4,
+    "delays": "$08",
+    "installer_refs": 1,
+    "jump_target": "$E0FB",
+    "self_loop": "yes",
+    "colors": "$0150 $0153 $0150 $0153"
+  },
+  {
+    "address": "$80:E10C",
+    "label": "PaletteAnimScript_E10C",
+    "colors_count": 4,
+    "delays": "$08",
+    "installer_refs": 1,
+    "jump_target": "$E10C",
+    "self_loop": "yes",
+    "colors": "$09D7 $09D9 $09D7 $09D9"
+  },
+  {
+    "address": "$80:E11D",
+    "label": "PaletteAnimScript_E11D",
+    "colors_count": 4,
+    "delays": "$08",
+    "installer_refs": 1,
+    "jump_target": "$E11D",
+    "self_loop": "yes",
+    "colors": "$029F $039F $029F $039F"
+  },
+  {
+    "address": "$80:E12E",
+    "label": "PaletteAnimScript_E12E",
+    "colors_count": 4,
+    "delays": "$08",
+    "installer_refs": 1,
+    "jump_target": "$E12E",
+    "self_loop": "yes",
+    "colors": "$019C $029F $019C $029F"
+  },
+  {
+    "address": "$80:E13F",
+    "label": "PaletteAnimScript_E13F",
+    "colors_count": 4,
+    "delays": "$08",
+    "installer_refs": 1,
+    "jump_target": "$E13F",
+    "self_loop": "yes",
+    "colors": "$0138 $019C $0138 $019C"
+  },
+  {
+    "address": "$80:E150",
+    "label": "PaletteAnimScript_E150",
+    "colors_count": 4,
+    "delays": "$08",
+    "installer_refs": 1,
+    "jump_target": "$E150",
+    "self_loop": "yes",
+    "colors": "$00EA $011C $00EA $00EA"
+  },
+  {
+    "address": "$80:E161",
+    "label": "PaletteAnimScript_E161",
+    "colors_count": 4,
+    "delays": "$08",
+    "installer_refs": 1,
+    "jump_target": "$E161",
+    "self_loop": "yes",
+    "colors": "$012D $012D $012D $013B"
+  },
+  {
+    "address": "$80:E172",
+    "label": "PaletteAnimScript_E172",
+    "colors_count": 2,
+    "delays": "$08",
+    "installer_refs": 1,
+    "jump_target": "$E172",
+    "self_loop": "yes",
+    "colors": "$0048 $000C"
+  },
+  {
+    "address": "$80:E17D",
+    "label": "PaletteAnimScript_E17D",
+    "colors_count": 2,
+    "delays": "$08",
+    "installer_refs": 1,
+    "jump_target": "$E17D",
+    "self_loop": "yes",
+    "colors": "$0017 $001A"
+  },
+  {
+    "address": "$80:E188",
+    "label": "PaletteAnimScript_E188",
+    "colors_count": 2,
+    "delays": "$08",
+    "installer_refs": 1,
+    "jump_target": "$E188",
+    "self_loop": "yes",
+    "colors": "$001F $017F"
+  },
+  {
+    "address": "$80:E193",
+    "label": "PaletteAnimScript_E193",
+    "colors_count": 2,
+    "delays": "$08",
+    "installer_refs": 1,
+    "jump_target": "$E193",
+    "self_loop": "yes",
+    "colors": "$01B4 $0219"
+  },
+  {
+    "address": "$80:E19E",
+    "label": "PaletteAnimScript_E19E",
+    "colors_count": 2,
+    "delays": "$08",
+    "installer_refs": 1,
+    "jump_target": "$E19E",
+    "self_loop": "yes",
+    "colors": "$004C $0052"
+  },
+  {
+    "address": "$80:E1A9",
+    "label": "PaletteAnimScript_E1A9",
+    "colors_count": 2,
+    "delays": "$08",
+    "installer_refs": 1,
+    "jump_target": "$E1A9",
+    "self_loop": "yes",
+    "colors": "$02BF $017F"
+  },
+  {
+    "address": "$80:E1B4",
+    "label": "PaletteAnimScript_E1B4",
+    "colors_count": 2,
+    "delays": "$08",
+    "installer_refs": 1,
+    "jump_target": "$E1B4",
+    "self_loop": "yes",
+    "colors": "$009F $035F"
+  },
+  {
+    "address": "$80:E1BF",
+    "label": "PaletteAnimScript_E1BF",
+    "colors_count": 2,
+    "delays": "$08",
+    "installer_refs": 1,
+    "jump_target": "$E1BF",
+    "self_loop": "yes",
+    "colors": "$029F $039F"
+  },
+  {
+    "address": "$80:E1CA",
+    "label": "PaletteAnimScript_E1CA",
+    "colors_count": 4,
+    "delays": "$08",
+    "installer_refs": 1,
+    "jump_target": "$E1CA",
+    "self_loop": "yes",
+    "colors": "$218D $2E10 $2E10 $2E10"
+  },
+  {
+    "address": "$80:E1DB",
+    "label": "PaletteAnimScript_E1DB",
+    "colors_count": 4,
+    "delays": "$08",
+    "installer_refs": 1,
+    "jump_target": "$E1DB",
+    "self_loop": "yes",
+    "colors": "$5F9C $5F7B $4AF9 $5F7B"
+  },
+  {
+    "address": "$80:E1EC",
+    "label": "PaletteAnimScript_E1EC",
+    "colors_count": 4,
+    "delays": "$08",
+    "installer_refs": 1,
+    "jump_target": "$E1EC",
+    "self_loop": "yes",
+    "colors": "$4AF9 $4AF9 $261F $4AF9"
+  },
+  {
+    "address": "$80:E1FD",
+    "label": "PaletteAnimScript_E1FD",
+    "colors_count": 4,
+    "delays": "$08",
+    "installer_refs": 1,
+    "jump_target": "$E1FD",
+    "self_loop": "yes",
+    "colors": "$261F $261F $053E $261F"
+  },
+  {
+    "address": "$80:E20E",
+    "label": "PaletteAnimScript_E20E",
+    "colors_count": 4,
+    "delays": "$08",
+    "installer_refs": 1,
+    "jump_target": "$E20E",
+    "self_loop": "yes",
+    "colors": "$053E $261F $4AF9 $261F"
+  },
+  {
+    "address": "$80:E21F",
+    "label": "PaletteAnimScript_E21F",
+    "colors_count": 4,
+    "delays": "$08",
+    "installer_refs": 1,
+    "jump_target": "$E21F",
+    "self_loop": "yes",
+    "colors": "$261F $4AF9 $4AF9 $4AF9"
+  },
+  {
+    "address": "$80:E230",
+    "label": "PaletteAnimScript_E230",
+    "colors_count": 4,
+    "delays": "$08",
+    "installer_refs": 1,
+    "jump_target": "$E230",
+    "self_loop": "yes",
+    "colors": "$03BF $261F $03BF $261F"
+  },
+  {
+    "address": "$80:E241",
+    "label": "PaletteAnimScript_E241",
+    "colors_count": 4,
+    "delays": "$08",
+    "installer_refs": 1,
+    "jump_target": "$E241",
+    "self_loop": "yes",
+    "colors": "$03BF $261F $053E $261F"
+  },
+  {
+    "address": "$80:E252",
+    "label": "PaletteAnimScript_E252",
+    "colors_count": 2,
+    "delays": "$08",
+    "installer_refs": 1,
+    "jump_target": "$E252",
+    "self_loop": "yes",
+    "colors": "$123F $06BF"
+  },
+  {
+    "address": "$80:E25D",
+    "label": "PaletteAnimScript_E25D",
+    "colors_count": 2,
+    "delays": "$08",
+    "installer_refs": 1,
+    "jump_target": "$E25D",
+    "self_loop": "yes",
+    "colors": "$0048 $004D"
+  },
+  {
+    "address": "$80:E268",
+    "label": "PaletteAnimScript_E268",
+    "colors_count": 2,
+    "delays": "$08",
+    "installer_refs": 1,
+    "jump_target": "$E268",
+    "self_loop": "yes",
+    "colors": "$021F $013A"
+  },
+  {
+    "address": "$80:E273",
+    "label": "PaletteAnimScript_E273",
+    "colors_count": 2,
+    "delays": "$08",
+    "installer_refs": 1,
+    "jump_target": "$E273",
+    "self_loop": "yes",
+    "colors": "$00FA $033F"
+  },
+  {
+    "address": "$80:E27E",
+    "label": "PaletteAnimScript_E27E",
+    "colors_count": 2,
+    "delays": "$08",
+    "installer_refs": 1,
+    "jump_target": "$E27E",
+    "self_loop": "yes",
+    "colors": "$0048 $004F"
+  },
+  {
+    "address": "$80:E289",
+    "label": "PaletteAnimScript_E289",
+    "colors_count": 2,
+    "delays": "$08",
+    "installer_refs": 1,
+    "jump_target": "$E289",
+    "self_loop": "yes",
+    "colors": "$1E9A $1F1F"
+  },
+  {
+    "address": "$80:E294",
+    "label": "PaletteAnimScript_E294",
+    "colors_count": 2,
+    "delays": "$08",
+    "installer_refs": 1,
+    "jump_target": "$E294",
+    "self_loop": "yes",
+    "colors": "$021F $0037"
+  },
+  {
+    "address": "$80:E29F",
+    "label": "PaletteAnimScript_E29F",
+    "colors_count": 2,
+    "delays": "$08",
+    "installer_refs": 1,
+    "jump_target": "$E29F",
+    "self_loop": "yes",
+    "colors": "$0019 $0025"
+  },
+  {
+    "address": "$80:E2AA",
+    "label": "PaletteAnimScript_E2AA",
+    "colors_count": 2,
+    "delays": "$08",
+    "installer_refs": 1,
+    "jump_target": "$E2AA",
+    "self_loop": "yes",
+    "colors": "$2E7F $233F"
+  },
+  {
+    "address": "$80:E2B5",
+    "label": "PaletteAnimScript_E2B5",
+    "colors_count": 2,
+    "delays": "$08",
+    "installer_refs": 1,
+    "jump_target": "$E2B5",
+    "self_loop": "yes",
+    "colors": "$0088 $008C"
+  },
+  {
+    "address": "$80:E2C0",
+    "label": "PaletteAnimScript_E2C0",
+    "colors_count": 2,
+    "delays": "$08",
+    "installer_refs": 1,
+    "jump_target": "$E2C0",
+    "self_loop": "yes",
+    "colors": "$009D $029F"
+  },
+  {
+    "address": "$80:E2CB",
+    "label": "PaletteAnimScript_E2CB",
+    "colors_count": 2,
+    "delays": "$08",
+    "installer_refs": 1,
+    "jump_target": "$E2CB",
+    "self_loop": "yes",
+    "colors": "$021F $011F"
+  },
+  {
+    "address": "$80:E2D6",
+    "label": "PaletteAnimScript_E2D6",
+    "colors_count": 2,
+    "delays": "$08",
+    "installer_refs": 1,
+    "jump_target": "$E2D6",
+    "self_loop": "yes",
+    "colors": "$0090 $009C"
+  },
+  {
+    "address": "$80:E2E1",
+    "label": "PaletteAnimScript_E2E1",
+    "colors_count": 2,
+    "delays": "$08",
+    "installer_refs": 1,
+    "jump_target": "$E2E1",
+    "self_loop": "yes",
+    "colors": "$01DE $02BF"
+  },
+  {
+    "address": "$80:E2EC",
+    "label": "PaletteAnimScript_E2EC",
+    "colors_count": 2,
+    "delays": "$08",
+    "installer_refs": 1,
+    "jump_target": "$E2EC",
+    "self_loop": "yes",
+    "colors": "$004F $00D0"
+  },
+  {
+    "address": "$80:E2F7",
+    "label": "PaletteAnimScript_E2F7",
+    "colors_count": 3,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$E2F7",
+    "self_loop": "yes",
+    "colors": "$5E0F $4A54 $7F17"
+  },
+  {
+    "address": "$80:E305",
+    "label": "PaletteAnimScript_E305",
+    "colors_count": 3,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$E305",
+    "self_loop": "yes",
+    "colors": "$4A54 $7F17 $5E0F"
+  },
+  {
+    "address": "$80:E313",
+    "label": "PaletteAnimScript_E313",
+    "colors_count": 3,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$E313",
+    "self_loop": "yes",
+    "colors": "$7F17 $5E0F $4A54"
+  },
+  {
+    "address": "$80:E321",
+    "label": "PaletteAnimScript_E321",
+    "colors_count": 3,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$E321",
+    "self_loop": "yes",
+    "colors": "$4213 $4257 $56FC"
+  },
+  {
+    "address": "$80:E32F",
+    "label": "PaletteAnimScript_E32F",
+    "colors_count": 3,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$E32F",
+    "self_loop": "yes",
+    "colors": "$4257 $56FC $4213"
+  },
+  {
+    "address": "$80:E33D",
+    "label": "PaletteAnimScript_E33D",
+    "colors_count": 3,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$E33D",
+    "self_loop": "yes",
+    "colors": "$56FC $4213 $4257"
+  },
+  {
+    "address": "$80:E34B",
+    "label": "PaletteAnimScript_E34B",
+    "colors_count": 3,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$E34B",
+    "self_loop": "yes",
+    "colors": "$3D4A $3D4A $458C"
+  },
+  {
+    "address": "$80:E359",
+    "label": "PaletteAnimScript_E359",
+    "colors_count": 3,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$E359",
+    "self_loop": "yes",
+    "colors": "$3D4A $458C $3D4A"
+  },
+  {
+    "address": "$80:E367",
+    "label": "PaletteAnimScript_E367",
+    "colors_count": 3,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$E367",
+    "self_loop": "yes",
+    "colors": "$458C $3D4A $3D4A"
+  },
+  {
+    "address": "$80:E375",
+    "label": "PaletteAnimScript_E375",
+    "colors_count": 3,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$E375",
+    "self_loop": "yes",
+    "colors": "$3129 $2908 $316B"
+  },
+  {
+    "address": "$80:E383",
+    "label": "PaletteAnimScript_E383",
+    "colors_count": 3,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$E383",
+    "self_loop": "yes",
+    "colors": "$2908 $316B $3129"
+  },
+  {
+    "address": "$80:E391",
+    "label": "PaletteAnimScript_E391",
+    "colors_count": 3,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$E391",
+    "self_loop": "yes",
+    "colors": "$316B $3129 $2908"
+  },
+  {
+    "address": "$80:E39F",
+    "label": "PaletteAnimScript_E39F",
+    "colors_count": 3,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$E39F",
+    "self_loop": "yes",
+    "colors": "$6250 $7271 $7F79"
+  },
+  {
+    "address": "$80:E3AD",
+    "label": "PaletteAnimScript_E3AD",
+    "colors_count": 3,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$E3AD",
+    "self_loop": "yes",
+    "colors": "$7271 $7F79 $6250"
+  },
+  {
+    "address": "$80:E3BB",
+    "label": "PaletteAnimScript_E3BB",
+    "colors_count": 3,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$E3BB",
+    "self_loop": "yes",
+    "colors": "$7F79 $6250 $7271"
+  },
+  {
+    "address": "$80:E3C9",
+    "label": "PaletteAnimScript_E3C9",
+    "colors_count": 3,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$E3C9",
+    "self_loop": "yes",
+    "colors": "$5E78 $5654 $7F19"
+  },
+  {
+    "address": "$80:E3D7",
+    "label": "PaletteAnimScript_E3D7",
+    "colors_count": 3,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$E3D7",
+    "self_loop": "yes",
+    "colors": "$5654 $7F19 $5E78"
+  },
+  {
+    "address": "$80:E3E5",
+    "label": "PaletteAnimScript_E3E5",
+    "colors_count": 3,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$E3E5",
+    "self_loop": "yes",
+    "colors": "$7F19 $5E78 $5654"
+  },
+  {
+    "address": "$80:E3F3",
+    "label": "PaletteAnimScript_E3F3",
+    "colors_count": 3,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$E3F3",
+    "self_loop": "yes",
+    "colors": "$3D4A $3D4A $458C"
+  },
+  {
+    "address": "$80:E401",
+    "label": "PaletteAnimScript_E401",
+    "colors_count": 3,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$E401",
+    "self_loop": "yes",
+    "colors": "$3D4A $458C $3D4A"
+  },
+  {
+    "address": "$80:E40F",
+    "label": "PaletteAnimScript_E40F",
+    "colors_count": 3,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$E40F",
+    "self_loop": "yes",
+    "colors": "$458C $3D4A $3D4A"
+  },
+  {
+    "address": "$80:E41D",
+    "label": "PaletteAnimScript_E41D",
+    "colors_count": 3,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$E41D",
+    "self_loop": "yes",
+    "colors": "$30E7 $30E7 $3529"
+  },
+  {
+    "address": "$80:E42B",
+    "label": "PaletteAnimScript_E42B",
+    "colors_count": 3,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$E42B",
+    "self_loop": "yes",
+    "colors": "$30E7 $3529 $30E7"
+  },
+  {
+    "address": "$80:E439",
+    "label": "PaletteAnimScript_E439",
+    "colors_count": 3,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$E439",
+    "self_loop": "yes",
+    "colors": "$3529 $30E7 $30E7"
+  },
+  {
+    "address": "$80:E447",
+    "label": "PaletteAnimScript_E447",
+    "colors_count": 3,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$E447",
+    "self_loop": "yes",
+    "colors": "$4A91 $62CE $6374"
+  },
+  {
+    "address": "$80:E455",
+    "label": "PaletteAnimScript_E455",
+    "colors_count": 3,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$E455",
+    "self_loop": "yes",
+    "colors": "$62CE $6374 $4A91"
+  },
+  {
+    "address": "$80:E463",
+    "label": "PaletteAnimScript_E463",
+    "colors_count": 3,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$E463",
+    "self_loop": "yes",
+    "colors": "$6374 $4A91 $62CE"
+  },
+  {
+    "address": "$80:E471",
+    "label": "PaletteAnimScript_E471",
+    "colors_count": 3,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$E471",
+    "self_loop": "yes",
+    "colors": "$3694 $3254 $3AFC"
+  },
+  {
+    "address": "$80:E47F",
+    "label": "PaletteAnimScript_E47F",
+    "colors_count": 3,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$E47F",
+    "self_loop": "yes",
+    "colors": "$3254 $3AFC $3694"
+  },
+  {
+    "address": "$80:E48D",
+    "label": "PaletteAnimScript_E48D",
+    "colors_count": 3,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$E48D",
+    "self_loop": "yes",
+    "colors": "$3AEC $3694 $3254"
+  },
+  {
+    "address": "$80:E49B",
+    "label": "PaletteAnimScript_E49B",
+    "colors_count": 3,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$E49B",
+    "self_loop": "yes",
+    "colors": "$2DCB $2DCB $360E"
+  },
+  {
+    "address": "$80:E4A9",
+    "label": "PaletteAnimScript_E4A9",
+    "colors_count": 3,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$E4A9",
+    "self_loop": "yes",
+    "colors": "$2DCB $360E $2DCB"
+  },
+  {
+    "address": "$80:E4B7",
+    "label": "PaletteAnimScript_E4B7",
+    "colors_count": 3,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$E4B7",
+    "self_loop": "yes",
+    "colors": "$360E $2DCB $2DCB"
+  },
+  {
+    "address": "$80:E4C5",
+    "label": "PaletteAnimScript_E4C5",
+    "colors_count": 3,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$E4C5",
+    "self_loop": "yes",
+    "colors": "$30E7 $3127 $356A"
+  },
+  {
+    "address": "$80:E4D3",
+    "label": "PaletteAnimScript_E4D3",
+    "colors_count": 3,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$E4D3",
+    "self_loop": "yes",
+    "colors": "$3127 $356A $30E7"
+  },
+  {
+    "address": "$80:E4E1",
+    "label": "PaletteAnimScript_E4E1",
+    "colors_count": 3,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$E4E1",
+    "self_loop": "yes",
+    "colors": "$356A $30E7 $3127"
+  },
+  {
+    "address": "$80:E4EF",
+    "label": "PaletteAnimScript_E4EF",
+    "colors_count": 4,
+    "delays": "$0A $10",
+    "installer_refs": 1,
+    "jump_target": "$E4EF",
+    "self_loop": "yes",
+    "colors": "$2162 $2190 $25D2 $2190"
+  },
+  {
+    "address": "$80:E500",
+    "label": "PaletteAnimScript_E500",
+    "colors_count": 4,
+    "delays": "$0A $10",
+    "installer_refs": 1,
+    "jump_target": "$E500",
+    "self_loop": "yes",
+    "colors": "$0E58 $129A $16DC $129A"
+  },
+  {
+    "address": "$80:E511",
+    "label": "PaletteAnimScript_E511",
+    "colors_count": 4,
+    "delays": "$0A $10",
+    "installer_refs": 1,
+    "jump_target": "$E511",
+    "self_loop": "yes",
+    "colors": "$377D $479F $53DF $479F"
+  },
+  {
+    "address": "$80:E522",
+    "label": "PaletteAnimScript_E522",
+    "colors_count": 4,
+    "delays": "$0A $10",
+    "installer_refs": 1,
+    "jump_target": "$E522",
+    "self_loop": "yes",
+    "colors": "$092C $116F $11B1 $116F"
+  },
+  {
+    "address": "$80:E533",
+    "label": "PaletteAnimScript_E533",
+    "colors_count": 4,
+    "delays": "$0A $10",
+    "installer_refs": 1,
+    "jump_target": "$E533",
+    "self_loop": "yes",
+    "colors": "$0D8E $0DB1 $0DB4 $0DB1"
+  },
+  {
+    "address": "$80:E544",
+    "label": "PaletteAnimScript_E544",
+    "colors_count": 4,
+    "delays": "$0A $10",
+    "installer_refs": 1,
+    "jump_target": "$E544",
+    "self_loop": "yes",
+    "colors": "$36D7 $3719 $377F $3719"
+  },
+  {
+    "address": "$80:E555",
+    "label": "PaletteAnimScript_E555",
+    "colors_count": 4,
+    "delays": "$0A $10",
+    "installer_refs": 1,
+    "jump_target": "$E555",
+    "self_loop": "yes",
+    "colors": "$27DE $3FFF $53FF $3FFF"
+  },
+  {
+    "address": "$80:E566",
+    "label": "PaletteAnimScript_E566",
+    "colors_count": 4,
+    "delays": "$0A $10",
+    "installer_refs": 1,
+    "jump_target": "$E566",
+    "self_loop": "yes",
+    "colors": "$196E $1970 $1992 $1970"
+  },
+  {
+    "address": "$80:E577",
+    "label": "PaletteAnimScript_E577",
+    "colors_count": 4,
+    "delays": "$0A $10",
+    "installer_refs": 1,
+    "jump_target": "$E577",
+    "self_loop": "yes",
+    "colors": "$150A $1D4F $1D90 $1D4F"
+  },
+  {
+    "address": "$80:E588",
+    "label": "PaletteAnimScript_E588",
+    "colors_count": 4,
+    "delays": "$0A $10",
+    "installer_refs": 1,
+    "jump_target": "$E588",
+    "self_loop": "yes",
+    "colors": "$0A18 $0A1C $0A9F $0A1C"
+  },
+  {
+    "address": "$80:E599",
+    "label": "PaletteAnimScript_E599",
+    "colors_count": 4,
+    "delays": "$0A $10",
+    "installer_refs": 1,
+    "jump_target": "$E599",
+    "self_loop": "yes",
+    "colors": "$2F7C $2FBE $4BDF $2FBE"
+  },
+  {
+    "address": "$80:E5AA",
+    "label": "PaletteAnimScript_E5AA",
+    "colors_count": 4,
+    "delays": "$0A $10",
+    "installer_refs": 1,
+    "jump_target": "$E5AA",
+    "self_loop": "yes",
+    "colors": "$090C $116E $1190 $116E"
+  },
+  {
+    "address": "$80:E5BB",
+    "label": "PaletteAnimScript_E5BB",
+    "colors_count": 4,
+    "delays": "$0A $10",
+    "installer_refs": 1,
+    "jump_target": "$E5BB",
+    "self_loop": "yes",
+    "colors": "$1CE8 $210A $216F $210A"
+  },
+  {
+    "address": "$80:E5CC",
+    "label": "PaletteAnimScript_E5CC",
+    "colors_count": 4,
+    "delays": "$0A $10",
+    "installer_refs": 1,
+    "jump_target": "$E5CC",
+    "self_loop": "yes",
+    "colors": "$29F3 $2A19 $327B $2A19"
+  },
+  {
+    "address": "$80:E5DD",
+    "label": "PaletteAnimScript_E5DD",
+    "colors_count": 4,
+    "delays": "$0A $10",
+    "installer_refs": 1,
+    "jump_target": "$E5DD",
+    "self_loop": "yes",
+    "colors": "$3EB8 $3F3D $437F $3F3D"
+  },
+  {
+    "address": "$80:E5EE",
+    "label": "PaletteAnimScript_E5EE",
+    "colors_count": 4,
+    "delays": "$0A $10",
+    "installer_refs": 1,
+    "jump_target": "$E5EE",
+    "self_loop": "yes",
+    "colors": "$1D6C $218E $25AF $218E"
+  },
+  {
+    "address": "$80:E5FF",
+    "label": "PaletteAnimScript_E5FF",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$E5FF",
+    "self_loop": "yes",
+    "colors": "$7F3B $6EB5 $5E2E $51F0 $5233 $6EB7"
+  },
+  {
+    "address": "$80:E616",
+    "label": "PaletteAnimScript_E616",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$E616",
+    "self_loop": "yes",
+    "colors": "$6EB7 $5E2E $51F0 $7F39 $51F0 $5233"
+  },
+  {
+    "address": "$80:E62D",
+    "label": "PaletteAnimScript_E62D",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$E62D",
+    "self_loop": "yes",
+    "colors": "$5E2E $51F0 $7F3B $6EB7 $7F39 $4DD1"
+  },
+  {
+    "address": "$80:E644",
+    "label": "PaletteAnimScript_E644",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$E644",
+    "self_loop": "yes",
+    "colors": "$51F0 $7F39 $6EB7 $5E2E $6EB7 $7F39"
+  },
+  {
+    "address": "$80:E65B",
+    "label": "PaletteAnimScript_E65B",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$E65B",
+    "self_loop": "yes",
+    "colors": "$41F0 $3DF1 $4211 $41F1 $4211 $3DF1"
+  },
+  {
+    "address": "$80:E672",
+    "label": "PaletteAnimScript_E672",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$E672",
+    "self_loop": "yes",
+    "colors": "$537B $42BB $3234 $3233 $3234 $42BB"
+  },
+  {
+    "address": "$80:E689",
+    "label": "PaletteAnimScript_E689",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$E689",
+    "self_loop": "yes",
+    "colors": "$42B8 $3234 $3233 $42DB $3233 $3234"
+  },
+  {
+    "address": "$80:E6A0",
+    "label": "PaletteAnimScript_E6A0",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$E6A0",
+    "self_loop": "yes",
+    "colors": "$3234 $3233 $42DB $32B8 $42DB $3233"
+  },
+  {
+    "address": "$80:E6B7",
+    "label": "PaletteAnimScript_E6B7",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$E6B7",
+    "self_loop": "yes",
+    "colors": "$3233 $42DB $32B8 $3234 $32B8 $42DB"
+  },
+  {
+    "address": "$80:E6CE",
+    "label": "PaletteAnimScript_E6CE",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$E6CE",
+    "self_loop": "yes",
+    "colors": "$21B1 $25D1 $29D1 $3234 $29D1 $25D1"
+  },
+  {
+    "address": "$80:E6E5",
+    "label": "PaletteAnimScript_E6E5",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$E6E5",
+    "self_loop": "yes",
+    "colors": "$3213 $1D8C $29CF $2E11 $29CF $1D8C"
+  },
+  {
+    "address": "$80:E6FC",
+    "label": "PaletteAnimScript_E6FC",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$E6FC",
+    "self_loop": "yes",
+    "colors": "$2DF1 $3233 $1D8C $29CF $1D8C $3233"
+  },
+  {
+    "address": "$80:E713",
+    "label": "PaletteAnimScript_E713",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$E713",
+    "self_loop": "yes",
+    "colors": "$21AF $2E11 $3233 $1D8C $3233 $2E11"
+  },
+  {
+    "address": "$80:E72A",
+    "label": "PaletteAnimScript_E72A",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$E72A",
+    "self_loop": "yes",
+    "colors": "$1D6C $29CF $2E11 $3233 $2E11 $29CF"
+  },
+  {
+    "address": "$80:E741",
+    "label": "PaletteAnimScript_E741",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$E741",
+    "self_loop": "yes",
+    "colors": "$1D4C $1D4C $214C $214C $214C $1D4C"
+  },
+  {
+    "address": "$80:E758",
+    "label": "PaletteAnimScript_E758",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$E758",
+    "self_loop": "yes",
+    "colors": "$218B $192A $1D4B $1D4B $1D4B $192A"
+  },
+  {
+    "address": "$80:E76F",
+    "label": "PaletteAnimScript_E76F",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$E76F",
+    "self_loop": "yes",
+    "colors": "$1D4B $216B $192A $1D4B $192A $216B"
+  },
+  {
+    "address": "$80:E786",
+    "label": "PaletteAnimScript_E786",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$E786",
+    "self_loop": "yes",
+    "colors": "$1D2A $1D48 $214B $192A $214B $1D48"
+  },
+  {
+    "address": "$80:E79D",
+    "label": "PaletteAnimScript_E79D",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$E79D",
+    "self_loop": "yes",
+    "colors": "$1928 $1D4B $1D4B $1D6B $1D4B $1D4B"
+  },
+  {
+    "address": "$80:E7B4",
+    "label": "PaletteAnimScript_E7B4",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$E7B4",
+    "self_loop": "yes",
+    "colors": "$7F52 $5D66 $7D86 $7E4B $7D86 $5D66"
+  },
+  {
+    "address": "$80:E7CB",
+    "label": "PaletteAnimScript_E7CB",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$E7CB",
+    "self_loop": "yes",
+    "colors": "$7E4B $4F32 $5D66 $7D86 $5D66 $7F32"
+  },
+  {
+    "address": "$80:E7E2",
+    "label": "PaletteAnimScript_E7E2",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$E7E2",
+    "self_loop": "yes",
+    "colors": "$7D86 $7E4B $7F32 $5D66 $7F32 $7E4B"
+  },
+  {
+    "address": "$80:E7F9",
+    "label": "PaletteAnimScript_E7F9",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$E7F9",
+    "self_loop": "yes",
+    "colors": "$5D66 $7D86 $7E4B $7F32 $7E4B $7D86"
+  },
+  {
+    "address": "$80:E810",
+    "label": "PaletteAnimScript_E810",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$E810",
+    "self_loop": "yes",
+    "colors": "$5D66 $6186 $6586 $69A6 $6586 $6186"
+  },
+  {
+    "address": "$80:E827",
+    "label": "PaletteAnimScript_E827",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$E827",
+    "self_loop": "yes",
+    "colors": "$3F9E $169E $1218 $1174 $1218 $169E"
+  },
+  {
+    "address": "$80:E83E",
+    "label": "PaletteAnimScript_E83E",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$E83E",
+    "self_loop": "yes",
+    "colors": "$169E $1218 $1174 $2AFA $1174 $1218"
+  },
+  {
+    "address": "$80:E855",
+    "label": "PaletteAnimScript_E855",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$E855",
+    "self_loop": "yes",
+    "colors": "$1218 $1174 $3F9E $169E $3F9E $1174"
+  },
+  {
+    "address": "$80:E86C",
+    "label": "PaletteAnimScript_E86C",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$E86C",
+    "self_loop": "yes",
+    "colors": "$1174 $267B $169E $1218 $169E $267B"
+  },
+  {
+    "address": "$80:E883",
+    "label": "PaletteAnimScript_E883",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$E883",
+    "self_loop": "yes",
+    "colors": "$1DB1 $1DB2 $1DB3 $1DB3 $1DB3 $1DB2"
+  },
+  {
+    "address": "$80:E89A",
+    "label": "PaletteAnimScript_E89A",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$E89A",
+    "self_loop": "yes",
+    "colors": "$0DB3 $09B3 $0991 $0172 $0991 $09B3"
+  },
+  {
+    "address": "$80:E8B1",
+    "label": "PaletteAnimScript_E8B1",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$E8B1",
+    "self_loop": "yes",
+    "colors": "$09B3 $0991 $0172 $0DB3 $0172 $0991"
+  },
+  {
+    "address": "$80:E8C8",
+    "label": "PaletteAnimScript_E8C8",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$E8C8",
+    "self_loop": "yes",
+    "colors": "$0991 $0172 $0DB3 $09B3 $0DB3 $0172"
+  },
+  {
+    "address": "$80:E8DF",
+    "label": "PaletteAnimScript_E8DF",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$E8DF",
+    "self_loop": "yes",
+    "colors": "$0172 $0DB3 $09B3 $0991 $09B3 $0DB3"
+  },
+  {
+    "address": "$80:E8F6",
+    "label": "PaletteAnimScript_E8F6",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$E8F6",
+    "self_loop": "yes",
+    "colors": "$194E $110C $110B $110B $110B $110C"
+  },
+  {
+    "address": "$80:E90D",
+    "label": "PaletteAnimScript_E90D",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$E90D",
+    "self_loop": "yes",
+    "colors": "$110C $110B $110B $194E $110B $110B"
+  },
+  {
+    "address": "$80:E924",
+    "label": "PaletteAnimScript_E924",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$E924",
+    "self_loop": "yes",
+    "colors": "$110B $110B $194E $110C $194E $110B"
+  },
+  {
+    "address": "$80:E93B",
+    "label": "PaletteAnimScript_E93B",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$E93B",
+    "self_loop": "yes",
+    "colors": "$110B $194E $110C $110B $110C $194E"
+  },
+  {
+    "address": "$80:E952",
+    "label": "PaletteAnimScript_E952",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$E952",
+    "self_loop": "yes",
+    "colors": "$21AC $1D8B $0D2B $0D2B $0D2B $1D8B"
+  },
+  {
+    "address": "$80:E969",
+    "label": "PaletteAnimScript_E969",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$E969",
+    "self_loop": "yes",
+    "colors": "$0D2B $0D2B $1D8B $21AC $1D8B $0D2B"
+  },
+  {
+    "address": "$80:E980",
+    "label": "PaletteAnimScript_E980",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$E980",
+    "self_loop": "yes",
+    "colors": "$32FE $21EE $29D1 $2214 $29D1 $21EE"
+  },
+  {
+    "address": "$80:E997",
+    "label": "PaletteAnimScript_E997",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$E997",
+    "self_loop": "yes",
+    "colors": "$29F5 $2E76 $21EE $29D1 $21EE $2E76"
+  },
+  {
+    "address": "$80:E9AE",
+    "label": "PaletteAnimScript_E9AE",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$E9AE",
+    "self_loop": "yes",
+    "colors": "$15F4 $3214 $2E33 $21EE $2E33 $3214"
+  },
+  {
+    "address": "$80:E9C5",
+    "label": "PaletteAnimScript_E9C5",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$E9C5",
+    "self_loop": "yes",
+    "colors": "$1DD3 $29D1 $2E34 $1DD1 $2E34 $29D1"
+  },
+  {
+    "address": "$80:E9DC",
+    "label": "PaletteAnimScript_E9DC",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$E9DC",
+    "self_loop": "yes",
+    "colors": "$25EF $25CE $25AE $25AD $25AE $25CE"
+  },
+  {
+    "address": "$80:E9F3",
+    "label": "PaletteAnimScript_E9F3",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$E9F3",
+    "self_loop": "yes",
+    "colors": "$214E $1D4F $1DB4 $1DB4 $1DB4 $1D4F"
+  },
+  {
+    "address": "$80:EA0A",
+    "label": "PaletteAnimScript_EA0A",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$EA0A",
+    "self_loop": "yes",
+    "colors": "$1DB4 $1D72 $1D72 $1D4F $1D72 $1D72"
+  },
+  {
+    "address": "$80:EA21",
+    "label": "PaletteAnimScript_EA21",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$EA21",
+    "self_loop": "yes",
+    "colors": "$377F $21B0 $161C $1A59 $161C $21B0"
+  },
+  {
+    "address": "$80:EA38",
+    "label": "PaletteAnimScript_EA38",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$EA38",
+    "self_loop": "yes",
+    "colors": "$1A59 $1A9B $21B0 $161C $21B0 $1A9B"
+  },
+  {
+    "address": "$80:EA4F",
+    "label": "PaletteAnimScript_EA4F",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$EA4F",
+    "self_loop": "yes",
+    "colors": "$161C $1A59 $1B1F $21B0 $1B1F $1A59"
+  },
+  {
+    "address": "$80:EA66",
+    "label": "PaletteAnimScript_EA66",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$EA66",
+    "self_loop": "yes",
+    "colors": "$0994 $161C $1A59 $1A9B $1A59 $161C"
+  },
+  {
+    "address": "$80:EA7D",
+    "label": "PaletteAnimScript_EA7D",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$EA7D",
+    "self_loop": "yes",
+    "colors": "$2190 $21B0 $2191 $21B1 $2191 $21B0"
+  },
+  {
+    "address": "$80:EA94",
+    "label": "PaletteAnimScript_EA94",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$EA94",
+    "self_loop": "yes",
+    "colors": "$1D4C $218E $21B0 $21B2 $21B0 $218E"
+  },
+  {
+    "address": "$80:EAAB",
+    "label": "PaletteAnimScript_EAAB",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$EAAB",
+    "self_loop": "yes",
+    "colors": "$21B2 $1D4C $218E $21B0 $218E $1D4C"
+  },
+  {
+    "address": "$80:EAC2",
+    "label": "PaletteAnimScript_EAC2",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$EAC2",
+    "self_loop": "yes",
+    "colors": "$21B0 $21B2 $1D4C $218E $1D4C $21B2"
+  },
+  {
+    "address": "$80:EAD9",
+    "label": "PaletteAnimScript_EAD9",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$EAD9",
+    "self_loop": "yes",
+    "colors": "$218E $21B0 $21B2 $1D4C $21B2 $21B0"
+  },
+  {
+    "address": "$80:EAF0",
+    "label": "PaletteAnimScript_EAF0",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$EAF0",
+    "self_loop": "yes",
+    "colors": "$1D6C $1509 $1D2C $1D4C $1D2C $1509"
+  },
+  {
+    "address": "$80:EB07",
+    "label": "PaletteAnimScript_EB07",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$EB07",
+    "self_loop": "yes",
+    "colors": "$1D4C $1D6C $1509 $1D2C $1509 $1D6C"
+  },
+  {
+    "address": "$80:EB1E",
+    "label": "PaletteAnimScript_EB1E",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$EB1E",
+    "self_loop": "yes",
+    "colors": "$1D2C $1D4C $1D6C $1509 $1D6C $1D4C"
+  },
+  {
+    "address": "$80:EB35",
+    "label": "PaletteAnimScript_EB35",
+    "colors_count": 6,
+    "delays": "$0C $0F $10",
+    "installer_refs": 1,
+    "jump_target": "$EB35",
+    "self_loop": "yes",
+    "colors": "$1509 $1D2C $1D4C $1D6C $1D4C $1D2C"
+  },
+  {
+    "address": "$80:EB4C",
+    "label": "PaletteAnimScript_EB4C",
+    "colors_count": 4,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$EB4C",
+    "self_loop": "yes",
+    "colors": "$77DB $7398 $7398 $7398"
+  },
+  {
+    "address": "$80:EB5D",
+    "label": "PaletteAnimScript_EB5D",
+    "colors_count": 4,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$EB5D",
+    "self_loop": "yes",
+    "colors": "$7398 $7398 $77DB $7398"
+  },
+  {
+    "address": "$80:EB6E",
+    "label": "PaletteAnimScript_EB6E",
+    "colors_count": 4,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$EB6E",
+    "self_loop": "yes",
+    "colors": "$5F7D $4B3B $4B3B $4B3B"
+  },
+  {
+    "address": "$80:EB7F",
+    "label": "PaletteAnimScript_EB7F",
+    "colors_count": 4,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$EB7F",
+    "self_loop": "yes",
+    "colors": "$4B3B $4B3B $5F7D $4B3B"
+  },
+  {
+    "address": "$80:EB90",
+    "label": "PaletteAnimScript_EB90",
+    "colors_count": 4,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$EB90",
+    "self_loop": "yes",
+    "colors": "$3295 $2E52 $2E52 $2E52"
+  },
+  {
+    "address": "$80:EBA1",
+    "label": "PaletteAnimScript_EBA1",
+    "colors_count": 4,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$EBA1",
+    "self_loop": "yes",
+    "colors": "$2E52 $2E52 $3295 $2E52"
+  },
+  {
+    "address": "$80:EBB2",
+    "label": "PaletteAnimScript_EBB2",
+    "colors_count": 4,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$EBB2",
+    "self_loop": "yes",
+    "colors": "$314A $2D29 $2D29 $2D29"
+  },
+  {
+    "address": "$80:EBC3",
+    "label": "PaletteAnimScript_EBC3",
+    "colors_count": 4,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$EBC3",
+    "self_loop": "yes",
+    "colors": "$2D29 $2D29 $314A $2D29"
+  },
+  {
+    "address": "$80:EBD4",
+    "label": "PaletteAnimScript_EBD4",
+    "colors_count": 4,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$EBD4",
+    "self_loop": "yes",
+    "colors": "$7799 $6334 $6334 $6334"
+  },
+  {
+    "address": "$80:EBE5",
+    "label": "PaletteAnimScript_EBE5",
+    "colors_count": 4,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$EBE5",
+    "self_loop": "yes",
+    "colors": "$6334 $6334 $77DB $6334"
+  },
+  {
+    "address": "$80:EBF6",
+    "label": "PaletteAnimScript_EBF6",
+    "colors_count": 4,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$EBF6",
+    "self_loop": "yes",
+    "colors": "$677E $471C $471C $471C"
+  },
+  {
+    "address": "$80:EC07",
+    "label": "PaletteAnimScript_EC07",
+    "colors_count": 4,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$EC07",
+    "self_loop": "yes",
+    "colors": "$471C $471C $677E $471C"
+  },
+  {
+    "address": "$80:EC18",
+    "label": "PaletteAnimScript_EC18",
+    "colors_count": 4,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$EC18",
+    "self_loop": "yes",
+    "colors": "$5694 $4E31 $4E31 $4E31"
+  },
+  {
+    "address": "$80:EC29",
+    "label": "PaletteAnimScript_EC29",
+    "colors_count": 4,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$EC29",
+    "self_loop": "yes",
+    "colors": "$4E31 $4E31 $5694 $4E31"
+  },
+  {
+    "address": "$80:EC3A",
+    "label": "PaletteAnimScript_EC3A",
+    "colors_count": 4,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$EC3A",
+    "self_loop": "yes",
+    "colors": "$498C $414A $414A $414A"
+  },
+  {
+    "address": "$80:EC4B",
+    "label": "PaletteAnimScript_EC4B",
+    "colors_count": 4,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$EC4B",
+    "self_loop": "yes",
+    "colors": "$414A $414A $498C $414A"
+  },
+  {
+    "address": "$80:EC5C",
+    "label": "PaletteAnimScript_EC5C",
+    "colors_count": 4,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$EC5C",
+    "self_loop": "yes",
+    "colors": "$7376 $6334 $6334 $6334"
+  },
+  {
+    "address": "$80:EC6D",
+    "label": "PaletteAnimScript_EC6D",
+    "colors_count": 4,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$EC6D",
+    "self_loop": "yes",
+    "colors": "$6334 $6334 $7376 $6334"
+  },
+  {
+    "address": "$80:EC7E",
+    "label": "PaletteAnimScript_EC7E",
+    "colors_count": 4,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$EC7E",
+    "self_loop": "yes",
+    "colors": "$537F $42FB $42FB $42FB"
+  },
+  {
+    "address": "$80:EC8F",
+    "label": "PaletteAnimScript_EC8F",
+    "colors_count": 4,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$EC8F",
+    "self_loop": "yes",
+    "colors": "$42FB $42FB $537F $42FB"
+  },
+  {
+    "address": "$80:ECA0",
+    "label": "PaletteAnimScript_ECA0",
+    "colors_count": 4,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$ECA0",
+    "self_loop": "yes",
+    "colors": "$4671 $3E31 $3E31 $3E31"
+  },
+  {
+    "address": "$80:ECB1",
+    "label": "PaletteAnimScript_ECB1",
+    "colors_count": 4,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$ECB1",
+    "self_loop": "yes",
+    "colors": "$3E31 $3E31 $4671 $3E31"
+  },
+  {
+    "address": "$80:ECC2",
+    "label": "PaletteAnimScript_ECC2",
+    "colors_count": 4,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$ECC2",
+    "self_loop": "yes",
+    "colors": "$316A $2D49 $2D49 $2D49"
+  },
+  {
+    "address": "$80:ECD3",
+    "label": "PaletteAnimScript_ECD3",
+    "colors_count": 4,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$ECC2",
+    "self_loop": "no",
+    "colors": "$2D49 $2D49 $316A $2D49"
+  },
+  {
+    "address": "$80:ECE4",
+    "label": "PaletteAnimScript_ECE4",
+    "colors_count": 4,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$ECE4",
+    "self_loop": "yes",
+    "colors": "$779B $7377 $7377 $7377"
+  },
+  {
+    "address": "$80:ECF5",
+    "label": "PaletteAnimScript_ECF5",
+    "colors_count": 4,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$ECF5",
+    "self_loop": "yes",
+    "colors": "$7377 $7377 $779B $7377"
+  },
+  {
+    "address": "$80:ED06",
+    "label": "PaletteAnimScript_ED06",
+    "colors_count": 4,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$ED06",
+    "self_loop": "yes",
+    "colors": "$6F59 $6B37 $6B37 $6B37"
+  },
+  {
+    "address": "$80:ED17",
+    "label": "PaletteAnimScript_ED17",
+    "colors_count": 4,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$ED17",
+    "self_loop": "yes",
+    "colors": "$6B37 $6B37 $6F59 $6B37"
+  },
+  {
+    "address": "$80:ED28",
+    "label": "PaletteAnimScript_ED28",
+    "colors_count": 4,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$ED28",
+    "self_loop": "yes",
+    "colors": "$5AB5 $5273 $5273 $5273"
+  },
+  {
+    "address": "$80:ED39",
+    "label": "PaletteAnimScript_ED39",
+    "colors_count": 4,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$ED39",
+    "self_loop": "yes",
+    "colors": "$5273 $5273 $5AB5 $5273"
+  },
+  {
+    "address": "$80:ED4A",
+    "label": "PaletteAnimScript_ED4A",
+    "colors_count": 4,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$ED4A",
+    "self_loop": "yes",
+    "colors": "$4DEE $45CE $45CE $45CE"
+  },
+  {
+    "address": "$80:ED5B",
+    "label": "PaletteAnimScript_ED5B",
+    "colors_count": 4,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$ED5B",
+    "self_loop": "yes",
+    "colors": "$45CE $45CE $4DEE $45CE"
+  },
+  {
+    "address": "$80:ED6C",
+    "label": "PaletteAnimScript_ED6C",
+    "colors_count": 6,
+    "delays": "$0C",
+    "installer_refs": 1,
+    "jump_target": "$ED6C",
+    "self_loop": "yes",
+    "colors": "$5185 $61E8 $6E4C $7F0C $6E4C $61E8"
+  },
+  {
+    "address": "$80:ED83",
+    "label": "PaletteAnimScript_ED83",
+    "colors_count": 6,
+    "delays": "$0C",
+    "installer_refs": 1,
+    "jump_target": "$ED83",
+    "self_loop": "yes",
+    "colors": "$69E7 $7988 $69E7 $6167 $69E7 $7988"
+  },
+  {
+    "address": "$80:ED9A",
+    "label": "PaletteAnimScript_ED9A",
+    "colors_count": 4,
+    "delays": "$0F",
+    "installer_refs": 1,
+    "jump_target": "$ED9A",
+    "self_loop": "yes",
+    "colors": "$7E2C $7F97 $7F53 $7EE7"
+  },
+  {
+    "address": "$80:EDAB",
+    "label": "PaletteAnimScript_EDAB",
+    "colors_count": 4,
+    "delays": "$0F",
+    "installer_refs": 1,
+    "jump_target": "$EDAB",
+    "self_loop": "yes",
+    "colors": "$7EEF $7E2C $7F97 $7F53"
+  },
+  {
+    "address": "$80:EDBC",
+    "label": "PaletteAnimScript_EDBC",
+    "colors_count": 4,
+    "delays": "$0F",
+    "installer_refs": 1,
+    "jump_target": "$EDBC",
+    "self_loop": "yes",
+    "colors": "$7F53 $7EEF $7E2C $7F97"
+  },
+  {
+    "address": "$80:EDCD",
+    "label": "PaletteAnimScript_EDCD",
+    "colors_count": 4,
+    "delays": "$0F",
+    "installer_refs": 1,
+    "jump_target": "$EDCD",
+    "self_loop": "yes",
+    "colors": "$7F97 $7F53 $7EE7 $7E2C"
+  },
+  {
+    "address": "$80:EDDE",
+    "label": "PaletteAnimScript_EDDE",
+    "colors_count": 3,
+    "delays": "$0F",
+    "installer_refs": 1,
+    "jump_target": "$EDDE",
+    "self_loop": "yes",
+    "colors": "$0070 $0E5F $03FF"
+  },
+  {
+    "address": "$80:EDEC",
+    "label": "PaletteAnimScript_EDEC",
+    "colors_count": 3,
+    "delays": "$0F",
+    "installer_refs": 1,
+    "jump_target": "$EDEC",
+    "self_loop": "yes",
+    "colors": "$0E5F $0070 $03FF"
+  },
+  {
+    "address": "$80:EDFA",
+    "label": "PaletteAnimScript_EDFA",
+    "colors_count": 3,
+    "delays": "$0F",
+    "installer_refs": 1,
+    "jump_target": "$EDFA",
+    "self_loop": "yes",
+    "colors": "$03FF $0E5F $0070"
+  },
+  {
+    "address": "$80:EE08",
+    "label": "PaletteAnimScript_EE08",
+    "colors_count": 3,
+    "delays": "$08",
+    "installer_refs": 1,
+    "jump_target": "$EE08",
+    "self_loop": "yes",
+    "colors": "$000C $000A $0009"
+  },
+  {
+    "address": "$80:EE16",
+    "label": "PaletteAnimScript_EE16",
+    "colors_count": 3,
+    "delays": "$08",
+    "installer_refs": 1,
+    "jump_target": "$EE16",
+    "self_loop": "yes",
+    "colors": "$000A $00D8 $027E"
+  },
+  {
+    "address": "$80:EE24",
+    "label": "PaletteAnimScript_EE24",
+    "colors_count": 3,
+    "delays": "$08",
+    "installer_refs": 1,
+    "jump_target": "$EE24",
+    "self_loop": "yes",
+    "colors": "$017F $029F $00D2"
+  },
+  {
+    "address": "$80:EE32",
+    "label": "PaletteAnimScript_EE32",
+    "colors_count": 3,
+    "delays": "$08",
+    "installer_refs": 1,
+    "jump_target": "$EE32",
+    "self_loop": "yes",
+    "colors": "$031F $035F $03FF"
+  },
+  {
+    "address": "$80:EE40",
+    "label": "PaletteAnimScript_EE40",
+    "colors_count": 3,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$EE40",
+    "self_loop": "yes",
+    "colors": "$2279 $229B $22DC"
+  },
+  {
+    "address": "$80:EE4E",
+    "label": "PaletteAnimScript_EE4E",
+    "colors_count": 3,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$EE4E",
+    "self_loop": "yes",
+    "colors": "$0854 $08DE $08DC"
+  },
+  {
+    "address": "$80:EE5C",
+    "label": "PaletteAnimScript_EE5C",
+    "colors_count": 3,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$EE5C",
+    "self_loop": "yes",
+    "colors": "$089D $08DE $091F"
+  },
+  {
+    "address": "$80:EE6A",
+    "label": "PaletteAnimScript_EE6A",
+    "colors_count": 3,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$EE6A",
+    "self_loop": "yes",
+    "colors": "$08DF $08DF $0A1F"
+  },
+  {
+    "address": "$80:EE78",
+    "label": "PaletteAnimScript_EE78",
+    "colors_count": 3,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$EE78",
+    "self_loop": "yes",
+    "colors": "$08DF $0A3F $0A9F"
+  },
+  {
+    "address": "$80:EE86",
+    "label": "PaletteAnimScript_EE86",
+    "colors_count": 3,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$EE86",
+    "self_loop": "yes",
+    "colors": "$029F $029F $031F"
+  },
+  {
+    "address": "$80:EE94",
+    "label": "PaletteAnimScript_EE94",
+    "colors_count": 3,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$EE94",
+    "self_loop": "yes",
+    "colors": "$035F $03DF $03FF"
+  },
+  {
+    "address": "$80:EEA2",
+    "label": "PaletteAnimScript_EEA2",
+    "colors_count": 4,
+    "delays": "$0C",
+    "installer_refs": 1,
+    "jump_target": "$EEA2",
+    "self_loop": "yes",
+    "colors": "$0A3C $00DB $00DF $00DF"
+  },
+  {
+    "address": "$80:EEB3",
+    "label": "PaletteAnimScript_EEB3",
+    "colors_count": 4,
+    "delays": "$0C",
+    "installer_refs": 1,
+    "jump_target": "$EEB3",
+    "self_loop": "yes",
+    "colors": "$09B3 $11FF $0A5F $125F"
+  },
+  {
+    "address": "$80:EEC4",
+    "label": "PaletteAnimScript_EEC4",
+    "colors_count": 4,
+    "delays": "$0C",
+    "installer_refs": 1,
+    "jump_target": "$EEC4",
+    "self_loop": "yes",
+    "colors": "$0992 $0A15 $023A $133F"
+  },
+  {
+    "address": "$80:EED5",
+    "label": "PaletteAnimScript_EED5",
+    "colors_count": 6,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$EED5",
+    "self_loop": "yes",
+    "colors": "$2A98 $433D $2A98 $4F7F $4F5F $433D"
+  },
+  {
+    "address": "$80:EEEC",
+    "label": "PaletteAnimScript_EEEC",
+    "colors_count": 7,
+    "delays": "$10",
+    "installer_refs": 1,
+    "jump_target": "$EEEC",
+    "self_loop": "yes",
+    "colors": "$42FA $2A98 $42FA $2ADB $371C $2A98 $2ADB"
+  },
+  {
+    "address": "$80:EF06",
+    "label": "PaletteAnimScript_EF06",
+    "colors_count": 2,
+    "delays": "$08",
+    "installer_refs": 1,
+    "jump_target": "$EF06",
+    "self_loop": "yes",
+    "colors": "$0049 $004C"
+  },
+  {
+    "address": "$80:EF11",
+    "label": "PaletteAnimScript_EF11",
+    "colors_count": 2,
+    "delays": "$08",
+    "installer_refs": 1,
+    "jump_target": "$EF11",
+    "self_loop": "yes",
+    "colors": "$0037 $013D"
+  },
+  {
+    "address": "$80:EF1C",
+    "label": "PaletteAnimScript_EF1C",
+    "colors_count": 2,
+    "delays": "$08",
+    "installer_refs": 1,
+    "jump_target": "$EF1C",
+    "self_loop": "yes",
+    "colors": "$025F $02DF"
+  }
+]

@@ -1,0 +1,24 @@
+tile_hex,meaning_inferred,evidence
+00,empty / invalid for nightly loop,NightlyFarmTilesCheck skips if zero before random trash logic; exact semantic still needs runtime confirmation.
+01,empty low value,Tiles below $03 can receive random trash outside fall/winter every 4 days.
+02,empty/cleared ground target,Climate damage converts damaged grass/soil/crops to $02.
+03,random trash/weed candidate,Nightly random trash uses $03.
+05,fence intact,Climate damage may convert to $06.
+06,fence broken,Nightly has 1/8 branch that sets repair/event flags.
+07,tilled/watered soil state A,Monthly winter reset can convert crops to $07; rain branch can increment.
+08,tilled/unwatered soil state A,Nightly non-rain branch decrements to previous state.
+1D,grass stage zero / planted grass base,Climate damage checks it separately; monthly winter excludes before $1D.
+1E,crop/soil watered state,Nightly rain branch can increment.
+1F,crop/soil unwatered state,Nightly non-rain branch decrements.
+20,crop family lower bound,Nightly crop-growth logic starts around $20.
+39,watered fully-grown tomato,Special no-rain unwater branch.
+53,watered fully-grown corn,Special no-rain unwater branch.
+61,watered fully-grown potato,Special no-rain unwater branch.
+6F,watered fully-grown turnip,Special no-rain unwater branch.
+70,grass family lower bound,Grass tiles branch in climate damage and nightly logic.
+73,grass second-stage converted target,Nightly maps $7C to $73.
+76,mature grass range start,FarmGrass_MarkFirstMatureGrassPatch searches $76-$79.
+79,mature grass / fully grown grass marker,Climate damage decrements $092E then checks grass damage.
+7A,marked mature/cut grass target,Monthly winter and grass-mark routine write $7A.
+7C,grass second stage special,Nightly maps to $73.
+A0,out-of-bounds sentinel threshold,Farm tile routines skip values >= $A0.

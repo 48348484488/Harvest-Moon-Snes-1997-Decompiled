@@ -1,0 +1,11 @@
+routine,address,notes
+Weather_LoadDisplayClimateFromTomorrow,82:81C0,Maps !weather_tomorrow and storm flags into display/state byte $0990 using Weather_TomorrowToDisplayClimateTable.
+SetWeatherFlags,82:8C09,Converts !weather_tomorrow into runtime weather flags at $0196 and some event flags.
+WeatherTomorrow,82:8CF9,Calculates tomorrow weather from season/day/festival rules and chance tables.
+ClimateFarmDamagePrep,82:8209,Reads weather flags and loads damage probabilities before calling ClimateFarmDamageCheck.
+ClimateFarmDamageCheck,82:A713,Iterates farm map $7EA4E6 in 16x16 logical steps and damages fences/grass/crops by RNG.
+NightlyFarmTilesCheck,82:A811,Nightly farm tile lifecycle: rain/winter growth/drying/trash/broken-fence checks.
+MonthlyFarmTilesCheck,82:A6A2,Winter/monthly cleanup path: crops/grass ranges are reset to winter-safe tiles.
+FarmGrass_MarkFirstMatureGrassPatch,82:A9A0,"Searches for first mature grass tile $76-$79, converts it to $7A and updates $092E."
+CalculateFarmDevelopment,82:AA0C,Counts farm-map tiles contributing to ranch development score.
+CheckToolSuccess,82:AA71,Central field-tool success gate using !tool_selected and tile-property masks.

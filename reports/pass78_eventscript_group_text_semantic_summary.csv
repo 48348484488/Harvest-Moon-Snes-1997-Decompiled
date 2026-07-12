@@ -1,0 +1,73 @@
+group,entries,semantic_bucket_before_pass78,confidence_before_pass78,direct_dialog_cmds,unique_direct_text_ids,text_related_arg_cmds,top_text_categories,top_inferred_roles,pass78_text_anchor_confidence,recommended_next_action
+$00,136,animal_or_object_visual_setup,high,7,4,0,Dialog:6 Animal:1,npc_or_event_dialogue:4 house_upgrade_or_family_context:2 livestock_chicken_context:1,high_text_anchor,Entries can now be split/name-refined using resolved text labels and previews.
+$01,16,mixed_event_script,medium,142,116,0,Dialog:65 Romance:29 Animal:22 Sign:8 Festival:7,npc_or_event_dialogue:56 romance_or_marriage_dialogue:14 event_dialogue_unknown_specific_owner:14 festival_event:13 weather_context:11 npc_maria_romance_or_family:8,high_text_anchor,Entries can now be split/name-refined using resolved text labels and previews.
+$02,16,family_romance_dialogue_matrix,high,53,44,0,Dialog:34 Romance:10 Sign:3 Animal:2 Weather:2,npc_or_event_dialogue:31 romance_or_marriage_dialogue:5 event_dialogue_unknown_specific_owner:5 child_family_event:3 npc_maria_romance_or_family:3 npc_nina_romance_or_family:2,high_text_anchor,Entries can now be split/name-refined using resolved text labels and previews.
+$03,16,family_romance_dialogue_matrix,high,49,38,0,Dialog:26 Romance:8 Church:7 Animal:3 Weather:3,npc_or_event_dialogue:24 event_dialogue_unknown_specific_owner:11 child_family_event:4 romance_or_marriage_dialogue:3 npc_maria_romance_or_family:2 weather_forecast_system:2,high_text_anchor,Entries can now be split/name-refined using resolved text labels and previews.
+$04,16,family_romance_dialogue_matrix,high,91,61,0,Dialog:56 Weather:18 Romance:12 Sign:3 Animal:2,npc_or_event_dialogue:53 weather_forecast_system:13 romance_or_marriage_dialogue:7 weather_context:5 child_family_event:4 npc_maria_romance_or_family:3,high_text_anchor,Entries can now be split/name-refined using resolved text labels and previews.
+$05,16,family_romance_dialogue_matrix,high,17,14,0,Dialog:12 Romance:3 Manual:1 Weather:1,npc_or_event_dialogue:11 npc_eve_romance_or_family:2 child_family_event:1 romance_or_marriage_dialogue:1 weather_forecast_system:1 money_context:1,high_text_anchor,Entries can now be split/name-refined using resolved text labels and previews.
+$06,16,family_romance_dialogue_matrix,high,73,48,0,Dialog:53 Weather:18 Romance:2,npc_or_event_dialogue:50 weather_forecast_system:12 weather_context:4 ranch_livestock_context:2 npc_eve_romance_or_family:2 family_romance_gift_context:1,high_text_anchor,Entries can now be split/name-refined using resolved text labels and previews.
+$07,16,family_romance_dialogue_matrix,high,89,68,0,Dialog:50 Weather:14 Romance:12 Animal:5 Sign:4,npc_or_event_dialogue:44 weather_forecast_system:9 event_dialogue_unknown_specific_owner:8 weather_context:8 romance_or_marriage_dialogue:7 child_family_event:3,high_text_anchor,Entries can now be split/name-refined using resolved text labels and previews.
+$08,16,family_romance_dialogue_matrix,high,65,38,0,Dialog:56 Weather:5 Romance:3 Sign:1,npc_or_event_dialogue:54 weather_forecast_system:4 ranch_livestock_context:2 npc_eve_romance_or_family:2 romance_or_marriage_dialogue:1 livestock_cow_context:1,high_text_anchor,Entries can now be split/name-refined using resolved text labels and previews.
+$09,16,mixed_event_script,medium,0,0,0,-,-,medium,No direct textbox commands; use RAM/object/sprite analysis.
+$0A,16,mixed_event_script,medium,0,0,0,-,-,medium,No direct textbox commands; use RAM/object/sprite analysis.
+$0B,16,mixed_event_script,medium,5,3,0,Sign:4 Dialog:1,event_dialogue_unknown_specific_owner:4 house_upgrade_or_family_context:1,high_text_anchor,Entries can now be split/name-refined using resolved text labels and previews.
+$0C,16,unknown_opcode_cluster_needs_manual_decode,low,0,0,0,-,-,low,No direct textbox commands; use RAM/object/sprite analysis.
+$0D,16,mixed_event_script,medium,0,0,0,-,-,medium,No direct textbox commands; use RAM/object/sprite analysis.
+$0E,16,audio_sfx_or_tablelike_event_stub,medium,0,0,0,-,-,medium,No direct textbox commands; use RAM/object/sprite analysis.
+$0F,16,mixed_event_script,medium,0,0,0,-,-,medium,No direct textbox commands; use RAM/object/sprite analysis.
+$10,16,mixed_event_script,medium,0,0,0,-,-,medium,No direct textbox commands; use RAM/object/sprite analysis.
+$11,16,unknown_opcode_cluster_needs_manual_decode,low,0,0,0,-,-,low,No direct textbox commands; use RAM/object/sprite analysis.
+$12,16,mixed_event_script,medium,0,0,0,-,-,medium,No direct textbox commands; use RAM/object/sprite analysis.
+$13,16,unknown_opcode_cluster_needs_manual_decode,low,0,0,0,-,-,low,No direct textbox commands; use RAM/object/sprite analysis.
+$14,16,state_gate_or_flag_router,medium,0,0,0,-,-,medium,No direct textbox commands; use RAM/object/sprite analysis.
+$15,16,mixed_event_script,medium,7,6,0,Dialog:6 Manual:1,npc_or_event_dialogue:5 ranch_livestock_context:2,high_text_anchor,Entries can now be split/name-refined using resolved text labels and previews.
+$16,16,mixed_event_script,medium,0,0,0,-,-,medium,No direct textbox commands; use RAM/object/sprite analysis.
+$17,16,unknown_opcode_cluster_needs_manual_decode,low,0,0,0,-,-,low,No direct textbox commands; use RAM/object/sprite analysis.
+$18,16,unknown_opcode_cluster_needs_manual_decode,low,0,0,0,-,-,low,No direct textbox commands; use RAM/object/sprite analysis.
+$19,16,unknown_opcode_cluster_needs_manual_decode,low,0,0,0,-,-,low,No direct textbox commands; use RAM/object/sprite analysis.
+$1A,16,unknown_opcode_cluster_needs_manual_decode,low,0,0,0,-,-,low,No direct textbox commands; use RAM/object/sprite analysis.
+$1B,16,unknown_opcode_cluster_needs_manual_decode,low,0,0,0,-,-,low,No direct textbox commands; use RAM/object/sprite analysis.
+$1C,16,unknown_opcode_cluster_needs_manual_decode,low,0,0,0,-,-,low,No direct textbox commands; use RAM/object/sprite analysis.
+$1D,16,mixed_event_script,medium,0,0,0,-,-,medium,No direct textbox commands; use RAM/object/sprite analysis.
+$1E,16,unknown_opcode_cluster_needs_manual_decode,low,0,0,0,-,-,low,No direct textbox commands; use RAM/object/sprite analysis.
+$1F,16,mixed_event_script,medium,0,0,0,-,-,medium,No direct textbox commands; use RAM/object/sprite analysis.
+$20,16,mixed_event_script,medium,0,0,0,-,-,medium,No direct textbox commands; use RAM/object/sprite analysis.
+$21,16,unknown_opcode_cluster_needs_manual_decode,low,0,0,0,-,-,low,No direct textbox commands; use RAM/object/sprite analysis.
+$22,16,mixed_event_script,medium,0,0,0,-,-,medium,No direct textbox commands; use RAM/object/sprite analysis.
+$23,16,unknown_opcode_cluster_needs_manual_decode,low,0,0,0,-,-,low,No direct textbox commands; use RAM/object/sprite analysis.
+$24,16,mixed_event_script,medium,9,9,0,Animal:3 Festival:3 Sign:2 Dialog:1,festival_event:6 weather_context:6 event_dialogue_unknown_specific_owner:2 festival_or_title_context:1 npc_or_event_dialogue:1,high_text_anchor,Entries can now be split/name-refined using resolved text labels and previews.
+$25,16,cutscene_object_transition_setup,medium,0,0,0,-,-,medium,No direct textbox commands; use RAM/object/sprite analysis.
+$26,16,unknown_opcode_cluster_needs_manual_decode,low,4,3,0,Dialog:4,npc_or_event_dialogue:4,high_text_anchor,Entries can now be split/name-refined using resolved text labels and previews.
+$27,16,unknown_opcode_cluster_needs_manual_decode,low,0,0,0,-,-,low,No direct textbox commands; use RAM/object/sprite analysis.
+$28,16,mixed_event_script,medium,0,0,0,-,-,medium,No direct textbox commands; use RAM/object/sprite analysis.
+$29,16,unknown_opcode_cluster_needs_manual_decode,low,0,0,0,-,-,low,No direct textbox commands; use RAM/object/sprite analysis.
+$2A,16,mixed_event_script,medium,0,0,0,-,-,medium,No direct textbox commands; use RAM/object/sprite analysis.
+$2B,16,unknown_opcode_cluster_needs_manual_decode,low,0,0,0,-,-,low,No direct textbox commands; use RAM/object/sprite analysis.
+$2C,16,unknown_opcode_cluster_needs_manual_decode,low,0,0,0,-,-,low,No direct textbox commands; use RAM/object/sprite analysis.
+$2D,16,state_gate_or_flag_router,medium,0,0,0,-,-,medium,No direct textbox commands; use RAM/object/sprite analysis.
+$2E,16,mixed_event_script,medium,0,0,0,-,-,medium,No direct textbox commands; use RAM/object/sprite analysis.
+$2F,16,unknown_opcode_cluster_needs_manual_decode,low,0,0,0,-,-,low,No direct textbox commands; use RAM/object/sprite analysis.
+$30,16,item_money_shipping_interaction,high,0,0,0,-,-,high,No direct textbox commands; use RAM/object/sprite analysis.
+$31,16,unknown_opcode_cluster_needs_manual_decode,low,0,0,0,-,-,low,No direct textbox commands; use RAM/object/sprite analysis.
+$32,16,unknown_opcode_cluster_needs_manual_decode,low,0,0,0,-,-,low,No direct textbox commands; use RAM/object/sprite analysis.
+$33,16,unknown_opcode_cluster_needs_manual_decode,low,0,0,0,-,-,low,No direct textbox commands; use RAM/object/sprite analysis.
+$34,16,mixed_event_script,medium,0,0,0,-,-,medium,No direct textbox commands; use RAM/object/sprite analysis.
+$35,16,unknown_opcode_cluster_needs_manual_decode,low,0,0,0,-,-,low,No direct textbox commands; use RAM/object/sprite analysis.
+$36,16,unknown_opcode_cluster_needs_manual_decode,low,0,0,0,-,-,low,No direct textbox commands; use RAM/object/sprite analysis.
+$37,16,unknown_opcode_cluster_needs_manual_decode,low,0,0,0,-,-,low,No direct textbox commands; use RAM/object/sprite analysis.
+$38,16,mixed_event_script,medium,0,0,0,-,-,medium,No direct textbox commands; use RAM/object/sprite analysis.
+$39,16,unknown_opcode_cluster_needs_manual_decode,low,0,0,0,-,-,low,No direct textbox commands; use RAM/object/sprite analysis.
+$3A,16,item_money_shipping_interaction,high,0,0,0,-,-,high,No direct textbox commands; use RAM/object/sprite analysis.
+$3B,16,unknown_opcode_cluster_needs_manual_decode,low,0,0,0,-,-,low,No direct textbox commands; use RAM/object/sprite analysis.
+$3C,16,unknown_opcode_cluster_needs_manual_decode,low,0,0,0,-,-,low,No direct textbox commands; use RAM/object/sprite analysis.
+$3D,16,mixed_event_script,medium,0,0,0,-,-,medium,No direct textbox commands; use RAM/object/sprite analysis.
+$3E,16,mixed_event_script,medium,0,0,0,-,-,medium,No direct textbox commands; use RAM/object/sprite analysis.
+$3F,16,state_gate_or_flag_router,medium,0,0,0,-,-,medium,No direct textbox commands; use RAM/object/sprite analysis.
+$40,16,unknown_opcode_cluster_needs_manual_decode,low,0,0,0,-,-,low,No direct textbox commands; use RAM/object/sprite analysis.
+$41,16,unknown_opcode_cluster_needs_manual_decode,low,0,0,0,-,-,low,No direct textbox commands; use RAM/object/sprite analysis.
+$42,16,audio_sfx_or_tablelike_event_stub,medium,0,0,0,-,-,medium,No direct textbox commands; use RAM/object/sprite analysis.
+$43,16,state_gate_or_flag_router,medium,186,67,0,Dialog:144 Romance:10 Animal:8 Sign:7 Festival:7,npc_or_event_dialogue:103 child_family_event:16 house_upgrade_context:10 event_dialogue_unknown_specific_owner:8 house_upgrade_or_family_context:8 festival_event:8,high_text_anchor,Entries can now be split/name-refined using resolved text labels and previews.
+$44,16,family_romance_dialogue_matrix,high,120,55,0,Dialog:88 Sign:9 Animal:7 Festival:7 Romance:6,npc_or_event_dialogue:72 event_dialogue_unknown_specific_owner:9 ranch_livestock_context:8 festival_event:8 weather_context:7 family_romance_gift_context:6,high_text_anchor,Entries can now be split/name-refined using resolved text labels and previews.
+$45,16,state_gate_or_flag_router,medium,18,6,0,Dialog:18,npc_or_event_dialogue:16 family_romance_gift_context:2,high_text_anchor,Entries can now be split/name-refined using resolved text labels and previews.
+$46,16,mixed_event_script,medium,23,23,0,Dialog:8 Romance:6 Shipping:4 Sign:3 Animal:2,ranch_livestock_context:6 shipping_context:4 npc_or_event_dialogue:3 house_upgrade_or_family_context:3 livestock_cow_context:2 livestock_chicken_context:1,high_text_anchor,Entries can now be split/name-refined using resolved text labels and previews.
+$47,32,mixed_event_script,medium,1,1,0,Dialog:1,npc_or_event_dialogue:1,high_text_anchor,Entries can now be split/name-refined using resolved text labels and previews.

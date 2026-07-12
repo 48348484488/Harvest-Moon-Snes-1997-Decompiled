@@ -1,0 +1,7 @@
+/build/
+/reports/*.tmp
+/roms/*.sfc
+/roms/*.smc
+/roms/*.rom
+*.sfc
+*.smc

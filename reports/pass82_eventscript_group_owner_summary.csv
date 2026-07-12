@@ -1,0 +1,73 @@
+group,dominant_owner,dominant_owner_entries,entries,owner_breakdown
+$00,animal_livestock_general,120,136,animal_livestock_general:120; animal_cow_livestock:9; animal_chicken_or_poultry:4; animal_dog_pet:3
+$01,npc_family_romance,8,16,npc_family_romance:8; animal_livestock_general:4; animal_dog_pet:2; animal_cow_livestock:2
+$02,npc_family_romance,14,16,npc_family_romance:14; animal_livestock_general:2
+$03,npc_family_romance,15,16,npc_family_romance:15; animal_livestock_general:1
+$04,npc_family_romance,13,16,npc_family_romance:13; animal_livestock_general:3
+$05,npc_family_romance,16,16,npc_family_romance:16
+$06,animal_livestock_general,15,16,animal_livestock_general:15; animal_cow_livestock:1
+$07,npc_family_romance,10,16,npc_family_romance:10; animal_livestock_general:6
+$08,npc_family_romance,12,16,npc_family_romance:12; animal_livestock_general:3; animal_cow_livestock:1
+$09,npc_family_romance,16,16,npc_family_romance:16
+$0A,npc_family_romance,16,16,npc_family_romance:16
+$0B,npc_family_romance,16,16,npc_family_romance:16
+$0C,npc_family_romance,16,16,npc_family_romance:16
+$0D,npc_family_romance,16,16,npc_family_romance:16
+$0E,npc_family_romance,16,16,npc_family_romance:16
+$0F,npc_family_romance,16,16,npc_family_romance:16
+$10,npc_family_romance,16,16,npc_family_romance:16
+$11,npc_family_romance,16,16,npc_family_romance:16
+$12,npc_family_romance,16,16,npc_family_romance:16
+$13,npc_family_romance,16,16,npc_family_romance:16
+$14,npc_family_romance,16,16,npc_family_romance:16
+$15,npc_family_romance,15,16,npc_family_romance:15; animal_livestock_general:1
+$16,npc_family_romance,16,16,npc_family_romance:16
+$17,npc_family_romance,16,16,npc_family_romance:16
+$18,npc_family_romance,16,16,npc_family_romance:16
+$19,npc_family_romance,16,16,npc_family_romance:16
+$1A,npc_family_romance,16,16,npc_family_romance:16
+$1B,npc_family_romance,16,16,npc_family_romance:16
+$1C,npc_family_romance,16,16,npc_family_romance:16
+$1D,npc_family_romance,16,16,npc_family_romance:16
+$1E,npc_family_romance,16,16,npc_family_romance:16
+$1F,animal_chicken_or_poultry,16,16,animal_chicken_or_poultry:16
+$20,npc_family_romance,16,16,npc_family_romance:16
+$21,npc_family_romance,16,16,npc_family_romance:16
+$22,npc_family_romance,16,16,npc_family_romance:16
+$23,npc_family_romance,16,16,npc_family_romance:16
+$24,npc_family_romance,15,16,npc_family_romance:15; animal_livestock_general:1
+$25,npc_family_romance,16,16,npc_family_romance:16
+$26,npc_family_romance,15,16,npc_family_romance:15; animal_chicken_or_poultry:1
+$27,npc_family_romance,16,16,npc_family_romance:16
+$28,npc_family_romance,16,16,npc_family_romance:16
+$29,npc_family_romance,16,16,npc_family_romance:16
+$2A,npc_family_romance,16,16,npc_family_romance:16
+$2B,npc_family_romance,16,16,npc_family_romance:16
+$2C,npc_family_romance,16,16,npc_family_romance:16
+$2D,npc_family_romance,16,16,npc_family_romance:16
+$2E,npc_family_romance,16,16,npc_family_romance:16
+$2F,npc_family_romance,16,16,npc_family_romance:16
+$30,npc_family_romance,16,16,npc_family_romance:16
+$31,npc_family_romance,16,16,npc_family_romance:16
+$32,npc_family_romance,16,16,npc_family_romance:16
+$33,npc_family_romance,16,16,npc_family_romance:16
+$34,animal_cow_livestock,15,16,animal_cow_livestock:15; npc_family_romance:1
+$35,npc_family_romance,16,16,npc_family_romance:16
+$36,npc_family_romance,16,16,npc_family_romance:16
+$37,npc_family_romance,16,16,npc_family_romance:16
+$38,animal_chicken_or_poultry,16,16,animal_chicken_or_poultry:16
+$39,npc_family_romance,16,16,npc_family_romance:16
+$3A,npc_family_romance,16,16,npc_family_romance:16
+$3B,npc_family_romance,16,16,npc_family_romance:16
+$3C,npc_family_romance,16,16,npc_family_romance:16
+$3D,npc_family_romance,16,16,npc_family_romance:16
+$3E,npc_family_romance,16,16,npc_family_romance:16
+$3F,npc_family_romance,16,16,npc_family_romance:16
+$40,npc_family_romance,16,16,npc_family_romance:16
+$41,npc_family_romance,16,16,npc_family_romance:16
+$42,npc_family_romance,16,16,npc_family_romance:16
+$43,npc_family_romance,11,16,npc_family_romance:11; animal_dog_pet:3; animal_livestock_general:2
+$44,animal_livestock_general,15,16,animal_livestock_general:15; animal_cow_livestock:1
+$45,npc_family_romance,16,16,npc_family_romance:16
+$46,animal_livestock_general,15,16,animal_livestock_general:15; animal_chicken_or_poultry:1
+$47,npc_family_romance,32,32,npc_family_romance:32

@@ -1,0 +1,3 @@
+bytes,delta_words,index_hex,new_end_exclusive,new_label,new_snes_addr,new_words,old_bank,old_label,old_snes_addr,old_words,status
+290,130,02D,BBBF1A,Text_Repoint_02D_Shop_Closed,BBBDF8,145,B6,Text_Shop_Closed,B69DF4,15,ALLOCATED
+272,64,035,BBC02A,Text_Repoint_035_035_Dialog_HowsGoingWorkTooHard,BBBF1A,136,B6,Text_035_Dialog_HowsGoingWorkTooHard,B6A03E,72,ALLOCATED

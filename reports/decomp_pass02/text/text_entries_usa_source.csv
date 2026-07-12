@@ -1,0 +1,1706 @@
+bank,bank_file,label,snes_addr,source_line,word_count,byte_count,terminated,text
+B6,bank_B6.asm,Text_Forecast_Spring_Sunny,B68000,5,108,216,True,"Hello: this is the weather  forecast for tomorrow.      It'll be sunny and calm
+for the whole day tomorrow."
+B6,bank_B6.asm,Text_Forecast_Summer_Sunny,B680D8,20,74,148,True,It's been hot recently.     The weather forecast for    tomorrow is fair.
+B6,bank_B6.asm,Text_Forecast_Fall_Sunny,B6816C,31,89,178,True,"The autumn mountains are    beautifully colored  The skywill be clear and blue
+tomorrow."
+B6,bank_B6.asm,Text_Forecast_Winter_Sunny,B6821E,44,80,160,True,It's getting colder day by  day but how are you doing?  It'll be fair tomorrow.
+B6,bank_B6.asm,Text_Forecast_Spring_Rain,B682BE,55,121,242,True,"Hello. The weather forecast for tomorrow is that it'll  begin to rain at midnight
+and will be rainy for the   whole day."
+B6,bank_B6.asm,Text_Forecast_Summer_Rain,B683B0,72,117,234,True,"This is the weather forecastfor tomorrow. It'll start torain hard in the morning
+with lightening in some     places."
+B6,bank_B6.asm,Text_Forecast_Fall_Rain,B6849A,88,84,168,True,It's getting cooler         everyday. It'll be raining  for the whole day tomorrow.
+B6,bank_B6.asm,Text_Forecast_Winter_Snow,B68542,100,74,148,True,It's pretty cold now.       The weather forecast for    tomorrow is snow.
+B6,bank_B6.asm,Text_Forecast_Summer_Hurricane,B685D6,111,155,310,True,"Here's the hurricane        information. The hurricane  is becoming stronger and
+is getting nearer. Please   don't forget to keep all thelivestock inside,"
+B6,bank_B6.asm,Text_LogBook,B6870C,132,123,246,True,"Latest funds                         <CTRL_FFFC>hb<CTRL_B2>G
+Cow     <CTRL_FFFC>cc                  Chicken <CTRL_FFFC>cd
+Dog     <CTRL_FFFD>eb                Horse   <CTRL_FFFD>ec"
+B6,bank_B6.asm,Text_Diary,B68802,149,81,162,False,"Shall I write in my diary   before I go to bed?
+ Yes                         No<CHOICE_OR_WAIT>c"
+B6,bank_B6.asm,DATA16_B688A4,B688A4,161,38,76,True,I'll work hard again        tomorrow.
+B6,bank_B6.asm,Text_Diary2,B688F0,167,65,130,False, I'm going to bed.           Oh: I've got something      to do.<CHOICE_OR_WAIT>c
+B6,bank_B6.asm,DATA16_B68972,B68972,177,12,24,True,Good night.
+B6,bank_B6.asm,Text_Sign_House_Expansion,B6898A,180,94,188,True,"""Allocated land for the     annex of the house""
+Necessary Materials                  <CTRL_FFFC>depiece"
+B6,bank_B6.asm,Text_Manual_Sickle,B68A46,193,140,280,True,"""Sickle""                    Cut the grass to make feed,
+It's the feed for cows and  chickens. I would be thrown into a pinch if
+it's gone."
+B6,bank_B6.asm,Text_Manual_Hoe,B68B5E,212,133,266,True,"""Hoe""                       Plow the ground to make a   field.
+Raise vegetables in the     field.
+Try various ways to make thefield."
+B6,bank_B6.asm,Text_Manual_Axe,B68C68,230,131,262,True,"""Axe""                       Split logs to make lumber.  Lumber is useful.
+Focus on one point and hit. Don't enter the control pad."
+B6,bank_B6.asm,Text_Manual_Hammer,B68D6E,248,172,344,True,"""Hammer""                    Breaks rocks and breaks     fences down.
+Big rocks can be knocked    down when focusing on one   spot.
+Don't ever enter the        control pad."
+B6,bank_B6.asm,Text_Manual_Can,B68EC6,271,160,320,True,"""Watering can""              Water the crops. Once a day.No watering is necessary
+on rainy days.              Dip up water at a well or a pond when it runs out."
+B6,bank_B6.asm,Text_Manual_Milker,B69006,292,57,114,True,"""Milker""                    Milk cows and ship the milk."
+B6,bank_B6.asm,Text_Manual_Brush,B69078,301,125,250,True,"""Brush""                     Brushing raises the cows'   level of affection.
+A cow with High affection   gives a lot of milk."
+B6,bank_B6.asm,Text_Manual_Bell,B69172,318,107,214,True,"""Bell""                      A tool used to herd cows.   Look at the cows carefully
+and move them properly."
+B6,bank_B6.asm,Text_Manual_CropSeeds,B69248,333,176,352,True,"""Vegetable seeds""           Sowing season is different. Ask the florist for the
+proper season.              Seeds must be sown in the   field. They won't bud
+without watering."
+B6,bank_B6.asm,Text_Manual_GrassSeeds,B693A8,356,203,406,True,"""Grass seeds""               Sow the field from spring tosummer.
+It grows without watering.  The Meadow must be ready forraising cows and chickens.
+Grass is ready for mowing   when it turns a deep green."
+B6,bank_B6.asm,Text_Manual_Paint,B6953E,383,51,102,True,"""Paint""                     Paint the house right."
+B6,bank_B6.asm,DATA16_B695A4,B695A4,391,74,148,True,No: don't tell me you are   working on New Years' Day.  Just relax today.
+B6,bank_B6.asm,Text_Sign_Wood,B69638,402,85,170,True,Latest materials                     <CTRL_FFFC>dfpiece           Split logs and collect them.
+B6,bank_B6.asm,Text_Sign_Fodder,B696E2,414,85,170,True,Feed                                 <CTRL_FFFC>dgpiece           Mow grass to make more feed.
+B6,bank_B6.asm,DATA16_B6978C,B6978C,426,67,134,True,Oh yes: I've nailed down thedoor to prepare for the     hurricane.
+B6,bank_B6.asm,Text_Sign_Fork,B69812,436,39,78,True, Neighbor town               Back hill
+B6,bank_B6.asm,Text_Sign_Mountain_Top,B69860,442,12,24,True, to the top
+B6,bank_B6.asm,Text_Sign_Hotspring,B69878,445,20,40,True,Get undressed here.
+B6,bank_B6.asm,Text_Sign_Cave,B698A0,449,29,58,True,"Dangerous, Easy to collapse,"
+B6,bank_B6.asm,Text_Sign_Workmans,B698DA,454,84,168,True,"workman's House Call us for annex <$0040> extension
+Closed on weekends and      holidays."
+B6,bank_B6.asm,Text_Bachellorete_Diary,B69982,466,56,112,False,"Found the diary,
+ Read                        Not read<CHOICE_OR_WAIT>c"
+B6,bank_B6.asm,Text_Mayor_House_Bookcase1,B699F2,474,63,126,True,"""Myths of Gods""             There are lots of difficult books."
+B6,bank_B6.asm,Text_Mayor_House_Bookcase2,B69A70,483,54,108,True,"""History <$0040> Myths""           There's a lot others too."
+B6,bank_B6.asm,Text_Mayor_House_Bookcase3,B69ADC,491,53,106,True,"""Simple lessons from God""   ""Happiness lies in life"""
+B6,bank_B6.asm,Text_Flowershop_Rooms_Bookcase,B69B46,499,47,94,True,"""Plants""                    ""Artistic Flowers"""
+B6,bank_B6.asm,Text_Bar_Bookcase,B69BA4,506,54,108,True,"""Cocktails: Best <CTRL_B3><CTRL_B2><CTRL_B2>""       ""How to make berry juice"""
+B6,bank_B6.asm,Text_Restaurant_Bookcase,B69C10,514,47,94,True,"""Tasty Cakes""               ""Dishes for today"""
+B6,bank_B6.asm,Text_GeneralStore_Rooms_Bookcase,B69C6E,521,55,110,True,"""Get into invention""        ""Daily life and groceries"""
+B6,bank_B6.asm,Text_WitchHouse_Bookcase,B69CDC,529,92,184,True,"""Encyclopedia of fortune    telling ""
+""Heart pounding             compatibility of partner"""
+B6,bank_B6.asm,Text_Carpenters_Bookcase,B69D94,542,48,96,True,"""House and living""          ""We are carpenters"""
+B6,bank_B6.asm,Text_Shop_Closed,B69DF4,549,15,30,True,"""We're closed"""
+B6,bank_B6.asm,Text_Bar_Closed,B69E12,552,18,36,True,"""We're preparing"""
+B6,bank_B6.asm,Text_Cow_Talk,B69E36,556,48,96,True,Yes:<CTRL_FFFD>ed: good girl         You look fine today.
+B6,bank_B6.asm,Text_Cow_Talk_Cranky,B69E96,563,18,36,True,<CTRL_FFFD>ee looks cranky.
+B6,bank_B6.asm,Text_Cow_Talk_Sick,B69EBA,567,76,152,True,"<CTRL_FFFD>ef is sick,               I've got to give ....       medicine right away,"
+B6,bank_B6.asm,Text_Cow_Talk_Pregnant,B69F52,578,42,84,True,<CTRL_FFFC>ch more days for delivery.  Come on <CTRL_FFFD>eg.
+B6,bank_B6.asm,Text_Elf_Cave_Door_Closed,B69FA6,585,29,58,True,I can't open it.It's locked.
+B6,bank_B6.asm,DATA16_B69FE0,B69FE0,590,47,94,True,I can't open it.            something's stuck.
+B6,bank_B6.asm,DATA16_B6A03E,B6A03E,597,72,144,True,Hey: how's it going?        Don't work too hard.        Just take time.
+B6,bank_B6.asm,DATA16_B6A0CE,B6A0CE,607,125,250,True,"Ask the florist for flowers and ask the livestock delaerfor livestock.
+Better ask Mrs.             Fortune-teller for girls."
+B6,bank_B6.asm,DATA16_B6A1C8,B6A1C8,624,50,100,True,Don't hang around.          Listen to the priest.
+B6,bank_B6.asm,DATA16_B6A22C,B6A22C,632,74,148,True,"You are off today:          aren't you?
+We can't keep it up all the time."
+B6,bank_B6.asm,DATA16_B6A2C0,B6A2C0,643,82,164,True,People in town talk         differently according to theweather: day: and season.
+B6,bank_B6.asm,DATA16_B6A364,B6A364,655,204,408,True,"Everybody has different     ideas on what happiness     means:right?
+I guess the best thing is   to do what you want to do.  But it's probably not
+real happiness when you     annoy someone or are blamed."
+B6,bank_B6.asm,DATA16_B6A4FC,B6A4FC,682,132,264,True,"You are working so hard.    You should have a chat with your friends or go to
+mountains...                to relax once in a while."
+B6,bank_B6.asm,DATA16_B6A604,B6A604,700,87,174,True,"This church is dedicated to the God of the crops.       I suggest you pray
+faithfully."
+B6,bank_B6.asm,DATA16_B6A6B2,B6A6B2,712,75,150,True,I like taking my time       reading books.That's one of my happiest times.
+B6,bank_B6.asm,DATA16_B6A748,B6A748,723,82,164,True,Have you heard of the water imp? Someone has seen it in the pond of the mountain.
+B6,bank_B6.asm,DATA16_B6A7EC,B6A7EC,735,215,430,True,"Don't think it's OK to do   bad things if it's not      discovered.
+No one is perfect. We all   make mistakes.              That's the way we are.
+But it's wrong to not feel  guilty about what you've    done wrong."
+B6,bank_B6.asm,DATA16_B6A99A,B6A99A,763,62,124,True,I wonder if our daughter Anncan get married living like that.
+B6,bank_B6.asm,DATA16_B6AA16,B6AA16,772,85,170,True,Hi: how's your work going?  There are some wild dogs:   so you should fix the fence.
+B6,bank_B6.asm,DATA16_B6AAC0,B6AAC0,784,55,110,True,I believe God exists.       You believe it: don't you?
+B6,bank_B6.asm,DATA16_B6AB2E,B6AB2E,792,97,194,True,"Hey: it's strange. She is   always here by now.
+.....oh no:                 it's nothing at all."
+B6,bank_B6.asm,DATA16_B6ABF0,B6ABF0,806,151,302,True,"Hi. Are you taking a walk   too? It's important to get afew days off.
+Working hard till late at   night will drive you crazy: mentally and physically."
+B6,bank_B6.asm,DATA16_B6AD1E,B6AD1E,826,180,360,True,"I just can't help myself    worrying about Ann so much. Mr. <CTRL_FFFD>eh: you are of the
+same generation as Ann.     What do you think of her?   ....oh: sorry.
+Maybe I'm a little confused."
+B6,bank_B6.asm,DATA16_B6AE86,B6AE86,850,99,198,True,"Hello. You always look fine.The bag of seed for sowing. It's convenient to buy
+a few bags at once."
+B6,bank_B6.asm,DATA16_B6AF4C,B6AF4C,864,71,142,True,Grass grows in Autumn so youdon't have to mow much      before Winter.
+B6,bank_B6.asm,DATA16_B6AFDA,B6AFDA,874,49,98,True,May everyone give kindness  to everyone else....
+B6,bank_B6.asm,DATA16_B6B03C,B6B03C,882,5,10,True,....
+B6,bank_B6.asm,DATA16_B6B046,B6B046,884,75,150,True,What? The shop is closed on Saturdays. So I'm bathing inthe sun. Nice:huh?
+B6,bank_B6.asm,DATA16_B6B0DC,B6B0DC,895,129,258,True,"It's kind of dark on rainy  days....feels slightly      lonely:doesn't it?
+But the rain is good when itcomes to producing crops."
+B6,bank_B6.asm,DATA16_B6B1DE,B6B1DE,913,54,108,True,What a coincidence. Are you having a meal here today?
+B6,bank_B6.asm,DATA16_B6B24A,B6B24A,921,68,136,True,It's not easy to work       steadily but it's           worthwhile.
+B6,bank_B6.asm,DATA16_B6B2D2,B6B2D2,931,107,214,True,"Hope business will be       better:it will be better   ....
+What? Isn't it the God of   business? Oh:well."
+B6,bank_B6.asm,DATA16_B6B3A8,B6B3A8,946,100,200,True,"It's good to bathe in the   sun. Eat well and work hard.Good health is the
+foundation of happiness."
+B6,bank_B6.asm,DATA16_B6B470,B6B470,960,81,162,True,Eat something when you are  tired. Our cakes are the    best to get more energy.
+B6,bank_B6.asm,DATA16_B6B512,B6B512,972,37,74,True,"Howdy:young boys, What's up?....hic."
+B6,bank_B6.asm,DATA16_B6B55C,B6B55C,978,57,114,True,...hic:working like a dog   is not the only way to live.
+B6,bank_B6.asm,DATA16_B6B5CE,B6B5CE,987,65,130,True,It's my routine to take a   walk on Sundays so it's OK  with me.
+B6,bank_B6.asm,DATA16_B6B650,B6B650,997,107,214,True,"Oh no:it started raining    now...gee: I was going to   work.
+Well:I can do nothing but   stay home today."
+B6,bank_B6.asm,DATA16_B6B726,B6B726,1012,83,166,True,"What are you saying?        It doesn't matter if It     rains to do our work here,"
+B6,bank_B6.asm,DATA16_B6B7CC,B6B7CC,1024,77,154,True,"ulp...soooo...great,        She's out.I can relax as    much as
+I want:yeah."
+B6,bank_B6.asm,DATA16_B6B866,B6B866,1035,102,204,True,"You can be calm inside the  church.Not many people here:you know.
+It's crowded on holidays    though."
+B6,bank_B6.asm,DATA16_B6B932,B6B932,1049,131,262,True,"I felt time went by slowly  when I was young.           Now time goes by too fast
+and one year seems short.   It's strange:really."
+B6,bank_B6.asm,DATA16_B6BA38,B6BA38,1067,136,272,True,"Have sympathy for people.   When you are kind to people:they give you
+kindness in return.         Animals are the same as us  for sure."
+B6,bank_B6.asm,DATA16_B6BB48,B6BB48,1085,92,184,True,"It's not necessarily right  or wrong. Daily incidents   are neither.
+It's up to you:really."
+B6,bank_B6.asm,DATA16_B6BC00,B6BC00,1098,83,166,True,"I know it won't consume yourstamina on a rainy day but  you should be off.
+Really."
+B6,bank_B6.asm,DATA16_B6BCA6,B6BCA6,1110,163,326,True,"It's tough to take care of  cows.Take good care of them so that they do not
+get sick.My note is right   there so read it carefully  so you can avoid any
+diseases."
+B6,bank_B6.asm,DATA16_B6BDEC,B6BDEC,1132,146,292,True,"Hey:do your hens lay eggs?  Put them in the cage.       And feed them every day.
+They won't lay eggs for     <CTRL_B5>days after you miss a      feeding."
+B6,bank_B6.asm,DATA16_B6BF10,B6BF10,1152,87,174,True,"Hey:young boy, Put your     livestock inside the pen    before the weather gets
+worse,"
+B6,bank_B6.asm,DATA16_B6BFBE,B6BFBE,1164,177,354,True,"You know:cows give you more milk when you take good careof them with love.
+..hey:are you listening to  me? They will like you and  good calves will be born
+...listen to me:boy,"
+B6,bank_B6.asm,DATA16_B6C120,B6C120,1188,93,186,True,"You can't redo your life.   You might not have the      second chance.
+Think before you act."
+B6,bank_B6.asm,DATA16_B6C1DA,B6C1DA,1201,116,232,True,"Are you asking if I don't goto church? God is everywhereand He is nowhere:
+you know.                   Hee-hee-hee."
+B6,bank_B6.asm,DATA16_B6C2C2,B6C2C2,1217,75,150,True,There's a useful book over  there: about girls:I wrote  it.Better read it.
+B6,bank_B6.asm,DATA16_B6C358,B6C358,1228,127,254,True,"I'm also a midwife.You know:the mayor's daughter Maria  and the grocery shop
+owner's daughter Ann        I delivered them all."
+B6,bank_B6.asm,DATA16_B6C456,B6C456,1245,125,250,True,"Grown-ups always make rule  telling us to do this:do    that:don't do this:
+don't do that.What hard workit is being a child."
+B6,bank_B6.asm,DATA16_B6C550,B6C550,1262,60,120,True,Hmmm...is he in love with   Maria's sister? ....it can'tbe.
+B6,bank_B6.asm,DATA16_B6C5C8,B6C5C8,1271,127,254,True,"We can gather many things inthe mountain.I want to sell them but they won't allow
+a little kid to go to the   mountains alone."
+B6,bank_B6.asm,DATA16_B6C6C6,B6C6C6,1288,45,90,True,"Please:please,              I've got a date."
+B6,bank_B6.asm,DATA16_B6C720,B6C720,1295,127,254,True,"You'd better read the book  written by Mrs.             Fortune-teller many times.
+It's pretty hard to capture a girl's heart."
+B6,bank_B6.asm,DATA16_B6C81E,B6C81E,1312,37,74,True,Yeah: welcome. Make yourselfat home.
+B6,bank_B6.asm,DATA16_B6C868,B6C868,1318,101,202,True,"Things girls like are       flowers and sweets:right?
+I'm saving money to buy a   present for Maria."
+B6,bank_B6.asm,DATA16_B6C932,B6C932,1332,64,128,True,I love Maria.I wish she     would be my bride in the    future.
+B6,bank_B6.asm,DATA16_B6C9B2,B6C9B2,1341,53,106,True,I always pray that I can be a grown-up very quickly.
+B6,bank_B6.asm,DATA16_B6CA1C,B6CA1C,1349,61,122,True,"It's not a date, It's not a date, Just a walk:that's    all,"
+B6,bank_B6.asm,DATA16_B6CA96,B6CA96,1358,70,140,True,Oh yes:put crops in the     shipping box so I can       collect them.
+B6,bank_B6.asm,DATA16_B6CB22,B6CB22,1368,86,172,True,"You can't use the tool when you lose your stamina but   you can carry things a
+round."
+B6,bank_B6.asm,DATA16_B6CBCE,B6CBCE,1380,38,76,True,Well: a drink after work is the best.
+B6,bank_B6.asm,DATA16_B6CC1A,B6CC1A,1386,117,234,True,"Things you can't ship are   flowers:animals:and         perishables like cakes.
+Don't put those things in   the box."
+B6,bank_B6.asm,DATA16_B6CD04,B6CD04,1402,102,204,True,"Even if you put shipping    goods in the box at night:  they won't last till
+the morning.So wasteful."
+B6,bank_B6.asm,DATA16_B6CDD0,B6CDD0,1416,69,138,True,I collect shipping goods    even in the shed so please  don't worry.
+B6,bank_B6.asm,DATA16_B6CE5A,B6CE5A,1426,120,240,True,"Shall we watch the weather  forecast? You'd better put  the livestock inside right
+after you find out it's     raining."
+B6,bank_B6.asm,DATA16_B6CF4A,B6CF4A,1442,78,156,True,It would be much easier to  live if it was true that Godbrings you happiness.
+B6,bank_B6.asm,DATA16_B6CFE6,B6CFE6,1453,75,150,True,Anything can happen in our  lives. Just in case:you'd   better save money.
+B6,bank_B6.asm,DATA16_B6D07C,B6D07C,1464,100,200,True,"I know money is important   but the most important thingis love:you know:
+LOVE, Don't you think so?"
+B6,bank_B6.asm,DATA16_B6D144,B6D144,1478,155,310,True,"I'm a wandering peddler.    But I don't often sell      anything to anyone.
+If there's anything you wantto sell: just put them on   that table over there."
+B6,bank_B6.asm,DATA16_B6D27A,B6D27A,1499,111,222,True,"Fences are easy to break    after rain and snow.
+Please make new fences afterknocking the broken fences  down."
+B6,bank_B6.asm,DATA16_B6D358,B6D358,1514,123,246,True,"I live in the mountains     hunting animals.
+Eve always tells me to come down to the town but I won'tchange my life style."
+B6,bank_B6.asm,DATA16_B6D44E,B6D44E,1531,85,170,True,"Have you heard of           ""Power Berry""?  Eat it and  you'll gain a little energy."
+B6,bank_B6.asm,DATA16_B6D4F8,B6D4F8,1543,81,162,True,When it rains: you must keepoff the top of the mountain:because it is dangerous.
+B6,bank_B6.asm,DATA16_B6D59A,B6D59A,1555,53,106,True,Some mushrooms are          poisonous:so be careful.
+B6,bank_B6.asm,DATA16_B6D604,B6D604,1563,58,116,False,"Hey:do you want to fish?
+ Yes                         No<CHOICE_OR_WAIT>c"
+B6,bank_B6.asm,DATA16_B6D678,B6D678,1572,47,94,True,OK:you can use my fishing   rod. Use Y button.
+B6,bank_B6.asm,DATA16_B6D6D6,B6D6D6,1579,68,136,True,No:this is pretty good. It  tastes good and sells at a  high price.
+B6,bank_B6.asm,DATA16_B6D75E,B6D75E,1589,16,32,True,Visit us again.
+B6,bank_B6.asm,DATA16_B6D77E,B6D77E,1592,29,58,True,Hello.It's a fine day today.
+B6,bank_B6.asm,DATA16_B6D7B8,B6D7B8,1597,47,94,True,It's been hot every day but how are you doing?
+B6,bank_B6.asm,DATA16_B6D816,B6D816,1604,37,74,True,I somehow love the autumn   scenery.
+B6,bank_B6.asm,DATA16_B6D860,B6D860,1610,27,54,True,Hope it'll be spring soon.
+B6,bank_B6.asm,DATA16_B6D896,B6D896,1615,56,112,False,"Do you believe in God?
+ Yes                         No<CHOICE_OR_WAIT>c"
+B6,bank_B6.asm,DATA16_B6D906,B6D906,1623,74,148,True,Really? It's unusual these  days. Please come to the    church on Sunday.
+B6,bank_B6.asm,DATA16_B6D99A,B6D99A,1634,77,154,True,"It's not whether God exists or not:it's more a ""belief"" that counts:I think."
+B6,bank_B6.asm,DATA16_B6DA34,B6DA34,1645,69,138,True,Please take care of yourselfnot to be worn down by the  summer heat.
+B6,bank_B6.asm,DATA16_B6DABE,B6DABE,1655,76,152,False,"....Excuse me: do you love  kids?
+ I love kids.                Not really.<CHOICE_OR_WAIT>c"
+B6,bank_B6.asm,DATA16_B6DB56,B6DB56,1666,67,134,True,I love kids too. My dream isto live with a lot of kids  around me.
+B6,bank_B6.asm,DATA16_B6DBDC,B6DBDC,1676,7,14,True,...Oh.
+B6,bank_B6.asm,DATA16_B6DBEA,B6DBEA,1678,70,140,True,It's pretty cold so please  take care of yourself not tocatch a cold.
+B6,bank_B6.asm,DATA16_B6DC76,B6DC76,1688,76,152,False,"Oh:you have come to listen  to the priest.
+ Yes                         No<CHOICE_OR_WAIT>c"
+B6,bank_B6.asm,DATA16_B6DD0E,B6DD0E,1699,16,32,True,You are devout.
+B6,bank_B6.asm,DATA16_B6DD2E,B6DD2E,1702,40,80,True,No? then:why are you here?  Oh:to pray?
+B6,bank_B6.asm,DATA16_B6DD7E,B6DD7E,1708,64,128,True,It's a welcome rain. We havea lot of rain here in       spring.
+B6,bank_B6.asm,DATA16_B6DDFE,B6DDFE,1717,57,114,True,Uum...well...can I come overto your ranch some day soon?
+B6,bank_B6.asm,DATA16_B6DE70,B6DE70,1726,88,176,False,"Aren't you lonely living in that big place?
+ A little lonely             No:not at all<CHOICE_OR_WAIT>c"
+B6,bank_B6.asm,DATA16_B6DF20,B6DF20,1738,50,100,True,Uum..well...yes: if...no:   nothing....g-good-by.
+B6,bank_B6.asm,DATA16_B6DF84,B6DF84,1746,66,132,True,I..see...sorry:I didn't     mean to ask you anything    personal.
+B6,bank_B6.asm,DATA16_B6E008,B6E008,1756,47,94,True,"I'm going to make great     tools like my dad,"
+B6,bank_B6.asm,DATA16_B6E066,B6E066,1763,117,234,False,"It'll be showcased at the   shop one of these days so   please try it.
+ Hum                         I don't want it<CHOICE_OR_WAIT>c"
+B6,bank_B6.asm,DATA16_B6E150,B6E150,1779,10,20,True,Trust me.
+B6,bank_B6.asm,DATA16_B6E164,B6E164,1782,28,56,True,You don't trust me: do you?
+B6,bank_B6.asm,DATA16_B6E19C,B6E19C,1787,66,132,True,It seems a little different from the plan I had but...nobig deal.
+B6,bank_B6.asm,DATA16_B6E220,B6E220,1797,71,142,False,"Aren't I acting like a girl?
+ No:not at all              Not that bad<CHOICE_OR_WAIT>c"
+B6,bank_B6.asm,DATA16_B6E2AE,B6E2AE,1807,23,46,True,"How outspoken you are,"
+B6,bank_B6.asm,DATA16_B6E2DC,B6E2DC,1811,95,190,True,"My dad always tells me to   act like a girl but I wonderexactly what acting
+like a girl means."
+B6,bank_B6.asm,DATA16_B6E39A,B6E39A,1824,99,198,True,"Well...I don't know why     but...it feels good in      spring.
+I go like ""OK:it's show     time,"""
+B6,bank_B6.asm,DATA16_B6E460,B6E460,1838,33,66,True,I love summer though it's   hot.
+B6,bank_B6.asm,DATA16_B6E4A2,B6E4A2,1844,84,168,True,"well:constant effort is     important:you know. They saysuccess comes from
+failure."
+B6,bank_B6.asm,DATA16_B6E54A,B6E54A,1856,72,144,True,It looks cold outside.It    turns white when you breatheout:doesn't it?
+B6,bank_B6.asm,DATA16_B6E5DA,B6E5DA,1866,79,158,False,"Ho hum...it's boring:       isn't it?
+ Yes                         Not really<CHOICE_OR_WAIT>c"
+B6,bank_B6.asm,DATA16_B6E678,B6E678,1877,38,76,True,It is:hum? I'm so sleepy... ho hum...
+B6,bank_B6.asm,DATA16_B6E6C4,B6E6C4,1883,24,48,True,Gee:you are so serious.
+B6,bank_B6.asm,DATA16_B6E6F4,B6E6F4,1887,69,138,True,Yes:I feel relaxed          outside...I haven't been outfor a while.
+B6,bank_B6.asm,DATA16_B6E77E,B6E77E,1897,34,68,True,"No idea comes out under thisheat,"
+B6,bank_B6.asm,DATA16_B6E7C2,B6E7C2,1903,29,58,True,Let's do our best:shall we?
+B6,bank_B6.asm,DATA16_B6E7FC,B6E7FC,1908,41,82,True,The mountain is covered withsnow by now.
+B6,bank_B6.asm,DATA16_B6E84E,B6E84E,1915,63,126,True,I hate rain.It feels        depressing.I like when it   pours.
+B6,bank_B6.asm,DATA16_B6E8CC,B6E8CC,1924,164,328,True,"...My dad tells me to get   married so often....        He would be all by himself
+if I got married to         someone...                  Doesn't he realize that?"
+B6,bank_B6.asm,DATA16_B6EA14,B6EA14,1946,197,394,False,"Hello, Hey: look at this,   This is the automatic       pudding maker,
+I've put eggs and milk in   here. Now all you have to dois turn it on.Do it,
+ Push                        I don't want to do<CHOICE_OR_WAIT>c"
+B6,bank_B6.asm,DATA16_B6EB9E,B6EB9E,1972,32,64,True,It smells wonderful:doesn't it?
+B6,bank_B6.asm,DATA16_B6EBDE,B6EBDE,1977,98,196,True,"You say it's much quicker tomake pudding without the    machine? Oh no...don'
+t you have a dream?"
+B6,bank_B6.asm,DATA16_B6ECA2,B6ECA2,1991,52,104,True,I love Spring when all the  flowers start to bloom.
+B6,bank_B6.asm,DATA16_B6ED0A,B6ED0A,1999,69,138,False,"Hello. Do you like flowers?
+ Yes                         Not really<CHOICE_OR_WAIT>c"
+B6,bank_B6.asm,DATA16_B6ED94,B6ED94,2009,26,52,True,"Yeah:Nina loves them too,"
+B6,bank_B6.asm,DATA16_B6EDC8,B6EDC8,2014,7,14,True,ugh...
+B6,bank_B6.asm,DATA16_B6EDD6,B6EDD6,2016,81,162,True,Autumn to Winter is an off  season for us because       there's nothing to sell.
+B6,bank_B6.asm,DATA16_B6EE78,B6EE78,2028,113,226,False,"Do you believe that there   is a flower which blooms    in Winter?
+ Yes                         You're kidding?<CHOICE_OR_WAIT>c"
+B6,bank_B6.asm,DATA16_B6EF5A,B6EF5A,2044,22,44,True,It must be beautiful.
+B6,bank_B6.asm,DATA16_B6EF86,B6EF86,2048,82,164,True,"Let me tell you the code forthe flower in our shop.     It is ""I like you a lot,"""
+B6,bank_B6.asm,DATA16_B6F02A,B6F02A,2060,78,156,True,Hey:I guess she would be    happy if you gave the flowerto the girl you like.
+B6,bank_B6.asm,DATA16_B6F0C6,B6F0C6,2071,84,168,True,The mountains this season   are beautiful. There are    many fruits and nuts:too...
+B6,bank_B6.asm,DATA16_B6F16E,B6F16E,2083,82,164,True,It's deserted in Winter.But we can't experience the joysof Spring without Winter.
+B6,bank_B6.asm,DATA16_B6F212,B6F212,2095,93,186,True,"The herb in the inner part  of the cave works well for  fever and headache
+when you boil it."
+B6,bank_B6.asm,DATA16_B6F2CC,B6F2CC,2108,51,102,True,The flower sold at the shop is what we raise here.
+B6,bank_B6.asm,DATA16_B6F332,B6F332,2116,65,130,True,I'm collecting fallen leavesto make manure for the      flowers.
+B6,bank_B6.asm,DATA16_B6F3B4,B6F3B4,2126,87,174,False,"Plants are alive under the  snow.Isn't it wonderful?
+ Wonderful                   So?<CHOICE_OR_WAIT>c"
+B6,bank_B6.asm,DATA16_B6F462,B6F462,2138,43,86,True,Human:animals:and plants    are all alive.
+B6,bank_B6.asm,DATA16_B6F4B8,B6F4B8,2145,10,20,True,"So great,"
+B6,bank_B6.asm,DATA16_B6F4CC,B6F4CC,2148,70,140,True,I know you are busy working but please try to come to   the festival.
+B6,bank_B6.asm,DATA16_B6F558,B6F558,2158,63,126,True,I kind of like rainy days.  Leaves look happy when it   rains.
+B6,bank_B6.asm,DATA16_B6F5D6,B6F5D6,2167,172,344,True,"Flowers can be edible and   used for medicinal purposes as well as making us feel
+comfortable.But I don't pickthem when I don't need them.
+I believe they want to live too."
+B6,bank_B6.asm,DATA16_B6F72E,B6F72E,2190,144,288,False,"I heard there was the       ""Secret Garden"" in the      ranch. Is it so?
+I want to go see it.
+ OK                          I don't want to go.<CHOICE_OR_WAIT>c"
+B6,bank_B6.asm,DATA16_B6F84E,B6F84E,2209,23,46,True,Wow:I can hardly wait.
+B6,bank_B6.asm,DATA16_B6F87C,B6F87C,2213,39,78,True,"How mean,                   Forget it,"
+B6,bank_B6.asm,DATA16_B6F8CA,B6F8CA,2219,29,58,True,Hello:you always look fine.
+B6,bank_B6.asm,DATA16_B6F904,B6F904,2224,69,138,True,I have a little bird. Her   name is P-chan. She sings   beautifully.
+B6,bank_B6.asm,DATA16_B6F98E,B6F98E,2234,65,130,False,"Hey:do you like sweets?
+ I love them                 Not really<CHOICE_OR_WAIT>c"
+B6,bank_B6.asm,DATA16_B6FA10,B6FA10,2244,79,158,True,Really? I'm good at making  sweets.I hope I can cook    you something someday.
+B6,bank_B6.asm,DATA16_B6FAAE,B6FAAE,2255,11,22,True,I'm sorry.
+B6,bank_B6.asm,DATA16_B6FAC4,B6FAC4,2258,67,134,True,The stillness of Winter     makes me calm down so       I love it.
+B6,bank_B6.asm,DATA16_B6FB4A,B6FB4A,2268,73,146,False,"Hey:do you like animals?
+ I love them                 I don't like them<CHOICE_OR_WAIT>c"
+B6,bank_B6.asm,DATA16_B6FBDC,B6FBDC,2279,25,50,True,Yes? I love animals too.
+B6,bank_B6.asm,DATA16_B6FC0E,B6FC0E,2284,67,134,True,You are lying. animals dont take to people who don't    like them.
+B6,bank_B6.asm,DATA16_B6FC94,B6FC94,2294,79,158,True,<CTRL_FFFD>ei would bark at wild dogswhen they come here. Check  if the fence is broken.
+B6,bank_B6.asm,DATA16_B6FD32,B6FD32,2305,169,338,True,"It's hard to look after     animals.We always must be   careful so they dont
+get sick....                I feel just like a mother   who is taking care of her
+children."
+B6,bank_B6.asm,DATA16_B6FE84,B6FE84,2328,88,176,True,"You are always running      around:aren't you? You look fine even if it's cold
+outside."
+B6,bank_B6.asm,DATA16_B6FF34,B6FF34,2340,102,204,False,I hope my dad stays healthy at all times.
+B7,bank_B7.asm,DATA16_B78000,B78000,5,87,174,False,"My uncle liked you. Please  make friends with him.OK?
+ OK                          No<CHOICE_OR_WAIT>c"
+B7,bank_B7.asm,DATA16_B780AE,B780AE,17,107,214,True,"Really? I'm glad. Please    excuse him for being        meddlesome.
+I guess he gets that from   my mother."
+B7,bank_B7.asm,DATA16_B78184,B78184,32,41,82,True,He's strict but basically a good person.
+B7,bank_B7.asm,DATA16_B781D6,B781D6,39,86,172,True,"Oh no: you are too soaked.  You might catch a cold      unless you dry yourself
+soon."
+B7,bank_B7.asm,DATA16_B78282,B78282,51,33,66,True,Oh:come on:Dad.Let's go homenow.
+B7,bank_B7.asm,DATA16_B782C4,B782C4,57,47,94,True,Otherwise Mom will get      really mad at you.
+B7,bank_B7.asm,DATA16_B78322,B78322,64,45,90,True,Will you taste my new cake  when it's baked?
+B7,bank_B7.asm,DATA16_B7837C,B7837C,71,83,166,False,"Hey:I baked a new cake.     Will you have a bite?
+ Yes                         No<CHOICE_OR_WAIT>c"
+B7,bank_B7.asm,DATA16_B78422,B78422,83,94,188,True,"Is it good? It's a          cheesecake. Do you think    it's good enough to sell
+at the shop?"
+B7,bank_B7.asm,DATA16_B784DE,B784DE,96,66,132,True,You look pretty busy.       I hope everything's well    with you.
+B7,bank_B7.asm,DATA16_B78562,B78562,106,76,152,False,"Oh:what a coincidence to    meet you here.
+ Yes                         No<CHOICE_OR_WAIT>c"
+B7,bank_B7.asm,DATA16_B785FA,B785FA,117,11,22,True,Tee-hee...
+B7,bank_B7.asm,DATA16_B78610,B78610,120,105,210,True,"Wow:what a coincidence.     Hey:were you waiting for    me here?
+Titter...I'm waiting for youat the bar."
+B7,bank_B7.asm,DATA16_B786E2,B786E2,135,76,152,True,Hi.I just came to shop.     Sorry:but I'm in too much ofa hurry to see you.
+B7,bank_B7.asm,DATA16_B7877A,B7877A,146,41,82,True,You came here in this rain? I'm so glad.
+B7,bank_B7.asm,DATA16_B787CC,B787CC,153,25,50,True,Grand-pa is so strict...
+B7,bank_B7.asm,DATA16_B787FE,B787FE,158,106,212,False,"You are pretty daring:      aren't you? Shall I wash    your back?
+ Yes                         N..N..No<CHOICE_OR_WAIT>c"
+B7,bank_B7.asm,DATA16_B788D2,B788D2,173,23,46,True,Hey: I'm just kidding.
+B7,bank_B7.asm,DATA16_B78900,B78900,177,24,48,True,Hee-hee: I won't do it.
+B7,bank_B7.asm,DATA16_B78930,B78930,181,25,50,True,Hi. You look fine today.
+B7,bank_B7.asm,DATA16_B78962,B78962,186,94,188,False,"It's my home made fruit     juice. Do you want it?
+ Yes                         No thank you<CHOICE_OR_WAIT>c"
+B7,bank_B7.asm,DATA16_B78A1E,B78A1E,199,47,94,True,Tee-hee...I'll kiss you if  you can drink it.
+B7,bank_B7.asm,DATA16_B78A7C,B78A7C,206,64,128,True,Why are you here at this    bar? ...Aha: you want to    see me.
+B7,bank_B7.asm,DATA16_B78AFC,B78AFC,215,35,70,True,It doesn't get cool at      night.
+B7,bank_B7.asm,DATA16_B78B42,B78B42,221,24,48,True,Thanks a lot for today.
+B7,bank_B7.asm,DATA16_B78B72,B78B72,225,26,52,True,I don't like to be alone.
+B7,bank_B7.asm,DATA16_B78BA6,B78BA6,230,65,130,True,I sometimes go to the       mountains to gather some    berries.
+B7,bank_B7.asm,DATA16_B78C28,B78C28,240,97,194,True,"Wasn't it cold outside?     When it's cold: you better  drink and warm you body
+from the inside."
+B7,bank_B7.asm,DATA16_B78CEA,B78CEA,254,85,170,True,I saw you at the ranch the  other day. You didn't noticeme because you were working.
+B7,bank_B7.asm,DATA16_B78D94,B78D94,266,120,240,False,"I couldn't stand to be alonein that huge place. Don't   you feel lonely there?
+ Sometimes                   Not at all<CHOICE_OR_WAIT>c"
+B7,bank_B7.asm,DATA16_B78E84,B78E84,282,178,356,True,"It's much better to have    someone around me and say   ""yeah:"" when I say ""
+the weather is fine.""       Feel secure: don't you ?    I think it's better than
+being alone. Right?"
+B7,bank_B7.asm,DATA16_B78FE8,B78FE8,306,81,162,True,Sure: you can live alone butit's just like breathing:   you know? It's lonely...
+B7,bank_B7.asm,DATA16_B7908A,B7908A,318,87,174,True,"Hello. You are the one who  is supposed to work at this ranch today.
+What's your name?"
+B7,bank_B7.asm,DATA16_B79138,B79138,330,215,430,True,"Mr.<CTRL_FFFD>ej:I'm in charge of    shipping here. I come here  every evening to pick up
+stuff you put in the        shipping box. Nice to meet  you.
+Oh yeah: ask anything you   want to people in town.     It will help you."
+B7,bank_B7.asm,DATA16_B792E6,B792E6,358,196,392,True,"Hello. Where are you        from?...You are managing theranch alone: separately
+from your parents? Great,   There's nothing here in the ranch: is there?...for
+practice? You have wonderfulparents."
+B7,bank_B7.asm,DATA16_B7946E,B7946E,384,197,394,True,"Hi: How do you do? I'm the  mayor of this town. It's a  pleasure to meet you.
+There are some tools left inthe shed that your          grandfather used to use.
+And a book on how to use    them:too."
+B7,bank_B7.asm,DATA16_B795F8,B795F8,410,162,324,True,"Your grandfather helped me  in those days. If you have  any  problems: don't
+hesitate to talk to me.     Well:you should get some    rest when you get back home."
+B7,bank_B7.asm,DATA16_B7973C,B7973C,432,121,242,True,"How do you do? Hard:isn't   it? But don't give up..................Oh:yeah
+I have a daughter....she maybe at the church."
+B7,bank_B7.asm,DATA16_B7982E,B7982E,449,34,68,True,She is a cute girl with longhair.
+B7,bank_B7.asm,DATA16_B79872,B79872,455,85,170,True,"I haven't seen you before.  Did you come to that ranch? I'm Maria.
+Nice meeting you."
+B7,bank_B7.asm,DATA16_B7991C,B7991C,467,43,86,True,It may be hard at first but don't give up.
+B7,bank_B7.asm,DATA16_B79972,B79972,474,156,312,True,"I've heard something,       I've heard a faint sound of laughter behind the trees
+in the ranch. And some      people talking:too,         ...What was that?"
+B7,bank_B7.asm,DATA16_B79AAA,B79AAA,495,11,22,True,He..Hello.
+B7,bank_B7.asm,DATA16_B79AC0,B79AC0,498,161,322,True,"How do you do? I'm the      priest of this church.      Ask questions to people at
+the shop. They know many    things. And for the rest:   check the signboards."
+B7,bank_B7.asm,DATA16_B79C02,B79C02,520,96,192,True,"You'll have a plenty of     challenges but things will  be better for sure.
+Please stick to it."
+B7,bank_B7.asm,DATA16_B79CC2,B79CC2,533,174,348,True,"This year is over today.    What was your year like?
+Well:this town will be in a festive mood tomorrow       because lots of people
+are going to the top to see the sun rise."
+B7,bank_B7.asm,DATA16_B79E1E,B79E1E,556,96,192,True,"""Shipping box for livestock""After talking at the shop:  put livestock in here.
+Livestock Dealer"
+B7,bank_B7.asm,DATA16_B79EDE,B79EDE,569,110,220,True,"Tools are in the shed and   the pen. Pick them up with  A button to get equipped.
+To use them: push Y button."
+B7,bank_B7.asm,DATA16_B79FBA,B79FBA,584,111,222,True,"Unfortunately: there's      nothing for sale here but   there will be soon.
+So please drop by in a      while."
+B7,bank_B7.asm,DATA16_B7A098,B7A098,599,74,148,True,Heh: you are the owner of   the ranch. I'm Ann.         Nice to meet you.
+B7,bank_B7.asm,DATA16_B7A12C,B7A12C,610,85,170,True,"Stamina decreases when you  use tools. Eat food or      sleep in the bed to
+recover."
+B7,bank_B7.asm,DATA16_B7A1D6,B7A1D6,622,205,410,True,"You went to the ranch:      didn't you? If you are      going to raise crops there:
+I'll give this to you.      It's a watering can.        It's for getting water
+from the pond. I'll bring itto your shed."
+B7,bank_B7.asm,DATA16_B7A370,B7A370,649,53,106,True,Vegetable seeds will be in  soon so come again soon.
+B7,bank_B7.asm,DATA16_B7A3DA,B7A3DA,657,145,290,True,"How do you do? I'm Nina.    These crops must be sowed   during a certain season.
+They won't germinate unless you sow them in the proper  season."
+B7,bank_B7.asm,DATA16_B7A4FC,B7A4FC,677,63,126,True,And you have to plow the    ground well to make it a    field.
+B7,bank_B7.asm,DATA16_B7A57A,B7A57A,686,64,128,True,Welcome. You'd better eat   everyday: you know. Stamina is key.
+B7,bank_B7.asm,DATA16_B7A5FA,B7A5FA,695,43,86,True,It must be hard: I know: buttry your best.
+B7,bank_B7.asm,DATA16_B7A650,B7A650,702,36,72,True,Puff...hic..Have I seen you before?
+B7,bank_B7.asm,DATA16_B7A698,B7A698,708,240,480,True,"Hey:son, You have to have a meadow to buy livestock.    Not only for cows
+but also for chickens.      I have some grass left so   use it to raise them.
+I'll bring it to your shed. Talk to me over the counter when you want to buy
+livestock."
+B7,bank_B7.asm,DATA16_B7A878,B7A878,739,116,232,True,"First:you must have a       plenty of grass when you    raise livestock.
+Beginners should start off  with chickens."
+B7,bank_B7.asm,DATA16_B7A960,B7A960,755,143,286,True,"Howdy, I put those cows in  the pen and gave those bellsfor free.
+Well:first thing to do is toname them with affection.Take good care of them,"
+B7,bank_B7.asm,DATA16_B7AA7E,B7AA7E,774,155,310,True,"Hello. I'm a wandering      peddler.I don't have        anything to sell right
+now though. If you want to  sell something: bring it to me so I can buy it."
+B7,bank_B7.asm,DATA16_B7ABB4,B7ABB4,795,79,158,True,Girls in this town are all  cute and good-natured so it may be fun to be here.
+B7,bank_B7.asm,DATA16_B7AC52,B7AC52,806,225,450,True,"Hohoho...Mister: you don't  know what to begin with:do  you?
+First:you must learn how to use those tools with the    book in the shed.
+The rest: ask the florist   about the crops  and the    livestock dealer about
+livestock."
+B7,bank_B7.asm,DATA16_B7AE14,B7AE14,836,167,334,True,"Don't overextend yourself.  When you are tired: just go to bed earlier.
+The healthy body is your    precious asset. Try your    best to become an
+independent rancher."
+B7,bank_B7.asm,DATA16_B7AF62,B7AF62,858,90,180,True,"Mrs.Fortune-teller's words  always prove right.  Just   like the weather fore
+cast on TV."
+B7,bank_B7.asm,DATA16_B7B016,B7B016,871,41,82,True,Oh:hi:I'm Ellen. Nice       meeting you.
+B7,bank_B7.asm,DATA16_B7B068,B7B068,878,112,224,True,"What? Are you the heir of   the ranch? I wonder if you  can manage it.
+Young men these days have   little guts."
+B7,bank_B7.asm,DATA16_B7B148,B7B148,893,78,156,True,Hello. The bar is closed    today. It's usually open    except Sunday though.
+B7,bank_B7.asm,DATA16_B7B1E4,B7B1E4,904,73,146,False,"Are you going back to the   ranch?
+ Yes                         Not yet<CHOICE_OR_WAIT>c"
+B7,bank_B7.asm,DATA16_B7B276,B7B276,915,128,256,True,"Then:I'll give you a lift.  I'm a trainee of shipping   too.
+Let's do our best to achieveeach other's goal.          With grit,"
+B7,bank_B7.asm,DATA16_B7B376,B7B376,932,34,68,True,OK.Let me know when you go  home.
+B7,bank_B7.asm,DATA16_B7B3BA,B7B3BA,938,57,114,True,I suggest you listen to     the villagers a little more.
+B7,bank_B7.asm,DATA16_B7B42C,B7B42C,947,110,220,True,"You've come to that haunted ranch? Tee:hee...good luck. I'm Eve:nice to meet you.
+Here you are: it's from me."
+B7,bank_B7.asm,DATA16_B7B508,B7B508,962,54,108,True,The best thing to recover   from fatigue is to relax.
+B7,bank_B7.asm,DATA16_B7B574,B7B574,970,34,68,True,Welcome.Make yourself at    home.
+B7,bank_B7.asm,DATA16_B7B5B8,B7B5B8,976,99,198,True,"That's Eve:the drawing card of this bar. Isn't she      pretty?
+That's because she is my    niece."
+B7,bank_B7.asm,DATA16_B7B67E,B7B67E,990,21,42,True,No...I'm still fine.
+B7,bank_B7.asm,DATA16_B7B6A8,B7B6A8,994,44,88,True,Good evening. I'm a fan of  Eve's:you know.
+B7,bank_B7.asm,DATA16_B7B700,B7B700,1001,124,248,True,"Eve works at night so I     suppose she kinda misses    people her age.
+Mr.<CTRL_FFFD>ek:right? Will you comehere as much as you can?"
+B7,bank_B7.asm,DATA16_B7B7F8,B7B7F8,1018,159,318,True,"Eve lost her parents and hergrandfather who is a hunter brought her up.
+Her grandfather locks       himself in the mountain and hardly comes down to the
+town."
+B7,bank_B7.asm,DATA16_B7B936,B7B936,1039,74,148,True,She may miss him too...but  she's always cheerful.      Such a nice girl.
+B7,bank_B7.asm,DATA16_B7B9CA,B7B9CA,1050,12,24,True,"Koro, Wait,"
+B7,bank_B7.asm,DATA16_B7B9E2,B7B9E2,1053,248,496,True,"Puff-puff...Don't run       suddenly.Oh:you.You are the Mr. Rancher
+everybody's talking about.  Well:excuse me:..will you   please keep this dog
+for me? My house is a       grocery store so my mom     doesn't allow me to keep
+this dog...so:please,"
+B7,bank_B7.asm,DATA16_B7BBD2,B7BBD2,1085,95,190,True,"Thank you very much, You    have a new house:<CTRL_FFFD>el       You've got to be a
+good boy. Take care."
+B7,bank_B7.asm,DATA16_B7BC90,B7BC90,1098,100,200,True,"Hey:you are a newcomer      here. Really:a rancher?     That's something.
+For a young boy like you."
+B7,bank_B7.asm,DATA16_B7BD58,B7BD58,1112,76,152,True,We are carpenters. Please   come to us when you want to enlarge your house.
+B7,bank_B7.asm,DATA16_B7BDF0,B7BDF0,1123,132,264,True,"For the extension of your   house:please call us when   you have enough wood
+for it. See: there's a sign by the house.Check it out."
+B7,bank_B7.asm,DATA16_B7BEF8,B7BEF8,1141,132,264,True,"Now it's an extension       campaign. If you can enlargeyour house by the end of
+summer: you will get a      special gift for free."
+B7,bank_B7.asm,DATA16_B7C000,B7C000,1159,166,332,True,"I'm an angler. I live in    perfect freedom.            You' better forget your
+work and spend some quiet   time: once in a while:      enjoying things like
+fishing."
+B7,bank_B7.asm,DATA16_B7C14C,B7C14C,1181,47,94,True,I'll prepare a fishing rod  for you next time.
+B7,bank_B7.asm,DATA16_B7C1AA,B7C1AA,1188,40,80,True,Hi:what's up?. How's your   work going?
+B7,bank_B7.asm,DATA16_B7C1FA,B7C1FA,1194,66,132,True,You can gather materials by chopping logs in the        mountain.
+B7,bank_B7.asm,DATA16_B7C27E,B7C27E,1204,76,152,True,You can also use materials  for the fence so you should always gather them.
+B7,bank_B7.asm,DATA16_B7C316,B7C316,1215,68,136,False,"Do you want to enlarge your house?
+ Yes                         No<CHOICE_OR_WAIT>c"
+B7,bank_B7.asm,DATA16_B7C39E,B7C39E,1225,38,76,True,OK.I'll be at the ranch     tomorrow.
+B7,bank_B7.asm,DATA16_B7C3EA,B7C3EA,1231,43,86,True,Let me know whenever you    want to do it.
+B7,bank_B7.asm,DATA16_B7C440,B7C440,1238,80,160,True,"How do you like living in   the ""Super Deluxe Great Log House""? Isn't it great?"
+B7,bank_B7.asm,DATA16_B7C4E0,B7C4E0,1249,120,240,False,"It costs <$00B7><CTRL_B2><CTRL_B2><CTRL_B2>G to enlarge   your house. Take it?
+ Yes                         No                           Money <CTRL_FFFC>hi<CTRL_B2>G<CHOICE_OR_WAIT>c"
+B7,bank_B7.asm,DATA16_B7C5D0,B7C5D0,1265,38,76,True,Alright.We'll start off     tomorrow.
+B7,bank_B7.asm,DATA16_B7C61C,B7C61C,1271,34,68,True,Oh...OK.Call me again any   time.
+B7,bank_B7.asm,DATA16_B7C660,B7C660,1277,279,558,True,"Oh my God, There's not      enough materials. Hey:listento me very carefully,
+We don't want to do         half-finished work,         We can't start without
+enough materials.           You'll see what you need on that sign there so getting
+them is the first thing     to do.Bye."
+B7,bank_B7.asm,DATA16_B7C88E,B7C88E,1313,98,196,True,"Chop stumps with an axe to  make them materials.It      takes you about <$00B8> hits
+to chop them down."
+B7,bank_B7.asm,DATA16_B7C952,B7C952,1327,29,58,True,Hee-hee:look forward to it.
+B7,bank_B7.asm,DATA16_B7C98C,B7C98C,1332,48,96,True,"I'll build a terrific one,  Look forward to it."
+B7,bank_B7.asm,DATA16_B7C9EC,B7C9EC,1339,120,240,False,"It costs <CTRL_B3><CTRL_B2><CTRL_B2><CTRL_B2><CTRL_B2>G to enlarge  your house. Take it?
+ Yes                         No                           Money <CTRL_FFFC>hj<CTRL_B2>G<CHOICE_OR_WAIT>c"
+B7,bank_B7.asm,DATA16_B7CADC,B7CADC,1355,38,76,True,Oh no:just do what you have to do.OK?
+B7,bank_B7.asm,DATA16_B7CB28,B7CB28,1361,68,136,True,"Look:isn't it an excellent  house? It's called ""Super   Log House."""
+B7,bank_B7.asm,DATA16_B7CBB0,B7CBB0,1371,37,74,True,What's happened to Eve      tonight?
+B7,bank_B7.asm,DATA16_B7CBFA,B7CBFA,1377,86,172,True,"Nina's mother collapsed fromfever. I can't sell tools   while Dad is out
+nursing her."
+B7,bank_B7.asm,DATA16_B7CCA6,B7CCA6,1389,110,220,True,"It's finished, Look at this the ""Super Deluxe Great Log House"",,
+Even if I do fall in love   with it.See you."
+B7,bank_B7.asm,DATA16_B7CD82,B7CD82,1404,125,250,True,"Say:I've heard of a rare    seed.It grows to be a tall  bean tree that reaches
+all the way to the sky.     I want to see it."
+B7,bank_B7.asm,DATA16_B7CE7C,B7CE7C,1421,115,230,True,"Hi,I was scared by the      earthquake  this morning.   Come up to the mountain
+after checking out the      ranch."
+B7,bank_B7.asm,DATA16_B7CF62,B7CF62,1437,25,50,True,.....Do you like...Nina?
+B7,bank_B7.asm,DATA16_B7CF94,B7CF94,1442,112,224,True,"Today is the last day of    this year. It seems long    enough but at the same
+time:it flies by quickly    too."
+B7,bank_B7.asm,DATA16_B7D074,B7D074,1457,85,170,True,Scheduled date has already  passed now.  I have to let  them in the shed right away.
+B7,bank_B7.asm,DATA16_B7D11E,B7D11E,1469,89,178,True,"Hey:the long winter is      finally over. Animals looks so happy when springs
+comes too."
+B7,bank_B7.asm,DATA16_B7D1D0,B7D1D0,1482,37,74,True,...yeah:I'm OK.I just felt  dizzy...
+B7,bank_B7.asm,DATA16_B7D21A,B7D21A,1488,227,454,False,"I'm a wandering hawker.     Today:I have very rare      berries.
+Take one bite:and you'll be full of vitality.This is a  special offer:
+I can exchange some for a   chicken over there.
+ Exchange                    Not exchange<CHOICE_OR_WAIT>c"
+B7,bank_B7.asm,DATA16_B7D3E0,B7D3E0,1518,237,474,False,"I'm a wandering hawker.     Today:I have a very rare    bean seed.
+You'll see the wonder when  you plant it in the soil.   I can exchange it with one
+of your cows.               It's a bargain.
+ Exchange                    Not exchange<CHOICE_OR_WAIT>c"
+B7,bank_B7.asm,DATA16_B7D5BA,B7D5BA,1549,65,130,True,Well then:this cow is now   mine. The hawker is glad.   See you.
+B7,bank_B7.asm,DATA16_B7D63C,B7D63C,1559,151,302,True,"OK:this cow is mine now.    I've put the seed in you    shed.
+Plant it on the top of the  mountain. Something good    will definitely happen.
+See you."
+B7,bank_B7.asm,DATA16_B7D76A,B7D76A,1579,102,204,True,"You are a hardhearted       customer.I'm a wandering    hawker.
+This hawker is very sad.    Good-bye."
+B7,bank_B7.asm,DATA16_B7D836,B7D836,1593,249,498,False,"I'm a peddler of the wind.  This is the seed of a tree  that grows money.
+Plant it in the ground:     you'll be surprised.Mister: you're buying something
+good. It's only <CTRL_B4><CTRL_B2><CTRL_B2><CTRL_B2><CTRL_B2>G.
+ Buy it                      Not buy it                   Money <CTRL_FFFC>hk<CTRL_B2>G<CHOICE_OR_WAIT>c"
+B7,bank_B7.asm,DATA16_B7DA28,B7DA28,1626,63,126,True,Now:I've planted it.        Mister:look forward to      today.
+B7,bank_B7.asm,DATA16_B7DAA6,B7DAA6,1635,83,166,True,Are you sure? I guarantee   that you will regret this   for the rest of your life.
+B7,bank_B7.asm,DATA16_B7DB4C,B7DB4C,1647,47,94,True,Hey: it's tough when the    weather is gloomy.
+B7,bank_B7.asm,DATA16_B7DBAA,B7DBAA,1654,16,32,True,I'm busy: busy.
+B7,bank_B7.asm,DATA16_B7DBCA,B7DBCA,1657,63,126,True,It's the way back. It's     connected to the world here below.
+B7,bank_B7.asm,DATA16_B7DC48,B7DC48,1666,65,130,True,Good Lord: what's happening here? Hey: Is your place    alright?
+B7,bank_B7.asm,DATA16_B7DCCA,B7DCCA,1676,50,100,True,They say a hurricane is     coming here tomorrow.
+B7,bank_B7.asm,DATA16_B7DD2E,B7DD2E,1684,54,108,True,The wind is blowing harder  and that makes me scared.
+B7,bank_B7.asm,DATA16_B7DD9A,B7DD9A,1692,83,166,True,Oh well: the sky looks      threatening. We'll probably have a hurricane tomorrow.
+B7,bank_B7.asm,DATA16_B7DE40,B7DE40,1704,85,170,True,I don't know why but I get  excited when something like a hurricane comes.Don't you?
+B7,bank_B7.asm,DATA16_B7DEEA,B7DEEA,1716,68,136,True,The wind is blowing harder  now. I don't like           hurricanes.
+B7,bank_B7.asm,DATA16_B7DF72,B7DF72,1726,70,140,True,Rain is OK but not          hurricane. Because it blows flowers away.
+B7,bank_B7.asm,DATA16_B7DFFE,B7DFFE,1736,81,162,True,You'd better pray to God    that there is no damage fromthe hurricane. Trust me.
+B7,bank_B7.asm,DATA16_B7E0A0,B7E0A0,1748,122,244,False,"Hey:son:the hurricane is    getting near. Have you put  your livestock in the pen?
+ Sure                        I Forgot<CHOICE_OR_WAIT>c"
+B7,bank_B7.asm,DATA16_B7E194,B7E194,1765,43,86,True,You know what to do even if you are young.
+B7,bank_B7.asm,DATA16_B7E1EA,B7E1EA,1772,86,172,True,"Are you an idiot? What are  you doing here? Go home and put them in the
+penright now."
+B7,bank_B7.asm,DATA16_B7E296,B7E296,1784,77,154,True,What are you hanging around here for? Don't you know a  hurricane is coming?
+B7,bank_B7.asm,DATA16_B7E330,B7E330,1795,83,166,True,Have you put the livestock  in the pen? Let's lock the  doors later and go to bed.
+B7,bank_B7.asm,DATA16_B7E3D6,B7E3D6,1807,35,70,True,It's impossible to go out   today.
+B7,bank_B7.asm,DATA16_B7E41C,B7E41C,1813,67,134,True,Thank God that there was    only slight damage from the hurricane.
+B7,bank_B7.asm,DATA16_B7E4A2,B7E4A2,1823,57,114,True,I think the precious        weather-cock was blown away.
+B7,bank_B7.asm,DATA16_B7E514,B7E514,1832,28,56,True,I'm glad everybody is fine.
+B7,bank_B7.asm,DATA16_B7E54C,B7E54C,1837,23,46,True,Is your ranch alright?
+B7,bank_B7.asm,DATA16_B7E57A,B7E57A,1841,40,80,True,That was awful. Yes: ours   is alright.
+B7,bank_B7.asm,DATA16_B7E5CA,B7E5CA,1847,75,150,True,Let's look around the ranch.There will be trouble if thefences are broken.
+B7,bank_B7.asm,DATA16_B7E660,B7E660,1858,90,180,True,"The earthquake last night   registered <$00B6> on the richter scale.
+The damage is not serious."
+B7,bank_B7.asm,DATA16_B7E714,B7E714,1871,39,78,True,You'd better inspect here   and there.
+B7,bank_B7.asm,DATA16_B7E762,B7E762,1877,48,96,True,What? An earthquake?        I didn't notice it.
+B7,bank_B7.asm,DATA16_B7E7C2,B7E7C2,1884,127,254,True,"I wonder how my grandpa is  doing. There are a lot of   areas to collapse spots
+in the mountain so I'm      worried about him."
+B7,bank_B7.asm,DATA16_B7E8C0,B7E8C0,1901,43,86,True,I was surprised.Is your     ranch alright?
+B7,bank_B7.asm,DATA16_B7E916,B7E916,1908,101,202,True,"Cows are simple. So don't   keep them out on the ground when it rains: snows:
+and a hurricane comes."
+B7,bank_B7.asm,DATA16_B7E9E0,B7E9E0,1922,118,236,True,"It seems there are changes  everywhere caused by the    earthquake.
+We were just talking of     going to look around."
+B7,bank_B7.asm,DATA16_B7EACC,B7EACC,1938,75,150,True,The big rock out there      collapsed by the earthquake.Did you know that?
+B7,bank_B7.asm,DATA16_B7EB62,B7EB62,1949,39,78,True,Oh yes:I was pretty         surprised.
+B7,bank_B7.asm,DATA16_B7EBB0,B7EBB0,1955,46,92,True,Hey:listen: we can go       through the rock.
+B7,bank_B7.asm,DATA16_B7EC0C,B7EC0C,1962,94,188,True,"It might be able to go to   the end of the ranch faster through here.
+But time still goes on."
+B7,bank_B7.asm,DATA16_B7ECC8,B7ECC8,1975,106,212,True,"Have you seen a mole?It     scares the cows sometimes.  You'd better kick it
+out of the fence right away."
+B7,bank_B7.asm,DATA16_B7ED9C,B7ED9C,1990,14,28,True,I'm happy....
+B7,bank_B7.asm,DATA16_B7EDB8,B7EDB8,1993,38,76,True,Well:I haven't thought aboutit yet...
+B7,bank_B7.asm,DATA16_B7EE04,B7EE04,1999,21,42,True,...Are you sure? Me?
+B7,bank_B7.asm,DATA16_B7EE2E,B7EE2E,2003,18,36,True,You're kidding...
+B7,bank_B7.asm,DATA16_B7EE52,B7EE52,2007,10,20,True,"Yes, You,"
+B7,bank_B7.asm,DATA16_B7EE66,B7EE66,2010,29,58,True,I'm afraid it's too early...
+B7,bank_B7.asm,DATA16_B7EEA0,B7EEA0,2015,17,34,True,What? ......Yes.
+B7,bank_B7.asm,DATA16_B7EEC2,B7EEC2,2019,53,106,True,It's all too sudden so I    don't know what to do...
+B7,bank_B7.asm,DATA16_B7EF2C,B7EF2C,2027,28,56,True,Titter...alright. I say OK.
+B7,bank_B7.asm,DATA16_B7EF64,B7EF64,2032,28,56,True,Well: It's still too early.
+B7,bank_B7.asm,DATA16_B7EF9C,B7EF9C,2037,64,128,True,Good morning....da-darling. Be happy together from      now on.
+B7,bank_B7.asm,DATA16_B7F01C,B7F01C,2046,20,40,True, <CTRL_FFFD>jm:<CTRL_FFFC>cl<CTRL_FFFD>cn of <CTRL_FFFD>go.
+B7,bank_B7.asm,DATA16_B7F044,B7F044,2050,19,38,True,Don't be too late.
+B7,bank_B7.asm,DATA16_B7F06A,B7F06A,2054,37,74,True,Thank you for your trouble: darling.
+B7,bank_B7.asm,DATA16_B7F0B4,B7F0B4,2060,28,56,True,Please work hard today:too.
+B7,bank_B7.asm,DATA16_B7F0EC,B7F0EC,2065,34,68,True,I've got to do my best todayalso.
+B7,bank_B7.asm,DATA16_B7F130,B7F130,2071,48,96,True,I'll work hard to give the  house a good shine.
+B7,bank_B7.asm,DATA16_B7F190,B7F190,2078,72,144,True,It's strange. It's the same sky but the wind and the airfeel different.
+B7,bank_B7.asm,DATA16_B7F220,B7F220,2088,61,122,True,I'll try my best to make    something that will help    you.
+B7,bank_B7.asm,DATA16_B7F29A,B7F29A,2097,93,186,True,"I'll take care of those     tools too.                  .....Don't worry.
+I won't break any."
+B7,bank_B7.asm,DATA16_B7F354,B7F354,2110,97,194,True,"""Auto Milking <$0040> Yogurt-Maker: Special Version""          I wish it would be
+finished by spring..."
+B7,bank_B7.asm,DATA16_B7F416,B7F416,2124,70,140,True,Time goes by really quickly.I feel like I met you only afew days ago.
+B7,bank_B7.asm,DATA16_B7F4A2,B7F4A2,2134,75,150,True,The weather is beautiful.   Let's go on a picnic to the mountain top soon.
+B7,bank_B7.asm,DATA16_B7F538,B7F538,2145,71,142,True,La-la-la-la-la...           The sky is blue. I somehow  feel cheerful.
+B7,bank_B7.asm,DATA16_B7F5C6,B7F5C6,2155,95,190,True,"That mysterious flower in   the mountain:someday I'm    dreaming of growing them
+at the ranch."
+B7,bank_B7.asm,DATA16_B7F684,B7F684,2168,122,244,True,"Good morning: sweetheart.   There was a sparrow playing in front of our house
+some minutes ago.           It was so cute."
+B7,bank_B7.asm,DATA16_B7F778,B7F778,2185,53,106,True,I want to cook delicious    meals for you every day.
+B7,bank_B7.asm,DATA16_B7F7E2,B7F7E2,2193,112,224,True,"<CTRL_FFFD>ep may be the descended ofa Thoroughbred.             Don't you think so?
+It has a pretty fine coat   of hair."
+B7,bank_B7.asm,DATA16_B7F8C2,B7F8C2,2208,25,50,True,Yes:spring is wonderful.
+B7,bank_B7.asm,DATA16_B7F8F4,B7F8F4,2213,103,206,True,"Gradually I am getting used to living here. What? Am I  lonely?
+Oh:come on:you are here     beside me."
+B7,bank_B7.asm,DATA16_B7F9C2,B7F9C2,2227,87,174,True,"There are many kinds of     animals in the mountain.    Doesnt' that give you
+comfort?"
+B7,bank_B7.asm,DATA16_B7FA70,B7FA70,2239,37,74,True,What should I cook this     evening?
+B7,bank_B7.asm,DATA16_B7FABA,B7FABA,2245,25,50,True,Honey: please work well.
+B7,bank_B7.asm,DATA16_B7FAEC,B7FAEC,2250,35,70,True,There are no Sundays at     ranch.
+B7,bank_B7.asm,DATA16_B7FB32,B7FB32,2256,48,96,True,It's warm. Such a           comfortable Sunday.
+B7,bank_B7.asm,DATA16_B7FB92,B7FB92,2263,34,68,True,Do you work on a day like   this?
+B7,bank_B7.asm,DATA16_B7FBD6,B7FBD6,2269,62,124,True,It's raining so hard        outside. You might catch    cold.
+B7,bank_B7.asm,DATA16_B7FC52,B7FC52,2278,40,80,True,"What snow, I can hardly waitfor spring."
+B7,bank_B7.asm,DATA16_B7FCA2,B7FCA2,2284,40,80,True,It's so quiet. Just like    time stops.
+B7,bank_B7.asm,DATA16_B7FCF2,B7FCF2,2290,43,86,True,"I'm going back to my        parents' home,"
+B7,bank_B7.asm,DATA16_B7FD48,B7FD48,2297,41,82,True,You came to pick me up?     ......Sorry.
+B7,bank_B7.asm,DATA16_B7FD9A,B7FD9A,2304,45,90,True,"I am not angry any more,    Only a little..."
+B7,bank_B7.asm,DATA16_B7FDF4,B7FDF4,2311,19,38,True,Waaa:I missed you.
+B7,bank_B7.asm,DATA16_B7FE1A,B7FE1A,2315,49,98,True,OK:I'll be back. To be      honest: I was sorry.
+B7,bank_B7.asm,DATA16_B7FE7C,B7FE7C,2323,83,166,True,You don't know why I get madat you: do you? It's becauseyou always leave me alone.
+B7,bank_B7.asm,DATA16_B7FF22,B7FF22,2335,63,126,True,Hey:darling:shall we paint  our house in a beautiful    color?
+B7,bank_B7.asm,DATA16_B7FFA0,B7FFA0,2344,48,96,False,It has become a pretty      house.
+B8,bank_B8.asm,DATA16_B88000,B88000,5,78,156,True,Well...Uummmm...say...      I...umm..                   I guess I'm pregnant.
+B8,bank_B8.asm,DATA16_B8809C,B8809C,16,35,70,True,It'll be born some time     later.
+B8,bank_B8.asm,DATA16_B880E2,B880E2,22,38,76,True,Will you think of a name forthe baby?
+B8,bank_B8.asm,DATA16_B8812E,B8812E,28,44,88,True,I feel my body becoming a   little heavier.
+B8,bank_B8.asm,DATA16_B88186,B88186,35,39,78,True,I wonder if it will be a boyor a girl.
+B8,bank_B8.asm,DATA16_B881D4,B881D4,41,37,74,True,I know.I won't walk around  so much.
+B8,bank_B8.asm,DATA16_B8821E,B8821E,47,55,110,True,I feel strange that I'm     going to have a baby soon.
+B8,bank_B8.asm,DATA16_B8828C,B8828C,55,28,56,True,"Get out of my way: get out,"
+B8,bank_B8.asm,DATA16_B882C4,B882C4,60,88,176,False,"I'm OK:honey.Don't worry.   Please go to work.
+ Really?                     No: no: no<CHOICE_OR_WAIT>c"
+B8,bank_B8.asm,DATA16_B88374,B88374,72,17,34,True,I'll do alright.
+B8,bank_B8.asm,DATA16_B88396,B88396,76,28,56,True,Are you with me? Thank you.
+B8,bank_B8.asm,DATA16_B883CE,B883CE,81,14,28,True,uugh..uugh...
+B8,bank_B8.asm,DATA16_B883EA,B883EA,84,36,72,True,"Oh my God:the baby is       coming,"
+B8,bank_B8.asm,DATA16_B88432,B88432,90,21,42,True,Faltering:faltering.
+B8,bank_B8.asm,DATA16_B8845C,B8845C,94,14,28,True,Take it easy.
+B8,bank_B8.asm,DATA16_B88478,B88478,97,24,48,True,Don't be walking about.
+B8,bank_B8.asm,DATA16_B884A8,B884A8,101,74,148,True,I guess I've got to be old  enough to be able to see my great grandchild.
+B8,bank_B8.asm,DATA16_B8853C,B8853C,112,13,26,True,Waah-waah...
+B8,bank_B8.asm,DATA16_B88556,B88556,115,46,92,True,Ho-ho-ho...It's a very      healthy baby boy.
+B8,bank_B8.asm,DATA16_B885B2,B885B2,122,7,14,True,"Great,"
+B8,bank_B8.asm,DATA16_B885C0,B885C0,124,47,94,True,Phew...I haven't been this  nervous for years.
+B8,bank_B8.asm,DATA16_B8861E,B8861E,131,63,126,True,Yes: he looks like Nina.    Well...but he has your eyes:maybe.
+B8,bank_B8.asm,DATA16_B8869C,B8869C,140,38,76,True,It reminds me of when Nina  was born.
+B8,bank_B8.asm,DATA16_B886E8,B886E8,146,38,76,True,It reminds me of when Eve   was born.
+B8,bank_B8.asm,DATA16_B88734,B88734,152,26,52,True,Darling: please name him.
+B8,bank_B8.asm,DATA16_B88768,B88768,157,35,70,True,Thank you: honey. I'm so    happy.
+B8,bank_B8.asm,DATA16_B887AE,B887AE,163,41,82,True, <CTRL_FFFD>jq:<CTRL_FFFC>cm<CTRL_FFFD>cr of <CTRL_FFFD>gs.   Our baby was born.
+B8,bank_B8.asm,DATA16_B88800,B88800,170,69,138,True,What? Present? I'm so glad  that you remembered the     anniversary.
+B8,bank_B8.asm,DATA16_B8888A,B8888A,180,9,18,True,La-la-la
+B8,bank_B8.asm,DATA16_B8889C,B8889C,183,44,88,True, <CTRL_FFFD>jt:<CTRL_FFFC>cn<CTRL_FFFD>cu of <CTRL_FFFD>gv.   We got married today.
+B8,bank_B8.asm,DATA16_B888F4,B888F4,190,7,14,True,Dah...
+B8,bank_B8.asm,DATA16_B88902,B88902,192,9,18,True,Da-da...
+B8,bank_B8.asm,DATA16_B88914,B88914,195,11,22,True,Boo-boo...
+B8,bank_B8.asm,DATA16_B8892A,B8892A,198,205,410,False,"This is ""Blue feather of    happiness.""Well:happiness   is different for each
+one though.                 Right now: it's only <CTRL_B3><CTRL_B2><CTRL_B2><CTRL_B2>G,
+ Buy it                      Don't buy it                 Money <CTRL_FFFC>ho<CTRL_B2>G<CHOICE_OR_WAIT>c"
+B8,bank_B8.asm,DATA16_B88AC4,B88AC4,225,15,30,True,"God bless you,"
+B8,bank_B8.asm,DATA16_B88AE2,B88AE2,228,76,152,True,Yes: you should consider    it many times because it a  big choice of life.
+B8,bank_B8.asm,DATA16_B88B7A,B88B7A,239,28,56,True,Don't be silly:I'm married.
+B8,bank_B8.asm,DATA16_B88BB2,B88BB2,244,42,84,True,Who are you playing a joke  on:young man?
+B8,bank_B8.asm,DATA16_B88C06,B88C06,251,20,40,True,"That's it, Come on,"
+B8,bank_B8.asm,DATA16_B88C2E,B88C2E,255,42,84,True,Hey: you are giving it to a wrong person.
+B8,bank_B8.asm,DATA16_B88C82,B88C82,262,80,160,True,You have to give it to the  girl you love: OK? To the   girl you want to marry.
+B8,bank_B8.asm,DATA16_B88D22,B88D22,273,43,86,True,"Wow:the blue feather,       Show it to me."
+B8,bank_B8.asm,DATA16_B88D78,B88D78,280,244,488,True,"Good morning. Please excuse me for bothering you so     early in the morning
+but have you seen Maria?    When I woke up:her bed was  empty. Oh Lord:now that
+she's not here:then:where   on earth is she now? Please,Will you look for her
+with me?"
+B8,bank_B8.asm,DATA16_B88F60,B88F60,312,68,136,True,"Oh:Maria, Your dad was      wrong.Please:please come    back to me,"
+B8,bank_B8.asm,DATA16_B88FE8,B88FE8,322,139,278,True,"She is usually a quiet girl but...reason? ho-ho-ho:     it's her father's
+fault.I'm sorry to trouble  you.But please look         for her."
+B8,bank_B8.asm,DATA16_B890FE,B890FE,341,52,104,True,It seems Maria and her      father argued over you.
+B8,bank_B8.asm,DATA16_B89166,B89166,349,82,164,True,I think Maria went up to themountain.She said she       wanted to go there alone.
+B8,bank_B8.asm,DATA16_B8920A,B8920A,361,78,156,True,Where did Maria go? She wentto...exactly northeast.     You see a pond there.
+B8,bank_B8.asm,DATA16_B892A6,B892A6,372,49,98,True,Don't rush.How about        praying for a while?
+B8,bank_B8.asm,DATA16_B89308,B89308,380,38,76,True,Hello.A girl? No: I haven't seen any.
+B8,bank_B8.asm,DATA16_B89354,B89354,386,64,128,True,Hi.What do you want today?  What? Are you looking for   a girl?
+B8,bank_B8.asm,DATA16_B893D4,B893D4,395,89,178,True,"Uumm:n-no:I don't know.     I sure don't know:really.   She's not hiding behind
+the bed."
+B8,bank_B8.asm,DATA16_B89486,B89486,408,43,86,True,I'm sorry..I'm...going home.Hey:thank you.
+B8,bank_B8.asm,DATA16_B894DC,B894DC,415,33,66,True,What's going on here:hey:   you?
+B8,bank_B8.asm,DATA16_B8951E,B8951E,421,129,258,True,"Ho-ho-ho:Maria is in the    back room. She is my        daughter.
+She does the same thing as  me. She's just a little     sulky."
+B8,bank_B8.asm,DATA16_B89620,B89620,439,10,20,True,"How rude,"
+B8,bank_B8.asm,DATA16_B89634,B89634,442,34,68,True,I don't like this smell so  much.
+B8,bank_B8.asm,DATA16_B89678,B89678,448,227,454,True,"Hey:have you seen my        weather-cock?               The one on the top of
+my roof.                    It was blown away by the    strong wind last night.
+I suppose it came here      but please let me know if   you find it."
+B8,bank_B8.asm,DATA16_B8983E,B8983E,478,125,250,True,"I made that weather-cock formy wife.so it's just like a memento for Ann.
+She's usually cheerful but  now she's so depressed."
+B8,bank_B8.asm,DATA16_B89938,B89938,495,128,256,True,"The Direction in which the  weather-cock went to?       Somewhere you can keep
+away from the rain.And the  key word is chicken,"
+B8,bank_B8.asm,DATA16_B89A38,B89A38,512,27,54,True,You can't find it...aha...
+B8,bank_B8.asm,DATA16_B89A6E,B89A6E,517,91,182,True,"She came back home in such ahurry:went into her room    right away: and still
+stays there."
+B8,bank_B8.asm,DATA16_B89B24,B89B24,530,133,266,True,"That's a tradition in this  area called ""Blue feather ofhappiness.""
+Use it when you make a      marriage proposal to        someone."
+B8,bank_B8.asm,DATA16_B89C2E,B89C2E,548,79,158,True,"I'm not hanging on to my    memory but it's so precious for me.
+....Thank you,"
+B8,bank_B8.asm,DATA16_B89CCC,B89CCC,559,85,170,True,"How nice the young people   are, Yes:I want her to be   cheerful all the time. Sure."
+B8,bank_B8.asm,DATA16_B89D76,B89D76,571,90,180,True,"Nina hasn't been back since she went to the mountain to find a herb.
+Please look for her,"
+B8,bank_B8.asm,DATA16_B89E2A,B89E2A,584,43,86,True,Her Dad is out taking care  of her mother.
+B8,bank_B8.asm,DATA16_B89E80,B89E80,591,66,132,True,.....Herb.... A grass with  a tiny little white         flower...
+B8,bank_B8.asm,DATA16_B89F04,B89F04,601,93,186,True,"Mmmm:a girl fell down in a  dark: small place. Go get   her right away before
+it's too late."
+B8,bank_B8.asm,DATA16_B89FBE,B89FBE,614,49,98,True,...Thank you.Good.Mom will  be better with this.
+B8,bank_B8.asm,DATA16_B8A020,B8A020,622,34,68,True,....No:I can't move any     more.
+B8,bank_B8.asm,DATA16_B8A064,B8A064,628,101,202,True,"Heh-heh:Nina always wants   to make up to everyone so   it must be hard for you
+to take care of her."
+B8,bank_B8.asm,DATA16_B8A12E,B8A12E,642,63,126,True,What have you done this     time? They all are pretty   angry.
+B8,bank_B8.asm,DATA16_B8A1AC,B8A1AC,651,68,136,True,My P-chan is gone. If you   see her: please let me know.Promise me.
+B8,bank_B8.asm,DATA16_B8A234,B8A234,661,39,78,True,Recently a cute customer    came here.
+B8,bank_B8.asm,DATA16_B8A282,B8A282,667,53,106,True,Ellen's bird flew away so   she is pretty depressed.
+B8,bank_B8.asm,DATA16_B8A2EC,B8A2EC,675,7,14,True,Aha...
+B8,bank_B8.asm,DATA16_B8A2FA,B8A2FA,677,95,190,True,"Which direction did the bluebird go? Well:I think I     saw it flying up towards
+the mountain."
+B8,bank_B8.asm,DATA16_B8A3B8,B8A3B8,690,72,144,True,Ellen depends on you:       doesn't she?                Look after her.
+B8,bank_B8.asm,DATA16_B8A448,B8A448,700,201,402,True,"I'm sorry...I'm OK now.     I was ....always...cheered  up and never thought
+of P-chan.                  She's free now...good bye:  P-chan...take care...thank
+you for everything you've   done for me."
+B8,bank_B8.asm,DATA16_B8A5DA,B8A5DA,727,34,68,True,Thank you for looking for mybird.
+B8,bank_B8.asm,DATA16_B8A61E,B8A61E,733,39,78,True,...You recently....no:      nothing...
+B8,bank_B8.asm,DATA16_B8A66C,B8A66C,739,24,48,True,"...What? I'm very busy,"
+B8,bank_B8.asm,DATA16_B8A69C,B8A69C,743,48,96,True,"Good God, The old hunter is locked in the cave,"
+B8,bank_B8.asm,DATA16_B8A6FC,B8A6FC,750,24,48,True,"Please:help my grandpa,"
+B8,bank_B8.asm,DATA16_B8A72C,B8A72C,754,46,92,True,We've got to save him as    soon as possible.
+B8,bank_B8.asm,DATA16_B8A788,B8A788,761,67,134,True,We can't go forward because the inside of the cave has  collapsed.
+B8,bank_B8.asm,DATA16_B8A80E,B8A80E,771,49,98,True,"So glad:you made it, He's a promising young man."
+B8,bank_B8.asm,DATA16_B8A870,B8A870,779,37,74,True,"Have you got a hammer?      Hammer,?"
+B8,bank_B8.asm,DATA16_B8A8BA,B8A8BA,785,102,204,True,"Who? Eve? They say your     grandfather was in trouble  in the mountain so
+they are still over there."
+B8,bank_B8.asm,DATA16_B8A986,B8A986,799,100,200,True,"Groan...ouch... It's you... Phew:I'm too old now...     If something happens to me:
+look after Eve."
+B8,bank_B8.asm,DATA16_B8AA4E,B8AA4E,813,54,108,True,"Grandpa, ...I am .So glad tosee that you are alright."
+B8,bank_B8.asm,DATA16_B8AABA,B8AABA,821,45,90,True,I could have gotten out of  there by myself.
+B8,bank_B8.asm,DATA16_B8AB14,B8AB14,828,106,212,True,"Grandpa...you scared me to  death.....Please don't be   unreasonable any more.
+....Come down to the town."
+B8,bank_B8.asm,DATA16_B8ABE8,B8ABE8,843,11,22,True,Thank you.
+B8,bank_B8.asm,DATA16_B8ABFE,B8ABFE,846,162,324,True,"Well:the Flower Festival is tomorrow.The whole town is  covered with the good
+smell of flowers. Everybody:let's get together at the   public square at <CTRL_B5> o'clock."
+B8,bank_B8.asm,DATA16_B8AD42,B8AD42,868,242,484,True,"The flower festival is...   once upon a time...         The Goddess of Land was
+trying to cheer up a girl   who had lost her boyfriend  She made the flowers
+bloom for the first time.   And Before that:            there was no flowers at all."
+B8,bank_B8.asm,DATA16_B8AF26,B8AF26,900,88,176,True,"We'll be selling wonderful  things at the festival      tomorrow so look forward
+to it."
+B8,bank_B8.asm,DATA16_B8AFD6,B8AFD6,912,47,94,True,I'm really giving her a     present this year.
+B8,bank_B8.asm,DATA16_B8B034,B8B034,919,95,190,True,"God has taught us that the  heart is for appreciating   flowers and to being
+open and relaxed."
+B8,bank_B8.asm,DATA16_B8B0F2,B8B0F2,932,76,152,True,It's the Flower Festival    tomorrow. It also celebrate the spring to come.
+B8,bank_B8.asm,DATA16_B8B18A,B8B18A,943,73,146,True,It's the Flower Festival    tomorrow.It's good to relax once in a while.
+B8,bank_B8.asm,DATA16_B8B21C,B8B21C,954,78,156,True,It's the Flower Festival    tomorrow.I love it the best of all the festivals.
+B8,bank_B8.asm,DATA16_B8B2B8,B8B2B8,965,51,102,True,Don't buy all that unusual  stuff at the festival.
+B8,bank_B8.asm,DATA16_B8B31E,B8B31E,973,51,102,True,Heh:I love festivals.I am   Looking forward to it.
+B8,bank_B8.asm,DATA16_B8B384,B8B384,981,66,132,True,No one has to go to the     festival but please join us tomorrow.
+B8,bank_B8.asm,DATA16_B8B408,B8B408,991,60,120,False,We are selling bottles of   some wonderful perfume      toda
+B8,bank_B8.asm,DATA16_B8B480,B8B480,1000,37,74,True,"y.
+Please pick up what you     like."
+B8,bank_B8.asm,DATA16_B8B4CA,B8B4CA,1006,185,370,False,"That's made of ""Rose""       flowers.Smells sweet and    romantic:doesn't it?
+It costs <CTRL_B3><CTRL_B2><CTRL_B2><CTRL_B2>G Do you       want it?
+ Yes                         No                           Money <CTRL_FFFC>hp<CTRL_B2>G<CHOICE_OR_WAIT>c"
+B8,bank_B8.asm,DATA16_B8B63C,B8B63C,1031,194,388,False,"It's made of ""Lilac""        flowers. Its fragrance is   mild and elegant: isn't it?
+It costs <CTRL_B3><CTRL_B2><CTRL_B2><CTRL_B2>G. Do you want to buy it?
+ Yes                         No                           Money <CTRL_FFFC>hq<CTRL_B2>G<CHOICE_OR_WAIT>c"
+B8,bank_B8.asm,DATA16_B8B7C0,B8B7C0,1057,183,366,False,"It's made of ""Violet""       flowers.Its fragrance makes you feel refreshed.
+It's <CTRL_B3><CTRL_B2><CTRL_B2><CTRL_B2>G. Do you want to  buy it?
+ Yes                         No                           Money <CTRL_FFFC>hr<CTRL_B2>G<CHOICE_OR_WAIT>c"
+B8,bank_B8.asm,DATA16_B8B92E,B8B92E,1081,75,150,True,Thank you very much.        Please be careful not to    drop and break it.
+B8,bank_B8.asm,DATA16_B8B9C4,B8B9C4,1092,42,84,True,I see.I'm a little          disappointed.
+B8,bank_B8.asm,DATA16_B8BA18,B8BA18,1099,44,88,True,Wow:thanks a lot. Mmmm:it   smells so good.
+B8,bank_B8.asm,DATA16_B8BA70,B8BA70,1106,47,94,True,Oh no:Mister:you don't      have enough money.
+B8,bank_B8.asm,DATA16_B8BACE,B8BACE,1113,263,526,False,"I have a very rare product  this time. It's said to be  truly the only
+one of its kind in the      world...It's called ""seed ofsnow flower.""
+It costs <CTRL_B4><CTRL_B2><CTRL_B2><CTRL_B2>G.             Do you want to buy it?
+ Buy it                      Not this time                Money <CTRL_FFFC>hs<CTRL_B2>G<CHOICE_OR_WAIT>c"
+B8,bank_B8.asm,DATA16_B8BCDC,B8BCDC,1147,77,154,True,Well:I'll deliver it to     your shed.Use it in winter  at the mountain top.
+B8,bank_B8.asm,DATA16_B8BD76,B8BD76,1158,77,154,True,I'm a bit disappointed.     I can't guarantee I'll have it next time though.
+B8,bank_B8.asm,DATA16_B8BE10,B8BE10,1169,46,92,True,Fragrance makes people feel calm and relaxed.
+B8,bank_B8.asm,DATA16_B8BE6C,B8BE6C,1176,44,88,True,When it comes down to it:   I can't buy it.
+B8,bank_B8.asm,DATA16_B8BEC4,B8BEC4,1183,48,96,True,I feel calm when I see      flowers. I mean it.
+B8,bank_B8.asm,DATA16_B8BF24,B8BF24,1190,51,102,True,I want to buy a bottle of   perfume for my sister.
+B8,bank_B8.asm,DATA16_B8BF8A,B8BF8A,1198,48,96,True,The fragrance of soap is    the best for girls.
+B8,bank_B8.asm,DATA16_B8BFEA,B8BFEA,1205,49,98,True,They say it's the statue of the Goddess of Land.
+B8,bank_B8.asm,DATA16_B8C04C,B8C04C,1213,117,234,True,"Goddess of Land lives in themountain.And she is very    friendly.
+Grandma told me so..... but I wonder if it's true."
+B8,bank_B8.asm,DATA16_B8C136,B8C136,1229,64,128,True,They say that the Goddess ofLand lives in a small       spring.
+B8,bank_B8.asm,DATA16_B8C1B6,B8C1B6,1238,65,130,True,Think carefully about the   girls' tastes and choose a  present.
+B8,bank_B8.asm,DATA16_B8C238,B8C238,1248,90,180,True,"My heart warms up with the  joys of spring  when it's   filled with the smell
+of flowers."
+B8,bank_B8.asm,DATA16_B8C2EC,B8C2EC,1261,73,146,True,Flowers soften people's     minds.May everybody be with the gentle mind.
+B8,bank_B8.asm,DATA16_B8C37E,B8C37E,1272,54,108,True,Flowers are one of the most wonderful gifts from God.
+B8,bank_B8.asm,DATA16_B8C3EA,B8C3EA,1280,28,56,True,Let's dance later: darling.
+B8,bank_B8.asm,DATA16_B8C422,B8C422,1285,34,68,True,Dad wanders like that every year.
+B8,bank_B8.asm,DATA16_B8C466,B8C466,1291,65,130,True,Let see...I don't have a    character to fit the        flowers.
+B8,bank_B8.asm,DATA16_B8C4E8,B8C4E8,1301,65,130,True,He probably likes the type  of girl who is fond of      flowers.
+B8,bank_B8.asm,DATA16_B8C56A,B8C56A,1311,70,140,True,I'm not sure but it might beneat to work on a machine tomake perfume.
+B8,bank_B8.asm,DATA16_B8C5F6,B8C5F6,1321,67,134,True,"Flowers cover the whole     town.I am so happy, Hey:are you happy?"
+B8,bank_B8.asm,DATA16_B8C67C,B8C67C,1331,66,132,True,"Say:happy?                  Come on, You' ve got to be  cheerier?"
+B8,bank_B8.asm,DATA16_B8C700,B8C700,1341,105,210,True,"In Heaven:I suppose there   are blooming flowers        everywhere such as on the
+water:and in the wind."
+B8,bank_B8.asm,DATA16_B8C7D2,B8C7D2,1356,33,66,True,Hey:I can dance much better now.
+B8,bank_B8.asm,DATA16_B8C814,B8C814,1362,38,76,True,Too much perfume.It makes   me dizzy.
+B8,bank_B8.asm,DATA16_B8C860,B8C860,1368,90,180,True,"Do you believe the story of the Goddess that made       flowers bloom?
+Isn't it romantic?"
+B8,bank_B8.asm,DATA16_B8C914,B8C914,1381,66,132,True,I wonder if men are not veryinterested in this kind of  festival?
+B8,bank_B8.asm,DATA16_B8C998,B8C998,1391,48,96,True,It's good to be merry at a  festival sometimes.
+B8,bank_B8.asm,DATA16_B8C9F8,B8C9F8,1398,55,110,True,Heh-heh:I could get relaxed with the smell of flowers.
+B8,bank_B8.asm,DATA16_B8CA66,B8CA66,1406,118,236,True,"God's got a little sense of humor.If it's supposed to   cheer people up:
+wine would be much better.  Don't you think?"
+B8,bank_B8.asm,DATA16_B8CB52,B8CB52,1422,84,168,True,What? You say I'm much      prettier than flowers?      You didn't say so? ...What?
+B8,bank_B8.asm,DATA16_B8CBFA,B8CBFA,1434,54,108,True,You:I won't forgive you if  you pick up another girl.
+B8,bank_B8.asm,DATA16_B8CC66,B8CC66,1442,151,302,False,"Can we start dancing now?   If you haven't done all the thing you wanted to do:
+hurry up and do it right    now.
+ Let's dance                 Hold on<CHOICE_OR_WAIT>c"
+B8,bank_B8.asm,DATA16_B8CD94,B8CD94,1462,26,52,True,Now pick up your partner.
+B8,bank_B8.asm,DATA16_B8CDC8,B8CDC8,1467,38,76,True,If you have some more to do:hurry up.
+B8,bank_B8.asm,DATA16_B8CE14,B8CE14,1473,211,422,True,"Now here comes this year's  harvest festival. Ladies andgentlemen:have you decided
+what to take to the         festival? The festival is   held at the public
+square tomorrow. It ends at <CTRL_B5>:<CTRL_B2><CTRL_B2>pm so don't be late."
+B8,bank_B8.asm,DATA16_B8CFBA,B8CFBA,1501,38,76,True,It's the Harvest Festival   tomorrow.
+B8,bank_B8.asm,DATA16_B8D006,B8D006,1507,105,210,True,"Have you decided what to    take to the festival? I wantto complete my machine
+and present it in public."
+B8,bank_B8.asm,DATA16_B8D0D8,B8D0D8,1522,57,114,True,Well:what's good?I wonder ifherbs or spices will be  OK.
+B8,bank_B8.asm,DATA16_B8D14A,B8D14A,1531,76,152,True,I will take something very  delicious tomorrow so pleaselook forward to it.
+B8,bank_B8.asm,DATA16_B8D1E2,B8D1E2,1542,79,158,True,It's Harvest Festival       tomorrow. I love singing anddancing.It's exciting.
+B8,bank_B8.asm,DATA16_B8D280,B8D280,1553,86,172,True,"We'll have the harvest      festival tomorrow: right?   Autumn has already been
+here."
+B8,bank_B8.asm,DATA16_B8D32C,B8D32C,1565,65,130,True,The harvest Festival is for celebrating the year's      harvest.
+B8,bank_B8.asm,DATA16_B8D3AE,B8D3AE,1575,56,112,True,Please bring foods to eat   for the great harvest stew.
+B8,bank_B8.asm,DATA16_B8D41E,B8D41E,1583,228,456,True,"The Harvest Festival is     tomorrow.I'll stop work     earlier and come to the
+public square at <CTRL_B5>:<CTRL_B2><CTRL_B2>pm.    If you have is livestock:   you should feed them
+before.. And I'll bring     something to put in the     stew.Good bye."
+B8,bank_B8.asm,DATA16_B8D5E6,B8D5E6,1613,53,106,True,Welcome.Put what you        brought in the stew now.
+B8,bank_B8.asm,DATA16_B8D650,B8D650,1621,47,94,True,Oh no:you didn't bring     anything.  Alright.
+B8,bank_B8.asm,DATA16_B8D6AE,B8D6AE,1628,26,52,True,Now:wait until it's done.
+B8,bank_B8.asm,DATA16_B8D6E2,B8D6E2,1633,51,102,True,It's your stew.             Eat it with gratitude.
+B8,bank_B8.asm,DATA16_B8D748,B8D748,1641,41,82,True,Mine was flowers.It was     fairly good.
+B8,bank_B8.asm,DATA16_B8D79A,B8D79A,1648,162,324,True,"It was delicious.You know:  I don't have a wife.        No: I'm not saying Ann's
+dishes are bad. In fact:    they taste pretty good      once you get used to it."
+B8,bank_B8.asm,DATA16_B8D8DE,B8D8DE,1670,164,328,True,"Are you cutting grass? You  can cut it by autumn so try to cut as much as you can.
+Otherwise:you will panic if you don't have feed to give to the cows andchickens."
+B8,bank_B8.asm,DATA16_B8DA26,B8DA26,1692,63,126,True,I'm <CTRL_B3><CTRL_B2><CTRL_B2>& happy only if I    could taste when I eat good stuff.
+B8,bank_B8.asm,DATA16_B8DAA4,B8DAA4,1701,13,26,True,"I'm stuffed,"
+B8,bank_B8.asm,DATA16_B8DABE,B8DABE,1704,177,354,False,"Good-day:today, Here are    some famous dumpling from   the North,
+Do you want some,           It's <CTRL_B5><CTRL_B2><CTRL_B2>G.
+ Buy                         Don't Buy                    Money <CTRL_FFFC>ht<CTRL_B2>G<CHOICE_OR_WAIT>c"
+B8,bank_B8.asm,DATA16_B8DC20,B8DC20,1728,219,438,False,"Good-day:today,             Here are some rice balls    made from <CTRL_B3><CTRL_B2><CTRL_B2>& Starshine
+rice. They are fresh and    warm. Do you want some?     It's <CTRL_B4><CTRL_B2><CTRL_B2>G.
+ Buy                         Don't buy                    Money <CTRL_FFFC>hu<CTRL_B2>G<CHOICE_OR_WAIT>c"
+B8,bank_B8.asm,DATA16_B8DDD6,B8DDD6,1757,42,84,True,Thank you. Be careful not toget addicted.
+B8,bank_B8.asm,DATA16_B8DE2A,B8DE2A,1764,53,106,True,Don't say no. Just one bite:it makes you <CTRL_B3><CTRL_B2><CTRL_B2>& happy.
+B8,bank_B8.asm,DATA16_B8DE94,B8DE94,1772,81,162,True,I can't bring anything      this year. It's such hard   work to find rare seeds.
+B8,bank_B8.asm,DATA16_B8DF36,B8DF36,1784,92,184,True,"The fruits of the Southern  Country taste good:but they smell strong and I don't
+like that."
+B8,bank_B8.asm,DATA16_B8DFEE,B8DFEE,1797,29,58,True,I can't dance very well yet.
+B8,bank_B8.asm,DATA16_B8E028,B8E028,1802,34,68,True,Dancing will start pretty   soon.
+B8,bank_B8.asm,DATA16_B8E06C,B8E06C,1808,113,226,False,"Even if you don't believe inGod: it's good to keep      gratitude in your mind.
+ Yes                         No<CHOICE_OR_WAIT>c"
+B8,bank_B8.asm,DATA16_B8E14E,B8E14E,1824,66,132,True,Even if you don't believe inGod:it's good to be         grateful.
+B8,bank_B8.asm,DATA16_B8E1D2,B8E1D2,1834,45,90,True,Yes:The Goddess of Land     exists for sure.
+B8,bank_B8.asm,DATA16_B8E22C,B8E22C,1841,41,82,True,I thought it would be OK    this time...
+B8,bank_B8.asm,DATA16_B8E27E,B8E27E,1848,69,138,False,"Hey: please, Eat this,
+ OK                          I don't want it<CHOICE_OR_WAIT>c"
+B8,bank_B8.asm,DATA16_B8E308,B8E308,1858,28,56,True,Thank you. You are so nice.
+B8,bank_B8.asm,DATA16_B8E340,B8E340,1863,6,12,True,"Waaa,"
+B8,bank_B8.asm,DATA16_B8E34C,B8E34C,1865,86,172,False,"I made this pumpkin pie.    Do you want to try some?
+ Yes                         No<CHOICE_OR_WAIT>c"
+B8,bank_B8.asm,DATA16_B8E3F8,B8E3F8,1877,47,94,True,This year's pumpkins are    sweet:aren't they?
+B8,bank_B8.asm,DATA16_B8E456,B8E456,1884,57,114,True,Oh yeah? This pumpkin pie   has received  praise though.
+B8,bank_B8.asm,DATA16_B8E4C8,B8E4C8,1893,102,204,True,"I give you a special        souvenir ""Clock"" for free.  You can find the time with
+the select button."
+B8,bank_B8.asm,DATA16_B8E594,B8E594,1907,90,180,True,"I think it's important to   thank the land and the sun  as well as celebrate
+the harvest."
+B8,bank_B8.asm,DATA16_B8E648,B8E648,1920,96,192,False,"Taraah: it's an Auto        Harvesting Machine, Switch  it on.
+ Push                        No<CHOICE_OR_WAIT>c"
+B8,bank_B8.asm,DATA16_B8E708,B8E708,1933,14,28,True,Sorry:failed.
+B8,bank_B8.asm,DATA16_B8E724,B8E724,1936,24,48,True,What are you afraid of?
+B8,bank_B8.asm,DATA16_B8E754,B8E754,1940,24,48,True,...No:this isn't right.
+B8,bank_B8.asm,DATA16_B8E784,B8E784,1944,143,286,True,"Taste good:huh? It's called the fruit of the full-moon  plant.
+It's moistured:soft:and     melts in the mouth like ice cream.It's my favorite."
+B8,bank_B8.asm,DATA16_B8E8A2,B8E8A2,1963,64,128,True,I'll pick it up the first   thing in the morning for    you....
+B8,bank_B8.asm,DATA16_B8E922,B8E922,1972,79,158,False,"This is a special meat pie Imade.Want a bite?
+ Yes                         No<CHOICE_OR_WAIT>c"
+B8,bank_B8.asm,DATA16_B8E9C0,B8E9C0,1983,73,146,True,You make everything you eat seem delicious so it's worthcooking for you.
+B8,bank_B8.asm,DATA16_B8EA52,B8EA52,1994,37,74,True,Alright. It's pretty good   though..
+B8,bank_B8.asm,DATA16_B8EA9C,B8EA9C,2000,124,248,False,"It's the berry juice I made last year. It's one of the  gifts from the earth.
+Want to try?
+ Yes                         No<CHOICE_OR_WAIT>c"
+B8,bank_B8.asm,DATA16_B8EB94,B8EB94,2017,38,76,True,"If you think you are a man: drink up,"
+B8,bank_B8.asm,DATA16_B8EBE0,B8EBE0,2023,27,54,True,It's really good though...
+B8,bank_B8.asm,DATA16_B8EC16,B8EC16,2028,141,282,True,"....oof:sorry.I don't feel  good...no:no:no...          I have to eat it with
+gratitude even if there's   something strange in it.    Right?"
+B8,bank_B8.asm,DATA16_B8ED30,B8ED30,2047,93,186,False,"Taraaa,Improved Auto        Harvesting Machine, Turn it on,
+ OK                          No<CHOICE_OR_WAIT>c"
+B8,bank_B8.asm,DATA16_B8EDEA,B8EDEA,2060,10,20,True,...Weird.
+B8,bank_B8.asm,DATA16_B8EDFE,B8EDFE,2063,76,152,True,"....Ha-ha-ha-ha-ha,Yes:I hadjuice and now I can see     butterflies flying."
+B8,bank_B8.asm,DATA16_B8EE96,B8EE96,2074,128,256,True,"It's the Star Night Festivaltomorrow. There are a coupleof places for it so you
+should ask the townsfolk to decide where to go."
+B8,bank_B8.asm,DATA16_B8EF96,B8EF96,2091,94,188,False,"It's the wild grape juice.  It's sweet and good. Want totry?
+ Yes                         No<CHOICE_OR_WAIT>c"
+B8,bank_B8.asm,DATA16_B8F052,B8F052,2104,35,70,True,"Cheers for gifts from the   earth,"
+B8,bank_B8.asm,DATA16_B8F098,B8F098,2110,40,80,True,You are not very sociable:  aren't you?
+B8,bank_B8.asm,DATA16_B8F0E8,B8F0E8,2116,265,530,True,"It's the Flower Festival    tomorrow. I'll stop work    earlier and come to the
+public square at <CTRL_B5>:<CTRL_B2><CTRL_B2>.      If you have livestock:you'd better feed them before
+the festival.I'll definitelypick up the shipping goods  in the box
+if you put them in it.      Good-bye."
+B8,bank_B8.asm,DATA16_B8F2FA,B8F2FA,2151,158,316,True,"This is information of an   event. We'll have the annualegg festival.
+The weather is very good.   Ladies and gentlemen:you arecordially invited
+to take part."
+B8,bank_B8.asm,DATA16_B8F436,B8F436,2172,243,486,True,"It's Egg Festival tomorrow. I'll stop work earlier and  come to the public
+square by <CTRL_B5>:<CTRL_B2><CTRL_B2>.If you have  livestock:you'd better feed them before the festival.
+I'll definitely pick up the shipping goods in the box ifyou put them in it.
+Good-bye."
+B8,bank_B8.asm,DATA16_B8F61C,B8F61C,2204,93,186,False,"It's the kidney pie I'm     proud of.  Won't you try    it?
+ Yes                         No<CHOICE_OR_WAIT>c"
+B8,bank_B8.asm,DATA16_B8F6D6,B8F6D6,2217,36,72,True,It's very nourishing        though.
+B8,bank_B8.asm,DATA16_B8F71E,B8F71E,2223,105,210,False,"It's the <CTRL_B5> year old berry   juice.Smells good:huh?      Do you want it?
+ Yes                         No<CHOICE_OR_WAIT>c"
+B8,bank_B8.asm,DATA16_B8F7F0,B8F7F0,2238,35,70,True,It's my grandpa's favorite  juice.
+B8,bank_B8.asm,DATA16_B8F836,B8F836,2244,36,72,True,"What? Can't you drink my    juice,?"
+B8,bank_B8.asm,DATA16_B8F87E,B8F87E,2250,55,110,True,May we be able to have      pleasant moments for ever.
+B8,bank_B8.asm,DATA16_B8F8EC,B8F8EC,2258,177,354,False,"This is it, Ultra Special   Auto harvesting Machine,,,  .....Hey:you don't seem to
+trust me.Don't say a word:  just turn it on, On,
+ Push                        I'd never push<CHOICE_OR_WAIT>c"
+B8,bank_B8.asm,DATA16_B8FA4E,B8FA4E,2282,36,72,True,It's not whether you like itor not.
+B8,bank_B8.asm,DATA16_B8FA96,B8FA96,2288,79,158,True,"Fresh ingredients and       affection are necessary to  make dishes delicious,"
+B8,bank_B8.asm,DATA16_B8FB34,B8FB34,2299,95,190,True,"Tasty rice balls and        dumplings, Won't you try    some? They are all          delicious,"
+B8,bank_B8.asm,DATA16_B8FBF2,B8FBF2,2312,17,34,True,"Congratulations,"
+B8,bank_B8.asm,DATA16_B8FC14,B8FC14,2316,41,82,True,You are going to have a babypretty soon.
+B8,bank_B8.asm,DATA16_B8FC66,B8FC66,2323,51,102,True,Ho-ho:look at this baby.    It's a cute baby girl.
+B8,bank_B8.asm,DATA16_B8FCCC,B8FCCC,2331,61,122,True,Oh:I have my partner. You'd better try to find one for  you.
+B8,bank_B8.asm,DATA16_B8FD46,B8FD46,2340,42,84,True,I...I want to dance with    someone else.
+B8,bank_B8.asm,DATA16_B8FD9A,B8FD9A,2347,47,94,True,A young man should dance    with a young girl.
+B8,bank_B8.asm,DATA16_B8FDF8,B8FDF8,2354,21,42,True,"Bring me more juice,"
+B8,bank_B8.asm,DATA16_B8FE22,B8FE22,2358,18,36,True,Was it delicious?
+B8,bank_B8.asm,DATA16_B8FE46,B8FE46,2362,50,100,True,No:I want to dance with     someone else:not you.
+B8,bank_B8.asm,DATA16_B8FEAA,B8FEAA,2370,35,70,True,"Yeah:I want to dance with   Maria,"
+B8,bank_B8.asm,DATA16_B8FEF0,B8FEF0,2376,136,272,False,It's the New Year's festivaltomorrow. You should say thelast hello of this year.
+B9,bank_B9.asm,DATA16_B98000,B98000,5,82,164,True,It's just a dance but it    means more because you      choose your partner here.
+B9,bank_B9.asm,DATA16_B980A4,B980A4,17,74,148,True,Who are you going to ask to dance? You are going to     ....no:forget it.
+B9,bank_B9.asm,DATA16_B98138,B98138,28,70,140,True,You can never cancel it. So choose carefully so you     won't regret.
+B9,bank_B9.asm,DATA16_B981C4,B981C4,38,130,260,True,"It's the Thanksgiving       Festival tomorrow. Nice     smell of baking cakes fills
+the whole town.             Dad:it'll be fun."
+B9,bank_B9.asm,DATA16_B982C8,B982C8,56,210,420,True,"It's the Thanksgiving       Festival tomorrow. It's for all the husbands and
+fathers who are always      working hard and women bake cakes for them to show
+thanks. I suggest you to    come to town if possible."
+B9,bank_B9.asm,DATA16_B9846C,B9846C,84,95,190,True,"because girls give cakes to people they like. If you    have time:
+I suggest you come to town."
+B9,bank_B9.asm,DATA16_B9852A,B9852A,97,40,80,True,I'm going to bed now.       Good night.
+B9,bank_B9.asm,DATA16_B9857A,B9857A,103,109,218,False,"Heh-heh This is very        delicious, Want to try      some?
+ Eat it                      I don't' want it<CHOICE_OR_WAIT>c"
+B9,bank_B9.asm,DATA16_B98654,B98654,118,111,222,True,"It's Thanksgiving Festival  today. Here you are:        darling.
+Thank you for working hard  for me every day."
+B9,bank_B9.asm,DATA16_B98732,B98732,133,36,72,True,Please work well from       now on.
+B9,bank_B9.asm,DATA16_B9877A,B9877A,139,11,22,True,Fidgety...
+B9,bank_B9.asm,DATA16_B98790,B98790,142,21,42,True,Thump:thump:thump...
+B9,bank_B9.asm,DATA16_B987BA,B987BA,146,121,242,True,"Yes:Ellen is a good cook andtakes good care of the      livestock.
+She is a nice and steady    girl. Don't you think so?"
+B9,bank_B9.asm,DATA16_B988AC,B988AC,163,65,130,True,I love my wife's cake but mydaughter's makes me so much happier.
+B9,bank_B9.asm,DATA16_B9892E,B9892E,173,27,54,True,I scorched the cake again.
+B9,bank_B9.asm,DATA16_B98964,B98964,178,18,36,True,What should I do?
+B9,bank_B9.asm,DATA16_B98988,B98988,182,51,102,True,Ann's hand-made cake...it   won't explode:will it?
+B9,bank_B9.asm,DATA16_B989EE,B989EE,190,40,80,True,I get a cake from Maria     every year.
+B9,bank_B9.asm,DATA16_B98A3E,B98A3E,196,35,70,True,"Yeah:I got a cake from      Maria,"
+B9,bank_B9.asm,DATA16_B98A84,B98A84,202,79,158,True,"I'll be able to bake a      perfectly delicious cake    when I get older, Gee,"
+B9,bank_B9.asm,DATA16_B98B22,B98B22,213,46,92,True,Hi:well...it's for you.I    hope you like it.
+B9,bank_B9.asm,DATA16_B98B7E,B98B7E,220,39,78,True,uumm:thank you for working  every day.
+B9,bank_B9.asm,DATA16_B98BCC,B98BCC,226,7,14,True,Hello.
+B9,bank_B9.asm,DATA16_B98BDA,B98BDA,228,61,122,True,I'll give it to you. I'm notsure if it tastes good or   not.
+B9,bank_B9.asm,DATA16_B98C54,B98C54,237,34,68,True,You want medicine just in   case?
+B9,bank_B9.asm,DATA16_B98C98,B98C98,243,67,134,True,My dad is so rude. He lookedat my cake carefully before he ate it.
+B9,bank_B9.asm,DATA16_B98D1E,B98D1E,253,39,78,True,Here it is. It's a special  herb cake.
+B9,bank_B9.asm,DATA16_B98D6C,B98D6C,259,52,104,True,It doesn't look very good   but isn't it delicious?
+B9,bank_B9.asm,DATA16_B98DD4,B98DD4,267,82,164,True,My mom is wandering around  with a baked cake in her    hands since this morning.
+B9,bank_B9.asm,DATA16_B98E78,B98E78,279,34,68,True,I used plenty of milk and   eggs.
+B9,bank_B9.asm,DATA16_B98EBC,B98EBC,285,36,72,True,I have confidence in making sweets.
+B9,bank_B9.asm,DATA16_B98F04,B98F04,291,99,198,True,"Hey:you probably think I'm  a monkey or something:      right?
+.........That's OK with me  though."
+B9,bank_B9.asm,DATA16_B98FCA,B98FCA,305,37,74,True,This is a cake fulled with  berries.
+B9,bank_B9.asm,DATA16_B99014,B99014,311,20,40,True,I hope you like it.
+B9,bank_B9.asm,DATA16_B9903C,B9903C,315,134,268,True,"Now it's the Star Night     Festival tomorrow. It'll be nice with the clear blue
+sky so you'll see the       beautiful star at night."
+B9,bank_B9.asm,DATA16_B99148,B99148,333,128,256,True,"On the Star Night Festival  you are supposed to pray forthe night when
+you can see the most        beautiful stars of the year."
+B9,bank_B9.asm,DATA16_B99248,B99248,350,63,126,True,Look at the sky. It'll be   really beautiful tomorrow   night.
+B9,bank_B9.asm,DATA16_B992C6,B992C6,359,40,80,True,I'm going to play organ at  the church.
+B9,bank_B9.asm,DATA16_B99316,B99316,365,50,100,True,Tomorrow? Heh-heh:I'm going to a wonderful place.
+B9,bank_B9.asm,DATA16_B9937A,B9937A,373,48,96,True,Say:I'm going to the nearestplace to the stars.
+B9,bank_B9.asm,DATA16_B993DA,B993DA,380,49,98,True,We'll pray at the public    square. So romantic.
+B9,bank_B9.asm,DATA16_B9943C,B9943C,388,49,98,True,Let's have a ball tomorrow. I'm waiting for you.
+B9,bank_B9.asm,DATA16_B9949E,B9949E,396,75,150,True,It's the Star Night Festivaltomorrow. I'm going to the  place I always go.
+B9,bank_B9.asm,DATA16_B99534,B99534,407,103,206,True,"It's the Star Night Festivaltomorrow, I'm going to the  place I always go so
+please come see me there."
+B9,bank_B9.asm,DATA16_B99602,B99602,421,116,232,False,"It's the Star Night Festivaltoday, Where should I go?
+ Public square  Mountain top Church         Spa          Bar<CHOICE_OR_WAIT>f"
+B9,bank_B9.asm,DATA16_B996EA,B996EA,437,54,108,True,Well: ladies and gentlemen. Let's pray for the stars.
+B9,bank_B9.asm,DATA16_B99756,B99756,445,114,228,True,"The light of the stars we   are seeing now is that of   millions of years ago.
+It's mysterious when I thinkof it."
+B9,bank_B9.asm,DATA16_B9983A,B9983A,461,36,72,True,...May my business get      better.
+B9,bank_B9.asm,DATA16_B99882,B99882,467,79,158,False,"Do you want me to read your horoscope?
+ Sure                        No thanks<CHOICE_OR_WAIT>c"
+B9,bank_B9.asm,DATA16_B99920,B99920,478,61,122,True,"The girl who gets along wellwith you is no one but      <CTRL_FFFD>fw,"
+B9,bank_B9.asm,DATA16_B9999A,B9999A,487,34,68,True,Really? Don't you want to   know?
+B9,bank_B9.asm,DATA16_B999DE,B999DE,493,67,134,True,When I close my eyes: I feellike I'm floating in the    night sky.
+B9,bank_B9.asm,DATA16_B99A64,B99A64,503,81,162,True,What did I pray for?        Everybody's good health.    ....And.. It's a secret.
+B9,bank_B9.asm,DATA16_B99B06,B99B06,515,207,414,True,"The stars are shinning all  the time. You just can't seethem because of those
+lights and stuff on the     earth. And same as the      stars:the truth and love
+always exist. You just don'tsee. Yes:it's true."
+B9,bank_B9.asm,DATA16_B99CA4,B99CA4,542,117,234,True,"It sometimes won't work evenif we are so much in love:  will it?
+In that case: all you have  to do is pray: I guess."
+B9,bank_B9.asm,DATA16_B99D8E,B99D8E,558,22,44,True,...I feel sleepy now.
+B9,bank_B9.asm,DATA16_B99DBA,B99DBA,562,13,26,True,Zzzzzzz.....
+B9,bank_B9.asm,DATA16_B99DD4,B99DD4,565,43,86,True,I think I'll have a good    dream tonight.
+B9,bank_B9.asm,DATA16_B99E2A,B99E2A,572,80,160,True,Good evening. ....Umm:I wishwe could also spend some    time together nextyear.
+B9,bank_B9.asm,DATA16_B99ECA,B99ECA,583,46,92,True,"Let's sing a song.          Enjoy yourselves,"
+B9,bank_B9.asm,DATA16_B99F26,B99F26,590,24,48,True,"Now:you sing something,"
+B9,bank_B9.asm,DATA16_B99F56,B99F56,594,101,202,True,"I happened to be here       tonight...well..it's        coincident...and she
+happens to be here too."
+B9,bank_B9.asm,DATA16_B9A020,B9A020,608,90,180,True,"Ah:good evening. Nina?      She always goes somewhere   alone.
+I wonder where she's been?"
+B9,bank_B9.asm,DATA16_B9A0D4,B9A0D4,621,42,84,True,"Cheers for the beautiful skyin the night,"
+B9,bank_B9.asm,DATA16_B9A128,B9A128,628,80,160,True,"Hi, Are you having fun?     cheers for the fate of the  star of having met you,"
+B9,bank_B9.asm,DATA16_B9A1C8,B9A1C8,639,125,250,True,"Did you see it? I see a     shooting star every year.   Don't tell anybody about
+this place. It's a secret   between us. OK?"
+B9,bank_B9.asm,DATA16_B9A2C2,B9A2C2,656,71,142,True,Did you make a wish? Nina   wished... ..titter..        it's a secret.
+B9,bank_B9.asm,DATA16_B9A350,B9A350,666,91,182,True,"I take a hot spring bath:   watching stars like this.   It's just like paradise:
+isn't it?"
+B9,bank_B9.asm,DATA16_B9A406,B9A406,679,53,106,True,May everybody live happily. Now let's pray together.
+B9,bank_B9.asm,DATA16_B9A470,B9A470,687,100,200,True,"Have you prayed already?    Also it's important to      choose a goal at the
+beginning of the year."
+B9,bank_B9.asm,DATA16_B9A538,B9A538,701,43,86,True,May the earth give us gifts this year too.
+B9,bank_B9.asm,DATA16_B9A58E,B9A58E,708,35,70,True,This...this year: I'll tell her...
+B9,bank_B9.asm,DATA16_B9A5D4,B9A5D4,714,38,76,True,May my business go well thisyear too.
+B9,bank_B9.asm,DATA16_B9A620,B9A620,720,70,140,False,"Alright: I'm telling your   fortune.
+ Yes                         No<CHOICE_OR_WAIT>c"
+B9,bank_B9.asm,DATA16_B9A6AC,B9A6AC,730,92,184,False,"Pick up any card you like.
+ Top                         Middle                      Bottom<CHOICE_OR_WAIT>d"
+B9,bank_B9.asm,DATA16_B9A764,B9A764,743,78,156,True,"""Excellent luck""            Great harvest,              Everything goes well,"
+B9,bank_B9.asm,DATA16_B9A800,B9A800,754,71,142,True,"""Luck"" Fair harvest.        The person you are waiting  for will come."
+B9,bank_B9.asm,DATA16_B9A88E,B9A88E,764,56,112,True,"""Misfortune""                Nothing will turn out good."
+B9,bank_B9.asm,DATA16_B9A8FE,B9A8FE,772,43,86,True,I see. I'd better develop myway by myself.
+B9,bank_B9.asm,DATA16_B9A954,B9A954,779,39,78,True,Whmmm:it's going to be good this year.
+B9,bank_B9.asm,DATA16_B9A9A2,B9A9A2,785,37,74,True,May this year be a good yearfor you.
+B9,bank_B9.asm,DATA16_B9A9EC,B9A9EC,791,66,132,True,We should see the first     sunrise at the beginning of the year.
+B9,bank_B9.asm,DATA16_B9AA70,B9AA70,801,19,38,True,well:do your best.
+B9,bank_B9.asm,DATA16_B9AA96,B9AA96,805,208,416,False,"Now:the annual egg searchinggame in autumn,             The rule is simple.
+The first person that finds the same colored egg as the one I show wins the game.
+May I begin now?
+ Yes                         No<CHOICE_OR_WAIT>c"
+B9,bank_B9.asm,DATA16_B9AC36,B9AC36,832,34,68,True,"Here we go, First one is    this,"
+B9,bank_B9.asm,DATA16_B9AC7A,B9AC7A,838,44,88,True,"Come on, Hurry up, The time is running out."
+B9,bank_B9.asm,DATA16_B9ACD2,B9ACD2,845,40,80,True,I won't be beaten by those  young kids.
+B9,bank_B9.asm,DATA16_B9AD22,B9AD22,851,20,40,True,Is the prize juice?
+B9,bank_B9.asm,DATA16_B9AD4A,B9AD4A,855,45,90,True,They say the winner will getthe great prize.
+B9,bank_B9.asm,DATA16_B9ADA4,B9ADA4,862,27,54,True,Little kids need handicap.
+B9,bank_B9.asm,DATA16_B9ADDA,B9ADDA,867,39,78,True,Alright:I'll try to win     this year.
+B9,bank_B9.asm,DATA16_B9AE28,B9AE28,873,48,96,True,I hear the prize is a seed  of the rare flower.
+B9,bank_B9.asm,DATA16_B9AE88,B9AE88,880,49,98,True,If <CTRL_FFFD>ex were here:he would  find it very quickly.
+B9,bank_B9.asm,DATA16_B9AEEA,B9AEEA,888,66,132,True,"Yes:that's the same color.  You get <CTRL_B3> point. Next is    this one,"
+B9,bank_B9.asm,DATA16_B9AF6E,B9AF6E,898,84,168,True,OK:the game is over. I'm    announcing the winner.      Everybody:come here:please.
+B9,bank_B9.asm,DATA16_B9B016,B9B016,910,46,92,True,"Bingo, You are correct.     Next is this one,"
+B9,bank_B9.asm,DATA16_B9B072,B9B072,917,65,130,True,"The winner of this year's   Egg Festival is             Mr. <CTRL_FFFD>ey,"
+B9,bank_B9.asm,DATA16_B9B0F4,B9B0F4,927,87,174,True,"This year's prize is the    fodder for one whole month, I'll deliver it to
+your ranch."
+B9,bank_B9.asm,DATA16_B9B1A2,B9B1A2,939,62,124,True,"Congratulations, I'll       deliver the prize to your   home."
+B9,bank_B9.asm,DATA16_B9B21E,B9B21E,948,48,96,True,"Now:everybody:let's do our  best this year too,"
+B9,bank_B9.asm,DATA16_B9B27E,B9B27E,955,39,78,True,How humiliating you are:    young men.
+B9,bank_B9.asm,DATA16_B9B2CC,B9B2CC,961,47,94,True,Phew: I just couldn't do it like I usually do.
+B9,bank_B9.asm,DATA16_B9B32A,B9B32A,968,34,68,True,Hic...shouldn't have come   here.
+B9,bank_B9.asm,DATA16_B9B36E,B9B36E,974,11,22,True,Puff-puff.
+B9,bank_B9.asm,DATA16_B9B384,B9B384,977,44,88,True,Puff-puff...don't...speak...to me...please?
+B9,bank_B9.asm,DATA16_B9B3DC,B9B3DC,984,51,102,True,Hey:it's not a seed of a    flower. Who said that?
+B9,bank_B9.asm,DATA16_B9B442,B9B442,992,67,134,True,Phew:it's good for healthy  body to do exercise         sometimes.
+B9,bank_B9.asm,DATA16_B9B4C8,B9B4C8,1002,54,108,True,"New Year's Festival, Let's  go see the first sunrise,"
+B9,bank_B9.asm,DATA16_B9B534,B9B534,1010,157,314,False,"That's a seed of grass. Thisgrass grows without         watering. It's <$00B7><CTRL_B2><CTRL_B2>G.
+Want it?
+ Buy                         Not buy                      Money <CTRL_FFFC>hv<CTRL_B2>G<CHOICE_OR_WAIT>c"
+B9,bank_B9.asm,DATA16_B9B66E,B9B66E,1031,42,84,True,Thank you. I'll deliver it  to your shed.
+B9,bank_B9.asm,DATA16_B9B6C2,B9B6C2,1038,21,42,True,Thank you very much.
+B9,bank_B9.asm,DATA16_B9B6EC,B9B6EC,1042,42,84,True,Ah:you don't have enough    money for it.
+B9,bank_B9.asm,DATA16_B9B740,B9B740,1049,35,70,True,Thank you. Come visit me    again.
+B9,bank_B9.asm,DATA16_B9B786,B9B786,1055,207,414,True,"Will you be buying a cow?   Then I'll give you this     bell.
+Cows gather when they hear  the sound of this bell.     But don't ring it so often.
+It makes you tired. Well:   I'll deliver it with the    cow."
+B9,bank_B9.asm,DATA16_B9B924,B9B924,1082,154,308,False,"It's the special paint for  the house only. It's <CTRL_B3><$00B7><CTRL_B2><CTRL_B2>G  but do you want to buy it?
+ Yes                         No                           Money <CTRL_FFFC>hw<CTRL_B2>G<CHOICE_OR_WAIT>c"
+B9,bank_B9.asm,DATA16_B9BA58,B9BA58,1103,42,84,True,Thank you. I'll deliver it  to your shed.
+B9,bank_B9.asm,DATA16_B9BAAC,B9BAAC,1110,24,48,True,It's good stuff though.
+B9,bank_B9.asm,DATA16_B9BADC,B9BADC,1114,42,84,True,Oh:you don't have enough    money for it.
+B9,bank_B9.asm,DATA16_B9BB30,B9BB30,1121,184,368,True,"Oh:your horse has become    big. I made saddle bags for your horse.
+Just put the shipping items in the saddle bags. It'll bevery convenient since your
+horse will carry them for   you."
+B9,bank_B9.asm,DATA16_B9BCA0,B9BCA0,1145,250,500,False,"That's medicine for the     cows. Are they sick? It     heals only by using it
+for the cows.               the price is...mmm...<CTRL_B3><CTRL_B2><CTRL_B2><CTRL_B2>G. You usually have to take
+good care of them.
+ Buy                         Not buy                      Money <CTRL_FFFC>hx<CTRL_B2>G<CHOICE_OR_WAIT>c"
+B9,bank_B9.asm,DATA16_B9BE94,B9BE94,1178,34,68,True,I'll deliver it to your     shed.
+B9,bank_B9.asm,DATA16_B9BED8,B9BED8,1184,5,10,True,"Aha,"
+B9,bank_B9.asm,DATA16_B9BEE2,B9BEE2,1186,85,170,True,What? You don't have enough money. Come back again when you have saved enough money.
+B9,bank_B9.asm,DATA16_B9BF8C,B9BF8C,1198,101,202,False,"Hi: what do you want today?
+ Buy a cow      Sell a cow   Buy a chicken               Sell a chicken<CHOICE_OR_WAIT>e"
+B9,bank_B9.asm,DATA16_B9C056,B9C056,1212,48,96,True,You need to have more grass to raise livestock.
+B9,bank_B9.asm,DATA16_B9C0B6,B9C0B6,1219,118,236,False,"A cow costs <$00B7><CTRL_B2><CTRL_B2><CTRL_B2>G so will   you be buying one?
+ Buy                         Not buy                      Money <CTRL_FFFC>hy<CTRL_B2>G<CHOICE_OR_WAIT>c"
+B9,bank_B9.asm,DATA16_B9C1A2,B9C1A2,1235,29,58,True,I'll deliver it to your pen.
+B9,bank_B9.asm,DATA16_B9C1DC,B9C1DC,1240,61,122,True,"If you want to sell cows    again:please contact me.    Bye,"
+B9,bank_B9.asm,DATA16_B9C256,B9C256,1249,116,232,False,"A chicken costs <CTRL_B3><CTRL_B2><CTRL_B2><CTRL_B2>G but   do you want one?
+ Buy                         Not buy                      Money <CTRL_FFFC>hz<CTRL_B2>G<CHOICE_OR_WAIT>c"
+B9,bank_B9.asm,DATA16_B9C33E,B9C33E,1265,86,172,True,"OK:I'll come pick it up     later so let it be at the   entrance of your ranch
+today."
+B9,bank_B9.asm,DATA16_B9C3EA,B9C3EA,1277,116,232,True,"Hey:I put the cow in the    pen. Take good care.        Alright:the first thing is
+to name it with affection.  Bye,"
+B9,bank_B9.asm,DATA16_B9C4D2,B9C4D2,1293,86,172,True,"Hey you:don't even think of selling a cow in this       condition.
+Consider it again."
+B9,bank_B9.asm,DATA16_B9C57E,B9C57E,1305,110,220,False,"It costs <CTRL_FFFC>eA<CTRL_B2>G. Do you wantto sell it?
+ Sell                        Not sell                     Money <CTRL_FFFC>hB<CTRL_B2>G<CHOICE_OR_WAIT>c"
+B9,bank_B9.asm,DATA16_B9C65A,B9C65A,1320,26,52,True,"OK, I'll take it with me."
+B9,bank_B9.asm,DATA16_B9C68E,B9C68E,1325,40,80,True,I can't accept it until it'sgrown more.
+B9,bank_B9.asm,DATA16_B9C6DE,B9C6DE,1331,131,262,True,"It's outside so take it withyou. It'll eat grass by     himself so let it be
+outside. But once it's in   the pen:feed it properly."
+B9,bank_B9.asm,DATA16_B9C7E4,B9C7E4,1349,139,278,False,"It's a milker. You can milk by using it toward a cow.   It's <CTRL_B3><$00BA><CTRL_B2><CTRL_B2>G.
+ Buy                         Not buy                      Money <CTRL_FFFC>hC<CTRL_B2>G<CHOICE_OR_WAIT>c"
+B9,bank_B9.asm,DATA16_B9C8FA,B9C8FA,1368,34,68,True,Sorry but we can't accept   that.
+B9,bank_B9.asm,DATA16_B9C93E,B9C93E,1374,187,374,False,"It's a brush for cows. They become happy when you brush them with affection.
+Once a day is enough.       It's <$00BA><CTRL_B2><CTRL_B2>G.
+ Buy                         Not buy                      Money <CTRL_FFFC>hD<CTRL_B2>G<CHOICE_OR_WAIT>c"
+B9,bank_B9.asm,DATA16_B9CAB4,B9CAB4,1399,56,112,True,Our Father in Heaven:please help his precious cow rest.
+B9,bank_B9.asm,DATA16_B9CB24,B9CB24,1407,140,280,True,"...Are you an idiot? Didn't I tell you to take care of  cows carefully?
+If they become sick next    time:give them the medicine right away."
+B9,bank_B9.asm,DATA16_B9CC3C,B9CC3C,1426,42,84,True,"Great, A calf was born, OK: I'll name it."
+B9,bank_B9.asm,DATA16_B9CC90,B9CC90,1433,42,84,True,"What? .....a calf, Alright: I'll name it."
+B9,bank_B9.asm,DATA16_B9CCE4,B9CCE4,1440,29,58,True,Its name is ..... you do it.
+B9,bank_B9.asm,DATA16_B9CD1E,B9CD1E,1445,95,190,True,"Is that all you are shippingtoday? It costs <CTRL_FFFC>hE<CTRL_B2>G intotal. I'll put money
+in the box tomorrow."
+B9,bank_B9.asm,DATA16_B9CDDC,B9CDDC,1458,36,72,True,Is there no shipping today? OK:bye.
+B9,bank_B9.asm,DATA16_B9CE24,B9CE24,1464,82,164,True,Business hours              Weekday: <$00B9>:<CTRL_B2><CTRL_B2>am - <$00B7>:<CTRL_B2><CTRL_B2>pm    Weekend <$0040> holiday: closed
+B9,bank_B9.asm,DATA16_B9CEC8,B9CEC8,1476,36,72,True,Don't throw things in the   spring.
+B9,bank_B9.asm,DATA16_B9CF10,B9CF10,1482,190,380,False,"Hi, How do you do? I'm      Goddess of Spring. Did you  expect me to come out?
+By the way:I have a         question. Is this gold axe  the one you dropped.?
+ Yes                         No<CHOICE_OR_WAIT>c"
+B9,bank_B9.asm,DATA16_B9D08C,B9D08C,1507,73,146,True,You are lying. Yours is thisone. No:God knows           everything. Bye.
+B9,bank_B9.asm,DATA16_B9D11E,B9D11E,1518,186,372,True,"Oh yes:I've found an honest person,, I'm giving you thisgold axe.
+...No:you don't have to     thank me. I'm so happy to   meet someone honest
+like you. Bye now. Keep up  with your work."
+B9,bank_B9.asm,DATA16_B9D292,B9D292,1543,74,148,False,"Excuse me but can I borrow  your hammer?
+ OK                          No<CHOICE_OR_WAIT>c"
+B9,bank_B9.asm,DATA16_B9D326,B9D326,1554,52,104,True,Thank you. I'll put it more power when I return it.
+B9,bank_B9.asm,DATA16_B9D38E,B9D38E,1562,34,68,True,"What? I won't ask you any   more,"
+B9,bank_B9.asm,DATA16_B9D3D2,B9D3D2,1568,103,206,True,"You can plow the field      before spring. But I hear   it's a little damaged
+when it comes to spring."
+B9,bank_B9.asm,DATA16_B9D4A0,B9D4A0,1582,49,98,True,How do you do? Has your     ranch become lively?
+B9,bank_B9.asm,DATA16_B9D502,B9D502,1590,26,52,True,You can go out from here.
+B9,bank_B9.asm,DATA16_B9D536,B9D536,1595,111,222,False,"Hey:are you from the ranch? Do you use the sickle in theshed? How's it working?
+ Very good Don't use it often<CHOICE_OR_WAIT>c"
+B9,bank_B9.asm,DATA16_B9D614,B9D614,1610,76,152,True,"Wow, I made it.I'm so happy.I'll make it better.        Look forward to it."
+B9,bank_B9.asm,DATA16_B9D6AC,B9D6AC,1621,64,128,True,"Really? Don't you use it?   I made it with all my       energy,"
+B9,bank_B9.asm,DATA16_B9D72C,B9D72C,1630,9,18,True,Bye-Bye.
+B9,bank_B9.asm,DATA16_B9D73E,B9D73E,1633,33,66,True,Gi....give me something to  eat.
+B9,bank_B9.asm,DATA16_B9D780,B9D780,1639,44,88,True,Mushroom if possible. I wanta mushroom.....
+B9,bank_B9.asm,DATA16_B9D7D8,B9D7D8,1646,152,304,True,"Phew:I'm alive now. Thank   you very much. I didn't eat anything for <CTRL_B5> days.
+I need to give you          something. Take a look in   the shed tomorrow."
+B9,bank_B9.asm,DATA16_B9D908,B9D908,1666,55,110,True,"That's a poisonous mushroom,It will kill you:you know."
+B9,bank_B9.asm,DATA16_B9D976,B9D976,1674,52,104,True,mash..mushroom... I want    nothing but a mushroom.
+B9,bank_B9.asm,DATA16_B9D9DE,B9D9DE,1682,107,214,False,"Stop that,, That rabbit is  mine. What are you doing    to it?
+ Let it loose                Just watching<CHOICE_OR_WAIT>c"
+B9,bank_B9.asm,DATA16_B9DAB4,B9DAB4,1697,125,250,False,"If you buy it with <CTRL_B3><CTRL_B2><CTRL_B2><CTRL_B2>G:   you can do what you want.
+ Pay                         Not pay                      Money <CTRL_FFFC>gF<CTRL_B2>G<CHOICE_OR_WAIT>c"
+B9,bank_B9.asm,DATA16_B9DBAE,B9DBAE,1714,23,46,True,I live like this. Bye.
+B9,bank_B9.asm,DATA16_B9DBDC,B9DBDC,1718,120,240,True,"I see...you are kind.       I don't want money. But     Everybody lives
+differently. Please         understand it. Bye."
+B9,bank_B9.asm,DATA16_B9DCCC,B9DCCC,1734,61,122,True,No:I can't hand this rabbit to you. I live like this.   Bye.
+B9,bank_B9.asm,DATA16_B9DD46,B9DD46,1743,121,242,True,"I'm the spirit here:Water   imp. You gave my fish back. You are a good man.
+I give you this.            You become fine."
+B9,bank_B9.asm,DATA16_B9DE38,B9DE38,1760,160,320,False,"Ah:the first human in...    well:how long had it been   since the last human
+being came here? ...Hey you:are you working hard?
+ Yes                         No<CHOICE_OR_WAIT>c"
+B9,bank_B9.asm,DATA16_B9DF78,B9DF78,1781,96,192,True,"Now:take this with you.     You can sell it at an       expensive price.
+Work hard from now on."
+B9,bank_B9.asm,DATA16_B9E038,B9E038,1794,29,58,True,Go home as soon as possible.
+B9,bank_B9.asm,DATA16_B9E072,B9E072,1799,131,262,True,"Thank you for letting it    bloom. No one has ever      planted it before.
+I'm so happy.... I want to  give something good to you."
+B9,bank_B9.asm,DATA16_B9E178,B9E178,1817,96,192,True,".........Both the flower andI will disappear soon but...I will always pray for you
+to be happy."
+B9,bank_B9.asm,DATA16_B9E238,B9E238,1830,232,464,False,"That's the miracle potion.  Good luck.                  The medicine to get him
+in good shape is included   and it's <$00B6><CTRL_B2><CTRL_B2><CTRL_B2>G in total:    a little expensive: huh?
+ Buy                         Don't buy                    Money <CTRL_FFFC>hG<CTRL_B2>G<CHOICE_OR_WAIT>c"
+B9,bank_B9.asm,DATA16_B9E408,B9E408,1860,200,400,False,"It's a tomato seed. It's    economical because even     after the harvest:
+you can have tomatoes if youkeep watering. It's <CTRL_B5><CTRL_B2><CTRL_B2>G.
+ Buy                         Don't buy                    Money <CTRL_FFFC>hH<CTRL_B2>G<CHOICE_OR_WAIT>c"
+B9,bank_B9.asm,DATA16_B9E598,B9E598,1886,157,314,False,"That's a potato seed. You   can harvest it when the     leaves become big.
+It's <CTRL_B4><CTRL_B2><CTRL_B2>G.
+ Buy                         Don't buy                    Money <CTRL_FFFC>hI<CTRL_B2>G<CHOICE_OR_WAIT>c"
+B9,bank_B9.asm,DATA16_B9E6D2,B9E6D2,1907,203,406,False,"That's a turnip seed. It    doesn't take you long to    harvest so it's very
+convenient. The price is    <CTRL_B4><CTRL_B2><CTRL_B2>G: convenient too: huh?
+ Buy                         Don't buy                    Money <CTRL_FFFC>hJ<CTRL_B2>G<CHOICE_OR_WAIT>c"
+B9,bank_B9.asm,DATA16_B9E868,B9E868,1934,236,472,False,"That's a corn seed. It takesthe longest time to harvest but sells at a higher.
+Also you can have some corn if you keep watering them   after the harvest.
+It's <CTRL_B5><CTRL_B2><CTRL_B2>G.
+ Buy                         Don't buy                    Money <CTRL_FFFC>hK<CTRL_B2>G<CHOICE_OR_WAIT>c"
+B9,bank_B9.asm,DATA16_B9EA40,B9EA40,1965,181,362,False,"That's a flower. It just    blooms one day but it's goodfor a present. OK:
+it's <CTRL_B5><CTRL_B2><CTRL_B2>G: the discounted   price,
+ Buy                         Don't buy                    Money <CTRL_FFFC>hL<CTRL_B2>G<CHOICE_OR_WAIT>c"
+B9,bank_B9.asm,DATA16_B9EBAA,B9EBAA,1989,198,396,False,"That's feed for cows. <CTRL_B3><CTRL_B4>    feedings per bag but you    better feed them fodder as
+much as possible.           It costs <CTRL_B3><CTRL_B2><CTRL_B2><CTRL_B2>G.
+ Buy                         Don't buy                    Money <CTRL_FFFC>hM<CTRL_B2>G<CHOICE_OR_WAIT>c"
+B9,bank_B9.asm,DATA16_B9ED36,B9ED36,2015,225,450,False,"It's feed for chickens. <CTRL_B3><CTRL_B4>  feedings per bag. Use it    when you don't have enough
+fodder but generally you'd  better feed them fodder.    It costs <CTRL_B5><CTRL_B2><CTRL_B2>G.
+ Buy                         Don't buy                    Money <CTRL_FFFC>hN<CTRL_B2>G<CHOICE_OR_WAIT>c"
+B9,bank_B9.asm,DATA16_B9EEF8,B9EEF8,2045,209,418,False,"It's a sprinkler. You can   water with it very quickly, It's really cheap.
+If you trade your watering  can in: we can sell it for  <CTRL_B4><CTRL_B2><CTRL_B2><CTRL_B2>G.
+ Buy                         Don't buy                    Money <CTRL_FFFC>hO<CTRL_B2>G<CHOICE_OR_WAIT>c"
+B9,bank_B9.asm,DATA16_B9F09A,B9F09A,2073,169,338,False,"That's a super sickle. I    invented it. If you trade   your sickle in:
+we can sell it for <CTRL_B4><CTRL_B2><CTRL_B2><CTRL_B2>G.
+ Buy                         Don't buy                    Money <CTRL_FFFC>hP<CTRL_B2>G<CHOICE_OR_WAIT>c"
+B9,bank_B9.asm,DATA16_B9F1EC,B9F1EC,2096,166,332,False,"That's a super hoe. It's    very powerful. If you trade your hoe in:
+we can sell it for <CTRL_B4><CTRL_B2><CTRL_B2><CTRL_B2>G.
+ Buy                         Don't buy                    Money <CTRL_FFFC>hQ<CTRL_B2>G<CHOICE_OR_WAIT>c"
+B9,bank_B9.asm,DATA16_B9F338,B9F338,2118,200,400,False,"That's a super hammer. It   can knock a big rock down.  Don't you want it?
+If you trade your hammer in:we can sell it for <CTRL_B4><CTRL_B2><CTRL_B2><CTRL_B2>G.
+ Buy                         Don't buy                    Money <CTRL_FFFC>hR<CTRL_B2>G<CHOICE_OR_WAIT>c"
+B9,bank_B9.asm,DATA16_B9F4C8,B9F4C8,2144,178,356,False,"That's a super axe. You can chop a log with one blow,   If you trade your axe in:
+we can sell it for <CTRL_B4><CTRL_B2><CTRL_B2>G.
+ Buy                         Don't buy                    Money <CTRL_FFFC>hS<CTRL_B2>G<CHOICE_OR_WAIT>c"
+B9,bank_B9.asm,DATA16_B9F62C,B9F62C,2168,151,302,False,"That's a cake:good for a    present and recovery of     stamina. It's only<$00B7><CTRL_B2><CTRL_B2>G.
+ Buy                         Don't  buy                   Money <CTRL_FFFC>hT<CTRL_B2>G<CHOICE_OR_WAIT>c"
+B9,bank_B9.asm,DATA16_B9F75A,B9F75A,2188,56,112,True,Thank you.It's perishable soeat while it's still fresh.
+B9,bank_B9.asm,DATA16_B9F7CA,B9F7CA,2196,44,88,True,"You don't know              how good it is,"
+B9,bank_B9.asm,DATA16_B9F822,B9F822,2203,52,104,True,"""Place to Hatch Eggs""       Please place eggs here."
+B9,bank_B9.asm,DATA16_B9F88A,B9F88A,2211,24,48,True,"""Shipping Box for Eggs"""
+B9,bank_B9.asm,DATA16_B9F8BA,B9F8BA,2215,24,48,True,"""Shipping Box for Milk"""
+B9,bank_B9.asm,DATA16_B9F8EA,B9F8EA,2219,52,104,True,Get the cows in here        when they give a birth.
+B9,bank_B9.asm,DATA16_B9F952,B9F952,2227,57,114,True,"""Take out spout of fodder""  Cut grass comes out of here."
+B9,bank_B9.asm,DATA16_B9F9C4,B9F9C4,2236,113,226,False,"Milk? I'm buying it for <CTRL_B4><CTRL_B2><CTRL_B2>GDo you agree?
+ Yes                         No                           Money <CTRL_FFFC>hU<CTRL_B2>G<CHOICE_OR_WAIT>c"
+B9,bank_B9.asm,DATA16_B9FAA6,B9FAA6,2252,113,226,False,"Milk? I'm buying it for <CTRL_B5><CTRL_B2><CTRL_B2>Gbut is it OK?
+ Yes                         No                           Money <CTRL_FFFC>hV<CTRL_B2>G<CHOICE_OR_WAIT>c"
+B9,bank_B9.asm,DATA16_B9FB88,B9FB88,2268,113,226,False,"Milk? I'm buying it for <$00B6><CTRL_B2><CTRL_B2>Gbut is it OK?
+ Yes                         No                           Money <CTRL_FFFC>hW<CTRL_B2>G<CHOICE_OR_WAIT>c"
+B9,bank_B9.asm,DATA16_B9FC6A,B9FC6A,2284,122,244,False,"Corn? Well...I'm buying it  for <CTRL_B4><$00B6><CTRL_B2>G but is it OK?
+ Yes                         No                           Money <CTRL_FFFC>hX<CTRL_B2>G<CHOICE_OR_WAIT>c"
+B9,bank_B9.asm,DATA16_B9FD5E,B9FD5E,2301,146,292,False,"Yes:it's a well ripened     tomato. I'm buying it for   <CTRL_B4><CTRL_B2><CTRL_B2>G but is it OK?
+ Yes                         No                           Money <CTRL_FFFC>hY<CTRL_B2>G<CHOICE_OR_WAIT>c"
+B9,bank_B9.asm,DATA16_B9FE82,B9FE82,2321,191,382,False,"Potato? Well:I'm buying it  for <CTRL_B3><$00B8><CTRL_B2>G but is it OK?
+ Yes                         No                           Money <CTRL_FFFC>hZ<CTRL_B2>G<CHOICE_OR_WAIT>caaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+BA,bank_BA.asm,DATA16_BA8000,BA8000,5,137,274,False,"Turnip? Good shape:isn't it? I'm buying it for <CTRL_B3><CTRL_B4><CTRL_B2>G but is it OK?
+ Yes                         No                           Money <CTRL_FFFC>h'<CTRL_B2>G<CHOICE_OR_WAIT>c"
+BA,bank_BA.asm,DATA16_BA8112,BA8112,24,131,262,False,"Isn't it a fresh egg? I'm   buying it for <CTRL_B3><CTRL_B2><CTRL_B2>G but is itOK?
+ Yes                         No                           Money <CTRL_FFFC>h,<CTRL_B2>G<CHOICE_OR_WAIT>c"
+BA,bank_BA.asm,DATA16_BA8218,BA8218,42,107,214,False,"Mushroom. How about <CTRL_B4><CTRL_B2><CTRL_B2>G    for it?
+ Yes                         No                           Money <CTRL_FFFC>h.<CTRL_B2>G<CHOICE_OR_WAIT>c"
+BA,bank_BA.asm,DATA16_BA82EE,BA82EE,57,172,344,False,"It's a poisonous mushroom.  It can be a medicine when   it's compounded well.
+How about <CTRL_B5><CTRL_B2><CTRL_B2>G for it?
+ Yes                         No                           Money <CTRL_FFFC>h?<CTRL_B2>G<CHOICE_OR_WAIT>c"
+BA,bank_BA.asm,DATA16_BA8446,BA8446,80,128,256,False,"Oh yes:it's a good herb.    Well: how about <CTRL_B4><CTRL_B2><CTRL_B2>G for it?
+ Yes                         No                           Money <CTRL_FFFC>h""<CTRL_B2>G<CHOICE_OR_WAIT>c"
+BA,bank_BA.asm,DATA16_BA8546,BA8546,97,146,292,False,"Ah: it's a berry of wild    grape. Smells good. How     about <CTRL_B4><CTRL_B2><CTRL_B2>G for it?
+ Yes                         No                           Money <CTRL_FFFC>h!<CTRL_B2>G<CHOICE_OR_WAIT>c"
+BA,bank_BA.asm,DATA16_BA866A,BA866A,117,140,280,False,"Oh boy: it's a tropical     fruit:isn't it? How about   <CTRL_B5><CTRL_B2><CTRL_B2>G for it?
+ Yes                         No                           Money <CTRL_FFFC>h:<CTRL_B2>G<CHOICE_OR_WAIT>c"
+BA,bank_BA.asm,DATA16_BA8782,BA8782,136,168,336,False,"Ah:what a rare thing, It's aberry of Fullmoon Plant.    I'm buying it for
+<$00B8><CTRL_B2><CTRL_B2>G but how about it?
+ Yes                         No                           Money <CTRL_FFFC>h<$003B><CTRL_B2>G<CHOICE_OR_WAIT>c"
+BA,bank_BA.asm,DATA16_BA88D2,BA88D2,158,137,274,False,"It's a very fresh fish. I'm buying it for <CTRL_B5><CTRL_B2><CTRL_B2>G but how  about it?
+ Yes                         No                           Money <CTRL_FFFC>h<$003C><CTRL_B2>G<CHOICE_OR_WAIT>c"
+BA,bank_BA.asm,DATA16_BA89E4,BA89E4,177,10,20,True,Sleeping.
+BA,bank_BA.asm,DATA16_BA89F8,BA89F8,180,205,410,True,"Good Lord, This is a Golden Egg, I never expected to seeit with my own eyes...
+Alright:<$00B7><CTRL_B2><CTRL_B2><CTRL_B2>, No:<CTRL_B3><CTRL_B2><CTRL_B2><CTRL_B2><CTRL_B2>G for it, Will you please:        please sell it to me?
+Yes:yes:living longer means something for sure."
+BA,bank_BA.asm,DATA16_BA8B92,BA8B92,207,42,84,True,Darling:aren't you going to the festival?
+BA,bank_BA.asm,DATA16_BA8BE6,BA8BE6,214,64,128,True,It's good to be at a        festival like this for a    change.
+BA,bank_BA.asm,DATA16_BA8C66,BA8C66,223,54,108,True,I know you are busy but     let's go to the festival.
+BA,bank_BA.asm,DATA16_BA8CD2,BA8CD2,231,65,130,True,The tradition from hundreds years ago seem nice:        I guess.
+BA,bank_BA.asm,DATA16_BA8D54,BA8D54,241,73,146,True,Have you had too much       beverage? .....I think I    have had enough.
+BA,bank_BA.asm,DATA16_BA8DE6,BA8DE6,252,50,100,False,"Mushroom,
+ Eat                         Don't eat<CHOICE_OR_WAIT>c"
+BA,bank_BA.asm,DATA16_BA8E4A,BA8E4A,260,79,158,False,"It looks a little           dangerous.
+ Eat                         Don't eat<CHOICE_OR_WAIT>c"
+BA,bank_BA.asm,DATA16_BA8EE8,BA8EE8,271,75,150,False,"It's the berry of wild      grape,
+ Eat                         Don't eat<CHOICE_OR_WAIT>c"
+BA,bank_BA.asm,DATA16_BA8F7E,BA8F7E,282,75,150,False,"....Something smells so     strong
+ Eat                         Don't eat<CHOICE_OR_WAIT>c"
+BA,bank_BA.asm,DATA16_BA9014,BA9014,293,66,132,False,"It smells sweet and nice.
+ Eat                         Don't eat<CHOICE_OR_WAIT>c"
+BA,bank_BA.asm,DATA16_BA9098,BA9098,303,45,90,False,"Cake
+ Eat                         Don't eat<CHOICE_OR_WAIT>c"
+BA,bank_BA.asm,DATA16_BA90F2,BA90F2,310,46,92,False,"Fish,
+ Eat                         Don't eat<CHOICE_OR_WAIT>c"
+BA,bank_BA.asm,DATA16_BA914E,BA914E,317,34,68,True,"I've got a berry of Power   Tree,"
+BA,bank_BA.asm,DATA16_BA9192,BA9192,323,28,56,True,"The main tap of gas is off,"
+BA,bank_BA.asm,DATA16_BA91CA,BA91CA,328,14,28,True,It's burning.
+BA,bank_BA.asm,DATA16_BA91E6,BA91E6,331,25,50,True,Sniff-sniff..good smell.
+BA,bank_BA.asm,DATA16_BA9218,BA9218,336,73,146,False,"The flier is in. Do you wantto read it?
+ Yes                         No<CHOICE_OR_WAIT>c"
+BA,bank_BA.asm,DATA16_BA92AA,BA92AA,347,53,106,True,For recovery of stamina     ...Spa in the mountains.
+BA,bank_BA.asm,DATA16_BA9314,BA9314,355,133,266,True,"Vacation in Autumn, Mushroomgathering in the mountains  covered with autumn leaves
+The yum-yum at the mountain top, Fullmoon Plant,,"
+BA,bank_BA.asm,DATA16_BA941E,BA941E,373,133,266,True,"<CTRL_B3><CTRL_B2>th of Winter Month is     Thanksgiving, For           Thanksgiving:
+don't forget our            ""Smiling Mark"" eggs and     milks,"
+BA,bank_BA.asm,DATA16_BA9528,BA9528,391,76,152,True,"<CTRL_B4><CTRL_B5>rd of Spring Month is the Flower Festival, Enjoy      various fragrances."
+BA,bank_BA.asm,DATA16_BA95C0,BA95C0,402,62,124,True,That's my home made pickled vegetables in salted rice   bran.
+BA,bank_BA.asm,DATA16_BA963C,BA963C,411,35,70,True,That's Eve's home made berryjuice.
+BA,bank_BA.asm,DATA16_BA9682,BA9682,417,29,58,True,"You are such a restless guy,"
+BA,bank_BA.asm,DATA16_BA96BC,BA96BC,422,25,50,True,"Everything is all right,"
+BA,bank_BA.asm,DATA16_BA96EE,BA96EE,427,50,100,True,I come to the church at     least once in a year.
+BA,bank_BA.asm,DATA16_BA9752,BA9752,435,36,72,True,It looks like an artificial flower.
+BA,bank_BA.asm,DATA16_BA979A,BA979A,441,73,146,True,I looks like an ornament of a chicken but what is it?   It interests me.
+BA,bank_BA.asm,DATA16_BA982C,BA982C,452,26,52,True,What are you looking for?
+BA,bank_BA.asm,DATA16_BA9860,BA9860,457,34,68,True,Ah:that's a photo of my     wife.
+BA,bank_BA.asm,DATA16_BA98A4,BA98A4,463,40,80,True,"Hey:don't touch it without  permission,"
+BA,bank_BA.asm,DATA16_BA98F4,BA98F4,469,34,68,True,That's my grandchild's piggybank.
+BA,bank_BA.asm,DATA16_BA9938,BA9938,475,70,140,True,"Eve brought that juice here:saying ""drink it with your  grandfather."""
+BA,bank_BA.asm,DATA16_BA99C4,BA99C4,485,22,44,True,What's written in it?
+BA,bank_BA.asm,DATA16_BA99F0,BA99F0,489,53,106,True,It's too heavy to pick up...yes:looks pretty spooky.
+BA,bank_BA.asm,DATA16_BA9A5A,BA9A5A,497,90,180,True,"It's a prize from the Egg   Festival. It's a charm to   protect from disasters:
+they say."
+BA,bank_BA.asm,DATA16_BA9B0E,BA9B0E,510,23,46,True,It's a very old organ.
+BA,bank_BA.asm,DATA16_BA9B3C,BA9B3C,514,21,42,True,Now:let's pray here.
+BA,bank_BA.asm,DATA16_BA9B66,BA9B66,518,77,154,True, Quality: Sulfur spring      Benefits: rheumatism        recovery of stamina
+BA,bank_BA.asm,DATA16_BA9C00,BA9C00,529,18,36,True,Nothing in there.
+BA,bank_BA.asm,DATA16_BA9C24,BA9C24,533,28,56,True,"Confirm the origin of fire,"
+BA,bank_BA.asm,DATA16_BA9C5C,BA9C5C,538,95,190,True,"<CTRL_FFFC>c&<CTRL_FFFD>cz of <CTRL_FFFD>gAMonth:        <CTRL_FFFD>eB rests here quietly.
+Let's pray her soul may restin peace today."
+BA,bank_BA.asm,DATA16_BA9D1A,BA9D1A,551,78,156,True,Old ladies get cold easily  so I keep the fireplace     burning all the time.
+BA,bank_BA.asm,DATA16_BA9DB6,BA9DB6,562,82,164,True,"""Notice"" Slippery and       dangerous. This road is     temporarily closed today."
+BA,bank_BA.asm,DATA16_BA9E5A,BA9E5A,574,10,20,True,"Not this,"
+BA,bank_BA.asm,DATA16_BA9E6E,BA9E6E,577,23,46,True,What? Heard something?
+BA,bank_BA.asm,DATA16_BA9E9C,BA9E9C,581,78,156,True,"The winner of this year's   Egg Festival is...          the livestock dealer,"
+BA,bank_BA.asm,DATA16_BA9F38,BA9F38,592,28,56,True,"Beep, Time is up, Next egg."
+BA,bank_BA.asm,DATA16_BA9F70,BA9F70,597,38,76,True,It's late so we'd better go home now.
+BA,bank_BA.asm,DATA16_BA9FBC,BA9FBC,603,20,40,True,Better go home now.
+BA,bank_BA.asm,DATA16_BA9FE4,BA9FE4,607,124,248,True,"The mountain top is a       mysterious place. I         recommend you plant a
+different seed over there   when you get one."
+BA,bank_BA.asm,DATA16_BAA0DC,BAA0DC,624,106,212,True,"It is said that a happy     flower blooms when you eat aberry of Power Tree.
+It won't even die in winter."
+BA,bank_BA.asm,DATA16_BAA1B0,BAA1B0,639,72,144,True,Are you working hard? You   know: No food for lazy      workers: right?
+BA,bank_BA.asm,DATA16_BAA240,BAA240,649,66,132,True,"Ah: you, Working too hard isnot good for your health:   you know."
+BA,bank_BA.asm,DATA16_BAA2C4,BAA2C4,659,186,372,True,"Day like today: it's good tothink of your life a little seriously.
+...Oh no: I shouldn't do    that...I've complained a    little unconsciously
+but...well: that's what     I do: anyway."
+BA,bank_BA.asm,DATA16_BAA438,BAA438,684,74,148,True,You won't die without money.Money is not necessary to   live a full life.
+BA,bank_BA.asm,DATA16_BAA4CC,BAA4CC,695,81,162,True,This weather makes me feel  depressed. It's boring...I  want to sleep in winter.
+BA,bank_BA.asm,DATA16_BAA56E,BAA56E,707,48,96,True,Hey:warm up your body..     don't catch a cold.
+BA,bank_BA.asm,DATA16_BAA5CE,BAA5CE,714,84,168,True,It's cold outside:isn't it? I have a fireplace inthe    back room so warm yourself.
+BA,bank_BA.asm,DATA16_BAA676,BAA676,726,107,214,True,"In winter:I make some       flowers to decorate the     shop. I want to make the
+shop look nice with them."
+BA,bank_BA.asm,DATA16_BAA74C,BAA74C,741,83,166,True,It's hard to shovel snow butit feels good to exercise inthe morning when it snows.
+BA,bank_BA.asm,DATA16_BAA7F2,BAA7F2,753,187,374,True,"I don't like the coldness ofwinter but I like the smell of snow.
+You can smell it before it  starts snowing: can't you?  It's like:yes it will be
+snowing tomorrow.           I like that."
+BA,bank_BA.asm,DATA16_BAA968,BAA968,778,37,74,True,They say it a gift from the workman.
+BA,bank_BA.asm,DATA16_BAA9B2,BAA9B2,784,80,160,True,You are not so busy in      winter:are you? You should  gather materials: then.
+BA,bank_BA.asm,DATA16_BAAA52,BAAA52,795,9,18,True,Welcome.
+BA,bank_BA.asm,DATA16_BAAA64,BAAA64,798,83,166,True,"""Shipping Box""               Pick up in the evening.                      Shippers"
+BA,bank_BA.asm,DATA16_BAAB0A,BAAB0A,810,38,76,True,"Ah, This is a chicken       feather?,"
+BA,bank_BA.asm,DATA16_BAAB56,BAAB56,816,37,74,True,"""Secret Garden"" No entry    allowed,"
+BA,bank_BA.asm,DATA16_BAABA0,BAABA0,822,310,620,True,"Events of the year          <CTRL_B3>st of Spring Month          New Year's Festival
+<CTRL_B4><CTRL_B5>rd of Spring Month         Flower Festival
+<CTRL_B3><CTRL_B4>th of Autumn Month         Harvest Festival
+<CTRL_B4><CTRL_B2>th of Autumn Month         Egg Festival
+<CTRL_B3><CTRL_B2>th of Winter Month         Thanksgiving Festival
+<CTRL_B4><$00B6>th of Winter Month         Star Night Festival"
+BA,bank_BA.asm,DATA16_BAAE0C,BAAE0C,862,3,6,True, <$0042>
+BA,bank_BA.asm,DATA16_BAAE12,BAAE12,864,4,8,True, <$0042><$0042>
+BA,bank_BA.asm,DATA16_BAAE1A,BAAE1A,866,5,10,True, <$0042><$0042><$0042>
+BA,bank_BA.asm,DATA16_BAAE24,BAAE24,868,6,12,True, <$0042><$0042><$0042><$0042>
+BA,bank_BA.asm,DATA16_BAAE30,BAAE30,870,7,14,True, <$0042><$0042><$0042><$0042><$0042>
+BA,bank_BA.asm,DATA16_BAAE3E,BAAE3E,872,8,16,True, <$0042><$0042><$0042><$0042><$0042><$0042>
+BA,bank_BA.asm,DATA16_BAAE4E,BAAE4E,874,9,18,True, <$0042><$0042><$0042><$0042><$0042><$0042><$0042>
+BA,bank_BA.asm,DATA16_BAAE60,BAAE60,877,10,20,True, <$0042><$0042><$0042><$0042><$0042><$0042><$0042><$0042>
+BA,bank_BA.asm,DATA16_BAAE74,BAAE74,880,11,22,True, <$0042><$0042><$0042><$0042><$0042><$0042><$0042><$0042><$0042>
+BA,bank_BA.asm,DATA16_BAAE8A,BAAE8A,883,12,24,True, <$0042><$0042><$0042><$0042><$0042><$0042><$0042><$0042><$0042><$0042>
+BA,bank_BA.asm,DATA16_BAAEA2,BAAEA2,886,20,40,True,......Th-thank you.
+BA,bank_BA.asm,DATA16_BAAECA,BAAECA,890,56,112,True,Don't pick up herbs without thinking what they are for.
+BA,bank_BA.asm,DATA16_BAAF3A,BAAF3A,898,39,78,True,Thank you. It looks         delicious.
+BA,bank_BA.asm,DATA16_BAAF88,BAAF88,904,42,84,True,Thank you. Now I can bake a cake with it.
+BA,bank_BA.asm,DATA16_BAAFDC,BAAFDC,911,41,82,True,Are you playing a nasty     trick on me?
+BA,bank_BA.asm,DATA16_BAB02E,BAB02E,918,67,134,True,So glad. Are you giving me  this neat present?          Thank you.
+BA,bank_BA.asm,DATA16_BAB0B4,BAB0B4,928,85,170,True,You can't take care of them if you buy a lot of them at a time. Drop by later again.
+BA,bank_BA.asm,DATA16_BAB15E,BAB15E,940,81,162,True,Being crowded makes         livestock stressed. That's  enough for now:you know.
+BA,bank_BA.asm,DATA16_BAB200,BAB200,952,17,34,True,I don't want it.
+BA,bank_BA.asm,DATA16_BAB222,BAB222,956,23,46,True,I could be in trouble.
+BA,bank_BA.asm,DATA16_BAB250,BAB250,960,14,28,True,What is this?
+BA,bank_BA.asm,DATA16_BAB26C,BAB26C,963,38,76,True,What? I can't take this kindof stuff.
+BA,bank_BA.asm,DATA16_BAB2B8,BAB2B8,969,28,56,True,What? Do you give it to me?
+BA,bank_BA.asm,DATA16_BAB2F0,BAB2F0,974,42,84,True,Put things you want to sell on the table.
+BA,bank_BA.asm,DATA16_BAB344,BAB344,981,99,198,True,"Hi. It's getting colder whenit rains. In winter:grass   will freeze so you'd better
+weed them now."
+BA,bank_BA.asm,DATA16_BAB40A,BAB40A,995,81,162,True,Ah:Mr. <CTRL_FFFD>eC                 You want to....well....to   Maria...anyway:good luck.
+BA,bank_BA.asm,DATA16_BAB4AC,BAB4AC,1007,65,130,True,Is Maria doing OK?          Let me know if you are in   trouble.
+BA,bank_BA.asm,DATA16_BAB52E,BAB52E,1017,46,92,True,Oh: Hello. Maria often talksabout you lately.
+BA,bank_BA.asm,DATA16_BAB58A,BAB58A,1024,88,176,True,"After all:a girl is happiestwhen she is with someone shelikes. Me?
+Of course:I'm happy."
+BA,bank_BA.asm,DATA16_BAB63A,BAB63A,1036,102,204,True,"Mr. ...: you come here oftenbut you don't want to have achat with me:do you?
+I see... maybe it's Ann?"
+BA,bank_BA.asm,DATA16_BAB706,BAB706,1050,89,178,True,"How's Ann doing? Is she     working well as a good wife?I'm so very worried
+about her..."
+BA,bank_BA.asm,DATA16_BAB7B8,BAB7B8,1063,89,178,True,"Nina likes sweets:such as   cakes and berries of        Fullmoon Plant.
+I like that one."
+BA,bank_BA.asm,DATA16_BAB86A,BAB86A,1076,82,164,True,Ho-ho-ho:how's Nina doing?  Doesn't she bother you by   saying something selfish?
+BA,bank_BA.asm,DATA16_BAB90E,BAB90E,1088,96,192,True,"If you want a wife:choose a girl who likes children.    Girls like that can have
+many children."
+BA,bank_BA.asm,DATA16_BAB9CE,BAB9CE,1101,141,282,True,"What? You look a little     heavier:don't yout?         Ellen is just like me:
+she is not only a pretty    girl but also can cook very well."
+BA,bank_BA.asm,DATA16_BABAE8,BABAE8,1120,124,248,True,"Oh well:a lot of things     happen while you are alive. You just couldn't go
+through your life if you gotmad at everything."
+BA,bank_BA.asm,DATA16_BABBE0,BABBE0,1137,36,72,True,Hey you:you carry your jokesto far.
+BA,bank_BA.asm,DATA16_BABC28,BABC28,1143,151,302,True,"When I think of people who  cheat and who are cheated:  I suppose being cheated
+is kind of happier than     cheating someone.           I do think so."
+BA,bank_BA.asm,DATA16_BABD56,BABD56,1163,85,170,True,The most important thing in life is probably having     someone you love beside you.
+BA,bank_BA.asm,DATA16_BABE00,BABE00,1175,106,212,True,"Have you heard of Blue      Feather? Grandma never tellsme what it is:
+saying kids don't need to   know ."
+BA,bank_BA.asm,DATA16_BABED4,BABED4,1190,41,82,True,Female psychology is        complicated.
+BA,bank_BA.asm,DATA16_BABF26,BABF26,1197,154,308,True,"It's pretty hard to move    cows as you intend. Well:it takes time and guts to do
+it properly. I'm now the cowmaster. I want to show you  my  bell skills"
+BA,bank_BA.asm,DATA16_BAC05A,BAC05A,1218,107,214,True,"I won't be dealing livestocktoday. They could become    sick outside on a day
+like today. Some other time."
+BA,bank_BA.asm,DATA16_BAC130,BAC130,1233,106,212,True,"When you see the sunset at  the top of the mountain:    don't you feel like it's
+saying something to you?"
+BA,bank_BA.asm,DATA16_BAC204,BAC204,1248,111,222,True,"Eve is a kind girl. She     comes here often to be in mycompany.
+But she talks about nothing but you recently."
+BA,bank_BA.asm,DATA16_BAC2E2,BAC2E2,1263,72,144,True,How's Eve doing? Oh:I see.  That's good. She easily     becomes lonely.
+BA,bank_BA.asm,DATA16_BAC372,BAC372,1273,76,152,True,Sister Pink would scold you if you picked too much      flowers and plants.
+BA,bank_BA.asm,DATA16_BAC40A,BAC40A,1284,53,106,True,A big house is necessary if you want to get married.
+BA,bank_BA.asm,DATA16_BAC474,BAC474,1292,40,80,True,You can gather logs in      winter too.
+BA,bank_BA.asm,DATA16_BAC4C4,BAC4C4,1298,67,134,True,"Howdy, Why don't you have a juice party at home         sometimes?"
+BA,bank_BA.asm,DATA16_BAC54A,BAC54A,1308,112,224,True,"You got married and work    harder. It's not a bad thingbut she gets in a bad
+mood when you come home     late."
+BA,bank_BA.asm,DATA16_BAC62A,BAC62A,1323,16,32,True,"Hey:happy man,,"
+BA,bank_BA.asm,DATA16_BAC64A,BAC64A,1326,92,184,True,"You are married to a cute   wife:huh? If you want kids: you have to move to
+a bigger house."
+BA,bank_BA.asm,DATA16_BAC702,BAC702,1339,66,132,True,Have you seen the rare berrythat grows at the top of themountain?
+BA,bank_BA.asm,DATA16_BAC786,BAC786,1349,99,198,True,"The festival ends at <CTRL_B5>:<CTRL_B2><CTRL_B2> soyou must go by then.        The sky is colored red
+by the sun at <CTRL_B5>:<CTRL_B2><CTRL_B2>."
+BA,bank_BA.asm,DATA16_BAC84C,BAC84C,1363,73,146,True,Our customers are different monthly. Some people have   never been here.
+BA,bank_BA.asm,DATA16_BAC8DE,BAC8DE,1374,82,164,True,Hi:how's Eve doing?         Business has been down sincewe lost our drawing card.
+BA,bank_BA.asm,DATA16_BAC982,BAC982,1386,112,224,True,"Why don't adults cry? Is it because there is nothing to cry about:
+or is it because people     become stronger?"
+BA,bank_BA.asm,DATA16_BACA62,BACA62,1401,34,68,True,It's boring because Maria's gone.
+BA,bank_BA.asm,DATA16_BACAA6,BACAA6,1407,63,126,True,The hardest thing to controlis love between man and     woman.
+BA,bank_BA.asm,DATA16_BACB24,BACB24,1416,66,132,True,Yes:marriage is wonderful.  Should I bravely ask her to marry me?
+BA,bank_BA.asm,DATA16_BACBA8,BACBA8,1426,34,68,True,You'd better go home to yourwife.
+BA,bank_BA.asm,DATA16_BACBEC,BACBEC,1432,45,90,True,Don't make your wife cry.   Go home earlier.
+BA,bank_BA.asm,DATA16_BACC46,BACC46,1439,156,312,False,"Will you tell it to only    your dad secretly? Which    girl are you most
+interes ted in now?
+ Maria          Ann          Nina           Ellen        Eve<CHOICE_OR_WAIT>f"
+BA,bank_BA.asm,DATA16_BACD7E,BACD7E,1460,133,266,True,"aha:Maria. She's at church on Saturdays and Sundays.   Flower is the best present.
+Man has to be active.       Come on. Hee-hee-hee."
+BA,bank_BA.asm,DATA16_BACE88,BACE88,1478,144,288,True,"Oh:Ann. She goes alone to   the spa on Star Night       Festival day.
+The Lucky day is Saturday.  She likes any presents      except mushrooms."
+BA,bank_BA.asm,DATA16_BACFA8,BACFA8,1497,126,252,True,"Hey:Nina. She goes picking  herbs on Saturdays and to   the mountains on Sunday.
+She likes sweets. Don't pickflowers for her."
+BA,bank_BA.asm,DATA16_BAD0A4,BAD0A4,1514,44,88,True,Hey:your face is becoming   better looking.
+BA,bank_BA.asm,DATA16_BAD0FC,BAD0FC,1521,42,84,True,You'd better listen to the  old preacher.
+BA,bank_BA.asm,DATA16_BAD150,BAD150,1528,48,96,True,"Your children can rely on meas well:no problem,"
+BA,bank_BA.asm,DATA16_BAD1B0,BAD1B0,1535,35,70,True,This year is coming to a    close.
+BA,bank_BA.asm,DATA16_BAD1F6,BAD1F6,1541,52,104,True,We are happy to live in     health this whole year.
+BA,bank_BA.asm,DATA16_BAD25E,BAD25E,1549,39,78,True,You should pick a target fornext year.
+BA,bank_BA.asm,DATA16_BAD2AC,BAD2AC,1555,76,152,True,Spring is finally returning.We'll sell seeds again at   the shop so dropby.
+BA,bank_BA.asm,DATA16_BAD344,BAD344,1566,72,144,True,Spring is New Year in this  area. <CTRL_B3>st day of Spring is  New Year's Day.
+BA,bank_BA.asm,DATA16_BAD3D4,BAD3D4,1576,49,98,True,I hope it will be a good    year for both of us.
+BA,bank_BA.asm,DATA16_BAD436,BAD436,1584,96,192,True,"The prize of the Egg        Festival is different every year.
+What will they give this    year?"
+BA,bank_BA.asm,DATA16_BAD4F6,BAD4F6,1597,66,132,True,The Egg Festival will be    held at the public square   tomorrow.
+BA,bank_BA.asm,DATA16_BAD57A,BAD57A,1607,47,94,True,I will win again at the Egg Festival tomorrow.
+BA,bank_BA.asm,DATA16_BAD5D8,BAD5D8,1614,82,164,True,My annual event at the      beginning of the year is to go see the first sunrise.
+BA,bank_BA.asm,DATA16_BAD67C,BAD67C,1626,66,132,True,"Hello, Was it a good year   for you? Try our best next  year too."
+BA,bank_BA.asm,DATA16_BAD700,BAD700,1636,57,114,True,The fisherman will be back  here soon from a warm place.
+BA,bank_BA.asm,DATA16_BAD772,BAD772,1645,105,210,True,"This year is closing soon.  I wish to become better eachyear but...
+It's a hard thing to        achieve."
+BA,bank_BA.asm,DATA16_BAD844,BAD844,1660,81,162,True,.....this year is ending.   I'll develop and complete a great machine next year.
+BA,bank_BA.asm,DATA16_BAD8E6,BAD8E6,1672,79,158,True,The smell of the dirt is    getting stronger as snow    melts. Spring is near.
+BA,bank_BA.asm,DATA16_BAD984,BAD984,1683,55,110,True,Snow gave us a hard time butwill miss seeing the snow.
+BA,bank_BA.asm,DATA16_BAD9F2,BAD9F2,1691,78,156,True,"Now tonight is the last     night of the year. Let's    have a party. Cheers,"
+BA,bank_BA.asm,DATA16_BADA8E,BADA8E,1702,108,216,True,"This is the last juice to   drink seeing snow this year.Well:we can drink
+juice again seeing flowers  soon."
+BA,bank_BA.asm,DATA16_BADB66,BADB66,1717,95,190,True,"I'd better go home and rest now. I'm going up to the    mountain top to see the
+first sunrise."
+BA,bank_BA.asm,DATA16_BADC24,BADC24,1730,82,164,True,Thank you very much for     everything this year. I'll  do my best next year too.
+BA,bank_BA.asm,DATA16_BADCC8,BADCC8,1742,45,90,True,Ah:Mr.<CTRL_FFFD>eD:is your field andmeadow all right?
+BA,bank_BA.asm,DATA16_BADD22,BADD22,1749,54,108,True,It's important for a human  to overcome difficulties.
+BA,bank_BA.asm,DATA16_BADD8E,BADD8E,1757,61,122,True,"Such a hard time you had,   But experience teaches you alot."
+BA,bank_BA.asm,DATA16_BADE08,BADE08,1766,49,98,True,Vitality is important for   men to work outside.
+BA,bank_BA.asm,DATA16_BADE6A,BADE6A,1774,41,82,True,The shop is open at <$00B7>:<CTRL_B2><CTRL_B2> so please come.
+BA,bank_BA.asm,DATA16_BADEBC,BADEBC,1781,53,106,True,Everybody will come to      church to pray tomorrow.
+BA,bank_BA.asm,DATA16_BADF26,BADF26,1789,70,140,True,I'll do the first           fortune-telling at the      mountain top.
+BA,bank_BA.asm,DATA16_BADFB2,BADFB2,1799,77,154,True,winter is a good time to be friends with livestock.     Well:with girls too.
+BA,bank_BA.asm,DATA16_BAE04C,BAE04C,1810,111,222,True,"There's not a lot of thing  to eat in the mountains in  winter so all the animals
+are in desperate to survive."
+BA,bank_BA.asm,DATA16_BAE12A,BAE12A,1825,75,150,True,You need lots of wood in    winter. Chop plenty of wood before the winter.
+BA,bank_BA.asm,DATA16_BAE1C0,BAE1C0,1836,96,192,True,"Umm:I can't get out when    you are there. ....You closeyou eyes so get out first?
+Liar. ??????"
+BA,bank_BA.asm,DATA16_BAE280,BAE280,1849,42,84,True,Not many people come here.  I wonder why.
+BA,bank_BA.asm,DATA16_BAE2D4,BAE2D4,1856,99,198,True,"A very little light from    above reaches the ground.   Those herbs over there
+lives only with it."
+BA,bank_BA.asm,DATA16_BAE39A,BAE39A,1870,51,102,True,Nina's dream is to live     surrounded by flowers.
+BA,bank_BA.asm,DATA16_BAE400,BAE400,1878,91,182,True,"Not just flowers:I love themall like weeds and     vegetable.
+I want to do garden forever."
+BA,bank_BA.asm,DATA16_BAE4B6,BAE4B6,1891,51,102,True,I love church because it    seems to wash my mind.
+BA,bank_BA.asm,DATA16_BAE51C,BAE51C,1899,27,54,True,Please do your best  work.
+BA,bank_BA.asm,DATA16_BAE552,BAE552,1904,114,228,True,"Are you all right? I feel   ease knowing no one was     hurt.
+But... that makes us feel   the fear of the nature."
+BA,bank_BA.asm,DATA16_BAE636,BAE636,1920,64,128,True,Hey:why don't you surprise  us by saying something      decent.
+BA,bank_BA.asm,DATA16_BAE6B6,BAE6B6,1929,46,92,True,I was terrified. It was my  first earthquake.
+BA,bank_BA.asm,DATA16_BAE712,BAE712,1936,45,90,True,Did you see the rock up     there collapsed?
+BA,bank_BA.asm,DATA16_BAE76C,BAE76C,1943,105,210,True,"I've heard that there is a  mysterious spring in this   mountain.
+It is......I don't remember the place."
+BA,bank_BA.asm,DATA16_BAE83E,BAE83E,1958,53,106,True,I don't like winter because it feels kind of lonely.
+BA,bank_BA.asm,DATA16_BAE8A8,BAE8A8,1966,80,160,True,Because of the hurricane:   there's a leak in the roof. They are fixing it now.
+BA,bank_BA.asm,DATA16_BAE948,BAE948,1977,19,38,True,Uum:I want an egg.
+BA,bank_BA.asm,DATA16_BAE96E,BAE96E,1981,45,90,True,"sob...I won't ask you any   more. You idiot,"
+BA,bank_BA.asm,DATA16_BAE9C8,BAE9C8,1988,48,96,True,Thank you. This is...the    money I saved. Bye.
+BA,bank_BA.asm,DATA16_BAEA28,BAEA28,1995,48,96,True,"I want an egg. I want just  one egg.:so please,"
+BA,bank_BA.asm,DATA16_BAEA88,BAEA88,2002,9,18,True,"""Stable"""
+BA,bank_BA.asm,DATA16_BAEA9A,BAEA9A,2005,80,160,True,Celebration of <CTRL_FFFD>eE's       birthday. It's been a year  now. Time goes too fast.
+BA,bank_BA.asm,DATA16_BAEB3A,BAEB3A,2016,52,104,True,Wow:cake                   <CTRL_FFFD>eF's birthday:isn't it?
+BA,bank_BA.asm,DATA16_BAEBA2,BAEBA2,2024,38,76,True,It's warm enough now. What anice day.
+BA,bank_BA.asm,DATA16_BAEBEE,BAEBEE,2030,94,188,True,"Various disasters can happenin summer so you better     watch the weather
+forecast every day."
+BA,bank_BA.asm,DATA16_BAECAA,BAECAA,2043,34,68,True,It's autumn...the sky is    high.
+BA,bank_BA.asm,DATA16_BAECEE,BAECEE,2049,81,162,True,I hope I'll be able to cook better step by step.        ......please be patient.
+BA,bank_BA.asm,DATA16_BAED90,BAED90,2061,49,98,True,I wish I had had trained a  little to be a wife.
+BA,bank_BA.asm,DATA16_BAEDF2,BAEDF2,2069,47,94,True,"It's spring, Spring,        Let's plant seeds,"
+BA,bank_BA.asm,DATA16_BAEE50,BAEE50,2076,42,84,True,Morning. It's so nice and   bright today.
+BA,bank_BA.asm,DATA16_BAEEA4,BAEEA4,2083,89,178,True,"I hear wild dogs sometimes  come around here. It's      dangerous to keep fences
+broken."
+BA,bank_BA.asm,DATA16_BAEF56,BAEF56,2096,54,108,True,When it rains: we have to   put <CTRL_FFFD>eG inside the house.
+BA,bank_BA.asm,DATA16_BAEFC2,BAEFC2,2104,76,152,True,Darling: please take        <CTRL_FFFD>eH or <CTRL_FFFD>eI                for a walk sometimes.
+BA,bank_BA.asm,DATA16_BAF05A,BAF05A,2115,23,46,True,I want to ride on <CTRL_FFFD>eJ.
+BA,bank_BA.asm,DATA16_BAF088,BAF088,2119,89,178,True,"Ah:things like temparature  of this place make it       suitable for making
+berry juice."
+BA,bank_BA.asm,DATA16_BAF13A,BAF13A,2132,160,320,True,"This one is wild grape      juice. This is bayberry:    and this is cowberry.
+My uncle gave them to me.   I want to share them with   other people if possible."
+BA,bank_BA.asm,DATA16_BAF27A,BAF27A,2153,62,124,True,This is the one I made in   spring. We can drink it     soon.
+BA,bank_BA.asm,DATA16_BAF2F6,BAF2F6,2162,83,166,True,I won't play with machines  for the time being.         I'm going to stay at home.
+BA,bank_BA.asm,DATA16_BAF39C,BAF39C,2174,53,106,True,It snows a lot so those     fences are often broken.
+BA,bank_BA.asm,DATA16_BAF406,BAF406,2182,34,68,True,I hope spring will come     soon.
+BA,bank_BA.asm,DATA16_BAF44A,BAF44A,2188,73,146,True,We are not busy working so Iwant to gather people here  to have a party.
+BA,bank_BA.asm,DATA16_BAF4DC,BAF4DC,2199,94,188,True,"Say:the sound of burning    wood and the smell of the   smoke make you nostalgic:
+don't they?"
+BA,bank_BA.asm,DATA16_BAF598,BAF598,2212,56,112,True,All the grass on the ground is gone. It looks lonesome.
+BA,bank_BA.asm,DATA16_BAF608,BAF608,2220,222,444,True,"Hey:it's just hit my mind   but there are as many peopleas there are stars:right?
+So the probability of       meeting a certain person is basically one out of
+millions. So I really thank God for having you at that  ranch."
+BA,bank_BA.asm,DATA16_BAF7C4,BAF7C4,2249,55,110,True,Will those stars still shinewhen we become really old?
+BA,bank_BA.asm,DATA16_BAF832,BAF832,2257,90,180,True,"Good evening. If.. if you   are interested:won't you go see the stars with
+me after this?"
+BA,bank_BA.asm,DATA16_BAF8E6,BAF8E6,2270,132,264,True,"May everybody be happy and  may you be fine all the     time...
+OK:let's go home after      seeing those stars as we do every year."
+BA,bank_BA.asm,DATA16_BAF9EE,BAF9EE,2288,120,240,True,"I'm glad that you are here. Now let's have a toast,     I want to spend time with
+you next year too if        possible."
+BA,bank_BA.asm,DATA16_BAFADE,BAFADE,2304,79,158,True,HoneyAh:you are late. We are     having a wonderful time.    Come and join us.
+BA,bank_BA.asm,DATA16_BAFB7C,BAFB7C,2315,118,236,True,".........................HeyI look forward to the       shooting star every year
+but with you I feel much    happier."
+BA,bank_BA.asm,DATA16_BAFC68,BAFC68,2331,94,188,True,".......Next year:the year   after that......may I be    able to see stars with
+you like this."
+BA,bank_BA.asm,DATA16_BAFD24,BAFD24,2344,185,370,True,"......Say:we don't often seesomeone late at night like  this:especially
+at a place like here....... Not like me but I'm kind of nervous....
+.......Hey:are you          listening to me?"
+BA,bank_BA.asm,DATA16_BAFE96,BAFE96,2369,56,112,True,hmmm:it feels good. This is the best spot to see stars.
+BA,bank_BA.asm,DATA16_BAFF06,BAFF06,2377,125,250,False,"Thank you but I can't answeryou right now. If it's      sunny:I'll be waiting
+for you at the church at    noon on Saturday."
+BB,bank_BB.asm,DATA16_BB8000,BB8000,5,149,298,True,"What? It sounds good but nowI can't... On sunny         Saturdays:
+I'll be waiting for you in  front of the shop so please come before it gets dark."
+BB,bank_BB.asm,DATA16_BB812A,BB812A,25,155,310,True,"........Uummm:well:I can't  answer now. If it's sunny...will you come to
+the mountain on Sunday?     Before it gets dark....I'll be waiting for you there."
+BB,bank_BB.asm,DATA16_BB8260,BB8260,46,166,332,True,"Ah:........well:I....       sorry but I can't answer youright now....
+I'm visiting the livestock  dealer's house so please go there if it's sunny.
+I'm expecting you."
+BB,bank_BB.asm,DATA16_BB83AC,BB83AC,68,206,412,True,".........Huh? Really? well: I've got to talk to my      grandpa....
+If it's sunny on Saturday:  please go to the mountain   again:all right?
+I'll be waiting for you frommorning so come as early as you can."
+BB,bank_BB.asm,DATA16_BB8548,BB8548,95,20,40,True,"It moo""s..........."
+BB,bank_BB.asm,DATA16_BB8570,BB8570,99,43,86,True,Hey:I made this overall.    Isn't it cute?
+BB,bank_BB.asm,DATA16_BB85C6,BB85C6,106,13,26,True, Money <CTRL_FFFC>h-<CTRL_B2>G
+BB,bank_BB.asm,DATA16_BB85E0,BB85E0,109,42,84,True, Cow     <CTRL_FFFC>c<$003F>                  Chicken <CTRL_FFFC>c<$0040>
+BB,bank_BB.asm,DATA16_BB8634,BB8634,116,13,26,True, Stamina <CTRL_FFFC>d:
+BB,bank_BB.asm,DATA16_BB864E,BB864E,119,37,74,True, Cow's best affection rate   <CTRL_FFFD>eK <CTRL_FFFC>d<$0042>
+BB,bank_BB.asm,DATA16_BB8698,BB8698,125,18,36,True, Maria's love <CTRL_FFFC>dá
+BB,bank_BB.asm,DATA16_BB86BC,BB86BC,129,18,36,True, Ann's love   <CTRL_FFFC>dé
+BB,bank_BB.asm,DATA16_BB86E0,BB86E0,133,18,36,True, Nina's love  <CTRL_FFFC>dí
+BB,bank_BB.asm,DATA16_BB8704,BB8704,137,18,36,True, Ellen's love <CTRL_FFFC>d<$0046>
+BB,bank_BB.asm,DATA16_BB8728,BB8728,141,18,36,True, Eve's love   <CTRL_FFFC>dÀ
+BB,bank_BB.asm,DATA16_BB874C,BB874C,145,33,66,True, Amount of shipped tomatoes  <CTRL_FFFC>d<$0048>
+BB,bank_BB.asm,DATA16_BB878E,BB878E,151,33,66,True, Amount of shipped corn      <CTRL_FFFC>d<$0049>
+BB,bank_BB.asm,DATA16_BB87D0,BB87D0,157,33,66,True, Amount of shipped potatoes  <CTRL_FFFC>d<$004A>
+BB,bank_BB.asm,DATA16_BB8812,BB8812,163,33,66,True, Amount of shipped turnips   <CTRL_FFFC>dó
+BB,bank_BB.asm,DATA16_BB8854,BB8854,169,12,24,True, Wood house
+BB,bank_BB.asm,DATA16_BB886C,BB886C,172,18,36,True, Super wood house
+BB,bank_BB.asm,DATA16_BB8890,BB8890,176,40,80,True, Super deluxe great          wood house
+BB,bank_BB.asm,DATA16_BB88E0,BB88E0,182,20,40,True, Happiness rate <CTRL_FFFC>dú
+BB,bank_BB.asm,DATA16_BB8908,BB8908,186,87,174,False,"Florist's crops note
+ ""tomato: corn""              ""turnip: potato""            ""grass""<CHOICE_OR_WAIT>d"
+BB,bank_BB.asm,DATA16_BB89B6,BB89B6,198,288,576,True,"Tomato and corn seeds must  be planted in summer.       Notice: Never grow when
+planting in other seasons.  Be able to have more fruits by watering after the
+harvest.                    Tomatoes grow quicker. Die  in autumn. Shipping rate:
+Tomato!<CTRL_B3> piece <CTRL_B3><CTRL_B2><CTRL_B2>G         Corn!<CTRL_B3> piece   <CTRL_B3><CTRL_B4><CTRL_B2>G"
+BB,bank_BB.asm,DATA16_BB8BF6,BB8BF6,235,237,474,True,"Turnip and potato seeds mustbe planted in spring.       They grow quicker than
+tomatoes and corn. turnip   are a quick grower.         Only one harvest per year.
+Shipping rate:              Turnip!<CTRL_B3> piece <$00B8><CTRL_B2>G          Potato!<CTRL_B3> piece <$00BA><CTRL_B2>G"
+BB,bank_BB.asm,DATA16_BB8DD0,BB8DD0,266,159,318,True,"Grass seeds must be planted from spring to summer.      Cut by autumn.
+No need to water. Grass     doesn't make money but it isimportant as feed to
+livestock."
+BB,bank_BB.asm,DATA16_BB8F0E,BB8F0E,287,82,164,False,"Livestock note:
+ ""Cow""          ""Chicken""    ""Milk""         ""Egg""        ""Grass""<CHOICE_OR_WAIT>f"
+BB,bank_BB.asm,DATA16_BB8FB2,BB8FB2,299,359,718,True,"Cows on sale are young ones that can't milk. Takes <CTRL_B4><CTRL_B3>   days to grow large
+enough for milking.         The key is to keep them awayfrom sickness:
+Don't forget to feed.       Don't let them out when it  rains:lightening:hurricane.
+Nothing works when they get wet in the morning.
+They don't produce milk     for a while when they get   sick or are in bad mood."
+BB,bank_BB.asm,DATA16_BB9280,BB9280,345,234,468,True,"Equip the milker and point  Y button to a cow to milk.  Only once a day.
+Cow's affection rate        increases when being brushedor talked to.
+Cows you devote your        affection to can produce    middle-sized and
+large-sized milk."
+BB,bank_BB.asm,DATA16_BB9454,BB9454,376,179,358,True,"Cows eat well grown grass.  When the grass is young:    it's like not feeding:
+so be careful. Cut grass    makes fodder.  It's feed in rainy days and winter.
+Don't run out of it."
+BB,bank_BB.asm,DATA16_BB95BA,BB95BA,400,233,466,True,"Chickens lay one egg a day. It doesn't lay eggs for <CTRL_B5>   days when you forget
+to feed or it gets wet in   the rain. They could be     blown away when you let
+them outside during         hurricane. Possibly to be   eaten by wild dogs."
+BB,bank_BB.asm,DATA16_BB978C,BB978C,431,211,422,True,"Eggs become chicks in <CTRL_B5> dayswhen you incubate them. No  feed is necessary for
+chicks. Chicks grow to      chickens in <$00B9> days.         If you increase the amount
+of chickens: the feed will  run out so be careful"
+BB,bank_BB.asm,DATA16_BB9932,BB9932,459,85,170,False,"""Lessons of Love""
+ Present        Conversation Festival       Diary        Marriage<CHOICE_OR_WAIT>f"
+BB,bank_BB.asm,DATA16_BB99DC,BB99DC,471,145,290,True,"Most portable things can be presents. Every girl has a  different taste so observe
+their reactions. Expensive  presents don't work all the time."
+BB,bank_BB.asm,DATA16_BB9AFE,BB9AFE,491,66,132,True,It's important to talk to a girl you love as much as    possible.
+BB,bank_BB.asm,DATA16_BB9B82,BB9B82,501,216,432,True,"Festivals are the best      opportunity, Girls are      sometimes at different
+places depending on the     festival. Talk to her the   day before and check out
+where she's going the next  day. Lucky item is perfume."
+BB,bank_BB.asm,DATA16_BB9D32,BB9D32,529,136,272,True,"The girls' impression of youcan be found in the diary ineach one's room.
+But don't look too often.   Try you best to capture her heart,"
+BB,bank_BB.asm,DATA16_BB9E42,BB9E42,547,177,354,True,"Item for marriage proposal  is a blue feather. When the good impression rate gets
+higher:check out the peddleron Sunday. You need to      enlarge your house to get
+married too."
+BB,bank_BB.asm,DATA16_BB9FA4,BB9FA4,571,202,404,True,"I see:Ellen. She's behind   the pen on Saturdays.       She's at the public
+square on Star Night        Festival night. For present:flowers are nice but milk
+milked by you or an egg willplease her:too."
+BB,bank_BB.asm,DATA16_BBA138,BBA138,598,196,392,True,"Eve..hmm... Go to the bar asmany times as you can and goto the mountain
+on Saturdays and Sundays.   For present:flowers or      berries are good.
+She doesn't like fish so    don't give it to her."
+BB,bank_BB.asm,DATA16_BBA2C0,BBA2C0,624,37,74,True,Sweetheart......Stay happy  forever.
+BB,bank_BB.asm,DATA16_BBA30A,BBA30A,630,51,102,True,Hey:darling....I would like a baby. How about you?
+BB,bank_BB.asm,DATA16_BBA370,BBA370,638,65,130,True,.........Honey:you work too hard. I want you to be with me more.
+BB,bank_BB.asm,DATA16_BBA3F2,BBA3F2,648,34,68,True, <CTRL_FFFD>jL:<CTRL_FFFC>cã<CTRL_FFFD>cM of <CTRL_FFFD>gN.   Money <CTRL_FFFC>hÓ<CTRL_B2>G
+BB,bank_BB.asm,DATA16_BBA436,BBA436,654,111,222,True," <CTRL_FFFD>jO:<CTRL_FFFC>c<$004F><CTRL_FFFD>cP of <CTRL_FFFD>gQ.   It's <$00B8> o'clock now.
+ Going to have a good day    today,                      Money <CTRL_FFFC>h<$0050><CTRL_B2>G"
+BB,bank_BB.asm,DATA16_BBA514,BBA514,669,62,124,True, <CTRL_FFFD>jR:<CTRL_FFFC>c<$0051><CTRL_FFFD>cS of <CTRL_FFFD>gT.   It's <$00B9> o'clock now.         Money <CTRL_FFFC>h<$0052><CTRL_B2>G
+BB,bank_BB.asm,DATA16_BBA590,BBA590,678,62,124,True, <CTRL_FFFD>jU:<CTRL_FFFC>cõ<CTRL_FFFD>cV of <CTRL_FFFD>gW.   It's <$00BA> o'clock now.         Money <CTRL_FFFC>hê<CTRL_B2>G
+BB,bank_BB.asm,DATA16_BBA60C,BBA60C,687,62,124,True, <CTRL_FFFD>jX:<CTRL_FFFC>cô<CTRL_FFFD>cY of <CTRL_FFFD>gZ.   It's <$00BB> o'clock now.         Money <CTRL_FFFC>h<$0056><CTRL_B2>G
+BB,bank_BB.asm,DATA16_BBA688,BBA688,696,62,124,True," <CTRL_FFFD>j':<CTRL_FFFC>cç<CTRL_FFFD>c, of <CTRL_FFFD>g..   It's <CTRL_B3><CTRL_B2> o'clock now.        Money <CTRL_FFFC>h<$0058><CTRL_B2>G"
+BB,bank_BB.asm,DATA16_BBA704,BBA704,705,75,150,True," <CTRL_FFFD>j?:<CTRL_FFFC>c<$0059><CTRL_FFFD>c"" of <CTRL_FFFD>g!.   It's <CTRL_B3><CTRL_B3> o'clock now. I'm    hungry now.
+ Money <CTRL_FFFC>h<$005A><CTRL_B2>G"
+BB,bank_BB.asm,DATA16_BBA79A,BBA79A,716,76,152,True," <CTRL_FFFD>j::<CTRL_FFFC>câ<CTRL_FFFD>c<$003B> of <CTRL_FFFD>g<$003C>.   It's <CTRL_B3><CTRL_B4> o'clock now.        I'm charged.
+ Money <CTRL_FFFC>hà<CTRL_B2>G"
+BB,bank_BB.asm,DATA16_BBA832,BBA832,727,62,124,True, <CTRL_FFFD>j&:<CTRL_FFFC>cÉ<CTRL_FFFD>c- of <CTRL_FFFD>g<$003F>.   It's <CTRL_B3> o'clock now.         Money <CTRL_FFFC>h<$005E><CTRL_B2>G
+BB,bank_BB.asm,DATA16_BBA8AE,BBA8AE,736,62,124,True, <CTRL_FFFD>j<$0040>:<CTRL_FFFC>cÚ<CTRL_FFFD>c: of <CTRL_FFFD>g<$0042>.   It's <CTRL_B4> o'clock now.         Money <CTRL_FFFC>h<$0060><CTRL_B2>G
+BB,bank_BB.asm,DATA16_BBA92A,BBA92A,745,90,180,True," <CTRL_FFFD>já:<CTRL_FFFC>c<$0061><CTRL_FFFD>cé of <CTRL_FFFD>gí.   It's <CTRL_B5> o'clock now. Didn't  I forget to ship something
+ Money <CTRL_FFFC>h<$0062><CTRL_B2>G"
+BB,bank_BB.asm,DATA16_BBA9DE,BBA9DE,758,84,168,True," <CTRL_FFFD>j<$0046>:<CTRL_FFFC>c<$0063><CTRL_FFFD>cÀ of <CTRL_FFFD>g<$0048>.   It's <$00B6> o'clock now. Shipper is coming here soon.
+ Money <CTRL_FFFC>h<$0064><CTRL_B2>G"
+BB,bank_BB.asm,DATA16_BBAA86,BBAA86,770,74,148,True," <CTRL_FFFD>j<$0049>:<CTRL_FFFC>c<$0065><CTRL_FFFD>c<$004A> of <CTRL_FFFD>gó.   It's <$00B7> o'clock now. I'm     tired now.
+ Money <CTRL_FFFC>h<$0066><CTRL_B2>G"
+BB,bank_BB.asm,DATA16_BBAB1A,BBAB1A,781,116,232,True," <CTRL_FFFD>jú:<CTRL_FFFC>c<$0067><CTRL_FFFD>cã of <CTRL_FFFD>gÓ.   It's <$00B8> o'clock now. I'm     going home now and going
+ to bed.                     Money <CTRL_FFFC>h<$0068><CTRL_B2>G"
+BB,bank_BB.asm,DATA16_BBAC02,BBAC02,797,117,234,True," <CTRL_FFFD>j<$004F>:<CTRL_FFFC>c<$0069><CTRL_FFFD>c<$0050> of <CTRL_FFFD>g<$0051>.   It's <$00B7> o'clock now. I could be scolded if I went home
+ late.                       Money <CTRL_FFFC>h<$006A><CTRL_B2>G"
+BB,bank_BB.asm,DATA16_BBACEC,BBACEC,813,202,404,True,"Hello: Mr. .... I've got a  notice from your father thismorning.
+He says he will be back hereby the end of summer next   year.
+He's so worried about how   you live here so make him   feel at ease then."
+BB,bank_BB.asm,DATA16_BBAE80,BBAE80,840,98,196,True,"Hello. Your parents are     coming tomorrow at last.    They will be surprised
+to see this ranch."
+BB,bank_BB.asm,DATA16_BBAF44,BBAF44,854,53,106,True,...........Really:you still need to be trained more.
+BB,bank_BB.asm,DATA16_BBAFAE,BBAFAE,862,67,134,True,It's kind of disappointing  when the weather is not goodon Sunday.
+BB,bank_BB.asm,DATA16_BBB034,BBB034,872,57,114,True,Honey: the shop is closed   because it's Saturday today.
+BB,bank_BB.asm,DATA16_BBB0A6,BBB0A6,881,84,168,True,Equip the axe and use it in front of the spring in the  mountain and then. ........
+BB,bank_BB.asm,DATA16_BBB14E,BBB14E,893,125,250,True,"Hey:how are you doing? I'm  making a great thing now,   It'll be completed around
+the <CTRL_B4><CTRL_B2>th so come see it at  the shop then."
+BB,bank_BB.asm,DATA16_BBB248,BBB248,910,45,90,True,Darling:will you hold our   child sometimes?
+BB,bank_BB.asm,DATA16_BBB2A2,BBB2A2,917,26,52,True,"Look. He is crawling now,"
+BB,bank_BB.asm,DATA16_BBB2D6,BBB2D6,922,87,174,True,"This child grows pretty     quickly. Just a little bit  but he started to speak
+words."
+BB,bank_BB.asm,DATA16_BBB384,BBB384,934,53,106,True, Ranch master rate <CTRL_FFFC>d<$006B>       Still a long way to go.
+BB,bank_BB.asm,DATA16_BBB3EE,BBB3EE,942,62,124,True,He is very active so I have to put on eye on him all thetime.
+BB,bank_BB.asm,DATA16_BBB46A,BBB46A,951,38,76,True,Darling:please take care of yourself.
+BB,bank_BB.asm,DATA16_BBB4B6,BBB4B6,957,119,238,True,"I heard an awful sound from here this morning.  Are you all right?
+Has anything strange        happened? Check it out."
+BB,bank_BB.asm,DATA16_BBB5A4,BBB5A4,973,78,156,True,You said what? You were     supposed to sell it:weren't you? Now I'm leaving.
+BB,bank_BB.asm,DATA16_BBB640,BBB640,984,41,82,True, Ranch master rate <CTRL_FFFC>d<$006C>       Try harder.
+BB,bank_BB.asm,DATA16_BBB692,BBB692,991,55,110,True," Ranch master rate <CTRL_FFFC>d<$006D>       Come on:you are so close,"
+BB,bank_BB.asm,DATA16_BBB700,BBB700,999,71,142,True," Ranch master rate <CTRL_FFFC>d<$006E>       Great, But try to be the    best rancher,"
+BB,bank_BB.asm,DATA16_BBB78E,BBB78E,1009,82,164,True," Ranch master rate <CTRL_FFFC>d<$006F>       Congratulations, You are    the perfect rancher now,"
+BB,bank_BB.asm,DATA16_BBB832,BBB832,1021,28,56,True, Ranch developing rate <CTRL_FFFC>d<$0070>&
+BB,bank_BB.asm,DATA16_BBB86A,BBB86A,1026,55,110,True,How is P-chan doing?        I wonder if it's doing OK?
+BB,bank_BB.asm,DATA16_BBB8D8,BBB8D8,1034,64,128,True,Money is not the only thing in life. Look at various    things.
+BB,bank_BB.asm,DATA16_BBB958,BBB958,1043,83,166,True,The strange looking ornamentof a chicken looks like it  can be broken with a tool.
+BB,bank_BB.asm,DATA16_BBB9FE,BBB9FE,1055,25,50,True,"What a beautiful flower,"
+BB,bank_BB.asm,DATA16_BBBA30,BBBA30,1060,66,132,True,Hello:you should eat a lot  today. No:it doesn't mean   anything.
+BB,bank_BB.asm,DATA16_BBBAB4,BBBAB4,1070,72,144,True,Has Nina made something likea flower garden at the      ranch? Has she?
+BB,bank_BB.asm,DATA16_BBBB44,BBBB44,1080,47,94,True,Darling:didn't you forget   to paint the door?
+BB,bank_BB.asm,DATA16_BBBBA2,BBBBA2,1087,81,162,True,Maria seems to be doing     well. Yes:she brought me a  cake early this morning.
+BB,bank_BB.asm,DATA16_BBBC44,BBBC44,1099,60,120,True,Are you getting along well  with your wife? Don't argue:OK?
+BB,bank_BB.asm,DATA16_BBBCBC,BBBCBC,1108,76,152,True,I got a cake from the       florist's wife. So glad. itslike a dream to me.
+BB,bank_BB.asm,DATA16_BBBD54,BBBD54,1119,82,164,True,"Oh my goodness, No:no:no:   nothing like that, You know:something like... thanks."

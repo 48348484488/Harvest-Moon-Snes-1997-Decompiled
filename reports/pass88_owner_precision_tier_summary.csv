@@ -1,0 +1,8 @@
+metric,entries,percent
+structural_owner_lane,952,73.913
+domain_specific_owner_inferred,268,20.807
+exact_text_anchored_owner,68,5.280
+manual_type:needs_final_npc_or_scene_name,936,72.671
+manual_type:needs_optional_exact_scene_name,268,20.807
+manual_type:closed_exact_or_text_anchored,68,5.280
+manual_type:needs_final_object_or_gobj_name,16,1.242

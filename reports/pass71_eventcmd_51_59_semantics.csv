@@ -1,0 +1,10 @@
+opcode,name,payload_bytes,semantic_class,source_entry
+$51,UseChickenDogOrHeldItemContext,0,item/chicken/dog interaction context,84BC9C
+$52,WaitForAButtonSetInteractionFlag02,0,A-button interaction gate / flag $7F1F60 bit 1,84BD44
+$53,WaitForAButtonSetInteractionFlag04,0,A-button interaction gate / flag $7F1F60 bit 2,84BE0D
+$54,StartTextBoxAndAdvanceSlot,3,dialog textbox + slot advance,84BED6
+$55,JumpIfIndirectBitClear,6,indirect flag/bit branch,84BF20
+$56,StartSelectedToolAction,0,tool selected action trigger,84BF81
+$57,ApplyStaminaDelta,1,stamina/fatigue delta,84BFA0
+$58,EditTileAndSetRuntimeFlag,5,map tile edit + runtime flag,84BFBF
+$59,SetPlayerAction1C,0,player action state set,84C000

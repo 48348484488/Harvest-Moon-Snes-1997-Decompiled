@@ -1,0 +1,7 @@
+optional_refinement_lane,entries_closed_pass95,percent_of_optional_targets,pass95_closure_scope
+optional_exact_eve_context,486,84.229,Eve/family-romance matrix rows are fully named at matrix-context level; individual in-game speaker variant is outside the EventScript table.
+optional_exact_speaker_or_scene_beat,55,9.532,Family/romance branch rows are fully named at speaker/scene-beat matrix level; schedule-only attribution is not encoded here.
+optional_exact_mountain_angler_dialogue_context,12,2.080,Mountain/fishing/angler dialogue rows are fully named at dialogue-context level.
+optional_exact_household_gift_reaction_speaker,11,1.906,Household gift-reaction rows are fully named at reaction-context level.
+optional_cutscene_beat_name,10,1.733,Cutscene-control rows are fully named at cutscene-beat row level.
+optional_exact_stew_cooking_context,3,0.520,Stew/cooking dialogue rows are fully named at context row level.

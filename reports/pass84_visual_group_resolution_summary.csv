@@ -1,0 +1,17 @@
+group,visual_entries,top_visual_families,top_confidence
+$00,120,general_livestock:70 cow_livestock:36 dog_pet:9 chicken_poultry:5,high_catalog_visual_evidence:54 medium_contextual_visual_classification:41 medium_mixed_unresolved_refs:25
+$01,9,dog_pet:3 cow_livestock:3 general_livestock:2 npc_family_or_romance:1,high_catalog_visual_evidence:9
+$02,2,npc_family_or_romance:1 general_livestock:1,high_catalog_visual_evidence:2
+$04,6,general_livestock:3 npc_family_or_romance:3,high_catalog_visual_evidence:6
+$06,5,general_livestock:3 cow_livestock:2,high_catalog_visual_evidence:5
+$07,6,general_livestock:6,high_catalog_visual_evidence:6
+$08,7,general_livestock:3 cow_livestock:3 npc_family_or_romance:1,high_catalog_visual_evidence:7
+$0B,1,npc_family_or_romance:1,high_catalog_visual_evidence:1
+$24,4,general_livestock:4,high_catalog_visual_evidence:4
+$2A,1,npc_family_or_romance:1,high_catalog_visual_evidence:1
+$2B,1,cow_livestock:1,high_catalog_visual_evidence:1
+$2C,1,npc_family_or_romance:1,high_catalog_visual_evidence:1
+$2D,1,npc_family_or_romance:1,high_catalog_visual_evidence:1
+$43,5,cow_livestock:5,high_catalog_visual_evidence:5
+$44,5,cow_livestock:5,high_catalog_visual_evidence:5
+$45,2,npc_family_or_romance:2,high_catalog_visual_evidence:2

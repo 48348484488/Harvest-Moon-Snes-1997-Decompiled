@@ -1,0 +1,122 @@
+diff -ruN HM-Decomp-Pass08-Organizado-Sprites-Seguro/01_project_buildable/src/code_banks/bank_81.asm pass09_work/01_project_buildable/src/code_banks/bank_81.asm
+--- HM-Decomp-Pass08-Organizado-Sprites-Seguro/01_project_buildable/src/code_banks/bank_81.asm	2026-07-04 09:27:29.000000000 +0000
++++ pass09_work/01_project_buildable/src/code_banks/bank_81.asm	2026-07-04 09:52:46.174279670 +0000
+@@ -8173,7 +8173,7 @@
+       %Set16bit(!M)
+       LDA.W $00CF
+       BNE .return
+-      JSL.L SUB_8281C0
++      JSL.L Weather_LoadDisplayClimateFromTomorrow
+       %Set8bit(!M)
+       LDA.B #$00
+       XBA
+@@ -8506,7 +8506,7 @@
+                        JMP.W CODE_81DA81                    ;81DA04;81DA81;
+                                                             ;      ;      ;
+                                                             ;      ;      ;
+-          CODE_81DA07: JSL.L SUB_8281C0                          ;81DA07;8281C0;
++          CODE_81DA07: JSL.L Weather_LoadDisplayClimateFromTomorrow                          ;81DA07;8281C0;
+                        %Set8bit(!M)                             ;81DA0B;      ;
+                        LDA.B #$00                           ;81DA0D;      ;
+                        XBA                                  ;81DA0F;      ;
+@@ -8595,7 +8595,7 @@
+                        JMP.W CODE_81DB37                    ;81DABA;81DB37;
+                                                             ;      ;      ;
+                                                             ;      ;      ;
+-          CODE_81DABD: JSL.L SUB_8281C0                          ;81DABD;8281C0;
++          CODE_81DABD: JSL.L Weather_LoadDisplayClimateFromTomorrow                          ;81DABD;8281C0;
+                        %Set8bit(!M)                             ;81DAC1;      ;
+                        LDA.B #$00                           ;81DAC3;      ;
+                        XBA                                  ;81DAC5;      ;
+diff -ruN HM-Decomp-Pass08-Organizado-Sprites-Seguro/01_project_buildable/src/code_banks/bank_82.asm pass09_work/01_project_buildable/src/code_banks/bank_82.asm
+--- HM-Decomp-Pass08-Organizado-Sprites-Seguro/01_project_buildable/src/code_banks/bank_82.asm	2026-07-04 09:44:44.525438677 +0000
++++ pass09_work/01_project_buildable/src/code_banks/bank_82.asm	2026-07-04 09:52:46.176511382 +0000
+@@ -222,7 +222,7 @@
+ ;;;;;;;; This is the return of the last 2 functions
+ ShippingReturn: RTL
+ ;;;;;;;;
+-SUB_8281C0: ;8281C0
++Weather_LoadDisplayClimateFromTomorrow: ;8281C0
+         %Set8bit(!M)
+         %Set16bit(!X)
+         LDA.B #$00
+@@ -231,7 +231,7 @@
+         %Set16bit(!M)
+         TAX
+         %Set8bit(!M)
+-        LDA.L UNK_Table6,X
++        LDA.L Weather_TomorrowToDisplayClimateTable,X
+         STA.W $0990
+         %Set16bit(!M)
+         LDA.W $0196
+@@ -256,7 +256,7 @@
+     .return RTL
+ 
+ ;;;;;;;;
+-UNK_Table6: db $00,$01,$02,$03,$00,$00,$05,$06,$07,$08,$09,$0A;8281FD
++Weather_TomorrowToDisplayClimateTable: db $00,$01,$02,$03,$00,$00,$05,$06,$07,$08,$09,$0A;8281FD
+ 
+ ;;;;;;;;
+ ClimateFarmDamagePrep: ;828209
+@@ -1892,11 +1892,11 @@
+         ASL A                                ;8292D8;      ;
+         ASL A                                ;8292D9;      ;
+         TAX                                  ;8292DA;      ;
+-        LDA.L DATA8_8292FA,X                 ;8292DB;8292FA;
++        LDA.L ToolSuccessSquareOffsetsTable,X                 ;8292DB;8292FA;
+         PHA                                  ;8292DF;      ;
+         INX                                  ;8292E0;      ;
+         INX                                  ;8292E1;      ;
+-        LDA.L DATA8_8292FA,X                 ;8292E2;8292FA;
++        LDA.L ToolSuccessSquareOffsetsTable,X                 ;8292E2;8292FA;
+         TAY                                  ;8292E6;      ;
+         PLA                                  ;8292E7;      ;
+         TAX                                  ;8292E8;      ;
+@@ -1909,7 +1909,7 @@
+         RTS                                  ;8292F9;      ;
+ 
+ ;;;;;;;;
+-DATA8_8292FA: ;8292FA
++ToolSuccessSquareOffsetsTable: ;8292FA
+         db $00,$00,$00,$00,$00,$00,$01,$00,$01,$00,$01,$00,$01,$00,$00,$00;      ;
+         db $01,$00,$FF,$FF,$00,$00,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$00,$00;82930A;      ;
+         db $FF,$FF,$01,$00           ;82931A;      ;
+@@ -2536,7 +2536,7 @@
+     .return: RTL
+ 
+ ;;;;;;;;
+-Sub_82A9A0: ;82A9A0
++FarmGrass_MarkFirstMatureGrassPatch: ;82A9A0
+        %Set8bit(!M)
+        %Set16bit(!X)
+        LDA.B #$04
+diff -ruN HM-Decomp-Pass08-Organizado-Sprites-Seguro/01_project_buildable/src/code_banks/bank_83.asm pass09_work/01_project_buildable/src/code_banks/bank_83.asm
+--- HM-Decomp-Pass08-Organizado-Sprites-Seguro/01_project_buildable/src/code_banks/bank_83.asm	2026-07-04 08:53:13.000000000 +0000
++++ pass09_work/01_project_buildable/src/code_banks/bank_83.asm	2026-07-04 09:52:46.181621916 +0000
+@@ -6792,7 +6792,7 @@
+         LDA.B [$72],Y                        ;Map
+         CMP.B #$04                           ;Farm
+         BCS .cowunfed
+-        JSL.L Sub_82A9A0                          ;TODO
++        JSL.L FarmGrass_MarkFirstMatureGrassPatch                          ;TODO
+         %Set16bit(!M)
+         LDA.W $092E
+         BEQ .cowunfed
+@@ -6952,7 +6952,7 @@
+         LDA.B [$72],Y                        ;Map
+         CMP.B #$04                           ;Farm
+         BCS .skipcow
+-        JSL.L Sub_82A9A0
++        JSL.L FarmGrass_MarkFirstMatureGrassPatch
+ 
+     .skipcow:
+         %Set16bit(!MX)
+@@ -7274,7 +7274,7 @@
+                        LDA.B [$72],Y                        ;83C0B2;000072;
+                        CMP.B #$04                           ;83C0B4;      ;
+                        BCS CODE_83C0CF                      ;83C0B6;83C0CF;
+-                       JSL.L Sub_82A9A0                          ;83C0B8;82A9A0;
++                       JSL.L FarmGrass_MarkFirstMatureGrassPatch                          ;83C0B8;82A9A0;
+                        %Set16bit(!M)                             ;83C0BC;      ;
+                        LDA.W $092E                          ;83C0BE;00092E;
+                        BEQ CODE_83C0CF                      ;83C0C1;83C0CF;

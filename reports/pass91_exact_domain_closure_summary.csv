@@ -1,0 +1,9 @@
+metric,value,percent
+total_eventscript_entries,1288,100.000
+entries_closed_total_pass91,336,26.087
+entries_closed_direct_text_or_anchor,68,5.280
+entries_closed_domain_specific_area_pass91,268,20.807
+entries_pending_structural_exact_name,952,73.913
+confirmation_units_total,163,100.000
+confirmation_units_closed_pass91,70,42.945
+confirmation_units_pending_pass91,93,57.055

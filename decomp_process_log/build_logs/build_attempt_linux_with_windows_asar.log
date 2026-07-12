@@ -1,0 +1,4 @@
+Rodando: /mnt/data/work_compile/asar/asar.exe /mnt/data/work_compile/src/HM-Decomp-ROM-tools/src/main.asm /mnt/data/work_compile/src/HM-Decomp-ROM-tools/build/Harvest_Moon_USA_rebuild.sfc
+ERRO: nao foi possivel executar o Asar: [Errno 8] Exec format error: '/mnt/data/work_compile/asar/asar.exe'
+Se voce esta no Linux, confira se o binario e Linux x86_64 e se tem permissao de execucao.
+Um asar.exe de Windows precisa ser rodado no Windows ou via Wine.

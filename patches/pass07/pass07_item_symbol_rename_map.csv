@@ -1,0 +1,12 @@
+old_symbol,new_symbol,reason
+SUB_818000,HeldItem_UseOrInteract_Main,main dispatcher for current held item
+SUB_8180B7,HeldItem_LoadAnimationFrameData,loads held-item animation/object metadata
+DATA8_8196AF,HeldItem_AnimationDataPtrTable,24-bit table indexed by item_on_hand*3
+DATA8_8197C0,HeldItem_ActionJumpTable,behavior jump table indexed by item_on_hand*2
+Items_Price_Table,HeldItem_ShippingPriceTable,normal shipping-bin table
+DATA8_81A094,HeldItem_ShopSellDialogAndPriceTable,direct sale dialog/value table
+DATA8_81A2AD,HeldItem_TileInteractionTypeTable,tile interaction lookup table
+DATA8_81A308,HeldItem_UseSoundFlagTable,use sound flag lookup table
+DATA8_81A363,HeldItem_DropTargetCoordinateTable,scripted drop target coordinate table
+Dropedonsaleplace,HeldItem_DroppedOnShippingBin,shipping-bin drop handler
+Droped_on_special_place,HeldItem_DroppedOnSpecialPlace,special-place drop fallback

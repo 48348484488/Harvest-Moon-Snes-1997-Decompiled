@@ -1,0 +1,175 @@
+--- /tmp/bank83_pass10_before.asm	2026-07-04 09:58:09.817335001 +0000
++++ src/code_banks/bank_83.asm	2026-07-04 09:58:10.826992200 +0000
+@@ -6720,7 +6720,7 @@
+ 
+ 
+ ;;;loops animals and checks feed, health and age/pregnancy and stuff like that
+-CowFeedingandStatus: ;83BC5A
++Livestock_DailyStatusAndFeedingUpdate: ;83BC5A
+         %Set16bit(!MX)
+         LDA.L $7F1F60
+         AND.W #$0001                         ;TODO
+@@ -6734,7 +6734,7 @@
+         PHX
+         PHX
+         TXA
+-        JSL.L GetsCowPointer
++        JSL.L GetCowPointer
+         %Set8bit(!M)
+         %Set16bit(!X)
+         PLX
+@@ -6974,7 +6974,7 @@
+         PHX
+         PHX
+         TXA
+-        JSL.L GetsCowPointer
++        JSL.L GetCowPointer
+         %Set8bit(!M)
+         %Set16bit(!X)
+         PLX
+@@ -7466,7 +7466,7 @@
+                        TXA                                  ;83C23A;      ;
+                        ASL A                                ;83C23B;      ;
+                        TAX                                  ;83C23C;      ;
+-                       LDA.L DATA8_83CA78,X                 ;83C23D;83CA78;
++                       LDA.L Chicken_EggLaidBitmaskTable,X                 ;83C23D;83CA78;
+                        ORA.L $7F1F45                        ;83C241;7F1F45;
+                        STA.L $7F1F45                        ;83C245;7F1F45;
+                        %Set16bit(!M)                             ;83C249;      ;
+@@ -7510,7 +7510,7 @@
+           CODE_83C295: RTL                                  ;83C295;      ;
+ 
+ ;;;;;;;;
+-CODE_83C296:
++Livestock_SpawnVisibleAnimalObjects:
+         %Set16bit(!MX)
+         LDX.W #$0000
+ 
+@@ -7736,7 +7736,7 @@
+             PHX
+             PHX
+             TXA
+-            JSL.L GetsCowPointer
++            JSL.L GetCowPointer
+             %Set8bit(!M)
+             %Set16bit(!X)
+             PLX
+@@ -7773,12 +7773,12 @@
+             ASL A
+             TAX
+             LDY.W #$0008
+-            LDA.L Table_CowsSpawnPos,X
++            LDA.L Cow_BarnSpawnPositionTable,X
+             STA.W !tile_in_front_X
+             INX
+             INX
+             LDY.W #$000A
+-            LDA.L Table_CowsSpawnPos,X
++            LDA.L Cow_BarnSpawnPositionTable,X
+             STA.W !tile_in_front_Y
+             PLX
+             JMP.W .CODE_83C52E
+@@ -8423,12 +8423,12 @@
+         ASL A
+         TAX
+         LDY.W #$0004
+-        LDA.L Table_ChicketSpawnPos,X
++        LDA.L Chicken_CoopSpawnPositionTable,X
+         STA.B [!chicken_pointer],Y
+         INX
+         INX
+         LDY.W #$0006
+-        LDA.L Table_ChicketSpawnPos,X
++        LDA.L Chicken_CoopSpawnPositionTable,X
+         STA.B [!chicken_pointer],Y
+ 
+     .newChickenSuccess:
+@@ -8456,7 +8456,7 @@
+       - %Set16bit(!MX)
+         PHX
+         TXA
+-        JSL.L GetsCowPointer
++        JSL.L GetCowPointer
+         %Set8bit(!M)
+         %Set16bit(!X)
+         PLX
+@@ -8532,12 +8532,12 @@
+         ASL A
+         TAX
+         LDY.W #$0008
+-        LDA.L Table_CowsSpawnPos,X
++        LDA.L Cow_BarnSpawnPositionTable,X
+         STA.B [!cow_pointer],Y               ;Barn Position X
+         INX
+         INX
+         LDY.W #$000A
+-        LDA.L Table_CowsSpawnPos,X
++        LDA.L Cow_BarnSpawnPositionTable,X
+         STA.B [!cow_pointer],Y               ;Barn Position Y
+ 
+         %Set16bit(!M)
+@@ -8568,7 +8568,7 @@
+ ;;;;;;;; Simple function, returns a pointer to the ram address that holds the data for
+ ;;;;;;;; a cow slot in A. Each cow slots is size 16 bits
+ ;;;;;;;; Params: A = Inxed, Return: $72 = long pointer
+-GetsCowPointer: ;83C9A7
++GetCowPointer: ;83C9A7
+         %Set16bit(!MX)
+         ASL A
+         ASL A
+@@ -8622,7 +8622,7 @@
+         PHY
+         PHX
+         TXA
+-        JSL.L GetsCowPointer
++        JSL.L GetCowPointer
+         %Set8bit(!M)
+         %Set16bit(!X)
+         PLX
+@@ -8643,16 +8643,16 @@
+         RTL
+ 
+ 
+-Table_ChicketSpawnPos: dw $0018,$0048,$0038,$0058,$0048,$0098,$0058,$0078;83CA10;      ;
++Chicken_CoopSpawnPositionTable: dw $0018,$0048,$0038,$0058,$0048,$0098,$0058,$0078;83CA10;      ;
+                        dw $0068,$00A8,$0078,$0088,$0088,$0058,$0098,$0098;83CA20;      ;
+                        dw $00A8,$0078,$00B8,$00A8,$00C8,$0068,$00D8,$0088;83CA30;      ;
+                        dw $0028,$00A8                       ;83CA40;      ;
+ 
+-   Table_CowsSpawnPos: dw $00A8,$0116,$00A8,$00F6,$00A8,$00D6,$00A8,$0096;83CA44;      ;
++   Cow_BarnSpawnPositionTable: dw $00A8,$0116,$00A8,$00F6,$00A8,$00D6,$00A8,$0096;83CA44;      ;
+                        dw $00A8,$0076,$00A8,$0056,$0038,$0116,$0038,$00F6;83CA54;      ;
+                        dw $0038,$00D6,$0038,$0096,$0038,$0076,$0038,$0056;83CA64;      ;
+                        db $D8,$00,$58,$01                   ;83CA74;      ;
+-         DATA8_83CA78: db $01,$00,$02,$00,$04,$00,$08,$00,$10,$00,$20,$00,$40,$00,$80,$00;83CA78;      ;
++         Chicken_EggLaidBitmaskTable: db $01,$00,$02,$00,$04,$00,$08,$00,$10,$00,$20,$00,$40,$00,$80,$00;83CA78;      ;
+                        db $00,$01,$00,$02,$00,$04,$00,$08,$00,$10,$00,$20,$00,$40,$00,$80;83CA88;      ;
+                                                             ;      ;      ;
+   RunsFunctionbyIndex: %Set8bit(!M)                             ;83CA98;      ;Param $22
+@@ -11067,7 +11067,7 @@
+                        XBA                                  ;83E0F7;      ;
+                        LDA.W $0937                          ;83E0F8;000937;
+                        %Set16bit(!M)                             ;83E0FB;      ;
+-                       JSL.L GetsCowPointer                ;83E0FD;83C9A7;
++                       JSL.L GetCowPointer                ;83E0FD;83C9A7;
+                        %Set8bit(!M)                             ;83E101;      ;
+                        %Set16bit(!X)                             ;83E103;      ;
+                        LDA.B #$00                           ;83E105;      ;
+@@ -13144,7 +13144,7 @@
+       - %Set16bit(!MX)                       ;Cow Happiness Loop
+         PHX
+         TXA
+-        JSL.L GetsCowPointer
++        JSL.L GetCowPointer
+         %Set8bit(!M)
+         %Set16bit(!X)
+         LDY.W #$0000
+@@ -13228,7 +13228,7 @@
+         %Set16bit(!MX)                             ;83F51A;      ;
+         PHX                                  ;83F51C;      ;
+         TXA                                  ;83F51D;      ;
+-        JSL.L GetsCowPointer                ;83F51E;83C9A7;
++        JSL.L GetCowPointer                ;83F51E;83C9A7;
+         %Set8bit(!M)                             ;83F522;      ;
+         %Set16bit(!X)                             ;83F524;      ;
+         LDY.W #$0000                         ;83F526;      ;

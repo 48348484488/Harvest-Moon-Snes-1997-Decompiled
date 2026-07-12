@@ -1,0 +1,242 @@
+address,label,colors_count,delays,installer_refs,jump_target,self_loop,colors
+$80:DD5B,PaletteAnimScript_DD5B,8,$10,1,$DD5B,yes,$7F79 $3A11 $6A8E $5E0D $6AD2 $5E0D $6A8E $3A11
+$80:DD78,PaletteAnimScript_DD78,8,$10,1,$DD78,yes,$6AD2 $6A8E $5E0D $6AD2 $3A11 $6AD2 $5E0D $6A8E
+$80:DD95,PaletteAnimScript_DD95,8,$10,1,$DD95,yes,$6A8E $5E0D $6AD2 $3A11 $5E0D $3A11 $6AD2 $5E0D
+$80:DDB2,PaletteAnimScript_DDB2,8,$10,1,$DDB2,yes,$5E0D $6AD2 $4253 $5E0D $6A8E $5E0D $4253 $6AD2
+$80:DDCF,PaletteAnimScript_DDCF,8,$10,1,$DDCF,yes,$539D $2E12 $1DFB $1D94 $2EFE $1D94 $1DFB $2E12
+$80:DDEC,PaletteAnimScript_DDEC,8,$10,1,$DDEC,yes,$2EFE $1DFB $1D94 $2EFE $2E12 $2EFE $1D94 $1DFB
+$80:DE09,PaletteAnimScript_DE09,8,$10,1,$DE09,yes,$1DFB $1D94 $2EFE $2E12 $1D94 $2E12 $2EFE $1D94
+$80:DE26,PaletteAnimScript_DE26,8,$10,1,$DE26,yes,$1D94 $2EFE $2E74 $1DFB $1DFB $1DFB $2E74 $2EFE
+$80:DE43,PaletteAnimScript_DE43,8,$10,1,$DE43,yes,$5A52 $314C $356B $2908 $5A52 $2908 $356B $314C
+$80:DE60,PaletteAnimScript_DE60,8,$10,1,$DE60,yes,$45EF $49EF $2908 $5A52 $314C $5A52 $2908 $49EF
+$80:DE7D,PaletteAnimScript_DE7D,8,$10,1,$DE7D,yes,$356B $394A $5A52 $314C $2908 $314C $5A52 $394A
+$80:DE9A,PaletteAnimScript_DE9A,8,$10,1,$DE9A,yes,$2908 $5A52 $314C $356B $356B $356B $314C $5A52
+$80:DEB7,PaletteAnimScript_DEB7,8,$10,1,$DEB7,yes,$456B $1CE7 $28E7 $2908 $456B $2908 $28E7 $1CE7
+$80:DED4,PaletteAnimScript_DED4,8,$10,1,$DED4,yes,$3508 $3508 $28E7 $2908 $456B $2908 $28E7 $3508
+$80:DEF1,PaletteAnimScript_DEF1,8,$10,1,$DEF1,yes,$28E7 $28E7 $456B $1CE7 $290B $1CE7 $456B $28E7
+$80:DF0E,PaletteAnimScript_DF0E,8,$10,1,$DF0E,yes,$28C5 $456B $3508 $28E7 $1CE7 $28E7 $3508 $456B
+$80:DF2B,PaletteAnimScript_DF2B,8,$10,1,$DF2B,yes,$7F99 $320F $5A8E $524D $62D2 $524D $5A8E $320F
+$80:DF48,PaletteAnimScript_DF48,8,$10,1,$DF48,yes,$62D2 $5A8E $524D $62D2 $320F $62D2 $524D $5A8E
+$80:DF65,PaletteAnimScript_DF65,8,$10,1,$DF65,yes,$5A8E $524D $62D2 $320F $5A8E $320F $62D2 $524D
+$80:DF82,PaletteAnimScript_DF82,8,$10,1,$DF82,yes,$524D $62D2 $320F $5A8E $524D $5A8E $320F $62D2
+$80:DF9F,PaletteAnimScript_DF9F,8,$10,1,$DF9F,yes,$23FE $2298 $11DB $029B $031F $029B $11DB $2298
+$80:DFBC,PaletteAnimScript_DFBC,8,$10,1,$DFBC,yes,$031F $11DC $01B6 $031F $2276 $031F $01B6 $11DC
+$80:DFD9,PaletteAnimScript_DFD9,8,$10,1,$DFD9,yes,$11DB $01B6 $031F $2276 $125F $2276 $031F $01B6
+$80:DFF6,PaletteAnimScript_DFF6,8,$10,1,$DFF6,yes,$01B6 $031F $2276 $11DB $01B6 $11DB $2276 $031F
+$80:E013,PaletteAnimScript_E013,8,$10,1,$E013,yes,$51CD $216B $496B $4587 $51CD $4587 $496B $216B
+$80:E030,PaletteAnimScript_E030,8,$10,1,$E030,yes,$496B $496B $4587 $51CD $216B $51CD $4587 $496B
+$80:E04D,PaletteAnimScript_E04D,8,$10,1,$E04D,yes,$11DB $01B6 $031F $2276 $125F $2276 $031F $01B6
+$80:E06A,PaletteAnimScript_E06A,8,$10,1,$E06A,yes,$3507 $51CD $216B $696B $4587 $496B $216B $51CD
+$80:E087,PaletteAnimScript_E087,8,$10,1,$E087,yes,$6140 $20C6 $4104 $30C0 $4564 $30C0 $4104 $20C6
+$80:E0A4,PaletteAnimScript_E0A4,8,$10,1,$E0A4,yes,$4564 $4104 $30C0 $4564 $20C6 $4564 $30C0 $4104
+$80:E0C1,PaletteAnimScript_E0C1,8,$10,1,$E0C1,yes,$4104 $30C0 $4564 $20C6 $4104 $20C6 $4564 $30C0
+$80:E0DE,PaletteAnimScript_E0DE,8,$10,1,$E0DE,yes,$30C0 $4564 $20C6 $4104 $30C0 $4104 $20C6 $4564
+$80:E0FB,PaletteAnimScript_E0FB,4,$08,1,$E0FB,yes,$0150 $0153 $0150 $0153
+$80:E10C,PaletteAnimScript_E10C,4,$08,1,$E10C,yes,$09D7 $09D9 $09D7 $09D9
+$80:E11D,PaletteAnimScript_E11D,4,$08,1,$E11D,yes,$029F $039F $029F $039F
+$80:E12E,PaletteAnimScript_E12E,4,$08,1,$E12E,yes,$019C $029F $019C $029F
+$80:E13F,PaletteAnimScript_E13F,4,$08,1,$E13F,yes,$0138 $019C $0138 $019C
+$80:E150,PaletteAnimScript_E150,4,$08,1,$E150,yes,$00EA $011C $00EA $00EA
+$80:E161,PaletteAnimScript_E161,4,$08,1,$E161,yes,$012D $012D $012D $013B
+$80:E172,PaletteAnimScript_E172,2,$08,1,$E172,yes,$0048 $000C
+$80:E17D,PaletteAnimScript_E17D,2,$08,1,$E17D,yes,$0017 $001A
+$80:E188,PaletteAnimScript_E188,2,$08,1,$E188,yes,$001F $017F
+$80:E193,PaletteAnimScript_E193,2,$08,1,$E193,yes,$01B4 $0219
+$80:E19E,PaletteAnimScript_E19E,2,$08,1,$E19E,yes,$004C $0052
+$80:E1A9,PaletteAnimScript_E1A9,2,$08,1,$E1A9,yes,$02BF $017F
+$80:E1B4,PaletteAnimScript_E1B4,2,$08,1,$E1B4,yes,$009F $035F
+$80:E1BF,PaletteAnimScript_E1BF,2,$08,1,$E1BF,yes,$029F $039F
+$80:E1CA,PaletteAnimScript_E1CA,4,$08,1,$E1CA,yes,$218D $2E10 $2E10 $2E10
+$80:E1DB,PaletteAnimScript_E1DB,4,$08,1,$E1DB,yes,$5F9C $5F7B $4AF9 $5F7B
+$80:E1EC,PaletteAnimScript_E1EC,4,$08,1,$E1EC,yes,$4AF9 $4AF9 $261F $4AF9
+$80:E1FD,PaletteAnimScript_E1FD,4,$08,1,$E1FD,yes,$261F $261F $053E $261F
+$80:E20E,PaletteAnimScript_E20E,4,$08,1,$E20E,yes,$053E $261F $4AF9 $261F
+$80:E21F,PaletteAnimScript_E21F,4,$08,1,$E21F,yes,$261F $4AF9 $4AF9 $4AF9
+$80:E230,PaletteAnimScript_E230,4,$08,1,$E230,yes,$03BF $261F $03BF $261F
+$80:E241,PaletteAnimScript_E241,4,$08,1,$E241,yes,$03BF $261F $053E $261F
+$80:E252,PaletteAnimScript_E252,2,$08,1,$E252,yes,$123F $06BF
+$80:E25D,PaletteAnimScript_E25D,2,$08,1,$E25D,yes,$0048 $004D
+$80:E268,PaletteAnimScript_E268,2,$08,1,$E268,yes,$021F $013A
+$80:E273,PaletteAnimScript_E273,2,$08,1,$E273,yes,$00FA $033F
+$80:E27E,PaletteAnimScript_E27E,2,$08,1,$E27E,yes,$0048 $004F
+$80:E289,PaletteAnimScript_E289,2,$08,1,$E289,yes,$1E9A $1F1F
+$80:E294,PaletteAnimScript_E294,2,$08,1,$E294,yes,$021F $0037
+$80:E29F,PaletteAnimScript_E29F,2,$08,1,$E29F,yes,$0019 $0025
+$80:E2AA,PaletteAnimScript_E2AA,2,$08,1,$E2AA,yes,$2E7F $233F
+$80:E2B5,PaletteAnimScript_E2B5,2,$08,1,$E2B5,yes,$0088 $008C
+$80:E2C0,PaletteAnimScript_E2C0,2,$08,1,$E2C0,yes,$009D $029F
+$80:E2CB,PaletteAnimScript_E2CB,2,$08,1,$E2CB,yes,$021F $011F
+$80:E2D6,PaletteAnimScript_E2D6,2,$08,1,$E2D6,yes,$0090 $009C
+$80:E2E1,PaletteAnimScript_E2E1,2,$08,1,$E2E1,yes,$01DE $02BF
+$80:E2EC,PaletteAnimScript_E2EC,2,$08,1,$E2EC,yes,$004F $00D0
+$80:E2F7,PaletteAnimScript_E2F7,3,$10,1,$E2F7,yes,$5E0F $4A54 $7F17
+$80:E305,PaletteAnimScript_E305,3,$10,1,$E305,yes,$4A54 $7F17 $5E0F
+$80:E313,PaletteAnimScript_E313,3,$10,1,$E313,yes,$7F17 $5E0F $4A54
+$80:E321,PaletteAnimScript_E321,3,$10,1,$E321,yes,$4213 $4257 $56FC
+$80:E32F,PaletteAnimScript_E32F,3,$10,1,$E32F,yes,$4257 $56FC $4213
+$80:E33D,PaletteAnimScript_E33D,3,$10,1,$E33D,yes,$56FC $4213 $4257
+$80:E34B,PaletteAnimScript_E34B,3,$10,1,$E34B,yes,$3D4A $3D4A $458C
+$80:E359,PaletteAnimScript_E359,3,$10,1,$E359,yes,$3D4A $458C $3D4A
+$80:E367,PaletteAnimScript_E367,3,$10,1,$E367,yes,$458C $3D4A $3D4A
+$80:E375,PaletteAnimScript_E375,3,$10,1,$E375,yes,$3129 $2908 $316B
+$80:E383,PaletteAnimScript_E383,3,$10,1,$E383,yes,$2908 $316B $3129
+$80:E391,PaletteAnimScript_E391,3,$10,1,$E391,yes,$316B $3129 $2908
+$80:E39F,PaletteAnimScript_E39F,3,$10,1,$E39F,yes,$6250 $7271 $7F79
+$80:E3AD,PaletteAnimScript_E3AD,3,$10,1,$E3AD,yes,$7271 $7F79 $6250
+$80:E3BB,PaletteAnimScript_E3BB,3,$10,1,$E3BB,yes,$7F79 $6250 $7271
+$80:E3C9,PaletteAnimScript_E3C9,3,$10,1,$E3C9,yes,$5E78 $5654 $7F19
+$80:E3D7,PaletteAnimScript_E3D7,3,$10,1,$E3D7,yes,$5654 $7F19 $5E78
+$80:E3E5,PaletteAnimScript_E3E5,3,$10,1,$E3E5,yes,$7F19 $5E78 $5654
+$80:E3F3,PaletteAnimScript_E3F3,3,$10,1,$E3F3,yes,$3D4A $3D4A $458C
+$80:E401,PaletteAnimScript_E401,3,$10,1,$E401,yes,$3D4A $458C $3D4A
+$80:E40F,PaletteAnimScript_E40F,3,$10,1,$E40F,yes,$458C $3D4A $3D4A
+$80:E41D,PaletteAnimScript_E41D,3,$10,1,$E41D,yes,$30E7 $30E7 $3529
+$80:E42B,PaletteAnimScript_E42B,3,$10,1,$E42B,yes,$30E7 $3529 $30E7
+$80:E439,PaletteAnimScript_E439,3,$10,1,$E439,yes,$3529 $30E7 $30E7
+$80:E447,PaletteAnimScript_E447,3,$10,1,$E447,yes,$4A91 $62CE $6374
+$80:E455,PaletteAnimScript_E455,3,$10,1,$E455,yes,$62CE $6374 $4A91
+$80:E463,PaletteAnimScript_E463,3,$10,1,$E463,yes,$6374 $4A91 $62CE
+$80:E471,PaletteAnimScript_E471,3,$10,1,$E471,yes,$3694 $3254 $3AFC
+$80:E47F,PaletteAnimScript_E47F,3,$10,1,$E47F,yes,$3254 $3AFC $3694
+$80:E48D,PaletteAnimScript_E48D,3,$10,1,$E48D,yes,$3AEC $3694 $3254
+$80:E49B,PaletteAnimScript_E49B,3,$10,1,$E49B,yes,$2DCB $2DCB $360E
+$80:E4A9,PaletteAnimScript_E4A9,3,$10,1,$E4A9,yes,$2DCB $360E $2DCB
+$80:E4B7,PaletteAnimScript_E4B7,3,$10,1,$E4B7,yes,$360E $2DCB $2DCB
+$80:E4C5,PaletteAnimScript_E4C5,3,$10,1,$E4C5,yes,$30E7 $3127 $356A
+$80:E4D3,PaletteAnimScript_E4D3,3,$10,1,$E4D3,yes,$3127 $356A $30E7
+$80:E4E1,PaletteAnimScript_E4E1,3,$10,1,$E4E1,yes,$356A $30E7 $3127
+$80:E4EF,PaletteAnimScript_E4EF,4,$0A $10,1,$E4EF,yes,$2162 $2190 $25D2 $2190
+$80:E500,PaletteAnimScript_E500,4,$0A $10,1,$E500,yes,$0E58 $129A $16DC $129A
+$80:E511,PaletteAnimScript_E511,4,$0A $10,1,$E511,yes,$377D $479F $53DF $479F
+$80:E522,PaletteAnimScript_E522,4,$0A $10,1,$E522,yes,$092C $116F $11B1 $116F
+$80:E533,PaletteAnimScript_E533,4,$0A $10,1,$E533,yes,$0D8E $0DB1 $0DB4 $0DB1
+$80:E544,PaletteAnimScript_E544,4,$0A $10,1,$E544,yes,$36D7 $3719 $377F $3719
+$80:E555,PaletteAnimScript_E555,4,$0A $10,1,$E555,yes,$27DE $3FFF $53FF $3FFF
+$80:E566,PaletteAnimScript_E566,4,$0A $10,1,$E566,yes,$196E $1970 $1992 $1970
+$80:E577,PaletteAnimScript_E577,4,$0A $10,1,$E577,yes,$150A $1D4F $1D90 $1D4F
+$80:E588,PaletteAnimScript_E588,4,$0A $10,1,$E588,yes,$0A18 $0A1C $0A9F $0A1C
+$80:E599,PaletteAnimScript_E599,4,$0A $10,1,$E599,yes,$2F7C $2FBE $4BDF $2FBE
+$80:E5AA,PaletteAnimScript_E5AA,4,$0A $10,1,$E5AA,yes,$090C $116E $1190 $116E
+$80:E5BB,PaletteAnimScript_E5BB,4,$0A $10,1,$E5BB,yes,$1CE8 $210A $216F $210A
+$80:E5CC,PaletteAnimScript_E5CC,4,$0A $10,1,$E5CC,yes,$29F3 $2A19 $327B $2A19
+$80:E5DD,PaletteAnimScript_E5DD,4,$0A $10,1,$E5DD,yes,$3EB8 $3F3D $437F $3F3D
+$80:E5EE,PaletteAnimScript_E5EE,4,$0A $10,1,$E5EE,yes,$1D6C $218E $25AF $218E
+$80:E5FF,PaletteAnimScript_E5FF,6,$0C $0F $10,1,$E5FF,yes,$7F3B $6EB5 $5E2E $51F0 $5233 $6EB7
+$80:E616,PaletteAnimScript_E616,6,$0C $0F $10,1,$E616,yes,$6EB7 $5E2E $51F0 $7F39 $51F0 $5233
+$80:E62D,PaletteAnimScript_E62D,6,$0C $0F $10,1,$E62D,yes,$5E2E $51F0 $7F3B $6EB7 $7F39 $4DD1
+$80:E644,PaletteAnimScript_E644,6,$0C $0F $10,1,$E644,yes,$51F0 $7F39 $6EB7 $5E2E $6EB7 $7F39
+$80:E65B,PaletteAnimScript_E65B,6,$0C $0F $10,1,$E65B,yes,$41F0 $3DF1 $4211 $41F1 $4211 $3DF1
+$80:E672,PaletteAnimScript_E672,6,$0C $0F $10,1,$E672,yes,$537B $42BB $3234 $3233 $3234 $42BB
+$80:E689,PaletteAnimScript_E689,6,$0C $0F $10,1,$E689,yes,$42B8 $3234 $3233 $42DB $3233 $3234
+$80:E6A0,PaletteAnimScript_E6A0,6,$0C $0F $10,1,$E6A0,yes,$3234 $3233 $42DB $32B8 $42DB $3233
+$80:E6B7,PaletteAnimScript_E6B7,6,$0C $0F $10,1,$E6B7,yes,$3233 $42DB $32B8 $3234 $32B8 $42DB
+$80:E6CE,PaletteAnimScript_E6CE,6,$0C $0F $10,1,$E6CE,yes,$21B1 $25D1 $29D1 $3234 $29D1 $25D1
+$80:E6E5,PaletteAnimScript_E6E5,6,$0C $0F $10,1,$E6E5,yes,$3213 $1D8C $29CF $2E11 $29CF $1D8C
+$80:E6FC,PaletteAnimScript_E6FC,6,$0C $0F $10,1,$E6FC,yes,$2DF1 $3233 $1D8C $29CF $1D8C $3233
+$80:E713,PaletteAnimScript_E713,6,$0C $0F $10,1,$E713,yes,$21AF $2E11 $3233 $1D8C $3233 $2E11
+$80:E72A,PaletteAnimScript_E72A,6,$0C $0F $10,1,$E72A,yes,$1D6C $29CF $2E11 $3233 $2E11 $29CF
+$80:E741,PaletteAnimScript_E741,6,$0C $0F $10,1,$E741,yes,$1D4C $1D4C $214C $214C $214C $1D4C
+$80:E758,PaletteAnimScript_E758,6,$0C $0F $10,1,$E758,yes,$218B $192A $1D4B $1D4B $1D4B $192A
+$80:E76F,PaletteAnimScript_E76F,6,$0C $0F $10,1,$E76F,yes,$1D4B $216B $192A $1D4B $192A $216B
+$80:E786,PaletteAnimScript_E786,6,$0C $0F $10,1,$E786,yes,$1D2A $1D48 $214B $192A $214B $1D48
+$80:E79D,PaletteAnimScript_E79D,6,$0C $0F $10,1,$E79D,yes,$1928 $1D4B $1D4B $1D6B $1D4B $1D4B
+$80:E7B4,PaletteAnimScript_E7B4,6,$0C $0F $10,1,$E7B4,yes,$7F52 $5D66 $7D86 $7E4B $7D86 $5D66
+$80:E7CB,PaletteAnimScript_E7CB,6,$0C $0F $10,1,$E7CB,yes,$7E4B $4F32 $5D66 $7D86 $5D66 $7F32
+$80:E7E2,PaletteAnimScript_E7E2,6,$0C $0F $10,1,$E7E2,yes,$7D86 $7E4B $7F32 $5D66 $7F32 $7E4B
+$80:E7F9,PaletteAnimScript_E7F9,6,$0C $0F $10,1,$E7F9,yes,$5D66 $7D86 $7E4B $7F32 $7E4B $7D86
+$80:E810,PaletteAnimScript_E810,6,$0C $0F $10,1,$E810,yes,$5D66 $6186 $6586 $69A6 $6586 $6186
+$80:E827,PaletteAnimScript_E827,6,$0C $0F $10,1,$E827,yes,$3F9E $169E $1218 $1174 $1218 $169E
+$80:E83E,PaletteAnimScript_E83E,6,$0C $0F $10,1,$E83E,yes,$169E $1218 $1174 $2AFA $1174 $1218
+$80:E855,PaletteAnimScript_E855,6,$0C $0F $10,1,$E855,yes,$1218 $1174 $3F9E $169E $3F9E $1174
+$80:E86C,PaletteAnimScript_E86C,6,$0C $0F $10,1,$E86C,yes,$1174 $267B $169E $1218 $169E $267B
+$80:E883,PaletteAnimScript_E883,6,$0C $0F $10,1,$E883,yes,$1DB1 $1DB2 $1DB3 $1DB3 $1DB3 $1DB2
+$80:E89A,PaletteAnimScript_E89A,6,$0C $0F $10,1,$E89A,yes,$0DB3 $09B3 $0991 $0172 $0991 $09B3
+$80:E8B1,PaletteAnimScript_E8B1,6,$0C $0F $10,1,$E8B1,yes,$09B3 $0991 $0172 $0DB3 $0172 $0991
+$80:E8C8,PaletteAnimScript_E8C8,6,$0C $0F $10,1,$E8C8,yes,$0991 $0172 $0DB3 $09B3 $0DB3 $0172
+$80:E8DF,PaletteAnimScript_E8DF,6,$0C $0F $10,1,$E8DF,yes,$0172 $0DB3 $09B3 $0991 $09B3 $0DB3
+$80:E8F6,PaletteAnimScript_E8F6,6,$0C $0F $10,1,$E8F6,yes,$194E $110C $110B $110B $110B $110C
+$80:E90D,PaletteAnimScript_E90D,6,$0C $0F $10,1,$E90D,yes,$110C $110B $110B $194E $110B $110B
+$80:E924,PaletteAnimScript_E924,6,$0C $0F $10,1,$E924,yes,$110B $110B $194E $110C $194E $110B
+$80:E93B,PaletteAnimScript_E93B,6,$0C $0F $10,1,$E93B,yes,$110B $194E $110C $110B $110C $194E
+$80:E952,PaletteAnimScript_E952,6,$0C $0F $10,1,$E952,yes,$21AC $1D8B $0D2B $0D2B $0D2B $1D8B
+$80:E969,PaletteAnimScript_E969,6,$0C $0F $10,1,$E969,yes,$0D2B $0D2B $1D8B $21AC $1D8B $0D2B
+$80:E980,PaletteAnimScript_E980,6,$0C $0F $10,1,$E980,yes,$32FE $21EE $29D1 $2214 $29D1 $21EE
+$80:E997,PaletteAnimScript_E997,6,$0C $0F $10,1,$E997,yes,$29F5 $2E76 $21EE $29D1 $21EE $2E76
+$80:E9AE,PaletteAnimScript_E9AE,6,$0C $0F $10,1,$E9AE,yes,$15F4 $3214 $2E33 $21EE $2E33 $3214
+$80:E9C5,PaletteAnimScript_E9C5,6,$0C $0F $10,1,$E9C5,yes,$1DD3 $29D1 $2E34 $1DD1 $2E34 $29D1
+$80:E9DC,PaletteAnimScript_E9DC,6,$0C $0F $10,1,$E9DC,yes,$25EF $25CE $25AE $25AD $25AE $25CE
+$80:E9F3,PaletteAnimScript_E9F3,6,$0C $0F $10,1,$E9F3,yes,$214E $1D4F $1DB4 $1DB4 $1DB4 $1D4F
+$80:EA0A,PaletteAnimScript_EA0A,6,$0C $0F $10,1,$EA0A,yes,$1DB4 $1D72 $1D72 $1D4F $1D72 $1D72
+$80:EA21,PaletteAnimScript_EA21,6,$0C $0F $10,1,$EA21,yes,$377F $21B0 $161C $1A59 $161C $21B0
+$80:EA38,PaletteAnimScript_EA38,6,$0C $0F $10,1,$EA38,yes,$1A59 $1A9B $21B0 $161C $21B0 $1A9B
+$80:EA4F,PaletteAnimScript_EA4F,6,$0C $0F $10,1,$EA4F,yes,$161C $1A59 $1B1F $21B0 $1B1F $1A59
+$80:EA66,PaletteAnimScript_EA66,6,$0C $0F $10,1,$EA66,yes,$0994 $161C $1A59 $1A9B $1A59 $161C
+$80:EA7D,PaletteAnimScript_EA7D,6,$0C $0F $10,1,$EA7D,yes,$2190 $21B0 $2191 $21B1 $2191 $21B0
+$80:EA94,PaletteAnimScript_EA94,6,$0C $0F $10,1,$EA94,yes,$1D4C $218E $21B0 $21B2 $21B0 $218E
+$80:EAAB,PaletteAnimScript_EAAB,6,$0C $0F $10,1,$EAAB,yes,$21B2 $1D4C $218E $21B0 $218E $1D4C
+$80:EAC2,PaletteAnimScript_EAC2,6,$0C $0F $10,1,$EAC2,yes,$21B0 $21B2 $1D4C $218E $1D4C $21B2
+$80:EAD9,PaletteAnimScript_EAD9,6,$0C $0F $10,1,$EAD9,yes,$218E $21B0 $21B2 $1D4C $21B2 $21B0
+$80:EAF0,PaletteAnimScript_EAF0,6,$0C $0F $10,1,$EAF0,yes,$1D6C $1509 $1D2C $1D4C $1D2C $1509
+$80:EB07,PaletteAnimScript_EB07,6,$0C $0F $10,1,$EB07,yes,$1D4C $1D6C $1509 $1D2C $1509 $1D6C
+$80:EB1E,PaletteAnimScript_EB1E,6,$0C $0F $10,1,$EB1E,yes,$1D2C $1D4C $1D6C $1509 $1D6C $1D4C
+$80:EB35,PaletteAnimScript_EB35,6,$0C $0F $10,1,$EB35,yes,$1509 $1D2C $1D4C $1D6C $1D4C $1D2C
+$80:EB4C,PaletteAnimScript_EB4C,4,$10,1,$EB4C,yes,$77DB $7398 $7398 $7398
+$80:EB5D,PaletteAnimScript_EB5D,4,$10,1,$EB5D,yes,$7398 $7398 $77DB $7398
+$80:EB6E,PaletteAnimScript_EB6E,4,$10,1,$EB6E,yes,$5F7D $4B3B $4B3B $4B3B
+$80:EB7F,PaletteAnimScript_EB7F,4,$10,1,$EB7F,yes,$4B3B $4B3B $5F7D $4B3B
+$80:EB90,PaletteAnimScript_EB90,4,$10,1,$EB90,yes,$3295 $2E52 $2E52 $2E52
+$80:EBA1,PaletteAnimScript_EBA1,4,$10,1,$EBA1,yes,$2E52 $2E52 $3295 $2E52
+$80:EBB2,PaletteAnimScript_EBB2,4,$10,1,$EBB2,yes,$314A $2D29 $2D29 $2D29
+$80:EBC3,PaletteAnimScript_EBC3,4,$10,1,$EBC3,yes,$2D29 $2D29 $314A $2D29
+$80:EBD4,PaletteAnimScript_EBD4,4,$10,1,$EBD4,yes,$7799 $6334 $6334 $6334
+$80:EBE5,PaletteAnimScript_EBE5,4,$10,1,$EBE5,yes,$6334 $6334 $77DB $6334
+$80:EBF6,PaletteAnimScript_EBF6,4,$10,1,$EBF6,yes,$677E $471C $471C $471C
+$80:EC07,PaletteAnimScript_EC07,4,$10,1,$EC07,yes,$471C $471C $677E $471C
+$80:EC18,PaletteAnimScript_EC18,4,$10,1,$EC18,yes,$5694 $4E31 $4E31 $4E31
+$80:EC29,PaletteAnimScript_EC29,4,$10,1,$EC29,yes,$4E31 $4E31 $5694 $4E31
+$80:EC3A,PaletteAnimScript_EC3A,4,$10,1,$EC3A,yes,$498C $414A $414A $414A
+$80:EC4B,PaletteAnimScript_EC4B,4,$10,1,$EC4B,yes,$414A $414A $498C $414A
+$80:EC5C,PaletteAnimScript_EC5C,4,$10,1,$EC5C,yes,$7376 $6334 $6334 $6334
+$80:EC6D,PaletteAnimScript_EC6D,4,$10,1,$EC6D,yes,$6334 $6334 $7376 $6334
+$80:EC7E,PaletteAnimScript_EC7E,4,$10,1,$EC7E,yes,$537F $42FB $42FB $42FB
+$80:EC8F,PaletteAnimScript_EC8F,4,$10,1,$EC8F,yes,$42FB $42FB $537F $42FB
+$80:ECA0,PaletteAnimScript_ECA0,4,$10,1,$ECA0,yes,$4671 $3E31 $3E31 $3E31
+$80:ECB1,PaletteAnimScript_ECB1,4,$10,1,$ECB1,yes,$3E31 $3E31 $4671 $3E31
+$80:ECC2,PaletteAnimScript_ECC2,4,$10,1,$ECC2,yes,$316A $2D49 $2D49 $2D49
+$80:ECD3,PaletteAnimScript_ECD3,4,$10,1,$ECC2,no,$2D49 $2D49 $316A $2D49
+$80:ECE4,PaletteAnimScript_ECE4,4,$10,1,$ECE4,yes,$779B $7377 $7377 $7377
+$80:ECF5,PaletteAnimScript_ECF5,4,$10,1,$ECF5,yes,$7377 $7377 $779B $7377
+$80:ED06,PaletteAnimScript_ED06,4,$10,1,$ED06,yes,$6F59 $6B37 $6B37 $6B37
+$80:ED17,PaletteAnimScript_ED17,4,$10,1,$ED17,yes,$6B37 $6B37 $6F59 $6B37
+$80:ED28,PaletteAnimScript_ED28,4,$10,1,$ED28,yes,$5AB5 $5273 $5273 $5273
+$80:ED39,PaletteAnimScript_ED39,4,$10,1,$ED39,yes,$5273 $5273 $5AB5 $5273
+$80:ED4A,PaletteAnimScript_ED4A,4,$10,1,$ED4A,yes,$4DEE $45CE $45CE $45CE
+$80:ED5B,PaletteAnimScript_ED5B,4,$10,1,$ED5B,yes,$45CE $45CE $4DEE $45CE
+$80:ED6C,PaletteAnimScript_ED6C,6,$0C,1,$ED6C,yes,$5185 $61E8 $6E4C $7F0C $6E4C $61E8
+$80:ED83,PaletteAnimScript_ED83,6,$0C,1,$ED83,yes,$69E7 $7988 $69E7 $6167 $69E7 $7988
+$80:ED9A,PaletteAnimScript_ED9A,4,$0F,1,$ED9A,yes,$7E2C $7F97 $7F53 $7EE7
+$80:EDAB,PaletteAnimScript_EDAB,4,$0F,1,$EDAB,yes,$7EEF $7E2C $7F97 $7F53
+$80:EDBC,PaletteAnimScript_EDBC,4,$0F,1,$EDBC,yes,$7F53 $7EEF $7E2C $7F97
+$80:EDCD,PaletteAnimScript_EDCD,4,$0F,1,$EDCD,yes,$7F97 $7F53 $7EE7 $7E2C
+$80:EDDE,PaletteAnimScript_EDDE,3,$0F,1,$EDDE,yes,$0070 $0E5F $03FF
+$80:EDEC,PaletteAnimScript_EDEC,3,$0F,1,$EDEC,yes,$0E5F $0070 $03FF
+$80:EDFA,PaletteAnimScript_EDFA,3,$0F,1,$EDFA,yes,$03FF $0E5F $0070
+$80:EE08,PaletteAnimScript_EE08,3,$08,1,$EE08,yes,$000C $000A $0009
+$80:EE16,PaletteAnimScript_EE16,3,$08,1,$EE16,yes,$000A $00D8 $027E
+$80:EE24,PaletteAnimScript_EE24,3,$08,1,$EE24,yes,$017F $029F $00D2
+$80:EE32,PaletteAnimScript_EE32,3,$08,1,$EE32,yes,$031F $035F $03FF
+$80:EE40,PaletteAnimScript_EE40,3,$10,1,$EE40,yes,$2279 $229B $22DC
+$80:EE4E,PaletteAnimScript_EE4E,3,$10,1,$EE4E,yes,$0854 $08DE $08DC
+$80:EE5C,PaletteAnimScript_EE5C,3,$10,1,$EE5C,yes,$089D $08DE $091F
+$80:EE6A,PaletteAnimScript_EE6A,3,$10,1,$EE6A,yes,$08DF $08DF $0A1F
+$80:EE78,PaletteAnimScript_EE78,3,$10,1,$EE78,yes,$08DF $0A3F $0A9F
+$80:EE86,PaletteAnimScript_EE86,3,$10,1,$EE86,yes,$029F $029F $031F
+$80:EE94,PaletteAnimScript_EE94,3,$10,1,$EE94,yes,$035F $03DF $03FF
+$80:EEA2,PaletteAnimScript_EEA2,4,$0C,1,$EEA2,yes,$0A3C $00DB $00DF $00DF
+$80:EEB3,PaletteAnimScript_EEB3,4,$0C,1,$EEB3,yes,$09B3 $11FF $0A5F $125F
+$80:EEC4,PaletteAnimScript_EEC4,4,$0C,1,$EEC4,yes,$0992 $0A15 $023A $133F
+$80:EED5,PaletteAnimScript_EED5,6,$10,1,$EED5,yes,$2A98 $433D $2A98 $4F7F $4F5F $433D
+$80:EEEC,PaletteAnimScript_EEEC,7,$10,1,$EEEC,yes,$42FA $2A98 $42FA $2ADB $371C $2A98 $2ADB
+$80:EF06,PaletteAnimScript_EF06,2,$08,1,$EF06,yes,$0049 $004C
+$80:EF11,PaletteAnimScript_EF11,2,$08,1,$EF11,yes,$0037 $013D
+$80:EF1C,PaletteAnimScript_EF1C,2,$08,1,$EF1C,yes,$025F $02DF

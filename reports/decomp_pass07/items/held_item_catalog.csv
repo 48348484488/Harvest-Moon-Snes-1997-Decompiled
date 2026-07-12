@@ -1,0 +1,92 @@
+item_id_hex,item_id_dec,working_name,action_ptr_snes,action_ptr_word,anim_ptr_snes,shipping_tile_or_action_value_hex,shipping_value_raw,shop_text_id_hex,shop_text_label,shop_text_preview,direct_sell_value_raw,tile_interaction_type_hex,use_sound_flag
+00,0,None / empty hand,,FFFF,FFFFFF,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,00,0
+01,1,Mushroom / generic carried item 01,8180FE,80FE,819876,00,15,358,Text_358_Mountain_MushroomAboutGMoneyH,Mushroom. How about <CTRL_B4><CTRL_B2><CTRL_B2>G for it? Yes No Money <CTRL_FFFC>h.<CTRL_B2>G<CHOICE_OR_WAIT>c,20,01,1
+02,2,Poisonous mushroom / generic carried item 02,818102,8102,81989A,00,20,359,Text_359_Animal_PoisonousMushroomMedicineCompoundedAbout,It's a poisonous mushroom. It can be a medicine when it's compounded well. How about <CTRL_B5><CTRL_B2><CTRL_B2>G for it? Yes No Money <CTRL_FFFC>h?<CTRL_B2>G<CHOICE_OR_WAIT>c,30,01,1
+03,3,Wild grape / generic carried item 03,818106,8106,8198BE,00,15,35B,Text_35B_Mountain_AhBerryWildGrapeSmells,Ah: it's a berry of wild grape. Smells good. How about <CTRL_B4><CTRL_B2><CTRL_B2>G for it? Yes No Money <CTRL_FFFC>h!<CTRL_B2>G<CHOICE_OR_WAIT>c,20,01,1
+04,4,Tropical fruit / generic carried item 04,81810A,810A,8198E2,00,20,35C,Text_35C_Dialog_BoyTropicalFruitAboutG,Oh boy: it's a tropical fruit:isn't it? How about <CTRL_B5><CTRL_B2><CTRL_B2>G for it? Yes No Money <CTRL_FFFC>h:<CTRL_B2>G<CHOICE_OR_WAIT>c,30,01,1
+05,5,Fullmoon Plant berry / rare mountain item,81810E,810E,819906,00,60,35D,Text_35D_Shop_AhRareThingAberryFullmoon,"Ah:what a rare thing, It's aberry of Fullmoon Plant. I'm buying it for <$00B8><CTRL_B2><CTRL_B2>G but how about it? Yes No Money <CTRL_FFFC>h<$003B><CTRL_B2>G<CHOICE_OR_WAIT>c",60,03,1
+06,6,Unknown carried item 06; shop text 0313 special case,818112,8112,81992A,00,0,313,Text_313_Dialog_SorryButAccept,Sorry but we can't accept that.,0,00,0
+07,7,Fish,818116,8116,81994E,00,30,35E,Text_35E_Shop_VeryFreshFishBuyingG,It's a very fresh fish. I'm buying it for <CTRL_B5><CTRL_B2><CTRL_B2>G but how about it? Yes No Money <CTRL_FFFC>h<$003C><CTRL_B2>G<CHOICE_OR_WAIT>c,30,00,0
+08,8,Unknown carried item 08,81811A,811A,819972,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,00,1
+09,9,Unknown carried item 09,81811E,811E,819996,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,02,1
+0A,10,Unknown carried item 0A,818122,8122,8199BA,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,02,1
+0B,11,Unknown carried item 0B,81811E,811E,819996,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,02,1
+0C,12,Unknown carried item 0C,81811E,811E,819996,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,01,1
+0D,13,Placed/field item candidate 0D,818126,8126,8199DE,10,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,02,1
+0E,14,Placed/field item candidate 0E,81812A,812A,819A02,10,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,02,1
+0F,15,Placed/field item candidate 0F,81812E,812E,819A26,14,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,02,1
+10,16,Corn,818132,8132,819A4A,00,12,353,Text_353_Shop_CornBuyingGButMoney,Corn? Well...I'm buying it for <CTRL_B4><$00B6><CTRL_B2>G but is it OK? Yes No Money <CTRL_FFFC>hX<CTRL_B2>G<CHOICE_OR_WAIT>c,24,4C,1
+11,17,Tomato,81814A,814A,819A6E,00,10,354,Text_354_Shop_RipenedTomatoBuyingGBut,Yes:it's a well ripened tomato. I'm buying it for <CTRL_B4><CTRL_B2><CTRL_B2>G but is it OK? Yes No Money <CTRL_FFFC>hY<CTRL_B2>G<CHOICE_OR_WAIT>c,20,32,1
+12,18,Potato,818162,8162,819A92,00,8,355,Text_355_Shop_PotatoBuyingGButMoney,Potato? Well:I'm buying it for <CTRL_B3><$00B8><CTRL_B2>G but is it OK? Yes No Money <CTRL_FFFC>hZ<CTRL_B2>G<CHOICE_OR_WAIT>caaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,16,07,1
+13,19,Turnip,81817A,817A,819AB6,00,6,356,Text_356_Shop_TurnipGoodShapeBuyingG,Turnip? Good shape:isn't it? I'm buying it for <CTRL_B3><CTRL_B4><CTRL_B2>G but is it OK? Yes No Money <CTRL_FFFC>h'<CTRL_B2>G<CHOICE_OR_WAIT>c,12,07,1
+14,20,Egg,818192,8192,819ADA,00,5,357,Text_357_Animal_FreshEggBuyingGBut,"Isn't it a fresh egg? I'm buying it for <CTRL_B3><CTRL_B2><CTRL_B2>G but is itOK? Yes No Money <CTRL_FFFC>h,<CTRL_B2>G<CHOICE_OR_WAIT>c",10,2E,0
+15,21,Milk S / milk item candidate,818196,8196,819AFE,00,15,350,Text_350_Animal_MilkBuyingGdoAgreeMoney,Milk? I'm buying it for <CTRL_B4><CTRL_B2><CTRL_B2>GDo you agree? Yes No Money <CTRL_FFFC>hU<CTRL_B2>G<CHOICE_OR_WAIT>c,20,00,0
+16,22,Milk M / milk item candidate,81819A,819A,819B22,00,25,351,Text_351_Animal_MilkBuyingGbutMoneyHv,Milk? I'm buying it for <CTRL_B5><CTRL_B2><CTRL_B2>Gbut is it OK? Yes No Money <CTRL_FFFC>hV<CTRL_B2>G<CHOICE_OR_WAIT>c,30,00,0
+17,23,Milk L / milk item candidate,81819E,819E,819B46,00,35,352,Text_352_Animal_MilkBuyingGbutMoneyHw,Milk? I'm buying it for <$00B6><CTRL_B2><CTRL_B2>Gbut is it OK? Yes No Money <CTRL_FFFC>hW<CTRL_B2>G<CHOICE_OR_WAIT>c,40,00,0
+18,24,Good herb / herb item,8181A2,81A2,819B6A,00,20,35A,Text_35A_Dialog_GoodHerbAboutGMoney,"Oh yes:it's a good herb. Well: how about <CTRL_B4><CTRL_B2><CTRL_B2>G for it? Yes No Money <CTRL_FFFC>h""<CTRL_B2>G<CHOICE_OR_WAIT>c",20,20,1
+19,25,Chicken feed when carried from shed,8181A6,81A6,819FA2,00,0,313,Text_313_Dialog_SorryButAccept,Sorry but we can't accept that.,0,01,1
+1A,26,Cow feed when carried from shed,8181AA,81AA,819B8E,99,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,00,1
+1B,27,,8181AE,81AE,819BB2,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,12,0
+1C,28,,8181C8,81C8,819BD6,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,12,0
+1D,29,,8181E2,81E2,819BFA,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,12,0
+1E,30,,8181FC,81FC,819C1E,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,00,0
+1F,31,,81823E,823E,819C42,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,00,0
+20,32,,818280,8280,819C66,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,00,0
+21,33,,8182C2,82C2,819C8A,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,00,0
+22,34,,8182FE,82FE,819CAE,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,00,0
+23,35,,8183B6,83B6,819CD2,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,00,0
+24,36,,8183B7,83B7,819CF6,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,00,0
+25,37,Special carried item; shop text 0313 special case,8183BB,83BB,819D1A,00,0,313,Text_313_Dialog_SorryButAccept,Sorry but we can't accept that.,0,00,0
+26,38,Special carried item; shop text 0313 special case,8183BF,83BF,819D3E,00,0,313,Text_313_Dialog_SorryButAccept,Sorry but we can't accept that.,0,00,0
+27,39,,8183C3,83C3,819D62,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,00,0
+28,40,,8183C4,83C4,819D86,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,00,0
+29,41,,8183C5,83C5,819DAA,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,00,0
+2A,42,,8183C9,83C9,819DCE,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,2A,0
+2B,43,,8183D1,83D1,819DE0,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,2B,0
+2C,44,,8183D9,83D9,819DF2,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,2B,0
+2D,45,,8183E1,83E1,819E04,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,2D,0
+2E,46,,8183E9,83E9,819E16,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,2A,0
+2F,47,,8183F1,83F1,819E28,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,2B,0
+30,48,,8183F9,83F9,819E3A,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,2B,0
+31,49,,818401,8401,819E4C,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,2D,0
+32,50,,818409,8409,819E5E,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,2A,0
+33,51,,818411,8411,819E70,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,2B,0
+34,52,,818419,8419,819E82,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,2B,0
+35,53,,818421,8421,819E94,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,2C,0
+36,54,,818429,8429,819EA6,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,2A,0
+37,55,,818431,8431,819EB8,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,2B,0
+38,56,,818439,8439,819ECA,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,2B,0
+39,57,,818441,8441,819EDC,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,2C,0
+3A,58,,818449,8449,819EEE,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,2A,0
+3B,59,,818451,8451,819F00,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,2B,0
+3C,60,,818459,8459,819F12,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,2B,0
+3D,61,,818461,8461,819F24,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,2D,0
+3E,62,,818469,8469,819F36,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,2C,0
+3F,63,,818471,8471,819F48,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,2B,0
+40,64,,818479,8479,819F5A,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,2A,0
+41,65,,818481,8481,819F6C,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,2B,0
+42,66,,818489,8489,819F7E,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,2E,0
+43,67,,818491,8491,819F90,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,2E,0
+44,68,,818499,8499,819E94,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,00,0
+45,69,,8184D5,84D5,819E16,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,00,0
+46,70,,818511,8511,819E28,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,00,0
+47,71,,81854D,854D,819E3A,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,00,0
+48,72,,818589,8589,819E4C,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,00,0
+49,73,,8185C5,85C5,819FA2,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,21,0
+4A,74,,8185DF,85DF,819EA6,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,21,0
+4B,75,,8185F6,85F6,819EB8,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,21,0
+4C,76,,81860D,860D,819ECA,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,21,0
+4D,77,,818624,8624,819EEE,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,20,0
+4E,78,,81865B,865B,819F00,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,20,0
+4F,79,,818692,8692,819F12,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,20,0
+50,80,,8186C9,86C9,819F24,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,20,0
+51,81,,818700,8700,819F36,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,20,0
+52,82,,818737,8737,819E5E,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,22,0
+53,83,,81874E,874E,819E70,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,22,0
+54,84,,818765,8765,819F7E,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,22,0
+55,85,,818781,8781,819F90,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,22,0
+56,86,,81879D,879D,81992A,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,22,0
+57,87,Animal/field generated carried item 57,81812E,812E,819A26,14,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,00,1
+58,88,Event/animal carried item 58,8187B7,87B7,819BB2,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,12,0
+59,89,Event/animal carried item 59,8187BB,87BB,819BD6,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,12,0
+5A,90,Event/animal carried item 5A,8187BF,87BF,819BFA,00,0,,Text_Forecast_Spring_Sunny,Hello: this is the weather forecast for tomorrow. It'll be sunny and calm for the whole day tomorrow.,0,12,0

@@ -1,0 +1,13 @@
+metric,entries,percent
+total_entries_with_pass89_final_name_candidate,1288,100.000
+status:structural_lane_final_candidate,952,73.913
+status:domain_inferred_final_candidate,268,20.807
+status:confirmed_text_or_direct_anchor_candidate,68,5.280
+confirmation_level:medium_low,952,73.913
+confirmation_level:medium,268,20.807
+confirmation_level:high,68,5.280
+pass88_tier:structural_owner_lane,952,73.913
+pass88_tier:domain_specific_owner_inferred,268,20.807
+pass88_tier:exact_text_anchored_owner,68,5.280
+candidate_layer_coverage,1288,100.000
+nonconfirmed_candidates_requiring_optional_or_manual_validation,1220,94.720

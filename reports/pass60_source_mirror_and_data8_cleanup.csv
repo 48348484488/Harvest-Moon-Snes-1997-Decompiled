@@ -1,0 +1,4 @@
+area,before,after,status
+source_decompilada/src vs project_buildable/src,divergent,identical,100% closed
+DATA8_819FC6 generic label,1,0,100% closed
+rebuild byte-perfect,100%,100%,preserved

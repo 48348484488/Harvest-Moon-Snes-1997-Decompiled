@@ -1,0 +1,3722 @@
+[
+  {
+    "map_id_dec": 0,
+    "map_id_hex": "00",
+    "label": "MapFarmSpring",
+    "table_comment": "",
+    "definition_address": "80AB3C",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "80E0",
+    "unknown_0181": "04",
+    "unknown_0182": "04",
+    "tilemap_count": 3,
+    "charactermap_count": 1,
+    "dl_asset_count": 4,
+    "dl_assets": "92D3AB;938000;939E8E;A18000",
+    "tilemap_pngs": "tilemaps/Tilemap0x92d3ab.png;tilemaps/Tilemap0x938000.png;tilemaps/Tilemap0x939e8e.png",
+    "assets": [
+      {
+        "address": "92D3AB",
+        "bank": "92",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x92d3ab.png"
+      },
+      {
+        "address": "938000",
+        "bank": "93",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x938000.png"
+      },
+      {
+        "address": "939E8E",
+        "bank": "93",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x939e8e.png"
+      },
+      {
+        "address": "A18000",
+        "bank": "A1",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 1,
+    "map_id_hex": "01",
+    "label": "MapFarmSummer",
+    "table_comment": "",
+    "definition_address": "80AB5F",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "80E0",
+    "unknown_0181": "04",
+    "unknown_0182": "04",
+    "tilemap_count": 3,
+    "charactermap_count": 1,
+    "dl_asset_count": 4,
+    "dl_assets": "92D3AB;938000;939E8E;A18000",
+    "tilemap_pngs": "tilemaps/Tilemap0x92d3ab.png;tilemaps/Tilemap0x938000.png;tilemaps/Tilemap0x939e8e.png",
+    "assets": [
+      {
+        "address": "92D3AB",
+        "bank": "92",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x92d3ab.png"
+      },
+      {
+        "address": "938000",
+        "bank": "93",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x938000.png"
+      },
+      {
+        "address": "939E8E",
+        "bank": "93",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x939e8e.png"
+      },
+      {
+        "address": "A18000",
+        "bank": "A1",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 2,
+    "map_id_hex": "02",
+    "label": "MapFarmFall",
+    "table_comment": "",
+    "definition_address": "80AB82",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "80E0",
+    "unknown_0181": "04",
+    "unknown_0182": "04",
+    "tilemap_count": 3,
+    "charactermap_count": 1,
+    "dl_asset_count": 4,
+    "dl_assets": "9282CB;929D10;92BB03;A18000",
+    "tilemap_pngs": "tilemaps/Tilemap0x9282cb.png;tilemaps/Tilemap0x929d10.png;tilemaps/Tilemap0x92bb03.png",
+    "assets": [
+      {
+        "address": "9282CB",
+        "bank": "92",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9282cb.png"
+      },
+      {
+        "address": "929D10",
+        "bank": "92",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x929d10.png"
+      },
+      {
+        "address": "92BB03",
+        "bank": "92",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x92bb03.png"
+      },
+      {
+        "address": "A18000",
+        "bank": "A1",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 3,
+    "map_id_hex": "03",
+    "label": "MapFarmWinter",
+    "table_comment": "",
+    "definition_address": "80ABA5",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "80E0",
+    "unknown_0181": "04",
+    "unknown_0182": "04",
+    "tilemap_count": 3,
+    "charactermap_count": 1,
+    "dl_asset_count": 4,
+    "dl_assets": "93B736;93D049;93E12B;A18000",
+    "tilemap_pngs": "tilemaps/Tilemap0x93b736.png;tilemaps/Tilemap0x93d049.png;tilemaps/Tilemap0x93e12b.png",
+    "assets": [
+      {
+        "address": "93B736",
+        "bank": "93",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x93b736.png"
+      },
+      {
+        "address": "93D049",
+        "bank": "93",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x93d049.png"
+      },
+      {
+        "address": "93E12B",
+        "bank": "93",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x93e12b.png"
+      },
+      {
+        "address": "A18000",
+        "bank": "A1",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 4,
+    "map_id_hex": "04",
+    "label": "MapTownSpring",
+    "table_comment": "",
+    "definition_address": "80ABC8",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "8060",
+    "unknown_0181": "04",
+    "unknown_0182": "04",
+    "tilemap_count": 3,
+    "charactermap_count": 1,
+    "dl_asset_count": 4,
+    "dl_assets": "97B45F;998000;999A74;A38000",
+    "tilemap_pngs": "tilemaps/Tilemap0x97b45f.png;tilemaps/Tilemap0x998000.png;tilemaps/Tilemap0x999a74.png",
+    "assets": [
+      {
+        "address": "97B45F",
+        "bank": "97",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x97b45f.png"
+      },
+      {
+        "address": "998000",
+        "bank": "99",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x998000.png"
+      },
+      {
+        "address": "999A74",
+        "bank": "99",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x999a74.png"
+      },
+      {
+        "address": "A38000",
+        "bank": "A3",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 5,
+    "map_id_hex": "05",
+    "label": "MapTownSummer",
+    "table_comment": "",
+    "definition_address": "80ABEB",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "8060",
+    "unknown_0181": "04",
+    "unknown_0182": "04",
+    "tilemap_count": 3,
+    "charactermap_count": 1,
+    "dl_asset_count": 4,
+    "dl_assets": "97B45F;97CD20;97E7A2;A38000",
+    "tilemap_pngs": "tilemaps/Tilemap0x97b45f.png;tilemaps/Tilemap0x97cd20.png;tilemaps/Tilemap0x97e7a2.png",
+    "assets": [
+      {
+        "address": "97B45F",
+        "bank": "97",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x97b45f.png"
+      },
+      {
+        "address": "97CD20",
+        "bank": "97",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x97cd20.png"
+      },
+      {
+        "address": "97E7A2",
+        "bank": "97",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x97e7a2.png"
+      },
+      {
+        "address": "A38000",
+        "bank": "A3",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 6,
+    "map_id_hex": "06",
+    "label": "MapTownFall",
+    "table_comment": "",
+    "definition_address": "80AC0E",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "8060",
+    "unknown_0181": "04",
+    "unknown_0182": "04",
+    "tilemap_count": 3,
+    "charactermap_count": 1,
+    "dl_asset_count": 4,
+    "dl_assets": "97B45F;988000;989A52;A38000",
+    "tilemap_pngs": "tilemaps/Tilemap0x97b45f.png;tilemaps/Tilemap0x988000.png;tilemaps/Tilemap0x989a52.png",
+    "assets": [
+      {
+        "address": "97B45F",
+        "bank": "97",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x97b45f.png"
+      },
+      {
+        "address": "988000",
+        "bank": "98",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x988000.png"
+      },
+      {
+        "address": "989A52",
+        "bank": "98",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x989a52.png"
+      },
+      {
+        "address": "A38000",
+        "bank": "A3",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 7,
+    "map_id_hex": "07",
+    "label": "MapTownWinter",
+    "table_comment": "",
+    "definition_address": "80AC31",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "8060",
+    "unknown_0181": "04",
+    "unknown_0182": "04",
+    "tilemap_count": 3,
+    "charactermap_count": 1,
+    "dl_asset_count": 4,
+    "dl_assets": "99DCBD;9A8000;9A9921;A38000",
+    "tilemap_pngs": "tilemaps/Tilemap0x99dcbd.png;tilemaps/Tilemap0x9a8000.png;tilemaps/Tilemap0x9a9921.png",
+    "assets": [
+      {
+        "address": "99DCBD",
+        "bank": "99",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x99dcbd.png"
+      },
+      {
+        "address": "9A8000",
+        "bank": "9A",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9a8000.png"
+      },
+      {
+        "address": "9A9921",
+        "bank": "9A",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9a9921.png"
+      },
+      {
+        "address": "A38000",
+        "bank": "A3",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 8,
+    "map_id_hex": "08",
+    "label": "MapFlowerFestival",
+    "table_comment": "",
+    "definition_address": "80AC54",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "0060",
+    "unknown_0181": "02",
+    "unknown_0182": "02",
+    "tilemap_count": 3,
+    "charactermap_count": 1,
+    "dl_asset_count": 4,
+    "dl_assets": "97B45F;998000;99AEC3;A4D379",
+    "tilemap_pngs": "tilemaps/Tilemap0x97b45f.png;tilemaps/Tilemap0x998000.png;tilemaps/Tilemap0x99aec3.png",
+    "assets": [
+      {
+        "address": "97B45F",
+        "bank": "97",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x97b45f.png"
+      },
+      {
+        "address": "998000",
+        "bank": "99",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x998000.png"
+      },
+      {
+        "address": "99AEC3",
+        "bank": "99",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x99aec3.png"
+      },
+      {
+        "address": "A4D379",
+        "bank": "A4",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 9,
+    "map_id_hex": "09",
+    "label": "MapHarvestFestival",
+    "table_comment": "",
+    "definition_address": "80AC77",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "0060",
+    "unknown_0181": "02",
+    "unknown_0182": "02",
+    "tilemap_count": 3,
+    "charactermap_count": 1,
+    "dl_asset_count": 4,
+    "dl_assets": "97B45F;988000;98AEDB;A4C5DE",
+    "tilemap_pngs": "tilemaps/Tilemap0x97b45f.png;tilemaps/Tilemap0x988000.png;tilemaps/Tilemap0x98aedb.png",
+    "assets": [
+      {
+        "address": "97B45F",
+        "bank": "97",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x97b45f.png"
+      },
+      {
+        "address": "988000",
+        "bank": "98",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x988000.png"
+      },
+      {
+        "address": "98AEDB",
+        "bank": "98",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x98aedb.png"
+      },
+      {
+        "address": "A4C5DE",
+        "bank": "A4",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 10,
+    "map_id_hex": "0A",
+    "label": "MapStarNightFestivalSquare",
+    "table_comment": "",
+    "definition_address": "80AC9A",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "0060",
+    "unknown_0181": "02",
+    "unknown_0182": "02",
+    "tilemap_count": 3,
+    "charactermap_count": 1,
+    "dl_asset_count": 4,
+    "dl_assets": "99DCBD;9A8000;9AAEAB;A58327",
+    "tilemap_pngs": "tilemaps/Tilemap0x99dcbd.png;tilemaps/Tilemap0x9a8000.png;tilemaps/Tilemap0x9aaeab.png",
+    "assets": [
+      {
+        "address": "99DCBD",
+        "bank": "99",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x99dcbd.png"
+      },
+      {
+        "address": "9A8000",
+        "bank": "9A",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9a8000.png"
+      },
+      {
+        "address": "9AAEAB",
+        "bank": "9A",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9aaeab.png"
+      },
+      {
+        "address": "A58327",
+        "bank": "A5",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 11,
+    "map_id_hex": "0B",
+    "label": "MapEggFestival",
+    "table_comment": "",
+    "definition_address": "80ACBD",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "0060",
+    "unknown_0181": "04",
+    "unknown_0182": "04",
+    "tilemap_count": 3,
+    "charactermap_count": 1,
+    "dl_asset_count": 4,
+    "dl_assets": "97B45F;988000;99C3F2;A4DC7E",
+    "tilemap_pngs": "tilemaps/Tilemap0x97b45f.png;tilemaps/Tilemap0x988000.png;tilemaps/Tilemap0x99c3f2.png",
+    "assets": [
+      {
+        "address": "97B45F",
+        "bank": "97",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x97b45f.png"
+      },
+      {
+        "address": "988000",
+        "bank": "98",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x988000.png"
+      },
+      {
+        "address": "99C3F2",
+        "bank": "99",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x99c3f2.png"
+      },
+      {
+        "address": "A4DC7E",
+        "bank": "A4",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 12,
+    "map_id_hex": "0C",
+    "label": "MapForkSpring",
+    "table_comment": "",
+    "definition_address": "80ACE0",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "0060",
+    "unknown_0181": "01",
+    "unknown_0182": "01",
+    "tilemap_count": 1,
+    "charactermap_count": 1,
+    "dl_asset_count": 2,
+    "dl_assets": "98CC6B;A4CFAB",
+    "tilemap_pngs": "tilemaps/Tilemap0x98cc6b.png",
+    "assets": [
+      {
+        "address": "98CC6B",
+        "bank": "98",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x98cc6b.png"
+      },
+      {
+        "address": "A4CFAB",
+        "bank": "A4",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 13,
+    "map_id_hex": "0D",
+    "label": "MapForkSummer",
+    "table_comment": "",
+    "definition_address": "80ACF9",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "0060",
+    "unknown_0181": "01",
+    "unknown_0182": "01",
+    "tilemap_count": 1,
+    "charactermap_count": 1,
+    "dl_asset_count": 2,
+    "dl_assets": "98CC6B;A4CFAB",
+    "tilemap_pngs": "tilemaps/Tilemap0x98cc6b.png",
+    "assets": [
+      {
+        "address": "98CC6B",
+        "bank": "98",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x98cc6b.png"
+      },
+      {
+        "address": "A4CFAB",
+        "bank": "A4",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 14,
+    "map_id_hex": "0E",
+    "label": "MapForkFall",
+    "table_comment": "",
+    "definition_address": "80AD12",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "0060",
+    "unknown_0181": "01",
+    "unknown_0182": "01",
+    "tilemap_count": 1,
+    "charactermap_count": 1,
+    "dl_asset_count": 2,
+    "dl_assets": "98CC6B;A4CFAB",
+    "tilemap_pngs": "tilemaps/Tilemap0x98cc6b.png",
+    "assets": [
+      {
+        "address": "98CC6B",
+        "bank": "98",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x98cc6b.png"
+      },
+      {
+        "address": "A4CFAB",
+        "bank": "A4",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 15,
+    "map_id_hex": "0F",
+    "label": "MapForkWinter",
+    "table_comment": "",
+    "definition_address": "80AD2B",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "0060",
+    "unknown_0181": "01",
+    "unknown_0182": "01",
+    "tilemap_count": 1,
+    "charactermap_count": 1,
+    "dl_asset_count": 2,
+    "dl_assets": "98E41D;A4CFAB",
+    "tilemap_pngs": "tilemaps/Tilemap0x98e41d.png",
+    "assets": [
+      {
+        "address": "98E41D",
+        "bank": "98",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x98e41d.png"
+      },
+      {
+        "address": "A4CFAB",
+        "bank": "A4",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 16,
+    "map_id_hex": "10",
+    "label": "MapMountainSpring",
+    "table_comment": "",
+    "definition_address": "80AD44",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "80E0",
+    "unknown_0181": "04",
+    "unknown_0182": "04",
+    "tilemap_count": 3,
+    "charactermap_count": 1,
+    "dl_asset_count": 4,
+    "dl_assets": "9DE7CE;9E8000;9D8000;A28000",
+    "tilemap_pngs": "tilemaps/Tilemap0x9de7ce.png;tilemaps/Tilemap0x9e8000.png;tilemaps/Tilemap0x9d8000.png",
+    "assets": [
+      {
+        "address": "9DE7CE",
+        "bank": "9D",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9de7ce.png"
+      },
+      {
+        "address": "9E8000",
+        "bank": "9E",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9e8000.png"
+      },
+      {
+        "address": "9D8000",
+        "bank": "9D",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9d8000.png"
+      },
+      {
+        "address": "A28000",
+        "bank": "A2",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 17,
+    "map_id_hex": "11",
+    "label": "MapMountainSummer",
+    "table_comment": "",
+    "definition_address": "80AD67",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "80E0",
+    "unknown_0181": "04",
+    "unknown_0182": "04",
+    "tilemap_count": 3,
+    "charactermap_count": 1,
+    "dl_asset_count": 4,
+    "dl_assets": "9CCBA3;9CE37D;9D8000;A28000",
+    "tilemap_pngs": "tilemaps/Tilemap0x9d8000.png",
+    "assets": [
+      {
+        "address": "9CCBA3",
+        "bank": "9C",
+        "classification": "tilemap/background_compressed",
+        "preview_png": ""
+      },
+      {
+        "address": "9CE37D",
+        "bank": "9C",
+        "classification": "tilemap/background_compressed",
+        "preview_png": ""
+      },
+      {
+        "address": "9D8000",
+        "bank": "9D",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9d8000.png"
+      },
+      {
+        "address": "A28000",
+        "bank": "A2",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 18,
+    "map_id_hex": "12",
+    "label": "MapMountainFall",
+    "table_comment": "",
+    "definition_address": "80AD8A",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "80E0",
+    "unknown_0181": "04",
+    "unknown_0182": "04",
+    "tilemap_count": 3,
+    "charactermap_count": 1,
+    "dl_asset_count": 4,
+    "dl_assets": "9D991C;9DB15E;9DCE31;A28000",
+    "tilemap_pngs": "tilemaps/Tilemap0x9d991c.png;tilemaps/Tilemap0x9db15e.png;tilemaps/Tilemap0x9dce31.png",
+    "assets": [
+      {
+        "address": "9D991C",
+        "bank": "9D",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9d991c.png"
+      },
+      {
+        "address": "9DB15E",
+        "bank": "9D",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9db15e.png"
+      },
+      {
+        "address": "9DCE31",
+        "bank": "9D",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9dce31.png"
+      },
+      {
+        "address": "A28000",
+        "bank": "A2",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 19,
+    "map_id_hex": "13",
+    "label": "MapMountainWinter",
+    "table_comment": "",
+    "definition_address": "80ADAD",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "80E0",
+    "unknown_0181": "04",
+    "unknown_0182": "04",
+    "tilemap_count": 3,
+    "charactermap_count": 1,
+    "dl_asset_count": 4,
+    "dl_assets": "9E9EDC;9EB75D;9ED208;A28000",
+    "tilemap_pngs": "tilemaps/Tilemap0x9e9edc.png;tilemaps/Tilemap0x9eb75d.png;tilemaps/Tilemap0x9ed208.png",
+    "assets": [
+      {
+        "address": "9E9EDC",
+        "bank": "9E",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9e9edc.png"
+      },
+      {
+        "address": "9EB75D",
+        "bank": "9E",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9eb75d.png"
+      },
+      {
+        "address": "9ED208",
+        "bank": "9E",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9ed208.png"
+      },
+      {
+        "address": "A28000",
+        "bank": "A2",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 20,
+    "map_id_hex": "14",
+    "label": "MapStarNightFestivalSpa",
+    "table_comment": "",
+    "definition_address": "80ADD0",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "00E0",
+    "unknown_0181": "01",
+    "unknown_0182": "01",
+    "tilemap_count": 3,
+    "charactermap_count": 1,
+    "dl_asset_count": 4,
+    "dl_assets": "9E9EDC;9EB75D;9ED208;A59E0B",
+    "tilemap_pngs": "tilemaps/Tilemap0x9e9edc.png;tilemaps/Tilemap0x9eb75d.png;tilemaps/Tilemap0x9ed208.png",
+    "assets": [
+      {
+        "address": "9E9EDC",
+        "bank": "9E",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9e9edc.png"
+      },
+      {
+        "address": "9EB75D",
+        "bank": "9E",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9eb75d.png"
+      },
+      {
+        "address": "9ED208",
+        "bank": "9E",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9ed208.png"
+      },
+      {
+        "address": "A59E0B",
+        "bank": "A5",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 21,
+    "map_id_hex": "15",
+    "label": "MapHouselvl1",
+    "table_comment": "",
+    "definition_address": "80ADF3",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "0000",
+    "unknown_0181": "01",
+    "unknown_0182": "01",
+    "tilemap_count": 2,
+    "charactermap_count": 1,
+    "dl_asset_count": 3,
+    "dl_assets": "95C000;95D6E2;A49B84",
+    "tilemap_pngs": "",
+    "assets": [
+      {
+        "address": "95C000",
+        "bank": "95",
+        "classification": "tilemap/background_compressed",
+        "preview_png": ""
+      },
+      {
+        "address": "95D6E2",
+        "bank": "95",
+        "classification": "tilemap/background_compressed",
+        "preview_png": ""
+      },
+      {
+        "address": "A49B84",
+        "bank": "A4",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 22,
+    "map_id_hex": "16",
+    "label": "MapHouselvl2",
+    "table_comment": "",
+    "definition_address": "80AE11",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "0000",
+    "unknown_0181": "01",
+    "unknown_0182": "01",
+    "tilemap_count": 2,
+    "charactermap_count": 1,
+    "dl_asset_count": 3,
+    "dl_assets": "95C000;95D6E2;A4945C",
+    "tilemap_pngs": "",
+    "assets": [
+      {
+        "address": "95C000",
+        "bank": "95",
+        "classification": "tilemap/background_compressed",
+        "preview_png": ""
+      },
+      {
+        "address": "95D6E2",
+        "bank": "95",
+        "classification": "tilemap/background_compressed",
+        "preview_png": ""
+      },
+      {
+        "address": "A4945C",
+        "bank": "A4",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 23,
+    "map_id_hex": "17",
+    "label": "MapHouselvl3",
+    "table_comment": "",
+    "definition_address": "80AE2F",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "0000",
+    "unknown_0181": "02",
+    "unknown_0182": "01",
+    "tilemap_count": 2,
+    "charactermap_count": 1,
+    "dl_asset_count": 3,
+    "dl_assets": "95C000;95D6E2;A49745",
+    "tilemap_pngs": "",
+    "assets": [
+      {
+        "address": "95C000",
+        "bank": "95",
+        "classification": "tilemap/background_compressed",
+        "preview_png": ""
+      },
+      {
+        "address": "95D6E2",
+        "bank": "95",
+        "classification": "tilemap/background_compressed",
+        "preview_png": ""
+      },
+      {
+        "address": "A49745",
+        "bank": "A4",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 24,
+    "map_id_hex": "18",
+    "label": "MapMayorHouse",
+    "table_comment": "",
+    "definition_address": "80AE4D",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "0000",
+    "unknown_0181": "02",
+    "unknown_0182": "02",
+    "tilemap_count": 1,
+    "charactermap_count": 1,
+    "dl_asset_count": 2,
+    "dl_assets": "95E8A3;A49E2E",
+    "tilemap_pngs": "",
+    "assets": [
+      {
+        "address": "95E8A3",
+        "bank": "95",
+        "classification": "tilemap/background_compressed",
+        "preview_png": ""
+      },
+      {
+        "address": "A49E2E",
+        "bank": "A4",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 25,
+    "map_id_hex": "19",
+    "label": "MapMayorHouseHall",
+    "table_comment": "",
+    "definition_address": "80AE66",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "0000",
+    "unknown_0181": "02",
+    "unknown_0182": "02",
+    "tilemap_count": 1,
+    "charactermap_count": 1,
+    "dl_asset_count": 2,
+    "dl_assets": "95E8A3;A49E2E",
+    "tilemap_pngs": "",
+    "assets": [
+      {
+        "address": "95E8A3",
+        "bank": "95",
+        "classification": "tilemap/background_compressed",
+        "preview_png": ""
+      },
+      {
+        "address": "A49E2E",
+        "bank": "A4",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 26,
+    "map_id_hex": "1A",
+    "label": "MapMariasRoom",
+    "table_comment": "",
+    "definition_address": "80AE7F",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "0000",
+    "unknown_0181": "02",
+    "unknown_0182": "02",
+    "tilemap_count": 1,
+    "charactermap_count": 1,
+    "dl_asset_count": 2,
+    "dl_assets": "95E8A3;A49E2E",
+    "tilemap_pngs": "",
+    "assets": [
+      {
+        "address": "95E8A3",
+        "bank": "95",
+        "classification": "tilemap/background_compressed",
+        "preview_png": ""
+      },
+      {
+        "address": "A49E2E",
+        "bank": "A4",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 27,
+    "map_id_hex": "1B",
+    "label": "MapChurch",
+    "table_comment": "",
+    "definition_address": "80AE98",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "0000",
+    "unknown_0181": "01",
+    "unknown_0182": "02",
+    "tilemap_count": 1,
+    "charactermap_count": 1,
+    "dl_asset_count": 2,
+    "dl_assets": "968000;A4A597",
+    "tilemap_pngs": "tilemaps/Tilemap0x968000.png",
+    "assets": [
+      {
+        "address": "968000",
+        "bank": "96",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x968000.png"
+      },
+      {
+        "address": "A4A597",
+        "bank": "A4",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 28,
+    "map_id_hex": "1C",
+    "label": "MapFlowerShop",
+    "table_comment": "",
+    "definition_address": "80AEB1",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "0000",
+    "unknown_0181": "01",
+    "unknown_0182": "02",
+    "tilemap_count": 1,
+    "charactermap_count": 1,
+    "dl_asset_count": 2,
+    "dl_assets": "969437;A4AA99",
+    "tilemap_pngs": "tilemaps/Tilemap0x969437.png",
+    "assets": [
+      {
+        "address": "969437",
+        "bank": "96",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x969437.png"
+      },
+      {
+        "address": "A4AA99",
+        "bank": "A4",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 29,
+    "map_id_hex": "1D",
+    "label": "MapFlowerShopRooms",
+    "table_comment": "",
+    "definition_address": "80AECA",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "0000",
+    "unknown_0181": "01",
+    "unknown_0182": "02",
+    "tilemap_count": 1,
+    "charactermap_count": 1,
+    "dl_asset_count": 2,
+    "dl_assets": "969437;A4AA99",
+    "tilemap_pngs": "tilemaps/Tilemap0x969437.png",
+    "assets": [
+      {
+        "address": "969437",
+        "bank": "96",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x969437.png"
+      },
+      {
+        "address": "A4AA99",
+        "bank": "A4",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 30,
+    "map_id_hex": "1E",
+    "label": "MapBar",
+    "table_comment": "",
+    "definition_address": "80AEE3",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "0000",
+    "unknown_0181": "01",
+    "unknown_0182": "02",
+    "tilemap_count": 1,
+    "charactermap_count": 1,
+    "dl_asset_count": 2,
+    "dl_assets": "96AD11;A4AE95",
+    "tilemap_pngs": "tilemaps/Tilemap0x96ad11.png",
+    "assets": [
+      {
+        "address": "96AD11",
+        "bank": "96",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x96ad11.png"
+      },
+      {
+        "address": "A4AE95",
+        "bank": "A4",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 31,
+    "map_id_hex": "1F",
+    "label": "MapBarRooms",
+    "table_comment": "",
+    "definition_address": "80AEFC",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "0000",
+    "unknown_0181": "01",
+    "unknown_0182": "02",
+    "tilemap_count": 1,
+    "charactermap_count": 1,
+    "dl_asset_count": 2,
+    "dl_assets": "96AD11;A4AE95",
+    "tilemap_pngs": "tilemaps/Tilemap0x96ad11.png",
+    "assets": [
+      {
+        "address": "96AD11",
+        "bank": "96",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x96ad11.png"
+      },
+      {
+        "address": "A4AE95",
+        "bank": "A4",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 32,
+    "map_id_hex": "20",
+    "label": "MapRestaurant",
+    "table_comment": "",
+    "definition_address": "80AF15",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "0000",
+    "unknown_0181": "01",
+    "unknown_0182": "02",
+    "tilemap_count": 1,
+    "charactermap_count": 1,
+    "dl_asset_count": 2,
+    "dl_assets": "96C489;A4B3D1",
+    "tilemap_pngs": "tilemaps/Tilemap0x96c489.png",
+    "assets": [
+      {
+        "address": "96C489",
+        "bank": "96",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x96c489.png"
+      },
+      {
+        "address": "A4B3D1",
+        "bank": "A4",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 33,
+    "map_id_hex": "21",
+    "label": "MapRestaurantRooms",
+    "table_comment": "",
+    "definition_address": "80AF2E",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "0000",
+    "unknown_0181": "01",
+    "unknown_0182": "02",
+    "tilemap_count": 1,
+    "charactermap_count": 1,
+    "dl_asset_count": 2,
+    "dl_assets": "96C489;A4B3D1",
+    "tilemap_pngs": "tilemaps/Tilemap0x96c489.png",
+    "assets": [
+      {
+        "address": "96C489",
+        "bank": "96",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x96c489.png"
+      },
+      {
+        "address": "A4B3D1",
+        "bank": "A4",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 34,
+    "map_id_hex": "22",
+    "label": "MapGeneralStore",
+    "table_comment": "",
+    "definition_address": "80AF47",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "0000",
+    "unknown_0181": "01",
+    "unknown_0182": "02",
+    "tilemap_count": 1,
+    "charactermap_count": 1,
+    "dl_asset_count": 2,
+    "dl_assets": "96DC6D;A4B8E0",
+    "tilemap_pngs": "tilemaps/Tilemap0x96dc6d.png",
+    "assets": [
+      {
+        "address": "96DC6D",
+        "bank": "96",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x96dc6d.png"
+      },
+      {
+        "address": "A4B8E0",
+        "bank": "A4",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 35,
+    "map_id_hex": "23",
+    "label": "MapGeneralStoreRooms",
+    "table_comment": "",
+    "definition_address": "80AF60",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "0000",
+    "unknown_0181": "01",
+    "unknown_0182": "02",
+    "tilemap_count": 1,
+    "charactermap_count": 1,
+    "dl_asset_count": 2,
+    "dl_assets": "96DC6D;A4B8E0",
+    "tilemap_pngs": "tilemaps/Tilemap0x96dc6d.png",
+    "assets": [
+      {
+        "address": "96DC6D",
+        "bank": "96",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x96dc6d.png"
+      },
+      {
+        "address": "A4B8E0",
+        "bank": "A4",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 36,
+    "map_id_hex": "24",
+    "label": "MapAnimalShop",
+    "table_comment": "",
+    "definition_address": "80AF79",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "0000",
+    "unknown_0181": "01",
+    "unknown_0182": "01",
+    "tilemap_count": 1,
+    "charactermap_count": 1,
+    "dl_asset_count": 2,
+    "dl_assets": "978000;A4BCC1",
+    "tilemap_pngs": "tilemaps/Tilemap0x978000.png",
+    "assets": [
+      {
+        "address": "978000",
+        "bank": "97",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x978000.png"
+      },
+      {
+        "address": "A4BCC1",
+        "bank": "A4",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 37,
+    "map_id_hex": "25",
+    "label": "MapWitchHouse",
+    "table_comment": "",
+    "definition_address": "80AF92",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "0000",
+    "unknown_0181": "01",
+    "unknown_0182": "01",
+    "tilemap_count": 1,
+    "charactermap_count": 1,
+    "dl_asset_count": 2,
+    "dl_assets": "979A88;A4C065",
+    "tilemap_pngs": "tilemaps/Tilemap0x979a88.png",
+    "assets": [
+      {
+        "address": "979A88",
+        "bank": "97",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x979a88.png"
+      },
+      {
+        "address": "A4C065",
+        "bank": "A4",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 38,
+    "map_id_hex": "26",
+    "label": "MapToolShed",
+    "table_comment": "",
+    "definition_address": "80AFAB",
+    "graphic_preset": "02",
+    "screen_config_or_flag": "0000",
+    "unknown_0181": "01",
+    "unknown_0182": "01",
+    "tilemap_count": 2,
+    "charactermap_count": 2,
+    "dl_asset_count": 4,
+    "dl_assets": "9AE02D;9B8000;A59C08;A58B49",
+    "tilemap_pngs": "tilemaps/Tilemap0x9ae02d.png;tilemaps/Tilemap0x9b8000.png",
+    "assets": [
+      {
+        "address": "9AE02D",
+        "bank": "9A",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9ae02d.png"
+      },
+      {
+        "address": "9B8000",
+        "bank": "9B",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9b8000.png"
+      },
+      {
+        "address": "A59C08",
+        "bank": "A5",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      },
+      {
+        "address": "A58B49",
+        "bank": "A5",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 39,
+    "map_id_hex": "27",
+    "label": "MapBarn",
+    "table_comment": "",
+    "definition_address": "80AFCE",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "0000",
+    "unknown_0181": "01",
+    "unknown_0182": "02",
+    "tilemap_count": 1,
+    "charactermap_count": 1,
+    "dl_asset_count": 2,
+    "dl_assets": "9CA40C;A5C4CD",
+    "tilemap_pngs": "tilemaps/Tilemap0x9ca40c.png",
+    "assets": [
+      {
+        "address": "9CA40C",
+        "bank": "9C",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9ca40c.png"
+      },
+      {
+        "address": "A5C4CD",
+        "bank": "A5",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 40,
+    "map_id_hex": "28",
+    "label": "MapCoop",
+    "table_comment": "",
+    "definition_address": "80AFE7",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "0000",
+    "unknown_0181": "01",
+    "unknown_0182": "01",
+    "tilemap_count": 1,
+    "charactermap_count": 1,
+    "dl_asset_count": 2,
+    "dl_assets": "9CA40C;A5C258",
+    "tilemap_pngs": "tilemaps/Tilemap0x9ca40c.png",
+    "assets": [
+      {
+        "address": "9CA40C",
+        "bank": "9C",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9ca40c.png"
+      },
+      {
+        "address": "A5C258",
+        "bank": "A5",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 41,
+    "map_id_hex": "29",
+    "label": "MapMountainCave",
+    "table_comment": "",
+    "definition_address": "80B000",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "0020",
+    "unknown_0181": "02",
+    "unknown_0182": "02",
+    "tilemap_count": 1,
+    "charactermap_count": 1,
+    "dl_asset_count": 2,
+    "dl_assets": "948000;A48A2D",
+    "tilemap_pngs": "tilemaps/Tilemap0x948000.png",
+    "assets": [
+      {
+        "address": "948000",
+        "bank": "94",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x948000.png"
+      },
+      {
+        "address": "A48A2D",
+        "bank": "A4",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 42,
+    "map_id_hex": "2A",
+    "label": "MapElfTunnel",
+    "table_comment": "",
+    "definition_address": "80B019",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "0020",
+    "unknown_0181": "01",
+    "unknown_0182": "03",
+    "tilemap_count": 1,
+    "charactermap_count": 1,
+    "dl_asset_count": 2,
+    "dl_assets": "948000;A481AE",
+    "tilemap_pngs": "tilemaps/Tilemap0x948000.png",
+    "assets": [
+      {
+        "address": "948000",
+        "bank": "94",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x948000.png"
+      },
+      {
+        "address": "A481AE",
+        "bank": "A4",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 43,
+    "map_id_hex": "2B",
+    "label": "MapUnknown2B",
+    "table_comment": "",
+    "definition_address": "80B032",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "0000",
+    "unknown_0181": "01",
+    "unknown_0182": "01",
+    "tilemap_count": 1,
+    "charactermap_count": 1,
+    "dl_asset_count": 2,
+    "dl_assets": "9B9F53;A5B63B",
+    "tilemap_pngs": "tilemaps/Tilemap0x9b9f53.png",
+    "assets": [
+      {
+        "address": "9B9F53",
+        "bank": "9B",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9b9f53.png"
+      },
+      {
+        "address": "A5B63B",
+        "bank": "A5",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 44,
+    "map_id_hex": "2C",
+    "label": "MapUnknown2C",
+    "table_comment": "",
+    "definition_address": "80B04B",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "0000",
+    "unknown_0181": "01",
+    "unknown_0182": "03",
+    "tilemap_count": 1,
+    "charactermap_count": 1,
+    "dl_asset_count": 2,
+    "dl_assets": "9B86AD;A5A6A0",
+    "tilemap_pngs": "tilemaps/Tilemap0x9b86ad.png",
+    "assets": [
+      {
+        "address": "9B86AD",
+        "bank": "9B",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9b86ad.png"
+      },
+      {
+        "address": "A5A6A0",
+        "bank": "A5",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 45,
+    "map_id_hex": "2D",
+    "label": "MapUnknown2D",
+    "table_comment": "",
+    "definition_address": "80B064",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "0000",
+    "unknown_0181": "01",
+    "unknown_0182": "02",
+    "tilemap_count": 3,
+    "charactermap_count": 1,
+    "dl_asset_count": 4,
+    "dl_assets": "97B45F;998000;999A74;A38000",
+    "tilemap_pngs": "tilemaps/Tilemap0x97b45f.png;tilemaps/Tilemap0x998000.png;tilemaps/Tilemap0x999a74.png",
+    "assets": [
+      {
+        "address": "97B45F",
+        "bank": "97",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x97b45f.png"
+      },
+      {
+        "address": "998000",
+        "bank": "99",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x998000.png"
+      },
+      {
+        "address": "999A74",
+        "bank": "99",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x999a74.png"
+      },
+      {
+        "address": "A38000",
+        "bank": "A3",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 46,
+    "map_id_hex": "2E",
+    "label": "MapUnknown2E",
+    "table_comment": "",
+    "definition_address": "80B087",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "0000",
+    "unknown_0181": "01",
+    "unknown_0182": "02",
+    "tilemap_count": 3,
+    "charactermap_count": 1,
+    "dl_asset_count": 4,
+    "dl_assets": "97B45F;97CD20;97E7A2;A38000",
+    "tilemap_pngs": "tilemaps/Tilemap0x97b45f.png;tilemaps/Tilemap0x97cd20.png;tilemaps/Tilemap0x97e7a2.png",
+    "assets": [
+      {
+        "address": "97B45F",
+        "bank": "97",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x97b45f.png"
+      },
+      {
+        "address": "97CD20",
+        "bank": "97",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x97cd20.png"
+      },
+      {
+        "address": "97E7A2",
+        "bank": "97",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x97e7a2.png"
+      },
+      {
+        "address": "A38000",
+        "bank": "A3",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 47,
+    "map_id_hex": "2F",
+    "label": "MapUnknown2F",
+    "table_comment": "",
+    "definition_address": "80B0AA",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "0000",
+    "unknown_0181": "01",
+    "unknown_0182": "02",
+    "tilemap_count": 3,
+    "charactermap_count": 1,
+    "dl_asset_count": 4,
+    "dl_assets": "97B45F;988000;989A52;A38000",
+    "tilemap_pngs": "tilemaps/Tilemap0x97b45f.png;tilemaps/Tilemap0x988000.png;tilemaps/Tilemap0x989a52.png",
+    "assets": [
+      {
+        "address": "97B45F",
+        "bank": "97",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x97b45f.png"
+      },
+      {
+        "address": "988000",
+        "bank": "98",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x988000.png"
+      },
+      {
+        "address": "989A52",
+        "bank": "98",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x989a52.png"
+      },
+      {
+        "address": "A38000",
+        "bank": "A3",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 48,
+    "map_id_hex": "30",
+    "label": "MapUnknown30",
+    "table_comment": "HANGS GAME",
+    "definition_address": "80B0CD",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "0000",
+    "unknown_0181": "01",
+    "unknown_0182": "02",
+    "tilemap_count": 3,
+    "charactermap_count": 1,
+    "dl_asset_count": 4,
+    "dl_assets": "99DCBD;9A8000;9A9921;A38000",
+    "tilemap_pngs": "tilemaps/Tilemap0x99dcbd.png;tilemaps/Tilemap0x9a8000.png;tilemaps/Tilemap0x9a9921.png",
+    "assets": [
+      {
+        "address": "99DCBD",
+        "bank": "99",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x99dcbd.png"
+      },
+      {
+        "address": "9A8000",
+        "bank": "9A",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9a8000.png"
+      },
+      {
+        "address": "9A9921",
+        "bank": "9A",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9a9921.png"
+      },
+      {
+        "address": "A38000",
+        "bank": "A3",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 49,
+    "map_id_hex": "31",
+    "label": "MapSummitSpring",
+    "table_comment": "",
+    "definition_address": "80B0F0",
+    "graphic_preset": "01",
+    "screen_config_or_flag": "0020",
+    "unknown_0181": "01",
+    "unknown_0182": "02",
+    "tilemap_count": 2,
+    "charactermap_count": 2,
+    "dl_asset_count": 4,
+    "dl_assets": "9BB76D;9C8000;A5B943;A5AD17",
+    "tilemap_pngs": "tilemaps/Tilemap0x9bb76d.png;tilemaps/Tilemap0x9c8000.png",
+    "assets": [
+      {
+        "address": "9BB76D",
+        "bank": "9B",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9bb76d.png"
+      },
+      {
+        "address": "9C8000",
+        "bank": "9C",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9c8000.png"
+      },
+      {
+        "address": "A5B943",
+        "bank": "A5",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      },
+      {
+        "address": "A5AD17",
+        "bank": "A5",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 50,
+    "map_id_hex": "32",
+    "label": "MapSummitSummer",
+    "table_comment": "",
+    "definition_address": "80B113",
+    "graphic_preset": "01",
+    "screen_config_or_flag": "0020",
+    "unknown_0181": "01",
+    "unknown_0182": "02",
+    "tilemap_count": 2,
+    "charactermap_count": 2,
+    "dl_asset_count": 4,
+    "dl_assets": "9BB76D;9C8000;A5B943;A5AD17",
+    "tilemap_pngs": "tilemaps/Tilemap0x9bb76d.png;tilemaps/Tilemap0x9c8000.png",
+    "assets": [
+      {
+        "address": "9BB76D",
+        "bank": "9B",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9bb76d.png"
+      },
+      {
+        "address": "9C8000",
+        "bank": "9C",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9c8000.png"
+      },
+      {
+        "address": "A5B943",
+        "bank": "A5",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      },
+      {
+        "address": "A5AD17",
+        "bank": "A5",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 51,
+    "map_id_hex": "33",
+    "label": "MapSummitFall",
+    "table_comment": "",
+    "definition_address": "80B136",
+    "graphic_preset": "01",
+    "screen_config_or_flag": "0020",
+    "unknown_0181": "01",
+    "unknown_0182": "02",
+    "tilemap_count": 2,
+    "charactermap_count": 2,
+    "dl_asset_count": 4,
+    "dl_assets": "9BB76D;9C8000;A5B943;A5AD17",
+    "tilemap_pngs": "tilemaps/Tilemap0x9bb76d.png;tilemaps/Tilemap0x9c8000.png",
+    "assets": [
+      {
+        "address": "9BB76D",
+        "bank": "9B",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9bb76d.png"
+      },
+      {
+        "address": "9C8000",
+        "bank": "9C",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9c8000.png"
+      },
+      {
+        "address": "A5B943",
+        "bank": "A5",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      },
+      {
+        "address": "A5AD17",
+        "bank": "A5",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 52,
+    "map_id_hex": "34",
+    "label": "MapSummitWinter",
+    "table_comment": "",
+    "definition_address": "80B159",
+    "graphic_preset": "01",
+    "screen_config_or_flag": "0020",
+    "unknown_0181": "01",
+    "unknown_0182": "02",
+    "tilemap_count": 2,
+    "charactermap_count": 2,
+    "dl_asset_count": 4,
+    "dl_assets": "9BCF8F;9C965F;A5B943;A5AD17",
+    "tilemap_pngs": "tilemaps/Tilemap0x9bcf8f.png;tilemaps/Tilemap0x9c965f.png",
+    "assets": [
+      {
+        "address": "9BCF8F",
+        "bank": "9B",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9bcf8f.png"
+      },
+      {
+        "address": "9C965F",
+        "bank": "9C",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9c965f.png"
+      },
+      {
+        "address": "A5B943",
+        "bank": "A5",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      },
+      {
+        "address": "A5AD17",
+        "bank": "A5",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 53,
+    "map_id_hex": "35",
+    "label": "MapUnknown35",
+    "table_comment": "",
+    "definition_address": "80B17C",
+    "graphic_preset": "01",
+    "screen_config_or_flag": "0020",
+    "unknown_0181": "01",
+    "unknown_0182": "02",
+    "tilemap_count": 2,
+    "charactermap_count": 2,
+    "dl_asset_count": 4,
+    "dl_assets": "9BB76D;9C8000;A5B943;A5B042",
+    "tilemap_pngs": "tilemaps/Tilemap0x9bb76d.png;tilemaps/Tilemap0x9c8000.png",
+    "assets": [
+      {
+        "address": "9BB76D",
+        "bank": "9B",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9bb76d.png"
+      },
+      {
+        "address": "9C8000",
+        "bank": "9C",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9c8000.png"
+      },
+      {
+        "address": "A5B943",
+        "bank": "A5",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      },
+      {
+        "address": "A5B042",
+        "bank": "A5",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 54,
+    "map_id_hex": "36",
+    "label": "MapUnknown36",
+    "table_comment": "",
+    "definition_address": "80B19F",
+    "graphic_preset": "01",
+    "screen_config_or_flag": "0020",
+    "unknown_0181": "01",
+    "unknown_0182": "02",
+    "tilemap_count": 2,
+    "charactermap_count": 2,
+    "dl_asset_count": 4,
+    "dl_assets": "9BB76D;9C8000;A5B943;A5B042",
+    "tilemap_pngs": "tilemaps/Tilemap0x9bb76d.png;tilemaps/Tilemap0x9c8000.png",
+    "assets": [
+      {
+        "address": "9BB76D",
+        "bank": "9B",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9bb76d.png"
+      },
+      {
+        "address": "9C8000",
+        "bank": "9C",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9c8000.png"
+      },
+      {
+        "address": "A5B943",
+        "bank": "A5",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      },
+      {
+        "address": "A5B042",
+        "bank": "A5",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 55,
+    "map_id_hex": "37",
+    "label": "MapUnknown37",
+    "table_comment": "",
+    "definition_address": "80B1C2",
+    "graphic_preset": "01",
+    "screen_config_or_flag": "0020",
+    "unknown_0181": "01",
+    "unknown_0182": "02",
+    "tilemap_count": 2,
+    "charactermap_count": 2,
+    "dl_asset_count": 4,
+    "dl_assets": "9BB76D;9C8000;A5B042;A5B943",
+    "tilemap_pngs": "tilemaps/Tilemap0x9bb76d.png;tilemaps/Tilemap0x9c8000.png",
+    "assets": [
+      {
+        "address": "9BB76D",
+        "bank": "9B",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9bb76d.png"
+      },
+      {
+        "address": "9C8000",
+        "bank": "9C",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9c8000.png"
+      },
+      {
+        "address": "A5B042",
+        "bank": "A5",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      },
+      {
+        "address": "A5B943",
+        "bank": "A5",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 56,
+    "map_id_hex": "38",
+    "label": "MapUnknown38",
+    "table_comment": "",
+    "definition_address": "80B1E5",
+    "graphic_preset": "01",
+    "screen_config_or_flag": "0020",
+    "unknown_0181": "01",
+    "unknown_0182": "02",
+    "tilemap_count": 2,
+    "charactermap_count": 2,
+    "dl_asset_count": 4,
+    "dl_assets": "9BCF8F;9C965F;A5B943;A5B042",
+    "tilemap_pngs": "tilemaps/Tilemap0x9bcf8f.png;tilemaps/Tilemap0x9c965f.png",
+    "assets": [
+      {
+        "address": "9BCF8F",
+        "bank": "9B",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9bcf8f.png"
+      },
+      {
+        "address": "9C965F",
+        "bank": "9C",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9c965f.png"
+      },
+      {
+        "address": "A5B943",
+        "bank": "A5",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      },
+      {
+        "address": "A5B042",
+        "bank": "A5",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 57,
+    "map_id_hex": "39",
+    "label": "MapStarNightFestivalMountainTop",
+    "table_comment": "",
+    "definition_address": "80B208",
+    "graphic_preset": "01",
+    "screen_config_or_flag": "0020",
+    "unknown_0181": "01",
+    "unknown_0182": "02",
+    "tilemap_count": 2,
+    "charactermap_count": 2,
+    "dl_asset_count": 4,
+    "dl_assets": "9BCF8F;9C965F;A5B943;A5B361",
+    "tilemap_pngs": "tilemaps/Tilemap0x9bcf8f.png;tilemaps/Tilemap0x9c965f.png",
+    "assets": [
+      {
+        "address": "9BCF8F",
+        "bank": "9B",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9bcf8f.png"
+      },
+      {
+        "address": "9C965F",
+        "bank": "9C",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9c965f.png"
+      },
+      {
+        "address": "A5B943",
+        "bank": "A5",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      },
+      {
+        "address": "A5B361",
+        "bank": "A5",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 58,
+    "map_id_hex": "3A",
+    "label": "MapNewYearsFestival",
+    "table_comment": "",
+    "definition_address": "80B22B",
+    "graphic_preset": "01",
+    "screen_config_or_flag": "0020",
+    "unknown_0181": "01",
+    "unknown_0182": "02",
+    "tilemap_count": 2,
+    "charactermap_count": 2,
+    "dl_asset_count": 4,
+    "dl_assets": "9BB76D;9C8000;A5B943;A5AD17",
+    "tilemap_pngs": "tilemaps/Tilemap0x9bb76d.png;tilemaps/Tilemap0x9c8000.png",
+    "assets": [
+      {
+        "address": "9BB76D",
+        "bank": "9B",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9bb76d.png"
+      },
+      {
+        "address": "9C8000",
+        "bank": "9C",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9c8000.png"
+      },
+      {
+        "address": "A5B943",
+        "bank": "A5",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      },
+      {
+        "address": "A5AD17",
+        "bank": "A5",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 59,
+    "map_id_hex": "3B",
+    "label": "MapUnknown3B",
+    "table_comment": "",
+    "definition_address": "80B24E",
+    "graphic_preset": "01",
+    "screen_config_or_flag": "0020",
+    "unknown_0181": "01",
+    "unknown_0182": "02",
+    "tilemap_count": 2,
+    "charactermap_count": 2,
+    "dl_asset_count": 4,
+    "dl_assets": "9BB76D;9C8000;A5BD8A;A5AD17",
+    "tilemap_pngs": "tilemaps/Tilemap0x9bb76d.png;tilemaps/Tilemap0x9c8000.png",
+    "assets": [
+      {
+        "address": "9BB76D",
+        "bank": "9B",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9bb76d.png"
+      },
+      {
+        "address": "9C8000",
+        "bank": "9C",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9c8000.png"
+      },
+      {
+        "address": "A5BD8A",
+        "bank": "A5",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      },
+      {
+        "address": "A5AD17",
+        "bank": "A5",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 60,
+    "map_id_hex": "3C",
+    "label": "MapUnknown3C",
+    "table_comment": "Intro Scene",
+    "definition_address": "80B271",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "0000",
+    "unknown_0181": "01",
+    "unknown_0182": "01",
+    "tilemap_count": 1,
+    "charactermap_count": 1,
+    "dl_asset_count": 2,
+    "dl_assets": "98CC6B;A68DCF",
+    "tilemap_pngs": "tilemaps/Tilemap0x98cc6b.png",
+    "assets": [
+      {
+        "address": "98CC6B",
+        "bank": "98",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x98cc6b.png"
+      },
+      {
+        "address": "A68DCF",
+        "bank": "A6",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 61,
+    "map_id_hex": "3D",
+    "label": "MapUnknown3D",
+    "table_comment": "",
+    "definition_address": "80B28A",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "0000",
+    "unknown_0181": "01",
+    "unknown_0182": "01",
+    "tilemap_count": 3,
+    "charactermap_count": 1,
+    "dl_asset_count": 4,
+    "dl_assets": "92D3AB;938000;939E8E;A5E253",
+    "tilemap_pngs": "tilemaps/Tilemap0x92d3ab.png;tilemaps/Tilemap0x938000.png;tilemaps/Tilemap0x939e8e.png",
+    "assets": [
+      {
+        "address": "92D3AB",
+        "bank": "92",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x92d3ab.png"
+      },
+      {
+        "address": "938000",
+        "bank": "93",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x938000.png"
+      },
+      {
+        "address": "939E8E",
+        "bank": "93",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x939e8e.png"
+      },
+      {
+        "address": "A5E253",
+        "bank": "A5",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 62,
+    "map_id_hex": "3E",
+    "label": "MapUnknown3E",
+    "table_comment": "",
+    "definition_address": "80B2AD",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "0000",
+    "unknown_0181": "01",
+    "unknown_0182": "01",
+    "tilemap_count": 3,
+    "charactermap_count": 1,
+    "dl_asset_count": 4,
+    "dl_assets": "92D3AB;938000;939E8E;A5E5CE",
+    "tilemap_pngs": "tilemaps/Tilemap0x92d3ab.png;tilemaps/Tilemap0x938000.png;tilemaps/Tilemap0x939e8e.png",
+    "assets": [
+      {
+        "address": "92D3AB",
+        "bank": "92",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x92d3ab.png"
+      },
+      {
+        "address": "938000",
+        "bank": "93",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x938000.png"
+      },
+      {
+        "address": "939E8E",
+        "bank": "93",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x939e8e.png"
+      },
+      {
+        "address": "A5E5CE",
+        "bank": "A5",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 63,
+    "map_id_hex": "3F",
+    "label": "MapUnknown3F",
+    "table_comment": "",
+    "definition_address": "80B2D0",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "0000",
+    "unknown_0181": "01",
+    "unknown_0182": "01",
+    "tilemap_count": 3,
+    "charactermap_count": 1,
+    "dl_asset_count": 4,
+    "dl_assets": "92D3AB;938000;939E8E;A5E977",
+    "tilemap_pngs": "tilemaps/Tilemap0x92d3ab.png;tilemaps/Tilemap0x938000.png;tilemaps/Tilemap0x939e8e.png",
+    "assets": [
+      {
+        "address": "92D3AB",
+        "bank": "92",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x92d3ab.png"
+      },
+      {
+        "address": "938000",
+        "bank": "93",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x938000.png"
+      },
+      {
+        "address": "939E8E",
+        "bank": "93",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x939e8e.png"
+      },
+      {
+        "address": "A5E977",
+        "bank": "A5",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 64,
+    "map_id_hex": "40",
+    "label": "MapUnknown40",
+    "table_comment": "",
+    "definition_address": "80B2F3",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "0000",
+    "unknown_0181": "01",
+    "unknown_0182": "01",
+    "tilemap_count": 3,
+    "charactermap_count": 1,
+    "dl_asset_count": 4,
+    "dl_assets": "92D3AB;938000;939E8E;A5ECFB",
+    "tilemap_pngs": "tilemaps/Tilemap0x92d3ab.png;tilemaps/Tilemap0x938000.png;tilemaps/Tilemap0x939e8e.png",
+    "assets": [
+      {
+        "address": "92D3AB",
+        "bank": "92",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x92d3ab.png"
+      },
+      {
+        "address": "938000",
+        "bank": "93",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x938000.png"
+      },
+      {
+        "address": "939E8E",
+        "bank": "93",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x939e8e.png"
+      },
+      {
+        "address": "A5ECFB",
+        "bank": "A5",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 65,
+    "map_id_hex": "41",
+    "label": "MapUnknown41",
+    "table_comment": "",
+    "definition_address": "80B2F3",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "0000",
+    "unknown_0181": "01",
+    "unknown_0182": "01",
+    "tilemap_count": 3,
+    "charactermap_count": 1,
+    "dl_asset_count": 4,
+    "dl_assets": "92D3AB;938000;939E8E;A5F671",
+    "tilemap_pngs": "tilemaps/Tilemap0x92d3ab.png;tilemaps/Tilemap0x938000.png;tilemaps/Tilemap0x939e8e.png",
+    "assets": [
+      {
+        "address": "92D3AB",
+        "bank": "92",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x92d3ab.png"
+      },
+      {
+        "address": "938000",
+        "bank": "93",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x938000.png"
+      },
+      {
+        "address": "939E8E",
+        "bank": "93",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x939e8e.png"
+      },
+      {
+        "address": "A5F671",
+        "bank": "A5",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 66,
+    "map_id_hex": "42",
+    "label": "MapUnknown42",
+    "table_comment": "",
+    "definition_address": "80B339",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "0000",
+    "unknown_0181": "01",
+    "unknown_0182": "01",
+    "tilemap_count": 3,
+    "charactermap_count": 1,
+    "dl_asset_count": 4,
+    "dl_assets": "97B45F;97CD20;97E7A2;A5F95C",
+    "tilemap_pngs": "tilemaps/Tilemap0x97b45f.png;tilemaps/Tilemap0x97cd20.png;tilemaps/Tilemap0x97e7a2.png",
+    "assets": [
+      {
+        "address": "97B45F",
+        "bank": "97",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x97b45f.png"
+      },
+      {
+        "address": "97CD20",
+        "bank": "97",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x97cd20.png"
+      },
+      {
+        "address": "97E7A2",
+        "bank": "97",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x97e7a2.png"
+      },
+      {
+        "address": "A5F95C",
+        "bank": "A5",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 67,
+    "map_id_hex": "43",
+    "label": "MapUnknown43",
+    "table_comment": "",
+    "definition_address": "80B35C",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "0000",
+    "unknown_0181": "01",
+    "unknown_0182": "01",
+    "tilemap_count": 3,
+    "charactermap_count": 1,
+    "dl_asset_count": 4,
+    "dl_assets": "92D3AB;938000;939E8E;A5FBCE",
+    "tilemap_pngs": "tilemaps/Tilemap0x92d3ab.png;tilemaps/Tilemap0x938000.png;tilemaps/Tilemap0x939e8e.png",
+    "assets": [
+      {
+        "address": "92D3AB",
+        "bank": "92",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x92d3ab.png"
+      },
+      {
+        "address": "938000",
+        "bank": "93",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x938000.png"
+      },
+      {
+        "address": "939E8E",
+        "bank": "93",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x939e8e.png"
+      },
+      {
+        "address": "A5FBCE",
+        "bank": "A5",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 68,
+    "map_id_hex": "44",
+    "label": "MapUnknown44",
+    "table_comment": "",
+    "definition_address": "80B37F",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "0000",
+    "unknown_0181": "01",
+    "unknown_0182": "01",
+    "tilemap_count": 3,
+    "charactermap_count": 1,
+    "dl_asset_count": 4,
+    "dl_assets": "92D3AB;938000;939E8E;A68000",
+    "tilemap_pngs": "tilemaps/Tilemap0x92d3ab.png;tilemaps/Tilemap0x938000.png;tilemaps/Tilemap0x939e8e.png",
+    "assets": [
+      {
+        "address": "92D3AB",
+        "bank": "92",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x92d3ab.png"
+      },
+      {
+        "address": "938000",
+        "bank": "93",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x938000.png"
+      },
+      {
+        "address": "939E8E",
+        "bank": "93",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x939e8e.png"
+      },
+      {
+        "address": "A68000",
+        "bank": "A6",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 69,
+    "map_id_hex": "45",
+    "label": "MapUnknown45",
+    "table_comment": "",
+    "definition_address": "80B3A2",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "0000",
+    "unknown_0181": "01",
+    "unknown_0182": "01",
+    "tilemap_count": 3,
+    "charactermap_count": 1,
+    "dl_asset_count": 4,
+    "dl_assets": "92D3AB;938000;939E8E;A68229",
+    "tilemap_pngs": "tilemaps/Tilemap0x92d3ab.png;tilemaps/Tilemap0x938000.png;tilemaps/Tilemap0x939e8e.png",
+    "assets": [
+      {
+        "address": "92D3AB",
+        "bank": "92",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x92d3ab.png"
+      },
+      {
+        "address": "938000",
+        "bank": "93",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x938000.png"
+      },
+      {
+        "address": "939E8E",
+        "bank": "93",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x939e8e.png"
+      },
+      {
+        "address": "A68229",
+        "bank": "A6",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 70,
+    "map_id_hex": "46",
+    "label": "MapUnknown46",
+    "table_comment": "",
+    "definition_address": "80B3C5",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "0000",
+    "unknown_0181": "01",
+    "unknown_0182": "01",
+    "tilemap_count": 3,
+    "charactermap_count": 1,
+    "dl_asset_count": 4,
+    "dl_assets": "92D3AB;938000;939E8E;A68433",
+    "tilemap_pngs": "tilemaps/Tilemap0x92d3ab.png;tilemaps/Tilemap0x938000.png;tilemaps/Tilemap0x939e8e.png",
+    "assets": [
+      {
+        "address": "92D3AB",
+        "bank": "92",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x92d3ab.png"
+      },
+      {
+        "address": "938000",
+        "bank": "93",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x938000.png"
+      },
+      {
+        "address": "939E8E",
+        "bank": "93",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x939e8e.png"
+      },
+      {
+        "address": "A68433",
+        "bank": "A6",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 71,
+    "map_id_hex": "47",
+    "label": "MapUnknown47",
+    "table_comment": "",
+    "definition_address": "80B3E8",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "0000",
+    "unknown_0181": "01",
+    "unknown_0182": "01",
+    "tilemap_count": 3,
+    "charactermap_count": 1,
+    "dl_asset_count": 4,
+    "dl_assets": "92D3AB;938000;939E8E;A6867E",
+    "tilemap_pngs": "tilemaps/Tilemap0x92d3ab.png;tilemaps/Tilemap0x938000.png;tilemaps/Tilemap0x939e8e.png",
+    "assets": [
+      {
+        "address": "92D3AB",
+        "bank": "92",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x92d3ab.png"
+      },
+      {
+        "address": "938000",
+        "bank": "93",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x938000.png"
+      },
+      {
+        "address": "939E8E",
+        "bank": "93",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x939e8e.png"
+      },
+      {
+        "address": "A6867E",
+        "bank": "A6",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 72,
+    "map_id_hex": "48",
+    "label": "MapUnknown48",
+    "table_comment": "",
+    "definition_address": "80B40B",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "0000",
+    "unknown_0181": "01",
+    "unknown_0182": "01",
+    "tilemap_count": 3,
+    "charactermap_count": 1,
+    "dl_asset_count": 4,
+    "dl_assets": "9CCBA3;9CE37D;9D8000;A68864",
+    "tilemap_pngs": "tilemaps/Tilemap0x9d8000.png",
+    "assets": [
+      {
+        "address": "9CCBA3",
+        "bank": "9C",
+        "classification": "tilemap/background_compressed",
+        "preview_png": ""
+      },
+      {
+        "address": "9CE37D",
+        "bank": "9C",
+        "classification": "tilemap/background_compressed",
+        "preview_png": ""
+      },
+      {
+        "address": "9D8000",
+        "bank": "9D",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9d8000.png"
+      },
+      {
+        "address": "A68864",
+        "bank": "A6",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 73,
+    "map_id_hex": "49",
+    "label": "MapUnknown49",
+    "table_comment": "",
+    "definition_address": "80B42E",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "0000",
+    "unknown_0181": "01",
+    "unknown_0182": "01",
+    "tilemap_count": 3,
+    "charactermap_count": 1,
+    "dl_asset_count": 4,
+    "dl_assets": "92D3AB;938000;939E8E;A5F059",
+    "tilemap_pngs": "tilemaps/Tilemap0x92d3ab.png;tilemaps/Tilemap0x938000.png;tilemaps/Tilemap0x939e8e.png",
+    "assets": [
+      {
+        "address": "92D3AB",
+        "bank": "92",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x92d3ab.png"
+      },
+      {
+        "address": "938000",
+        "bank": "93",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x938000.png"
+      },
+      {
+        "address": "939E8E",
+        "bank": "93",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x939e8e.png"
+      },
+      {
+        "address": "A5F059",
+        "bank": "A5",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 74,
+    "map_id_hex": "4A",
+    "label": "MapUnknown4A",
+    "table_comment": "",
+    "definition_address": "80B451",
+    "graphic_preset": "00",
+    "screen_config_or_flag": "0000",
+    "unknown_0181": "01",
+    "unknown_0182": "01",
+    "tilemap_count": 3,
+    "charactermap_count": 1,
+    "dl_asset_count": 4,
+    "dl_assets": "92D3AB;938000;939E8E;A5F45A",
+    "tilemap_pngs": "tilemaps/Tilemap0x92d3ab.png;tilemaps/Tilemap0x938000.png;tilemaps/Tilemap0x939e8e.png",
+    "assets": [
+      {
+        "address": "92D3AB",
+        "bank": "92",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x92d3ab.png"
+      },
+      {
+        "address": "938000",
+        "bank": "93",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x938000.png"
+      },
+      {
+        "address": "939E8E",
+        "bank": "93",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x939e8e.png"
+      },
+      {
+        "address": "A5F45A",
+        "bank": "A5",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 75,
+    "map_id_hex": "4B",
+    "label": "MapUnknown4B",
+    "table_comment": "",
+    "definition_address": "80B474",
+    "graphic_preset": "05",
+    "screen_config_or_flag": "0000",
+    "unknown_0181": "02",
+    "unknown_0182": "02",
+    "tilemap_count": 4,
+    "charactermap_count": 1,
+    "dl_asset_count": 5,
+    "dl_assets": "9EEB3D;A08000;A088E9;A09232;A690A6",
+    "tilemap_pngs": "tilemaps/Tilemap0x9eeb3d.png;tilemaps/Tilemap0xa08000.png;tilemaps/Tilemap0xa088e9.png;tilemaps/Tilemap0xa09232.png",
+    "assets": [
+      {
+        "address": "9EEB3D",
+        "bank": "9E",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9eeb3d.png"
+      },
+      {
+        "address": "A08000",
+        "bank": "A0",
+        "classification": "character_graphics_compressed",
+        "preview_png": "tilemaps/Tilemap0xa08000.png"
+      },
+      {
+        "address": "A088E9",
+        "bank": "A0",
+        "classification": "character_graphics_compressed",
+        "preview_png": "tilemaps/Tilemap0xa088e9.png"
+      },
+      {
+        "address": "A09232",
+        "bank": "A0",
+        "classification": "character_graphics_compressed",
+        "preview_png": "tilemaps/Tilemap0xa09232.png"
+      },
+      {
+        "address": "A690A6",
+        "bank": "A6",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 76,
+    "map_id_hex": "4C",
+    "label": "MapUnknown4C",
+    "table_comment": "",
+    "definition_address": "80B49C",
+    "graphic_preset": "05",
+    "screen_config_or_flag": "0000",
+    "unknown_0181": "02",
+    "unknown_0182": "02",
+    "tilemap_count": 4,
+    "charactermap_count": 1,
+    "dl_asset_count": 5,
+    "dl_assets": "9EEB3D;A08000;A088E9;A09232;A690A6",
+    "tilemap_pngs": "tilemaps/Tilemap0x9eeb3d.png;tilemaps/Tilemap0xa08000.png;tilemaps/Tilemap0xa088e9.png;tilemaps/Tilemap0xa09232.png",
+    "assets": [
+      {
+        "address": "9EEB3D",
+        "bank": "9E",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9eeb3d.png"
+      },
+      {
+        "address": "A08000",
+        "bank": "A0",
+        "classification": "character_graphics_compressed",
+        "preview_png": "tilemaps/Tilemap0xa08000.png"
+      },
+      {
+        "address": "A088E9",
+        "bank": "A0",
+        "classification": "character_graphics_compressed",
+        "preview_png": "tilemaps/Tilemap0xa088e9.png"
+      },
+      {
+        "address": "A09232",
+        "bank": "A0",
+        "classification": "character_graphics_compressed",
+        "preview_png": "tilemaps/Tilemap0xa09232.png"
+      },
+      {
+        "address": "A690A6",
+        "bank": "A6",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 77,
+    "map_id_hex": "4D",
+    "label": "MapUnknown4D",
+    "table_comment": "",
+    "definition_address": "80B4C4",
+    "graphic_preset": "05",
+    "screen_config_or_flag": "0000",
+    "unknown_0181": "02",
+    "unknown_0182": "02",
+    "tilemap_count": 4,
+    "charactermap_count": 1,
+    "dl_asset_count": 5,
+    "dl_assets": "9EEB3D;A08000;A088E9;A09232;A690A6",
+    "tilemap_pngs": "tilemaps/Tilemap0x9eeb3d.png;tilemaps/Tilemap0xa08000.png;tilemaps/Tilemap0xa088e9.png;tilemaps/Tilemap0xa09232.png",
+    "assets": [
+      {
+        "address": "9EEB3D",
+        "bank": "9E",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9eeb3d.png"
+      },
+      {
+        "address": "A08000",
+        "bank": "A0",
+        "classification": "character_graphics_compressed",
+        "preview_png": "tilemaps/Tilemap0xa08000.png"
+      },
+      {
+        "address": "A088E9",
+        "bank": "A0",
+        "classification": "character_graphics_compressed",
+        "preview_png": "tilemaps/Tilemap0xa088e9.png"
+      },
+      {
+        "address": "A09232",
+        "bank": "A0",
+        "classification": "character_graphics_compressed",
+        "preview_png": "tilemaps/Tilemap0xa09232.png"
+      },
+      {
+        "address": "A690A6",
+        "bank": "A6",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 78,
+    "map_id_hex": "4E",
+    "label": "MapUnknown4E",
+    "table_comment": "",
+    "definition_address": "80B4EC",
+    "graphic_preset": "05",
+    "screen_config_or_flag": "0000",
+    "unknown_0181": "02",
+    "unknown_0182": "02",
+    "tilemap_count": 4,
+    "charactermap_count": 1,
+    "dl_asset_count": 5,
+    "dl_assets": "9EEB3D;A08000;A088E9;A09232;A690A6",
+    "tilemap_pngs": "tilemaps/Tilemap0x9eeb3d.png;tilemaps/Tilemap0xa08000.png;tilemaps/Tilemap0xa088e9.png;tilemaps/Tilemap0xa09232.png",
+    "assets": [
+      {
+        "address": "9EEB3D",
+        "bank": "9E",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9eeb3d.png"
+      },
+      {
+        "address": "A08000",
+        "bank": "A0",
+        "classification": "character_graphics_compressed",
+        "preview_png": "tilemaps/Tilemap0xa08000.png"
+      },
+      {
+        "address": "A088E9",
+        "bank": "A0",
+        "classification": "character_graphics_compressed",
+        "preview_png": "tilemaps/Tilemap0xa088e9.png"
+      },
+      {
+        "address": "A09232",
+        "bank": "A0",
+        "classification": "character_graphics_compressed",
+        "preview_png": "tilemaps/Tilemap0xa09232.png"
+      },
+      {
+        "address": "A690A6",
+        "bank": "A6",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 79,
+    "map_id_hex": "4F",
+    "label": "MapUnknown4F",
+    "table_comment": "",
+    "definition_address": "80B514",
+    "graphic_preset": "05",
+    "screen_config_or_flag": "0000",
+    "unknown_0181": "02",
+    "unknown_0182": "02",
+    "tilemap_count": 3,
+    "charactermap_count": 1,
+    "dl_asset_count": 4,
+    "dl_assets": "9EEB3D;A08000;A088E9;A694EE",
+    "tilemap_pngs": "tilemaps/Tilemap0x9eeb3d.png;tilemaps/Tilemap0xa08000.png;tilemaps/Tilemap0xa088e9.png",
+    "assets": [
+      {
+        "address": "9EEB3D",
+        "bank": "9E",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9eeb3d.png"
+      },
+      {
+        "address": "A08000",
+        "bank": "A0",
+        "classification": "character_graphics_compressed",
+        "preview_png": "tilemaps/Tilemap0xa08000.png"
+      },
+      {
+        "address": "A088E9",
+        "bank": "A0",
+        "classification": "character_graphics_compressed",
+        "preview_png": "tilemaps/Tilemap0xa088e9.png"
+      },
+      {
+        "address": "A694EE",
+        "bank": "A6",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 80,
+    "map_id_hex": "50",
+    "label": "MapUnknown50",
+    "table_comment": "",
+    "definition_address": "80B537",
+    "graphic_preset": "05",
+    "screen_config_or_flag": "0000",
+    "unknown_0181": "02",
+    "unknown_0182": "02",
+    "tilemap_count": 4,
+    "charactermap_count": 1,
+    "dl_asset_count": 5,
+    "dl_assets": "9EEB3D;A08000;A088E9;A0E682;A694EE",
+    "tilemap_pngs": "tilemaps/Tilemap0x9eeb3d.png;tilemaps/Tilemap0xa08000.png;tilemaps/Tilemap0xa088e9.png;tilemaps/Tilemap0xa0e682.png",
+    "assets": [
+      {
+        "address": "9EEB3D",
+        "bank": "9E",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9eeb3d.png"
+      },
+      {
+        "address": "A08000",
+        "bank": "A0",
+        "classification": "character_graphics_compressed",
+        "preview_png": "tilemaps/Tilemap0xa08000.png"
+      },
+      {
+        "address": "A088E9",
+        "bank": "A0",
+        "classification": "character_graphics_compressed",
+        "preview_png": "tilemaps/Tilemap0xa088e9.png"
+      },
+      {
+        "address": "A0E682",
+        "bank": "A0",
+        "classification": "character_graphics_compressed",
+        "preview_png": "tilemaps/Tilemap0xa0e682.png"
+      },
+      {
+        "address": "A694EE",
+        "bank": "A6",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 81,
+    "map_id_hex": "51",
+    "label": "MapUnknown51",
+    "table_comment": "",
+    "definition_address": "80B55F",
+    "graphic_preset": "05",
+    "screen_config_or_flag": "0000",
+    "unknown_0181": "02",
+    "unknown_0182": "02",
+    "tilemap_count": 4,
+    "charactermap_count": 1,
+    "dl_asset_count": 5,
+    "dl_assets": "9EEB3D;A08000;A088E9;A0AB1E;A694EE",
+    "tilemap_pngs": "tilemaps/Tilemap0x9eeb3d.png;tilemaps/Tilemap0xa08000.png;tilemaps/Tilemap0xa088e9.png;tilemaps/Tilemap0xa0ab1e.png",
+    "assets": [
+      {
+        "address": "9EEB3D",
+        "bank": "9E",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9eeb3d.png"
+      },
+      {
+        "address": "A08000",
+        "bank": "A0",
+        "classification": "character_graphics_compressed",
+        "preview_png": "tilemaps/Tilemap0xa08000.png"
+      },
+      {
+        "address": "A088E9",
+        "bank": "A0",
+        "classification": "character_graphics_compressed",
+        "preview_png": "tilemaps/Tilemap0xa088e9.png"
+      },
+      {
+        "address": "A0AB1E",
+        "bank": "A0",
+        "classification": "character_graphics_compressed",
+        "preview_png": "tilemaps/Tilemap0xa0ab1e.png"
+      },
+      {
+        "address": "A694EE",
+        "bank": "A6",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 82,
+    "map_id_hex": "52",
+    "label": "MapUnknown52",
+    "table_comment": "",
+    "definition_address": "80B587",
+    "graphic_preset": "05",
+    "screen_config_or_flag": "0000",
+    "unknown_0181": "02",
+    "unknown_0182": "02",
+    "tilemap_count": 4,
+    "charactermap_count": 1,
+    "dl_asset_count": 5,
+    "dl_assets": "9EEB3D;A08000;A088E9;A09232;A694EE",
+    "tilemap_pngs": "tilemaps/Tilemap0x9eeb3d.png;tilemaps/Tilemap0xa08000.png;tilemaps/Tilemap0xa088e9.png;tilemaps/Tilemap0xa09232.png",
+    "assets": [
+      {
+        "address": "9EEB3D",
+        "bank": "9E",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9eeb3d.png"
+      },
+      {
+        "address": "A08000",
+        "bank": "A0",
+        "classification": "character_graphics_compressed",
+        "preview_png": "tilemaps/Tilemap0xa08000.png"
+      },
+      {
+        "address": "A088E9",
+        "bank": "A0",
+        "classification": "character_graphics_compressed",
+        "preview_png": "tilemaps/Tilemap0xa088e9.png"
+      },
+      {
+        "address": "A09232",
+        "bank": "A0",
+        "classification": "character_graphics_compressed",
+        "preview_png": "tilemaps/Tilemap0xa09232.png"
+      },
+      {
+        "address": "A694EE",
+        "bank": "A6",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 83,
+    "map_id_hex": "53",
+    "label": "MapUnknown53",
+    "table_comment": "",
+    "definition_address": "80B5AF",
+    "graphic_preset": "05",
+    "screen_config_or_flag": "0000",
+    "unknown_0181": "02",
+    "unknown_0182": "02",
+    "tilemap_count": 3,
+    "charactermap_count": 1,
+    "dl_asset_count": 4,
+    "dl_assets": "9EEB3D;A08000;A088E9;A69996",
+    "tilemap_pngs": "tilemaps/Tilemap0x9eeb3d.png;tilemaps/Tilemap0xa08000.png;tilemaps/Tilemap0xa088e9.png",
+    "assets": [
+      {
+        "address": "9EEB3D",
+        "bank": "9E",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9eeb3d.png"
+      },
+      {
+        "address": "A08000",
+        "bank": "A0",
+        "classification": "character_graphics_compressed",
+        "preview_png": "tilemaps/Tilemap0xa08000.png"
+      },
+      {
+        "address": "A088E9",
+        "bank": "A0",
+        "classification": "character_graphics_compressed",
+        "preview_png": "tilemaps/Tilemap0xa088e9.png"
+      },
+      {
+        "address": "A69996",
+        "bank": "A6",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 84,
+    "map_id_hex": "54",
+    "label": "MapUnknown54",
+    "table_comment": "",
+    "definition_address": "80B5D2",
+    "graphic_preset": "05",
+    "screen_config_or_flag": "0000",
+    "unknown_0181": "02",
+    "unknown_0182": "02",
+    "tilemap_count": 3,
+    "charactermap_count": 1,
+    "dl_asset_count": 4,
+    "dl_assets": "9EEB3D;A08000;A088E9;A69996",
+    "tilemap_pngs": "tilemaps/Tilemap0x9eeb3d.png;tilemaps/Tilemap0xa08000.png;tilemaps/Tilemap0xa088e9.png",
+    "assets": [
+      {
+        "address": "9EEB3D",
+        "bank": "9E",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9eeb3d.png"
+      },
+      {
+        "address": "A08000",
+        "bank": "A0",
+        "classification": "character_graphics_compressed",
+        "preview_png": "tilemaps/Tilemap0xa08000.png"
+      },
+      {
+        "address": "A088E9",
+        "bank": "A0",
+        "classification": "character_graphics_compressed",
+        "preview_png": "tilemaps/Tilemap0xa088e9.png"
+      },
+      {
+        "address": "A69996",
+        "bank": "A6",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 85,
+    "map_id_hex": "55",
+    "label": "MapUnknown55",
+    "table_comment": "",
+    "definition_address": "80B5F5",
+    "graphic_preset": "05",
+    "screen_config_or_flag": "0000",
+    "unknown_0181": "02",
+    "unknown_0182": "02",
+    "tilemap_count": 3,
+    "charactermap_count": 1,
+    "dl_asset_count": 4,
+    "dl_assets": "9EEB3D;A08000;A088E9;A69996",
+    "tilemap_pngs": "tilemaps/Tilemap0x9eeb3d.png;tilemaps/Tilemap0xa08000.png;tilemaps/Tilemap0xa088e9.png",
+    "assets": [
+      {
+        "address": "9EEB3D",
+        "bank": "9E",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9eeb3d.png"
+      },
+      {
+        "address": "A08000",
+        "bank": "A0",
+        "classification": "character_graphics_compressed",
+        "preview_png": "tilemaps/Tilemap0xa08000.png"
+      },
+      {
+        "address": "A088E9",
+        "bank": "A0",
+        "classification": "character_graphics_compressed",
+        "preview_png": "tilemaps/Tilemap0xa088e9.png"
+      },
+      {
+        "address": "A69996",
+        "bank": "A6",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 86,
+    "map_id_hex": "56",
+    "label": "MapUnknown56",
+    "table_comment": "",
+    "definition_address": "80B618",
+    "graphic_preset": "05",
+    "screen_config_or_flag": "0000",
+    "unknown_0181": "02",
+    "unknown_0182": "02",
+    "tilemap_count": 4,
+    "charactermap_count": 1,
+    "dl_asset_count": 5,
+    "dl_assets": "9EEB3D;A08000;A088E9;A0CAAF;A69996",
+    "tilemap_pngs": "tilemaps/Tilemap0x9eeb3d.png;tilemaps/Tilemap0xa08000.png;tilemaps/Tilemap0xa088e9.png;tilemaps/Tilemap0xa0caaf.png",
+    "assets": [
+      {
+        "address": "9EEB3D",
+        "bank": "9E",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9eeb3d.png"
+      },
+      {
+        "address": "A08000",
+        "bank": "A0",
+        "classification": "character_graphics_compressed",
+        "preview_png": "tilemaps/Tilemap0xa08000.png"
+      },
+      {
+        "address": "A088E9",
+        "bank": "A0",
+        "classification": "character_graphics_compressed",
+        "preview_png": "tilemaps/Tilemap0xa088e9.png"
+      },
+      {
+        "address": "A0CAAF",
+        "bank": "A0",
+        "classification": "character_graphics_compressed",
+        "preview_png": "tilemaps/Tilemap0xa0caaf.png"
+      },
+      {
+        "address": "A69996",
+        "bank": "A6",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 87,
+    "map_id_hex": "57",
+    "label": "LayerRain",
+    "table_comment": "",
+    "definition_address": "80B640",
+    "graphic_preset": "",
+    "screen_config_or_flag": "",
+    "unknown_0181": "",
+    "unknown_0182": "",
+    "tilemap_count": "",
+    "charactermap_count": "",
+    "dl_asset_count": 2,
+    "dl_assets": "928000;A48000",
+    "tilemap_pngs": "tilemaps/Tilemap0x928000.png",
+    "assets": [
+      {
+        "address": "928000",
+        "bank": "92",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x928000.png"
+      },
+      {
+        "address": "A48000",
+        "bank": "A4",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 88,
+    "map_id_hex": "58",
+    "label": "LayerClouds",
+    "table_comment": "",
+    "definition_address": "80B64E",
+    "graphic_preset": "",
+    "screen_config_or_flag": "",
+    "unknown_0181": "",
+    "unknown_0182": "",
+    "tilemap_count": "",
+    "charactermap_count": "",
+    "dl_asset_count": 2,
+    "dl_assets": "97B11A;A4C3E2",
+    "tilemap_pngs": "tilemaps/Tilemap0x97b11a.png",
+    "assets": [
+      {
+        "address": "97B11A",
+        "bank": "97",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x97b11a.png"
+      },
+      {
+        "address": "A4C3E2",
+        "bank": "A4",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 89,
+    "map_id_hex": "59",
+    "label": "LayerSnow",
+    "table_comment": "",
+    "definition_address": "80B65C",
+    "graphic_preset": "",
+    "screen_config_or_flag": "",
+    "unknown_0181": "",
+    "unknown_0182": "",
+    "tilemap_count": "",
+    "charactermap_count": "",
+    "dl_asset_count": 2,
+    "dl_assets": "9E9C6D;A5C955",
+    "tilemap_pngs": "tilemaps/Tilemap0x9e9c6d.png",
+    "assets": [
+      {
+        "address": "9E9C6D",
+        "bank": "9E",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9e9c6d.png"
+      },
+      {
+        "address": "A5C955",
+        "bank": "A5",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 90,
+    "map_id_hex": "5A",
+    "label": "LayerHeavySnow",
+    "table_comment": "",
+    "definition_address": "80B66A",
+    "graphic_preset": "",
+    "screen_config_or_flag": "",
+    "unknown_0181": "",
+    "unknown_0182": "",
+    "tilemap_count": "",
+    "charactermap_count": "",
+    "dl_asset_count": 2,
+    "dl_assets": "9B8441;A5A3D5",
+    "tilemap_pngs": "tilemaps/Tilemap0x9b8441.png",
+    "assets": [
+      {
+        "address": "9B8441",
+        "bank": "9B",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9b8441.png"
+      },
+      {
+        "address": "A5A3D5",
+        "bank": "A5",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 91,
+    "map_id_hex": "5B",
+    "label": "IntroFarmScroll",
+    "table_comment": "",
+    "definition_address": "80B678",
+    "graphic_preset": "02",
+    "screen_config_or_flag": "02",
+    "unknown_0181": "04",
+    "unknown_0182": "02",
+    "tilemap_count": null,
+    "charactermap_count": null,
+    "dl_asset_count": 6,
+    "dl_assets": "9F8000;9F946C;9FAA75;9FC04C;A5CD88;A5D44C",
+    "tilemap_pngs": "",
+    "assets": [
+      {
+        "address": "9F8000",
+        "bank": "9F",
+        "classification": "tilemap/background_compressed",
+        "preview_png": ""
+      },
+      {
+        "address": "9F946C",
+        "bank": "9F",
+        "classification": "tilemap/background_compressed",
+        "preview_png": ""
+      },
+      {
+        "address": "9FAA75",
+        "bank": "9F",
+        "classification": "tilemap/background_compressed",
+        "preview_png": ""
+      },
+      {
+        "address": "9FC04C",
+        "bank": "9F",
+        "classification": "tilemap/background_compressed",
+        "preview_png": ""
+      },
+      {
+        "address": "A5CD88",
+        "bank": "A5",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      },
+      {
+        "address": "A5D44C",
+        "bank": "A5",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 92,
+    "map_id_hex": "5C",
+    "label": "HarvestMoonLogo",
+    "table_comment": "",
+    "definition_address": "80B69A",
+    "graphic_preset": "",
+    "screen_config_or_flag": "",
+    "unknown_0181": "",
+    "unknown_0182": "",
+    "tilemap_count": "",
+    "charactermap_count": "",
+    "dl_asset_count": 1,
+    "dl_assets": "A5D94A",
+    "tilemap_pngs": "",
+    "assets": [
+      {
+        "address": "A5D94A",
+        "bank": "A5",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 93,
+    "map_id_hex": "5D",
+    "label": "NatsumeLogo",
+    "table_comment": "",
+    "definition_address": "80B6A3",
+    "graphic_preset": "",
+    "screen_config_or_flag": "",
+    "unknown_0181": "",
+    "unknown_0182": "",
+    "tilemap_count": "",
+    "charactermap_count": "",
+    "dl_asset_count": 2,
+    "dl_assets": "9FEF97;A5DE84",
+    "tilemap_pngs": "",
+    "assets": [
+      {
+        "address": "9FEF97",
+        "bank": "9F",
+        "classification": "tilemap/background_compressed",
+        "preview_png": ""
+      },
+      {
+        "address": "A5DE84",
+        "bank": "A5",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 94,
+    "map_id_hex": "5E",
+    "label": "MenuScreenBackgrounds",
+    "table_comment": "",
+    "definition_address": "80B6B1",
+    "graphic_preset": "02",
+    "screen_config_or_flag": "02",
+    "unknown_0181": "04",
+    "unknown_0182": "02",
+    "tilemap_count": null,
+    "charactermap_count": null,
+    "dl_asset_count": 6,
+    "dl_assets": "9ABF97;9AC489;9ACB41;9AD357;A58000;A5970F",
+    "tilemap_pngs": "tilemaps/Tilemap0x9abf97.png;tilemaps/Tilemap0x9ac489.png;tilemaps/Tilemap0x9acb41.png;tilemaps/Tilemap0x9ad357.png",
+    "assets": [
+      {
+        "address": "9ABF97",
+        "bank": "9A",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9abf97.png"
+      },
+      {
+        "address": "9AC489",
+        "bank": "9A",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9ac489.png"
+      },
+      {
+        "address": "9ACB41",
+        "bank": "9A",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9acb41.png"
+      },
+      {
+        "address": "9AD357",
+        "bank": "9A",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9ad357.png"
+      },
+      {
+        "address": "A58000",
+        "bank": "A5",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      },
+      {
+        "address": "A5970F",
+        "bank": "A5",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  },
+  {
+    "map_id_dec": 95,
+    "map_id_hex": "5F",
+    "label": "MenuCharacters",
+    "table_comment": "",
+    "definition_address": "80B6D3",
+    "graphic_preset": "02",
+    "screen_config_or_flag": "02",
+    "unknown_0181": "04",
+    "unknown_0182": "02",
+    "tilemap_count": null,
+    "charactermap_count": null,
+    "dl_asset_count": 6,
+    "dl_assets": "9ABF97;9AC489;9ACB41;9AD357;A58D8E;A5970F",
+    "tilemap_pngs": "tilemaps/Tilemap0x9abf97.png;tilemaps/Tilemap0x9ac489.png;tilemaps/Tilemap0x9acb41.png;tilemaps/Tilemap0x9ad357.png",
+    "assets": [
+      {
+        "address": "9ABF97",
+        "bank": "9A",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9abf97.png"
+      },
+      {
+        "address": "9AC489",
+        "bank": "9A",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9ac489.png"
+      },
+      {
+        "address": "9ACB41",
+        "bank": "9A",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9acb41.png"
+      },
+      {
+        "address": "9AD357",
+        "bank": "9A",
+        "classification": "tilemap/background_compressed",
+        "preview_png": "tilemaps/Tilemap0x9ad357.png"
+      },
+      {
+        "address": "A58D8E",
+        "bank": "A5",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      },
+      {
+        "address": "A5970F",
+        "bank": "A5",
+        "classification": "character_graphics_compressed",
+        "preview_png": ""
+      }
+    ]
+  }
+]

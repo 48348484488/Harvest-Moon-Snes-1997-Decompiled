@@ -1,0 +1,17 @@
+range,start,end,size,name,notes
+$0000-$001A,0,26,27,Scalar 8-bit early fields,"Date, seed/feed counts, selected tool, stamina and misc flags."
+$002E,46,46,1,Active/latest-slot marker byte,Temporarily zeroed for checksum; values 0/1 are used by slot-state flow.
+$002F-$0030,47,48,2,Save checksum,16-bit additive checksum over $0000-$0FFF with $002E and $002F-$0030 zeroed first.
+"$0031,$0033,$0035,$0037",49,55,7,Shipped crop counters,Stored at separated odd offsets.
+$0039-$003B,57,59,3,Money,24-bit money value split into !moneyL and !moneyH.
+$003C-$003F,60,63,4,FARM signature,"ASCII F,A,R,M. Used as a basic slot validity marker."
+$0040-$007E,64,126,63,16-bit counters/hearts/family/dog state,"Wood/grass, crop totals, bachelorette hearts, persistent flags, dog position, happiness, pregnancy/kids."
+$0080-$0083,128,131,4,Player name,Four character bytes.
+$0084-$0087,132,135,4,Tool shed bitfields,Rows of stored tools/seeds/items; see pass07 report.
+$0088-$008B,136,139,4,Dog name,Four character bytes.
+$008C-$008F,140,143,4,Horse name,Four character bytes.
+$0090-$0093,144,147,4,Kid 1 name,Four character bytes.
+$0094-$0097,148,151,4,Kid 2 name,Four character bytes.
+$0098-$00FF,152,255,104,Chicken array,13 chickens x 8 bytes = 104 bytes.
+$0100-$01BF,256,447,192,Cow array,12 cows x 16 bytes = 192 bytes.
+$01C0-$0FFF,448,4095,3648,Farm map/tile state block,Copied from !farm_map_array index $00C0-$0EFF into SRAM $01C0-$0FFF.

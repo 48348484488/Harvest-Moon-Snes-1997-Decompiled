@@ -1,0 +1,6 @@
+opcode,name,before,after,reason
+$00,PlayAudioOrMusic,1,2,"Handler reads one audio/control byte and advances one extra stream byte; that skipped byte is inline control/padding, not a new opcode."
+$39,SetCCObjectParam6,4,3,Handler uses one state/mask byte plus a 16-bit timer/value; previous model swallowed the next command byte.
+$3A,SetCCObjectParam7,4,3,Same slot-state/timer pattern as $39; previous model swallowed the next command byte.
+$3F,DropItemAnimation,1,0,Handler only advances past the opcode and sets player_action=$0005; following byte is the next EventCmd.
+$49,SetCCObjectParam9,3,2,Handler reads a 16-bit visual/state pointer into slot+$33; there is no third mode byte.

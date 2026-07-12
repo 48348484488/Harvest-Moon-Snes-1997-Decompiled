@@ -1,0 +1,73 @@
+group,entries,dominant_owner_type,dominant_count,top_owner_types
+$00,136,animal_livestock,118,animal_livestock:118 object_visual_setup:16 carpenter_house_upgrade:2
+$01,16,festival_event,7,festival_event:7 bachelorette_exact:7 carpenter_house_upgrade:1 animal_livestock:1
+$02,16,family_romance_general,11,family_romance_general:11 bachelorette_exact:3 wife_family:1 family_child:1
+$03,16,family_romance_general,13,family_romance_general:13 romance_marriage_item:1 bachelorette_exact:1 family_child:1
+$04,16,farm_crop_weather,8,farm_crop_weather:8 bachelorette_exact:6 family_child:1 weather_farm_warning:1
+$05,16,family_romance_general,15,family_romance_general:15 bachelorette_exact:1
+$06,16,farm_crop_weather,9,farm_crop_weather:9 church_priest:2 animal_livestock:2 weather_farm_warning:2 family_child:1
+$07,16,farm_crop_weather,8,farm_crop_weather:8 bachelorette_exact:6 wife_family:1 weather_farm_warning:1
+$08,16,farm_crop_weather,8,farm_crop_weather:8 animal_livestock:3 church_priest:1 romance_general:1 weather_farm_warning:1
+$09,16,family_romance_general,16,family_romance_general:16
+$0A,16,family_romance_general,16,family_romance_general:16
+$0B,16,family_romance_general,13,family_romance_general:13 sign_manual_bookshelf:2 animal_livestock:1
+$0C,16,family_romance_general,16,family_romance_general:16
+$0D,16,family_romance_general,16,family_romance_general:16
+$0E,16,family_romance_general,16,family_romance_general:16
+$0F,16,family_romance_general,16,family_romance_general:16
+$10,16,family_romance_general,16,family_romance_general:16
+$11,16,family_romance_general,16,family_romance_general:16
+$12,16,family_romance_general,16,family_romance_general:16
+$13,16,family_romance_general,16,family_romance_general:16
+$14,16,family_romance_general,16,family_romance_general:16
+$15,16,family_romance_general,15,family_romance_general:15 animal_livestock:1
+$16,16,family_romance_general,16,family_romance_general:16
+$17,16,family_romance_general,16,family_romance_general:16
+$18,16,family_romance_general,16,family_romance_general:16
+$19,16,family_romance_general,16,family_romance_general:16
+$1A,16,family_romance_general,16,family_romance_general:16
+$1B,16,family_romance_general,16,family_romance_general:16
+$1C,16,family_romance_general,16,family_romance_general:16
+$1D,16,family_romance_general,16,family_romance_general:16
+$1E,16,family_romance_general,16,family_romance_general:16
+$1F,16,animal_livestock,16,animal_livestock:16
+$20,16,family_romance_general,16,family_romance_general:16
+$21,16,family_romance_general,16,family_romance_general:16
+$22,16,family_romance_general,16,family_romance_general:16
+$23,16,family_romance_general,16,family_romance_general:16
+$24,16,festival_event,13,festival_event:13 sign_manual_bookshelf:2 animal_livestock:1
+$25,16,family_romance_general,16,family_romance_general:16
+$26,16,family_romance_general,15,family_romance_general:15 animal_livestock:1
+$27,16,family_romance_general,16,family_romance_general:16
+$28,16,family_romance_general,16,family_romance_general:16
+$29,16,family_romance_general,16,family_romance_general:16
+$2A,16,family_romance_general,15,family_romance_general:15 animal_livestock:1
+$2B,16,family_romance_general,15,family_romance_general:15 animal_livestock:1
+$2C,16,family_romance_general,15,family_romance_general:15 animal_livestock:1
+$2D,16,family_romance_general,15,family_romance_general:15 animal_livestock:1
+$2E,16,family_romance_general,16,family_romance_general:16
+$2F,16,family_romance_general,16,family_romance_general:16
+$30,16,shipping_or_status,16,shipping_or_status:16
+$31,16,family_romance_general,16,family_romance_general:16
+$32,16,family_romance_general,16,family_romance_general:16
+$33,16,family_romance_general,16,family_romance_general:16
+$34,16,animal_livestock,15,animal_livestock:15 family_romance_general:1
+$35,16,family_romance_general,16,family_romance_general:16
+$36,16,family_romance_general,16,family_romance_general:16
+$37,16,family_romance_general,16,family_romance_general:16
+$38,16,animal_livestock,16,animal_livestock:16
+$39,16,family_romance_general,16,family_romance_general:16
+$3A,16,family_romance_general,16,family_romance_general:16
+$3B,16,family_romance_general,16,family_romance_general:16
+$3C,16,family_romance_general,16,family_romance_general:16
+$3D,16,family_romance_general,16,family_romance_general:16
+$3E,16,family_romance_general,16,family_romance_general:16
+$3F,16,family_romance_general,16,family_romance_general:16
+$40,16,family_romance_general,16,family_romance_general:16
+$41,16,family_romance_general,16,family_romance_general:16
+$42,16,family_romance_general,16,family_romance_general:16
+$43,16,family_romance_general,11,family_romance_general:11 family_child:5
+$44,16,festival_event,11,festival_event:11 wife_family:5
+$45,16,family_romance_general,14,family_romance_general:14 animal_livestock:2
+$46,16,shipping_or_status,15,shipping_or_status:15 bachelorette_exact:1
+$47,32,family_romance_general,32,family_romance_general:32

@@ -1,0 +1,14 @@
+metric,value
+pass85_alias_confidence_high,80
+pass85_alias_confidence_medium,159
+pass85_alias_confidence_low,24
+pass86_alias_confidence_high,80
+pass86_alias_confidence_medium,159
+pass86_alias_confidence_high_contextual,12
+pass86_alias_confidence_medium_contextual,12
+low_manual_refs_before,24
+low_manual_refs_after,0
+resolved_low_manual_refs,24
+visual_refs_total,263
+visual_entries_total,176
+visual_entries_with_refined_names,176

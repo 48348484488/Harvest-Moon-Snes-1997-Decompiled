@@ -1,0 +1,440 @@
+group_id_hex,group_label,target_addr,first_opcode,first_opcode_name,linear_commands_sampled,known_commands,unknown_or_unparsed_commands,semantic_tags,dominant_classes,opcode_histogram,stopped_by
+00,EventScriptGroup_00,$B38CC8,$2B,CCStateChange8,3,3,0,"objeto_cc, animal",cc_state_object:1 animals:1 script_control:1,$2B:1 $30:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B38CD0,$2B,CCStateChange8,5,5,0,"objeto_cc, animal",cc_state_object:3 animals:1 script_control:1,$2B:1 $2E:1 $4C:1 $30:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B38CDE,$2B,CCStateChange8,4,4,0,"objeto_cc, animal",cc_state_object:2 animals:1 script_control:1,$2B:1 $2E:1 $30:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B38CEB,$2B,CCStateChange8,4,4,0,"objeto_cc, animal",cc_state_object:2 animals:1 script_control:1,$2B:1 $2E:1 $31:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B38CF8,$2B,CCStateChange8,4,4,0,"objeto_cc, animal",cc_state_object:2 animals:1 script_control:1,$2B:1 $2E:1 $31:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B38D05,$2B,CCStateChange8,4,4,0,"objeto_cc, animal",cc_state_object:2 animals:1 script_control:1,$2B:1 $2E:1 $31:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B38D12,$2B,CCStateChange8,4,4,0,"objeto_cc, animal",cc_state_object:2 animals:1 script_control:1,$2B:1 $2E:1 $31:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B38D1F,$2B,CCStateChange8,4,4,0,"objeto_cc, animal",cc_state_object:2 animals:1 script_control:1,$2B:1 $2E:1 $31:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B38D2C,$2B,CCStateChange8,4,4,0,"objeto_cc, animal",cc_state_object:2 animals:1 script_control:1,$2B:1 $2E:1 $31:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B38D39,$2B,CCStateChange8,4,4,0,"objeto_cc, animal",cc_state_object:2 animals:1 script_control:1,$2B:1 $2E:1 $31:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B38D46,$1B,CCStateChange4,3,3,0,objeto_cc,script_control:2 cc_state_object:1,$1B:1 $13:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B38D50,$1B,CCStateChange4,3,3,0,objeto_cc,script_control:2 cc_state_object:1,$1B:1 $13:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B38D5A,$1B,CCStateChange4,4,4,0,objeto_cc,cc_state_object:2 script_control:2,$1B:1 $13:1 $2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B38D67,$1B,CCStateChange4,4,4,0,objeto_cc,cc_state_object:2 script_control:2,$1B:1 $13:1 $2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B38D74,$1B,CCStateChange4,4,4,0,objeto_cc,cc_state_object:2 script_control:2,$1B:1 $13:1 $2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B38D81,$1B,CCStateChange4,4,4,0,objeto_cc,cc_state_object:2 script_control:2,$1B:1 $13:1 $2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B38D8E,$2B,CCStateChange8,4,4,0,"objeto_cc, player_anim",cc_state_object:2 player_camera_motion:1 script_control:1,$2B:1 $2E:1 $35:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B38D9B,$2B,CCStateChange8,6,6,0,"objeto_cc, animal",cc_state_object:3 script_control:2 animals:1,$2E:2 $12:2 $2B:1 $36:1,next_entry_boundary
+00,EventScriptGroup_00,$B38DB0,$49,CCStateChange15,4,4,0,objeto_cc,script_control:2 cc_state_object:1 time_rng_palette:1,$49:1 $01:1 $20:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B38DBC,$2B,CCStateChange8,6,6,0,"objeto_cc, player_anim",cc_state_object:3 script_control:2 player_camera_motion:1,$2E:2 $12:2 $2B:1 $35:1,next_entry_boundary
+00,EventScriptGroup_00,$B38DD1,$49,CCStateChange15,4,3,1,objeto_cc,cc_state_object:1 time_rng_palette:1 special_unknown:1 unknown:1,$49:1 $01:1 $38:1 $81:1,unknown_opcode_$81
+00,EventScriptGroup_00,$B38DE5,$1A,CCStateChange3,3,3,0,objeto_cc,script_control:2 cc_state_object:1,$1A:1 $13:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B38DF3,$1B,CCStateChange4,4,4,0,objeto_cc,script_control:2 cc_state_object:1 special_unknown:1,$1B:1 $13:1 $37:1 $10:1,stop_or_wait_opcode_$10
+00,EventScriptGroup_00,$B38DFC,$2B,CCStateChange8,4,4,0,"objeto_cc, animal",cc_state_object:2 animals:1 script_control:1,$2B:1 $2E:1 $31:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B38E09,$1A,CCStateChange3,4,4,0,objeto_cc,cc_state_object:2 script_control:2,$1A:1 $22:1 $13:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B38E1E,$1A,CCStateChange3,4,4,0,objeto_cc,cc_state_object:2 script_control:2,$1A:1 $22:1 $13:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B38E33,$1A,CCStateChange3,4,4,0,objeto_cc,cc_state_object:2 script_control:2,$1A:1 $22:1 $13:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B38E48,$1A,CCStateChange3,4,4,0,objeto_cc,cc_state_object:2 script_control:2,$1A:1 $22:1 $13:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B38E5D,$1A,CCStateChange3,4,4,0,objeto_cc,cc_state_object:2 script_control:2,$1A:1 $22:1 $13:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B38E72,$1A,CCStateChange3,3,3,0,objeto_cc,script_control:2 cc_state_object:1,$1A:1 $13:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B38E80,$1B,CCStateChange4,6,6,0,objeto_cc,cc_state_object:2 unknown:2 special_unknown:1 script_control:1,$1B:2 $0D:2 $37:1 $10:1,stop_or_wait_opcode_$10
+00,EventScriptGroup_00,$B38E94,$2B,CCStateChange8,3,3,0,objeto_cc,cc_state_object:1 special_unknown:1 script_control:1,$2B:1 $4A:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B38E9C,$1A,CCStateChange3,3,3,0,objeto_cc,script_control:2 cc_state_object:1,$1A:1 $13:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B38EAA,$13,SetCC10,7,7,0,"flags_memoria, objeto_cc",script_control:3 cc_state_object:2 conditional:1 unknown:1,$13:2 $43:1 $1A:1 $0D:1 $1B:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B38ECC,$1B,CCStateChange4,6,6,0,objeto_cc,cc_state_object:2 unknown:2 special_unknown:1 script_control:1,$1B:2 $0D:2 $37:1 $10:1,stop_or_wait_opcode_$10
+00,EventScriptGroup_00,$B38EE0,$1A,CCStateChange3,4,4,0,objeto_cc,cc_state_object:1 unknown:1 special_unknown:1 script_control:1,$1A:1 $0D:1 $37:1 $10:1,stop_or_wait_opcode_$10
+00,EventScriptGroup_00,$B38EEF,$1B,CCStateChange4,6,6,0,objeto_cc,cc_state_object:2 unknown:2 special_unknown:1 script_control:1,$1B:2 $0D:2 $37:1 $10:1,stop_or_wait_opcode_$10
+00,EventScriptGroup_00,$B38F03,$1A,CCStateChange3,3,3,0,objeto_cc,script_control:2 cc_state_object:1,$1A:1 $13:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B38F11,$13,SetCC10,8,8,0,"flags_memoria, objeto_cc",script_control:3 cc_state_object:2 conditional:1 unknown:1 flags_values:1,$13:2 $43:1 $1A:1 $0D:1 $1B:1 $23:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B38F38,$1B,CCStateChange4,4,4,0,objeto_cc,cc_state_object:1 unknown:1 special_unknown:1 script_control:1,$1B:1 $0D:1 $37:1 $10:1,stop_or_wait_opcode_$10
+00,EventScriptGroup_00,$B38F43,$1B,CCStateChange4,4,4,0,objeto_cc,cc_state_object:2 script_control:2,$1B:1 $13:1 $2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B38F50,$1B,CCStateChange4,4,4,0,objeto_cc,cc_state_object:2 script_control:2,$1B:1 $13:1 $2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B38F5D,$1B,CCStateChange4,4,4,0,objeto_cc,cc_state_object:2 script_control:2,$1B:1 $13:1 $2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B38F6A,$1B,CCStateChange4,4,4,0,objeto_cc,cc_state_object:2 script_control:2,$1B:1 $13:1 $2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B38F77,$1A,CCStateChange3,3,3,0,objeto_cc,script_control:2 cc_state_object:1,$1A:1 $13:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B38F85,$1B,CCStateChange4,6,6,0,objeto_cc,cc_state_object:2 unknown:2 special_unknown:1 script_control:1,$1B:2 $0D:2 $37:1 $10:1,stop_or_wait_opcode_$10
+00,EventScriptGroup_00,$B38F99,$09,StartNestedScriptSlot,3,3,0,objeto_cc,script_control:3,$09:2 $10:1,stop_or_wait_opcode_$10
+00,EventScriptGroup_00,$B38FA2,$2B,CCStateChange8,4,4,0,"objeto_cc, animal",cc_state_object:2 animals:1 script_control:1,$2B:1 $2E:1 $31:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B38FAF,$2B,CCStateChange8,6,6,0,objeto_cc,cc_state_object:3 script_control:2 special_unknown:1,$2B:1 $1B:1 $13:1 $2E:1 $33:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B38FC3,$2B,CCStateChange8,4,4,0,objeto_cc,cc_state_object:2 special_unknown:1 script_control:1,$2B:1 $2E:1 $33:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B38FD0,$2B,CCStateChange8,4,4,0,objeto_cc,cc_state_object:1 unknown:1 special_unknown:1 script_control:1,$2B:1 $0D:1 $37:1 $10:1,stop_or_wait_opcode_$10
+00,EventScriptGroup_00,$B38FDB,$1A,CCStateChange3,4,4,0,objeto_cc,script_control:2 cc_state_object:1 special_unknown:1,$1A:1 $13:1 $37:1 $10:1,stop_or_wait_opcode_$10
+00,EventScriptGroup_00,$B38FE8,$1A,CCStateChange3,4,4,0,objeto_cc,script_control:2 cc_state_object:1 special_unknown:1,$1A:1 $13:1 $37:1 $10:1,stop_or_wait_opcode_$10
+00,EventScriptGroup_00,$B38FF5,$1A,CCStateChange3,3,3,0,objeto_cc,cc_state_object:1 special_unknown:1 script_control:1,$1A:1 $34:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B39001,$1A,CCStateChange3,3,3,0,objeto_cc,script_control:2 cc_state_object:1,$1A:1 $13:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B3900F,$1A,CCStateChange3,3,3,0,objeto_cc,script_control:2 cc_state_object:1,$1A:1 $13:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B3901D,$1B,CCStateChange4,6,6,0,objeto_cc,cc_state_object:2 unknown:2 special_unknown:1 script_control:1,$1B:2 $0D:2 $37:1 $10:1,stop_or_wait_opcode_$10
+00,EventScriptGroup_00,$B39031,$1B,CCStateChange4,6,6,0,objeto_cc,cc_state_object:2 unknown:2 special_unknown:1 script_control:1,$1B:2 $0D:2 $37:1 $10:1,stop_or_wait_opcode_$10
+00,EventScriptGroup_00,$B39045,$2B,CCStateChange8,4,4,0,objeto_cc,script_control:2 cc_state_object:1 special_unknown:1,$2B:1 $13:1 $37:1 $10:1,stop_or_wait_opcode_$10
+00,EventScriptGroup_00,$B3904E,$2B,CCStateChange8,4,4,0,objeto_cc,script_control:2 cc_state_object:1 special_unknown:1,$2B:1 $13:1 $37:1 $10:1,stop_or_wait_opcode_$10
+00,EventScriptGroup_00,$B39057,$2F,CCStateChange11,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B3905D,$2F,CCStateChange11,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B39063,$2F,CCStateChange11,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B39069,$2F,CCStateChange11,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B3906F,$2F,CCStateChange11,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B39075,$2F,CCStateChange11,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B3907B,$2F,CCStateChange11,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B39081,$2F,CCStateChange11,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B39087,$2F,CCStateChange11,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B3908D,$2F,CCStateChange11,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B39093,$2F,CCStateChange11,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B39099,$2F,CCStateChange11,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B3909F,$2F,CCStateChange11,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B390A5,$2F,CCStateChange11,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B390AB,$2F,CCStateChange11,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B390B1,$2F,CCStateChange11,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B390B7,$2F,CCStateChange11,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B390BD,$2F,CCStateChange11,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B390C3,$2F,CCStateChange11,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B390C9,$2F,CCStateChange11,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B390CF,$2F,CCStateChange11,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B390D5,$2F,CCStateChange11,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B390DB,$2F,CCStateChange11,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B390E1,$2F,CCStateChange11,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B390E7,$2F,CCStateChange11,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B390ED,$2F,CCStateChange11,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B390F3,$2F,CCStateChange11,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B390F9,$2F,CCStateChange11,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B390FF,$2F,CCStateChange11,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B39105,$2F,CCStateChange11,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B3910B,$2F,CCStateChange11,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B39111,$2F,CCStateChange11,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B39117,$2F,CCStateChange11,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B3911D,$2F,CCStateChange11,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B39123,$2F,CCStateChange11,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B39129,$2B,CCStateChange8,4,3,1,objeto_cc,cc_state_object:2 special_unknown:1 unknown:1,$2B:1 $1F:1 $33:1 $91:1,unknown_opcode_$91
+00,EventScriptGroup_00,$B3913A,$1B,CCStateChange4,4,4,0,objeto_cc,cc_state_object:2 script_control:2,$1B:1 $13:1 $2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B39147,$1B,CCStateChange4,4,4,0,objeto_cc,cc_state_object:2 script_control:2,$1B:1 $13:1 $2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B39154,$1B,CCStateChange4,4,4,0,objeto_cc,cc_state_object:2 script_control:2,$1B:1 $13:1 $2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B39161,$1B,CCStateChange4,4,4,0,objeto_cc,cc_state_object:2 script_control:2,$1B:1 $13:1 $2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B3916E,$1B,CCStateChange4,4,4,0,objeto_cc,cc_state_object:2 script_control:2,$1B:1 $13:1 $2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B3917B,$1B,CCStateChange4,4,4,0,objeto_cc,cc_state_object:2 script_control:2,$1B:1 $13:1 $2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B39188,$1B,CCStateChange4,4,4,0,objeto_cc,cc_state_object:2 script_control:2,$1B:1 $13:1 $2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B39195,$1B,CCStateChange4,4,4,0,objeto_cc,cc_state_object:2 script_control:2,$1B:1 $13:1 $2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B391A2,$1B,CCStateChange4,3,3,0,objeto_cc,script_control:2 cc_state_object:1,$1B:1 $13:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B391AC,$1B,CCStateChange4,3,3,0,objeto_cc,script_control:2 cc_state_object:1,$1B:1 $13:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B391B6,$1B,CCStateChange4,3,3,0,objeto_cc,script_control:2 cc_state_object:1,$1B:1 $13:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B391C0,$1B,CCStateChange4,3,3,0,objeto_cc,script_control:2 cc_state_object:1,$1B:1 $13:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B391CA,$2F,CCStateChange11,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B391D0,$2F,CCStateChange11,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B391D6,$2F,CCStateChange11,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B391DC,$2F,CCStateChange11,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B391E2,$2F,CCStateChange11,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B391E8,$2F,CCStateChange11,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B391EE,$2F,CCStateChange11,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B391F4,$2F,CCStateChange11,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B391FA,$2F,CCStateChange11,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B39200,$2F,CCStateChange11,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B39206,$2F,CCStateChange11,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B3920C,$2F,CCStateChange11,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B39212,$2F,CCStateChange11,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B39218,$2F,CCStateChange11,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B3921E,$2F,CCStateChange11,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B39224,$2F,CCStateChange11,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B3922A,$1A,CCStateChange3,5,5,0,objeto_cc,cc_state_object:2 script_control:2 unknown:1,$1A:1 $0D:1 $1B:1 $13:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B39241,$1A,CCStateChange3,4,4,0,objeto_cc,cc_state_object:1 unknown:1 special_unknown:1 script_control:1,$1A:1 $0D:1 $37:1 $10:1,stop_or_wait_opcode_$10
+00,EventScriptGroup_00,$B39250,$1A,CCStateChange3,25,25,0,"flags_memoria, objeto_cc",script_control:14 cc_state_object:8 conditional:3,$13:9 $1B:7 $12:5 $15:3 $1A:1,next_entry_boundary
+00,EventScriptGroup_00,$B392B3,$1A,CCStateChange3,3,2,1,objeto_cc,cc_state_object:2 unknown:1,$1A:1 $1F:1 $C1:1,unknown_opcode_$C1
+00,EventScriptGroup_00,$B392D0,$2F,CCStateChange11,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B392D6,$1B,CCStateChange4,4,4,0,objeto_cc,script_control:2 cc_state_object:1 special_unknown:1,$1B:1 $13:1 $37:1 $10:1,stop_or_wait_opcode_$10
+00,EventScriptGroup_00,$B392DF,$1B,CCStateChange4,4,4,0,objeto_cc,cc_state_object:2 script_control:2,$1B:1 $13:1 $2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B392EC,$1B,CCStateChange4,4,4,0,objeto_cc,cc_state_object:2 script_control:2,$1B:1 $13:1 $2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B392F9,$1B,CCStateChange4,4,4,0,objeto_cc,cc_state_object:2 script_control:2,$1B:1 $13:1 $2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B39306,$1B,CCStateChange4,4,4,0,objeto_cc,cc_state_object:2 script_control:2,$1B:1 $13:1 $2F:1 $12:1,next_entry_boundary
+00,EventScriptGroup_00,$B39313,$1A,CCStateChange3,9,8,1,"dialogo, objeto_cc, animal",cc_state_object:4 dialog_text:2 script_control:1 animals:1 unknown:1,$1A:2 $1F:2 $21:1 $1C:1 $12:1 $36:1 $93:1,unknown_opcode_$93
+01,EventScriptGroup_01,$B39379,$11,ChangeGameState2,6,6,0,"objeto_cc, transicao_tela",script_control:5 screen_transition:1,$09:3 $11:1 $12:1 $10:1,stop_or_wait_opcode_$10
+01,EventScriptGroup_01,$B39D05,$11,ChangeGameState2,73,72,1,"dialogo, flags_memoria, objeto_cc, transicao_tela",script_control:28 conditional:19 dialog_text:12 cc_state_object:9 time_rng_palette:3 screen_transition:1 unknown:1,$12:21 $1C:12 $15:7 $14:6 $4D:4 $2D:4 $18:4 $17:3 $09:2 $1A:2 $11:1 $13:1,unknown_opcode_$CB
+01,EventScriptGroup_01,$B39F3E,$11,ChangeGameState2,79,79,0,"dialogo, flags_memoria, objeto_cc, transicao_tela",script_control:28 conditional:24 dialog_text:13 time_rng_palette:7 cc_state_object:6 screen_transition:1,$12:22 $1C:13 $18:9 $15:8 $17:7 $14:6 $4D:4 $2D:4 $11:1 $09:1 $13:1 $1A:1,next_entry_boundary
+01,EventScriptGroup_01,$B3A086,$11,ChangeGameState2,51,51,0,"dialogo, flags_memoria, objeto_cc, transicao_tela",script_control:17 cc_state_object:13 dialog_text:11 conditional:9 screen_transition:1,$12:14 $1C:11 $1B:10 $15:7 $11:1 $09:1 $13:1 $1A:1 $4D:1 $2D:1 $16:1 $14:1,next_entry_boundary
+01,EventScriptGroup_01,$B3A162,$11,ChangeGameState2,14,13,1,"flags_memoria, objeto_cc, transicao_tela",script_control:8 cc_state_object:3 screen_transition:1 conditional:1 unknown:1,$12:4 $09:2 $11:1 $13:1 $14:1 $1A:1 $4D:1 $2D:1 $1F:1 $62:1,unknown_opcode_$62
+01,EventScriptGroup_01,$B3A438,$11,ChangeGameState2,15,14,1,"flags_memoria, objeto_cc, transicao_tela",script_control:8 cc_state_object:3 conditional:2 screen_transition:1 unknown:1,$09:3 $14:2 $12:2 $4D:2 $11:1 $13:1 $1A:1 $2D:1 $1F:1 $A8:1,unknown_opcode_$A8
+01,EventScriptGroup_01,$B3A5B1,$11,ChangeGameState2,11,10,1,"objeto_cc, transicao_tela",script_control:6 cc_state_object:3 screen_transition:1 unknown:1,$12:2 $4D:2 $11:1 $09:1 $13:1 $1A:1 $2D:1 $1F:1 $5C:1,unknown_opcode_$5C
+01,EventScriptGroup_01,$B3A727,$11,ChangeGameState2,11,10,1,"objeto_cc, transicao_tela",script_control:6 cc_state_object:3 screen_transition:1 unknown:1,$12:2 $4D:2 $11:1 $09:1 $13:1 $1A:1 $2D:1 $1F:1 $A4:1,unknown_opcode_$A4
+01,EventScriptGroup_01,$B3A81B,$11,ChangeGameState2,40,40,0,"flags_memoria, objeto_cc, transicao_tela",conditional:13 script_control:13 unknown:11 cc_state_object:2 screen_transition:1,$0D:11 $09:8 $15:6 $14:5 $12:3 $16:2 $11:1 $13:1 $1A:1 $4C:1 $10:1,stop_or_wait_opcode_$10
+01,EventScriptGroup_01,$B3AD24,$11,ChangeGameState2,10,9,1,"objeto_cc, transicao_tela",script_control:5 cc_state_object:3 screen_transition:1 unknown:1,$12:2 $11:1 $09:1 $13:1 $1A:1 $2D:1 $4D:1 $1F:1 $A3:1,unknown_opcode_$A3
+01,EventScriptGroup_01,$B3ADB1,$11,ChangeGameState2,9,8,1,"objeto_cc, transicao_tela",script_control:5 cc_state_object:2 screen_transition:1 unknown:1,$09:3 $11:1 $13:1 $12:1 $1A:1 $1F:1 $D2:1,unknown_opcode_$D2
+01,EventScriptGroup_01,$B3AE03,$23,SetFlag,2,1,1,flags_memoria,flags_values:1 unknown:1,$23:1 $B4:1,unknown_opcode_$B4
+02,EventScriptGroup_02,$B3AE23,$11,ChangeGameState2,35,35,0,"dialogo, flags_memoria, objeto_cc, transicao_tela",script_control:21 conditional:7 cc_state_object:3 dialog_text:3 screen_transition:1,$09:9 $12:9 $16:4 $1C:3 $14:2 $11:1 $15:1 $13:1 $1A:1 $22:1 $4D:1 $2D:1,stop_or_wait_opcode_$10
+02,EventScriptGroup_02,$B3B44A,$11,ChangeGameState2,37,37,0,"dialogo, flags_memoria, objeto_cc, transicao_tela",script_control:18 dialog_text:10 cc_state_object:4 conditional:4 screen_transition:1,$12:13 $1C:10 $09:2 $1A:2 $4D:2 $2D:2 $16:2 $14:2 $11:1 $13:1,next_entry_boundary
+02,EventScriptGroup_02,$B3B4E3,$11,ChangeGameState2,69,69,0,"dialogo, flags_memoria, objeto_cc, transicao_tela",script_control:29 dialog_text:14 cc_state_object:11 conditional:10 flags_values:3 screen_transition:2,$12:20 $1C:14 $14:7 $4D:4 $2D:4 $1B:4 $09:3 $1A:3 $16:2 $23:2 $11:1 $13:1,stop_or_wait_opcode_$10
+02,EventScriptGroup_02,$B3B6E1,$11,ChangeGameState2,45,45,0,"dialogo, flags_memoria, objeto_cc, transicao_tela",script_control:23 dialog_text:9 conditional:7 cc_state_object:3 flags_values:2 screen_transition:1,$12:14 $1C:8 $09:3 $14:3 $16:3 $4D:2 $2D:2 $20:2 $11:1 $13:1 $15:1 $1A:1,stop_or_wait_opcode_$10
+02,EventScriptGroup_02,$B3B8D2,$11,ChangeGameState2,17,16,1,"flags_memoria, objeto_cc, transicao_tela",script_control:8 cc_state_object:4 conditional:3 screen_transition:1 unknown:1,$12:4 $14:2 $4D:2 $11:1 $13:1 $09:1 $16:1 $1A:1 $22:1 $2D:1 $1F:1 $F3:1,unknown_opcode_$F3
+02,EventScriptGroup_02,$B3BA39,$59,Unknown,1,0,1,controle_basico,unknown:1,$59:1,unknown_opcode_$59
+03,EventScriptGroup_03,$B3BA59,$11,ChangeGameState2,23,22,1,"flags_memoria, objeto_cc, transicao_tela",script_control:10 conditional:9 cc_state_object:2 screen_transition:1 unknown:1,$09:6 $45:5 $14:3 $12:3 $11:1 $13:1 $16:1 $1A:1 $1F:1 $DB:1,unknown_opcode_$DB
+03,EventScriptGroup_03,$B3BD2D,$11,ChangeGameState2,96,96,0,"dialogo, flags_memoria, objeto_cc, transicao_tela",script_control:40 cc_state_object:23 dialog_text:20 conditional:12 screen_transition:1,$12:26 $1C:20 $1B:15 $09:9 $14:8 $1A:4 $4D:4 $2D:4 $16:4 $11:1 $13:1,max_commands
+03,EventScriptGroup_03,$B3C1E4,$11,ChangeGameState2,30,30,0,"dialogo, flags_memoria, objeto_cc, transicao_tela",script_control:15 conditional:8 dialog_text:4 cc_state_object:2 screen_transition:1,$12:8 $14:5 $09:4 $1C:4 $16:3 $11:1 $13:1 $1A:1 $4D:1 $2D:1 $10:1,stop_or_wait_opcode_$10
+03,EventScriptGroup_03,$B3C507,$27,ResetFlagD,2,1,1,flags_memoria,flags_values:1 unknown:1,$27:1 $C6:1,unknown_opcode_$C6
+04,EventScriptGroup_04,$B3C527,$11,ChangeGameState2,85,85,0,"dialogo, flags_memoria, objeto_cc, transicao_tela",script_control:35 dialog_text:21 conditional:17 cc_state_object:11 screen_transition:1,$12:28 $1C:21 $16:7 $15:5 $41:5 $14:4 $09:3 $1A:3 $4D:3 $2D:3 $11:1 $13:1,next_entry_boundary
+04,EventScriptGroup_04,$B3C6AE,$11,ChangeGameState2,20,20,0,"dialogo, flags_memoria, objeto_cc, transicao_tela",script_control:10 dialog_text:5 cc_state_object:2 conditional:2 screen_transition:1,$12:7 $1C:5 $11:1 $09:1 $13:1 $1A:1 $4D:1 $2D:1 $16:1 $14:1,next_entry_boundary
+04,EventScriptGroup_04,$B3C6FE,$11,ChangeGameState2,59,59,0,"dialogo, flags_memoria, objeto_cc, transicao_tela",script_control:24 dialog_text:13 conditional:12 cc_state_object:9 screen_transition:1,$12:19 $1C:13 $15:5 $41:5 $16:4 $09:2 $14:2 $1A:2 $4D:2 $2D:2 $11:1 $13:1,next_entry_boundary
+04,EventScriptGroup_04,$B3C810,$11,ChangeGameState2,61,61,0,"dialogo, flags_memoria, objeto_cc, transicao_tela",script_control:25 dialog_text:14 conditional:12 cc_state_object:9 screen_transition:1,$12:20 $1C:14 $16:4 $15:4 $41:4 $14:3 $09:2 $1A:2 $4D:2 $2D:2 $11:1 $13:1,next_entry_boundary
+04,EventScriptGroup_04,$B3C92A,$11,ChangeGameState2,79,79,0,"dialogo, flags_memoria, objeto_cc, transicao_tela",script_control:33 dialog_text:18 conditional:15 cc_state_object:12 screen_transition:1,$12:25 $1C:18 $14:5 $16:5 $41:5 $09:4 $1A:4 $15:4 $2D:3 $13:2 $4D:2 $11:1,next_entry_boundary
+04,EventScriptGroup_04,$B3CA98,$09,StartNestedScriptSlot,47,47,0,"dialogo, flags_memoria, objeto_cc",script_control:20 dialog_text:12 cc_state_object:9 conditional:6,$12:15 $1C:12 $1B:5 $14:4 $09:2 $1A:2 $4D:2 $2D:2 $16:2 $13:1,next_entry_boundary
+04,EventScriptGroup_04,$B3CB60,$09,StartNestedScriptSlot,17,17,0,"dialogo, flags_memoria, objeto_cc",script_control:9 dialog_text:4 cc_state_object:3 conditional:1,$12:6 $1C:4 $09:1 $13:1 $1A:1 $4D:1 $2D:1 $1B:1 $16:1,next_entry_boundary
+04,EventScriptGroup_04,$B3CBA5,$11,ChangeGameState2,19,19,0,"dialogo, flags_memoria, objeto_cc, transicao_tela",script_control:11 dialog_text:4 cc_state_object:2 screen_transition:1 conditional:1,$12:6 $1C:4 $09:2 $11:1 $13:1 $1A:1 $4D:1 $2D:1 $16:1 $10:1,stop_or_wait_opcode_$10
+04,EventScriptGroup_04,$B3CC71,$91,Unknown,1,0,1,controle_basico,unknown:1,$91:1,unknown_opcode_$91
+05,EventScriptGroup_05,$B3CC91,$11,ChangeGameState2,93,93,0,"dialogo, flags_memoria, objeto_cc, transicao_tela",script_control:37 conditional:20 cc_state_object:17 dialog_text:17 screen_transition:1 time_rng_palette:1,$12:24 $1C:17 $09:10 $14:10 $1B:10 $15:6 $1A:3 $2D:3 $16:2 $18:2 $11:1 $13:1,stop_or_wait_opcode_$10
+05,EventScriptGroup_05,$B3D447,$67,Unknown,1,0,1,controle_basico,unknown:1,$67:1,unknown_opcode_$67
+06,EventScriptGroup_06,$B3D467,$11,ChangeGameState2,67,67,0,"dialogo, flags_memoria, objeto_cc, transicao_tela",script_control:27 dialog_text:16 conditional:13 cc_state_object:10 screen_transition:1,$12:22 $1C:16 $14:5 $15:4 $09:3 $1A:3 $2D:3 $16:3 $41:3 $11:1 $13:1 $22:1,next_entry_boundary
+06,EventScriptGroup_06,$B3D59D,$11,ChangeGameState2,17,17,0,"dialogo, flags_memoria, objeto_cc, transicao_tela",script_control:8 dialog_text:4 cc_state_object:2 conditional:2 screen_transition:1,$12:6 $1C:4 $11:1 $09:1 $13:1 $1A:1 $2D:1 $16:1 $14:1,next_entry_boundary
+06,EventScriptGroup_06,$B3D5E3,$11,ChangeGameState2,52,52,0,"dialogo, flags_memoria, objeto_cc, transicao_tela",script_control:22 dialog_text:12 conditional:10 cc_state_object:7 screen_transition:1,$12:18 $1C:12 $14:4 $15:3 $41:3 $09:2 $1A:2 $2D:2 $16:2 $11:1 $13:1 $4D:1,next_entry_boundary
+06,EventScriptGroup_06,$B3D6CF,$11,ChangeGameState2,54,54,0,"dialogo, flags_memoria, objeto_cc, transicao_tela",script_control:22 dialog_text:12 conditional:11 cc_state_object:8 screen_transition:1,$12:18 $1C:12 $15:5 $14:3 $41:3 $09:2 $1A:2 $2D:2 $16:2 $11:1 $13:1 $22:1,next_entry_boundary
+06,EventScriptGroup_06,$B3D7C9,$11,ChangeGameState2,69,69,0,"dialogo, flags_memoria, objeto_cc, transicao_tela",script_control:28 dialog_text:15 conditional:14 cc_state_object:11 screen_transition:1,$12:22 $1C:15 $14:5 $16:5 $1A:4 $41:4 $09:3 $2D:3 $15:3 $13:2 $11:1 $4D:1,next_entry_boundary
+06,EventScriptGroup_06,$B3D90E,$11,ChangeGameState2,33,33,0,"dialogo, flags_memoria, objeto_cc, transicao_tela",script_control:15 dialog_text:8 conditional:5 cc_state_object:4 screen_transition:1,$12:11 $1C:8 $14:3 $09:2 $1A:2 $2D:2 $16:2 $11:1 $13:1 $10:1,stop_or_wait_opcode_$10
+06,EventScriptGroup_06,$B3D99B,$11,ChangeGameState2,23,23,0,"dialogo, flags_memoria, objeto_cc, transicao_tela",script_control:12 dialog_text:6 cc_state_object:2 conditional:2 screen_transition:1,$12:8 $1C:5 $20:2 $11:1 $09:1 $13:1 $1A:1 $2D:1 $16:1 $14:1 $1D:1,next_entry_boundary
+06,EventScriptGroup_06,$B3D9F7,$17,GetRNG,2,1,1,controle_basico,time_rng_palette:1 unknown:1,$17:1 $72:1,unknown_opcode_$72
+07,EventScriptGroup_07,$B3DA17,$11,ChangeGameState2,78,78,0,"dialogo, flags_memoria, objeto_cc, transicao_tela",script_control:33 dialog_text:20 conditional:13 cc_state_object:11 screen_transition:1,$12:26 $1C:20 $15:7 $41:5 $14:4 $09:3 $1A:3 $4D:3 $2D:3 $11:1 $13:1 $45:1,next_entry_boundary
+07,EventScriptGroup_07,$B3DB72,$11,ChangeGameState2,24,24,0,"dialogo, flags_memoria, objeto_cc, transicao_tela",script_control:11 dialog_text:6 cc_state_object:3 conditional:3 screen_transition:1,$12:8 $1C:6 $15:2 $11:1 $09:1 $13:1 $1A:1 $4D:1 $2D:1 $14:1 $41:1,next_entry_boundary
+07,EventScriptGroup_07,$B3DBD5,$11,ChangeGameState2,57,57,0,"dialogo, flags_memoria, objeto_cc, transicao_tela",script_control:24 dialog_text:13 cc_state_object:10 conditional:9 screen_transition:1,$12:19 $1C:13 $15:5 $41:4 $09:2 $14:2 $1A:2 $4D:2 $2D:2 $1B:2 $11:1 $13:1,next_entry_boundary
+07,EventScriptGroup_07,$B3DCD1,$11,ChangeGameState2,56,56,0,"dialogo, flags_memoria, objeto_cc, transicao_tela",script_control:24 dialog_text:13 conditional:9 cc_state_object:9 screen_transition:1,$12:19 $1C:13 $15:4 $14:3 $41:3 $09:2 $1A:2 $4D:2 $2D:2 $1B:2 $11:1 $13:1,next_entry_boundary
+07,EventScriptGroup_07,$B3DDC7,$11,ChangeGameState2,74,74,0,"dialogo, flags_memoria, objeto_cc, transicao_tela",script_control:33 dialog_text:17 cc_state_object:12 conditional:11 screen_transition:1,$12:24 $1C:17 $14:5 $09:4 $1A:4 $15:4 $41:4 $4D:3 $2D:3 $13:2 $11:1 $1B:1,next_entry_boundary
+07,EventScriptGroup_07,$B3DF0F,$11,ChangeGameState2,46,46,0,"dialogo, flags_memoria, objeto_cc, transicao_tela",script_control:19 dialog_text:11 cc_state_object:10 conditional:5 screen_transition:1,$12:14 $1C:11 $1B:5 $14:4 $09:2 $1A:2 $4D:2 $2D:2 $11:1 $13:1 $15:1 $41:1,next_entry_boundary
+07,EventScriptGroup_07,$B3DFCE,$11,ChangeGameState2,26,26,0,"dialogo, flags_memoria, objeto_cc, transicao_tela",script_control:10 cc_state_object:8 dialog_text:5 conditional:2 screen_transition:1,$12:7 $1C:5 $1B:5 $11:1 $09:1 $13:1 $1A:1 $4D:1 $2D:1 $14:1 $15:1 $41:1,next_entry_boundary
+07,EventScriptGroup_07,$B3E037,$11,ChangeGameState2,20,20,0,"dialogo, flags_memoria, objeto_cc, transicao_tela",script_control:11 dialog_text:4 cc_state_object:3 screen_transition:1 conditional:1,$12:6 $1C:4 $09:2 $11:1 $13:1 $1A:1 $4D:1 $2D:1 $15:1 $41:1 $10:1,stop_or_wait_opcode_$10
+07,EventScriptGroup_07,$B3E0BF,$DF,Unknown,1,0,1,controle_basico,unknown:1,$DF:1,unknown_opcode_$DF
+08,EventScriptGroup_08,$B3E0DF,$11,ChangeGameState2,50,50,0,"dialogo, flags_memoria, objeto_cc, transicao_tela",script_control:20 dialog_text:11 conditional:10 cc_state_object:8 screen_transition:1,$12:16 $1C:11 $16:4 $41:4 $15:3 $09:2 $14:2 $1A:2 $2D:2 $11:1 $13:1 $4D:1,next_entry_boundary
+08,EventScriptGroup_08,$B3E1C9,$11,ChangeGameState2,25,25,0,"dialogo, flags_memoria, objeto_cc, transicao_tela",script_control:12 dialog_text:6 cc_state_object:4 conditional:2 screen_transition:1,$12:9 $1C:6 $09:2 $1A:2 $2D:2 $16:2 $11:1 $13:1,next_entry_boundary
+08,EventScriptGroup_08,$B3E232,$11,ChangeGameState2,51,51,0,"dialogo, flags_memoria, objeto_cc, transicao_tela",script_control:21 dialog_text:11 conditional:10 cc_state_object:8 screen_transition:1,$12:17 $1C:11 $16:4 $41:4 $15:3 $09:2 $14:2 $1A:2 $2D:2 $11:1 $13:1 $4D:1,next_entry_boundary
+08,EventScriptGroup_08,$B3E31F,$11,ChangeGameState2,52,52,0,"dialogo, flags_memoria, objeto_cc, transicao_tela",script_control:21 dialog_text:11 conditional:10 cc_state_object:9 screen_transition:1,$12:17 $1C:11 $16:4 $15:4 $41:4 $09:2 $1A:2 $2D:2 $11:1 $13:1 $14:1 $22:1,next_entry_boundary
+08,EventScriptGroup_08,$B3E413,$11,ChangeGameState2,50,50,0,"dialogo, flags_memoria, objeto_cc, transicao_tela",script_control:25 dialog_text:11 cc_state_object:7 conditional:6 screen_transition:1,$12:18 $1C:11 $09:4 $1A:4 $14:3 $2D:3 $13:2 $16:2 $11:1 $4D:1 $45:1,next_entry_boundary
+08,EventScriptGroup_08,$B3E4ED,$11,ChangeGameState2,28,28,0,"dialogo, flags_memoria, objeto_cc, transicao_tela",script_control:13 dialog_text:6 cc_state_object:4 conditional:3 screen_transition:2,$12:9 $1C:6 $09:2 $1A:2 $2D:2 $16:2 $11:1 $0A:1 $13:1 $14:1 $10:1,stop_or_wait_opcode_$10
+08,EventScriptGroup_08,$B3E560,$11,ChangeGameState2,15,15,0,"dialogo, flags_memoria, objeto_cc, transicao_tela",script_control:7 dialog_text:3 screen_transition:2 cc_state_object:2 conditional:1,$12:5 $1C:3 $11:1 $09:1 $0A:1 $13:1 $1A:1 $2D:1 $16:1,next_entry_boundary
+08,EventScriptGroup_08,$B3E59A,$11,ChangeGameState2,25,25,0,"dialogo, flags_memoria, objeto_cc, transicao_tela",script_control:12 dialog_text:6 cc_state_object:4 conditional:2 screen_transition:1,$12:9 $1C:6 $09:2 $1A:2 $2D:2 $16:2 $11:1 $13:1,next_entry_boundary
+08,EventScriptGroup_08,$B3E603,$23,SetFlag,2,1,1,flags_memoria,flags_values:1 unknown:1,$23:1 $E8:1,unknown_opcode_$E8
+09,EventScriptGroup_09,$B3E623,$40,Set5C,61,60,1,"objeto_cc, transicao_tela, audio, animal, player_anim",script_control:22 player_camera_motion:15 cc_state_object:7 time_rng_palette:6 screen_transition:3 flags_values:3 audio:2 special_unknown:1,$13:14 $19:10 $09:8 $02:4 $07:3 $39:3 $40:2 $05:2 $0C:2 $00:2 $25:2 $08:1,unknown_opcode_$5C
+09,EventScriptGroup_09,$B3E83B,$5B,Unknown,1,0,1,controle_basico,unknown:1,$5B:1,unknown_opcode_$5B
+0A,EventScriptGroup_0A,$B3E85B,$4F,Set60,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$4F:1 $50:1,stop_or_wait_opcode_$50
+0A,EventScriptGroup_0A,$B3E89A,$4F,Set60,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$4F:1 $50:1,stop_or_wait_opcode_$50
+0A,EventScriptGroup_0A,$B3E8C8,$4F,Set60,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$4F:1 $50:1,stop_or_wait_opcode_$50
+0A,EventScriptGroup_0A,$B3E90B,$4F,Set60,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$4F:1 $50:1,stop_or_wait_opcode_$50
+0A,EventScriptGroup_0A,$B3E982,$02,StopTimeFlow,5,5,0,"objeto_cc, transicao_tela",script_control:2 time_rng_palette:1 screen_transition:1 special_unknown:1,$02:1 $08:1 $09:1 $38:1 $10:1,stop_or_wait_opcode_$10
+0A,EventScriptGroup_0A,$B3E9AE,$02,StopTimeFlow,5,5,0,"objeto_cc, transicao_tela",script_control:2 time_rng_palette:1 screen_transition:1 special_unknown:1,$02:1 $08:1 $09:1 $38:1 $10:1,stop_or_wait_opcode_$10
+0A,EventScriptGroup_0A,$B3E9DA,$FA,Unknown,1,0,1,controle_basico,unknown:1,$FA:1,unknown_opcode_$FA
+0B,EventScriptGroup_0B,$B3E9FA,$02,StopTimeFlow,12,12,0,objeto_cc,script_control:9 time_rng_palette:2 special_unknown:1,$09:8 $02:1 $03:1 $38:1 $10:1,stop_or_wait_opcode_$10
+0B,EventScriptGroup_0B,$B3EB5C,$09,StartNestedScriptSlot,2,2,0,objeto_cc,script_control:2,$09:1 $10:1,stop_or_wait_opcode_$10
+0B,EventScriptGroup_0B,$B3EB83,$09,StartNestedScriptSlot,2,2,0,objeto_cc,script_control:2,$09:1 $10:1,stop_or_wait_opcode_$10
+0B,EventScriptGroup_0B,$B3EBB2,$09,StartNestedScriptSlot,3,3,0,objeto_cc,script_control:3,$09:2 $10:1,stop_or_wait_opcode_$10
+0B,EventScriptGroup_0B,$B3EC2D,$09,StartNestedScriptSlot,4,4,0,objeto_cc,script_control:4,$09:3 $10:1,stop_or_wait_opcode_$10
+0B,EventScriptGroup_0B,$B3EC8D,$09,StartNestedScriptSlot,3,3,0,objeto_cc,script_control:3,$09:2 $10:1,stop_or_wait_opcode_$10
+0B,EventScriptGroup_0B,$B3ECE2,$09,StartNestedScriptSlot,2,2,0,objeto_cc,script_control:2,$09:1 $10:1,stop_or_wait_opcode_$10
+0B,EventScriptGroup_0B,$B3ED39,$09,StartNestedScriptSlot,7,7,0,objeto_cc,script_control:7,$09:6 $10:1,stop_or_wait_opcode_$10
+0B,EventScriptGroup_0B,$B3EE1A,$07,SetPlayerDirection,15,14,1,"flags_memoria, objeto_cc, transicao_tela, player_anim",script_control:7 screen_transition:2 cc_state_object:2 player_camera_motion:1 special_unknown:1 conditional:1 unknown:1,$09:5 $07:1 $08:1 $38:1 $11:1 $13:1 $12:1 $16:1 $1A:1 $1F:1 $55:1,unknown_opcode_$55
+0B,EventScriptGroup_0B,$B3EEEA,$09,StartNestedScriptSlot,10,10,0,"dialogo, objeto_cc",script_control:5 cc_state_object:2 special_unknown:1 time_rng_palette:1 dialog_text:1,$12:3 $09:1 $38:1 $13:1 $1A:1 $1F:1 $03:1 $1C:1,next_entry_boundary
+0B,EventScriptGroup_0B,$B3EF0A,$02,StopTimeFlow,9,9,0,"objeto_cc, transicao_tela, player_anim",screen_transition:2 script_control:2 flags_values:2 time_rng_palette:1 player_camera_motion:1 special_unknown:1,$02:1 $05:1 $08:1 $09:1 $38:1 $0B:1 $0C:1 $3C:1 $10:1,stop_or_wait_opcode_$10
+0B,EventScriptGroup_0B,$B3EF2E,$09,StartNestedScriptSlot,2,2,0,objeto_cc,script_control:2,$09:1 $10:1,stop_or_wait_opcode_$10
+0B,EventScriptGroup_0B,$B3EF5A,$7A,Unknown,1,0,1,controle_basico,unknown:1,$7A:1,unknown_opcode_$7A
+0C,EventScriptGroup_0C,$B3EF7A,$50,ToolsStopOrWait,1,1,0,controle_basico,script_control:1,$50:1,stop_or_wait_opcode_$50
+0C,EventScriptGroup_0C,$B3EFF3,$50,ToolsStopOrWait,1,1,0,controle_basico,script_control:1,$50:1,stop_or_wait_opcode_$50
+0C,EventScriptGroup_0C,$B3F068,$88,Unknown,1,0,1,controle_basico,unknown:1,$88:1,unknown_opcode_$88
+0D,EventScriptGroup_0D,$B3F088,$50,ToolsStopOrWait,1,1,0,controle_basico,script_control:1,$50:1,stop_or_wait_opcode_$50
+0D,EventScriptGroup_0D,$B3F0A9,$50,ToolsStopOrWait,1,1,0,controle_basico,script_control:1,$50:1,stop_or_wait_opcode_$50
+0D,EventScriptGroup_0D,$B3F0E6,$06,SetTransitionDestination,2,1,1,transicao_tela,screen_transition:1 unknown:1,$06:1 $D4:1,unknown_opcode_$D4
+0E,EventScriptGroup_0E,$B3F106,$4F,Set60,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$4F:1 $50:1,stop_or_wait_opcode_$50
+0E,EventScriptGroup_0E,$B3FDD4,$4F,Set60,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$4F:1 $50:1,stop_or_wait_opcode_$50
+0E,EventScriptGroup_0E,$B3FFA4,$00,AudioRelated,46,46,0,audio,audio:46,$00:46,next_entry_boundary
+0F,EventScriptGroup_0F,$B48020,$4F,Set60,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$4F:1 $50:1,stop_or_wait_opcode_$50
+0F,EventScriptGroup_0F,$B48075,$4F,Set60,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$4F:1 $50:1,stop_or_wait_opcode_$50
+0F,EventScriptGroup_0F,$B4820E,$4F,Set60,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$4F:1 $50:1,stop_or_wait_opcode_$50
+0F,EventScriptGroup_0F,$B48400,$4F,Set60,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$4F:1 $50:1,stop_or_wait_opcode_$50
+0F,EventScriptGroup_0F,$B485C6,$4F,Set60,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$4F:1 $50:1,stop_or_wait_opcode_$50
+0F,EventScriptGroup_0F,$B486E8,$4F,Set60,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$4F:1 $50:1,stop_or_wait_opcode_$50
+0F,EventScriptGroup_0F,$B487B8,$D8,Unknown,1,0,1,controle_basico,unknown:1,$D8:1,unknown_opcode_$D8
+10,EventScriptGroup_10,$B487D8,$08,ChangeGameState,5,5,0,"objeto_cc, transicao_tela",script_control:4 screen_transition:1,$09:2 $08:1 $13:1 $10:1,stop_or_wait_opcode_$10
+10,EventScriptGroup_10,$B48818,$38,EventCoreUNK2,2,1,1,controle_basico,special_unknown:1 unknown:1,$38:1 $88:1,unknown_opcode_$88
+11,EventScriptGroup_11,$B48838,$50,ToolsStopOrWait,1,1,0,controle_basico,script_control:1,$50:1,stop_or_wait_opcode_$50
+11,EventScriptGroup_11,$B488A0,$C0,Unknown,1,0,1,controle_basico,unknown:1,$C0:1,unknown_opcode_$C0
+12,EventScriptGroup_12,$B488C0,$50,ToolsStopOrWait,1,1,0,controle_basico,script_control:1,$50:1,stop_or_wait_opcode_$50
+12,EventScriptGroup_12,$B4892A,$4A,EventCoreUNK3,2,1,1,controle_basico,special_unknown:1 unknown:1,$4A:1 $89:1,unknown_opcode_$89
+13,EventScriptGroup_13,$B4894A,$50,ToolsStopOrWait,1,1,0,controle_basico,script_control:1,$50:1,stop_or_wait_opcode_$50
+13,EventScriptGroup_13,$B489D2,$F2,Unknown,1,0,1,controle_basico,unknown:1,$F2:1,unknown_opcode_$F2
+14,EventScriptGroup_14,$B489F2,$50,ToolsStopOrWait,1,1,0,controle_basico,script_control:1,$50:1,stop_or_wait_opcode_$50
+14,EventScriptGroup_14,$B48AAB,$4F,Set60,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$4F:1 $50:1,stop_or_wait_opcode_$50
+14,EventScriptGroup_14,$B48B00,$4F,Set60,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$4F:1 $50:1,stop_or_wait_opcode_$50
+14,EventScriptGroup_14,$B48B9B,$4F,Set60,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$4F:1 $50:1,stop_or_wait_opcode_$50
+14,EventScriptGroup_14,$B48BDE,$4F,Set60,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$4F:1 $50:1,stop_or_wait_opcode_$50
+14,EventScriptGroup_14,$B48C25,$45,JumpIfBetweenValue,3,2,1,flags_memoria,conditional:1 special_unknown:1 unknown:1,$45:1 $38:1 $8D:1,unknown_opcode_$8D
+15,EventScriptGroup_15,$B48C45,$05,SetPlayerPosition,17,16,1,"objeto_cc, transicao_tela, player_anim",script_control:5 screen_transition:4 player_camera_motion:2 flags_values:2 cc_state_object:2 special_unknown:1 unknown:1,$09:3 $08:2 $11:2 $0C:2 $05:1 $07:1 $38:1 $13:1 $12:1 $1A:1 $1F:1 $7B:1,unknown_opcode_$7B
+15,EventScriptGroup_15,$B48D38,$58,Unknown,1,0,1,controle_basico,unknown:1,$58:1,unknown_opcode_$58
+16,EventScriptGroup_16,$B48D58,$50,ToolsStopOrWait,1,1,0,controle_basico,script_control:1,$50:1,stop_or_wait_opcode_$50
+16,EventScriptGroup_16,$B48E05,$25,CCStateChange7,2,1,1,controle_basico,cc_state_object:1 unknown:1,$25:1 $C5:1,unknown_opcode_$C5
+17,EventScriptGroup_17,$B48E25,$00,AudioRelated,2,1,1,audio,audio:1 unknown:1,$00:1 $B4:1,unknown_opcode_$B4
+17,EventScriptGroup_17,$B48EC5,$E5,Unknown,1,0,1,controle_basico,unknown:1,$E5:1,unknown_opcode_$E5
+18,EventScriptGroup_18,$B48EE5,$09,StartNestedScriptSlot,3,3,0,objeto_cc,script_control:2 special_unknown:1,$09:1 $38:1 $10:1,stop_or_wait_opcode_$10
+18,EventScriptGroup_18,$B48F95,$B5,Unknown,1,0,1,controle_basico,unknown:1,$B5:1,unknown_opcode_$B5
+19,EventScriptGroup_19,$B48FB5,$50,ToolsStopOrWait,1,1,0,controle_basico,script_control:1,$50:1,stop_or_wait_opcode_$50
+19,EventScriptGroup_19,$B48FDE,$50,ToolsStopOrWait,1,1,0,controle_basico,script_control:1,$50:1,stop_or_wait_opcode_$50
+19,EventScriptGroup_19,$B490D3,$F3,Unknown,1,0,1,controle_basico,unknown:1,$F3:1,unknown_opcode_$F3
+1A,EventScriptGroup_1A,$B490F3,$50,ToolsStopOrWait,1,1,0,controle_basico,script_control:1,$50:1,stop_or_wait_opcode_$50
+1A,EventScriptGroup_1A,$B4911C,$50,ToolsStopOrWait,1,1,0,controle_basico,script_control:1,$50:1,stop_or_wait_opcode_$50
+1A,EventScriptGroup_1A,$B491B3,$D3,Unknown,1,0,1,controle_basico,unknown:1,$D3:1,unknown_opcode_$D3
+1B,EventScriptGroup_1B,$B491D3,$50,ToolsStopOrWait,1,1,0,controle_basico,script_control:1,$50:1,stop_or_wait_opcode_$50
+1B,EventScriptGroup_1B,$B49210,$00,AudioRelated,2,1,1,audio,audio:1 unknown:1,$00:1 $B4:1,unknown_opcode_$B4
+1B,EventScriptGroup_1B,$B492D2,$F2,Unknown,1,0,1,controle_basico,unknown:1,$F2:1,unknown_opcode_$F2
+1C,EventScriptGroup_1C,$B492F2,$50,ToolsStopOrWait,1,1,0,controle_basico,script_control:1,$50:1,stop_or_wait_opcode_$50
+1C,EventScriptGroup_1C,$B4931D,$00,AudioRelated,2,1,1,audio,audio:1 unknown:1,$00:1 $B4:1,unknown_opcode_$B4
+1C,EventScriptGroup_1C,$B49401,$50,ToolsStopOrWait,1,1,0,controle_basico,script_control:1,$50:1,stop_or_wait_opcode_$50
+1C,EventScriptGroup_1C,$B4943C,$5C,Unknown,1,0,1,controle_basico,unknown:1,$5C:1,unknown_opcode_$5C
+1D,EventScriptGroup_1D,$B4945C,$50,ToolsStopOrWait,1,1,0,controle_basico,script_control:1,$50:1,stop_or_wait_opcode_$50
+1D,EventScriptGroup_1D,$B49499,$09,StartNestedScriptSlot,6,6,0,objeto_cc,script_control:5 special_unknown:1,$09:4 $38:1 $10:1,stop_or_wait_opcode_$10
+1D,EventScriptGroup_1D,$B49513,$50,ToolsStopOrWait,1,1,0,controle_basico,script_control:1,$50:1,stop_or_wait_opcode_$50
+1D,EventScriptGroup_1D,$B4958B,$50,ToolsStopOrWait,1,1,0,controle_basico,script_control:1,$50:1,stop_or_wait_opcode_$50
+1D,EventScriptGroup_1D,$B4967A,$9A,Unknown,1,0,1,controle_basico,unknown:1,$9A:1,unknown_opcode_$9A
+1E,EventScriptGroup_1E,$B4969A,$50,ToolsStopOrWait,1,1,0,controle_basico,script_control:1,$50:1,stop_or_wait_opcode_$50
+1E,EventScriptGroup_1E,$B49A3F,$5F,Unknown,1,0,1,controle_basico,unknown:1,$5F:1,unknown_opcode_$5F
+1F,EventScriptGroup_1F,$B49A5F,$50,ToolsStopOrWait,1,1,0,controle_basico,script_control:1,$50:1,stop_or_wait_opcode_$50
+1F,EventScriptGroup_1F,$B49C2A,$50,ToolsStopOrWait,1,1,0,controle_basico,script_control:1,$50:1,stop_or_wait_opcode_$50
+1F,EventScriptGroup_1F,$B49DD5,$50,ToolsStopOrWait,1,1,0,controle_basico,script_control:1,$50:1,stop_or_wait_opcode_$50
+1F,EventScriptGroup_1F,$B49E31,$51,Unknown,1,0,1,controle_basico,unknown:1,$51:1,unknown_opcode_$51
+20,EventScriptGroup_20,$B49E51,$50,ToolsStopOrWait,1,1,0,controle_basico,script_control:1,$50:1,stop_or_wait_opcode_$50
+20,EventScriptGroup_20,$B49F13,$33,PickupMole,2,1,1,controle_basico,special_unknown:1 unknown:1,$33:1 $9F:1,unknown_opcode_$9F
+21,EventScriptGroup_21,$B49F33,$09,StartNestedScriptSlot,2,2,0,objeto_cc,script_control:2,$09:1 $10:1,stop_or_wait_opcode_$10
+21,EventScriptGroup_21,$B49FD8,$F8,Unknown,1,0,1,controle_basico,unknown:1,$F8:1,unknown_opcode_$F8
+22,EventScriptGroup_22,$B49FF8,$50,ToolsStopOrWait,1,1,0,controle_basico,script_control:1,$50:1,stop_or_wait_opcode_$50
+22,EventScriptGroup_22,$B4A045,$50,ToolsStopOrWait,1,1,0,controle_basico,script_control:1,$50:1,stop_or_wait_opcode_$50
+22,EventScriptGroup_22,$B4A091,$50,ToolsStopOrWait,1,1,0,controle_basico,script_control:1,$50:1,stop_or_wait_opcode_$50
+22,EventScriptGroup_22,$B4A0B6,$50,ToolsStopOrWait,1,1,0,controle_basico,script_control:1,$50:1,stop_or_wait_opcode_$50
+22,EventScriptGroup_22,$B4A0D2,$50,ToolsStopOrWait,1,1,0,controle_basico,script_control:1,$50:1,stop_or_wait_opcode_$50
+22,EventScriptGroup_22,$B4A11E,$50,ToolsStopOrWait,1,1,0,controle_basico,script_control:1,$50:1,stop_or_wait_opcode_$50
+22,EventScriptGroup_22,$B4A141,$50,ToolsStopOrWait,1,1,0,controle_basico,script_control:1,$50:1,stop_or_wait_opcode_$50
+22,EventScriptGroup_22,$B4A1BC,$50,ToolsStopOrWait,1,1,0,controle_basico,script_control:1,$50:1,stop_or_wait_opcode_$50
+22,EventScriptGroup_22,$B4A1D8,$50,ToolsStopOrWait,1,1,0,controle_basico,script_control:1,$50:1,stop_or_wait_opcode_$50
+22,EventScriptGroup_22,$B4A278,$50,ToolsStopOrWait,1,1,0,controle_basico,script_control:1,$50:1,stop_or_wait_opcode_$50
+22,EventScriptGroup_22,$B4A297,$50,ToolsStopOrWait,1,1,0,controle_basico,script_control:1,$50:1,stop_or_wait_opcode_$50
+22,EventScriptGroup_22,$B4A301,$50,ToolsStopOrWait,1,1,0,controle_basico,script_control:1,$50:1,stop_or_wait_opcode_$50
+22,EventScriptGroup_22,$B4A321,$50,ToolsStopOrWait,1,1,0,controle_basico,script_control:1,$50:1,stop_or_wait_opcode_$50
+22,EventScriptGroup_22,$B4A37F,$9F,Unknown,1,0,1,controle_basico,unknown:1,$9F:1,unknown_opcode_$9F
+23,EventScriptGroup_23,$B4A39F,$09,StartNestedScriptSlot,9,9,0,"objeto_cc, transicao_tela, audio",script_control:4 screen_transition:2 special_unknown:1 audio:1 flags_values:1,$09:3 $08:1 $38:1 $2C:1 $0C:1 $11:1 $10:1,stop_or_wait_opcode_$10
+23,EventScriptGroup_23,$B4A455,$75,Unknown,1,0,1,controle_basico,unknown:1,$75:1,unknown_opcode_$75
+24,EventScriptGroup_24,$B4A475,$08,ChangeGameState,6,5,1,"objeto_cc, transicao_tela",cc_state_object:2 screen_transition:1 special_unknown:1 time_rng_palette:1 unknown:1,$08:1 $1A:1 $38:1 $3A:1 $03:1 $7B:1,unknown_opcode_$7B
+24,EventScriptGroup_24,$B4A531,$08,ChangeGameState,6,5,1,"objeto_cc, transicao_tela",cc_state_object:2 screen_transition:1 special_unknown:1 time_rng_palette:1 unknown:1,$08:1 $1A:1 $38:1 $3A:1 $03:1 $9B:1,unknown_opcode_$9B
+24,EventScriptGroup_24,$B4A55D,$08,ChangeGameState,6,5,1,"objeto_cc, transicao_tela",cc_state_object:2 screen_transition:1 special_unknown:1 time_rng_palette:1 unknown:1,$08:1 $1A:1 $38:1 $3A:1 $03:1 $5F:1,unknown_opcode_$5F
+24,EventScriptGroup_24,$B4A589,$08,ChangeGameState,6,5,1,"objeto_cc, transicao_tela",cc_state_object:2 screen_transition:1 special_unknown:1 time_rng_palette:1 unknown:1,$08:1 $1A:1 $38:1 $3A:1 $03:1 $5F:1,unknown_opcode_$5F
+24,EventScriptGroup_24,$B4A5B5,$D5,Unknown,1,0,1,controle_basico,unknown:1,$D5:1,unknown_opcode_$D5
+25,EventScriptGroup_25,$B4A5D5,$02,StopTimeFlow,10,10,0,"objeto_cc, transicao_tela, player_anim",player_camera_motion:2 screen_transition:2 script_control:2 flags_values:2 time_rng_palette:1 special_unknown:1,$02:1 $05:1 $07:1 $08:1 $09:1 $38:1 $0B:1 $0C:1 $11:1 $10:1,stop_or_wait_opcode_$10
+25,EventScriptGroup_25,$B4A60D,$2D,CCStateChange9,2,1,1,objeto_cc,cc_state_object:1 unknown:1,$2D:1 $B6:1,unknown_opcode_$B6
+26,EventScriptGroup_26,$B4A62D,$4F,Set60,2,1,1,objeto_cc,cc_state_object:1 unknown:1,$4F:1 $51:1,unknown_opcode_$51
+26,EventScriptGroup_26,$B4B48E,$4F,Set60,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$4F:1 $50:1,stop_or_wait_opcode_$50
+26,EventScriptGroup_26,$B4B65E,$7E,Unknown,1,0,1,controle_basico,unknown:1,$7E:1,unknown_opcode_$7E
+27,EventScriptGroup_27,$B4B67E,$4F,Set60,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$4F:1 $50:1,stop_or_wait_opcode_$50
+27,EventScriptGroup_27,$B4B947,$4F,Set60,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$4F:1 $50:1,stop_or_wait_opcode_$50
+27,EventScriptGroup_27,$B4B9C2,$4F,Set60,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$4F:1 $50:1,stop_or_wait_opcode_$50
+27,EventScriptGroup_27,$B4BA8E,$4F,Set60,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$4F:1 $50:1,stop_or_wait_opcode_$50
+27,EventScriptGroup_27,$B4BACB,$EB,Unknown,1,0,1,controle_basico,unknown:1,$EB:1,unknown_opcode_$EB
+28,EventScriptGroup_28,$B4BAEB,$4F,Set60,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$4F:1 $50:1,stop_or_wait_opcode_$50
+28,EventScriptGroup_28,$B4BB06,$4F,Set60,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$4F:1 $50:1,stop_or_wait_opcode_$50
+28,EventScriptGroup_28,$B4BD19,$4F,Set60,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$4F:1 $50:1,stop_or_wait_opcode_$50
+28,EventScriptGroup_28,$B4C3AC,$4F,Set60,2,2,0,objeto_cc,cc_state_object:1 script_control:1,$4F:1 $50:1,stop_or_wait_opcode_$50
+28,EventScriptGroup_28,$B4C427,$47,SetValueShort,2,1,1,flags_memoria,flags_values:1 unknown:1,$47:1 $C4:1,unknown_opcode_$C4
+29,EventScriptGroup_29,$B4C447,$09,StartNestedScriptSlot,3,3,0,objeto_cc,script_control:2 special_unknown:1,$09:1 $38:1 $10:1,stop_or_wait_opcode_$10
+29,EventScriptGroup_29,$B4C4B8,$D8,Unknown,1,0,1,controle_basico,unknown:1,$D8:1,unknown_opcode_$D8
+2A,EventScriptGroup_2A,$B4C4D8,$1A,CCStateChange3,11,11,0,objeto_cc,cc_state_object:5 script_control:3 unknown:2 special_unknown:1,$1B:3 $13:2 $0D:2 $1A:1 $37:1 $41:1 $10:1,stop_or_wait_opcode_$10
+2A,EventScriptGroup_2A,$B4C504,$24,TimeOfDayPalette,3,2,1,flags_memoria,time_rng_palette:1 flags_values:1 unknown:1,$24:1 $48:1 $C5:1,unknown_opcode_$C5
+2B,EventScriptGroup_2B,$B4C524,$1A,CCStateChange3,9,9,0,objeto_cc,cc_state_object:3 script_control:3 unknown:2 special_unknown:1,$13:2 $0D:2 $1A:1 $1B:1 $37:1 $41:1 $10:1,stop_or_wait_opcode_$10
+2B,EventScriptGroup_2B,$B4C548,$68,Unknown,1,0,1,controle_basico,unknown:1,$68:1,unknown_opcode_$68
+2C,EventScriptGroup_2C,$B4C568,$1A,CCStateChange3,7,7,0,objeto_cc,cc_state_object:3 script_control:2 unknown:1 special_unknown:1,$1A:1 $13:1 $1B:1 $0D:1 $37:1 $41:1 $10:1,stop_or_wait_opcode_$10
+2C,EventScriptGroup_2C,$B4C584,$A4,Unknown,1,0,1,controle_basico,unknown:1,$A4:1,unknown_opcode_$A4
+2D,EventScriptGroup_2D,$B4C5A4,$07,SetPlayerDirection,19,19,0,"objeto_cc, transicao_tela, player_anim",unknown:11 script_control:4 player_camera_motion:1 screen_transition:1 special_unknown:1 cc_state_object:1,$0D:11 $12:2 $07:1 $09:1 $11:1 $38:1 $13:1 $1A:1,next_entry_boundary
+2D,EventScriptGroup_2D,$B4C5F4,$14,JumpIfFlagSet,2,1,1,flags_memoria,conditional:1 unknown:1,$14:1 $C6:1,unknown_opcode_$C6
+2E,EventScriptGroup_2E,$B4C614,$00,AudioRelated,2,1,1,audio,audio:1 unknown:1,$00:1 $B4:1,unknown_opcode_$B4
+2E,EventScriptGroup_2E,$B4C6F1,$11,ChangeGameState2,2,1,1,transicao_tela,screen_transition:1 unknown:1,$11:1 $C7:1,unknown_opcode_$C7
+2F,EventScriptGroup_2F,$B4C711,$00,AudioRelated,2,1,1,audio,audio:1 unknown:1,$00:1 $B4:1,unknown_opcode_$B4
+2F,EventScriptGroup_2F,$B4C7C3,$E3,Unknown,1,0,1,controle_basico,unknown:1,$E3:1,unknown_opcode_$E3
+30,EventScriptGroup_30,$B4C7E3,$00,AudioRelated,2,1,1,audio,audio:1 unknown:1,$00:1 $B4:1,unknown_opcode_$B4
+30,EventScriptGroup_30,$B4C9F9,$19,SetAnimation,17,16,1,"audio, item_dinheiro, player_anim",items_money:14 player_camera_motion:1 audio:1 unknown:1,$3F:14 $19:1 $00:1 $B4:1,unknown_opcode_$B4
+31,EventScriptGroup_31,$B4CA19,$00,AudioRelated,2,1,1,audio,audio:1 unknown:1,$00:1 $B4:1,unknown_opcode_$B4
+31,EventScriptGroup_31,$B4CB3F,$5F,Unknown,1,0,1,controle_basico,unknown:1,$5F:1,unknown_opcode_$5F
+32,EventScriptGroup_32,$B4CB5F,$00,AudioRelated,2,1,1,audio,audio:1 unknown:1,$00:1 $B4:1,unknown_opcode_$B4
+32,EventScriptGroup_32,$B4CD56,$76,Unknown,1,0,1,controle_basico,unknown:1,$76:1,unknown_opcode_$76
+33,EventScriptGroup_33,$B4CD76,$00,AudioRelated,2,1,1,audio,audio:1 unknown:1,$00:1 $B4:1,unknown_opcode_$B4
+33,EventScriptGroup_33,$B4CECA,$EA,Unknown,1,0,1,controle_basico,unknown:1,$EA:1,unknown_opcode_$EA
+34,EventScriptGroup_34,$B4CEEA,$47,SetValueShort,4,3,1,"flags_memoria, audio",flags_values:2 audio:1 unknown:1,$47:2 $00:1 $B4:1,unknown_opcode_$B4
+34,EventScriptGroup_34,$B4D011,$31,CowRelated,2,1,1,animal,animals:1 unknown:1,$31:1 $D0:1,unknown_opcode_$D0
+35,EventScriptGroup_35,$B4D031,$47,SetValueShort,3,2,1,"flags_memoria, audio",flags_values:1 audio:1 unknown:1,$47:1 $00:1 $B4:1,unknown_opcode_$B4
+35,EventScriptGroup_35,$B4D160,$80,Unknown,1,0,1,controle_basico,unknown:1,$80:1,unknown_opcode_$80
+36,EventScriptGroup_36,$B4D180,$00,AudioRelated,2,1,1,audio,audio:1 unknown:1,$00:1 $B4:1,unknown_opcode_$B4
+36,EventScriptGroup_36,$B4D2CC,$EC,Unknown,1,0,1,controle_basico,unknown:1,$EC:1,unknown_opcode_$EC
+37,EventScriptGroup_37,$B4D2EC,$47,SetValueShort,4,3,1,"flags_memoria, audio",flags_values:2 audio:1 unknown:1,$47:2 $00:1 $B4:1,unknown_opcode_$B4
+37,EventScriptGroup_37,$B4D447,$67,Unknown,1,0,1,controle_basico,unknown:1,$67:1,unknown_opcode_$67
+38,EventScriptGroup_38,$B4D467,$00,AudioRelated,2,1,1,audio,audio:1 unknown:1,$00:1 $B4:1,unknown_opcode_$B4
+38,EventScriptGroup_38,$B4D531,$51,Unknown,1,0,1,controle_basico,unknown:1,$51:1,unknown_opcode_$51
+39,EventScriptGroup_39,$B4D551,$00,AudioRelated,2,1,1,audio,audio:1 unknown:1,$00:1 $B4:1,unknown_opcode_$B4
+39,EventScriptGroup_39,$B4D772,$92,Unknown,1,0,1,controle_basico,unknown:1,$92:1,unknown_opcode_$92
+3A,EventScriptGroup_3A,$B4D792,$00,AudioRelated,2,1,1,audio,audio:1 unknown:1,$00:1 $B4:1,unknown_opcode_$B4
+3A,EventScriptGroup_3A,$B4D863,$00,AudioRelated,2,1,1,audio,audio:1 unknown:1,$00:1 $B4:1,unknown_opcode_$B4
+3A,EventScriptGroup_3A,$B4DA22,$42,ChangeMoney,2,1,1,item_dinheiro,items_money:1 unknown:1,$42:1 $DC:1,unknown_opcode_$DC
+3B,EventScriptGroup_3B,$B4DA42,$00,AudioRelated,2,1,1,audio,audio:1 unknown:1,$00:1 $B4:1,unknown_opcode_$B4
+3B,EventScriptGroup_3B,$B4DB0A,$00,AudioRelated,2,1,1,audio,audio:1 unknown:1,$00:1 $B4:1,unknown_opcode_$B4
+3B,EventScriptGroup_3B,$B4DCCD,$ED,Unknown,1,0,1,controle_basico,unknown:1,$ED:1,unknown_opcode_$ED
+3C,EventScriptGroup_3C,$B4DCED,$00,AudioRelated,2,1,1,audio,audio:1 unknown:1,$00:1 $B4:1,unknown_opcode_$B4
+3C,EventScriptGroup_3C,$B4DE3E,$00,AudioRelated,2,1,1,audio,audio:1 unknown:1,$00:1 $B4:1,unknown_opcode_$B4
+3C,EventScriptGroup_3C,$B4DF94,$B4,Unknown,1,0,1,controle_basico,unknown:1,$B4:1,unknown_opcode_$B4
+3D,EventScriptGroup_3D,$B4DFB4,$00,AudioRelated,2,1,1,audio,audio:1 unknown:1,$00:1 $B4:1,unknown_opcode_$B4
+3D,EventScriptGroup_3D,$B4E0F8,$00,AudioRelated,2,1,1,audio,audio:1 unknown:1,$00:1 $B4:1,unknown_opcode_$B4
+3D,EventScriptGroup_3D,$B4E200,$20,JumpIf018F,2,1,1,controle_basico,script_control:1 unknown:1,$20:1 $FF:1,unknown_opcode_$FF
+3E,EventScriptGroup_3E,$B4E220,$00,AudioRelated,2,1,1,audio,audio:1 unknown:1,$00:1 $B4:1,unknown_opcode_$B4
+3E,EventScriptGroup_3E,$B4E3FF,$1F,CCStateChange5D,2,1,1,objeto_cc,cc_state_object:1 unknown:1,$1F:1 $E4:1,unknown_opcode_$E4
+3F,EventScriptGroup_3F,$B4E41F,$00,AudioRelated,2,1,1,audio,audio:1 unknown:1,$00:1 $B4:1,unknown_opcode_$B4
+3F,EventScriptGroup_3F,$B4E5F4,$14,JumpIfFlagSet,2,1,1,flags_memoria,conditional:1 unknown:1,$14:1 $E7:1,unknown_opcode_$E7
+40,EventScriptGroup_40,$B4E614,$00,AudioRelated,2,1,1,audio,audio:1 unknown:1,$00:1 $B4:1,unknown_opcode_$B4
+40,EventScriptGroup_40,$B4E7AF,$CF,Unknown,1,0,1,controle_basico,unknown:1,$CF:1,unknown_opcode_$CF
+41,EventScriptGroup_41,$B4E7CF,$47,SetValueShort,3,2,1,"flags_memoria, audio",flags_values:1 audio:1 unknown:1,$47:1 $00:1 $B4:1,unknown_opcode_$B4
+41,EventScriptGroup_41,$B4E989,$A9,Unknown,1,0,1,controle_basico,unknown:1,$A9:1,unknown_opcode_$A9
+42,EventScriptGroup_42,$B4E9A9,$00,AudioRelated,2,1,1,audio,audio:1 unknown:1,$00:1 $B4:1,unknown_opcode_$B4
+42,EventScriptGroup_42,$B4EBA1,$00,AudioRelated,2,1,1,audio,audio:1 unknown:1,$00:1 $B4:1,unknown_opcode_$B4
+42,EventScriptGroup_42,$B4ECB4,$00,AudioRelated,96,96,0,audio,audio:96,$00:96,max_commands
+43,EventScriptGroup_43,$B58020,$14,JumpIfFlagSet,22,21,1,"flags_memoria, objeto_cc",conditional:7 cc_state_object:7 script_control:5 flags_values:2 unknown:1,$12:5 $14:4 $1A:4 $15:2 $23:2 $16:1 $41:1 $2D:1 $1F:1 $CD:1,unknown_opcode_$CD
+43,EventScriptGroup_43,$B584DA,$14,JumpIfFlagSet,22,21,1,"flags_memoria, objeto_cc",conditional:7 cc_state_object:7 script_control:5 flags_values:2 unknown:1,$12:5 $14:4 $1A:4 $15:2 $23:2 $16:1 $41:1 $2D:1 $1F:1 $83:1,unknown_opcode_$83
+43,EventScriptGroup_43,$B58990,$14,JumpIfFlagSet,26,25,1,"flags_memoria, objeto_cc",cc_state_object:9 conditional:7 script_control:5 flags_values:2 time_rng_palette:1 special_unknown:1 unknown:1,$12:5 $14:4 $1A:4 $15:2 $41:2 $23:2 $16:1 $2D:1 $1F:1 $1E:1 $01:1 $04:1,unknown_opcode_$68
+43,EventScriptGroup_43,$B58E4E,$14,JumpIfFlagSet,81,80,1,"dialogo, flags_memoria, objeto_cc, transicao_tela",conditional:36 script_control:16 cc_state_object:15 dialog_text:10 flags_values:2 screen_transition:1 unknown:1,$12:16 $14:12 $1C:10 $41:9 $15:7 $16:6 $45:6 $43:5 $1A:4 $23:2 $2D:1 $1F:1,unknown_opcode_$55
+43,EventScriptGroup_43,$B59313,$14,JumpIfFlagSet,22,21,1,"flags_memoria, objeto_cc",conditional:7 cc_state_object:7 script_control:5 flags_values:2 unknown:1,$12:5 $14:4 $1A:4 $15:2 $23:2 $16:1 $41:1 $2D:1 $1F:1 $C4:1,unknown_opcode_$C4
+43,EventScriptGroup_43,$B597D1,$F1,Unknown,1,0,1,controle_basico,unknown:1,$F1:1,unknown_opcode_$F1
+44,EventScriptGroup_44,$B597F1,$14,JumpIfFlagSet,96,96,0,"dialogo, flags_memoria, objeto_cc",conditional:35 script_control:25 dialog_text:22 cc_state_object:11 time_rng_palette:3,$12:25 $1C:22 $15:14 $14:9 $41:8 $16:5 $45:4 $17:3 $18:3 $1A:2 $2D:1,max_commands
+44,EventScriptGroup_44,$B599EB,$14,JumpIfFlagSet,96,96,0,"dialogo, flags_memoria, objeto_cc",conditional:34 script_control:26 dialog_text:23 cc_state_object:10 time_rng_palette:3,$12:25 $1C:23 $15:13 $14:9 $41:7 $16:5 $45:4 $17:3 $18:3 $1A:2 $09:1 $2D:1,max_commands
+44,EventScriptGroup_44,$B59BE3,$15,JumpIfEquals,96,96,0,"dialogo, flags_memoria, objeto_cc",conditional:34 script_control:25 dialog_text:23 cc_state_object:11 time_rng_palette:3,$12:25 $1C:23 $15:13 $14:9 $41:8 $16:5 $45:4 $17:3 $18:3 $1A:2 $2D:1,max_commands
+44,EventScriptGroup_44,$B59DD3,$14,JumpIfFlagSet,96,96,0,"dialogo, flags_memoria, objeto_cc",conditional:34 script_control:25 dialog_text:23 cc_state_object:11 time_rng_palette:3,$12:25 $1C:23 $15:13 $14:9 $41:8 $16:5 $45:4 $17:3 $18:3 $1A:2 $2D:1,max_commands
+44,EventScriptGroup_44,$B59FCA,$14,JumpIfFlagSet,96,96,0,"dialogo, flags_memoria, objeto_cc",conditional:35 script_control:25 dialog_text:22 cc_state_object:11 time_rng_palette:3,$12:23 $1C:22 $15:14 $14:9 $41:8 $16:5 $45:4 $17:3 $18:3 $09:2 $1A:2 $2D:1,max_commands
+44,EventScriptGroup_44,$B5A1E5,$05,SetPlayerPosition,2,1,1,player_anim,player_camera_motion:1 unknown:1,$05:1 $A4:1,unknown_opcode_$A4
+45,EventScriptGroup_45,$B5A205,$14,JumpIfFlagSet,51,50,1,"dialogo, flags_memoria, objeto_cc",script_control:16 conditional:13 cc_state_object:10 dialog_text:9 time_rng_palette:2 unknown:1,$12:15 $1C:9 $1A:4 $18:4 $16:3 $14:2 $15:2 $45:2 $22:2 $2D:2 $41:2 $17:2,unknown_opcode_$52
+45,EventScriptGroup_45,$B5A2FD,$45,JumpIfBetweenValue,13,13,0,flags_memoria,script_control:7 conditional:6,$12:6 $14:5 $45:1 $10:1,stop_or_wait_opcode_$10
+45,EventScriptGroup_45,$B5A407,$45,JumpIfBetweenValue,8,8,0,flags_memoria,conditional:6 script_control:2,$14:5 $45:1 $12:1 $10:1,stop_or_wait_opcode_$10
+45,EventScriptGroup_45,$B5A484,$14,JumpIfFlagSet,51,50,1,"dialogo, flags_memoria, objeto_cc",script_control:16 conditional:13 cc_state_object:10 dialog_text:9 time_rng_palette:2 unknown:1,$12:15 $1C:9 $1A:4 $18:4 $16:3 $14:2 $15:2 $45:2 $22:2 $2D:2 $41:2 $17:2,unknown_opcode_$53
+45,EventScriptGroup_45,$B5A57C,$45,JumpIfBetweenValue,13,13,0,flags_memoria,script_control:7 conditional:6,$12:6 $14:5 $45:1 $10:1,stop_or_wait_opcode_$10
+45,EventScriptGroup_45,$B5A686,$45,JumpIfBetweenValue,8,8,0,flags_memoria,conditional:6 script_control:2,$14:5 $45:1 $12:1 $10:1,stop_or_wait_opcode_$10
+45,EventScriptGroup_45,$B5A703,$23,SetFlag,2,1,1,flags_memoria,flags_values:1 unknown:1,$23:1 $A7:1,unknown_opcode_$A7
+46,EventScriptGroup_46,$B5A723,$00,AudioRelated,2,1,1,audio,audio:1 unknown:1,$00:1 $B4:1,unknown_opcode_$B4
+46,EventScriptGroup_46,$B5A73D,$00,AudioRelated,2,1,1,audio,audio:1 unknown:1,$00:1 $B4:1,unknown_opcode_$B4
+46,EventScriptGroup_46,$B5A757,$00,AudioRelated,2,1,1,audio,audio:1 unknown:1,$00:1 $B4:1,unknown_opcode_$B4
+46,EventScriptGroup_46,$B5A771,$00,AudioRelated,2,1,1,audio,audio:1 unknown:1,$00:1 $B4:1,unknown_opcode_$B4
+46,EventScriptGroup_46,$B5A78B,$00,AudioRelated,2,1,1,audio,audio:1 unknown:1,$00:1 $B4:1,unknown_opcode_$B4
+46,EventScriptGroup_46,$B5A7A5,$00,AudioRelated,2,1,1,audio,audio:1 unknown:1,$00:1 $B4:1,unknown_opcode_$B4
+46,EventScriptGroup_46,$B5A7BF,$00,AudioRelated,2,1,1,audio,audio:1 unknown:1,$00:1 $B4:1,unknown_opcode_$B4
+46,EventScriptGroup_46,$B5A7D9,$00,AudioRelated,2,1,1,audio,audio:1 unknown:1,$00:1 $B4:1,unknown_opcode_$B4
+46,EventScriptGroup_46,$B5A7F3,$00,AudioRelated,2,1,1,audio,audio:1 unknown:1,$00:1 $B4:1,unknown_opcode_$B4
+46,EventScriptGroup_46,$B5A80D,$00,AudioRelated,2,1,1,audio,audio:1 unknown:1,$00:1 $B4:1,unknown_opcode_$B4
+46,EventScriptGroup_46,$B5A827,$00,AudioRelated,2,1,1,audio,audio:1 unknown:1,$00:1 $B4:1,unknown_opcode_$B4
+46,EventScriptGroup_46,$B5A841,$00,AudioRelated,2,1,1,audio,audio:1 unknown:1,$00:1 $B4:1,unknown_opcode_$B4
+46,EventScriptGroup_46,$B5A85D,$00,AudioRelated,2,1,1,audio,audio:1 unknown:1,$00:1 $B4:1,unknown_opcode_$B4
+46,EventScriptGroup_46,$B5AC6E,$AE,Unknown,1,0,1,controle_basico,unknown:1,$AE:1,unknown_opcode_$AE
+47,EventScriptGroup_47,$B5ACAE,$23,SetFlag,3,2,1,"flags_memoria, audio",flags_values:1 audio:1 unknown:1,$23:1 $00:1 $B4:1,unknown_opcode_$B4
+47,EventScriptGroup_47,$B5ACDE,$23,SetFlag,3,2,1,"flags_memoria, audio",flags_values:1 audio:1 unknown:1,$23:1 $00:1 $B4:1,unknown_opcode_$B4
+47,EventScriptGroup_47,$B5AD25,$47,SetValueShort,5,4,1,"flags_memoria, audio",flags_values:3 audio:1 unknown:1,$47:2 $23:1 $00:1 $B4:1,unknown_opcode_$B4
+47,EventScriptGroup_47,$B5AFF9,$23,SetFlag,3,2,1,"flags_memoria, audio",flags_values:1 audio:1 unknown:1,$23:1 $00:1 $B4:1,unknown_opcode_$B4
+47,EventScriptGroup_47,$B5B050,$58,Unknown,1,0,1,controle_basico,unknown:1,$58:1,unknown_opcode_$58
+47,EventScriptGroup_47,$B5B261,$23,SetFlag,3,2,1,"flags_memoria, audio",flags_values:1 audio:1 unknown:1,$23:1 $00:1 $B4:1,unknown_opcode_$B4
+47,EventScriptGroup_47,$B5B2B8,$58,Unknown,1,0,1,controle_basico,unknown:1,$58:1,unknown_opcode_$58
+47,EventScriptGroup_47,$B5B501,$58,Unknown,1,0,1,controle_basico,unknown:1,$58:1,unknown_opcode_$58
+47,EventScriptGroup_47,$B5B834,$23,SetFlag,3,2,1,"flags_memoria, audio",flags_values:1 audio:1 unknown:1,$23:1 $00:1 $B4:1,unknown_opcode_$B4
+47,EventScriptGroup_47,$B5B87B,$58,Unknown,1,0,1,controle_basico,unknown:1,$58:1,unknown_opcode_$58
+47,EventScriptGroup_47,$B5BBFA,$23,SetFlag,3,2,1,"flags_memoria, audio",flags_values:1 audio:1 unknown:1,$23:1 $00:1 $B4:1,unknown_opcode_$B4
+47,EventScriptGroup_47,$B5BC45,$58,Unknown,1,0,1,controle_basico,unknown:1,$58:1,unknown_opcode_$58
+47,EventScriptGroup_47,$B5BEDE,$23,SetFlag,3,2,1,"flags_memoria, audio",flags_values:1 audio:1 unknown:1,$23:1 $00:1 $B4:1,unknown_opcode_$B4
+47,EventScriptGroup_47,$B5BF1A,$58,Unknown,1,0,1,controle_basico,unknown:1,$58:1,unknown_opcode_$58
+47,EventScriptGroup_47,$B5C1BD,$58,Unknown,1,0,1,controle_basico,unknown:1,$58:1,unknown_opcode_$58
+47,EventScriptGroup_47,$B5C442,$23,SetFlag,3,2,1,"flags_memoria, audio",flags_values:1 audio:1 unknown:1,$23:1 $00:1 $B4:1,unknown_opcode_$B4
+47,EventScriptGroup_47,$B5C489,$23,SetFlag,3,2,1,"flags_memoria, audio",flags_values:1 audio:1 unknown:1,$23:1 $00:1 $B4:1,unknown_opcode_$B4
+47,EventScriptGroup_47,$B5C4BA,$47,SetValueShort,5,4,1,"flags_memoria, audio",flags_values:3 audio:1 unknown:1,$47:2 $23:1 $00:1 $B4:1,unknown_opcode_$B4
+47,EventScriptGroup_47,$B5C5D3,$23,SetFlag,3,2,1,"flags_memoria, audio",flags_values:1 audio:1 unknown:1,$23:1 $00:1 $B4:1,unknown_opcode_$B4
+47,EventScriptGroup_47,$B5C608,$23,SetFlag,3,2,1,"flags_memoria, audio",flags_values:1 audio:1 unknown:1,$23:1 $00:1 $B4:1,unknown_opcode_$B4
+47,EventScriptGroup_47,$B5C648,$23,SetFlag,3,2,1,"flags_memoria, audio",flags_values:1 audio:1 unknown:1,$23:1 $00:1 $B4:1,unknown_opcode_$B4
+47,EventScriptGroup_47,$B5C679,$47,SetValueShort,4,3,1,"flags_memoria, audio",flags_values:2 audio:1 unknown:1,$47:1 $23:1 $00:1 $B4:1,unknown_opcode_$B4
+47,EventScriptGroup_47,$B5C793,$23,SetFlag,3,2,1,"flags_memoria, audio",flags_values:1 audio:1 unknown:1,$23:1 $00:1 $B4:1,unknown_opcode_$B4
+47,EventScriptGroup_47,$B5C7DE,$23,SetFlag,3,2,1,"flags_memoria, audio",flags_values:1 audio:1 unknown:1,$23:1 $00:1 $B4:1,unknown_opcode_$B4
+47,EventScriptGroup_47,$B5C8AF,$23,SetFlag,3,2,1,"flags_memoria, audio",flags_values:1 audio:1 unknown:1,$23:1 $00:1 $B4:1,unknown_opcode_$B4
+47,EventScriptGroup_47,$B5C8EE,$23,SetFlag,3,2,1,"flags_memoria, audio",flags_values:1 audio:1 unknown:1,$23:1 $00:1 $B4:1,unknown_opcode_$B4
+47,EventScriptGroup_47,$B5CA00,$23,SetFlag,3,2,1,"flags_memoria, audio",flags_values:1 audio:1 unknown:1,$23:1 $00:1 $B4:1,unknown_opcode_$B4
+47,EventScriptGroup_47,$B5CA3D,$23,SetFlag,3,2,1,"flags_memoria, audio",flags_values:1 audio:1 unknown:1,$23:1 $00:1 $B4:1,unknown_opcode_$B4
+47,EventScriptGroup_47,$B5CAA2,$23,SetFlag,4,3,1,"flags_memoria, audio",flags_values:2 audio:1 unknown:1,$23:1 $47:1 $00:1 $B4:1,unknown_opcode_$B4
+47,EventScriptGroup_47,$B5CB13,$23,SetFlag,3,2,1,"flags_memoria, audio",flags_values:1 audio:1 unknown:1,$23:1 $00:1 $B4:1,unknown_opcode_$B4
+47,EventScriptGroup_47,$B5CB69,$10,DisableCCSlotStop,1,1,0,controle_basico,script_control:1,$10:1,stop_or_wait_opcode_$10

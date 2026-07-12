@@ -1,0 +1,15 @@
+metric,value,percent
+total_visual_refs,263,100.000
+alias_class:context_source_address_not_final_gobj,139,52.852
+alias_class:final_exact_gobj_semantic_alias,69,26.236
+alias_class:manual_asset_table_decode_needed,24,9.125
+alias_class:visual_param_not_final_gobj,20,7.605
+alias_class:final_exact_animation_sequence_alias,10,3.802
+alias_class:runtime_state_semantic_alias,1,0.380
+alias_confidence:medium,159,60.456
+alias_confidence:high,80,30.418
+alias_confidence:low,24,9.125
+visual_entries_total,176,100.000
+entry_confidence:high_named_catalog_or_runtime_evidence,110,62.500
+entry_confidence:medium_context_source_or_param_evidence,41,23.295
+entry_confidence:mixed_context_manual_decode_needed,25,14.205

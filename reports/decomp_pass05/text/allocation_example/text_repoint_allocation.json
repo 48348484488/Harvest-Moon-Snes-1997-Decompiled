@@ -1,0 +1,30 @@
+[
+  {
+    "index_hex": "02D",
+    "old_bank": "B6",
+    "old_snes_addr": "B69DF4",
+    "old_label": "Text_Shop_Closed",
+    "new_label": "Text_Repoint_02D_Shop_Closed",
+    "new_snes_addr": "BBBDF8",
+    "new_end_exclusive": "BBBF1A",
+    "old_words": 15,
+    "new_words": 145,
+    "delta_words": 130,
+    "bytes": 290,
+    "status": "ALLOCATED"
+  },
+  {
+    "index_hex": "035",
+    "old_bank": "B6",
+    "old_snes_addr": "B6A03E",
+    "old_label": "Text_035_Dialog_HowsGoingWorkTooHard",
+    "new_label": "Text_Repoint_035_035_Dialog_HowsGoingWorkTooHard",
+    "new_snes_addr": "BBBF1A",
+    "new_end_exclusive": "BBC02A",
+    "old_words": 72,
+    "new_words": 136,
+    "delta_words": 64,
+    "bytes": 272,
+    "status": "ALLOCATED"
+  }
+]

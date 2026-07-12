@@ -1,0 +1,264 @@
+visual_or_object_ref,pass83_ref_class,entry_count,groups,domains,roles,example_entries
+$7F1F,wram_or_runtime_cc_state_ref,72,$43:20 $44:20 $45:8 $08:5 $00:4 $01:3 $02:3 $04:3 $06:3 $07:3,general_livestock_visual_context:40 dog_pet_visual_context:15 npc_family_event_visual_context:13 cow_livestock_visual_context:4,cc_object_visual_pointer_setup:72,$00:38@$B38F11 $00:126@$B39250 $00:126@$B39250 $00:126@$B39250 $01:4@$B3A162 $01:5@$B3A438 $01:5@$B3A438 $02:4@$B3B8D2
+$B38D,bank_b3_b5_script_target_or_local_pointer,64,$00:64,general_livestock_visual_context:56 cow_livestock_visual_context:6 dog_pet_visual_context:2,cc_object_visual_pointer_setup:63 cc_object_parameter_state_setup:1,$00:4@$B38CF8 $00:5@$B38D05 $00:6@$B38D12 $00:7@$B38D1F $00:8@$B38D2C $00:9@$B38D39 $00:12@$B38D5A $00:13@$B38D67
+$0001,low_immediate_param_or_small_id,56,$00:17 $01:9 $08:7 $04:6 $07:6 $06:5 $02:2 $0B:1 $2A:1 $2B:1 $2D:1,general_livestock_visual_context:34 npc_family_event_visual_context:16 cow_livestock_visual_context:4 dog_pet_visual_context:2,cc_object_visual_pointer_setup:56,$00:21@$B38DE5 $00:24@$B38E09 $00:25@$B38E1E $00:26@$B38E33 $00:27@$B38E48 $00:28@$B38E5D $00:29@$B38E72 $00:32@$B38E9C
+$003C,low_immediate_param_or_small_id,31,$00:22 $44:6 $2A:1 $2B:1 $2C:1,general_livestock_visual_context:27 npc_family_event_visual_context:3 cow_livestock_visual_context:1,cc_object_visual_pointer_setup:31,$00:12@$B38D5A $00:13@$B38D67 $00:14@$B38D74 $00:15@$B38D81 $00:40@$B38F43 $00:41@$B38F50 $00:42@$B38F5D $00:43@$B38F6A
+$B38C,bank_b3_b5_script_target_or_local_pointer,25,$00:25,general_livestock_visual_context:21 chicken_poultry_visual_context:3 cow_livestock_visual_context:1,cc_object_visual_pointer_setup:25,$00:0@$B38CC8 $00:1@$B38CD0 $00:2@$B38CDE $00:3@$B38CEB $00:86@$B390F3 $00:87@$B390F9 $00:88@$B390FF $00:89@$B39105
+$0168,low_immediate_param_or_small_id,15,$00:5 $01:2 $04:2 $06:2 $07:2 $08:2,general_livestock_visual_context:9 npc_family_event_visual_context:5 dog_pet_visual_context:1,cc_object_visual_pointer_setup:15,$00:24@$B38E09 $00:26@$B38E33 $00:29@$B38E72 $00:44@$B38F77 $00:54@$B39001 $01:3@$B3A086 $01:4@$B3A162 $04:2@$B3C6FE
+$0088,low_immediate_param_or_small_id,13,$00:5 $01:2 $04:1 $06:1 $07:1 $08:1 $0B:1 $2B:1,general_livestock_visual_context:7 npc_family_event_visual_context:4 dog_pet_visual_context:2,cc_object_visual_pointer_setup:13,$00:29@$B38E72 $00:44@$B38F77 $00:54@$B39001 $00:134@$B39313 $00:135@$B39313 $01:6@$B3A5B1 $01:9@$B3AD24 $04:5@$B3CA98
+$0058,low_immediate_param_or_small_id,12,$43:5 $00:3 $02:1 $04:1 $07:1 $08:1,dog_pet_visual_context:5 general_livestock_visual_context:4 npc_family_event_visual_context:3,cc_object_visual_pointer_setup:12,$00:21@$B38DE5 $00:134@$B39313 $00:135@$B39313 $02:4@$B3B8D2 $04:7@$B3CBA5 $07:7@$B3E037 $08:7@$B3E59A $43:0@$B58020
+$0068,low_immediate_param_or_small_id,12,$43:5 $01:2 $00:1 $04:1 $06:1 $07:1 $08:1,general_livestock_visual_context:7 dog_pet_visual_context:3 cow_livestock_visual_context:1 npc_family_event_visual_context:1,cc_object_visual_pointer_setup:12,$00:24@$B38E09 $01:2@$B39F3E $01:10@$B3ADB1 $04:1@$B3C6AE $06:1@$B3D59D $07:1@$B3DB72 $08:1@$B3E1C9 $43:0@$B58020
+$8001,candidate_visual_gobj_pointer_or_asset_table,12,$43:5 $44:5 $45:2,general_livestock_visual_context:6 dog_pet_visual_context:3 npc_family_event_visual_context:2 cow_livestock_visual_context:1,cc_object_visual_pointer_setup:12,$43:0@$B58020 $43:1@$B584DA $43:2@$B58990 $43:3@$B58E4E $43:4@$B59313 $44:0@$B597F1 $44:1@$B599EB $44:2@$B59BE3
+$B3E5,bank_b3_b5_script_target_or_local_pointer,12,$08:12,npc_family_event_visual_context:8 cow_livestock_visual_context:4,cc_object_visual_pointer_setup:12,$08:5@$B3E4ED $08:5@$B3E4ED $08:5@$B3E4ED $08:6@$B3E560 $08:6@$B3E560 $08:6@$B3E560 $08:6@$B3E560 $08:7@$B3E59A
+$0028,low_immediate_param_or_small_id,11,$01:3 $04:2 $06:2 $07:2 $08:2,npc_family_event_visual_context:5 general_livestock_visual_context:4 dog_pet_visual_context:2,cc_object_visual_pointer_setup:11,$01:3@$B3A086 $01:4@$B3A162 $01:5@$B3A438 $04:2@$B3C6FE $04:3@$B3C810 $06:2@$B3D5E3 $06:3@$B3D6CF $07:2@$B3DBD5
+$B38E,bank_b3_b5_script_target_or_local_pointer,11,$00:11,general_livestock_visual_context:10 cow_livestock_visual_context:1,cc_object_visual_pointer_setup:11,$00:23@$B38DFC $00:24@$B38E09 $00:25@$B38E1E $00:26@$B38E33 $00:27@$B38E48 $00:28@$B38E5D $00:29@$B38E72 $00:31@$B38E94
+$B3CB,bank_b3_b5_script_target_or_local_pointer,11,$04:11,npc_family_event_visual_context:6 general_livestock_visual_context:5,cc_object_visual_pointer_setup:11,$04:5@$B3CA98 $04:6@$B3CB60 $04:6@$B3CB60 $04:6@$B3CB60 $04:6@$B3CB60 $04:6@$B3CB60 $04:7@$B3CBA5 $04:7@$B3CBA5
+$B3DB,bank_b3_b5_script_target_or_local_pointer,11,$07:11,general_livestock_visual_context:11,cc_object_visual_pointer_setup:11,$07:1@$B3DB72 $07:1@$B3DB72 $07:1@$B3DB72 $07:1@$B3DB72 $07:1@$B3DB72 $07:2@$B3DBD5 $07:2@$B3DBD5 $07:2@$B3DBD5
+$00E8,low_immediate_param_or_small_id,10,$01:2 $04:2 $06:2 $07:2 $08:2,general_livestock_visual_context:6 cow_livestock_visual_context:3 npc_family_event_visual_context:1,cc_object_visual_pointer_setup:10,$01:2@$B39F3E $01:7@$B3A727 $04:1@$B3C6AE $04:6@$B3CB60 $06:1@$B3D59D $06:6@$B3D99B $07:1@$B3DB72 $07:6@$B3DFCE
+$B3D9,bank_b3_b5_script_target_or_local_pointer,10,$06:10,general_livestock_visual_context:5 cow_livestock_visual_context:5,cc_object_visual_pointer_setup:10,$06:5@$B3D90E $06:5@$B3D90E $06:5@$B3D90E $06:5@$B3D90E $06:5@$B3D90E $06:6@$B3D99B $06:6@$B3D99B $06:6@$B3D99B
+$B3E0,bank_b3_b5_script_target_or_local_pointer,10,$07:5 $08:5,npc_family_event_visual_context:5 general_livestock_visual_context:5,cc_object_visual_pointer_setup:10,$07:7@$B3E037 $07:7@$B3E037 $07:7@$B3E037 $07:7@$B3E037 $07:7@$B3E037 $08:0@$B3E0DF $08:0@$B3E0DF $08:0@$B3E0DF
+$812C,candidate_visual_gobj_pointer_or_asset_table,9,$00:9,general_livestock_visual_context:9,cc_object_visual_pointer_setup:8 cc_object_parameter_state_setup:1,$00:16@$B38D8E $00:20@$B38DD1 $00:25@$B38E1E $00:40@$B38F43 $00:41@$B38F50 $00:42@$B38F5D $00:43@$B38F6A $00:75@$B390B1
+$B3D6,bank_b3_b5_script_target_or_local_pointer,9,$06:9,general_livestock_visual_context:9,cc_object_visual_pointer_setup:9,$06:2@$B3D5E3 $06:2@$B3D5E3 $06:2@$B3D5E3 $06:2@$B3D5E3 $06:3@$B3D6CF $06:3@$B3D6CF $06:3@$B3D6CF $06:3@$B3D6CF
+$B3DF,bank_b3_b5_script_target_or_local_pointer,9,$07:9,general_livestock_visual_context:9,cc_object_visual_pointer_setup:9,$07:5@$B3DF0F $07:5@$B3DF0F $07:5@$B3DF0F $07:5@$B3DF0F $07:5@$B3DF0F $07:6@$B3DFCE $07:6@$B3DFCE $07:6@$B3DFCE
+$0200,mid_range_value_or_table_offset,8,$06:3 $07:3 $08:2,general_livestock_visual_context:5 cow_livestock_visual_context:2 npc_family_event_visual_context:1,cc_object_visual_pointer_setup:8,$06:1@$B3D59D $06:5@$B3D90E $06:6@$B3D99B $07:1@$B3DB72 $07:5@$B3DF0F $07:6@$B3DFCE $08:1@$B3E1C9 $08:6@$B3E560
+$86C0,candidate_visual_gobj_pointer_or_asset_table,8,$00:8,general_livestock_visual_context:7 cow_livestock_visual_context:1,cc_object_visual_pointer_setup:8,$00:3@$B38CEB $00:28@$B38E5D $00:37@$B38F03 $00:100@$B3916E $00:101@$B3917B $00:102@$B39188 $00:103@$B39195 $00:120@$B39212
+$B38F,bank_b3_b5_script_target_or_local_pointer,8,$00:8,general_livestock_visual_context:7 cow_livestock_visual_context:1,cc_object_visual_pointer_setup:8,$00:37@$B38F03 $00:38@$B38F11 $00:38@$B38F11 $00:44@$B38F77 $00:47@$B38FA2 $00:48@$B38FAF $00:49@$B38FC3 $00:53@$B38FF5
+$B3AD,bank_b3_b5_script_target_or_local_pointer,8,$01:8,general_livestock_visual_context:4 cow_livestock_visual_context:4,cc_object_visual_pointer_setup:8,$01:9@$B3AD24 $01:9@$B3AD24 $01:9@$B3AD24 $01:9@$B3AD24 $01:10@$B3ADB1 $01:10@$B3ADB1 $01:10@$B3ADB1 $01:10@$B3ADB1
+$B3D5,bank_b3_b5_script_target_or_local_pointer,8,$06:8,general_livestock_visual_context:8,cc_object_visual_pointer_setup:8,$06:1@$B3D59D $06:1@$B3D59D $06:1@$B3D59D $06:1@$B3D59D $06:1@$B3D59D $06:2@$B3D5E3 $06:2@$B3D5E3 $06:2@$B3D5E3
+$B3E2,bank_b3_b5_script_target_or_local_pointer,8,$08:8,general_livestock_visual_context:7 npc_family_event_visual_context:1,cc_object_visual_pointer_setup:8,$08:1@$B3E1C9 $08:2@$B3E232 $08:2@$B3E232 $08:2@$B3E232 $08:2@$B3E232 $08:2@$B3E232 $08:2@$B3E232 $08:2@$B3E232
+$8009,candidate_visual_gobj_pointer_or_asset_table,7,$08:4 $06:3,npc_family_event_visual_context:3 general_livestock_visual_context:2 cow_livestock_visual_context:2,cc_object_visual_pointer_setup:7,$06:1@$B3D59D $06:5@$B3D90E $06:6@$B3D99B $08:1@$B3E1C9 $08:5@$B3E4ED $08:6@$B3E560 $08:7@$B3E59A
+$80FC,candidate_visual_gobj_pointer_or_asset_table,7,$00:7,general_livestock_visual_context:6 cow_livestock_visual_context:1,cc_object_visual_pointer_setup:7,$00:5@$B38D05 $00:12@$B38D5A $00:13@$B38D67 $00:14@$B38D74 $00:15@$B38D81 $00:26@$B38E33 $00:94@$B39123
+$8234,candidate_visual_gobj_pointer_or_asset_table,7,$00:2 $01:1 $04:1 $07:1 $08:1 $0B:1,npc_family_event_visual_context:4 general_livestock_visual_context:3,cc_object_visual_pointer_setup:7,$00:54@$B39001 $00:55@$B3900F $01:9@$B3AD24 $04:7@$B3CBA5 $07:7@$B3E037 $08:7@$B3E59A $0B:10@$B3EEEA
+$8318,candidate_visual_gobj_pointer_or_asset_table,7,$00:1 $01:1 $04:1 $06:1 $07:1 $08:1 $24:1,npc_family_event_visual_context:4 general_livestock_visual_context:2 dog_pet_visual_context:1,cc_object_visual_pointer_setup:7,$00:29@$B38E72 $01:4@$B3A162 $04:3@$B3C810 $06:3@$B3D6CF $07:3@$B3DCD1 $08:3@$B3E31F $24:1@$B4A531
+$86A8,candidate_visual_gobj_pointer_or_asset_table,7,$00:7,general_livestock_visual_context:6 cow_livestock_visual_context:1,cc_object_visual_pointer_setup:7,$00:4@$B38CF8 $00:27@$B38E48 $00:96@$B3913A $00:97@$B39147 $00:98@$B39154 $00:99@$B39161 $00:116@$B391FA
+$B3A5,bank_b3_b5_script_target_or_local_pointer,7,$01:7,general_livestock_visual_context:5 dog_pet_visual_context:2,cc_object_visual_pointer_setup:7,$01:5@$B3A438 $01:5@$B3A438 $01:6@$B3A5B1 $01:6@$B3A5B1 $01:6@$B3A5B1 $01:6@$B3A5B1 $01:6@$B3A5B1
+$B3C7,bank_b3_b5_script_target_or_local_pointer,7,$04:7,npc_family_event_visual_context:7,cc_object_visual_pointer_setup:7,$04:2@$B3C6FE $04:2@$B3C6FE $04:2@$B3C6FE $04:2@$B3C6FE $04:2@$B3C6FE $04:2@$B3C6FE $04:2@$B3C6FE
+$B3C8,bank_b3_b5_script_target_or_local_pointer,7,$04:7,npc_family_event_visual_context:7,cc_object_visual_pointer_setup:7,$04:3@$B3C810 $04:3@$B3C810 $04:3@$B3C810 $04:3@$B3C810 $04:3@$B3C810 $04:3@$B3C810 $04:3@$B3C810
+$0059,low_immediate_param_or_small_id,6,$44:4 $45:2,general_livestock_visual_context:4 npc_family_event_visual_context:2,cc_object_visual_pointer_setup:6,$44:0@$B597F1 $44:1@$B599EB $44:2@$B59BE3 $44:3@$B59DD3 $45:0@$B5A205 $45:3@$B5A484
+$01A8,low_immediate_param_or_small_id,6,$24:4 $00:2,general_livestock_visual_context:3 npc_family_event_visual_context:3,cc_object_visual_pointer_setup:6,$00:13@$B38D67 $00:126@$B39250 $24:0@$B4A475 $24:1@$B4A531 $24:2@$B4A55D $24:3@$B4A589
+$01D8,low_immediate_param_or_small_id,6,$00:6,general_livestock_visual_context:6,cc_object_visual_pointer_setup:6,$00:25@$B38E1E $00:33@$B38EAA $00:35@$B38EE0 $00:38@$B38F11 $00:124@$B3922A $00:125@$B39241
+$B3A1,bank_b3_b5_script_target_or_local_pointer,6,$01:6,dog_pet_visual_context:6,cc_object_visual_pointer_setup:6,$01:4@$B3A162 $01:4@$B3A162 $01:4@$B3A162 $01:4@$B3A162 $01:4@$B3A162 $01:4@$B3A162
+$B3B8,bank_b3_b5_script_target_or_local_pointer,6,$02:6,general_livestock_visual_context:6,cc_object_visual_pointer_setup:6,$02:4@$B3B8D2 $02:4@$B3B8D2 $02:4@$B3B8D2 $02:4@$B3B8D2 $02:4@$B3B8D2 $02:4@$B3B8D2
+$B3DC,bank_b3_b5_script_target_or_local_pointer,6,$07:6,npc_family_event_visual_context:5 general_livestock_visual_context:1,cc_object_visual_pointer_setup:6,$07:2@$B3DBD5 $07:3@$B3DCD1 $07:3@$B3DCD1 $07:3@$B3DCD1 $07:3@$B3DCD1 $07:3@$B3DCD1
+$B3E1,bank_b3_b5_script_target_or_local_pointer,6,$08:6,npc_family_event_visual_context:4 general_livestock_visual_context:2,cc_object_visual_pointer_setup:6,$08:0@$B3E0DF $08:0@$B3E0DF $08:1@$B3E1C9 $08:1@$B3E1C9 $08:1@$B3E1C9 $08:1@$B3E1C9
+$B3E3,bank_b3_b5_script_target_or_local_pointer,6,$08:6,npc_family_event_visual_context:6,cc_object_visual_pointer_setup:6,$08:3@$B3E31F $08:3@$B3E31F $08:3@$B3E31F $08:3@$B3E31F $08:3@$B3E31F $08:3@$B3E31F
+$B5A1,bank_b3_b5_script_target_or_local_pointer,6,$44:6,cow_livestock_visual_context:6,cc_object_visual_pointer_setup:6,$44:4@$B59FCA $44:4@$B59FCA $44:4@$B59FCA $44:4@$B59FCA $44:4@$B59FCA $44:4@$B59FCA
+$0050,low_immediate_param_or_small_id,5,$01:1 $04:1 $06:1 $07:1 $08:1,general_livestock_visual_context:3 npc_family_event_visual_context:2,cc_object_visual_pointer_setup:5,$01:6@$B3A5B1 $04:5@$B3CA98 $06:5@$B3D90E $07:5@$B3DF0F $08:5@$B3E4ED
+$0078,low_immediate_param_or_small_id,5,$00:2 $01:1 $02:1 $2A:1,general_livestock_visual_context:3 npc_family_event_visual_context:2,cc_object_visual_pointer_setup:5,$00:32@$B38E9C $00:55@$B3900F $01:1@$B39D05 $02:1@$B3B44A $2A:0@$B4C4D8
+$0098,low_immediate_param_or_small_id,5,$01:2 $07:1 $0B:1 $2B:1,general_livestock_visual_context:2 npc_family_event_visual_context:2 cow_livestock_visual_context:1,cc_object_visual_pointer_setup:5,$01:7@$B3A727 $01:9@$B3AD24 $07:6@$B3DFCE $0B:10@$B3EEEA $2B:0@$B4C524
+$0178,low_immediate_param_or_small_id,5,$00:4 $01:1,general_livestock_visual_context:4 cow_livestock_visual_context:1,cc_object_visual_pointer_setup:5,$00:51@$B38FDB $00:52@$B38FE8 $00:53@$B38FF5 $00:55@$B3900F $01:10@$B3ADB1
+$2020,mid_range_value_or_table_offset,5,$00:5,general_livestock_visual_context:5,cc_object_visual_pointer_setup:5,$00:24@$B38E09 $00:25@$B38E1E $00:26@$B38E33 $00:27@$B38E48 $00:28@$B38E5D
+$8114,candidate_visual_gobj_pointer_or_asset_table,5,$00:5,general_livestock_visual_context:4 dog_pet_visual_context:1,cc_object_visual_pointer_setup:4 cc_object_parameter_state_setup:1,$00:17@$B38D9B $00:18@$B38DB0 $00:24@$B38E09 $00:60@$B39057 $00:63@$B39069
+$82E8,candidate_visual_gobj_pointer_or_asset_table,5,$01:1 $04:1 $06:1 $07:1 $08:1,general_livestock_visual_context:3 npc_family_event_visual_context:2,cc_object_visual_pointer_setup:5,$01:6@$B3A5B1 $04:5@$B3CA98 $06:5@$B3D90E $07:5@$B3DF0F $08:5@$B3E4ED
+$8354,candidate_visual_gobj_pointer_or_asset_table,5,$01:1 $04:1 $06:1 $07:1 $08:1,general_livestock_visual_context:4 npc_family_event_visual_context:1,cc_object_visual_pointer_setup:5,$01:2@$B39F3E $04:1@$B3C6AE $06:1@$B3D59D $07:1@$B3DB72 $08:1@$B3E1C9
+$836C,candidate_visual_gobj_pointer_or_asset_table,5,$00:1 $01:1 $04:1 $07:1 $08:1,general_livestock_visual_context:3 cow_livestock_visual_context:2,cc_object_visual_pointer_setup:5,$00:32@$B38E9C $01:7@$B3A727 $04:6@$B3CB60 $07:6@$B3DFCE $08:6@$B3E560
+$86F0,candidate_visual_gobj_pointer_or_asset_table,5,$00:5,general_livestock_visual_context:4 cow_livestock_visual_context:1,cc_object_visual_pointer_setup:5,$00:8@$B38D2C $00:130@$B392DF $00:131@$B392EC $00:132@$B392F9 $00:133@$B39306
+$B392,bank_b3_b5_script_target_or_local_pointer,5,$00:5,general_livestock_visual_context:5,cc_object_visual_pointer_setup:5,$00:124@$B3922A $00:126@$B39250 $00:126@$B39250 $00:126@$B39250 $00:126@$B39250
+$B39F,bank_b3_b5_script_target_or_local_pointer,5,$01:5,general_livestock_visual_context:5,cc_object_visual_pointer_setup:5,$01:2@$B39F3E $01:2@$B39F3E $01:2@$B39F3E $01:2@$B39F3E $01:2@$B39F3E
+$B3A0,bank_b3_b5_script_target_or_local_pointer,5,$01:5,npc_family_event_visual_context:5,cc_object_visual_pointer_setup:5,$01:3@$B3A086 $01:3@$B3A086 $01:3@$B3A086 $01:3@$B3A086 $01:3@$B3A086
+$B3A7,bank_b3_b5_script_target_or_local_pointer,5,$01:5,cow_livestock_visual_context:5,cc_object_visual_pointer_setup:5,$01:7@$B3A727 $01:7@$B3A727 $01:7@$B3A727 $01:7@$B3A727 $01:7@$B3A727
+$B3B4,bank_b3_b5_script_target_or_local_pointer,5,$02:5,npc_family_event_visual_context:5,cc_object_visual_pointer_setup:5,$02:1@$B3B44A $02:1@$B3B44A $02:1@$B3B44A $02:1@$B3B44A $02:1@$B3B44A
+$B3C6,bank_b3_b5_script_target_or_local_pointer,5,$04:5,general_livestock_visual_context:5,cc_object_visual_pointer_setup:5,$04:1@$B3C6AE $04:1@$B3C6AE $04:1@$B3C6AE $04:1@$B3C6AE $04:1@$B3C6AE
+$B589,bank_b3_b5_script_target_or_local_pointer,5,$43:5,general_livestock_visual_context:4 dog_pet_visual_context:1,cc_object_visual_pointer_setup:5,$43:1@$B584DA $43:2@$B58990 $43:2@$B58990 $43:2@$B58990 $43:2@$B58990
+$B58E,bank_b3_b5_script_target_or_local_pointer,5,$43:5,dog_pet_visual_context:4 general_livestock_visual_context:1,cc_object_visual_pointer_setup:5,$43:2@$B58990 $43:3@$B58E4E $43:3@$B58E4E $43:3@$B58E4E $43:3@$B58E4E
+$B593,bank_b3_b5_script_target_or_local_pointer,5,$43:5,dog_pet_visual_context:5,cc_object_visual_pointer_setup:5,$43:3@$B58E4E $43:4@$B59313 $43:4@$B59313 $43:4@$B59313 $43:4@$B59313
+$B59B,bank_b3_b5_script_target_or_local_pointer,5,$44:5,general_livestock_visual_context:5,cc_object_visual_pointer_setup:5,$44:1@$B599EB $44:1@$B599EB $44:1@$B599EB $44:1@$B599EB $44:1@$B599EB
+$00B8,low_immediate_param_or_small_id,4,$00:1 $04:1 $07:1 $08:1,npc_family_event_visual_context:3 general_livestock_visual_context:1,cc_object_visual_pointer_setup:4,$00:28@$B38E5D $04:7@$B3CBA5 $07:7@$B3E037 $08:7@$B3E59A
+$01BF,low_immediate_param_or_small_id,4,$00:4,general_livestock_visual_context:4,cc_object_visual_pointer_setup:4,$00:100@$B3916E $00:101@$B3917B $00:102@$B39188 $00:103@$B39195
+$01CB,low_immediate_param_or_small_id,4,$00:4,general_livestock_visual_context:4,cc_object_visual_pointer_setup:4,$00:96@$B3913A $00:97@$B39147 $00:98@$B39154 $00:99@$B39161
+$8504,candidate_visual_gobj_pointer_or_asset_table,4,$00:4,general_livestock_visual_context:4,cc_object_visual_pointer_setup:4,$00:48@$B38FAF $00:48@$B38FAF $00:49@$B38FC3 $00:49@$B38FC3
+$B39D,bank_b3_b5_script_target_or_local_pointer,4,$01:4,general_livestock_visual_context:4,cc_object_visual_pointer_setup:4,$01:1@$B39D05 $01:1@$B39D05 $01:1@$B39D05 $01:1@$B39D05
+$B3A4,bank_b3_b5_script_target_or_local_pointer,4,$01:4,dog_pet_visual_context:4,cc_object_visual_pointer_setup:4,$01:5@$B3A438 $01:5@$B3A438 $01:5@$B3A438 $01:5@$B3A438
+$B3CA,bank_b3_b5_script_target_or_local_pointer,4,$04:4,npc_family_event_visual_context:4,cc_object_visual_pointer_setup:4,$04:5@$B3CA98 $04:5@$B3CA98 $04:5@$B3CA98 $04:5@$B3CA98
+$B3EE,bank_b3_b5_script_target_or_local_pointer,4,$0B:4,npc_family_event_visual_context:4,cc_object_visual_pointer_setup:4,$0B:10@$B3EEEA $0B:10@$B3EEEA $0B:10@$B3EEEA $0B:10@$B3EEEA
+$B580,bank_b3_b5_script_target_or_local_pointer,4,$43:4,general_livestock_visual_context:4,cc_object_visual_pointer_setup:4,$43:0@$B58020 $43:0@$B58020 $43:0@$B58020 $43:0@$B58020
+$B599,bank_b3_b5_script_target_or_local_pointer,4,$44:4,general_livestock_visual_context:4,cc_object_visual_pointer_setup:4,$44:0@$B597F1 $44:0@$B597F1 $44:0@$B597F1 $44:0@$B597F1
+$B59D,bank_b3_b5_script_target_or_local_pointer,4,$44:4,general_livestock_visual_context:4,cc_object_visual_pointer_setup:4,$44:2@$B59BE3 $44:2@$B59BE3 $44:2@$B59BE3 $44:2@$B59BE3
+$B5A2,bank_b3_b5_script_target_or_local_pointer,4,$45:4,npc_family_event_visual_context:4,cc_object_visual_pointer_setup:4,$45:0@$B5A205 $45:0@$B5A205 $45:0@$B5A205 $45:0@$B5A205
+$FFF8,high_bank_pointer_or_immediate_word,4,$24:4,npc_family_event_visual_context:3 general_livestock_visual_context:1,cc_object_visual_pointer_setup:4,$24:0@$B4A475 $24:1@$B4A531 $24:2@$B4A55D $24:3@$B4A589
+$0040,low_immediate_param_or_small_id,3,$00:3,general_livestock_visual_context:3,cc_object_visual_pointer_setup:3,$00:48@$B38FAF $00:51@$B38FDB $00:52@$B38FE8
+$009C,low_immediate_param_or_small_id,3,$04:1 $06:1 $08:1,cow_livestock_visual_context:2 general_livestock_visual_context:1,cc_object_visual_pointer_setup:3,$04:6@$B3CB60 $06:6@$B3D99B $08:6@$B3E560
+$0148,low_immediate_param_or_small_id,3,$00:3,dog_pet_visual_context:2 general_livestock_visual_context:1,cc_object_visual_pointer_setup:3,$00:37@$B38F03 $00:134@$B39313 $00:135@$B39313
+$0268,mid_range_value_or_table_offset,3,$00:3,general_livestock_visual_context:3,cc_object_visual_pointer_setup:3,$00:51@$B38FDB $00:52@$B38FE8 $00:53@$B38FF5
+$02AF,mid_range_value_or_table_offset,3,$00:1 $04:1 $07:1,general_livestock_visual_context:3,cc_object_visual_pointer_setup:3,$00:33@$B38EAA $04:6@$B3CB60 $07:6@$B3DFCE
+$8144,candidate_visual_gobj_pointer_or_asset_table,3,$00:3,chicken_poultry_visual_context:2 general_livestock_visual_context:1,cc_object_visual_pointer_setup:3,$00:2@$B38CDE $00:2@$B38CDE $00:93@$B3911D
+$8240,candidate_visual_gobj_pointer_or_asset_table,3,$24:2 $00:1,npc_family_event_visual_context:2 general_livestock_visual_context:1,cc_object_visual_pointer_setup:3,$00:44@$B38F77 $24:2@$B4A55D $24:3@$B4A589
+$8378,candidate_visual_gobj_pointer_or_asset_table,3,$00:2 $06:1,general_livestock_visual_context:2 cow_livestock_visual_context:1,cc_object_visual_pointer_setup:3,$00:33@$B38EAA $00:35@$B38EE0 $06:6@$B3D99B
+$8768,candidate_visual_gobj_pointer_or_asset_table,3,$00:3,general_livestock_visual_context:3,cc_object_visual_pointer_setup:3,$00:19@$B38DBC $00:74@$B390AB $00:128@$B392D0
+$B584,bank_b3_b5_script_target_or_local_pointer,3,$43:3,dog_pet_visual_context:2 general_livestock_visual_context:1,cc_object_visual_pointer_setup:3,$43:0@$B58020 $43:1@$B584DA $43:1@$B584DA
+$B59F,bank_b3_b5_script_target_or_local_pointer,3,$44:3,general_livestock_visual_context:3,cc_object_visual_pointer_setup:3,$44:3@$B59DD3 $44:3@$B59DD3 $44:3@$B59DD3
+$B5A4,bank_b3_b5_script_target_or_local_pointer,3,$45:3,npc_family_event_visual_context:3,cc_object_visual_pointer_setup:3,$45:0@$B5A205 $45:3@$B5A484 $45:3@$B5A484
+$FFE0,high_bank_pointer_or_immediate_word,3,$00:3,general_livestock_visual_context:3,cc_object_visual_pointer_setup:3,$00:33@$B38EAA $00:38@$B38F11 $00:124@$B3922A
+$0000,low_immediate_param_or_small_id,2,$45:2,npc_family_event_visual_context:2,cc_object_visual_pointer_setup:2,$45:0@$B5A205 $45:3@$B5A484
+$0005,low_immediate_param_or_small_id,2,$00:2,general_livestock_visual_context:2,cc_object_visual_pointer_setup:2,$00:33@$B38EAA $00:38@$B38F11
+$0020,low_immediate_param_or_small_id,2,$00:2,general_livestock_visual_context:2,cc_object_visual_pointer_setup:2,$00:35@$B38EE0 $00:125@$B39241
+$0048,low_immediate_param_or_small_id,2,$00:2,general_livestock_visual_context:2,cc_object_visual_pointer_setup:2,$00:21@$B38DE5 $00:127@$B392B3
+$00A8,low_immediate_param_or_small_id,2,$01:1 $02:1,general_livestock_visual_context:1 npc_family_event_visual_context:1,cc_object_visual_pointer_setup:2,$01:1@$B39D05 $02:1@$B3B44A
+$0108,low_immediate_param_or_small_id,2,$00:1 $2D:1,general_livestock_visual_context:1 npc_family_event_visual_context:1,cc_object_visual_pointer_setup:2,$00:26@$B38E33 $2D:0@$B4C5A4
+$0120,low_immediate_param_or_small_id,2,$00:2,dog_pet_visual_context:2,cc_object_visual_pointer_setup:2,$00:134@$B39313 $00:135@$B39313
+$013A,low_immediate_param_or_small_id,2,$00:2,dog_pet_visual_context:2,cc_object_visual_pointer_setup:2,$00:134@$B39313 $00:135@$B39313
+$0188,low_immediate_param_or_small_id,2,$00:1 $08:1,general_livestock_visual_context:2,cc_object_visual_pointer_setup:2,$00:27@$B38E48 $08:0@$B3E0DF
+$0191,low_immediate_param_or_small_id,2,$00:2,general_livestock_visual_context:2,cc_object_visual_pointer_setup:2,$00:14@$B38D74 $00:15@$B38D81
+$01B2,low_immediate_param_or_small_id,2,$00:2,general_livestock_visual_context:2,cc_object_visual_pointer_setup:2,$00:132@$B392F9 $00:133@$B39306
+$01B8,low_immediate_param_or_small_id,2,$00:2,general_livestock_visual_context:2,cc_object_visual_pointer_setup:2,$00:28@$B38E5D $00:131@$B392EC
+$01C8,low_immediate_param_or_small_id,2,$00:1 $04:1,general_livestock_visual_context:1 npc_family_event_visual_context:1,cc_object_visual_pointer_setup:2,$00:32@$B38E9C $04:7@$B3CBA5
+$01C9,low_immediate_param_or_small_id,2,$02:1 $04:1,npc_family_event_visual_context:1 general_livestock_visual_context:1,cc_object_visual_pointer_setup:2,$02:1@$B3B44A $04:6@$B3CB60
+$0208,mid_range_value_or_table_offset,2,$00:2,general_livestock_visual_context:2,cc_object_visual_pointer_setup:2,$00:42@$B38F5D $00:43@$B38F6A
+$0305,mid_range_value_or_table_offset,2,$2A:2,npc_family_event_visual_context:2,cc_object_visual_pointer_setup:2,$2A:0@$B4C4D8 $2A:0@$B4C4D8
+$03BC,mid_range_value_or_table_offset,2,$07:1 $08:1,npc_family_event_visual_context:2,cc_object_visual_pointer_setup:2,$07:7@$B3E037 $08:7@$B3E59A
+$1293,mid_range_value_or_table_offset,2,$00:2,dog_pet_visual_context:2,cc_object_visual_pointer_setup:2,$00:134@$B39313 $00:135@$B39313
+$8000,candidate_visual_gobj_pointer_or_asset_table,2,$00:2,general_livestock_visual_context:2,cc_object_visual_pointer_setup:2,$00:33@$B38EAA $00:38@$B38F11
+$8150,candidate_visual_gobj_pointer_or_asset_table,2,$00:2,chicken_poultry_visual_context:2,cc_object_visual_pointer_setup:2,$00:1@$B38CD0 $00:1@$B38CD0
+$8258,candidate_visual_gobj_pointer_or_asset_table,2,$00:2,dog_pet_visual_context:2,cc_object_visual_pointer_setup:2,$00:134@$B39313 $00:135@$B39313
+$8264,candidate_visual_gobj_pointer_or_asset_table,2,$00:2,dog_pet_visual_context:2,cc_object_visual_pointer_setup:2,$00:134@$B39313 $00:135@$B39313
+$8300,candidate_visual_gobj_pointer_or_asset_table,2,$01:1 $02:1,general_livestock_visual_context:1 npc_family_event_visual_context:1,cc_object_visual_pointer_setup:2,$01:1@$B39D05 $02:1@$B3B44A
+$83B4,candidate_visual_gobj_pointer_or_asset_table,2,$00:2,general_livestock_visual_context:2,cc_object_visual_pointer_setup:2,$00:124@$B3922A $00:125@$B39241
+$849F,candidate_visual_gobj_pointer_or_asset_table,2,$01:2,general_livestock_visual_context:2,cc_object_visual_pointer_setup:2,$01:2@$B39F3E $01:2@$B39F3E
+$86B4,candidate_visual_gobj_pointer_or_asset_table,2,$00:2,cow_livestock_visual_context:2,cc_object_visual_pointer_setup:2,$00:4@$B38CF8 $00:47@$B38FA2
+$86CC,candidate_visual_gobj_pointer_or_asset_table,2,$00:2,cow_livestock_visual_context:2,cc_object_visual_pointer_setup:2,$00:3@$B38CEB $00:23@$B38DFC
+$86D8,candidate_visual_gobj_pointer_or_asset_table,2,$00:2,cow_livestock_visual_context:1 general_livestock_visual_context:1,cc_object_visual_pointer_setup:2,$00:7@$B38D1F $00:108@$B391CA
+$8708,candidate_visual_gobj_pointer_or_asset_table,2,$00:2,cow_livestock_visual_context:1 general_livestock_visual_context:1,cc_object_visual_pointer_setup:2,$00:6@$B38D12 $00:112@$B391E2
+$872C,candidate_visual_gobj_pointer_or_asset_table,2,$00:2,cow_livestock_visual_context:2,cc_object_visual_pointer_setup:2,$00:9@$B38D39 $00:9@$B38D39
+$87C8,candidate_visual_gobj_pointer_or_asset_table,2,$00:2,general_livestock_visual_context:2,cc_object_visual_pointer_setup:2,$00:126@$B39250 $00:127@$B392B3
+$88AC,candidate_visual_gobj_pointer_or_asset_table,2,$00:2,cow_livestock_visual_context:1 general_livestock_visual_context:1,cc_object_visual_pointer_setup:2,$00:47@$B38FA2 $00:88@$B390FF
+$88DC,candidate_visual_gobj_pointer_or_asset_table,2,$00:2,general_livestock_visual_context:2,cc_object_visual_pointer_setup:2,$00:89@$B39105 $00:121@$B39218
+$8900,candidate_visual_gobj_pointer_or_asset_table,2,$00:2,cow_livestock_visual_context:1 general_livestock_visual_context:1,cc_object_visual_pointer_setup:2,$00:23@$B38DFC $00:91@$B39111
+$B390,bank_b3_b5_script_target_or_local_pointer,2,$00:2,general_livestock_visual_context:2,cc_object_visual_pointer_setup:2,$00:54@$B39001 $00:55@$B3900F
+$B393,bank_b3_b5_script_target_or_local_pointer,2,$00:2,dog_pet_visual_context:2,cc_object_visual_pointer_setup:2,$00:134@$B39313 $00:135@$B39313
+$B3DD,bank_b3_b5_script_target_or_local_pointer,2,$07:2,npc_family_event_visual_context:2,cc_object_visual_pointer_setup:2,$07:3@$B3DCD1 $07:3@$B3DCD1
+$B3E4,bank_b3_b5_script_target_or_local_pointer,2,$08:2,npc_family_event_visual_context:2,cc_object_visual_pointer_setup:2,$08:5@$B3E4ED $08:5@$B3E4ED
+$B4C5,bank_b3_b5_script_target_or_local_pointer,2,$2D:2,npc_family_event_visual_context:2,cc_object_visual_pointer_setup:2,$2D:0@$B4C5A4 $2D:0@$B4C5A4
+$B585,bank_b3_b5_script_target_or_local_pointer,2,$43:2,dog_pet_visual_context:2,cc_object_visual_pointer_setup:2,$43:1@$B584DA $43:1@$B584DA
+$B5A5,bank_b3_b5_script_target_or_local_pointer,2,$45:2,npc_family_event_visual_context:2,cc_object_visual_pointer_setup:2,$45:3@$B5A484 $45:3@$B5A484
+$0018,low_immediate_param_or_small_id,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:127@$B392B3
+$001A,low_immediate_param_or_small_id,1,$2D:1,npc_family_event_visual_context:1,cc_object_visual_pointer_setup:1,$2D:0@$B4C5A4
+$00A0,low_immediate_param_or_small_id,1,$08:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$08:0@$B3E0DF
+$00B4,low_immediate_param_or_small_id,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:126@$B39250
+$00D8,low_immediate_param_or_small_id,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:37@$B38F03
+$00F8,low_immediate_param_or_small_id,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:25@$B38E1E
+$012A,low_immediate_param_or_small_id,1,$0B:1,npc_family_event_visual_context:1,cc_object_visual_pointer_setup:1,$0B:10@$B3EEEA
+$0198,low_immediate_param_or_small_id,1,$01:1,dog_pet_visual_context:1,cc_object_visual_pointer_setup:1,$01:5@$B3A438
+$01A4,low_immediate_param_or_small_id,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:12@$B38D5A
+$01B9,low_immediate_param_or_small_id,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:130@$B392DF
+$01C6,low_immediate_param_or_small_id,1,$01:1,npc_family_event_visual_context:1,cc_object_visual_pointer_setup:1,$01:3@$B3A086
+$01CA,low_immediate_param_or_small_id,1,$04:1,npc_family_event_visual_context:1,cc_object_visual_pointer_setup:1,$04:5@$B3CA98
+$01E0,low_immediate_param_or_small_id,1,$04:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$04:1@$B3C6AE
+$01E8,low_immediate_param_or_small_id,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:27@$B38E48
+$0206,mid_range_value_or_table_offset,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:40@$B38F43
+$0207,mid_range_value_or_table_offset,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:41@$B38F50
+$0218,mid_range_value_or_table_offset,1,$2A:1,npc_family_event_visual_context:1,cc_object_visual_pointer_setup:1,$2A:0@$B4C4D8
+$0228,mid_range_value_or_table_offset,1,$2C:1,npc_family_event_visual_context:1,cc_object_visual_pointer_setup:1,$2C:0@$B4C568
+$0258,mid_range_value_or_table_offset,1,$2C:1,npc_family_event_visual_context:1,cc_object_visual_pointer_setup:1,$2C:0@$B4C568
+$0274,mid_range_value_or_table_offset,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:38@$B38F11
+$0288,mid_range_value_or_table_offset,1,$04:1,npc_family_event_visual_context:1,cc_object_visual_pointer_setup:1,$04:5@$B3CA98
+$02BE,mid_range_value_or_table_offset,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:124@$B3922A
+$0303,mid_range_value_or_table_offset,1,$2B:1,npc_family_event_visual_context:1,cc_object_visual_pointer_setup:1,$2B:0@$B4C524
+$0304,mid_range_value_or_table_offset,1,$2A:1,npc_family_event_visual_context:1,cc_object_visual_pointer_setup:1,$2A:0@$B4C4D8
+$0307,mid_range_value_or_table_offset,1,$2C:1,npc_family_event_visual_context:1,cc_object_visual_pointer_setup:1,$2C:0@$B4C568
+$0321,mid_range_value_or_table_offset,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:48@$B38FAF
+$0328,mid_range_value_or_table_offset,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:126@$B39250
+$03DA,mid_range_value_or_table_offset,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:126@$B39250
+$0801,mid_range_value_or_table_offset,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:26@$B38E33
+$0C01,mid_range_value_or_table_offset,1,$01:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$01:1@$B39D05
+$0EE5,mid_range_value_or_table_offset,1,$08:1,npc_family_event_visual_context:1,cc_object_visual_pointer_setup:1,$08:5@$B3E4ED
+$1020,mid_range_value_or_table_offset,1,$01:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$01:1@$B39D05
+$2001,mid_range_value_or_table_offset,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:24@$B38E09
+$2DD9,mid_range_value_or_table_offset,1,$06:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$06:5@$B3D90E
+$31DF,mid_range_value_or_table_offset,1,$07:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$07:5@$B3DF0F
+$3801,mid_range_value_or_table_offset,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:25@$B38E1E
+$489D,mid_range_value_or_table_offset,1,$01:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$01:1@$B39D05
+$4BE3,mid_range_value_or_table_offset,1,$08:1,npc_family_event_visual_context:1,cc_object_visual_pointer_setup:1,$08:3@$B3E31F
+$4FAD,mid_range_value_or_table_offset,1,$01:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$01:9@$B3AD24
+$59A7,mid_range_value_or_table_offset,1,$01:1,cow_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$01:7@$B3A727
+$59E0,mid_range_value_or_table_offset,1,$07:1,npc_family_event_visual_context:1,cc_object_visual_pointer_setup:1,$07:7@$B3E037
+$73B4,mid_range_value_or_table_offset,1,$02:1,npc_family_event_visual_context:1,cc_object_visual_pointer_setup:1,$02:1@$B3B44A
+$7DE5,mid_range_value_or_table_offset,1,$08:1,cow_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$08:6@$B3E560
+$8108,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,cow_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:5@$B38D05
+$8120,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,dog_pet_visual_context:1,cc_object_visual_pointer_setup:1,$00:17@$B38D9B
+$8138,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:16@$B38D8E
+$815C,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,chicken_poultry_visual_context:1,cc_object_visual_pointer_setup:1,$00:0@$B38CC8
+$82A0,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:38@$B38F11
+$82AC,candidate_visual_gobj_pointer_or_asset_table,1,$24:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$24:0@$B4A475
+$8330,candidate_visual_gobj_pointer_or_asset_table,1,$01:1,dog_pet_visual_context:1,cc_object_visual_pointer_setup:1,$01:5@$B3A438
+$83FC,candidate_visual_gobj_pointer_or_asset_table,1,$01:1,npc_family_event_visual_context:1,cc_object_visual_pointer_setup:1,$01:3@$B3A086
+$84C8,candidate_visual_gobj_pointer_or_asset_table,1,$01:1,cow_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$01:10@$B3ADB1
+$84EC,candidate_visual_gobj_pointer_or_asset_table,1,$2D:1,npc_family_event_visual_context:1,cc_object_visual_pointer_setup:1,$2D:0@$B4C5A4
+$84F8,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:50@$B38FD0
+$86E4,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,cow_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:7@$B38D1F
+$86FC,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,cow_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:8@$B38D2C
+$8714,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,cow_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:6@$B38D12
+$8720,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:31@$B38E94
+$8738,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:51@$B38FDB
+$8744,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:52@$B38FE8
+$8750,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:53@$B38FF5
+$8774,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:19@$B38DBC
+$8780,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:19@$B38DBC
+$8798,candidate_visual_gobj_pointer_or_asset_table,1,$2B:1,npc_family_event_visual_context:1,cc_object_visual_pointer_setup:1,$2B:0@$B4C524
+$87A4,candidate_visual_gobj_pointer_or_asset_table,1,$2A:1,npc_family_event_visual_context:1,cc_object_visual_pointer_setup:1,$2A:0@$B4C4D8
+$87B0,candidate_visual_gobj_pointer_or_asset_table,1,$2C:1,npc_family_event_visual_context:1,cc_object_visual_pointer_setup:1,$2C:0@$B4C568
+$87BC,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:21@$B38DE5
+$87F8,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:58@$B39045
+$8804,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:59@$B3904E
+$8810,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:109@$B391D0
+$881C,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:110@$B391D6
+$8828,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:111@$B391DC
+$8834,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:113@$B391E8
+$8840,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:114@$B391EE
+$884C,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:115@$B391F4
+$8858,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:81@$B390D5
+$8864,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:82@$B390DB
+$8870,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:83@$B390E1
+$887C,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:84@$B390E7
+$8888,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:85@$B390ED
+$8894,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:86@$B390F3
+$88A0,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:87@$B390F9
+$88B8,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:117@$B39200
+$88C4,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:118@$B39206
+$88CB,candidate_visual_gobj_pointer_or_asset_table,1,$04:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$04:6@$B3CB60
+$88D0,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:119@$B3920C
+$88E8,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:122@$B3921E
+$88F4,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:90@$B3910B
+$8918,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:123@$B39224
+$893C,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:92@$B39117
+$8948,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,dog_pet_visual_context:1,cc_object_visual_pointer_setup:1,$00:17@$B38D9B
+$8954,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:62@$B39063
+$8960,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:61@$B3905D
+$896C,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:64@$B3906F
+$8978,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:65@$B39075
+$8984,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:66@$B3907B
+$8990,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:67@$B39081
+$899C,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:68@$B39087
+$89A8,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:69@$B3908D
+$89B4,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:70@$B39093
+$89C0,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:71@$B39099
+$89CC,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:72@$B3909F
+$89D8,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:73@$B390A5
+$89FC,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:77@$B390BD
+$8A08,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:78@$B390C3
+$8A14,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:79@$B390C9
+$8A20,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:80@$B390CF
+$8A2C,candidate_visual_gobj_pointer_or_asset_table,1,$00:1,chicken_poultry_visual_context:1,cc_object_visual_pointer_setup:1,$00:95@$B39129
+$90DB,candidate_visual_gobj_pointer_or_asset_table,1,$07:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$07:1@$B3DB72
+$ABA0,candidate_bank_asset_or_table_pointer,1,$01:1,npc_family_event_visual_context:1,cc_object_visual_pointer_setup:1,$01:3@$B3A086
+$B336,bank_b3_b5_script_target_or_local_pointer,1,$00:1,general_livestock_visual_context:1,cc_object_parameter_state_setup:1,$00:18@$B38DB0
+$B39E,bank_b3_b5_script_target_or_local_pointer,1,$01:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$01:1@$B39D05
+$B3A2,bank_b3_b5_script_target_or_local_pointer,1,$01:1,dog_pet_visual_context:1,cc_object_visual_pointer_setup:1,$01:4@$B3A162
+$B3BA,bank_b3_b5_script_target_or_local_pointer,1,$02:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$02:4@$B3B8D2
+$B3D7,bank_b3_b5_script_target_or_local_pointer,1,$06:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$06:3@$B3D6CF
+$B401,bank_b3_b5_script_target_or_local_pointer,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:27@$B38E48
+$B597,bank_b3_b5_script_target_or_local_pointer,1,$43:1,dog_pet_visual_context:1,cc_object_visual_pointer_setup:1,$43:4@$B59313
+$B598,bank_b3_b5_script_target_or_local_pointer,1,$44:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$44:0@$B597F1
+$B59C,bank_b3_b5_script_target_or_local_pointer,1,$44:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$44:2@$B59BE3
+$B59E,bank_b3_b5_script_target_or_local_pointer,1,$44:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$44:3@$B59DD3
+$B5A6,bank_b3_b5_script_target_or_local_pointer,1,$45:1,npc_family_event_visual_context:1,cc_object_visual_pointer_setup:1,$45:3@$B5A484
+$B6D9,mid_range_value_or_table_offset,1,$06:1,cow_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$06:6@$B3D99B
+$B8D5,mid_range_value_or_table_offset,1,$06:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$06:1@$B3D59D
+$B9E5,mid_range_value_or_table_offset,1,$08:1,npc_family_event_visual_context:1,cc_object_visual_pointer_setup:1,$08:7@$B3E59A
+$C4CA,high_bank_pointer_or_immediate_word,1,$04:1,npc_family_event_visual_context:1,cc_object_visual_pointer_setup:1,$04:5@$B3CA98
+$CC01,high_bank_pointer_or_immediate_word,1,$00:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$00:28@$B38E5D
+$CECB,high_bank_pointer_or_immediate_word,1,$04:1,npc_family_event_visual_context:1,cc_object_visual_pointer_setup:1,$04:7@$B3CBA5
+$D3C6,high_bank_pointer_or_immediate_word,1,$04:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$04:1@$B3C6AE
+$E8E1,high_bank_pointer_or_immediate_word,1,$08:1,npc_family_event_visual_context:1,cc_object_visual_pointer_setup:1,$08:1@$B3E1C9
+$ECA6,high_bank_pointer_or_immediate_word,1,$01:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$01:6@$B3A5B1
+$ECE0,high_bank_pointer_or_immediate_word,1,$07:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$07:6@$B3DFCE
+$FBD7,high_bank_pointer_or_immediate_word,1,$06:1,general_livestock_visual_context:1,cc_object_visual_pointer_setup:1,$06:3@$B3D6CF

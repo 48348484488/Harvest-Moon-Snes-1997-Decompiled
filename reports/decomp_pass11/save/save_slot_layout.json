@@ -1,0 +1,838 @@
+{
+  "direct_offsets": [
+    {
+      "offset": "$0000",
+      "dec": 0,
+      "save_source": "!year",
+      "load_target": "!year",
+      "summary_target": "!year",
+      "notes": "8-bit year counter"
+    },
+    {
+      "offset": "$0001",
+      "dec": 1,
+      "save_source": "!season",
+      "load_target": "!season",
+      "summary_target": "!season",
+      "notes": "8-bit season"
+    },
+    {
+      "offset": "$0002",
+      "dec": 2,
+      "save_source": "!weekday",
+      "load_target": "!weekday",
+      "summary_target": "",
+      "notes": "8-bit weekday"
+    },
+    {
+      "offset": "$0003",
+      "dec": 3,
+      "save_source": "!day",
+      "load_target": "!day",
+      "summary_target": "!day",
+      "notes": "8-bit day of season"
+    },
+    {
+      "offset": "$0004",
+      "dec": 4,
+      "save_source": "!seeds_grass_N",
+      "load_target": "!seeds_grass_N",
+      "summary_target": "",
+      "notes": "grass seed count"
+    },
+    {
+      "offset": "$0005",
+      "dec": 5,
+      "save_source": "!seeds_corn_N",
+      "load_target": "!seeds_corn_N",
+      "summary_target": "",
+      "notes": "corn seed count"
+    },
+    {
+      "offset": "$0006",
+      "dec": 6,
+      "save_source": "!seeds_tomato_N",
+      "load_target": "!seeds_tomato_N",
+      "summary_target": "",
+      "notes": "tomato seed count"
+    },
+    {
+      "offset": "$0007",
+      "dec": 7,
+      "save_source": "!seeds_potato_N",
+      "load_target": "!seeds_potato_N",
+      "summary_target": "",
+      "notes": "potato seed count"
+    },
+    {
+      "offset": "$0008",
+      "dec": 8,
+      "save_source": "!seeds_turnip_N",
+      "load_target": "!seeds_turnip_N",
+      "summary_target": "",
+      "notes": "turnip seed count"
+    },
+    {
+      "offset": "$0009",
+      "dec": 9,
+      "save_source": "!feed_cow_N",
+      "load_target": "!feed_cow_N",
+      "summary_target": "",
+      "notes": "cow feed count"
+    },
+    {
+      "offset": "$000A",
+      "dec": 10,
+      "save_source": "!feed_chicks_N",
+      "load_target": "!feed_chicks_N",
+      "summary_target": "",
+      "notes": "chicken feed count"
+    },
+    {
+      "offset": "$000B",
+      "dec": 11,
+      "save_source": "!cow_N",
+      "load_target": "!cow_N",
+      "summary_target": "",
+      "notes": "cow count"
+    },
+    {
+      "offset": "$000C",
+      "dec": 12,
+      "save_source": "!chicks_N",
+      "load_target": "!chicks_N",
+      "summary_target": "",
+      "notes": "chicken count"
+    },
+    {
+      "offset": "$000D",
+      "dec": 13,
+      "save_source": "!weather_tomorrow",
+      "load_target": "!weather_tomorrow",
+      "summary_target": "",
+      "notes": "tomorrow weather"
+    },
+    {
+      "offset": "$000E",
+      "dec": 14,
+      "save_source": "!max_stamina",
+      "load_target": "!max_stamina",
+      "summary_target": "",
+      "notes": "max stamina"
+    },
+    {
+      "offset": "$000F",
+      "dec": 15,
+      "save_source": "!tool_selected",
+      "load_target": "!tool_selected",
+      "summary_target": "",
+      "notes": "selected tool"
+    },
+    {
+      "offset": "$0010",
+      "dec": 16,
+      "save_source": "!watering_can_water",
+      "load_target": "!watering_can_water",
+      "summary_target": "",
+      "notes": "watering can water"
+    },
+    {
+      "offset": "$0011",
+      "dec": 17,
+      "save_source": "$7F1F12",
+      "load_target": "$7F1F12",
+      "summary_target": "",
+      "notes": "unknown persistent byte"
+    },
+    {
+      "offset": "$0012",
+      "dec": 18,
+      "save_source": "$7F1F2B",
+      "load_target": "$7F1F2B",
+      "summary_target": "",
+      "notes": "unknown persistent byte"
+    },
+    {
+      "offset": "$0013",
+      "dec": 19,
+      "save_source": "!dog_map",
+      "load_target": "!dog_map",
+      "summary_target": "",
+      "notes": "dog map/location id"
+    },
+    {
+      "offset": "$0014",
+      "dec": 20,
+      "save_source": "$7F1F31",
+      "load_target": "$7F1F31",
+      "summary_target": "",
+      "notes": "unknown persistent byte"
+    },
+    {
+      "offset": "$0015",
+      "dec": 21,
+      "save_source": "$7F1F32",
+      "load_target": "$7F1F32",
+      "summary_target": "",
+      "notes": "unknown persistent byte"
+    },
+    {
+      "offset": "$0016",
+      "dec": 22,
+      "save_source": "!development_rate",
+      "load_target": "!development_rate",
+      "summary_target": "",
+      "notes": "farm development rate"
+    },
+    {
+      "offset": "$0017",
+      "dec": 23,
+      "save_source": "!power_berry_N",
+      "load_target": "!power_berry_N",
+      "summary_target": "",
+      "notes": "power berry count"
+    },
+    {
+      "offset": "$0018",
+      "dec": 24,
+      "save_source": "$09A3",
+      "load_target": "$09A3",
+      "summary_target": "",
+      "notes": "unknown WRAM value"
+    },
+    {
+      "offset": "$0019",
+      "dec": 25,
+      "save_source": "$0937",
+      "load_target": "$0937",
+      "summary_target": "",
+      "notes": "unknown WRAM value"
+    },
+    {
+      "offset": "$001A",
+      "dec": 26,
+      "save_source": "!tool_backpack",
+      "load_target": "!tool_backpack",
+      "summary_target": "",
+      "notes": "backpack tool"
+    },
+    {
+      "offset": "$002E",
+      "dec": 46,
+      "save_source": "slot marker / checksum scratch",
+      "load_target": "",
+      "summary_target": "",
+      "notes": "temporarily zeroed during checksum; also slot-state marker"
+    },
+    {
+      "offset": "$002F",
+      "dec": 47,
+      "save_source": "checksum low/high",
+      "load_target": "",
+      "summary_target": "",
+      "notes": "16-bit additive checksum starts here"
+    },
+    {
+      "offset": "$0031",
+      "dec": 49,
+      "save_source": "!shipped_corn",
+      "load_target": "!shipped_corn",
+      "summary_target": "",
+      "notes": "corn shipped count"
+    },
+    {
+      "offset": "$0033",
+      "dec": 51,
+      "save_source": "!shipped_tomatoes",
+      "load_target": "!shipped_tomatoes",
+      "summary_target": "",
+      "notes": "tomatoes shipped count"
+    },
+    {
+      "offset": "$0035",
+      "dec": 53,
+      "save_source": "!shipped_turnips",
+      "load_target": "!shipped_turnips",
+      "summary_target": "",
+      "notes": "turnips shipped count"
+    },
+    {
+      "offset": "$0037",
+      "dec": 55,
+      "save_source": "!shipped_potatoes",
+      "load_target": "!shipped_potatoes",
+      "summary_target": "",
+      "notes": "potatoes shipped count"
+    },
+    {
+      "offset": "$0039",
+      "dec": 57,
+      "save_source": "!moneyL",
+      "load_target": "!moneyL",
+      "summary_target": "",
+      "notes": "money low 16 bits"
+    },
+    {
+      "offset": "$003B",
+      "dec": 59,
+      "save_source": "!moneyH",
+      "load_target": "!moneyH",
+      "summary_target": "",
+      "notes": "money high byte"
+    },
+    {
+      "offset": "$003C",
+      "dec": 60,
+      "save_source": "ASCII FARM",
+      "load_target": "ASCII FARM",
+      "summary_target": "FARM check",
+      "notes": "valid slot signature bytes $46,$41,$52,$4D"
+    },
+    {
+      "offset": "$0040",
+      "dec": 64,
+      "save_source": "!stored_wood",
+      "load_target": "!stored_wood",
+      "summary_target": "",
+      "notes": "stored wood"
+    },
+    {
+      "offset": "$0042",
+      "dec": 66,
+      "save_source": "!stored_grass",
+      "load_target": "!stored_grass",
+      "summary_target": "",
+      "notes": "stored grass/fodder"
+    },
+    {
+      "offset": "$0044",
+      "dec": 68,
+      "save_source": "$0196",
+      "load_target": "$0196",
+      "summary_target": "",
+      "notes": "unknown 16-bit value"
+    },
+    {
+      "offset": "$0046",
+      "dec": 70,
+      "save_source": "!planted_grass",
+      "load_target": "!planted_grass",
+      "summary_target": "",
+      "notes": "planted grass count"
+    },
+    {
+      "offset": "$0048",
+      "dec": 72,
+      "save_source": "!hearts_maria",
+      "load_target": "!hearts_maria",
+      "summary_target": "",
+      "notes": "Maria affection"
+    },
+    {
+      "offset": "$004A",
+      "dec": 74,
+      "save_source": "!hearts_ann",
+      "load_target": "!hearts_ann",
+      "summary_target": "",
+      "notes": "Ann affection"
+    },
+    {
+      "offset": "$004C",
+      "dec": 76,
+      "save_source": "!hearts_nina",
+      "load_target": "!hearts_nina",
+      "summary_target": "",
+      "notes": "Nina affection"
+    },
+    {
+      "offset": "$004E",
+      "dec": 78,
+      "save_source": "!hearts_ellen",
+      "load_target": "!hearts_ellen",
+      "summary_target": "",
+      "notes": "Ellen affection"
+    },
+    {
+      "offset": "$0050",
+      "dec": 80,
+      "save_source": "!hearts_eve",
+      "load_target": "!hearts_eve",
+      "summary_target": "",
+      "notes": "Eve affection"
+    },
+    {
+      "offset": "$0060",
+      "dec": 96,
+      "save_source": "$7F1F64",
+      "load_target": "$7F1F64",
+      "summary_target": "",
+      "notes": "unknown persistent word"
+    },
+    {
+      "offset": "$0062",
+      "dec": 98,
+      "save_source": "$7F1F66",
+      "load_target": "$7F1F66",
+      "summary_target": "",
+      "notes": "unknown persistent word"
+    },
+    {
+      "offset": "$0064",
+      "dec": 100,
+      "save_source": "$7F1F68",
+      "load_target": "$7F1F68",
+      "summary_target": "",
+      "notes": "unknown persistent word"
+    },
+    {
+      "offset": "$0066",
+      "dec": 102,
+      "save_source": "$7F1F6A",
+      "load_target": "$7F1F6A",
+      "summary_target": "",
+      "notes": "unknown persistent word"
+    },
+    {
+      "offset": "$0068",
+      "dec": 104,
+      "save_source": "!dog_pos_X",
+      "load_target": "!dog_pos_X",
+      "summary_target": "",
+      "notes": "dog X position"
+    },
+    {
+      "offset": "$006A",
+      "dec": 106,
+      "save_source": "!dog_pos_Y",
+      "load_target": "!dog_pos_Y",
+      "summary_target": "",
+      "notes": "dog Y position"
+    },
+    {
+      "offset": "$006C",
+      "dec": 108,
+      "save_source": "!happiness",
+      "load_target": "!happiness",
+      "summary_target": "",
+      "notes": "player/farm happiness"
+    },
+    {
+      "offset": "$006E",
+      "dec": 110,
+      "save_source": "$7F1F45",
+      "load_target": "$7F1F45",
+      "summary_target": "",
+      "notes": "unknown persistent word"
+    },
+    {
+      "offset": "$0070",
+      "dec": 112,
+      "save_source": "$7F1F6C",
+      "load_target": "$7F1F6C",
+      "summary_target": "",
+      "notes": "unknown persistent word"
+    },
+    {
+      "offset": "$0072",
+      "dec": 114,
+      "save_source": "$7F1F6E",
+      "load_target": "$7F1F6E",
+      "summary_target": "",
+      "notes": "unknown persistent word"
+    },
+    {
+      "offset": "$0074",
+      "dec": 116,
+      "save_source": "$7F1F70",
+      "load_target": "$7F1F70",
+      "summary_target": "",
+      "notes": "unknown persistent word"
+    },
+    {
+      "offset": "$0076",
+      "dec": 118,
+      "save_source": "$7F1F72",
+      "load_target": "$7F1F72",
+      "summary_target": "",
+      "notes": "unknown persistent word"
+    },
+    {
+      "offset": "$0078",
+      "dec": 120,
+      "save_source": "!wife_pregnancy",
+      "load_target": "!wife_pregnancy",
+      "summary_target": "",
+      "notes": "wife pregnancy state"
+    },
+    {
+      "offset": "$007A",
+      "dec": 122,
+      "save_source": "!kid1_age",
+      "load_target": "!kid1_age",
+      "summary_target": "",
+      "notes": "kid 1 age"
+    },
+    {
+      "offset": "$007C",
+      "dec": 124,
+      "save_source": "!kid2_age",
+      "load_target": "!kid2_age",
+      "summary_target": "",
+      "notes": "kid 2 age"
+    },
+    {
+      "offset": "$007E",
+      "dec": 126,
+      "save_source": "!dog_hugs",
+      "load_target": "!dog_hugs",
+      "summary_target": "",
+      "notes": "dog hug counter"
+    },
+    {
+      "offset": "$0080",
+      "dec": 128,
+      "save_source": "!player_name_sort_1",
+      "load_target": "!player_name_sort_1",
+      "summary_target": "!player_name_sort_1",
+      "notes": "player_name character 1"
+    },
+    {
+      "offset": "$0081",
+      "dec": 129,
+      "save_source": "!player_name_sort_2",
+      "load_target": "!player_name_sort_2",
+      "summary_target": "!player_name_sort_2",
+      "notes": "player_name character 2"
+    },
+    {
+      "offset": "$0082",
+      "dec": 130,
+      "save_source": "!player_name_sort_3",
+      "load_target": "!player_name_sort_3",
+      "summary_target": "!player_name_sort_3",
+      "notes": "player_name character 3"
+    },
+    {
+      "offset": "$0083",
+      "dec": 131,
+      "save_source": "!player_name_sort_4",
+      "load_target": "!player_name_sort_4",
+      "summary_target": "!player_name_sort_4",
+      "notes": "player_name character 4"
+    },
+    {
+      "offset": "$0084",
+      "dec": 132,
+      "save_source": "!shed_items_row_1",
+      "load_target": "!shed_items_row_1",
+      "summary_target": "",
+      "notes": "tool shed bitfield row"
+    },
+    {
+      "offset": "$0085",
+      "dec": 133,
+      "save_source": "!shed_items_row_2",
+      "load_target": "!shed_items_row_2",
+      "summary_target": "",
+      "notes": "tool shed bitfield row"
+    },
+    {
+      "offset": "$0086",
+      "dec": 134,
+      "save_source": "!shed_items_row_3",
+      "load_target": "!shed_items_row_3",
+      "summary_target": "",
+      "notes": "tool shed bitfield row"
+    },
+    {
+      "offset": "$0087",
+      "dec": 135,
+      "save_source": "!shed_items_row_4",
+      "load_target": "!shed_items_row_4",
+      "summary_target": "",
+      "notes": "tool shed bitfield row"
+    },
+    {
+      "offset": "$0088",
+      "dec": 136,
+      "save_source": "!dog_name_short_1",
+      "load_target": "!dog_name_short_1",
+      "summary_target": "",
+      "notes": "dog_name character 1"
+    },
+    {
+      "offset": "$0089",
+      "dec": 137,
+      "save_source": "!dog_name_short_2",
+      "load_target": "!dog_name_short_2",
+      "summary_target": "",
+      "notes": "dog_name character 2"
+    },
+    {
+      "offset": "$008A",
+      "dec": 138,
+      "save_source": "!dog_name_short_3",
+      "load_target": "!dog_name_short_3",
+      "summary_target": "",
+      "notes": "dog_name character 3"
+    },
+    {
+      "offset": "$008B",
+      "dec": 139,
+      "save_source": "!dog_name_short_4",
+      "load_target": "!dog_name_short_4",
+      "summary_target": "",
+      "notes": "dog_name character 4"
+    },
+    {
+      "offset": "$008C",
+      "dec": 140,
+      "save_source": "!horse_name_short_1",
+      "load_target": "!horse_name_short_1",
+      "summary_target": "",
+      "notes": "horse_name character 1"
+    },
+    {
+      "offset": "$008D",
+      "dec": 141,
+      "save_source": "!horse_name_short_2",
+      "load_target": "!horse_name_short_2",
+      "summary_target": "",
+      "notes": "horse_name character 2"
+    },
+    {
+      "offset": "$008E",
+      "dec": 142,
+      "save_source": "!horse_name_short_3",
+      "load_target": "!horse_name_short_3",
+      "summary_target": "",
+      "notes": "horse_name character 3"
+    },
+    {
+      "offset": "$008F",
+      "dec": 143,
+      "save_source": "!horse_name_short_4",
+      "load_target": "!horse_name_short_4",
+      "summary_target": "",
+      "notes": "horse_name character 4"
+    },
+    {
+      "offset": "$0090",
+      "dec": 144,
+      "save_source": "!kid1_name_sort_1",
+      "load_target": "!kid1_name_sort_1",
+      "summary_target": "",
+      "notes": "kid1_name character 1"
+    },
+    {
+      "offset": "$0091",
+      "dec": 145,
+      "save_source": "!kid1_name_sort_2",
+      "load_target": "!kid1_name_sort_2",
+      "summary_target": "",
+      "notes": "kid1_name character 2"
+    },
+    {
+      "offset": "$0092",
+      "dec": 146,
+      "save_source": "!kid1_name_sort_3",
+      "load_target": "!kid1_name_sort_3",
+      "summary_target": "",
+      "notes": "kid1_name character 3"
+    },
+    {
+      "offset": "$0093",
+      "dec": 147,
+      "save_source": "!kid1_name_sort_4",
+      "load_target": "!kid1_name_sort_4",
+      "summary_target": "",
+      "notes": "kid1_name character 4"
+    },
+    {
+      "offset": "$0094",
+      "dec": 148,
+      "save_source": "!kid2_name_sort_1",
+      "load_target": "!kid2_name_sort_1",
+      "summary_target": "",
+      "notes": "kid2_name character 1"
+    },
+    {
+      "offset": "$0095",
+      "dec": 149,
+      "save_source": "!kid2_name_sort_2",
+      "load_target": "!kid2_name_sort_2",
+      "summary_target": "",
+      "notes": "kid2_name character 2"
+    },
+    {
+      "offset": "$0096",
+      "dec": 150,
+      "save_source": "!kid2_name_sort_3",
+      "load_target": "!kid2_name_sort_3",
+      "summary_target": "",
+      "notes": "kid2_name character 3"
+    },
+    {
+      "offset": "$0097",
+      "dec": 151,
+      "save_source": "!kid2_name_sort_4",
+      "load_target": "!kid2_name_sort_4",
+      "summary_target": "",
+      "notes": "kid2_name character 4"
+    },
+    {
+      "offset": "$0098",
+      "dec": 152,
+      "save_source": "!chicken_array",
+      "load_target": "!chicken_array",
+      "summary_target": "",
+      "notes": "block copy: 13 chickens x 8 bytes = 104 bytes"
+    },
+    {
+      "offset": "$0100",
+      "dec": 256,
+      "save_source": "!cow_array",
+      "load_target": "!cow_array",
+      "summary_target": "",
+      "notes": "block copy: 12 cows x 16 bytes = 192 bytes"
+    },
+    {
+      "offset": "$01C0",
+      "dec": 448,
+      "save_source": "!farm_map_array[$00C0-$0EFF]",
+      "load_target": "!farm_map_array[$00C0-$0EFF]",
+      "summary_target": "",
+      "notes": "block copy: farm map/tile state to end of slot"
+    }
+  ],
+  "blocks": [
+    {
+      "range": "$0000-$001A",
+      "start": 0,
+      "end": 26,
+      "size": 27,
+      "name": "Scalar 8-bit early fields",
+      "notes": "Date, seed/feed counts, selected tool, stamina and misc flags."
+    },
+    {
+      "range": "$002E",
+      "start": 46,
+      "end": 46,
+      "size": 1,
+      "name": "Active/latest-slot marker byte",
+      "notes": "Temporarily zeroed for checksum; values 0/1 are used by slot-state flow."
+    },
+    {
+      "range": "$002F-$0030",
+      "start": 47,
+      "end": 48,
+      "size": 2,
+      "name": "Save checksum",
+      "notes": "16-bit additive checksum over $0000-$0FFF with $002E and $002F-$0030 zeroed first."
+    },
+    {
+      "range": "$0031,$0033,$0035,$0037",
+      "start": 49,
+      "end": 55,
+      "size": 7,
+      "name": "Shipped crop counters",
+      "notes": "Stored at separated odd offsets."
+    },
+    {
+      "range": "$0039-$003B",
+      "start": 57,
+      "end": 59,
+      "size": 3,
+      "name": "Money",
+      "notes": "24-bit money value split into !moneyL and !moneyH."
+    },
+    {
+      "range": "$003C-$003F",
+      "start": 60,
+      "end": 63,
+      "size": 4,
+      "name": "FARM signature",
+      "notes": "ASCII F,A,R,M. Used as a basic slot validity marker."
+    },
+    {
+      "range": "$0040-$007E",
+      "start": 64,
+      "end": 126,
+      "size": 63,
+      "name": "16-bit counters/hearts/family/dog state",
+      "notes": "Wood/grass, crop totals, bachelorette hearts, persistent flags, dog position, happiness, pregnancy/kids."
+    },
+    {
+      "range": "$0080-$0083",
+      "start": 128,
+      "end": 131,
+      "size": 4,
+      "name": "Player name",
+      "notes": "Four character bytes."
+    },
+    {
+      "range": "$0084-$0087",
+      "start": 132,
+      "end": 135,
+      "size": 4,
+      "name": "Tool shed bitfields",
+      "notes": "Rows of stored tools/seeds/items; see pass07 report."
+    },
+    {
+      "range": "$0088-$008B",
+      "start": 136,
+      "end": 139,
+      "size": 4,
+      "name": "Dog name",
+      "notes": "Four character bytes."
+    },
+    {
+      "range": "$008C-$008F",
+      "start": 140,
+      "end": 143,
+      "size": 4,
+      "name": "Horse name",
+      "notes": "Four character bytes."
+    },
+    {
+      "range": "$0090-$0093",
+      "start": 144,
+      "end": 147,
+      "size": 4,
+      "name": "Kid 1 name",
+      "notes": "Four character bytes."
+    },
+    {
+      "range": "$0094-$0097",
+      "start": 148,
+      "end": 151,
+      "size": 4,
+      "name": "Kid 2 name",
+      "notes": "Four character bytes."
+    },
+    {
+      "range": "$0098-$00FF",
+      "start": 152,
+      "end": 255,
+      "size": 104,
+      "name": "Chicken array",
+      "notes": "13 chickens x 8 bytes = 104 bytes."
+    },
+    {
+      "range": "$0100-$01BF",
+      "start": 256,
+      "end": 447,
+      "size": 192,
+      "name": "Cow array",
+      "notes": "12 cows x 16 bytes = 192 bytes."
+    },
+    {
+      "range": "$01C0-$0FFF",
+      "start": 448,
+      "end": 4095,
+      "size": 3648,
+      "name": "Farm map/tile state block",
+      "notes": "Copied from !farm_map_array index $00C0-$0EFF into SRAM $01C0-$0FFF."
+    }
+  ]
+}

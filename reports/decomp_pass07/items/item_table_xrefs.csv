@@ -1,0 +1,54 @@
+symbol,description,reference
+HeldItem_UseOrInteract_Main,main dispatcher for current !item_on_hand,src/code_banks/bank_81.asm:5: HeldItem_UseOrInteract_Main:
+HeldItem_UseOrInteract_Main,main dispatcher for current !item_on_hand,src/code_banks/bank_81.asm:6705: JSL.L HeldItem_UseOrInteract_Main                    ;81C9B3;818000;
+HeldItem_LoadAnimationFrameData,loads graphics/placement metadata for held item,src/code_banks/bank_80.asm:3202: JSL.L HeldItem_LoadAnimationFrameData
+HeldItem_LoadAnimationFrameData,loads graphics/placement metadata for held item,src/code_banks/bank_81.asm:21: JSL.L HeldItem_LoadAnimationFrameData                          ;818022;8180B7;
+HeldItem_LoadAnimationFrameData,loads graphics/placement metadata for held item,src/code_banks/bank_81.asm:96: HeldItem_LoadAnimationFrameData:
+HeldItem_LoadAnimationFrameData,loads graphics/placement metadata for held item,src/code_banks/bank_81.asm:138: RTL                                  ;8180FD;      ;END_HeldItem_LoadAnimationFrameData
+HeldItem_LoadAnimationFrameData,loads graphics/placement metadata for held item,src/code_banks/bank_81.asm:1549: JSL.L HeldItem_LoadAnimationFrameData                          ;818B70;8180B7;
+HeldItem_LoadAnimationFrameData,loads graphics/placement metadata for held item,src/code_banks/bank_81.asm:1656: JSL.L HeldItem_LoadAnimationFrameData                          ;818C43;8180B7;
+HeldItem_LoadAnimationFrameData,loads graphics/placement metadata for held item,src/code_banks/bank_81.asm:1670: JSL.L HeldItem_LoadAnimationFrameData                          ;818C61;8180B7;
+HeldItem_LoadAnimationFrameData,loads graphics/placement metadata for held item,src/code_banks/bank_81.asm:1753: JSL.L HeldItem_LoadAnimationFrameData                          ;818D20;8180B7;
+HeldItem_LoadAnimationFrameData,loads graphics/placement metadata for held item,src/code_banks/bank_81.asm:2090: JSL.L HeldItem_LoadAnimationFrameData                          ;818FEF;8180B7;
+HeldItem_LoadAnimationFrameData,loads graphics/placement metadata for held item,src/code_banks/bank_81.asm:2108: JSL.L HeldItem_LoadAnimationFrameData                          ;819015;8180B7;
+HeldItem_LoadAnimationFrameData,loads graphics/placement metadata for held item,src/code_banks/bank_81.asm:2149: JSL.L HeldItem_LoadAnimationFrameData                          ;819068;8180B7;
+HeldItem_LoadAnimationFrameData,loads graphics/placement metadata for held item,src/code_banks/bank_81.asm:2163: JSL.L HeldItem_LoadAnimationFrameData                          ;819086;8180B7;
+HeldItem_LoadAnimationFrameData,loads graphics/placement metadata for held item,src/code_banks/bank_81.asm:2270: JSL.L HeldItem_LoadAnimationFrameData                          ;81915D;8180B7;
+HeldItem_LoadAnimationFrameData,loads graphics/placement metadata for held item,src/code_banks/bank_81.asm:2290: JSL.L HeldItem_LoadAnimationFrameData                          ;819187;8180B7;
+HeldItem_LoadAnimationFrameData,loads graphics/placement metadata for held item,src/code_banks/bank_81.asm:2308: JSL.L HeldItem_LoadAnimationFrameData                          ;8191B5;8180B7;
+HeldItem_LoadAnimationFrameData,loads graphics/placement metadata for held item,src/code_banks/bank_81.asm:2375: JSL.L HeldItem_LoadAnimationFrameData                          ;819247;8180B7;
+HeldItem_LoadAnimationFrameData,loads graphics/placement metadata for held item,src/code_banks/bank_81.asm:2389: JSL.L HeldItem_LoadAnimationFrameData                          ;819265;8180B7;
+HeldItem_LoadAnimationFrameData,loads graphics/placement metadata for held item,src/code_banks/bank_81.asm:2510: JSL.L HeldItem_LoadAnimationFrameData                          ;819362;8180B7;
+HeldItem_LoadAnimationFrameData,loads graphics/placement metadata for held item,src/code_banks/bank_81.asm:2877: JSL.L HeldItem_LoadAnimationFrameData                          ;819667;8180B7;
+HeldItem_ActionJumpTable,indirect behavior routine table indexed by item_on_hand,"src/code_banks/bank_81.asm:87: JSR.W (HeldItem_ActionJumpTable,X)               ;8180A6;8197C0;"
+HeldItem_ActionJumpTable,indirect behavior routine table indexed by item_on_hand,"src/code_banks/bank_81.asm:2933: HeldItem_ActionJumpTable: db $FF,$FF,$FE,$80,$02,$81,$06,$81,$0A,$81,$0E,$81,$12,$81,$16,$81;8197C0;      ;"
+HeldItem_AnimationDataPtrTable,24-bit metadata pointer table indexed by item_on_hand,src/code_banks/bank_81.asm:95: ;;;;;;;; PASS07: loads per-held-item animation/object metadata from HeldItem_AnimationDataPtrTable. Y selects directional/pose sub-entry.
+HeldItem_AnimationDataPtrTable,24-bit metadata pointer table indexed by item_on_hand,"src/code_banks/bank_81.asm:108: LDA.L HeldItem_AnimationDataPtrTable,X                 ;8180CA;8196AF;"
+HeldItem_AnimationDataPtrTable,24-bit metadata pointer table indexed by item_on_hand,"src/code_banks/bank_81.asm:113: LDA.L HeldItem_AnimationDataPtrTable,X                 ;8180D4;8196AF;"
+HeldItem_AnimationDataPtrTable,24-bit metadata pointer table indexed by item_on_hand,"src/code_banks/bank_81.asm:2913: HeldItem_AnimationDataPtrTable: db $FF,$FF,$FF,$76,$98,$81,$9A,$98,$81,$BE,$98,$81,$E2,$98,$81,$06;8196AF;      ;"
+HeldItem_ShippingPriceTable,normal shipping-bin placement/price table,"src/code_banks/bank_81.asm:1826: LDA.L HeldItem_ShippingPriceTable,X                 ;818DC8;819FDE;"
+HeldItem_ShippingPriceTable,normal shipping-bin placement/price table,"src/code_banks/bank_81.asm:2323: LDA.L HeldItem_ShippingPriceTable,X                 ;8191D5;819FDE;"
+HeldItem_ShippingPriceTable,normal shipping-bin placement/price table,"src/code_banks/bank_81.asm:2334: LDA.L HeldItem_ShippingPriceTable,X                 ;8191EB;819FDE;"
+HeldItem_ShippingPriceTable,normal shipping-bin placement/price table,"src/code_banks/bank_81.asm:2577: LDA.L HeldItem_ShippingPriceTable,X"
+HeldItem_ShippingPriceTable,normal shipping-bin placement/price table,"src/code_banks/bank_81.asm:2587: LDA.L HeldItem_ShippingPriceTable,X"
+HeldItem_ShippingPriceTable,normal shipping-bin placement/price table,"src/code_banks/bank_81.asm:3067: HeldItem_ShippingPriceTable:     db $00,$00,$00,$0F,$00,$14,$00,$0F,$00,$14,$00,$3C,$00,$00,$00,$1E;819FDE;      ;"
+HeldItem_ShopSellDialogAndPriceTable,direct-sale dialog/price table,"src/code_banks/bank_81.asm:2006: LDA.L HeldItem_ShopSellDialogAndPriceTable,X                 ;818F40;81A094;"
+HeldItem_ShopSellDialogAndPriceTable,direct-sale dialog/price table,"src/code_banks/bank_81.asm:2039: LDA.L HeldItem_ShopSellDialogAndPriceTable,X                 ;818F7D;81A094;"
+HeldItem_ShopSellDialogAndPriceTable,direct-sale dialog/price table,"src/code_banks/bank_81.asm:2069: LDA.L HeldItem_ShopSellDialogAndPriceTable,X                 ;818FC0;81A094;"
+HeldItem_ShopSellDialogAndPriceTable,direct-sale dialog/price table,"src/code_banks/bank_81.asm:2259: LDA.L HeldItem_ShopSellDialogAndPriceTable,X                 ;819143;81A094;"
+HeldItem_ShopSellDialogAndPriceTable,direct-sale dialog/price table,"src/code_banks/bank_81.asm:3081: HeldItem_ShopSellDialogAndPriceTable: db $00,$00,$00,$58,$03,$14,$59,$03,$1E,$5B,$03,$14,$5C,$03,$1E,$5D;81A094;      ;"
+HeldItem_TileInteractionTypeTable,front-tile interaction lookup,"src/code_banks/bank_81.asm:43: LDA.L HeldItem_TileInteractionTypeTable,X                 ;818056;81A2AD;"
+HeldItem_TileInteractionTypeTable,front-tile interaction lookup,"src/code_banks/bank_81.asm:3119: HeldItem_TileInteractionTypeTable: db $00,$01,$01,$01,$01,$03,$00,$00,$00,$02,$02,$02,$01,$02,$02,$02;81A2AD;      ;"
+HeldItem_UseSoundFlagTable,sound trigger lookup,"src/code_banks/bank_81.asm:66: LDA.L HeldItem_UseSoundFlagTable,X                 ;818081;81A308;"
+HeldItem_UseSoundFlagTable,sound trigger lookup,"src/code_banks/bank_81.asm:3127: HeldItem_UseSoundFlagTable: db $00,$01,$01,$01,$01,$01,$00,$00,$01,$01,$01,$01,$01,$01,$01,$01;81A308;      ;"
+HeldItem_DropTargetCoordinateTable,scripted drop target coordinates,"src/code_banks/bank_81.asm:1844: LDA.L HeldItem_DropTargetCoordinateTable,X                 ;818DF1;81A363;"
+HeldItem_DropTargetCoordinateTable,scripted drop target coordinates,"src/code_banks/bank_81.asm:1848: LDA.L HeldItem_DropTargetCoordinateTable,X                 ;818DFA;81A363;"
+HeldItem_DropTargetCoordinateTable,scripted drop target coordinates,"src/code_banks/bank_81.asm:2856: LDA.L HeldItem_DropTargetCoordinateTable,X                 ;819636;81A363;"
+HeldItem_DropTargetCoordinateTable,scripted drop target coordinates,"src/code_banks/bank_81.asm:2860: LDA.L HeldItem_DropTargetCoordinateTable,X                 ;81963F;81A363;"
+HeldItem_DropTargetCoordinateTable,scripted drop target coordinates,"src/code_banks/bank_81.asm:3135: HeldItem_DropTargetCoordinateTable: dw $0218,$0208,$01A8,$00D2,$02E8,$00F2,$0318,$0252;81A363;      ;"
+HeldItem_DroppedOnShippingBin,shipping-bin drop handler,src/code_banks/bank_81.asm:2562: CODE_8193BD: BRA HeldItem_DroppedOnShippingBin                      ;8193BD;8193BF;
+HeldItem_DroppedOnShippingBin,shipping-bin drop handler,src/code_banks/bank_81.asm:2566: HeldItem_DroppedOnShippingBin:
+HeldItem_DroppedOnSpecialPlace,special-place drop fallback,src/code_banks/bank_81.asm:2544: CODE_819394: JMP.W HeldItem_DroppedOnSpecialPlace                    ;819394;819497;
+HeldItem_DroppedOnSpecialPlace,special-place drop fallback,src/code_banks/bank_81.asm:2559: JMP.W HeldItem_DroppedOnSpecialPlace                    ;8193BA;819497;
+HeldItem_DroppedOnSpecialPlace,special-place drop fallback,src/code_banks/bank_81.asm:2579: JMP.W HeldItem_DroppedOnSpecialPlace
+HeldItem_DroppedOnSpecialPlace,special-place drop fallback,src/code_banks/bank_81.asm:2666: HeldItem_DroppedOnSpecialPlace:

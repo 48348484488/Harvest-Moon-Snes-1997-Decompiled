@@ -1,0 +1,17 @@
+group,visual_entries,top_domains,top_roles
+$00,120,general_livestock_visual_context:104 cow_livestock_visual_context:9 chicken_poultry_visual_context:4 dog_pet_visual_context:3,cc_object_visual_pointer_setup:118 cc_object_parameter_state_setup:2
+$01,9,general_livestock_visual_context:4 dog_pet_visual_context:2 cow_livestock_visual_context:2 npc_family_event_visual_context:1,cc_object_visual_pointer_setup:9
+$02,2,npc_family_event_visual_context:1 general_livestock_visual_context:1,cc_object_visual_pointer_setup:2
+$04,6,npc_family_event_visual_context:4 general_livestock_visual_context:2,cc_object_visual_pointer_setup:6
+$06,5,general_livestock_visual_context:4 cow_livestock_visual_context:1,cc_object_visual_pointer_setup:5
+$07,6,general_livestock_visual_context:4 npc_family_event_visual_context:2,cc_object_visual_pointer_setup:6
+$08,7,npc_family_event_visual_context:4 general_livestock_visual_context:2 cow_livestock_visual_context:1,cc_object_visual_pointer_setup:7
+$0B,1,npc_family_event_visual_context:1,cc_object_visual_pointer_setup:1
+$24,4,npc_family_event_visual_context:3 general_livestock_visual_context:1,cc_object_visual_pointer_setup:4
+$2A,1,npc_family_event_visual_context:1,cc_object_visual_pointer_setup:1
+$2B,1,npc_family_event_visual_context:1,cc_object_visual_pointer_setup:1
+$2C,1,npc_family_event_visual_context:1,cc_object_visual_pointer_setup:1
+$2D,1,npc_family_event_visual_context:1,cc_object_visual_pointer_setup:1
+$43,5,dog_pet_visual_context:3 general_livestock_visual_context:2,cc_object_visual_pointer_setup:5
+$44,5,general_livestock_visual_context:4 cow_livestock_visual_context:1,cc_object_visual_pointer_setup:5
+$45,2,npc_family_event_visual_context:2,cc_object_visual_pointer_setup:2

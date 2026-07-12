@@ -1,0 +1,11 @@
+# Pass 50 rename summary
+
+CODE_81A5E1  -> MapTilePatchScript_StartByIndex
+CODE_81A600  -> MapTilePatchScript_UpdateActive
+CODE_81A688  -> MapTilePatch_ApplyObjectAndRefreshVRAM
+CODE_81A6C1  -> MapTilePatch_QueueObjectVRAMDMA
+SUB_81A7CE   -> MapTilePatch_ApplyObjectAndRefresh
+SUB_81A801   -> MapTilePatch_LoadPlacementRecord
+SUB_81A83A   -> MapTilePatch_CopyTileObjectToWRAM
+PTR16_81A9F6 -> MapEntryTilePatch_AreaDispatchTable
+ReplaceTiles* -> MapEntryTilePatch_* families

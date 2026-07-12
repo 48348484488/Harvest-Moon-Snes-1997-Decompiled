@@ -1,0 +1,2 @@
+ERRO: asar nao encontrado no PATH.
+Instale o asar e rode novamente. O projeto usa sintaxe asar.

@@ -1,0 +1,901 @@
+file,line,category,text
+src/code_banks/bank_80.asm,143,cow,";;;;;;;; Moves the Cow name from the temp location to the final location, and creates her"
+src/code_banks/bank_80.asm,144,cow,SetCowNameBought: ;80815F
+src/code_banks/bank_80.asm,159,cow,        JSL.L AddNewCow
+src/code_banks/bank_80.asm,188,cow,";;;;;;;; Moves the Cow name from the temp location to the final location, and creates her"
+src/code_banks/bank_80.asm,189,cow,SetCowNameBorn: ;8081D2
+src/code_banks/bank_80.asm,204,cow,        JSL.L AddNewCow
+src/code_banks/bank_80.asm,238,dog,;;;;;;;; Moves the Dog name from the temp location to the final location
+src/code_banks/bank_80.asm,239,dog,SetDogName: ;808254
+src/code_banks/bank_80.asm,256,dog,        STA.W !dog_name_short_1
+src/code_banks/bank_80.asm,258,dog,        STA.W !dog_name_long_1
+src/code_banks/bank_80.asm,261,dog,        STA.W !dog_name_short_2
+src/code_banks/bank_80.asm,263,dog,        STA.W !dog_name_long_2
+src/code_banks/bank_80.asm,266,dog,        STA.W !dog_name_short_3
+src/code_banks/bank_80.asm,268,dog,        STA.W !dog_name_long_3
+src/code_banks/bank_80.asm,271,dog,        STA.W !dog_name_short_4
+src/code_banks/bank_80.asm,273,dog,        STA.W !dog_name_long_4
+src/code_banks/bank_80.asm,285,horse,;;;;;;;; Moves the Horse name from the temp location to the final location
+src/code_banks/bank_80.asm,286,horse,SetHorseName: ;8082C6
+src/code_banks/bank_80.asm,303,horse,        STA.W !horse_name_short_1
+src/code_banks/bank_80.asm,305,horse,        STA.W !horse_name_long_1
+src/code_banks/bank_80.asm,308,horse,        STA.W !horse_name_short_2
+src/code_banks/bank_80.asm,310,horse,        STA.W !horse_name_long_2
+src/code_banks/bank_80.asm,313,horse,        STA.W !horse_name_short_3
+src/code_banks/bank_80.asm,315,horse,        STA.W !horse_name_long_3
+src/code_banks/bank_80.asm,318,horse,        STA.W !horse_name_short_4
+src/code_banks/bank_80.asm,320,horse,        STA.W !horse_name_long_4
+src/code_banks/bank_80.asm,3245,other,        JSL.L Livestock_SpawnVisibleAnimalObjects
+src/code_banks/bank_80.asm,3362,dog,        ORA.W #$0080                         ;FLAGD2 Carring dog
+src/code_banks/bank_81.asm,955,feed,                       STA.W !feed_chicks_N                          ;81877D;00092D;
+src/code_banks/bank_81.asm,968,feed,                       STA.W !feed_cow_N                          ;818799;00092C;
+src/code_banks/bank_81.asm,1875,chicken,                       JSL.L GetChickenPointer          ;818E2F;83C995;
+src/code_banks/bank_81.asm,1958,feed,"                       LDA.L Cow_Feed_Flags,X                ;818EE5;82A571;"
+src/code_banks/bank_81.asm,1959,cow,                       ORA.W !fed_cows_flags                          ;818EE9;000932;
+src/code_banks/bank_81.asm,1960,cow,                       STA.W !fed_cows_flags                          ;818EEC;000932;
+src/code_banks/bank_81.asm,1962,cow,                       LDA.W !fed_cows_N                          ;818EF1;000930;
+src/code_banks/bank_81.asm,1964,cow,                       STA.W !fed_cows_N                          ;818EF5;000930;
+src/code_banks/bank_81.asm,1984,feed,"                       LDA.L Cow_Feed_Flags,X                ;818F14;82A571;"
+src/code_banks/bank_81.asm,1985,chicken,                       ORA.W !fed_chicks_flags                          ;818F18;000934;
+src/code_banks/bank_81.asm,1986,chicken,                       STA.W !fed_chicks_flags                          ;818F1B;000934;
+src/code_banks/bank_81.asm,1988,chicken,                       LDA.W !fed_chicks_N                          ;818F20;000931;
+src/code_banks/bank_81.asm,1990,chicken,                       STA.W !fed_chicks_N                          ;818F24;000931;
+src/code_banks/bank_81.asm,2608,cow,      CMP.B !map_barn
+src/code_banks/bank_81.asm,2609,cow,      BNE .notbarn
+src/code_banks/bank_81.asm,2610,cow,      JMP.W .barnbin
+src/code_banks/bank_81.asm,2612,cow,    .notbarn:
+src/code_banks/bank_81.asm,2613,chicken,      CMP.B !map_coop
+src/code_banks/bank_81.asm,2614,chicken,      BNE .notcoop
+src/code_banks/bank_81.asm,2615,chicken,      JMP.W .coopbin
+src/code_banks/bank_81.asm,2617,chicken,    .notcoop:
+src/code_banks/bank_81.asm,2633,cow,    .barnbin:
+src/code_banks/bank_81.asm,2649,chicken,    .coopbin:
+src/code_banks/bank_81.asm,2670,chicken,      CMP.B !item_egg                        ;Egg
+src/code_banks/bank_81.asm,2671,chicken,      BEQ .itsanegg
+src/code_banks/bank_81.asm,2672,chicken,      JMP.W .nothatchableegg
+src/code_banks/bank_81.asm,2674,chicken,   .itsanegg:
+src/code_banks/bank_81.asm,2676,chicken,      CMP.B !map_coop
+src/code_banks/bank_81.asm,2677,chicken,      BEQ .itsonthecoop
+src/code_banks/bank_81.asm,2678,chicken,      JMP.W .nothatchableegg
+src/code_banks/bank_81.asm,2680,chicken,   .itsonthecoop:
+src/code_banks/bank_81.asm,2693,chicken,      JMP.W .nothatchableegg
+src/code_banks/bank_81.asm,2697,chicken,      AND.W #$2000                           ;hatching egg flag
+src/code_banks/bank_81.asm,2698,chicken,      BEQ .alreadyhatchingegg
+src/code_banks/bank_81.asm,2699,chicken,      JMP.W .nothatchableegg
+src/code_banks/bank_81.asm,2701,chicken,  .alreadyhatchingegg:
+src/code_banks/bank_81.asm,2714,chicken,      JSL.L AddNewChicken
+src/code_banks/bank_81.asm,2717,chicken,      ORA.W #$2000                           ;hatching egg flag
+src/code_banks/bank_81.asm,2735,chicken,  .nothatchableegg:
+src/code_banks/bank_81.asm,4105,other,                       dw ReplaceTilesAnimalShop                      ;81AA3E;00AFC0;24
+src/code_banks/bank_81.asm,4108,cow,                       dw ReplaceTilesBarn                      ;81AA44;00B0A8;27
+src/code_banks/bank_81.asm,4708,cow,        BEQ .milkercheck
+src/code_banks/bank_81.asm,4711,cow,        BEQ .milkercheck
+src/code_banks/bank_81.asm,4715,cow,        BEQ .milkercheck
+src/code_banks/bank_81.asm,4722,cow,    .milkercheck:
+src/code_banks/bank_81.asm,4725,cow,        CMP.B #$0E                           ;Milker
+src/code_banks/bank_81.asm,4855,other,ReplaceTilesAnimalShop: ;81AFC0
+src/code_banks/bank_81.asm,4864,cow,        LDA.L $7F1F64                        ;cow pregnant?
+src/code_banks/bank_81.asm,4871,cow,        LDA.L !cow_N
+src/code_banks/bank_81.asm,4890,feed,        BEQ .chickenfeedcheck
+src/code_banks/bank_81.asm,4893,feed,        BEQ .chickenfeedcheck
+src/code_banks/bank_81.asm,4900,feed,    .chickenfeedcheck:
+src/code_banks/bank_81.asm,4904,feed,        BEQ .cowfeedcheck
+src/code_banks/bank_81.asm,4907,feed,        BEQ .cowfeedcheck
+src/code_banks/bank_81.asm,4914,feed,    .cowfeedcheck:
+src/code_banks/bank_81.asm,4975,cow,ReplaceTilesBarn: ;81B0A8
+src/code_banks/bank_81.asm,4990,feed,"            LDA.L Cow_Feed_Flags,X"
+src/code_banks/bank_81.asm,4991,cow,            AND.W !fed_cows_flags
+src/code_banks/bank_81.asm,4992,feed,            BEQ .nofeed
+src/code_banks/bank_81.asm,5008,feed,        .nofeed:
+src/code_banks/bank_81.asm,5674,dog,                       LDA.L !dog_pos_X                        ;81C1C4;7F1F2C;
+src/code_banks/bank_81.asm,5676,dog,                       LDA.L !dog_pos_Y                        ;81C1CB;7F1F2E;
+src/code_banks/bank_81.asm,9126,cow,                       LDA.L !cow_N                        ;81DEC9;7F1F0A;
+src/code_banks/bank_81.asm,9165,chicken,                       LDA.L !chicks_N                        ;81DF20;7F1F0B;
+src/code_banks/bank_81.asm,9252,chicken,                       LDA.L !chicks_N                        ;81DFE1;7F1F0B;
+src/code_banks/bank_81.asm,9262,cow,                       LDA.L !cow_N                        ;81DFF2;7F1F0A;
+src/code_banks/bank_81.asm,9348,cow,                       LDA.L !cow_N                        ;81E0B8;7F1F0A;
+src/code_banks/bank_81.asm,9350,cow,                       STA.L !cow_N                        ;81E0BD;7F1F0A;
+src/code_banks/bank_81.asm,9387,chicken,                       LDA.L !chicks_N                        ;81E108;7F1F0B;
+src/code_banks/bank_81.asm,9398,cow,                       LDA.L !cow_N                        ;81E11A;7F1F0A;
+src/code_banks/bank_81.asm,9484,chicken,                       JSL.L AddNewChicken                  ;81E1D9;83C807;
+src/code_banks/bank_81.asm,9490,chicken,                       LDA.L !chicks_N                        ;81E1EC;7F1F0B;
+src/code_banks/bank_81.asm,9492,chicken,                       STA.L !chicks_N                        ;81E1F1;7F1F0B;
+src/code_banks/bank_81.asm,10253,cow,                       JSL.L GetCowPointer                ;81E7FF;83C9A7;
+src/code_banks/bank_81.asm,10317,cow,                       JSL.L GetCowPointer                ;81E894;83C9A7;
+src/code_banks/bank_81.asm,10445,cow,                       JSL.L GetCowPointer                ;81E9B4;83C9A7;
+src/code_banks/bank_81.asm,10451,cow,                       LDA.L !cow_N                        ;81E9C3;7F1F0A;
+src/code_banks/bank_81.asm,10453,cow,                       STA.L !cow_N                        ;81E9C8;7F1F0A;
+src/code_banks/bank_81.asm,10633,cow,                       JSL.L GetCowPointer                ;81EB4A;83C9A7;
+src/code_banks/bank_81.asm,10639,cow,                       LDA.L !cow_N                        ;81EB59;7F1F0A;
+src/code_banks/bank_81.asm,10641,cow,                       STA.L !cow_N                        ;81EB5E;7F1F0A;
+src/code_banks/bank_81.asm,10898,chicken,                       JSL.L GetChickenPointer          ;81ED77;83C995;
+src/code_banks/bank_81.asm,10904,chicken,                       LDA.L !chicks_N                        ;81ED86;7F1F0B;
+src/code_banks/bank_81.asm,10906,chicken,                       STA.L !chicks_N                        ;81ED8B;7F1F0B;
+src/code_banks/bank_81.asm,11086,chicken,                       JSL.L GetChickenPointer          ;81EF0D;83C995;
+src/code_banks/bank_81.asm,11092,chicken,                       LDA.L !chicks_N                        ;81EF1C;7F1F0B;
+src/code_banks/bank_81.asm,11094,chicken,                       STA.L !chicks_N                        ;81EF21;7F1F0B;
+src/code_banks/bank_82.asm,451,feed,        JSL.L Livestock_DailyStatusAndFeedingUpdate
+src/code_banks/bank_82.asm,493,cow,        STZ.W !fed_cows_N
+src/code_banks/bank_82.asm,494,chicken,        STZ.W !fed_chicks_N
+src/code_banks/bank_82.asm,496,cow,        STZ.W !fed_cows_flags
+src/code_banks/bank_82.asm,497,chicken,        STZ.W !fed_chicks_flags
+src/code_banks/bank_82.asm,912,other,        JMP.W .wifepregnant
+src/code_banks/bank_82.asm,922,other,        JMP.W .wifepregnant
+src/code_banks/bank_82.asm,934,other,        BCS .wifepregnant
+src/code_banks/bank_82.asm,941,other,        BCS .wifepregnant
+src/code_banks/bank_82.asm,951,other,        BCS .wifepregnant
+src/code_banks/bank_82.asm,958,other,        BCS .wifepregnant
+src/code_banks/bank_82.asm,968,other,        BCS .wifepregnant
+src/code_banks/bank_82.asm,975,other,        BCS .wifepregnant
+src/code_banks/bank_82.asm,985,other,        BCS .wifepregnant
+src/code_banks/bank_82.asm,992,other,        BCS .wifepregnant
+src/code_banks/bank_82.asm,995,other,    .wifepregnant:
+src/code_banks/bank_82.asm,1388,chicken,        BEQ .eggfestival
+src/code_banks/bank_82.asm,1391,chicken,    .eggfestival:
+src/code_banks/bank_82.asm,1393,chicken,        LDA.B #$0B                            ;egg festival
+src/code_banks/bank_82.asm,1920,feed,Cow_Feed_Flags: ;82A571
+src/code_banks/bank_82.asm,1934,cow,        dw ToolAnimationCowMedicine
+src/code_banks/bank_82.asm,1939,cow,        dw ToolAnimationMilker
+src/code_banks/bank_82.asm,1950,feed,        dw ToolAnimationChickenFeed
+src/code_banks/bank_82.asm,1951,feed,        dw ToolAnimationCowFeed
+src/code_banks/bank_82.asm,1964,cow,        dw ToolUsedCowMedicine
+src/code_banks/bank_82.asm,1969,cow,        dw ToolUsedMilker
+src/code_banks/bank_82.asm,1980,feed,        dw ToolUsedChickenFeed
+src/code_banks/bank_82.asm,1981,feed,        dw ToolUsedCowFeed
+src/code_banks/bank_82.asm,4462,cow,        STZ.W !fed_cows_flags                          ;82D2E2;000932;
+src/code_banks/bank_82.asm,4463,chicken,        STZ.W !fed_chicks_flags                          ;82D2E5;000934;
+src/code_banks/bank_82.asm,4534,chicken,"        STA.L !chicken_array,X                      ;82D3AF;7EC286;"
+src/code_banks/bank_82.asm,4649,cow,        STZ.W !fed_cows_flags                          ;82D4E3;000932;
+src/code_banks/bank_82.asm,4650,chicken,        STZ.W !fed_chicks_flags                          ;82D4E6;000934;
+src/code_banks/bank_82.asm,4911,chicken,"        STA.L !chicken_array,X                      ;82D73A;7EC286;"
+src/code_banks/bank_82.asm,6991,cow,        JML.L SetCowNameBought
+src/code_banks/bank_82.asm,6996,cow,        JML.L SetCowNameBorn
+src/code_banks/bank_82.asm,7001,dog,        JML.L SetDogName
+src/code_banks/bank_82.asm,7006,horse,        JML.L SetHorseName
+src/code_banks/bank_82_toolanimation_subrutines.asm,70,cow,ToolAnimationCowMedicine: ;829142
+src/code_banks/bank_82_toolanimation_subrutines.asm,114,cow,ToolAnimationMilker: ;82918D
+src/code_banks/bank_82_toolanimation_subrutines.asm,226,feed,ToolAnimationChickenFeed: ;82923F
+src/code_banks/bank_82_toolanimation_subrutines.asm,234,feed,ToolAnimationCowFeed: ;82924B
+src/code_banks/bank_82_toolused_subrutines.asm,3,cow,";09:cow medicine, 0A:cow icon, 0B:bell,"
+src/code_banks/bank_82_toolused_subrutines.asm,4,cow,";0C:grass seed, 0D:paint, 0E:milker,0F:brush, 10:watering,"
+src/code_banks/bank_82_toolused_subrutines.asm,6,feed,";16:bean, 17:gem, 18:blue feather, 19:chicken feed, 20:cow feed"
+src/code_banks/bank_82_toolused_subrutines.asm,948,cow,ToolUsedCowMedicine: ;829B11
+src/code_banks/bank_82_toolused_subrutines.asm,1152,cow,ToolUsedMilker: ;829CC0
+src/code_banks/bank_82_toolused_subrutines.asm,2018,feed,ToolUsedChickenFeed: ;82A414
+src/code_banks/bank_82_toolused_subrutines.asm,2022,chicken,        CMP.B #$28                           ;Coop
+src/code_banks/bank_82_toolused_subrutines.asm,2044,feed,"        LDA.L Cow_Feed_Flags,X               ;has that name, but its just precoked flags"
+src/code_banks/bank_82_toolused_subrutines.asm,2045,chicken,        ORA.W !fed_chicks_flags
+src/code_banks/bank_82_toolused_subrutines.asm,2046,chicken,        STA.W !fed_chicks_flags
+src/code_banks/bank_82_toolused_subrutines.asm,2048,chicken,        LDA.W !fed_chicks_N
+src/code_banks/bank_82_toolused_subrutines.asm,2050,chicken,        STA.W !fed_chicks_N
+src/code_banks/bank_82_toolused_subrutines.asm,2080,feed,        LDA.W !feed_chicks_N
+src/code_banks/bank_82_toolused_subrutines.asm,2082,feed,        STA.W !feed_chicks_N
+src/code_banks/bank_82_toolused_subrutines.asm,2097,feed,ToolUsedCowFeed: ;82A4C2
+src/code_banks/bank_82_toolused_subrutines.asm,2123,feed,"        LDA.L Cow_Feed_Flags,X"
+src/code_banks/bank_82_toolused_subrutines.asm,2124,cow,        ORA.W !fed_cows_flags
+src/code_banks/bank_82_toolused_subrutines.asm,2125,cow,        STA.W !fed_cows_flags
+src/code_banks/bank_82_toolused_subrutines.asm,2127,cow,        LDA.W !fed_cows_N
+src/code_banks/bank_82_toolused_subrutines.asm,2129,cow,        STA.W !fed_cows_N
+src/code_banks/bank_82_toolused_subrutines.asm,2159,feed,        LDA.W !feed_cow_N
+src/code_banks/bank_82_toolused_subrutines.asm,2161,feed,        STA.W !feed_cow_N
+src/code_banks/bank_83.asm,3366,cow,        dl Text_Manual_Milker                ;B69006;14
+src/code_banks/bank_83.asm,3393,cow,        dl Text_Cow_Talk                     ;B69E36;2F
+src/code_banks/bank_83.asm,3394,cow,        dl Text_Cow_Talk_Cranky              ;B69E96;30
+src/code_banks/bank_83.asm,3395,cow,        dl Text_Cow_Talk_Sick                ;B69EBA;31
+src/code_banks/bank_83.asm,3396,cow,        dl Text_Cow_Talk_Pregnant            ;B69F52;32
+src/code_banks/bank_83.asm,3400,other,        dl Text_036_Animal_AskFloristFlowersAskLivestock                     ;B6A0CE;36
+src/code_banks/bank_83.asm,3404,other,        dl Text_03A_Animal_EverybodyHasDifferentIdeasHappiness                     ;B6A364;3a
+src/code_banks/bank_83.asm,3411,other,        dl Text_041_Animal_HowsWorkGoingSomeWild                     ;B6AA16;41
+src/code_banks/bank_83.asm,3426,other,        dl Text_050_Animal_EatSomethingTiredCakesBest                     ;B6B470;50
+src/code_banks/bank_83.asm,3428,dog,        dl Text_052_Animal_HicWorkingLikeDogOnly                     ;B6B55C;52
+src/code_banks/bank_83.asm,3434,other,        dl Text_058_Animal_FeltTimeWentSlowlyWas                     ;B6B932;58
+src/code_banks/bank_83.asm,3435,other,        dl Text_059_Animal_HaveSympathyPeopleKindPeople                     ;B6BA38;59
+src/code_banks/bank_83.asm,3438,cow,        dl Text_05C_Animal_ToughTakeCareCowsTake                     ;B6BCA6;5c
+src/code_banks/bank_83.asm,3439,chicken,        dl Text_05D_Animal_HensLayEggsPutCage                     ;B6BDEC;5d
+src/code_banks/bank_83.asm,3441,cow,        dl Text_05F_Animal_KnowCowsGiveMoreMilk                     ;B6BFBE;5f
+src/code_banks/bank_83.asm,3457,other,        dl Text_06F_Animal_UseToolLoseStaminaBut                     ;B6CB22;6f
+src/code_banks/bank_83.asm,3459,other,        dl Text_071_Shipping_ThingsShipFlowersAnimalsPerishables                     ;B6CC1A;71
+src/code_banks/bank_83.asm,3468,other,        dl Text_07A_Sign_LiveMountainsHuntingAnimalsEve                     ;B6D358;7a
+src/code_banks/bank_83.asm,3490,other,        dl Text_090_Animal_ThenPray                     ;B6DD2E;90
+src/code_banks/bank_83.asm,3507,other,        dl Text_0A1_Animal_LooksColdOutsideTurnsWhite                     ;B6E54A;a1
+src/code_banks/bank_83.asm,3517,other,        dl Text_0AB_Animal_LookAutomaticPuddingMakerPut                     ;B6EA14;ab
+src/code_banks/bank_83.asm,3520,other,        dl Text_0AE_Animal_LoveSpringAllFlowersStart                     ;B6ECA2;ae
+src/code_banks/bank_83.asm,3535,other,        dl Text_0BD_Dialog_HumanAnimalsPlantsAllAlive                     ;B6F462;bd
+src/code_banks/bank_83.asm,3539,other,        dl Text_0C1_Animal_FlowersEdibleUsedMedicinalPurposes                     ;B6F5D6;c1
+src/code_banks/bank_83.asm,3549,other,        dl Text_0CB_Romance_LikeAnimalsLoveLikeC                     ;B6FB4A;cb
+src/code_banks/bank_83.asm,3550,other,        dl Text_0CC_Romance_LoveAnimalsToo                     ;B6FBDC;cc
+src/code_banks/bank_83.asm,3551,other,        dl Text_0CD_Town_LyingAnimalsTakePeopleWho                     ;B6FC0E;cd
+src/code_banks/bank_83.asm,3552,dog,        dl Text_0CE_Animal_EiBarkWildDogswhenCome                     ;B6FC94;ce
+src/code_banks/bank_83.asm,3553,other,        dl Text_0CF_Dialog_HardLookAfterAnimalsAlways                     ;B6FD32;cf
+src/code_banks/bank_83.asm,3562,other,        dl Text_0D8_Animal_TasteMyNewCakeBaked                     ;B78322;d8
+src/code_banks/bank_83.asm,3583,other,        dl Text_0ED_Animal_WasntColdOutsideColdBetter                     ;B78C28;ed
+src/code_banks/bank_83.asm,3592,other,        dl Text_0F6_Animal_GrandfatherHelpedMeThoseDays                     ;B795F8;f6
+src/code_banks/bank_83.asm,3614,other,        dl Text_10C_Animal_SonHaveHaveMeadowBuy                     ;B7A698;10c
+src/code_banks/bank_83.asm,3615,other,        dl Text_10D_Animal_FirstMustHavePlentyGrass                     ;B7A878;10d
+src/code_banks/bank_83.asm,3616,cow,        dl Text_10E_Manual_HowdyPutThoseCowsPen                     ;B7A960;10e
+src/code_banks/bank_83.asm,3619,other,        dl Text_111_Animal_HohohoMisterKnowBeginFirst                     ;B7AC52;111
+src/code_banks/bank_83.asm,3620,other,        dl Text_112_Animal_OverextendYourselfTiredGoBed                     ;B7AE14;112
+src/code_banks/bank_83.asm,3627,other,        dl Text_119_Animal_LetMeKnowGoHome                     ;B7B376;119
+src/code_banks/bank_83.asm,3639,other,        dl Text_125_Animal_PuffPuffRunSuddenlyMr                     ;B7B9E2;125
+src/code_banks/bank_83.asm,3642,other,        dl Text_128_Animal_CarpentersComeUsWantEnlarge                     ;B7BD58;128
+src/code_banks/bank_83.asm,3652,other,        dl Text_132_Animal_LetMeKnowWheneverWant                     ;B7C3EA;132
+src/code_banks/bank_83.asm,3672,other,        dl Text_146_Animal_LongWinterFinallyOverAnimals                     ;B7D11E;146
+src/code_banks/bank_83.asm,3674,other,        dl Text_148_Animal_WanderingHawkerTodayHaveVery                     ;B7D21A;148
+src/code_banks/bank_83.asm,3675,other,        dl Text_149_Animal_WanderingHawkerTodayHaveVery                     ;B7D3E0;149
+src/code_banks/bank_83.asm,3676,cow,        dl Text_14A_Animal_ThenCowNowMineHawker                     ;B7D5BA;14a
+src/code_banks/bank_83.asm,3677,cow,        dl Text_14B_Sign_CowMineNowPutSeed                     ;B7D63C;14b
+src/code_banks/bank_83.asm,3697,other,        dl Text_15F_Animal_HavePutLivestockPenLets                     ;B7E330;15f
+src/code_banks/bank_83.asm,3710,cow,        dl Text_16C_Weather_CowsSimpleKeepOutGround                     ;B7E916;16c
+src/code_banks/bank_83.asm,3716,cow,        dl Text_172_Animal_HaveSeenMoleScaresCows                     ;B7ECC8;172
+src/code_banks/bank_83.asm,3737,other,        dl Text_187_Animal_AutoMilkingYogurtMakerSpecial                     ;B7F354;187
+src/code_banks/bank_83.asm,3747,other,        dl Text_191_Sign_ManyKindsAnimalsMountainGive                     ;B7F9C2;191
+src/code_banks/bank_83.asm,3764,other,        dl Text_1A2_Dialog_UummmmSayUmmGuessPregnant                     ;B88000;1a2
+src/code_banks/bank_83.asm,3786,other,        dl Text_1B8_Animal_RemindsMeNinaWasBorn                     ;B8869C;1b8
+src/code_banks/bank_83.asm,3787,other,        dl Text_1B9_Animal_RemindsMeEveWasBorn                     ;B886E8;1b9
+src/code_banks/bank_83.asm,3806,other,        dl Text_1CC_Animal_GoodMorningExcuseMeBothering                     ;B88D78;1cc
+src/code_banks/bank_83.asm,3826,other,        dl Text_1E0_Animal_TraditionAreaCalledBlueFeather                     ;B89B24;1e0
+src/code_banks/bank_83.asm,3882,other,        dl Text_218_Animal_ComesDownBuy                     ;B8BE6C;218
+src/code_banks/bank_83.asm,3883,other,        dl Text_219_Animal_FeelCalmSeeFlowersMean                     ;B8BEC4;219
+src/code_banks/bank_83.asm,3890,other,        dl Text_220_Animal_MyHeartWarmsUpJoys                     ;B8C238;220
+src/code_banks/bank_83.asm,3922,other,        dl Text_240_Animal_HarvestFestivalTomorrowStopWork                     ;B8D41E;240
+src/code_banks/bank_83.asm,3929,other,        dl Text_247_Animal_CuttingGrassCutAutumnTry                     ;B8D8DE;247
+src/code_banks/bank_83.asm,3930,other,        dl Text_248_Animal_HappyOnlyIfTasteEat                     ;B8DA26;248
+src/code_banks/bank_83.asm,3972,other,        dl Text_272_Animal_FlowerFestivalTomorrowStopWork                     ;B8F0E8;272
+src/code_banks/bank_83.asm,3973,chicken,        dl Text_273_Weather_InformationEventHaveAnnualeggFestival                     ;B8F2FA;273
+src/code_banks/bank_83.asm,3974,chicken,        dl Text_274_Animal_EggFestivalTomorrowStopWork                     ;B8F436;274
+src/code_banks/bank_83.asm,4008,other,        dl Text_296_Animal_EllenGoodCookAndtakesGood                     ;B987BA;296
+src/code_banks/bank_83.asm,4015,other,        dl Text_29D_Animal_AbleBakePerfectlyDeliciousCake                     ;B98A84;29d
+src/code_banks/bank_83.asm,4025,chicken,        dl Text_2A7_Animal_UsedPlentyMilkEggs                     ;B98E78;2a7
+src/code_banks/bank_83.asm,4031,other,        dl Text_2AD_Animal_StarNightFestivalSupposedPray                     ;B99148;2ad
+src/code_banks/bank_83.asm,4042,other,        dl Text_2B8_Animal_LightStarsSeeingNowMillions                     ;B99756;2b8
+src/code_banks/bank_83.asm,4047,other,        dl Text_2BD_Animal_CloseMyEyesFeellikeFloating                     ;B999DE;2bd
+src/code_banks/bank_83.asm,4079,chicken,        dl Text_2DD_Animal_NowAnnualEggSearchinggameAutumn                     ;B9AA96;2dd
+src/code_banks/bank_83.asm,4092,chicken,        dl Text_2EA_Animal_WinnerYearsEggFestivalMr                     ;B9B072;2ea
+src/code_banks/bank_83.asm,4109,cow,        dl Text_2FB_Manual_BuyingCowThenGiveBell                     ;B9B786;2fb
+src/code_banks/bank_83.asm,4114,horse,        dl Text_300_Animal_HorseHasBecomeBigMade                     ;B9BB30;300
+src/code_banks/bank_83.asm,4115,cow,        dl Text_301_Animal_MedicineCowsSickHealsOnly                     ;B9BCA0;301
+src/code_banks/bank_83.asm,4119,cow,        dl Text_305_Animal_WantTodayBuyCowSell                     ;B9BF8C;305
+src/code_banks/bank_83.asm,4120,other,        dl Text_306_Animal_NeedHaveMoreGrassRaise                     ;B9C056;306
+src/code_banks/bank_83.asm,4121,cow,        dl Text_307_Animal_CowCostsGBuyingOne                     ;B9C0B6;307
+src/code_banks/bank_83.asm,4123,cow,        dl Text_309_Animal_IfWantSellCowsAgain                     ;B9C1DC;309
+src/code_banks/bank_83.asm,4124,chicken,        dl Text_30A_Animal_ChickenCostsGButWant                     ;B9C256;30a
+src/code_banks/bank_83.asm,4126,cow,        dl Text_30C_Animal_PutCowPenTakeGood                     ;B9C3EA;30c
+src/code_banks/bank_83.asm,4127,cow,        dl Text_30D_Animal_EvenThinkSellingCowCondition                     ;B9C4D2;30d
+src/code_banks/bank_83.asm,4132,cow,        dl Text_312_Manual_MilkerMilkUsingTowardCow                     ;B9C7E4;312
+src/code_banks/bank_83.asm,4134,cow,        dl Text_314_Manual_BrushCowsBecomeHappyBrush                     ;B9C93E;314
+src/code_banks/bank_83.asm,4135,cow,        dl Text_315_Animal_FatherHeavenHelpPreciousCow                     ;B9CAB4;315
+src/code_banks/bank_83.asm,4136,cow,        dl Text_316_Animal_IdiotTellTakeCareCows                     ;B9CB24;316
+src/code_banks/bank_83.asm,4148,other,        dl Text_322_Animal_ThankPutMorePowerReturn                     ;B9D326;322
+src/code_banks/bank_83.asm,4150,other,        dl Text_324_Animal_PlowFieldBeforeSpringBut                     ;B9D3D2;324
+src/code_banks/bank_83.asm,4175,other,        dl Text_33D_Animal_PotatoSeedHarvestLeavesBecome                     ;B9E598;33d
+src/code_banks/bank_83.asm,4179,feed,        dl Text_341_Sign_FeedCowsFeedingsPerBag                     ;B9EBAA;341
+src/code_banks/bank_83.asm,4180,feed,        dl Text_342_Sign_FeedChickensFeedingsPerBag                     ;B9ED36;342
+src/code_banks/bank_83.asm,4189,chicken,        dl Text_34B_Animal_PlaceHatchEggsPlaceEggs                     ;B9F822;34b
+src/code_banks/bank_83.asm,4190,chicken,        dl Text_34C_Animal_ShippingBoxEggs                     ;B9F88A;34c
+src/code_banks/bank_83.asm,4191,other,        dl Text_34D_Animal_ShippingBoxMilk                     ;B9F8BA;34d
+src/code_banks/bank_83.asm,4192,cow,        dl Text_34E_Animal_GetCowsGiveBirth                     ;B9F8EA;34e
+src/code_banks/bank_83.asm,4194,other,        dl Text_350_Animal_MilkBuyingGdoAgreeMoney                     ;B9F9C4;350
+src/code_banks/bank_83.asm,4195,other,        dl Text_351_Animal_MilkBuyingGbutMoneyHv                     ;B9FAA6;351
+src/code_banks/bank_83.asm,4196,other,        dl Text_352_Animal_MilkBuyingGbutMoneyHw                     ;B9FB88;352
+src/code_banks/bank_83.asm,4201,chicken,        dl Text_357_Animal_FreshEggBuyingGBut                     ;BA8112;357
+src/code_banks/bank_83.asm,4203,other,        dl Text_359_Animal_PoisonousMushroomMedicineCompoundedAbout                     ;BA82EE;359
+src/code_banks/bank_83.asm,4210,chicken,        dl Text_360_Animal_GoodLordGoldenEggNever                     ;BA89F8;360
+src/code_banks/bank_83.asm,4230,other,        dl Text_374_Animal_ThWinterMonthThanksgivingThanksgiving                     ;BA941E;374
+src/code_banks/bank_83.asm,4238,chicken,        dl Text_37C_Animal_LooksLikeOrnamentChickenBut                     ;BA979A;37c
+src/code_banks/bank_83.asm,4246,chicken,        dl Text_384_Animal_PrizeEggFestivalCharmProtect                     ;BA9A5A;384
+src/code_banks/bank_83.asm,4257,chicken,        dl Text_38F_Animal_WinnerYearsEggFestivalLivestock                     ;BA9E9C;38f
+src/code_banks/bank_83.asm,4258,chicken,        dl Text_390_Animal_BeepTimeUpNextEgg                     ;BA9F38;390
+src/code_banks/bank_83.asm,4262,other,        dl Text_394_Animal_SaidHappyFlowerBloomsEat                     ;BAA0DC;394
+src/code_banks/bank_83.asm,4274,other,        dl Text_3A0_Animal_BusyWinterGatherMaterialsThen                     ;BAA9B2;3a0
+src/code_banks/bank_83.asm,4277,chicken,        dl Text_3A3_Animal_AhChickenFeather                     ;BAAB0A;3a3
+src/code_banks/bank_83.asm,4279,other,        dl Text_3A5_Animal_EventsYearStSpringMonth                     ;BAABA0;3a5
+src/code_banks/bank_83.asm,4297,other,        dl Text_3B7_Animal_BeingCrowdedMakesLivestockStressed                     ;BAB15E;3b7
+src/code_banks/bank_83.asm,4308,other,        dl Text_3C2_Animal_AfterAllGirlHappiestwhenSomeone                     ;BAB58A;3c2
+src/code_banks/bank_83.asm,4317,other,        dl Text_3CB_Animal_ThinkPeopleWhoCheatWho                     ;BABC28;3cb
+src/code_banks/bank_83.asm,4321,cow,        dl Text_3CF_Manual_PrettyHardMoveCowsAs                     ;BABF26;3cf
+src/code_banks/bank_83.asm,4322,other,        dl Text_3D0_Animal_DealingLivestocktodayBecomeSickOutside                     ;BAC05A;3d0
+src/code_banks/bank_83.asm,4330,other,        dl Text_3D8_Animal_GotMarriedWorkHarderBad                     ;BAC54A;3d8
+src/code_banks/bank_83.asm,4334,other,        dl Text_3DC_Animal_FestivalEndsSoyouMustGo                     ;BAC786;3dc
+src/code_banks/bank_83.asm,4356,chicken,        dl Text_3F2_Animal_PrizeEggFestivalDifferentEvery                     ;BAD436;3f2
+src/code_banks/bank_83.asm,4357,chicken,        dl Text_3F3_Animal_EggFestivalHeldPublicSquare                     ;BAD4F6;3f3
+src/code_banks/bank_83.asm,4358,chicken,        dl Text_3F4_Animal_WinAgainEggFestivalTomorrow                     ;BAD57A;3f4
+src/code_banks/bank_83.asm,4377,other,        dl Text_407_Animal_WinterGoodTimeFriendsLivestock                     ;BADFB2;407
+src/code_banks/bank_83.asm,4380,other,        dl Text_40A_Animal_UmmGetOutCloseyouEyes                     ;BAE1C0;40a
+src/code_banks/bank_83.asm,4394,chicken,        dl Text_418_Animal_UumWantEgg                     ;BAE948;418
+src/code_banks/bank_83.asm,4397,chicken,        dl Text_41B_Animal_WantEggWantOneEgg                     ;BAEA28;41b
+src/code_banks/bank_83.asm,4408,dog,        dl Text_426_Animal_HearWildDogsSometimesCome                     ;BAEEA4;426
+src/code_banks/bank_83.asm,4413,other,        dl Text_42B_Animal_OneWildGrapeJuiceBayberry                     ;BAF13A;42b
+src/code_banks/bank_83.asm,4422,other,        dl Text_434_Animal_ThoseStarsStillShinewhenBecome                     ;BAF7C4;434
+src/code_banks/bank_83.asm,4439,chicken,        dl Text_445_Animal_CowCChickenC                     ;BB85E0;445
+src/code_banks/bank_83.asm,4441,cow,        dl Text_447_Animal_CowsBestAffectionRateEk                     ;BB864E;447
+src/code_banks/bank_83.asm,4459,chicken,        dl Text_459_Animal_LivestockNoteCowChickenMilk                     ;BB8F0E;459
+src/code_banks/bank_83.asm,4460,cow,        dl Text_45A_Weather_CowsSaleYoungOnesMilk                     ;BB8FB2;45a
+src/code_banks/bank_83.asm,4461,cow,        dl Text_45B_Manual_EquipMilkerPointYButton                     ;BB9280;45b
+src/code_banks/bank_83.asm,4462,cow,        dl Text_45C_Weather_CowsEatGrownGrassGrass                     ;BB9454;45c
+src/code_banks/bank_83.asm,4463,chicken,        dl Text_45D_Weather_ChickensLayOneEggDay                     ;BB95BA;45d
+src/code_banks/bank_83.asm,4464,chicken,        dl Text_45E_Animal_EggsBecomeChicksDayswhenIncubate                     ;BB978C;45e
+src/code_banks/bank_83.asm,4470,other,        dl Text_464_Animal_ItemMarriageProposalBlueFeather                     ;BB9E42;464
+src/code_banks/bank_83.asm,4471,other,        dl Text_465_Animal_SeeEllenShesBehindPen                     ;BB9FA4;465
+src/code_banks/bank_83.asm,4491,other,        dl Text_479_Animal_MrGotNoticeFatherThismorning                     ;BBACEC;479
+src/code_banks/bank_83.asm,4513,chicken,        dl Text_48F_Animal_StrangeLookingOrnamentofChickenLooks                     ;BBB958;48f
+src/code_banks/bank_83.asm,4542,feed,        STZ.W !feed_cow_N
+src/code_banks/bank_83.asm,4543,feed,        STZ.W !feed_chicks_N
+src/code_banks/bank_83.asm,4545,cow,        STA.L !cow_N
+src/code_banks/bank_83.asm,4547,chicken,        STA.L !chicks_N
+src/code_banks/bank_83.asm,4558,dog,        STA.L !dog_map
+src/code_banks/bank_83.asm,4599,dog,        STA.L !dog_pos_X
+src/code_banks/bank_83.asm,4601,dog,        STA.L !dog_pos_Y
+src/code_banks/bank_83.asm,4629,dog,        STA.L !dog_hugs
+src/code_banks/bank_83.asm,4654,other,        %Set8bit(!M)                         ;I belive this part sets the child/animal name spaces blank
+src/code_banks/bank_83.asm,4656,dog,        STA.W !dog_name_short_1
+src/code_banks/bank_83.asm,4658,dog,        STA.W !dog_name_short_2
+src/code_banks/bank_83.asm,4660,dog,        STA.W !dog_name_short_3
+src/code_banks/bank_83.asm,4662,dog,        STA.W !dog_name_short_4
+src/code_banks/bank_83.asm,4665,horse,        STA.W !horse_name_short_1
+src/code_banks/bank_83.asm,4667,horse,        STA.W !horse_name_short_2
+src/code_banks/bank_83.asm,4669,horse,        STA.W !horse_name_short_3
+src/code_banks/bank_83.asm,4671,horse,        STA.W !horse_name_short_4
+src/code_banks/bank_83.asm,4674,horse,        STA.W !horse_name_short_1
+src/code_banks/bank_83.asm,4676,horse,        STA.W !horse_name_short_2
+src/code_banks/bank_83.asm,4678,horse,        STA.W !horse_name_short_3
+src/code_banks/bank_83.asm,4680,horse,        STA.W !horse_name_short_4
+src/code_banks/bank_83.asm,4705,dog,        STA.W !dog_name_long_1
+src/code_banks/bank_83.asm,4706,dog,        STA.W !dog_name_long_2
+src/code_banks/bank_83.asm,4707,dog,        STA.W !dog_name_long_3
+src/code_banks/bank_83.asm,4708,dog,        STA.W !dog_name_long_4
+src/code_banks/bank_83.asm,4709,horse,        STA.W !horse_name_long_1
+src/code_banks/bank_83.asm,4710,horse,        STA.W !horse_name_long_2
+src/code_banks/bank_83.asm,4711,horse,        STA.W !horse_name_long_3
+src/code_banks/bank_83.asm,4712,horse,        STA.W !horse_name_long_4
+src/code_banks/bank_83.asm,4847,cow,        STZ.W !fed_cows_N
+src/code_banks/bank_83.asm,4848,chicken,        STZ.W !fed_chicks_N
+src/code_banks/bank_83.asm,4850,cow,        STZ.W !fed_cows_flags
+src/code_banks/bank_83.asm,4851,chicken,        STZ.W !fed_chicks_flags
+src/code_banks/bank_83.asm,5700,feed,        STA.W !feed_cow_N
+src/code_banks/bank_83.asm,5703,feed,        STA.W !feed_chicks_N
+src/code_banks/bank_83.asm,5706,cow,        STA.L !cow_N
+src/code_banks/bank_83.asm,5709,chicken,        STA.L !chicks_N
+src/code_banks/bank_83.asm,5730,dog,        STA.L !dog_map
+src/code_banks/bank_83.asm,5794,dog,        STA.L !dog_pos_X
+src/code_banks/bank_83.asm,5797,dog,        STA.L !dog_pos_Y
+src/code_banks/bank_83.asm,5839,dog,        STA.L !dog_hugs
+src/code_banks/bank_83.asm,5890,dog,        %Set8bit(!M)                         ;name of Dog
+src/code_banks/bank_83.asm,5895,dog,        STA.W !dog_name_short_1
+src/code_banks/bank_83.asm,5897,dog,        STA.W !dog_name_long_1
+src/code_banks/bank_83.asm,5901,dog,        STA.W !dog_name_short_2
+src/code_banks/bank_83.asm,5903,dog,        STA.W !dog_name_long_2
+src/code_banks/bank_83.asm,5907,dog,        STA.W !dog_name_short_3
+src/code_banks/bank_83.asm,5909,dog,        STA.W !dog_name_long_3
+src/code_banks/bank_83.asm,5913,dog,        STA.W !dog_name_short_4
+src/code_banks/bank_83.asm,5915,dog,        STA.W !dog_name_long_4
+src/code_banks/bank_83.asm,5917,horse,        %Set8bit(!M)                         ;name of Horse
+src/code_banks/bank_83.asm,5922,horse,        STA.W !horse_name_short_1
+src/code_banks/bank_83.asm,5924,horse,        STA.W !horse_name_long_1
+src/code_banks/bank_83.asm,5928,horse,        STA.W !horse_name_short_2
+src/code_banks/bank_83.asm,5930,horse,        STA.W !horse_name_long_2
+src/code_banks/bank_83.asm,5934,horse,        STA.W !horse_name_short_3
+src/code_banks/bank_83.asm,5936,horse,        STA.W !horse_name_long_3
+src/code_banks/bank_83.asm,5940,horse,        STA.W !horse_name_short_4
+src/code_banks/bank_83.asm,5942,horse,        STA.W !horse_name_long_4
+src/code_banks/bank_83.asm,6001,chicken,    .chickens:
+src/code_banks/bank_83.asm,6003,chicken,"        STA.L !chicken_array,X"
+src/code_banks/bank_83.asm,6007,chicken,        BNE .chickens
+src/code_banks/bank_83.asm,6012,cow,    .cows:
+src/code_banks/bank_83.asm,6014,cow,"        STA.L !cow_array,X"
+src/code_banks/bank_83.asm,6018,cow,        BNE .cows
+src/code_banks/bank_83.asm,6096,feed,        LDA.W !feed_cow_N
+src/code_banks/bank_83.asm,6099,feed,        LDA.W !feed_chicks_N
+src/code_banks/bank_83.asm,6102,cow,        LDA.L !cow_N
+src/code_banks/bank_83.asm,6105,chicken,        LDA.L !chicks_N
+src/code_banks/bank_83.asm,6126,dog,        LDA.L !dog_map
+src/code_banks/bank_83.asm,6190,dog,        LDA.L !dog_pos_X
+src/code_banks/bank_83.asm,6193,dog,        LDA.L !dog_pos_Y
+src/code_banks/bank_83.asm,6235,dog,        LDA.L !dog_hugs
+src/code_banks/bank_83.asm,6274,dog,        %Set8bit(!M)                         ;Dog Name
+src/code_banks/bank_83.asm,6276,dog,        LDA.W !dog_name_short_1
+src/code_banks/bank_83.asm,6279,dog,        LDA.W !dog_name_short_2
+src/code_banks/bank_83.asm,6282,dog,        LDA.W !dog_name_short_3
+src/code_banks/bank_83.asm,6285,dog,        LDA.W !dog_name_short_4
+src/code_banks/bank_83.asm,6288,horse,        %Set8bit(!M)                         ;Horse Name
+src/code_banks/bank_83.asm,6290,horse,        LDA.W !horse_name_short_1
+src/code_banks/bank_83.asm,6293,horse,        LDA.W !horse_name_short_2
+src/code_banks/bank_83.asm,6296,horse,        LDA.W !horse_name_short_3
+src/code_banks/bank_83.asm,6299,horse,        LDA.W !horse_name_short_4
+src/code_banks/bank_83.asm,6333,chicken,"      - LDA.L !chicken_array,X"
+src/code_banks/bank_83.asm,6340,cow,        %Set8bit(!M)                         ;Cows
+src/code_banks/bank_83.asm,6343,cow,"      - LDA.L !cow_array,X"
+src/code_banks/bank_83.asm,6722,feed,";;;loops animals and checks feed, health and age/pregnancy and stuff like that"
+src/code_banks/bank_83.asm,6723,feed,Livestock_DailyStatusAndFeedingUpdate: ;83BC5A
+src/code_banks/bank_83.asm,6728,feed,        JMP.W .altcowfeed
+src/code_banks/bank_83.asm,6732,cow,    .cowloop:
+src/code_banks/bank_83.asm,6737,cow,        JSL.L GetCowPointer
+src/code_banks/bank_83.asm,6744,cow,        BNE .cowexists
+src/code_banks/bank_83.asm,6745,cow,        JMP.W .skipcow
+src/code_banks/bank_83.asm,6747,cow,    .cowexists:
+src/code_banks/bank_83.asm,6753,cow,        JMP.W .skipcow
+src/code_banks/bank_83.asm,6765,cow,        CMP.B #$27                           ;Barn
+src/code_banks/bank_83.asm,6766,cow,        BNE .notinbarn
+src/code_banks/bank_83.asm,6769,other,        AND.B #$40                           ;Pregnant
+src/code_banks/bank_83.asm,6770,other,        BNE .ispregnant
+src/code_banks/bank_83.asm,6775,feed,"        LDA.L Cow_Feed_Flags,X"
+src/code_banks/bank_83.asm,6776,cow,        AND.W !fed_cows_flags
+src/code_banks/bank_83.asm,6777,cow,        BEQ .cowunfed
+src/code_banks/bank_83.asm,6778,cow,        JMP.W .cowfed
+src/code_banks/bank_83.asm,6780,other,    .ispregnant:
+src/code_banks/bank_83.asm,6782,cow,        LDX.W #$0018                         ;Special pregnant cow slot
+src/code_banks/bank_83.asm,6783,feed,"        LDA.L Cow_Feed_Flags,X"
+src/code_banks/bank_83.asm,6784,cow,        AND.W !fed_cows_flags
+src/code_banks/bank_83.asm,6785,cow,        BEQ .cowunfed
+src/code_banks/bank_83.asm,6786,cow,        JMP.W .cowfed
+src/code_banks/bank_83.asm,6788,cow,    .notinbarn:
+src/code_banks/bank_83.asm,6794,cow,        BCS .cowunfed
+src/code_banks/bank_83.asm,6798,cow,        BEQ .cowunfed
+src/code_banks/bank_83.asm,6802,cow,        BNE .cowunfed
+src/code_banks/bank_83.asm,6812,cow,        JMP.W .cowfed
+src/code_banks/bank_83.asm,6814,cow,    .cowunfed:
+src/code_banks/bank_83.asm,6817,cow,        JSL.L Event_UNKCowRelated_AddCowHappiness
+src/code_banks/bank_83.asm,6820,cow,        BRA .cowgetsick
+src/code_banks/bank_83.asm,6825,cow,        JSL.L Event_UNKCowRelated_AddCowHappiness
+src/code_banks/bank_83.asm,6828,cow,        BRA .cowgetsick
+src/code_banks/bank_83.asm,6833,cow,        JSL.L Event_UNKCowRelated_AddCowHappiness
+src/code_banks/bank_83.asm,6836,cow,        BRA .cowgetsick
+src/code_banks/bank_83.asm,6841,cow,        JSL.L Event_UNKCowRelated_AddCowHappiness                    ;83BD45;84A5D4;
+src/code_banks/bank_83.asm,6844,cow,        BRA .cowgetsick                      ;83BD4E;83BD50;
+src/code_banks/bank_83.asm,6846,cow,    .cowgetsick: ;param in Y
+src/code_banks/bank_83.asm,6850,cow,        BNE .cowfed
+src/code_banks/bank_83.asm,6855,other,        AND.B #$40                           ;pregnant
+src/code_banks/bank_83.asm,6856,cow,        BNE .cowfed
+src/code_banks/bank_83.asm,6858,other,"        LDA.B [$72],Y                        ;TODO, milked today?"
+src/code_banks/bank_83.asm,6860,cow,        BNE .cowfed
+src/code_banks/bank_83.asm,6864,cow,        BNE .cowfed
+src/code_banks/bank_83.asm,6876,cow,        JSL.L Event_UNKCowRelated_AddCowHappiness
+src/code_banks/bank_83.asm,6881,cow,    .cowfed:
+src/code_banks/bank_83.asm,6887,cow,        BEQ .cowgetscranky
+src/code_banks/bank_83.asm,6895,cow,        CMP.B #$27                           ;Barn
+src/code_banks/bank_83.asm,6896,cow,        BEQ .skipcow
+src/code_banks/bank_83.asm,6903,cow,        JSL.L Event_UNKCowRelated_AddCowHappiness
+src/code_banks/bank_83.asm,6904,cow,        BRA .cowgetscranky
+src/code_banks/bank_83.asm,6910,cow,        BEQ .skipcow
+src/code_banks/bank_83.asm,6913,cow,"        LDA.B [$72],Y                        ;Gets back to barn?"
+src/code_banks/bank_83.asm,6915,cow,        BEQ .skipcow
+src/code_banks/bank_83.asm,6917,cow,    .cowgetscranky:
+src/code_banks/bank_83.asm,6922,other,        AND.B #$40                           ;Pregnant
+src/code_banks/bank_83.asm,6923,cow,        BNE .skipcow
+src/code_banks/bank_83.asm,6927,cow,        BNE .skipcow
+src/code_banks/bank_83.asm,6931,cow,        BNE .skipcow
+src/code_banks/bank_83.asm,6945,cow,        JSL.L Event_UNKCowRelated_AddCowHappiness
+src/code_banks/bank_83.asm,6946,cow,        BRA .skipcow
+src/code_banks/bank_83.asm,6954,cow,        BCS .skipcow
+src/code_banks/bank_83.asm,6957,cow,    .skipcow:
+src/code_banks/bank_83.asm,6962,feed,        BEQ .altcowfeed
+src/code_banks/bank_83.asm,6963,cow,        JMP.W .cowloop
+src/code_banks/bank_83.asm,6965,feed,    .altcowfeed:
+src/code_banks/bank_83.asm,6972,cow,    .cowloop2:
+src/code_banks/bank_83.asm,6977,cow,        JSL.L GetCowPointer
+src/code_banks/bank_83.asm,6984,cow,        BNE .cowexists2
+src/code_banks/bank_83.asm,6985,cow,        JMP.W .skipcow2
+src/code_banks/bank_83.asm,6987,cow,    .cowexists2:
+src/code_banks/bank_83.asm,7005,cow,        BEQ .cowborn
+src/code_banks/bank_83.asm,7006,cow,        JMP.W .skipcow2
+src/code_banks/bank_83.asm,7008,cow,    .cowborn:
+src/code_banks/bank_83.asm,7016,cow,        JMP.W .skipcow2
+src/code_banks/bank_83.asm,7032,cow,        JMP.W .skipcow2
+src/code_banks/bank_83.asm,7047,cow,"        ORA.W #$1000                         ;Sets cow ""born"" flag"
+src/code_banks/bank_83.asm,7049,cow,        JMP.W .skipcow2
+src/code_banks/bank_83.asm,7066,cow,        JMP.W .skipcow2
+src/code_banks/bank_83.asm,7073,cow,        JMP.W .skipcow2
+src/code_banks/bank_83.asm,7081,cow,        BEQ .healthycow2
+src/code_banks/bank_83.asm,7088,cow,        JMP.W .skipcow2                    ;83BF3F;83C01A;
+src/code_banks/bank_83.asm,7096,cow,        JMP.W .skipcow2
+src/code_banks/bank_83.asm,7102,cow,        BCC .cowdied
+src/code_banks/bank_83.asm,7103,cow,        JMP.W .skipcow2
+src/code_banks/bank_83.asm,7105,cow,    .cowdied:
+src/code_banks/bank_83.asm,7108,cow,        LDA.B #$00                           ;No cow
+src/code_banks/bank_83.asm,7111,cow,        LDA.L !cow_N
+src/code_banks/bank_83.asm,7112,cow,        DEC A                                ;one less cow
+src/code_banks/bank_83.asm,7113,cow,        STA.L !cow_N
+src/code_banks/bank_83.asm,7116,cow,        ORA.W #$0040                         ;Cow Funeral flag
+src/code_banks/bank_83.asm,7123,cow,        JMP.W .skipcow2
+src/code_banks/bank_83.asm,7125,cow,    .healthycow2:
+src/code_banks/bank_83.asm,7135,other,        ORA.B #$40                           ;Sets Pregnant?
+src/code_banks/bank_83.asm,7141,cow,        BRA .skipcow2
+src/code_banks/bank_83.asm,7148,other,        AND.B #$40                           ;Pregnant?
+src/code_banks/bank_83.asm,7149,cow,        BEQ .skipcow2
+src/code_banks/bank_83.asm,7152,cow,        BEQ .cowbirth2
+src/code_banks/bank_83.asm,7158,cow,        BNE .skipcow2
+src/code_banks/bank_83.asm,7160,cow,    .cowbirth2:
+src/code_banks/bank_83.asm,7163,cow,        CMP.B #$27                           ;Barn
+src/code_banks/bank_83.asm,7164,cow,        BNE .skipcow2
+src/code_banks/bank_83.asm,7167,cow,        ORA.W #$0008                         ;TODO Cow Pregnat?
+src/code_banks/bank_83.asm,7173,other,        AND.B #$BF                           ;Not Pregnant
+src/code_banks/bank_83.asm,7176,cow,        LDA.B #20                            ;TODO Starting cow Happiness?
+src/code_banks/bank_83.asm,7181,cow,        BCC .nextcow2
+src/code_banks/bank_83.asm,7183,cow,        BCC .lesscowhappyness
+src/code_banks/bank_83.asm,7186,cow,        STA.L $7F1F2B                        ;TODO Starting cow Happiness?
+src/code_banks/bank_83.asm,7187,cow,        BRA .nextcow2
+src/code_banks/bank_83.asm,7189,cow,    .lesscowhappyness:
+src/code_banks/bank_83.asm,7192,cow,        STA.L $7F1F2B                        ;TODO Starting cow Happiness?
+src/code_banks/bank_83.asm,7193,cow,        BRA .nextcow2
+src/code_banks/bank_83.asm,7195,cow,    .nextcow2:
+src/code_banks/bank_83.asm,7196,cow,        BRA .skipcow2
+src/code_banks/bank_83.asm,7198,cow,    .skipcow2:
+src/code_banks/bank_83.asm,7204,cow,        JMP.W .cowloop2                    ;83C023;83BE5B;
+src/code_banks/bank_83.asm,7223,chicken,                       JSL.L GetChickenPointer          ;83C049;83C995;
+src/code_banks/bank_83.asm,7243,chicken,                       LDA.L !chicks_N                        ;83C072;7F1F0B;
+src/code_banks/bank_83.asm,7245,chicken,                       STA.L !chicks_N                        ;83C077;7F1F0B;
+src/code_banks/bank_83.asm,7264,chicken,                       LDA.W !fed_chicks_N                          ;83C09F;000931;
+src/code_banks/bank_83.asm,7267,chicken,                       STA.W !fed_chicks_N                          ;83C0A5;000931;
+src/code_banks/bank_83.asm,7337,chicken,                       JSL.L GetChickenPointer          ;83C12F;83C995;
+src/code_banks/bank_83.asm,7365,chicken,                       LDA.L !chicks_N                        ;83C165;7F1F0B;
+src/code_banks/bank_83.asm,7384,chicken,                       LDA.L !chicks_N                        ;83C193;7F1F0B;
+src/code_banks/bank_83.asm,7386,chicken,                       STA.L !chicks_N                        ;83C198;7F1F0B;
+src/code_banks/bank_83.asm,7439,chicken,                       JSL.L GetChickenPointer          ;83C204;83C995;
+src/code_banks/bank_83.asm,7469,chicken,"                       LDA.L Chicken_EggLaidBitmaskTable,X                 ;83C23D;83CA78;"
+src/code_banks/bank_83.asm,7513,other,Livestock_SpawnVisibleAnimalObjects:
+src/code_banks/bank_83.asm,7522,chicken,            JSL.L GetChickenPointer
+src/code_banks/bank_83.asm,7739,cow,            JSL.L GetCowPointer
+src/code_banks/bank_83.asm,7776,cow,"            LDA.L Cow_BarnSpawnPositionTable,X"
+src/code_banks/bank_83.asm,7781,cow,"            LDA.L Cow_BarnSpawnPositionTable,X"
+src/code_banks/bank_83.asm,8079,dog,        LDA.L !dog_map
+src/code_banks/bank_83.asm,8092,dog,        LDA.L !dog_map
+src/code_banks/bank_83.asm,8110,dog,        LDA.L !dog_map
+src/code_banks/bank_83.asm,8128,dog,        LDA.L !dog_map
+src/code_banks/bank_83.asm,8146,dog,        LDA.L !dog_map
+src/code_banks/bank_83.asm,8164,dog,        LDA.L !dog_map
+src/code_banks/bank_83.asm,8177,dog,        LDA.L !dog_map
+src/code_banks/bank_83.asm,8184,dog,        LDA.L !dog_pos_X
+src/code_banks/bank_83.asm,8186,dog,        LDA.L !dog_pos_Y
+src/code_banks/bank_83.asm,8323,chicken,";;;;;;;; Param in A = 0: hatched; Return in A, 0 = sucess, 1 = coop full"
+src/code_banks/bank_83.asm,8324,chicken,AddNewChicken: ;83C807
+src/code_banks/bank_83.asm,8325,chicken,        !chicken_pointer = $72
+src/code_banks/bank_83.asm,8326,chicken,        !chicken_source = $7E
+src/code_banks/bank_83.asm,8329,chicken,        STA.B !chicken_source
+src/code_banks/bank_83.asm,8336,chicken,        JSL.L GetChickenPointer
+src/code_banks/bank_83.asm,8341,chicken,"        LDA.B [!chicken_pointer],Y"
+src/code_banks/bank_83.asm,8362,chicken,"        STA.B [!chicken_pointer],Y"
+src/code_banks/bank_83.asm,8370,chicken,"        STA.B [!chicken_pointer],Y"
+src/code_banks/bank_83.asm,8373,chicken,"        STA.B [!chicken_pointer],Y"
+src/code_banks/bank_83.asm,8375,chicken,        LDA.B !chicken_source
+src/code_banks/bank_83.asm,8383,chicken,"        STA.B [!chicken_pointer],Y"
+src/code_banks/bank_83.asm,8387,chicken,"        STA.B [!chicken_pointer],Y           ;Spawn Position X"
+src/code_banks/bank_83.asm,8390,chicken,"        STA.B [!chicken_pointer],Y           ;Spawn Position Y"
+src/code_banks/bank_83.asm,8391,chicken,        BRA .newChickenSuccess
+src/code_banks/bank_83.asm,8397,chicken,"        STA.B [!chicken_pointer],Y"
+src/code_banks/bank_83.asm,8404,chicken,"        STA.B [!chicken_pointer],Y"
+src/code_banks/bank_83.asm,8409,chicken,"        STA.B [!chicken_pointer],Y"
+src/code_banks/bank_83.asm,8413,chicken,"        STA.B [!chicken_pointer],Y           ;Spawn Position X"
+src/code_banks/bank_83.asm,8416,chicken,"        STA.B [!chicken_pointer],Y           ;Spawn Position Y"
+src/code_banks/bank_83.asm,8417,chicken,        BRA .newChickenSuccess
+src/code_banks/bank_83.asm,8426,chicken,"        LDA.L Chicken_CoopSpawnPositionTable,X"
+src/code_banks/bank_83.asm,8427,chicken,"        STA.B [!chicken_pointer],Y"
+src/code_banks/bank_83.asm,8431,chicken,"        LDA.L Chicken_CoopSpawnPositionTable,X"
+src/code_banks/bank_83.asm,8432,chicken,"        STA.B [!chicken_pointer],Y"
+src/code_banks/bank_83.asm,8434,chicken,    .newChickenSuccess:
+src/code_banks/bank_83.asm,8446,cow,";;;;;;;; Param in A, 0:Bought, 1:Born; Return in A, 0:sucess, 1:barn full"
+src/code_banks/bank_83.asm,8447,cow,AddNewCow: ;83C8DC
+src/code_banks/bank_83.asm,8448,cow,        !cow_pointer = $72
+src/code_banks/bank_83.asm,8449,cow,        !cow_source = $7E
+src/code_banks/bank_83.asm,8452,cow,        STA.B !cow_source
+src/code_banks/bank_83.asm,8459,cow,        JSL.L GetCowPointer
+src/code_banks/bank_83.asm,8464,cow,"        LDA.B [!cow_pointer],Y"
+src/code_banks/bank_83.asm,8484,cow,"        STA.B [!cow_pointer],Y"
+src/code_banks/bank_83.asm,8492,cow,"        STA.B [!cow_pointer],Y"
+src/code_banks/bank_83.asm,8495,cow,"        STA.B [!cow_pointer],Y               ;Pregnancy"
+src/code_banks/bank_83.asm,8498,cow,"        STA.B [!cow_pointer],Y               ;Happiness"
+src/code_banks/bank_83.asm,8501,cow,"        STA.B [!cow_pointer],Y"
+src/code_banks/bank_83.asm,8505,cow,"        STA.B [!cow_pointer],Y"
+src/code_banks/bank_83.asm,8508,cow,"        LDA.B #$05                           ;Child Cow, exists"
+src/code_banks/bank_83.asm,8509,cow,"        STA.B [!cow_pointer],Y               ;Cow Status"
+src/code_banks/bank_83.asm,8512,cow,        LDA.B !cow_source
+src/code_banks/bank_83.asm,8517,cow,        LDA.B #$03                           ;Baby Cow
+src/code_banks/bank_83.asm,8518,cow,"        STA.B [!cow_pointer],Y               ;Cow Status"
+src/code_banks/bank_83.asm,8522,cow,"        STA.B [!cow_pointer],Y               ;Happiness"
+src/code_banks/bank_83.asm,8535,cow,"        LDA.L Cow_BarnSpawnPositionTable,X"
+src/code_banks/bank_83.asm,8536,cow,"        STA.B [!cow_pointer],Y               ;Barn Position X"
+src/code_banks/bank_83.asm,8540,cow,"        LDA.L Cow_BarnSpawnPositionTable,X"
+src/code_banks/bank_83.asm,8541,cow,"        STA.B [!cow_pointer],Y               ;Barn Position Y"
+src/code_banks/bank_83.asm,8553,chicken,;;;;;;;; a chicken slot in A. Each chiken slot is size 8 bits
+src/code_banks/bank_83.asm,8555,chicken,GetChickenPointer: ;83C995
+src/code_banks/bank_83.asm,8561,chicken,        ADC.W #$C286                         ;pointer to chicken data
+src/code_banks/bank_83.asm,8569,cow,;;;;;;;; a cow slot in A. Each cow slots is size 16 bits
+src/code_banks/bank_83.asm,8571,cow,GetCowPointer: ;83C9A7
+src/code_banks/bank_83.asm,8578,cow,        ADC.W #$C1C6                         ;pointer to cow data
+src/code_banks/bank_83.asm,8587,chicken,";;;;;;;; if the barn or coop are filled, code very... ""beta"""
+src/code_banks/bank_83.asm,8588,chicken,UnusedBarnCoopCheck: ;83C9BA
+src/code_banks/bank_83.asm,8592,chicken,    .coopcheck: ;83C9C0
+src/code_banks/bank_83.asm,8597,chicken,        JSL.L GetChickenPointer
+src/code_banks/bank_83.asm,8612,chicken,        BNE .coopcheck
+src/code_banks/bank_83.asm,8620,cow,    .barncheck:
+src/code_banks/bank_83.asm,8625,cow,        JSL.L GetCowPointer
+src/code_banks/bank_83.asm,8640,cow,        BNE .barncheck
+src/code_banks/bank_83.asm,8646,chicken,"Chicken_CoopSpawnPositionTable: dw $0018,$0048,$0038,$0058,$0048,$0098,$0058,$0078;83CA10;      ;"
+src/code_banks/bank_83.asm,8651,cow,"   Cow_BarnSpawnPositionTable: dw $00A8,$0116,$00A8,$00F6,$00A8,$00D6,$00A8,$0096;83CA44;      ;"
+src/code_banks/bank_83.asm,8655,chicken,"         Chicken_EggLaidBitmaskTable: db $01,$00,$02,$00,$04,$00,$08,$00,$10,$00,$20,$00,$40,$00,$80,$00;83CA78;      ;"
+src/code_banks/bank_83.asm,9057,dog,                       STA.L !dog_pos_X                        ;83CEFC;7F1F2C;
+src/code_banks/bank_83.asm,9059,dog,                       STA.L !dog_pos_Y                        ;83CF03;7F1F2E;
+src/code_banks/bank_83.asm,9062,dog,                       STA.L !dog_map                        ;83CF0B;7F1F30;
+src/code_banks/bank_83.asm,9410,chicken,                       LDA.L !chicks_N                        ;83D265;7F1F0B;
+src/code_banks/bank_83.asm,11070,cow,                       JSL.L GetCowPointer                ;83E0FD;83C9A7;
+src/code_banks/bank_83.asm,11519,dog,                       STA.L !dog_map                        ;83E516;7F1F30;
+src/code_banks/bank_83.asm,11522,dog,                       STA.L !dog_pos_X                        ;83E51F;7F1F2C;
+src/code_banks/bank_83.asm,11524,dog,                       STA.L !dog_pos_Y                        ;83E526;7F1F2E;
+src/code_banks/bank_83.asm,12349,cow,                       LDA.L !cow_N                        ;83ED34;7F1F0A;
+src/code_banks/bank_83.asm,12352,chicken,                       LDA.L !chicks_N                        ;83ED3C;7F1F0B;
+src/code_banks/bank_83.asm,12371,cow,                       LDA.L !cow_N                        ;83ED6B;7F1F0A;
+src/code_banks/bank_83.asm,12387,cow,                       LDA.L !cow_N                        ;83ED8F;7F1F0A;
+src/code_banks/bank_83.asm,12404,chicken,                       LDA.L !chicks_N                        ;83EDB5;7F1F0B;
+src/code_banks/bank_83.asm,12712,cow,                       LDA.L !cow_N                        ;83F08B;7F1F0A;
+src/code_banks/bank_83.asm,12714,chicken,                       LDA.L !chicks_N                        ;83F091;7F1F0B;
+src/code_banks/bank_83.asm,12728,dog,                       LDA.L !dog_hugs                        ;83F0B5;7F1F52;
+src/code_banks/bank_83.asm,12940,cow,        LDA.L !cow_N
+src/code_banks/bank_83.asm,12943,cow,        ADC.L !cow_N                         ;Number of cows * 3
+src/code_banks/bank_83.asm,12950,chicken,        LDA.L !chicks_N
+src/code_banks/bank_83.asm,12953,chicken,        ADC.L !chicks_N                      ;chinks * 3 too
+src/code_banks/bank_83.asm,13144,cow,      - %Set16bit(!MX)                       ;Cow Happiness Loop
+src/code_banks/bank_83.asm,13147,cow,        JSL.L GetCowPointer
+src/code_banks/bank_83.asm,13152,cow,        AND.B #$01                           ;cow exists
+src/code_banks/bank_83.asm,13154,cow,        LDY.W #$0004                         ;cow happiness var
+src/code_banks/bank_83.asm,13227,cow,    .cowloop:
+src/code_banks/bank_83.asm,13231,cow,        JSL.L GetCowPointer                ;83F51E;83C9A7;
+src/code_banks/bank_83.asm,13276,cow,        BNE .cowloop                      ;83F57A;83F51A;
+src/code_banks/bank_84.asm,2345,horse,        CMP.W #$000D                         ;whistle horse
+src/code_banks/bank_84.asm,2352,dog,        CMP.W #$001B                         ;whistle dog
+src/code_banks/bank_84.asm,3377,chicken,Event_UNKChickenRelated: ;849857
+src/code_banks/bank_84.asm,3394,chicken,        JSL.L GetChickenPointer
+src/code_banks/bank_84.asm,3710,cow,Event_UNKCowRelated: ;849AD4
+src/code_banks/bank_84.asm,3727,cow,        JSL.L GetCowPointer
+src/code_banks/bank_84.asm,3741,cow,        BNE .inthebarn
+src/code_banks/bank_84.asm,3747,cow,        BNE .inthebarn
+src/code_banks/bank_84.asm,3750,cow,    .inthebarn:
+src/code_banks/bank_84.asm,3945,cow,        JSL.L .AddCowHappiness
+src/code_banks/bank_84.asm,4195,cow,        LDA.L !cow_N
+src/code_banks/bank_84.asm,4216,cow,        JSL.L .AddCowHappiness
+src/code_banks/bank_84.asm,4223,cow,        LDA.L !cow_N
+src/code_banks/bank_84.asm,4225,cow,        STA.L !cow_N
+src/code_banks/bank_84.asm,4244,cow,        JSL.L .AddCowHappiness
+src/code_banks/bank_84.asm,5181,cow,"        LDA.L Cow_BarnSpawnPositionTable,X           ;84A583;83CA44;"
+src/code_banks/bank_84.asm,5184,cow,"        LDA.L Cow_BarnSpawnPositionTable,X           ;84A58C;83CA44;"
+src/code_banks/bank_84.asm,5216,cow,        ;;;;;;;; $72 comes pre packed with the cow's pointer. A is ammount to change
+src/code_banks/bank_84.asm,5217,cow,    .AddCowHappiness:
+src/code_banks/bank_84.asm,5223,cow,"        LDA.B [$72],Y                        ;cow pointer loaded"
+src/code_banks/bank_84.asm,6482,dog,Event_UNKDogRelated: ;84AF06
+src/code_banks/bank_84.asm,6492,dog,        STA.L !dog_pos_X                        ;84AF19;7F1F2C;
+src/code_banks/bank_84.asm,6496,dog,        STA.L !dog_pos_Y                        ;84AF24;7F1F2E;
+src/code_banks/bank_84.asm,6601,dog,        LDA.L !dog_hugs                        ;84AFE8;7F1F52;
+src/code_banks/bank_84.asm,6603,dog,        STA.L !dog_hugs                        ;84AFED;7F1F52;
+src/code_banks/bank_84.asm,8241,chicken,Event_UNKChickenRelated2: ;84BBDA
+src/code_banks/bank_84.asm,8273,chicken,        JSL.L GetChickenPointer
+src/code_banks/bank_84.asm,8321,dog,        STA.L !dog_map
+src/code_banks/bank_84.asm,8324,dog,        STA.L !dog_pos_X
+src/code_banks/bank_84.asm,8326,dog,        STA.L !dog_pos_Y
+src/code_banks/bank_84.asm,8368,chicken,                       JSL.L GetChickenPointer          ;84BCD4;83C995;
+src/code_banks/bank_84.asm,8411,dog,                       STA.L !dog_map                        ;84BD2D;7F1F30;
+src/code_banks/bank_84.asm,8414,dog,                       STA.L !dog_pos_X                        ;84BD36;7F1F2C;
+src/code_banks/bank_84.asm,8416,dog,                       STA.L !dog_pos_Y                        ;84BD3D;7F1F2E;
+src/code_banks/bank_84.asm,10209,dog,      AND.W #$0010                           ;Carring item or dog
+src/code_banks/bank_84.asm,10360,dog,                       STA.L !dog_pos_X                        ;84CBF4;7F1F2C;
+src/code_banks/bank_84.asm,10362,dog,                       STA.L !dog_pos_Y                        ;84CBFB;7F1F2E;
+src/code_banks/bank_84.asm,10365,dog,                       STA.L !dog_map                        ;84CC03;7F1F30;
+src/code_banks/bank_84.asm,10654,horse,      AND.W #$0100                           ;Horse Owned
+src/code_banks/bank_84.asm,10658,horse,      LDA.W #$000D                           ;Horse Whistled
+src/code_banks/bank_84.asm,10685,dog,      AND.W #$0080                           ;Dog owned
+src/code_banks/bank_84.asm,10689,dog,      LDA.W #$001B                           ;Dog Whistled
+src/constants/constants.asm,64,chicken,!item_egg = #$14
+src/constants/constants.asm,70,cow,!map_barn = #$27
+src/constants/constants.asm,71,chicken,!map_coop = #$28
+src/constants/ram.asm,32,dog,;d??? s?hm - d: carrying dog m: Can Move; h: holding item; s: no stamina; x:
+src/constants/ram.asm,213,feed,";00:nothing, 01:sickle, 02:hoe, 03:hammer, 04:axe, 05:yellow seed, 06:red seed, 07:brown seed, 08:white seed, 09:cow medicine, 0A:miracle potion, 0B:bell, 0C:grass seed, 0D:paint, 0E:milker, 0F:brush, 10:watering, 11:gold sickle, 12:gold hoe, 13:gold hammer, 14:gold axe, 15:sprinkler, 16:bean, 17:gem, 18:blue feather, 19:chicken feed, 1A:cow feed"
+src/constants/ram.asm,218,horse,";1 walk, 2 run, 3 jump, 4 item on hand, 05 Drop Item 09 idle animation, 0A Using Tool, 0B Tired, 0C Show Tool, 0D whistle Horse, 0F about to cast, 10 casting, 11 fishing, 12 fishing with bite, 13 reeling, 14 drunk, 15 drinking, 16, Dropping Dog 1B Whistle Dog, 1C Use Tool"
+src/constants/ram.asm,267,feed,!feed_cow_N = $092C ;8b
+src/constants/ram.asm,268,feed,!feed_chicks_N = $092D ;8b
+src/constants/ram.asm,271,cow,!fed_cows_N = $0930 ;8b
+src/constants/ram.asm,272,chicken,!fed_chicks_N = $0931 ;8b
+src/constants/ram.asm,273,cow,!fed_cows_flags = $0932 ;16b what stalls have food
+src/constants/ram.asm,274,chicken,!fed_chicks_flags = $0934 ;16b what stalls have food
+src/constants/ram.asm,277,cow,!cow_N = $7F1F0A ;8b
+src/constants/ram.asm,278,chicken,!chicks_N = $7F1F0B ;8b
+src/constants/ram.asm,284,chicken,";00:Sunny, 01:Rain, 02 Snow, 03:hurricane, 04:fair, 05:sunny and calm, 06:flower festival, 07:harvest festival, 08:Thanksgiving Festival, 09:Star Night Festival, 0A:festive mood, 0B:annual egg festival, 0C:snow"
+src/constants/ram.asm,287,dog,!dog_map = $7F1F30 ;8b
+src/constants/ram.asm,288,dog,!dog_pos_X = $7F1F2C ;16b
+src/constants/ram.asm,289,dog,!dog_pos_Y = $7F1F2E ;16b
+src/constants/ram.asm,290,dog,!dog_hugs = $7F1F52 ;16b
+src/constants/ram.asm,291,dog,!dog_name_short_1 = $0899 ;8b
+src/constants/ram.asm,292,dog,!dog_name_short_2 = $089A ;8b
+src/constants/ram.asm,293,dog,!dog_name_short_3 = $089B ;8b
+src/constants/ram.asm,294,dog,!dog_name_short_4 = $089C ;8b
+src/constants/ram.asm,295,dog,!dog_name_long_1 = $08DD ;16b
+src/constants/ram.asm,296,dog,!dog_name_long_2 = $08DF ;16b
+src/constants/ram.asm,297,dog,!dog_name_long_3 = $08E1 ;16b
+src/constants/ram.asm,298,dog,!dog_name_long_4 = $08E3 ;16b
+src/constants/ram.asm,299,horse,!horse_name_short_1 = $089D ;8b
+src/constants/ram.asm,300,horse,!horse_name_short_2 = $089E ;8b
+src/constants/ram.asm,301,horse,!horse_name_short_3 = $089F ;8b
+src/constants/ram.asm,302,horse,!horse_name_short_4 = $08A0 ;8b
+src/constants/ram.asm,308,horse,!horse_name_long_1 = $08E5 ;16b
+src/constants/ram.asm,309,horse,!horse_name_long_2 = $08E7 ;16b
+src/constants/ram.asm,310,horse,!horse_name_long_3 = $08E9 ;16b
+src/constants/ram.asm,311,horse,!horse_name_long_4 = $08EB ;16b
+src/constants/ram.asm,332,cow,; i = milker
+src/constants/ram.asm,337,cow,; c = cow Medicine
+src/constants/ram.asm,349,cow,;;COW DATA
+src/constants/ram.asm,350,cow,!cow_array = $7EC1C6
+src/constants/ram.asm,351,cow,;cow data structure
+src/constants/ram.asm,352,cow,; x6	- Cow 1 Status; -psc aaae
+src/constants/ram.asm,353,other,";   p=pregnant,s=sick,c=cranky,a=age(001=baby,010=child,100=adult),e=exists"
+src/constants/ram.asm,356,cow,; x9 - Cow 1 Pregnancy/Age/Crankyness/Sickness
+src/constants/ram.asm,357,cow,; xA - Cow 1 Happiness
+src/constants/ram.asm,366,cow,;$7EC1C6	- Cow 01
+src/constants/ram.asm,367,cow,;$7EC1D6	- Cow 02
+src/constants/ram.asm,368,cow,;$7EC1E6	- Cow 03
+src/constants/ram.asm,369,cow,;$7EC1F6	- Cow 04
+src/constants/ram.asm,370,cow,;$7EC206	- Cow 05
+src/constants/ram.asm,371,cow,;$7EC216	- Cow 06
+src/constants/ram.asm,372,cow,;$7EC226	- Cow 07
+src/constants/ram.asm,373,cow,;$7EC236	- Cow 08
+src/constants/ram.asm,374,cow,;$7EC246	- Cow 09
+src/constants/ram.asm,375,cow,;$7EC256	- Cow 10
+src/constants/ram.asm,376,cow,;$7EC266	- Cow 11
+src/constants/ram.asm,377,cow,;$7EC276	- Cow 12
+src/constants/ram.asm,379,chicken,;;Chicken data
+src/constants/ram.asm,380,chicken,!chicken_array = $7EC286
+src/constants/ram.asm,382,chicken,"; ?1?? aaax - a=age(001=egg,010=child,100=adult),e=exists"
+src/constants/ram.asm,389,chicken,;$7EC286 - Chicken 01
+src/constants/ram.asm,390,chicken,;$7EC28E - Chicken 02
+src/constants/ram.asm,391,chicken,;$7EC296 - Chicken 03
+src/constants/ram.asm,392,chicken,;$7EC29E - Chicken 04
+src/constants/ram.asm,393,chicken,;$7EC2A6 - Chicken 05
+src/constants/ram.asm,394,chicken,;$7EC2AE - Chicken 06
+src/constants/ram.asm,395,chicken,;$7EC2B6 - Chicken 07
+src/constants/ram.asm,396,chicken,;$7EC2BE - Chicken 08
+src/constants/ram.asm,397,chicken,;$7EC2C6 - Chicken 09
+src/constants/ram.asm,398,chicken,;$7EC2CE - Chicken 10
+src/constants/ram.asm,399,chicken,;$7EC2E6 - Chicken 11
+src/constants/ram.asm,400,chicken,;$7EC2EE - Chicken 12
+src/data_banks/bank_B6.asm,292,cow,"        Text_Manual_Milker: dw $0038,$0026,$0008,$000B,$000A,$0004,$0011,$0038;B69006;      ;"
+src/data_banks/bank_B6.asm,556,cow,"        Text_Cow_Talk: dw $0032,$0004,$0012,$003A,$FFFD,$0004,$0003,$003A;B69E36;      ;"
+src/data_banks/bank_B6.asm,563,cow,"        Text_Cow_Talk_Cranky: dw $FFFD,$0004,$0004,$00B1,$000B,$000E,$000E,$000A;B69E96;      ;"
+src/data_banks/bank_B6.asm,567,cow,"        Text_Cow_Talk_Sick: dw $FFFD,$0004,$0005,$00B1,$0008,$0012,$00B1,$0012;B69EBA;      ;"
+src/data_banks/bank_B6.asm,578,cow,"        Text_Cow_Talk_Pregnant: dw $FFFC,$0002,$0007,$00B1,$000C,$000E,$0011,$0004;B69F52;      ;"
+src/data_banks/bank_B6.asm,607,other,"        Text_036_Animal_AskFloristFlowersAskLivestock: dw $001A,$0012,$000A,$00B1,$0013,$0007,$0004,$00B1;B6A0CE;      ;"
+src/data_banks/bank_B6.asm,655,other,"        Text_03A_Animal_EverybodyHasDifferentIdeasHappiness: dw $001E,$0015,$0004,$0011,$0018,$0001,$000E,$0003;B6A364;      ;"
+src/data_banks/bank_B6.asm,772,other,"        Text_041_Animal_HowsWorkGoingSomeWild: dw $0021,$0008,$003A,$00B1,$0007,$000E,$0016,$0034;B6AA16;      ;"
+src/data_banks/bank_B6.asm,960,other,"        Text_050_Animal_EatSomethingTiredCakesBest: dw $001E,$0000,$0013,$00B1,$0012,$000E,$000C,$0004;B6B470;      ;"
+src/data_banks/bank_B6.asm,978,dog,"        Text_052_Animal_HicWorkingLikeDogOnly: dw $0036,$0036,$0036,$0007,$0008,$0002,$003A,$0016;B6B55C;      ;"
+src/data_banks/bank_B6.asm,1049,other,"        Text_058_Animal_FeltTimeWentSlowlyWas: dw $0022,$00B1,$0005,$0004,$000B,$0013,$00B1,$0013;B6B932;      ;"
+src/data_banks/bank_B6.asm,1067,other,"        Text_059_Animal_HaveSympathyPeopleKindPeople: dw $0021,$0000,$0015,$0004,$00B1,$0012,$0018,$000C;B6BA38;      ;"
+src/data_banks/bank_B6.asm,1110,cow,"        Text_05C_Animal_ToughTakeCareCowsTake: dw $0022,$0013,$0034,$0012,$00B1,$0013,$000E,$0014;B6BCA6;      ;"
+src/data_banks/bank_B6.asm,1132,chicken,"        Text_05D_Animal_HensLayEggsPutCage: dw $0021,$0004,$0018,$003A,$0003,$000E,$00B1,$0018;B6BDEC;      ;"
+src/data_banks/bank_B6.asm,1164,cow,"        Text_05F_Animal_KnowCowsGiveMoreMilk: dw $0032,$000E,$0014,$00B1,$000A,$000D,$000E,$0016;B6BFBE;      ;"
+src/data_banks/bank_B6.asm,1368,other,"        Text_06F_Animal_UseToolLoseStaminaBut: dw $0032,$000E,$0014,$00B1,$0002,$0000,$000D,$0034;B6CB22;      ;"
+src/data_banks/bank_B6.asm,1386,other,"        Text_071_Shipping_ThingsShipFlowersAnimalsPerishables: dw $002D,$0007,$0008,$000D,$0006,$0012,$00B1,$0018;B6CC1A;      ;"
+src/data_banks/bank_B6.asm,1514,other,"        Text_07A_Sign_LiveMountainsHuntingAnimalsEve: dw $0022,$00B1,$000B,$0008,$0015,$0004,$00B1,$0008;B6D358;      ;"
+src/data_banks/bank_B6.asm,1702,other,"        Text_090_Animal_ThenPray: dw $0027,$000E,$0037,$00B1,$0013,$0007,$0004,$000D;B6DD2E;      ;"
+src/data_banks/bank_B6.asm,1856,other,"        Text_0A1_Animal_LooksColdOutsideTurnsWhite: dw $0022,$0013,$00B1,$000B,$000E,$000E,$000A,$0012;B6E54A;      ;"
+src/data_banks/bank_B6.asm,1946,other,"        Text_0AB_Animal_LookAutomaticPuddingMakerPut: dw $0021,$0004,$000B,$000B,$000E,$0035,$00B1,$0021;B6EA14;      ;"
+src/data_banks/bank_B6.asm,1991,other,"        Text_0AE_Animal_LoveSpringAllFlowersStart: dw $0022,$00B1,$000B,$000E,$0015,$0004,$00B1,$002C;B6ECA2;      ;"
+src/data_banks/bank_B6.asm,2138,other,"        Text_0BD_Dialog_HumanAnimalsPlantsAllAlive: dw $0021,$0014,$000C,$0000,$000D,$003A,$0000,$000D;B6F462;      ;"
+src/data_banks/bank_B6.asm,2167,other,"        Text_0C1_Animal_FlowersEdibleUsedMedicinalPurposes: dw $001F,$000B,$000E,$0016,$0004,$0011,$0012,$00B1;B6F5D6;      ;"
+src/data_banks/bank_B6.asm,2268,other,"        Text_0CB_Romance_LikeAnimalsLoveLikeC: dw $0021,$0004,$0018,$003A,$0003,$000E,$00B1,$0018;B6FB4A;      ;"
+src/data_banks/bank_B6.asm,2279,other,"        Text_0CC_Romance_LoveAnimalsToo: dw $0032,$0004,$0012,$0037,$00B1,$0022,$00B1,$000B;B6FBDC;      ;"
+src/data_banks/bank_B6.asm,2284,other,"        Text_0CD_Town_LyingAnimalsTakePeopleWho: dw $0032,$000E,$0014,$00B1,$0000,$0011,$0004,$00B1;B6FC0E;      ;"
+src/data_banks/bank_B6.asm,2294,dog,"        Text_0CE_Animal_EiBarkWildDogswhenCome: dw $FFFD,$0004,$0008,$00B1,$0016,$000E,$0014,$000B;B6FC94;      ;"
+src/data_banks/bank_B6.asm,2305,other,"        Text_0CF_Dialog_HardLookAfterAnimalsAlways: dw $0022,$0013,$0034,$0012,$00B1,$0007,$0000,$0011;B6FD32;      ;"
+src/data_banks/bank_B7.asm,64,other,"        Text_0D8_Animal_TasteMyNewCakeBaked: dw $0030,$0008,$000B,$000B,$00B1,$0018,$000E,$0014;B78322;      ;"
+src/data_banks/bank_B7.asm,240,other,"        Text_0ED_Animal_WasntColdOutsideColdBetter: dw $0030,$0000,$0012,$000D,$0034,$0013,$00B1,$0008;B78C28;      ;"
+src/data_banks/bank_B7.asm,410,other,"        Text_0F6_Animal_GrandfatherHelpedMeThoseDays: dw $0032,$000E,$0014,$0011,$00B1,$0006,$0011,$0000;B795F8;      ;"
+src/data_banks/bank_B7.asm,708,other,"        Text_10C_Animal_SonHaveHaveMeadowBuy: dw $0021,$0004,$0018,$003A,$0012,$000E,$000D,$0035;B7A698;      ;"
+src/data_banks/bank_B7.asm,739,other,"        Text_10D_Animal_FirstMustHavePlentyGrass: dw $001F,$0008,$0011,$0012,$0013,$003A,$0018,$000E;B7A878;      ;"
+src/data_banks/bank_B7.asm,755,cow,"        Text_10E_Manual_HowdyPutThoseCowsPen: dw $0021,$000E,$0016,$0003,$0018,$0035,$00B1,$0022;B7A960;      ;"
+src/data_banks/bank_B7.asm,806,other,"        Text_111_Animal_HohohoMisterKnowBeginFirst: dw $0021,$000E,$0007,$000E,$0007,$000E,$0036,$0036;B7AC52;      ;"
+src/data_banks/bank_B7.asm,836,other,"        Text_112_Animal_OverextendYourselfTiredGoBed: dw $001D,$000E,$000D,$0034,$0013,$00B1,$000E,$0015;B7AE14;      ;"
+src/data_banks/bank_B7.asm,932,other,"        Text_119_Animal_LetMeKnowGoHome: dw $0028,$0024,$0036,$0025,$0004,$0013,$00B1,$000C;B7B376;      ;"
+src/data_banks/bank_B7.asm,1053,other,"        Text_125_Animal_PuffPuffRunSuddenlyMr: dw $0029,$0014,$0005,$0005,$003E,$000F,$0014,$0005;B7B9E2;      ;"
+src/data_banks/bank_B7.asm,1112,other,"        Text_128_Animal_CarpentersComeUsWantEnlarge: dw $0030,$0004,$00B1,$0000,$0011,$0004,$00B1,$0002;B7BD58;      ;"
+src/data_banks/bank_B7.asm,1231,other,"        Text_132_Animal_LetMeKnowWheneverWant: dw $0025,$0004,$0013,$00B1,$000C,$0004,$00B1,$000A;B7C3EA;      ;"
+src/data_banks/bank_B7.asm,1469,other,"        Text_146_Animal_LongWinterFinallyOverAnimals: dw $0021,$0004,$0018,$003A,$0013,$0007,$0004,$00B1;B7D11E;      ;"
+src/data_banks/bank_B7.asm,1488,other,"        Text_148_Animal_WanderingHawkerTodayHaveVery: dw $0022,$0034,$000C,$00B1,$0000,$00B1,$0016,$0000;B7D21A;      ;"
+src/data_banks/bank_B7.asm,1518,other,"        Text_149_Animal_WanderingHawkerTodayHaveVery: dw $0022,$0034,$000C,$00B1,$0000,$00B1,$0016,$0000;B7D3E0;      ;"
+src/data_banks/bank_B7.asm,1549,cow,"        Text_14A_Animal_ThenCowNowMineHawker: dw $0030,$0004,$000B,$000B,$00B1,$0013,$0007,$0004;B7D5BA;      ;"
+src/data_banks/bank_B7.asm,1559,cow,"        Text_14B_Sign_CowMineNowPutSeed: dw $0028,$0024,$003A,$0013,$0007,$0008,$0012,$00B1;B7D63C;      ;"
+src/data_banks/bank_B7.asm,1795,other,"        Text_15F_Animal_HavePutLivestockPenLets: dw $0021,$0000,$0015,$0004,$00B1,$0018,$000E,$0014;B7E330;      ;"
+src/data_banks/bank_B7.asm,1908,cow,"        Text_16C_Weather_CowsSimpleKeepOutGround: dw $001C,$000E,$0016,$0012,$00B1,$0000,$0011,$0004;B7E916;      ;"
+src/data_banks/bank_B7.asm,1975,cow,"        Text_172_Animal_HaveSeenMoleScaresCows: dw $0021,$0000,$0015,$0004,$00B1,$0018,$000E,$0014;B7ECC8;      ;"
+src/data_banks/bank_B7.asm,2110,other,"        Text_187_Animal_AutoMilkingYogurtMakerSpecial: dw $0038,$001A,$0014,$0013,$000E,$00B1,$0026,$0008;B7F354;      ;"
+src/data_banks/bank_B7.asm,2227,other,"        Text_191_Sign_ManyKindsAnimalsMountainGive: dw $002D,$0007,$0004,$0011,$0004,$00B1,$0000,$0011;B7F9C2;      ;"
+src/data_banks/bank_B8.asm,5,other,"        Text_1A2_Dialog_UummmmSayUmmGuessPregnant: dw $0030,$0004,$000B,$000B,$0036,$0036,$0036,$002E;B88000;      ;"
+src/data_banks/bank_B8.asm,140,other,"        Text_1B8_Animal_RemindsMeNinaWasBorn: dw $0022,$0013,$00B1,$0011,$0004,$000C,$0008,$000D;B8869C;      ;"
+src/data_banks/bank_B8.asm,146,other,"        Text_1B9_Animal_RemindsMeEveWasBorn: dw $0022,$0013,$00B1,$0011,$0004,$000C,$0008,$000D;B886E8;      ;"
+src/data_banks/bank_B8.asm,280,other,"        Text_1CC_Animal_GoodMorningExcuseMeBothering: dw $0020,$000E,$000E,$0003,$00B1,$000C,$000E,$0011;B88D78;      ;"
+src/data_banks/bank_B8.asm,530,other,"        Text_1E0_Animal_TraditionAreaCalledBlueFeather: dw $002D,$0007,$0000,$0013,$0034,$0012,$00B1,$0000;B89B24;      ;"
+src/data_banks/bank_B8.asm,1176,other,"        Text_218_Animal_ComesDownBuy: dw $0030,$0007,$0004,$000D,$00B1,$0008,$0013,$00B1;B8BE6C;      ;"
+src/data_banks/bank_B8.asm,1183,other,"        Text_219_Animal_FeelCalmSeeFlowersMean: dw $0022,$00B1,$0005,$0004,$0004,$000B,$00B1,$0002;B8BEC4;      ;"
+src/data_banks/bank_B8.asm,1248,other,"        Text_220_Animal_MyHeartWarmsUpJoys: dw $0026,$0018,$00B1,$0007,$0004,$0000,$0011,$0013;B8C238;      ;"
+src/data_banks/bank_B8.asm,1583,other,"        Text_240_Animal_HarvestFestivalTomorrowStopWork: dw $002D,$0007,$0004,$00B1,$0021,$0000,$0011,$0015;B8D41E;      ;"
+src/data_banks/bank_B8.asm,1670,other,"        Text_247_Animal_CuttingGrassCutAutumnTry: dw $001A,$0011,$0004,$00B1,$0018,$000E,$0014,$00B1;B8D8DE;      ;"
+src/data_banks/bank_B8.asm,1692,other,"        Text_248_Animal_HappyOnlyIfTasteEat: dw $0022,$0034,$000C,$00B1,$00B3,$00B2,$00B2,$003D;B8DA26;      ;"
+src/data_banks/bank_B8.asm,2116,other,"        Text_272_Animal_FlowerFestivalTomorrowStopWork: dw $0022,$0013,$0034,$0012,$00B1,$0013,$0007,$0004;B8F0E8;      ;"
+src/data_banks/bank_B8.asm,2151,chicken,"        Text_273_Weather_InformationEventHaveAnnualeggFestival: dw $002D,$0007,$0008,$0012,$00B1,$0008,$0012,$00B1;B8F2FA;      ;"
+src/data_banks/bank_B8.asm,2172,chicken,"        Text_274_Animal_EggFestivalTomorrowStopWork: dw $0022,$0013,$0034,$0012,$00B1,$001E,$0006,$0006;B8F436;      ;"
+src/data_banks/bank_B9.asm,146,other,"        Text_296_Animal_EllenGoodCookAndtakesGood: dw $0032,$0004,$0012,$003A,$001E,$000B,$000B,$0004;B987BA;      ;"
+src/data_banks/bank_B9.asm,202,other,"        Text_29D_Animal_AbleBakePerfectlyDeliciousCake: dw $0022,$0034,$000B,$000B,$00B1,$0001,$0004,$00B1;B98A84;      ;"
+src/data_banks/bank_B9.asm,279,chicken,"        Text_2A7_Animal_UsedPlentyMilkEggs: dw $0022,$00B1,$0014,$0012,$0004,$0003,$00B1,$000F;B98E78;      ;"
+src/data_banks/bank_B9.asm,333,other,"        Text_2AD_Animal_StarNightFestivalSupposedPray: dw $0028,$000D,$00B1,$0013,$0007,$0004,$00B1,$002C;B99148;      ;"
+src/data_banks/bank_B9.asm,445,other,"        Text_2B8_Animal_LightStarsSeeingNowMillions: dw $002D,$0007,$0004,$00B1,$000B,$0008,$0006,$0007;B99756;      ;"
+src/data_banks/bank_B9.asm,493,other,"        Text_2BD_Animal_CloseMyEyesFeellikeFloating: dw $0030,$0007,$0004,$000D,$00B1,$0022,$00B1,$0002;B999DE;      ;"
+src/data_banks/bank_B9.asm,805,chicken,"        Text_2DD_Animal_NowAnnualEggSearchinggameAutumn: dw $0027,$000E,$0016,$003A,$0013,$0007,$0004,$00B1;B9AA96;      ;"
+src/data_banks/bank_B9.asm,917,chicken,"        Text_2EA_Animal_WinnerYearsEggFestivalMr: dw $002D,$0007,$0004,$00B1,$0016,$0008,$000D,$000D;B9B072;      ;"
+src/data_banks/bank_B9.asm,1055,cow,"        Text_2FB_Manual_BuyingCowThenGiveBell: dw $0030,$0008,$000B,$000B,$00B1,$0018,$000E,$0014;B9B786;      ;"
+src/data_banks/bank_B9.asm,1121,horse,"        Text_300_Animal_HorseHasBecomeBigMade: dw $0028,$0007,$003A,$0018,$000E,$0014,$0011,$00B1;B9BB30;      ;"
+src/data_banks/bank_B9.asm,1145,cow,"        Text_301_Animal_MedicineCowsSickHealsOnly: dw $002D,$0007,$0000,$0013,$0034,$0012,$00B1,$000C;B9BCA0;      ;"
+src/data_banks/bank_B9.asm,1198,cow,"        Text_305_Animal_WantTodayBuyCowSell: dw $0021,$0008,$003A,$00B1,$0016,$0007,$0000,$0013;B9BF8C;      ;"
+src/data_banks/bank_B9.asm,1212,other,"        Text_306_Animal_NeedHaveMoreGrassRaise: dw $0032,$000E,$0014,$00B1,$000D,$0004,$0004,$0003;B9C056;      ;"
+src/data_banks/bank_B9.asm,1219,cow,"        Text_307_Animal_CowCostsGBuyingOne: dw $001A,$00B1,$0002,$000E,$0016,$00B1,$0002,$000E;B9C0B6;      ;"
+src/data_banks/bank_B9.asm,1240,cow,"        Text_309_Animal_IfWantSellCowsAgain: dw $0022,$0005,$00B1,$0018,$000E,$0014,$00B1,$0016;B9C1DC;      ;"
+src/data_banks/bank_B9.asm,1249,chicken,"        Text_30A_Animal_ChickenCostsGButWant: dw $001A,$00B1,$0002,$0007,$0008,$0002,$000A,$0004;B9C256;      ;"
+src/data_banks/bank_B9.asm,1277,cow,"        Text_30C_Animal_PutCowPenTakeGood: dw $0021,$0004,$0018,$003A,$0022,$00B1,$000F,$0014;B9C3EA;      ;"
+src/data_banks/bank_B9.asm,1293,cow,"        Text_30D_Animal_EvenThinkSellingCowCondition: dw $0021,$0004,$0018,$00B1,$0018,$000E,$0014,$003A;B9C4D2;      ;"
+src/data_banks/bank_B9.asm,1349,cow,"        Text_312_Manual_MilkerMilkUsingTowardCow: dw $0022,$0013,$0034,$0012,$00B1,$0000,$00B1,$000C;B9C7E4;      ;"
+src/data_banks/bank_B9.asm,1374,cow,"        Text_314_Manual_BrushCowsBecomeHappyBrush: dw $0022,$0013,$0034,$0012,$00B1,$0000,$00B1,$0001;B9C93E;      ;"
+src/data_banks/bank_B9.asm,1399,cow,"        Text_315_Animal_FatherHeavenHelpPreciousCow: dw $0028,$0014,$0011,$00B1,$001F,$0000,$0013,$0007;B9CAB4;      ;"
+src/data_banks/bank_B9.asm,1407,cow,"        Text_316_Animal_IdiotTellTakeCareCows: dw $0036,$0036,$0036,$001A,$0011,$0004,$00B1,$0018;B9CB24;      ;"
+src/data_banks/bank_B9.asm,1554,other,"        Text_322_Animal_ThankPutMorePowerReturn: dw $002D,$0007,$0000,$000D,$000A,$00B1,$0018,$000E;B9D326;      ;"
+src/data_banks/bank_B9.asm,1568,other,"        Text_324_Animal_PlowFieldBeforeSpringBut: dw $0032,$000E,$0014,$00B1,$0002,$0000,$000D,$00B1;B9D3D2;      ;"
+src/data_banks/bank_B9.asm,1886,other,"        Text_33D_Animal_PotatoSeedHarvestLeavesBecome: dw $002D,$0007,$0000,$0013,$0034,$0012,$00B1,$0000;B9E598;      ;"
+src/data_banks/bank_B9.asm,1989,feed,"        Text_341_Sign_FeedCowsFeedingsPerBag: dw $002D,$0007,$0000,$0013,$0034,$0012,$00B1,$0005;B9EBAA;      ;"
+src/data_banks/bank_B9.asm,2015,feed,"        Text_342_Sign_FeedChickensFeedingsPerBag: dw $0022,$0013,$0034,$0012,$00B1,$0005,$0004,$0004;B9ED36;      ;"
+src/data_banks/bank_B9.asm,2203,chicken,"        Text_34B_Animal_PlaceHatchEggsPlaceEggs: dw $0038,$0029,$000B,$0000,$0002,$0004,$00B1,$0013;B9F822;      ;"
+src/data_banks/bank_B9.asm,2211,chicken,"        Text_34C_Animal_ShippingBoxEggs: dw $0038,$002C,$0007,$0008,$000F,$000F,$0008,$000D;B9F88A;      ;"
+src/data_banks/bank_B9.asm,2215,other,"        Text_34D_Animal_ShippingBoxMilk: dw $0038,$002C,$0007,$0008,$000F,$000F,$0008,$000D;B9F8BA;      ;"
+src/data_banks/bank_B9.asm,2219,cow,"        Text_34E_Animal_GetCowsGiveBirth: dw $0020,$0004,$0013,$00B1,$0013,$0007,$0004,$00B1;B9F8EA;      ;"
+src/data_banks/bank_B9.asm,2236,other,"        Text_350_Animal_MilkBuyingGdoAgreeMoney: dw $0026,$0008,$000B,$000A,$0037,$00B1,$0022,$0034;B9F9C4;      ;"
+src/data_banks/bank_B9.asm,2252,other,"        Text_351_Animal_MilkBuyingGbutMoneyHv: dw $0026,$0008,$000B,$000A,$0037,$00B1,$0022,$0034;B9FAA6;      ;"
+src/data_banks/bank_B9.asm,2268,other,"        Text_352_Animal_MilkBuyingGbutMoneyHw: dw $0026,$0008,$000B,$000A,$0037,$00B1,$0022,$0034;B9FB88;      ;"
+src/data_banks/bank_BA.asm,24,chicken,"        Text_357_Animal_FreshEggBuyingGBut: dw $0022,$0012,$000D,$0034,$0013,$00B1,$0008,$0013;BA8112;      ;"
+src/data_banks/bank_BA.asm,57,other,"        Text_359_Animal_PoisonousMushroomMedicineCompoundedAbout: dw $0022,$0013,$0034,$0012,$00B1,$0000,$00B1,$000F;BA82EE;      ;"
+src/data_banks/bank_BA.asm,180,chicken,"        Text_360_Animal_GoodLordGoldenEggNever: dw $0020,$000E,$000E,$0003,$00B1,$0025,$000E,$0011;BA89F8;      ;"
+src/data_banks/bank_BA.asm,373,other,"        Text_374_Animal_ThWinterMonthThanksgivingThanksgiving: dw $00B3,$00B2,$0013,$0007,$00B1,$000E,$0005,$00B1;BA941E;      ;"
+src/data_banks/bank_BA.asm,441,chicken,"        Text_37C_Animal_LooksLikeOrnamentChickenBut: dw $0022,$00B1,$000B,$000E,$000E,$000A,$0012,$00B1;BA979A;      ;"
+src/data_banks/bank_BA.asm,497,chicken,"        Text_384_Animal_PrizeEggFestivalCharmProtect: dw $0022,$0013,$0034,$0012,$00B1,$0000,$00B1,$000F;BA9A5A;      ;"
+src/data_banks/bank_BA.asm,581,chicken,"        Text_38F_Animal_WinnerYearsEggFestivalLivestock: dw $002D,$0007,$0004,$00B1,$0016,$0008,$000D,$000D;BA9E9C;      ;"
+src/data_banks/bank_BA.asm,592,chicken,"        Text_390_Animal_BeepTimeUpNextEgg: dw $001B,$0004,$0004,$000F,$0035,$00B1,$002D,$0008;BA9F38;      ;"
+src/data_banks/bank_BA.asm,624,other,"        Text_394_Animal_SaidHappyFlowerBloomsEat: dw $0022,$0013,$00B1,$0008,$0012,$00B1,$0012,$0000;BAA0DC;      ;"
+src/data_banks/bank_BA.asm,784,other,"        Text_3A0_Animal_BusyWinterGatherMaterialsThen: dw $0032,$000E,$0014,$00B1,$0000,$0011,$0004,$00B1;BAA9B2;      ;"
+src/data_banks/bank_BA.asm,810,chicken,"        Text_3A3_Animal_AhChickenFeather: dw $001A,$0007,$0035,$00B1,$002D,$0007,$0008,$0012;BAAB0A;      ;"
+src/data_banks/bank_BA.asm,822,other,"        Text_3A5_Animal_EventsYearStSpringMonth: dw $001E,$0015,$0004,$000D,$0013,$0012,$00B1,$000E;BAABA0;      ;"
+src/data_banks/bank_BA.asm,940,other,"        Text_3B7_Animal_BeingCrowdedMakesLivestockStressed: dw $001B,$0004,$0008,$000D,$0006,$00B1,$0002,$0011;BAB15E;      ;"
+src/data_banks/bank_BA.asm,1024,other,"        Text_3C2_Animal_AfterAllGirlHappiestwhenSomeone: dw $001A,$0005,$0013,$0004,$0011,$00B1,$0000,$000B;BAB58A;      ;"
+src/data_banks/bank_BA.asm,1143,other,"        Text_3CB_Animal_ThinkPeopleWhoCheatWho: dw $0030,$0007,$0004,$000D,$00B1,$0022,$00B1,$0013;BABC28;      ;"
+src/data_banks/bank_BA.asm,1197,cow,"        Text_3CF_Manual_PrettyHardMoveCowsAs: dw $0022,$0013,$0034,$0012,$00B1,$000F,$0011,$0004;BABF26;      ;"
+src/data_banks/bank_BA.asm,1218,other,"        Text_3D0_Animal_DealingLivestocktodayBecomeSickOutside: dw $0022,$00B1,$0016,$000E,$000D,$0034,$0013,$00B1;BAC05A;      ;"
+src/data_banks/bank_BA.asm,1308,other,"        Text_3D8_Animal_GotMarriedWorkHarderBad: dw $0032,$000E,$0014,$00B1,$0006,$000E,$0013,$00B1;BAC54A;      ;"
+src/data_banks/bank_BA.asm,1349,other,"        Text_3DC_Animal_FestivalEndsSoyouMustGo: dw $002D,$0007,$0004,$00B1,$0005,$0004,$0012,$0013;BAC786;      ;"
+src/data_banks/bank_BA.asm,1584,chicken,"        Text_3F2_Animal_PrizeEggFestivalDifferentEvery: dw $002D,$0007,$0004,$00B1,$000F,$0011,$0008,$0019;BAD436;      ;"
+src/data_banks/bank_BA.asm,1597,chicken,"        Text_3F3_Animal_EggFestivalHeldPublicSquare: dw $002D,$0007,$0004,$00B1,$001E,$0006,$0006,$00B1;BAD4F6;      ;"
+src/data_banks/bank_BA.asm,1607,chicken,"        Text_3F4_Animal_WinAgainEggFestivalTomorrow: dw $0022,$00B1,$0016,$0008,$000B,$000B,$00B1,$0016;BAD57A;      ;"
+src/data_banks/bank_BA.asm,1799,other,"        Text_407_Animal_WinterGoodTimeFriendsLivestock: dw $0016,$0008,$000D,$0013,$0004,$0011,$00B1,$0008;BADFB2;      ;"
+src/data_banks/bank_BA.asm,1836,other,"        Text_40A_Animal_UmmGetOutCloseyouEyes: dw $002E,$000C,$000C,$003A,$0022,$00B1,$0002,$0000;BAE1C0;      ;"
+src/data_banks/bank_BA.asm,1977,chicken,"        Text_418_Animal_UumWantEgg: dw $002E,$0014,$000C,$003A,$0022,$00B1,$0016,$0000;BAE948;      ;"
+src/data_banks/bank_BA.asm,1995,chicken,"        Text_41B_Animal_WantEggWantOneEgg: dw $0022,$00B1,$0016,$0000,$000D,$0013,$00B1,$0000;BAEA28;      ;"
+src/data_banks/bank_BA.asm,2083,dog,"        Text_426_Animal_HearWildDogsSometimesCome: dw $0022,$00B1,$0007,$0004,$0000,$0011,$00B1,$0016;BAEEA4;      ;"
+src/data_banks/bank_BA.asm,2132,other,"        Text_42B_Animal_OneWildGrapeJuiceBayberry: dw $002D,$0007,$0008,$0012,$00B1,$000E,$000D,$0004;BAF13A;      ;"
+src/data_banks/bank_BA.asm,2249,other,"        Text_434_Animal_ThoseStarsStillShinewhenBecome: dw $0030,$0008,$000B,$000B,$00B1,$0013,$0007,$000E;BAF7C4;      ;"
+src/data_banks/bank_BB.asm,109,chicken,"        Text_445_Animal_CowCChickenC: dw $00B1,$001C,$000E,$0016,$00B1,$00B1,$00B1,$00B1;BB85E0;      ;"
+src/data_banks/bank_BB.asm,119,cow,"        Text_447_Animal_CowsBestAffectionRateEk: dw $00B1,$001C,$000E,$0016,$0034,$0012,$00B1,$0001;BB864E;      ;"
+src/data_banks/bank_BB.asm,287,chicken,"        Text_459_Animal_LivestockNoteCowChickenMilk: dw $0025,$0008,$0015,$0004,$0012,$0013,$000E,$0002;BB8F0E;      ;"
+src/data_banks/bank_BB.asm,299,cow,"        Text_45A_Weather_CowsSaleYoungOnesMilk: dw $001C,$000E,$0016,$0012,$00B1,$000E,$000D,$00B1;BB8FB2;      ;"
+src/data_banks/bank_BB.asm,345,cow,"        Text_45B_Manual_EquipMilkerPointYButton: dw $001E,$0010,$0014,$0008,$000F,$00B1,$0013,$0007;BB9280;      ;"
+src/data_banks/bank_BB.asm,376,cow,"        Text_45C_Weather_CowsEatGrownGrassGrass: dw $001C,$000E,$0016,$0012,$00B1,$0004,$0000,$0013;BB9454;      ;"
+src/data_banks/bank_BB.asm,400,chicken,"        Text_45D_Weather_ChickensLayOneEggDay: dw $001C,$0007,$0008,$0002,$000A,$0004,$000D,$0012;BB95BA;      ;"
+src/data_banks/bank_BB.asm,431,chicken,"        Text_45E_Animal_EggsBecomeChicksDayswhenIncubate: dw $001E,$0006,$0006,$0012,$00B1,$0001,$0004,$0002;BB978C;      ;"
+src/data_banks/bank_BB.asm,547,other,"        Text_464_Animal_ItemMarriageProposalBlueFeather: dw $0022,$0013,$0004,$000C,$00B1,$0005,$000E,$0011;BB9E42;      ;"
+src/data_banks/bank_BB.asm,571,other,"        Text_465_Animal_SeeEllenShesBehindPen: dw $0022,$00B1,$0012,$0004,$0004,$003A,$001E,$000B;BB9FA4;      ;"
+src/data_banks/bank_BB.asm,813,other,"        Text_479_Animal_MrGotNoticeFatherThismorning: dw $0021,$0004,$000B,$000B,$000E,$003A,$00B1,$0026;BBACEC;      ;"
+src/data_banks/bank_BB.asm,1043,chicken,"        Text_48F_Animal_StrangeLookingOrnamentofChickenLooks: dw $002D,$0007,$0004,$00B1,$0012,$0013,$0011,$0000;BBB958;      ;"
+src/maps/Maps_Graphics.asm,17,chicken,    dw MapEggFestival                    ;0B
+src/maps/Maps_Graphics.asm,42,other,    dw MapAnimalShop                     ;24
+src/maps/Maps_Graphics.asm,45,cow,    dw MapBarn                           ;27
+src/maps/Maps_Graphics.asm,46,chicken,    dw MapCoop                           ;28
+src/maps/Maps_Graphics.asm,350,chicken,MapEggFestival: ;80ACBD
+src/maps/Maps_Graphics.asm,830,other,MapAnimalShop: ;80AF79
+src/maps/Maps_Graphics.asm,888,cow,MapBarn: ;80AFCE
+src/maps/Maps_Graphics.asm,906,chicken,MapCoop: ;80AFE7

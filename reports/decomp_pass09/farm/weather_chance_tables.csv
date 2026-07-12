@@ -1,0 +1,6 @@
+table,spring,summer,fall,winter,notes
+Hurricane_Chance_Table,00,1E,00,00,Chance denominator by season; nonzero means RNGReturn0toA must return 0. Turtle shell doubles value before RNG call.
+Rain_Chance_Table,06,0A,0A,00,Normal rain chance by season.
+Snow_Chance_Table,00,00,00,03,Normal snow chance by season.
+Thunder_Chance_Table,00,1E,00,00,First-year thunder special chance by season; summer day 29 forced route.
+Snowstorm_Chance_Table,00,00,00,08,First-year winter special fair/snowstorm branch chance.

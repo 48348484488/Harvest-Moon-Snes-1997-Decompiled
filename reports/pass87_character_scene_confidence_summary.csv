@@ -1,0 +1,14 @@
+confidence,entries,percent
+group_semantic_inferred,952,73.913
+domain_inferred,268,20.807
+direct_named_text,25,1.941
+direct_named_family_text,9,0.699
+direct_family_role_text,8,0.621
+direct_animal_text,7,0.543
+direct_weather_text,5,0.388
+direct_static_text,5,0.388
+direct_service_text,3,0.233
+direct_location_or_role_text,3,0.233
+direct_romance_item_text,1,0.078
+direct_category_text,1,0.078
+direct_event_text,1,0.078

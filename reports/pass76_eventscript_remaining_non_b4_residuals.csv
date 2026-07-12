@@ -1,0 +1,7 @@
+group,entry,target,residual_addr,residual_byte,cmd_index,boundary,hard_group_end,stop_reason,pass76_category,pass76_status
+$00,20,$B38DD1,$B38DD7,$81,3,$B38DE5,$B39359,unknown_opcode_$81,remaining_non_b4_inline_payload_needs_trace,needs_manual_trace
+$09,0,$B3E623,$B3E6D2,$5C,60,$B3E83B,$B3E83B,unknown_opcode_$5C,remaining_non_b4_inline_payload_needs_trace,needs_manual_trace
+$24,0,$B4A475,$B4A486,$7B,5,$B4A531,$B4A5B5,unknown_opcode_$7B,remaining_non_b4_inline_payload_needs_trace,needs_manual_trace
+$24,1,$B4A531,$B4A542,$9B,5,$B4A55D,$B4A5B5,unknown_opcode_$9B,remaining_non_b4_inline_payload_needs_trace,needs_manual_trace
+$24,2,$B4A55D,$B4A56E,$5F,5,$B4A589,$B4A5B5,unknown_opcode_$5F,remaining_non_b4_inline_payload_needs_trace,needs_manual_trace
+$24,3,$B4A589,$B4A59A,$5F,5,$B4A5B5,$B4A5B5,unknown_opcode_$5F,remaining_non_b4_inline_payload_needs_trace,needs_manual_trace

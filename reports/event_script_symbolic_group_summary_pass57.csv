@@ -1,0 +1,73 @@
+group_id,group_label,group_addr,entry_count,unique_targets,command_count,unknown_commands,dominant_classes,dominant_opcodes
+0,EventScriptGroup_00,11766712,136,135,480,24,cc_state_object:204 script_control:201 unknown:24 special_unknown:22 animals:15 conditional:5,$12:122 $2F:72 $13:59 $1B:52 $1A:26 $2B:22 $0D:19 $2E:18 $10:17 $37:16
+1,EventScriptGroup_01,11768665,16,12,329,23,script_control:129 conditional:68 cc_state_object:47 dialog_text:36 unknown:23 screen_transition:11,$12:74 $1C:36 $15:28 $09:26 $14:21 $4D:17 $2D:14 $18:13 $11:11 $1A:11
+2,EventScriptGroup_02,11775491,16,6,214,12,script_control:99 dialog_text:36 conditional:31 cc_state_object:25 unknown:12 screen_transition:6,$12:60 $1C:35 $09:18 $14:16 $16:12 $4D:11 $59:11 $2D:10 $1A:8 $11:5
+3,EventScriptGroup_03,11778617,16,4,175,14,script_control:65 conditional:29 cc_state_object:27 dialog_text:24 unknown:14 flags_values:13,$12:37 $1C:24 $09:19 $14:16 $1B:15 $27:13 $C6:13 $16:8 $1A:6 $45:5
+4,EventScriptGroup_04,11781383,16,9,395,8,script_control:167 dialog_text:91 conditional:66 cc_state_object:57 unknown:8 screen_transition:6,$12:126 $1C:91 $16:25 $14:19 $41:19 $15:18 $09:17 $1A:16 $2D:15 $4D:14
+5,EventScriptGroup_05,11783281,16,2,108,15,script_control:37 conditional:20 cc_state_object:17 dialog_text:17 unknown:15 screen_transition:1,$12:24 $1C:17 $67:15 $09:10 $14:10 $1B:10 $15:6 $1A:3 $2D:3 $16:2
+6,EventScriptGroup_06,11785287,16,8,333,9,script_control:134 dialog_text:73 conditional:57 cc_state_object:44 time_rng_palette:9 unknown:9,$12:105 $1C:72 $14:22 $16:16 $1A:15 $15:15 $09:14 $2D:14 $41:13 $17:9
+7,EventScriptGroup_07,11786743,16,9,389,8,script_control:165 dialog_text:89 cc_state_object:66 conditional:53 screen_transition:8 unknown:8,$12:123 $1C:89 $15:25 $14:20 $41:20 $09:17 $1A:16 $4D:15 $2D:15 $1B:15
+8,EventScriptGroup_08,11788479,16,9,312,8,script_control:131 dialog_text:65 cc_state_object:46 conditional:44 screen_transition:10 flags_values:8,$12:100 $1C:65 $16:21 $09:17 $1A:17 $2D:16 $41:12 $15:10 $13:9 $14:9
+9,EventScriptGroup_09,11789827,16,2,76,16,script_control:22 unknown:16 player_camera_motion:15 cc_state_object:7 time_rng_palette:6 screen_transition:3,$5B:15 $13:14 $19:10 $09:8 $02:4 $07:3 $39:3 $40:2 $05:2 $0C:2
+10,EventScriptGroup_0A,11790395,16,7,28,10,unknown:10 script_control:8 cc_state_object:4 time_rng_palette:2 screen_transition:2 special_unknown:2,$FA:10 $4F:4 $50:4 $02:2 $08:2 $09:2 $38:2 $10:2
+11,EventScriptGroup_0B,11790810,16,13,89,5,script_control:55 screen_transition:6 cc_state_object:6 special_unknown:5 unknown:5 time_rng_palette:4,$09:37 $10:10 $38:5 $12:5 $08:3 $13:3 $1A:3 $1F:3 $7A:3 $02:2
+12,EventScriptGroup_0C,11792218,16,3,16,14,unknown:14 script_control:2,$88:14 $50:2
+13,EventScriptGroup_0D,11792488,16,3,30,14,screen_transition:14 unknown:14 script_control:2,$06:14 $D4:14 $50:2
+14,EventScriptGroup_0E,11792614,16,3,648,0,audio:644 cc_state_object:2 script_control:2,$00:644 $4F:2 $50:2
+15,EventScriptGroup_0F,11829248,16,7,22,10,unknown:10 cc_state_object:6 script_control:6,$D8:10 $4F:6 $50:6
+16,EventScriptGroup_10,11831224,16,2,35,15,special_unknown:15 unknown:15 script_control:4 screen_transition:1,$38:15 $88:15 $09:2 $08:1 $13:1 $10:1
+17,EventScriptGroup_11,11831320,16,2,16,15,unknown:15 script_control:1,$C0:15 $50:1
+18,EventScriptGroup_12,11831456,16,2,31,15,special_unknown:15 unknown:15 script_control:1,$4A:15 $89:15 $50:1
+19,EventScriptGroup_13,11831594,16,2,16,15,unknown:15 script_control:1,$F2:15 $50:1
+20,EventScriptGroup_14,11831762,16,6,42,11,conditional:11 special_unknown:11 unknown:11 script_control:5 cc_state_object:4,$45:11 $38:11 $8D:11 $50:5 $4F:4
+21,EventScriptGroup_15,11832357,16,2,32,16,unknown:16 script_control:5 screen_transition:4 player_camera_motion:2 flags_values:2 cc_state_object:2,$58:15 $09:3 $08:2 $11:2 $0C:2 $05:1 $07:1 $38:1 $13:1 $12:1
+22,EventScriptGroup_16,11832632,16,2,31,15,cc_state_object:15 unknown:15 script_control:1,$25:15 $C5:15 $50:1
+23,EventScriptGroup_17,11832837,16,2,17,16,unknown:16 audio:1,$E5:15 $00:1 $B4:1
+24,EventScriptGroup_18,11833029,16,2,18,15,unknown:15 script_control:2 special_unknown:1,$B5:15 $09:1 $38:1 $10:1
+25,EventScriptGroup_19,11833237,16,3,16,14,unknown:14 script_control:2,$F3:14 $50:2
+26,EventScriptGroup_1A,11833555,16,3,16,14,unknown:14 script_control:2,$D3:14 $50:2
+27,EventScriptGroup_1B,11833779,16,3,17,15,unknown:15 script_control:1 audio:1,$F2:14 $50:1 $00:1 $B4:1
+28,EventScriptGroup_1C,11834066,16,4,17,14,unknown:14 script_control:2 audio:1,$5C:13 $50:2 $00:1 $B4:1
+29,EventScriptGroup_1D,11834428,16,5,21,12,unknown:12 script_control:8 special_unknown:1,$9A:12 $09:4 $50:3 $38:1 $10:1
+30,EventScriptGroup_1E,11835002,16,2,16,15,unknown:15 script_control:1,$5F:15 $50:1
+31,EventScriptGroup_1F,11835967,16,4,16,13,unknown:13 script_control:3,$51:13 $50:3
+32,EventScriptGroup_20,11836977,16,2,31,15,special_unknown:15 unknown:15 script_control:1,$33:15 $9F:15 $50:1
+33,EventScriptGroup_21,11837203,16,2,17,15,unknown:15 script_control:2,$F8:15 $09:1 $10:1
+34,EventScriptGroup_22,11837400,16,14,16,3,script_control:13 unknown:3,$50:13 $9F:3
+35,EventScriptGroup_23,11838335,16,2,24,15,unknown:15 script_control:4 screen_transition:2 special_unknown:1 audio:1 flags_values:1,$75:15 $09:3 $08:1 $38:1 $2C:1 $0C:1 $11:1 $10:1
+36,EventScriptGroup_24,11838549,16,5,36,16,unknown:16 cc_state_object:8 screen_transition:4 special_unknown:4 time_rng_palette:4,$D5:12 $08:4 $1A:4 $38:4 $3A:4 $03:4 $5F:2 $7B:1 $9B:1
+37,EventScriptGroup_25,11838901,16,2,40,15,cc_state_object:15 unknown:15 player_camera_motion:2 screen_transition:2 script_control:2 flags_values:2,$2D:15 $B6:15 $02:1 $05:1 $07:1 $08:1 $09:1 $38:1 $0B:1 $0C:1
+38,EventScriptGroup_26,11838989,16,3,18,15,unknown:15 cc_state_object:2 script_control:1,$7E:14 $4F:2 $51:1 $50:1
+39,EventScriptGroup_27,11843166,16,5,20,12,unknown:12 cc_state_object:4 script_control:4,$EB:12 $4F:4 $50:4
+40,EventScriptGroup_28,11844299,16,5,32,12,flags_values:12 unknown:12 cc_state_object:4 script_control:4,$47:12 $C4:12 $4F:4 $50:4
+41,EventScriptGroup_29,11846695,16,2,18,15,unknown:15 script_control:2 special_unknown:1,$D8:15 $09:1 $38:1 $10:1
+42,EventScriptGroup_2A,11846840,16,2,56,17,unknown:17 time_rng_palette:15 flags_values:15 cc_state_object:5 script_control:3 special_unknown:1,$24:15 $48:15 $C5:15 $1B:3 $13:2 $0D:2 $1A:1 $37:1 $41:1 $10:1
+43,EventScriptGroup_2B,11846916,16,2,24,17,unknown:17 cc_state_object:3 script_control:3 special_unknown:1,$68:15 $13:2 $0D:2 $1A:1 $1B:1 $37:1 $41:1 $10:1
+44,EventScriptGroup_2C,11846984,16,2,22,16,unknown:16 cc_state_object:3 script_control:2 special_unknown:1,$A4:15 $1A:1 $13:1 $1B:1 $0D:1 $37:1 $41:1 $10:1
+45,EventScriptGroup_2D,11847044,16,2,49,26,unknown:26 conditional:15 script_control:4 player_camera_motion:1 screen_transition:1 special_unknown:1,$14:15 $C6:15 $0D:11 $12:2 $07:1 $09:1 $11:1 $38:1 $13:1 $1A:1
+46,EventScriptGroup_2E,11847156,16,2,32,16,unknown:16 screen_transition:15 audio:1,$11:15 $C7:15 $00:1 $B4:1
+47,EventScriptGroup_2F,11847409,16,2,17,16,unknown:16 audio:1,$E3:15 $00:1 $B4:1
+48,EventScriptGroup_30,11847619,16,2,257,16,items_money:210 audio:16 unknown:16 player_camera_motion:15,$3F:210 $00:16 $B4:16 $19:15
+49,EventScriptGroup_31,11848185,16,2,17,16,unknown:16 audio:1,$5F:15 $00:1 $B4:1
+50,EventScriptGroup_32,11848511,16,2,17,16,unknown:16 audio:1,$76:15 $00:1 $B4:1
+51,EventScriptGroup_33,11849046,16,2,17,16,unknown:16 audio:1,$EA:15 $00:1 $B4:1
+52,EventScriptGroup_34,11849418,16,2,34,16,unknown:16 animals:15 flags_values:2 audio:1,$31:15 $D0:15 $47:2 $00:1 $B4:1
+53,EventScriptGroup_35,11849745,16,2,18,16,unknown:16 flags_values:1 audio:1,$80:15 $47:1 $00:1 $B4:1
+54,EventScriptGroup_36,11850080,16,2,17,16,unknown:16 audio:1,$EC:15 $00:1 $B4:1
+55,EventScriptGroup_37,11850444,16,2,19,16,unknown:16 flags_values:2 audio:1,$67:15 $47:2 $00:1 $B4:1
+56,EventScriptGroup_38,11850823,16,2,17,16,unknown:16 audio:1,$51:15 $00:1 $B4:1
+57,EventScriptGroup_39,11851057,16,2,17,16,unknown:16 audio:1,$92:15 $00:1 $B4:1
+58,EventScriptGroup_3A,11851634,16,3,32,16,unknown:16 items_money:14 audio:2,$42:14 $DC:14 $00:2 $B4:2
+59,EventScriptGroup_3B,11852322,16,3,18,16,unknown:16 audio:2,$ED:14 $00:2 $B4:2
+60,EventScriptGroup_3C,11853005,16,3,18,16,unknown:16 audio:2,$B4:16 $00:2
+61,EventScriptGroup_3D,11853716,16,3,32,16,unknown:16 script_control:14 audio:2,$20:14 $FF:14 $00:2 $B4:2
+62,EventScriptGroup_3E,11854336,16,2,32,16,unknown:16 cc_state_object:15 audio:1,$1F:15 $E4:15 $00:1 $B4:1
+63,EventScriptGroup_3F,11854847,16,2,32,16,unknown:16 conditional:15 audio:1,$14:15 $E7:15 $00:1 $B4:1
+64,EventScriptGroup_40,11855348,16,2,17,16,unknown:16 audio:1,$CF:15 $00:1 $B4:1
+65,EventScriptGroup_41,11855791,16,2,18,16,unknown:16 flags_values:1 audio:1,$A9:15 $47:1 $00:1 $B4:1
+66,EventScriptGroup_42,11856265,16,3,1348,2,audio:1346 unknown:2,$00:1346 $B4:2
+67,EventScriptGroup_43,11894784,16,6,184,16,conditional:64 cc_state_object:45 script_control:36 unknown:16 flags_values:10 dialog_text:10,$12:36 $14:28 $1A:20 $15:15 $41:14 $F1:11 $16:10 $23:10 $1C:10 $45:6
+68,EventScriptGroup_44,11900881,16,6,502,11,conditional:172 script_control:126 dialog_text:113 cc_state_object:54 time_rng_palette:15 player_camera_motion:11,$12:123 $1C:113 $15:67 $14:45 $41:39 $16:25 $45:20 $17:15 $18:15 $05:11
+69,EventScriptGroup_45,11903461,16,7,164,12,conditional:50 script_control:50 cc_state_object:20 dialog_text:18 unknown:12 flags_values:10,$12:44 $14:24 $1C:18 $23:10 $A7:10 $45:8 $1A:8 $18:8 $16:6 $15:4
+70,EventScriptGroup_46,11904771,16,14,29,16,unknown:16 audio:13,$00:13 $B4:13 $AE:3
+71,EventScriptGroup_47,11906158,32,31,84,30,unknown:30 flags_values:29 audio:23 script_control:2,$23:23 $00:23 $B4:23 $58:7 $47:6 $10:2

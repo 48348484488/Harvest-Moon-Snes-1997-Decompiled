@@ -1,0 +1,7 @@
+/mnt/data/hm_decomp_pass03/reports/rom_info.md
+Rodando: /mnt/data/hm_decomp_pass03/tools/bin/linux/asar /mnt/data/hm_decomp_pass03/src/main.asm /mnt/data/hm_decomp_pass03/build/Harvest_Moon_USA_rebuild.sfc
+ROM reconstruido: /mnt/data/hm_decomp_pass03/build/Harvest_Moon_USA_rebuild.sfc
+MD5 rebuild: c9bf36a816b6d54aed79d43a6c45111a
+MD5 original: c9bf36a816b6d54aed79d43a6c45111a
+OK: rebuild identico byte-a-byte ao original.
+Finalizado. Veja build/ e reports/.

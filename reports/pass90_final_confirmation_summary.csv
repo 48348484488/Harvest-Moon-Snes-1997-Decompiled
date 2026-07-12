@@ -1,0 +1,14 @@
+metric,entries,percent
+total_eventscript_entries,1288,100.000
+entries_closed_by_direct_text_or_anchor,68,5.280
+entries_pending_exact_final_name,1220,94.720
+confirmation_units_total,163,100.000
+confirmation_units_closed,49,30.061
+confirmation_units_pending,114,69.939
+pending_entries_collapsed_to_pending_units,1220->114,9.344
+bucket:structural_lane_needs_exact_owner_or_scene,952,73.913
+bucket:domain_specific_needs_exact_scene_name,268,20.807
+bucket:confirmed_direct_anchor,68,5.280
+state:pending_exact_owner_scene_or_cutscene_name,952,73.913
+state:pending_exact_scene_name,268,20.807
+state:closed_for_pass90,68,5.280

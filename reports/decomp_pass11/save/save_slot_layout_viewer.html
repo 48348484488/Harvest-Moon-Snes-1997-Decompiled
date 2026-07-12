@@ -1,0 +1,92 @@
+<!doctype html><html><head><meta charset="utf-8"><title>HM Save Slot Viewer</title>
+<style>body{font-family:Arial,sans-serif;background:#111;color:#eee;margin:20px}input{width:100%;padding:10px;background:#222;color:#eee;border:1px solid #555;margin:10px 0}table{border-collapse:collapse;width:100%}th,td{border:1px solid #444;padding:6px;text-align:left;font-size:13px}th{background:#222;position:sticky;top:0}tr:nth-child(even){background:#181818}code{color:#ffd479}</style></head><body>
+<h1>Harvest Moon SNES - Save Slot Viewer</h1><p>Search offsets, symbols, notes, animal arrays, FARM signature, checksum, etc.</p><input id="q" oninput="filter()" placeholder="Search: money, cow, FARM, $0098, checksum, !year">
+<table id="t"><thead><tr><th>Offset</th><th>Dec</th><th>Save source</th><th>Load target</th><th>Summary</th><th>Notes</th></tr></thead><tbody><tr><td>$0000</td><td>0</td><td>!year</td><td>!year</td><td>!year</td><td>8-bit year counter</td></tr>
+<tr><td>$0001</td><td>1</td><td>!season</td><td>!season</td><td>!season</td><td>8-bit season</td></tr>
+<tr><td>$0002</td><td>2</td><td>!weekday</td><td>!weekday</td><td></td><td>8-bit weekday</td></tr>
+<tr><td>$0003</td><td>3</td><td>!day</td><td>!day</td><td>!day</td><td>8-bit day of season</td></tr>
+<tr><td>$0004</td><td>4</td><td>!seeds_grass_N</td><td>!seeds_grass_N</td><td></td><td>grass seed count</td></tr>
+<tr><td>$0005</td><td>5</td><td>!seeds_corn_N</td><td>!seeds_corn_N</td><td></td><td>corn seed count</td></tr>
+<tr><td>$0006</td><td>6</td><td>!seeds_tomato_N</td><td>!seeds_tomato_N</td><td></td><td>tomato seed count</td></tr>
+<tr><td>$0007</td><td>7</td><td>!seeds_potato_N</td><td>!seeds_potato_N</td><td></td><td>potato seed count</td></tr>
+<tr><td>$0008</td><td>8</td><td>!seeds_turnip_N</td><td>!seeds_turnip_N</td><td></td><td>turnip seed count</td></tr>
+<tr><td>$0009</td><td>9</td><td>!feed_cow_N</td><td>!feed_cow_N</td><td></td><td>cow feed count</td></tr>
+<tr><td>$000A</td><td>10</td><td>!feed_chicks_N</td><td>!feed_chicks_N</td><td></td><td>chicken feed count</td></tr>
+<tr><td>$000B</td><td>11</td><td>!cow_N</td><td>!cow_N</td><td></td><td>cow count</td></tr>
+<tr><td>$000C</td><td>12</td><td>!chicks_N</td><td>!chicks_N</td><td></td><td>chicken count</td></tr>
+<tr><td>$000D</td><td>13</td><td>!weather_tomorrow</td><td>!weather_tomorrow</td><td></td><td>tomorrow weather</td></tr>
+<tr><td>$000E</td><td>14</td><td>!max_stamina</td><td>!max_stamina</td><td></td><td>max stamina</td></tr>
+<tr><td>$000F</td><td>15</td><td>!tool_selected</td><td>!tool_selected</td><td></td><td>selected tool</td></tr>
+<tr><td>$0010</td><td>16</td><td>!watering_can_water</td><td>!watering_can_water</td><td></td><td>watering can water</td></tr>
+<tr><td>$0011</td><td>17</td><td>$7F1F12</td><td>$7F1F12</td><td></td><td>unknown persistent byte</td></tr>
+<tr><td>$0012</td><td>18</td><td>$7F1F2B</td><td>$7F1F2B</td><td></td><td>unknown persistent byte</td></tr>
+<tr><td>$0013</td><td>19</td><td>!dog_map</td><td>!dog_map</td><td></td><td>dog map/location id</td></tr>
+<tr><td>$0014</td><td>20</td><td>$7F1F31</td><td>$7F1F31</td><td></td><td>unknown persistent byte</td></tr>
+<tr><td>$0015</td><td>21</td><td>$7F1F32</td><td>$7F1F32</td><td></td><td>unknown persistent byte</td></tr>
+<tr><td>$0016</td><td>22</td><td>!development_rate</td><td>!development_rate</td><td></td><td>farm development rate</td></tr>
+<tr><td>$0017</td><td>23</td><td>!power_berry_N</td><td>!power_berry_N</td><td></td><td>power berry count</td></tr>
+<tr><td>$0018</td><td>24</td><td>$09A3</td><td>$09A3</td><td></td><td>unknown WRAM value</td></tr>
+<tr><td>$0019</td><td>25</td><td>$0937</td><td>$0937</td><td></td><td>unknown WRAM value</td></tr>
+<tr><td>$001A</td><td>26</td><td>!tool_backpack</td><td>!tool_backpack</td><td></td><td>backpack tool</td></tr>
+<tr><td>$002E</td><td>46</td><td>slot marker / checksum scratch</td><td></td><td></td><td>temporarily zeroed during checksum; also slot-state marker</td></tr>
+<tr><td>$002F</td><td>47</td><td>checksum low/high</td><td></td><td></td><td>16-bit additive checksum starts here</td></tr>
+<tr><td>$0031</td><td>49</td><td>!shipped_corn</td><td>!shipped_corn</td><td></td><td>corn shipped count</td></tr>
+<tr><td>$0033</td><td>51</td><td>!shipped_tomatoes</td><td>!shipped_tomatoes</td><td></td><td>tomatoes shipped count</td></tr>
+<tr><td>$0035</td><td>53</td><td>!shipped_turnips</td><td>!shipped_turnips</td><td></td><td>turnips shipped count</td></tr>
+<tr><td>$0037</td><td>55</td><td>!shipped_potatoes</td><td>!shipped_potatoes</td><td></td><td>potatoes shipped count</td></tr>
+<tr><td>$0039</td><td>57</td><td>!moneyL</td><td>!moneyL</td><td></td><td>money low 16 bits</td></tr>
+<tr><td>$003B</td><td>59</td><td>!moneyH</td><td>!moneyH</td><td></td><td>money high byte</td></tr>
+<tr><td>$003C</td><td>60</td><td>ASCII FARM</td><td>ASCII FARM</td><td>FARM check</td><td>valid slot signature bytes $46,$41,$52,$4D</td></tr>
+<tr><td>$0040</td><td>64</td><td>!stored_wood</td><td>!stored_wood</td><td></td><td>stored wood</td></tr>
+<tr><td>$0042</td><td>66</td><td>!stored_grass</td><td>!stored_grass</td><td></td><td>stored grass/fodder</td></tr>
+<tr><td>$0044</td><td>68</td><td>$0196</td><td>$0196</td><td></td><td>unknown 16-bit value</td></tr>
+<tr><td>$0046</td><td>70</td><td>!planted_grass</td><td>!planted_grass</td><td></td><td>planted grass count</td></tr>
+<tr><td>$0048</td><td>72</td><td>!hearts_maria</td><td>!hearts_maria</td><td></td><td>Maria affection</td></tr>
+<tr><td>$004A</td><td>74</td><td>!hearts_ann</td><td>!hearts_ann</td><td></td><td>Ann affection</td></tr>
+<tr><td>$004C</td><td>76</td><td>!hearts_nina</td><td>!hearts_nina</td><td></td><td>Nina affection</td></tr>
+<tr><td>$004E</td><td>78</td><td>!hearts_ellen</td><td>!hearts_ellen</td><td></td><td>Ellen affection</td></tr>
+<tr><td>$0050</td><td>80</td><td>!hearts_eve</td><td>!hearts_eve</td><td></td><td>Eve affection</td></tr>
+<tr><td>$0060</td><td>96</td><td>$7F1F64</td><td>$7F1F64</td><td></td><td>unknown persistent word</td></tr>
+<tr><td>$0062</td><td>98</td><td>$7F1F66</td><td>$7F1F66</td><td></td><td>unknown persistent word</td></tr>
+<tr><td>$0064</td><td>100</td><td>$7F1F68</td><td>$7F1F68</td><td></td><td>unknown persistent word</td></tr>
+<tr><td>$0066</td><td>102</td><td>$7F1F6A</td><td>$7F1F6A</td><td></td><td>unknown persistent word</td></tr>
+<tr><td>$0068</td><td>104</td><td>!dog_pos_X</td><td>!dog_pos_X</td><td></td><td>dog X position</td></tr>
+<tr><td>$006A</td><td>106</td><td>!dog_pos_Y</td><td>!dog_pos_Y</td><td></td><td>dog Y position</td></tr>
+<tr><td>$006C</td><td>108</td><td>!happiness</td><td>!happiness</td><td></td><td>player/farm happiness</td></tr>
+<tr><td>$006E</td><td>110</td><td>$7F1F45</td><td>$7F1F45</td><td></td><td>unknown persistent word</td></tr>
+<tr><td>$0070</td><td>112</td><td>$7F1F6C</td><td>$7F1F6C</td><td></td><td>unknown persistent word</td></tr>
+<tr><td>$0072</td><td>114</td><td>$7F1F6E</td><td>$7F1F6E</td><td></td><td>unknown persistent word</td></tr>
+<tr><td>$0074</td><td>116</td><td>$7F1F70</td><td>$7F1F70</td><td></td><td>unknown persistent word</td></tr>
+<tr><td>$0076</td><td>118</td><td>$7F1F72</td><td>$7F1F72</td><td></td><td>unknown persistent word</td></tr>
+<tr><td>$0078</td><td>120</td><td>!wife_pregnancy</td><td>!wife_pregnancy</td><td></td><td>wife pregnancy state</td></tr>
+<tr><td>$007A</td><td>122</td><td>!kid1_age</td><td>!kid1_age</td><td></td><td>kid 1 age</td></tr>
+<tr><td>$007C</td><td>124</td><td>!kid2_age</td><td>!kid2_age</td><td></td><td>kid 2 age</td></tr>
+<tr><td>$007E</td><td>126</td><td>!dog_hugs</td><td>!dog_hugs</td><td></td><td>dog hug counter</td></tr>
+<tr><td>$0080</td><td>128</td><td>!player_name_sort_1</td><td>!player_name_sort_1</td><td>!player_name_sort_1</td><td>player_name character 1</td></tr>
+<tr><td>$0081</td><td>129</td><td>!player_name_sort_2</td><td>!player_name_sort_2</td><td>!player_name_sort_2</td><td>player_name character 2</td></tr>
+<tr><td>$0082</td><td>130</td><td>!player_name_sort_3</td><td>!player_name_sort_3</td><td>!player_name_sort_3</td><td>player_name character 3</td></tr>
+<tr><td>$0083</td><td>131</td><td>!player_name_sort_4</td><td>!player_name_sort_4</td><td>!player_name_sort_4</td><td>player_name character 4</td></tr>
+<tr><td>$0084</td><td>132</td><td>!shed_items_row_1</td><td>!shed_items_row_1</td><td></td><td>tool shed bitfield row</td></tr>
+<tr><td>$0085</td><td>133</td><td>!shed_items_row_2</td><td>!shed_items_row_2</td><td></td><td>tool shed bitfield row</td></tr>
+<tr><td>$0086</td><td>134</td><td>!shed_items_row_3</td><td>!shed_items_row_3</td><td></td><td>tool shed bitfield row</td></tr>
+<tr><td>$0087</td><td>135</td><td>!shed_items_row_4</td><td>!shed_items_row_4</td><td></td><td>tool shed bitfield row</td></tr>
+<tr><td>$0088</td><td>136</td><td>!dog_name_short_1</td><td>!dog_name_short_1</td><td></td><td>dog_name character 1</td></tr>
+<tr><td>$0089</td><td>137</td><td>!dog_name_short_2</td><td>!dog_name_short_2</td><td></td><td>dog_name character 2</td></tr>
+<tr><td>$008A</td><td>138</td><td>!dog_name_short_3</td><td>!dog_name_short_3</td><td></td><td>dog_name character 3</td></tr>
+<tr><td>$008B</td><td>139</td><td>!dog_name_short_4</td><td>!dog_name_short_4</td><td></td><td>dog_name character 4</td></tr>
+<tr><td>$008C</td><td>140</td><td>!horse_name_short_1</td><td>!horse_name_short_1</td><td></td><td>horse_name character 1</td></tr>
+<tr><td>$008D</td><td>141</td><td>!horse_name_short_2</td><td>!horse_name_short_2</td><td></td><td>horse_name character 2</td></tr>
+<tr><td>$008E</td><td>142</td><td>!horse_name_short_3</td><td>!horse_name_short_3</td><td></td><td>horse_name character 3</td></tr>
+<tr><td>$008F</td><td>143</td><td>!horse_name_short_4</td><td>!horse_name_short_4</td><td></td><td>horse_name character 4</td></tr>
+<tr><td>$0090</td><td>144</td><td>!kid1_name_sort_1</td><td>!kid1_name_sort_1</td><td></td><td>kid1_name character 1</td></tr>
+<tr><td>$0091</td><td>145</td><td>!kid1_name_sort_2</td><td>!kid1_name_sort_2</td><td></td><td>kid1_name character 2</td></tr>
+<tr><td>$0092</td><td>146</td><td>!kid1_name_sort_3</td><td>!kid1_name_sort_3</td><td></td><td>kid1_name character 3</td></tr>
+<tr><td>$0093</td><td>147</td><td>!kid1_name_sort_4</td><td>!kid1_name_sort_4</td><td></td><td>kid1_name character 4</td></tr>
+<tr><td>$0094</td><td>148</td><td>!kid2_name_sort_1</td><td>!kid2_name_sort_1</td><td></td><td>kid2_name character 1</td></tr>
+<tr><td>$0095</td><td>149</td><td>!kid2_name_sort_2</td><td>!kid2_name_sort_2</td><td></td><td>kid2_name character 2</td></tr>
+<tr><td>$0096</td><td>150</td><td>!kid2_name_sort_3</td><td>!kid2_name_sort_3</td><td></td><td>kid2_name character 3</td></tr>
+<tr><td>$0097</td><td>151</td><td>!kid2_name_sort_4</td><td>!kid2_name_sort_4</td><td></td><td>kid2_name character 4</td></tr>
+<tr><td>$0098</td><td>152</td><td>!chicken_array</td><td>!chicken_array</td><td></td><td>block copy: 13 chickens x 8 bytes = 104 bytes</td></tr>
+<tr><td>$0100</td><td>256</td><td>!cow_array</td><td>!cow_array</td><td></td><td>block copy: 12 cows x 16 bytes = 192 bytes</td></tr>
+<tr><td>$01C0</td><td>448</td><td>!farm_map_array[$00C0-$0EFF]</td><td>!farm_map_array[$00C0-$0EFF]</td><td></td><td>block copy: farm map/tile state to end of slot</td></tr></tbody></table>
+<script>function filter(){let q=document.getElementById('q').value.toLowerCase();document.querySelectorAll('#t tbody tr').forEach(tr=>{tr.style.display=tr.textContent.toLowerCase().includes(q)?'':'none';})}</script></body></html>

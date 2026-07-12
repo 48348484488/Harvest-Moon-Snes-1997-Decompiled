@@ -1,0 +1,960 @@
+group,entry,target,cmd_index,cmd_addr,cmd_name,text_id,text_label,text_category,inferred_role,semantic_bucket,group_confidence_before_pass78,text_preview
+$00,95,$B39129,3,$B39133,StartTextBox,03A3,Text_3A3_Animal_AhChickenFeather,Animal,livestock_chicken_context,animal_or_object_visual_setup,high,"Ah, This is a chicken feather?,"
+$00,134,$B39313,3,$B39321,StartTextBox,013A,Text_13A_Dialog_BuildTerrificOneLookForward,Dialog,npc_or_event_dialogue,animal_or_object_visual_setup,high,"I'll build a terrific one, Look forward to it."
+$00,134,$B39313,8,$B39336,StartTextBox,013B,Text_13B_Dialog_CostsGEnlargeHouseTake,Dialog,house_upgrade_or_family_context,animal_or_object_visual_setup,high,It costs <CTRL_B3><CTRL_B2><CTRL_B2><CTRL_B2><CTRL_B2>G to enlarge your house. Take it? Yes No…
+$00,134,$B39313,14,$B39352,StartTextBox,013C,Text_13C_Dialog_Have,Dialog,npc_or_event_dialogue,animal_or_object_visual_setup,high,Oh no:just do what you have to do.OK?
+$00,135,$B39313,3,$B39321,StartTextBox,013A,Text_13A_Dialog_BuildTerrificOneLookForward,Dialog,npc_or_event_dialogue,animal_or_object_visual_setup,high,"I'll build a terrific one, Look forward to it."
+$00,135,$B39313,8,$B39336,StartTextBox,013B,Text_13B_Dialog_CostsGEnlargeHouseTake,Dialog,house_upgrade_or_family_context,animal_or_object_visual_setup,high,It costs <CTRL_B3><CTRL_B2><CTRL_B2><CTRL_B2><CTRL_B2>G to enlarge your house. Take it? Yes No…
+$00,135,$B39313,14,$B39352,StartTextBox,013C,Text_13C_Dialog_Have,Dialog,npc_or_event_dialogue,animal_or_object_visual_setup,high,Oh no:just do what you have to do.OK?
+$01,1,$B39D05,15,$B39D41,StartTextBox,01C9,Text_1C9_Dialog_GivingWrongPerson,Dialog,child_family_event,mixed_event_script,medium,Hey: you are giving it to a wrong person.
+$01,1,$B39D05,18,$B39D50,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,mixed_event_script,medium,Thank you.
+$01,1,$B39D05,20,$B39D57,StartTextBox,03B8,Text_3B8_Dialog_Want,Dialog,npc_or_event_dialogue,mixed_event_script,medium,I don't want it.
+$01,1,$B39D05,36,$B39DB4,StartTextBox,0035,Text_035_Dialog_HowsGoingWorkTooHard,Dialog,npc_or_event_dialogue,mixed_event_script,medium,Hey: how's it going? Don't work too hard. Just take time.
+$01,1,$B39D05,38,$B39DBB,StartTextBox,0036,Text_036_Animal_AskFloristFlowersAskLivestock,Animal,npc_florist_family,mixed_event_script,medium,Ask the florist for flowers and ask the livestock delaerfor livestock. Better ask Mrs. Fortune-…
+$01,1,$B39D05,47,$B39DE7,StartTextBox,020B,Text_20B_Festival_OneHasGoFestivalBut,Festival,festival_event;weather_context,mixed_event_script,medium,No one has to go to the festival but please join us tomorrow.
+$01,1,$B39D05,49,$B39DEE,StartTextBox,023D,Text_23D_Festival_HaveHarvestFestivalTomorrowRight,Festival,festival_event;festival_or_title_context;weather_context,mixed_event_script,medium,We'll have the harvest festival tomorrow: right? Autumn has already been here.
+$01,1,$B39D05,51,$B39DF5,StartTextBox,02AD,Text_2AD_Animal_StarNightFestivalSupposedPray,Animal,festival_event,mixed_event_script,medium,On the Star Night Festival you are supposed to pray forthe night when you can see the most beau…
+$01,1,$B39D05,53,$B39DFC,StartTextBox,03EC,Text_3EC_Dialog_YearComingClose,Dialog,npc_or_event_dialogue,mixed_event_script,medium,This year is coming to a close.
+$01,1,$B39D05,56,$B39E09,StartTextBox,01CD,Text_1CD_Romance_MariaDadWasWrongCome,Romance,npc_maria_romance_or_family,mixed_event_script,medium,"Oh:Maria, Your dad was wrong.Please:please come back to me,"
+$01,1,$B39D05,60,$B39E16,StartTextBox,03C0,Text_3C0_Romance_MariaDoingLetMeKnow,Romance,npc_maria_romance_or_family,mixed_event_script,medium,Is Maria doing OK? Let me know if you are in trouble.
+$01,1,$B39D05,64,$B39E23,StartTextBox,03BF,Text_3BF_Romance_AhMrEcWantMaria,Romance,npc_maria_romance_or_family,mixed_event_script,medium,Ah:Mr. <CTRL_FFFD>eC You want to....well....to Maria...anyway:good luck.
+$01,1,$B39D05,76,$B39E51,StartTextBox,01C6,Text_1C6_Romance_SillyMarried,Romance,romance_or_marriage_dialogue,mixed_event_script,medium,Don't be silly:I'm married.
+$01,1,$B39D05,79,$B39E60,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,mixed_event_script,medium,Thank you.
+$01,1,$B39D05,81,$B39E67,StartTextBox,03B9,Text_3B9_Dialog_Trouble,Dialog,npc_or_event_dialogue,mixed_event_script,medium,I could be in trouble.
+$01,1,$B39D05,97,$B39EC4,StartTextBox,003A,Text_03A_Animal_EverybodyHasDifferentIdeasHappiness,Animal,npc_eve_romance_or_family,mixed_event_script,medium,Everybody has different ideas on what happiness means:right? I guess the best thing is to do wh…
+$01,1,$B39D05,99,$B39ECB,StartTextBox,003B,Text_03B_Sign_WorkingHardHaveChatFriends,Sign,event_dialogue_unknown_specific_owner,mixed_event_script,medium,You are working so hard. You should have a chat with your friends or go to mountains... to rela…
+$01,1,$B39D05,107,$B39EF4,StartTextBox,003F,Text_03F_Dialog_ThinkBadThingsIfDiscovered,Dialog,npc_or_event_dialogue,mixed_event_script,medium,Don't think it's OK to do bad things if it's not discovered. No one is perfect. We all make mis…
+$01,1,$B39D05,109,$B39EFB,StartTextBox,0202,Text_202_Festival_FlowerFestivalOnceUponTime,Festival,festival_event,mixed_event_script,medium,The flower festival is... once upon a time... The Goddess of Land was trying to cheer up a girl…
+$01,1,$B39D05,111,$B39F02,StartTextBox,023E,Text_23E_Festival_HarvestFestivalCelebratingYearsHarvest,Festival,festival_event;festival_or_title_context,mixed_event_script,medium,The harvest Festival is for celebrating the year's harvest.
+$01,1,$B39D05,113,$B39F09,StartTextBox,02AE,Text_2AE_Dialog_LookSkyItllBeautifulTomorrow,Dialog,weather_context,mixed_event_script,medium,Look at the sky. It'll be really beautiful tomorrow night.
+$01,1,$B39D05,115,$B39F10,StartTextBox,03ED,Text_3ED_Dialog_HappyLiveHealthWholeYear,Dialog,npc_or_event_dialogue,mixed_event_script,medium,We are happy to live in health this whole year.
+$01,1,$B39D05,118,$B39F1D,StartTextBox,01CE,Text_1CE_Romance_UsuallyQuietGirlButReason,Romance,child_family_event,mixed_event_script,medium,She is usually a quiet girl but...reason? ho-ho-ho: it's her father's fault.I'm sorry to troubl…
+$01,1,$B39D05,122,$B39F2A,StartTextBox,03C2,Text_3C2_Animal_AfterAllGirlHappiestwhenSomeone,Animal,event_dialogue_unknown_specific_owner,mixed_event_script,medium,After all:a girl is happiestwhen she is with someone shelikes. Me? Of course:I'm happy.
+$01,1,$B39D05,126,$B39F37,StartTextBox,03C1,Text_3C1_Romance_MariaOftenTalksaboutLately,Romance,npc_maria_romance_or_family,mixed_event_script,medium,Oh: Hello. Maria often talksabout you lately.
+$01,2,$B39F3E,17,$B39F7D,StartTextBox,01E0,Text_1E0_Animal_TraditionAreaCalledBlueFeather,Animal,event_dialogue_unknown_specific_owner,mixed_event_script,medium,"That's a tradition in this area called ""Blue feather ofhappiness."" Use it when you make a marri…"
+$01,2,$B39F3E,20,$B39F8C,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,mixed_event_script,medium,Thank you.
+$01,2,$B39F3E,22,$B39F93,StartTextBox,03B0,Text_3B0_Dialog_ThThank,Dialog,npc_or_event_dialogue,mixed_event_script,medium,......Th-thank you.
+$01,2,$B39F3E,39,$B39FEC,StartTextBox,0057,Text_057_Church_CalmInsideChurchManyPeople,Church,event_dialogue_unknown_specific_owner,mixed_event_script,medium,You can be calm inside the church.Not many people here:you know. It's crowded on holidays thoug…
+$01,2,$B39F3E,41,$B39FF3,StartTextBox,0058,Text_058_Animal_FeltTimeWentSlowlyWas,Animal,event_dialogue_unknown_specific_owner,mixed_event_script,medium,I felt time went by slowly when I was young. Now time goes by too fast and one year seems short…
+$01,2,$B39F3E,43,$B39FFA,StartTextBox,03CB,Text_3CB_Animal_ThinkPeopleWhoCheatWho,Animal,event_dialogue_unknown_specific_owner,mixed_event_script,medium,When I think of people who cheat and who are cheated: I suppose being cheated is kind of happie…
+$01,2,$B39F3E,56,$B3A030,StartTextBox,0205,Text_205_Manual_GodHasTaughtUsHeart,Manual,event_dialogue_unknown_specific_owner,mixed_event_script,medium,God has taught us that the heart is for appreciating flowers and to being open and relaxed.
+$01,2,$B39F3E,58,$B3A037,StartTextBox,03DC,Text_3DC_Animal_FestivalEndsSoyouMustGo,Animal,festival_event,mixed_event_script,medium,The festival ends at <CTRL_B5>:<CTRL_B2><CTRL_B2> soyou must go by then. The sky is colored red…
+$01,2,$B39F3E,60,$B3A03E,StartTextBox,03DC,Text_3DC_Animal_FestivalEndsSoyouMustGo,Animal,festival_event,mixed_event_script,medium,The festival ends at <CTRL_B5>:<CTRL_B2><CTRL_B2> soyou must go by then. The sky is colored red…
+$01,2,$B39F3E,68,$B3A060,StartTextBox,0405,Text_405_Church_EverybodyComeChurchPrayTomorrow,Church,npc_eve_romance_or_family;weather_context,mixed_event_script,medium,Everybody will come to church to pray tomorrow.
+$01,2,$B39F3E,70,$B3A067,StartTextBox,03F0,Text_3F0_Dialog_SpringNewYearAreaSt,Dialog,npc_or_event_dialogue,mixed_event_script,medium,Spring is New Year in this area. <CTRL_B3>st day of Spring is New Year's Day.
+$01,2,$B39F3E,73,$B3A074,StartTextBox,01CF,Text_1CF_Romance_SeemsMariaFatherArguedOver,Romance,npc_maria_romance_or_family,mixed_event_script,medium,It seems Maria and her father argued over you.
+$01,2,$B39F3E,77,$B3A07F,StartTextBox,03CC,Text_3CC_Romance_MostImportantThingLifeProbably,Romance,romance_or_marriage_dialogue,mixed_event_script,medium,The most important thing in life is probably having someone you love beside you.
+$01,3,$B3A086,8,$B3A0A4,StartTextBox,01C6,Text_1C6_Romance_SillyMarried,Romance,romance_or_marriage_dialogue,mixed_event_script,medium,Don't be silly:I'm married.
+$01,3,$B3A086,11,$B3A0B3,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,mixed_event_script,medium,Thank you.
+$01,3,$B3A086,14,$B3A0BE,StartTextBox,03B9,Text_3B9_Dialog_Trouble,Dialog,npc_or_event_dialogue,mixed_event_script,medium,I could be in trouble.
+$01,3,$B3A086,24,$B3A0F6,StartTextBox,0046,Text_046_Shop_AlwaysLookFineBagSeed,Sign,shop_or_purchase_context,mixed_event_script,medium,Hello. You always look fine.The bag of seed for sowing. It's convenient to buy a few bags at on…
+$01,3,$B3A086,27,$B3A101,StartTextBox,0047,Text_047_Dialog_GrassGrowsAutumnYoudontHave,Dialog,npc_or_event_dialogue,mixed_event_script,medium,Grass grows in Autumn so youdon't have to mow much before Winter.
+$01,3,$B3A086,30,$B3A10C,StartTextBox,03C5,Text_3C5_Romance_NinaLikesSweetsSuchAs,Romance,family_romance_gift_context;npc_nina_romance_or_family,mixed_event_script,medium,Nina likes sweets:such as cakes and berries of Fullmoon Plant. I like that one.
+$01,3,$B3A086,33,$B3A117,StartTextBox,0203,Text_203_Shipping_SellingWonderfulThingsFestivalTomorrow,Shipping,festival_event;shop_or_shipping_context;weather_context,mixed_event_script,medium,We'll be selling wonderful things at the festival tomorrow so look forward to it.
+$01,3,$B3A086,38,$B3A130,StartTextBox,0047,Text_047_Dialog_GrassGrowsAutumnYoudontHave,Dialog,npc_or_event_dialogue,mixed_event_script,medium,Grass grows in Autumn so youdon't have to mow much before Winter.
+$01,3,$B3A086,41,$B3A13B,StartTextBox,02AE,Text_2AE_Dialog_LookSkyItllBeautifulTomorrow,Dialog,weather_context,mixed_event_script,medium,Look at the sky. It'll be really beautiful tomorrow night.
+$01,3,$B3A086,44,$B3A146,StartTextBox,03EF,Text_3EF_Manual_SpringFinallyReturningSellSeeds,Manual,shop_or_purchase_context;shop_or_shipping_context,mixed_event_script,medium,Spring is finally returning.We'll sell seeds again at the shop so dropby.
+$01,3,$B3A086,48,$B3A157,StartTextBox,03C6,Text_3C6_Mountain_HoHoHoHowsNina,Sign,npc_nina_romance_or_family,mixed_event_script,medium,Ho-ho-ho:how's Nina doing? Doesn't she bother you by saying something selfish?
+$01,4,$B3A162,14,$B3A197,StartTextBox,01CA,Text_1CA_Romance_HaveGiveGirlLoveGirl,Romance,romance_or_marriage_dialogue,mixed_event_script,medium,You have to give it to the girl you love: OK? To the girl you want to marry.
+$01,4,$B3A162,17,$B3A1A6,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,mixed_event_script,medium,Thank you.
+$01,4,$B3A162,20,$B3A1B1,StartTextBox,0049,Text_049_Dialog_Entry,Dialog,npc_or_event_dialogue,mixed_event_script,medium,....
+$01,4,$B3A162,30,$B3A1F0,StartTextBox,0041,Text_041_Animal_HowsWorkGoingSomeWild,Animal,livestock_dog_context,mixed_event_script,medium,Hi: how's your work going? There are some wild dogs: so you should fix the fence.
+$01,4,$B3A162,33,$B3A1FB,StartTextBox,0040,Text_040_Romance_WonderIfDaughterAnncanGet,Romance,child_family_event;npc_ann_romance_or_family,mixed_event_script,medium,I wonder if our daughter Anncan get married living like that.
+$01,4,$B3A162,37,$B3A20D,StartTextBox,0040,Text_040_Romance_WonderIfDaughterAnncanGet,Romance,child_family_event;npc_ann_romance_or_family,mixed_event_script,medium,I wonder if our daughter Anncan get married living like that.
+$01,4,$B3A162,40,$B3A218,StartTextBox,03DC,Text_3DC_Animal_FestivalEndsSoyouMustGo,Animal,festival_event,mixed_event_script,medium,The festival ends at <CTRL_B5>:<CTRL_B2><CTRL_B2> soyou must go by then. The sky is colored red…
+$01,4,$B3A162,44,$B3A22A,StartTextBox,0416,Text_416_Dialog_LikeWinterBecauseFeelsKind,Dialog,npc_or_event_dialogue,mixed_event_script,medium,I don't like winter because it feels kind of lonely.
+$01,4,$B3A162,47,$B3A235,StartTextBox,03EE,Text_3EE_Dialog_PickTargetFornextYear,Dialog,npc_or_event_dialogue,mixed_event_script,medium,You should pick a target fornext year.
+$01,4,$B3A162,53,$B3A24C,StartTextBox,03C3,Text_3C3_Romance_MrComeOftenbutWantHave,Romance,romance_or_marriage_dialogue,mixed_event_script,medium,Mr. ...: you come here oftenbut you don't want to have achat with me:do you? I see... maybe it'…
+$01,4,$B3A162,56,$B3A257,StartTextBox,03C4,Text_3C4_Romance_HowsAnnDoingWorkingAs,Romance,npc_ann_romance_or_family;wife_family_event,mixed_event_script,medium,How's Ann doing? Is she working well as a good wife?I'm so very worried about her...
+$01,4,$B3A162,59,$B3A262,StartTextBox,01DC,Text_1DC_Weather_MadeWeatherCockFormyWife,Weather,npc_ann_romance_or_family;weather_context;wife_family_event,mixed_event_script,medium,I made that weather-cock formy wife.so it's just like a memento for Ann. She's usually cheerful…
+$01,4,$B3A162,72,$B3A299,StartTextBox,043E,Text_43E_Weather_SoundsGoodButNowiSunny,Weather,weather_forecast_system,mixed_event_script,medium,What? It sounds good but nowI can't... On sunny Saturdays: I'll be waiting for you in front of…
+$01,4,$B3A162,74,$B3A2A0,StartTextBox,0176,Text_176_Dialog_YoureKidding,Dialog,npc_or_event_dialogue,mixed_event_script,medium,You're kidding...
+$01,4,$B3A162,83,$B3A2DB,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,mixed_event_script,medium,Thank you.
+$01,4,$B3A162,85,$B3A2E2,StartTextBox,03B4,Text_3B4_Dialog_PlayingNastyTrickMe,Dialog,npc_or_event_dialogue,mixed_event_script,medium,Are you playing a nasty trick on me?
+$01,4,$B3A162,88,$B3A2EF,StartTextBox,03B2,Text_3B2_Dialog_ThankLooksDelicious,Dialog,npc_or_event_dialogue,mixed_event_script,medium,Thank you. It looks delicious.
+$01,4,$B3A162,91,$B3A2FC,StartTextBox,0212,Text_212_Dialog_WowThanksLotMmmmSmells,Dialog,npc_or_event_dialogue,mixed_event_script,medium,Wow:thanks a lot. Mmmm:it smells so good.
+$01,4,$B3A162,94,$B3A309,StartTextBox,03B4,Text_3B4_Dialog_PlayingNastyTrickMe,Dialog,npc_or_event_dialogue,mixed_event_script,medium,Are you playing a nasty trick on me?
+$01,4,$B3A162,108,$B3A350,StartTextBox,0096,Text_096_Dialog_GoingMakeGreatToolsLike,Dialog,tool_context,mixed_event_script,medium,"I'm going to make great tools like my dad,"
+$01,4,$B3A162,110,$B3A357,StartTextBox,009E,Text_09E_Dialog_KnowButFeelsGoodSpring,Dialog,npc_or_event_dialogue,mixed_event_script,medium,"Well...I don't know why but...it feels good in spring. I go like ""OK:it's show time,"""
+$01,4,$B3A162,112,$B3A35E,StartTextBox,0207,Text_207_Festival_FlowerFestivalTomorrowGoodRelax,Festival,festival_event;weather_context,mixed_event_script,medium,It's the Flower Festival tomorrow.It's good to relax once in a while.
+$01,4,$B3A162,118,$B3A372,StartTextBoxCopy,0097,Text_097_Sign_ItllShowcasedShopOneThese,Sign,shop_or_purchase_context,mixed_event_script,medium,It'll be showcased at the shop one of these days so please try it. Hum I don't want it<CHOICE_O…
+$01,4,$B3A162,122,$B3A381,StartTextBox,0098,Text_098_Dialog_TrustMe,Dialog,npc_or_event_dialogue,mixed_event_script,medium,Trust me.
+$01,4,$B3A162,125,$B3A38E,StartTextBox,0099,Text_099_Dialog_TrustMe,Dialog,npc_or_event_dialogue,mixed_event_script,medium,You don't trust me: do you?
+$01,4,$B3A162,128,$B3A39B,StartTextBox,009F,Text_09F_Romance_LoveSummerThoughHot,Romance,romance_or_marriage_dialogue,mixed_event_script,medium,I love summer though it's hot.
+$01,4,$B3A162,135,$B3A3B6,StartTextBox,009A,Text_09A_Dialog_SeemsLittleDifferentPlanHad,Dialog,npc_or_event_dialogue,mixed_event_script,medium,It seems a little different from the plan I had but...nobig deal.
+$01,4,$B3A162,137,$B3A3BD,StartTextBox,00A0,Text_0A0_Dialog_ConstantEffortImportantKnowSaysuccess,Dialog,npc_or_event_dialogue,mixed_event_script,medium,well:constant effort is important:you know. They saysuccess comes from failure.
+$01,4,$B3A162,139,$B3A3C4,StartTextBox,0239,Text_239_Festival_HaveDecidedTakeFestivalWantto,Festival,festival_event,mixed_event_script,medium,Have you decided what to take to the festival? I wantto complete my machine and present it in p…
+$01,4,$B3A162,147,$B3A3E6,StartTextBoxCopy,009B,Text_09B_Romance_ActingLikeGirlAllBad,Romance,romance_or_marriage_dialogue,mixed_event_script,medium,Aren't I acting like a girl? No:not at all Not that bad<CHOICE_OR_WAIT>c
+$01,4,$B3A162,151,$B3A3F5,StartTextBox,009C,Text_09C_Dialog_Outspoken,Dialog,npc_or_event_dialogue,mixed_event_script,medium,"How outspoken you are,"
+$01,4,$B3A162,154,$B3A402,StartTextBox,009D,Text_09D_Romance_MyDadAlwaysTellsMe,Romance,romance_or_marriage_dialogue,mixed_event_script,medium,My dad always tells me to act like a girl but I wonderexactly what acting like a girl means.
+$01,4,$B3A162,157,$B3A40F,StartTextBox,00A1,Text_0A1_Animal_LooksColdOutsideTurnsWhite,Animal,event_dialogue_unknown_specific_owner,mixed_event_script,medium,It looks cold outside.It turns white when you breatheout:doesn't it?
+$01,4,$B3A162,159,$B3A416,StartTextBox,02B0,Text_2B0_Dialog_TomorrowHehHehGoingWonderful,Dialog,npc_or_event_dialogue,mixed_event_script,medium,Tomorrow? Heh-heh:I'm going to a wonderful place.
+$01,4,$B3A162,161,$B3A41D,StartTextBox,03F9,Text_3F9_Romance_YearEndingDevelopCompleteGreat,Romance,romance_or_marriage_dialogue,mixed_event_script,medium,.....this year is ending. I'll develop and complete a great machine next year.
+$01,4,$B3A162,164,$B3A42A,StartTextBox,00A7,Text_0A7_Dialog_LetsBestShall,Dialog,npc_or_event_dialogue,mixed_event_script,medium,Let's do our best:shall we?
+$01,4,$B3A162,166,$B3A431,StartTextBox,01DE,Text_1DE_Dialog_FindAha,Dialog,npc_or_event_dialogue,mixed_event_script,medium,You can't find it...aha...
+$01,5,$B3A438,15,$B3A475,StartTextBox,01C7,Text_1C7_Dialog_WhoPlayingJokeYoungMan,Dialog,npc_or_event_dialogue,mixed_event_script,medium,Who are you playing a joke on:young man?
+$01,5,$B3A438,18,$B3A484,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,mixed_event_script,medium,Thank you.
+$01,5,$B3A438,21,$B3A48F,StartTextBox,03BB,Text_3BB_Dialog_TakeKindofStuff,Dialog,npc_or_event_dialogue,mixed_event_script,medium,What? I can't take this kindof stuff.
+$01,5,$B3A438,33,$B3A4CD,StartTextBox,004C,Text_04C_Dialog_CoincidenceHavingMealToday,Dialog,npc_or_event_dialogue,mixed_event_script,medium,What a coincidence. Are you having a meal here today?
+$01,5,$B3A438,36,$B3A4D8,StartTextBox,004D,Text_04D_Dialog_EasyWorkSteadilyButWorthwhile,Dialog,npc_or_event_dialogue,mixed_event_script,medium,It's not easy to work steadily but it's worthwhile.
+$01,5,$B3A438,41,$B3A4ED,StartTextBox,023F,Text_23F_Dialog_BringFoodsEatGreatHarvest,Dialog,festival_or_title_context,mixed_event_script,medium,Please bring foods to eat for the great harvest stew.
+$01,5,$B3A438,46,$B3A502,StartTextBox,03EC,Text_3EC_Dialog_YearComingClose,Dialog,npc_or_event_dialogue,mixed_event_script,medium,This year is coming to a close.
+$01,5,$B3A438,50,$B3A513,StartTextBox,03C7,Text_3C7_Romance_IfWantWifeChooseGirl,Romance,child_family_event;wife_family_event,mixed_event_script,medium,If you want a wife:choose a girl who likes children. Girls like that can have many children.
+$01,5,$B3A438,53,$B3A51E,StartTextBox,03C8,Text_3C8_Romance_LookLittleHeavierYoutEllen,Romance,npc_ellen_romance_or_family,mixed_event_script,medium,What? You look a little heavier:don't yout? Ellen is just like me: she is not only a pretty gir…
+$01,5,$B3A438,55,$B3A526,StartTextBox,03CA,Text_3CA_Dialog_CarryJokestoFar,Dialog,npc_or_event_dialogue,mixed_event_script,medium,Hey you:you carry your jokesto far.
+$01,5,$B3A438,57,$B3A52D,StartTextBox,01ED,Text_1ED_Romance_EllensBirdFlewAwayPretty,Romance,npc_ellen_romance_or_family,mixed_event_script,medium,Ellen's bird flew away so she is pretty depressed.
+$01,5,$B3A438,64,$B3A54B,StartTextBox,01C8,Text_1C8_Dialog_Come,Dialog,npc_or_event_dialogue,mixed_event_script,medium,"That's it, Come on,"
+$01,5,$B3A438,66,$B3A552,StartTextBox,03BC,Text_3BC_Dialog_GiveMe,Dialog,npc_or_event_dialogue,mixed_event_script,medium,What? Do you give it to me?
+$01,5,$B3A438,75,$B3A573,StartTextBox,0051,Text_051_Dialog_HowdyYoungBoysWhatsUp,Dialog,npc_or_event_dialogue,mixed_event_script,medium,"Howdy:young boys, What's up?....hic."
+$01,5,$B3A438,77,$B3A57A,StartTextBox,0052,Text_052_Animal_HicWorkingLikeDogOnly,Animal,livestock_dog_context,mixed_event_script,medium,...hic:working like a dog is not the only way to live.
+$01,5,$B3A438,79,$B3A581,StartTextBox,03C9,Text_3C9_Romance_LotThingsHappenWhileAlive,Romance,romance_or_marriage_dialogue,mixed_event_script,medium,Oh well:a lot of things happen while you are alive. You just couldn't go through your life if y…
+$01,5,$B3A438,82,$B3A58F,StartTextBox,03C9,Text_3C9_Romance_LotThingsHappenWhileAlive,Romance,romance_or_marriage_dialogue,mixed_event_script,medium,Oh well:a lot of things happen while you are alive. You just couldn't go through your life if y…
+$01,5,$B3A438,84,$B3A596,StartTextBox,03FD,Text_3FD_Weather_LastJuiceDrinkSeeingSnow,Weather,weather_forecast_system,mixed_event_script,medium,This is the last juice to drink seeing snow this year.Well:we can drink juice again seeing flow…
+$01,6,$B3A5B1,14,$B3A5E1,StartTextBox,01CA,Text_1CA_Romance_HaveGiveGirlLoveGirl,Romance,romance_or_marriage_dialogue,mixed_event_script,medium,You have to give it to the girl you love: OK? To the girl you want to marry.
+$01,6,$B3A5B1,18,$B3A5F4,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,mixed_event_script,medium,Thank you.
+$01,6,$B3A5B1,21,$B3A5FF,StartTextBox,03BB,Text_3BB_Dialog_TakeKindofStuff,Dialog,npc_or_event_dialogue,mixed_event_script,medium,What? I can't take this kindof stuff.
+$01,6,$B3A5B1,39,$B3A65C,StartTextBox,0062,Text_062_Romance_TheresUsefulBookOverAbout,Romance,romance_or_marriage_dialogue,mixed_event_script,medium,There's a useful book over there: about girls:I wrote it.Better read it.
+$01,6,$B3A5B1,42,$B3A667,StartTextBox,0060,Text_060_Dialog_RedoLifeMightHaveSecond,Dialog,npc_or_event_dialogue,mixed_event_script,medium,You can't redo your life. You might not have the second chance. Think before you act.
+$01,6,$B3A5B1,50,$B3A683,StartTextBox,03E9,Text_3E9_Dialog_FaceBecomingBetterLooking,Dialog,npc_or_event_dialogue,mixed_event_script,medium,Hey:your face is becoming better looking.
+$01,6,$B3A5B1,53,$B3A68E,StartTextBoxCopy,03E5,Text_3E5_Romance_TellOnlyDadSecretlyWhich,Romance,npc_maria_romance_or_family,mixed_event_script,medium,Will you tell it to only your dad secretly? Which girl are you most interes ted in now? Maria A…
+$01,6,$B3A5B1,59,$B3A6A6,StartTextBox,03E6,Text_3E6_Church_AhaMariaShesChurchSaturdays,Church,npc_maria_romance_or_family,mixed_event_script,medium,aha:Maria. She's at church on Saturdays and Sundays. Flower is the best present. Man has to be…
+$01,6,$B3A5B1,63,$B3A6B7,StartTextBox,03E7,Text_3E7_Festival_AnnGoesAloneSpaStar,Festival,festival_event;npc_ann_romance_or_family,mixed_event_script,medium,Oh:Ann. She goes alone to the spa on Star Night Festival day. The Lucky day is Saturday. She li…
+$01,6,$B3A5B1,67,$B3A6C8,StartTextBox,03E8,Text_3E8_Sign_NinaGoesPickingHerbsSaturdays,Sign,npc_nina_romance_or_family,mixed_event_script,medium,Hey:Nina. She goes picking herbs on Saturdays and to the mountains on Sunday. She likes sweets.…
+$01,6,$B3A5B1,71,$B3A6D9,StartTextBox,0465,Text_465_Animal_SeeEllenShesBehindPen,Animal,npc_ellen_romance_or_family,mixed_event_script,medium,I see:Ellen. She's behind the pen on Saturdays. She's at the public square on Star Night Festiv…
+$01,6,$B3A5B1,75,$B3A6EA,StartTextBox,0466,Text_466_Sign_EveHmmGoBarAsmany,Sign,npc_eve_romance_or_family,mixed_event_script,medium,Eve..hmm... Go to the bar asmany times as you can and goto the mountain on Saturdays and Sunday…
+$01,6,$B3A5B1,79,$B3A6FB,StartTextBox,01D1,Text_1D1_Mountain_MariaGoWenttoExactlyNortheast,Sign,npc_maria_romance_or_family,mixed_event_script,medium,Where did Maria go? She wentto...exactly northeast. You see a pond there.
+$01,6,$B3A5B1,82,$B3A706,StartTextBox,01DD,Text_1DD_Weather_DirectionWhichWeatherCockWent,Weather,weather_context,mixed_event_script,medium,The Direction in which the weather-cock went to? Somewhere you can keep away from the rain.And…
+$01,6,$B3A5B1,85,$B3A711,StartTextBox,01E6,Text_1E6_Romance_MmmmGirlFellDownDark,Romance,romance_or_marriage_dialogue,mixed_event_script,medium,Mmmm:a girl fell down in a dark: small place. Go get her right away before it's too late.
+$01,6,$B3A5B1,88,$B3A71C,StartTextBox,01EF,Text_1EF_Sign_WhichDirectionBluebirdGoThink,Sign,event_dialogue_unknown_specific_owner,mixed_event_script,medium,Which direction did the bluebird go? Well:I think I saw it flying up towards the mountain.
+$01,7,$B3A727,11,$B3A74E,StartTextBox,01C9,Text_1C9_Dialog_GivingWrongPerson,Dialog,child_family_event,mixed_event_script,medium,Hey: you are giving it to a wrong person.
+$01,7,$B3A727,15,$B3A761,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,mixed_event_script,medium,Thank you.
+$01,7,$B3A727,18,$B3A76C,StartTextBox,03BB,Text_3BB_Dialog_TakeKindofStuff,Dialog,npc_or_event_dialogue,mixed_event_script,medium,What? I can't take this kindof stuff.
+$01,7,$B3A727,28,$B3A799,StartTextBox,005C,Text_05C_Animal_ToughTakeCareCowsTake,Animal,livestock_cow_context,mixed_event_script,medium,It's tough to take care of cows.Take good care of them so that they do not get sick.My note is…
+$01,7,$B3A727,31,$B3A7A4,StartTextBox,005D,Text_05D_Animal_HensLayEggsPutCage,Animal,event_dialogue_unknown_specific_owner,mixed_event_script,medium,Hey:do your hens lay eggs? Put them in the cage. And feed them every day. They won't lay eggs f…
+$01,7,$B3A727,36,$B3A7BE,StartTextBox,005D,Text_05D_Animal_HensLayEggsPutCage,Animal,event_dialogue_unknown_specific_owner,mixed_event_script,medium,Hey:do your hens lay eggs? Put them in the cage. And feed them every day. They won't lay eggs f…
+$01,7,$B3A727,41,$B3A7D8,StartTextBox,0407,Text_407_Animal_WinterGoodTimeFriendsLivestock,Animal,event_dialogue_unknown_specific_owner,mixed_event_script,medium,winter is a good time to be friends with livestock. Well:with girls too.
+$01,7,$B3A727,44,$B3A7E3,StartTextBox,03F4,Text_3F4_Animal_WinAgainEggFestivalTomorrow,Animal,festival_event;weather_context,mixed_event_script,medium,I will win again at the Egg Festival tomorrow.
+$01,7,$B3A727,47,$B3A7EE,StartTextBox,0146,Text_146_Animal_LongWinterFinallyOverAnimals,Animal,event_dialogue_unknown_specific_owner,mixed_event_script,medium,Hey:the long winter is finally over. Animals looks so happy when springs comes too.
+$01,7,$B3A727,53,$B3A805,StartTextBox,03CF,Text_3CF_Manual_PrettyHardMoveCowsAs,Manual,livestock_cow_context,mixed_event_script,medium,It's pretty hard to move cows as you intend. Well:it takes time and guts to do it properly. I'm…
+$01,7,$B3A727,56,$B3A810,StartTextBox,01F0,Text_1F0_Romance_EllenDependsLookAfter,Romance,npc_ellen_romance_or_family,mixed_event_script,medium,Ellen depends on you: doesn't she? Look after her.
+$01,9,$B3AD24,10,$B3AD48,StartTextBox,01C8,Text_1C8_Dialog_Come,Dialog,npc_or_event_dialogue,mixed_event_script,medium,"That's it, Come on,"
+$01,9,$B3AD24,13,$B3AD57,StartTextBox,03BC,Text_3BC_Dialog_GiveMe,Dialog,npc_or_event_dialogue,mixed_event_script,medium,What? Do you give it to me?
+$01,9,$B3AD24,15,$B3AD5E,StartTextBox,03BB,Text_3BB_Dialog_TakeKindofStuff,Dialog,npc_or_event_dialogue,mixed_event_script,medium,What? I can't take this kindof stuff.
+$01,9,$B3AD24,21,$B3AD81,StartTextBoxCopy,0130,Text_130_Dialog_WantEnlargeHouseC,Dialog,house_upgrade_or_family_context,mixed_event_script,medium,Do you want to enlarge your house? Yes No<CHOICE_OR_WAIT>c
+$01,9,$B3AD24,26,$B3AD95,StartTextBox,0131,Text_131_Dialog_RanchTomorrow,Dialog,ranch_livestock_context;weather_context,mixed_event_script,medium,OK.I'll be at the ranch tomorrow.
+$01,9,$B3AD24,28,$B3AD9C,StartTextBox,0132,Text_132_Animal_LetMeKnowWheneverWant,Animal,event_dialogue_unknown_specific_owner,mixed_event_script,medium,Let me know whenever you want to do it.
+$01,9,$B3AD24,30,$B3ADA3,StartTextBox,0139,Text_139_Dialog_HeeHeeLookForward,Dialog,npc_or_event_dialogue,mixed_event_script,medium,Hee-hee:look forward to it.
+$01,9,$B3AD24,32,$B3ADAA,StartTextBox,0133,Text_133_Dialog_LikeLivingSuperDeluxeGreat,Dialog,npc_or_event_dialogue,mixed_event_script,medium,"How do you like living in the ""Super Deluxe Great Log House""? Isn't it great?"
+$01,10,$B3ADB1,9,$B3ADD2,StartTextBoxCopy,0170,Text_170_Dialog_ListenGoThroughRock,Dialog,npc_or_event_dialogue,mixed_event_script,medium,Hey:listen: we can go through the rock.
+$01,10,$B3ADB1,14,$B3ADE7,StartTextBox,0171,Text_171_Dialog_MightAbleGoEndRanch,Dialog,ranch_livestock_context,mixed_event_script,medium,It might be able to go to the end of the ranch faster through here. But time still goes on.
+$01,10,$B3ADB1,19,$B3ADFC,StartTextBox,0172,Text_172_Animal_HaveSeenMoleScaresCows,Animal,livestock_cow_context,mixed_event_script,medium,Have you seen a mole?It scares the cows sometimes. You'd better kick it out of the fence right…
+$02,0,$B3AE23,24,$B3AE8E,StartTextBox,01CA,Text_1CA_Romance_HaveGiveGirlLoveGirl,Romance,romance_or_marriage_dialogue,family_romance_dialogue_matrix,high,You have to give it to the girl you love: OK? To the girl you want to marry.
+$02,0,$B3AE23,27,$B3AE9D,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$02,0,$B3AE23,29,$B3AEA4,StartTextBox,0049,Text_049_Dialog_Entry,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,....
+$02,1,$B3B44A,9,$B3B46C,StartTextBox,01C9,Text_1C9_Dialog_GivingWrongPerson,Dialog,child_family_event,family_romance_dialogue_matrix,high,Hey: you are giving it to a wrong person.
+$02,1,$B3B44A,12,$B3B47B,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$02,1,$B3B44A,14,$B3B482,StartTextBox,03B8,Text_3B8_Dialog_Want,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,I don't want it.
+$02,1,$B3B44A,17,$B3B490,StartTextBox,0038,Text_038_Dialog_OffTodayKeepUpAll,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,You are off today: aren't you? We can't keep it up all the time.
+$02,1,$B3B44A,19,$B3B497,StartTextBox,01CD,Text_1CD_Romance_MariaDadWasWrongCome,Romance,npc_maria_romance_or_family,family_romance_dialogue_matrix,high,"Oh:Maria, Your dad was wrong.Please:please come back to me,"
+$02,1,$B3B44A,25,$B3B4B1,StartTextBox,01C6,Text_1C6_Romance_SillyMarried,Romance,romance_or_marriage_dialogue,family_romance_dialogue_matrix,high,Don't be silly:I'm married.
+$02,1,$B3B44A,28,$B3B4C0,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$02,1,$B3B44A,30,$B3B4C7,StartTextBox,03B9,Text_3B9_Dialog_Trouble,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,I could be in trouble.
+$02,1,$B3B44A,33,$B3B4D5,StartTextBox,003D,Text_03D_Dialog_LikeTakingMyTimeReading,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,I like taking my time reading books.That's one of my happiest times.
+$02,1,$B3B44A,35,$B3B4DC,StartTextBox,01CE,Text_1CE_Romance_UsuallyQuietGirlButReason,Romance,child_family_event,family_romance_dialogue_matrix,high,She is usually a quiet girl but...reason? ho-ho-ho: it's her father's fault.I'm sorry to troubl…
+$02,2,$B3B4E3,14,$B3B51D,StartTextBox,01E0,Text_1E0_Animal_TraditionAreaCalledBlueFeather,Animal,event_dialogue_unknown_specific_owner,family_romance_dialogue_matrix,high,"That's a tradition in this area called ""Blue feather ofhappiness."" Use it when you make a marri…"
+$02,2,$B3B4E3,17,$B3B52C,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$02,2,$B3B4E3,19,$B3B533,StartTextBox,03B0,Text_3B0_Dialog_ThThank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,......Th-thank you.
+$02,2,$B3B4E3,22,$B3B541,StartTextBox,005A,Text_05A_Dialog_NecessarilyRightWrongDailyIncidents,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,It's not necessarily right or wrong. Daily incidents are neither. It's up to you:really.
+$02,2,$B3B4E3,24,$B3B548,StartTextBox,01CF,Text_1CF_Romance_SeemsMariaFatherArguedOver,Romance,npc_maria_romance_or_family,family_romance_dialogue_matrix,high,It seems Maria and her father argued over you.
+$02,2,$B3B4E3,30,$B3B562,StartTextBox,01CA,Text_1CA_Romance_HaveGiveGirlLoveGirl,Romance,romance_or_marriage_dialogue,family_romance_dialogue_matrix,high,You have to give it to the girl you love: OK? To the girl you want to marry.
+$02,2,$B3B4E3,33,$B3B571,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$02,2,$B3B4E3,35,$B3B578,StartTextBox,03BB,Text_3BB_Dialog_TakeKindofStuff,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,What? I can't take this kindof stuff.
+$02,2,$B3B4E3,41,$B3B59B,StartTextBox,03EA,Text_3EA_Dialog_YoudBetterListenOldPreacher,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,You'd better listen to the old preacher.
+$02,2,$B3B4E3,43,$B3B5A2,StartTextBox,01D1,Text_1D1_Mountain_MariaGoWenttoExactlyNortheast,Sign,npc_maria_romance_or_family,family_romance_dialogue_matrix,high,Where did Maria go? She wentto...exactly northeast. You see a pond there.
+$02,2,$B3B4E3,46,$B3B5AD,StartTextBox,01DD,Text_1DD_Weather_DirectionWhichWeatherCockWent,Weather,weather_context,family_romance_dialogue_matrix,high,The Direction in which the weather-cock went to? Somewhere you can keep away from the rain.And…
+$02,2,$B3B4E3,49,$B3B5B8,StartTextBox,01E6,Text_1E6_Romance_MmmmGirlFellDownDark,Romance,romance_or_marriage_dialogue,family_romance_dialogue_matrix,high,Mmmm:a girl fell down in a dark: small place. Go get her right away before it's too late.
+$02,2,$B3B4E3,52,$B3B5C3,StartTextBox,01EF,Text_1EF_Sign_WhichDirectionBluebirdGoThink,Sign,event_dialogue_unknown_specific_owner,family_romance_dialogue_matrix,high,Which direction did the bluebird go? Well:I think I saw it flying up towards the mountain.
+$02,2,$B3B4E3,63,$B3B5F6,StartTextBox,0173,Text_173_Dialog_Happy,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,I'm happy....
+$02,3,$B3B6E1,20,$B3B73C,StartTextBox,01C9,Text_1C9_Dialog_GivingWrongPerson,Dialog,child_family_event,family_romance_dialogue_matrix,high,Hey: you are giving it to a wrong person.
+$02,3,$B3B6E1,23,$B3B74B,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$02,3,$B3B6E1,25,$B3B752,StartTextBox,03B8,Text_3B8_Dialog_Want,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,I don't want it.
+$02,3,$B3B6E1,28,$B3B761,StartTextBoxCopy,007E,Text_07E_Mountain_WantFishC,Sign,event_dialogue_unknown_specific_owner,family_romance_dialogue_matrix,high,Hey:do you want to fish? Yes No<CHOICE_OR_WAIT>c
+$02,3,$B3B6E1,33,$B3B775,StartTextBox,007F,Text_07F_Manual_UseMyFishingRodUse,Manual,event_dialogue_unknown_specific_owner,family_romance_dialogue_matrix,high,OK:you can use my fishing rod. Use Y button.
+$02,3,$B3B6E1,35,$B3B77C,StartTextBox,0080,Text_080_Shipping_PrettyGoodTastesGoodSells,Shipping,shop_or_shipping_context,family_romance_dialogue_matrix,high,No:this is pretty good. It tastes good and sells at a high price.
+$02,3,$B3B6E1,38,$B3B788,StartTextBox,0081,Text_081_Dialog_VisitUsAgain,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Visit us again.
+$02,3,$B3B6E1,40,$B3B78F,StartTextBox,0151,Text_151_Dialog_BusyBusy,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,I'm busy: busy.
+$02,3,$B3B6E1,42,$B3B796,StartTextBox,0392,Text_392_Dialog_BetterGoHomeNow,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Better go home now.
+$02,4,$B3B8D2,21,$B3B92F,StartTextBox,043F,Text_43F_Weather_UummmAnswerNowIfSunny,Weather,weather_forecast_system,family_romance_dialogue_matrix,high,........Uummm:well:I can't answer now. If it's sunny...will you come to the mountain on Sunday?…
+$02,4,$B3B8D2,23,$B3B936,StartTextBox,0178,Text_178_Dialog_AfraidTooEarly,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,I'm afraid it's too early...
+$02,4,$B3B8D2,33,$B3B978,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$02,4,$B3B8D2,35,$B3B97F,StartTextBox,03B2,Text_3B2_Dialog_ThankLooksDelicious,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you. It looks delicious.
+$02,4,$B3B8D2,38,$B3B98C,StartTextBox,0212,Text_212_Dialog_WowThanksLotMmmmSmells,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Wow:thanks a lot. Mmmm:it smells so good.
+$02,4,$B3B8D2,41,$B3B999,StartTextBox,03B1,Text_3B1_Dialog_PickUpHerbsWithoutThinking,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Don't pick up herbs without thinking what they are for.
+$02,4,$B3B8D2,44,$B3B9A6,StartTextBox,01D9,Text_1D9_Dialog_Rude,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,"How rude,"
+$02,4,$B3B8D2,47,$B3B9B3,StartTextBox,0143,Text_143_Romance_LikeNina,Romance,npc_nina_romance_or_family,family_romance_dialogue_matrix,high,.....Do you like...Nina?
+$02,4,$B3B8D2,57,$B3B9E5,StartTextBox,040C,Text_40C_Dialog_VeryLittleLightAboveReaches,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,A very little light from above reaches the ground. Those herbs over there lives only with it.
+$02,4,$B3B8D2,59,$B3B9EC,StartTextBox,040D,Text_40D_Romance_NinasDreamLiveSurroundedFlowers,Romance,npc_nina_romance_or_family,family_romance_dialogue_matrix,high,Nina's dream is to live surrounded by flowers.
+$02,4,$B3B8D2,61,$B3B9F3,StartTextBox,040E,Text_40E_Romance_FlowersLoveThemallLikeWeeds,Romance,romance_or_marriage_dialogue,family_romance_dialogue_matrix,high,Not just flowers:I love themall like weeds and vegetable. I want to do garden forever.
+$02,4,$B3B8D2,63,$B3B9FA,StartTextBox,00C1,Text_0C1_Animal_FlowersEdibleUsedMedicinalPurposes,Animal,event_dialogue_unknown_specific_owner,family_romance_dialogue_matrix,high,Flowers can be edible and used for medicinal purposes as well as making us feel comfortable.But…
+$02,4,$B3B8D2,65,$B3BA01,StartTextBoxCopy,00C2,Text_0C2_Dialog_HeardWasSecretGardenRanch,Dialog,ranch_livestock_context,family_romance_dialogue_matrix,high,"I heard there was the ""Secret Garden"" in the ranch. Is it so? I want to go see it. OK I don't w…"
+$02,4,$B3B8D2,69,$B3BA10,StartTextBox,00C3,Text_0C3_Dialog_WowHardlyWait,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Wow:I can hardly wait.
+$02,4,$B3B8D2,72,$B3BA1D,StartTextBox,00C4,Text_0C4_Dialog_MeanForget,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,"How mean, Forget it,"
+$02,4,$B3B8D2,75,$B3BA2A,StartTextBox,00B1,Text_0B1_Dialog_Ugh,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,ugh...
+$02,4,$B3B8D2,77,$B3BA31,StartTextBox,0391,Text_391_Dialog_LateWedBetterGoHome,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,It's late so we'd better go home now.
+$03,0,$B3BA59,23,$B3BADB,StartTextBoxCopy,01C3,Text_1C3_Shop_BlueFeatherHappinessHappinessDifferent,Sign,event_dialogue_unknown_specific_owner,family_romance_dialogue_matrix,high,"This is ""Blue feather of happiness.""Well:happiness is different for each one though. Right now:…"
+$03,0,$B3BA59,27,$B3BAF3,StartTextBox,01C4,Text_1C4_Church_GodBless,Church,event_dialogue_unknown_specific_owner,family_romance_dialogue_matrix,high,"God bless you,"
+$03,1,$B3BD2D,22,$B3BD8D,StartTextBox,01E0,Text_1E0_Animal_TraditionAreaCalledBlueFeather,Animal,event_dialogue_unknown_specific_owner,family_romance_dialogue_matrix,high,"That's a tradition in this area called ""Blue feather ofhappiness."" Use it when you make a marri…"
+$03,1,$B3BD2D,25,$B3BD9C,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$03,1,$B3BD2D,27,$B3BDA3,StartTextBox,03B0,Text_3B0_Dialog_ThThank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,......Th-thank you.
+$03,1,$B3BD2D,30,$B3BDB1,StartTextBox,0059,Text_059_Animal_HaveSympathyPeopleKindPeople,Animal,event_dialogue_unknown_specific_owner,family_romance_dialogue_matrix,high,Have sympathy for people. When you are kind to people:they give you kindness in return. Animals…
+$03,1,$B3BD2D,32,$B3BDB8,StartTextBox,01CF,Text_1CF_Romance_SeemsMariaFatherArguedOver,Romance,npc_maria_romance_or_family,family_romance_dialogue_matrix,high,It seems Maria and her father argued over you.
+$03,1,$B3BD2D,38,$B3BDD2,StartTextBox,01C9,Text_1C9_Dialog_GivingWrongPerson,Dialog,child_family_event,family_romance_dialogue_matrix,high,Hey: you are giving it to a wrong person.
+$03,1,$B3BD2D,42,$B3BDE5,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$03,1,$B3BD2D,45,$B3BDF0,StartTextBox,03B8,Text_3B8_Dialog_Want,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,I don't want it.
+$03,1,$B3BD2D,49,$B3BE02,StartTextBox,0037,Text_037_Church_HangAroundListenPriest,Church,event_dialogue_unknown_specific_owner,family_romance_dialogue_matrix,high,Don't hang around. Listen to the priest.
+$03,1,$B3BD2D,52,$B3BE0D,StartTextBox,01CD,Text_1CD_Romance_MariaDadWasWrongCome,Romance,npc_maria_romance_or_family,family_romance_dialogue_matrix,high,"Oh:Maria, Your dad was wrong.Please:please come back to me,"
+$03,1,$B3BD2D,59,$B3BE2B,StartTextBox,01C6,Text_1C6_Romance_SillyMarried,Romance,romance_or_marriage_dialogue,family_romance_dialogue_matrix,high,Don't be silly:I'm married.
+$03,1,$B3BD2D,63,$B3BE3E,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$03,1,$B3BD2D,66,$B3BE49,StartTextBox,03B9,Text_3B9_Dialog_Trouble,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,I could be in trouble.
+$03,1,$B3BD2D,70,$B3BE5B,StartTextBox,003C,Text_03C_Church_ChurchDedicatedGodCropsSuggest,Church,event_dialogue_unknown_specific_owner,family_romance_dialogue_matrix,high,This church is dedicated to the God of the crops. I suggest you pray faithfully.
+$03,1,$B3BD2D,73,$B3BE66,StartTextBox,01CE,Text_1CE_Romance_UsuallyQuietGirlButReason,Romance,child_family_event,family_romance_dialogue_matrix,high,She is usually a quiet girl but...reason? ho-ho-ho: it's her father's fault.I'm sorry to troubl…
+$03,1,$B3BD2D,80,$B3BE84,StartTextBox,01CA,Text_1CA_Romance_HaveGiveGirlLoveGirl,Romance,romance_or_marriage_dialogue,family_romance_dialogue_matrix,high,You have to give it to the girl you love: OK? To the girl you want to marry.
+$03,1,$B3BD2D,84,$B3BE97,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$03,1,$B3BD2D,87,$B3BEA2,StartTextBox,0049,Text_049_Dialog_Entry,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,....
+$03,1,$B3BD2D,91,$B3BEB4,StartTextBox,0042,Text_042_Church_BelieveGodExistsBelieve,Church,event_dialogue_unknown_specific_owner,family_romance_dialogue_matrix,high,I believe God exists. You believe it: don't you?
+$03,1,$B3BD2D,94,$B3BEBF,StartTextBox,01DC,Text_1DC_Weather_MadeWeatherCockFormyWife,Weather,npc_ann_romance_or_family;weather_context;wife_family_event,family_romance_dialogue_matrix,high,I made that weather-cock formy wife.so it's just like a memento for Ann. She's usually cheerful…
+$03,1,$B3BD2D,101,$B3BEDD,StartTextBox,01C6,Text_1C6_Romance_SillyMarried,Romance,romance_or_marriage_dialogue,family_romance_dialogue_matrix,high,Don't be silly:I'm married.
+$03,1,$B3BD2D,104,$B3BEEC,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$03,1,$B3BD2D,106,$B3BEF3,StartTextBox,03B9,Text_3B9_Dialog_Trouble,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,I could be in trouble.
+$03,1,$B3BD2D,108,$B3BEFA,StartTextBox,0048,Text_048_Romance_MayEveryoneGiveKindnessEveryone,Romance,npc_eve_romance_or_family,family_romance_dialogue_matrix,high,May everyone give kindness to everyone else....
+$03,1,$B3BD2D,114,$B3BF14,StartTextBox,01C7,Text_1C7_Dialog_WhoPlayingJokeYoungMan,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Who are you playing a joke on:young man?
+$03,1,$B3BD2D,118,$B3BF27,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$03,1,$B3BD2D,121,$B3BF32,StartTextBox,03BB,Text_3BB_Dialog_TakeKindofStuff,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,What? I can't take this kindof stuff.
+$03,1,$B3BD2D,125,$B3BF44,StartTextBox,004E,Text_04E_Church_HopeBusinessBetterBetterGod,Church,event_dialogue_unknown_specific_owner,family_romance_dialogue_matrix,high,Hope business will be better:it will be better .... What? Isn't it the God of business? Oh:well.
+$03,1,$B3BD2D,128,$B3BF4F,StartTextBox,01ED,Text_1ED_Romance_EllensBirdFlewAwayPretty,Romance,npc_ellen_romance_or_family,family_romance_dialogue_matrix,high,Ellen's bird flew away so she is pretty depressed.
+$03,1,$B3BD2D,139,$B3BF80,StartTextBox,043D,Text_43D_Weather_ThankButAnsweryouRightNow,Weather,weather_forecast_system,family_romance_dialogue_matrix,high,Thank you but I can't answeryou right now. If it's sunny:I'll be waiting for you at the church…
+$03,1,$B3BD2D,141,$B3BF87,StartTextBox,0174,Text_174_Dialog_HaventThoughtAboutitYet,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Well:I haven't thought aboutit yet...
+$03,1,$B3BD2D,150,$B3BFC2,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$03,1,$B3BD2D,152,$B3BFC9,StartTextBox,03B0,Text_3B0_Dialog_ThThank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,......Th-thank you.
+$03,1,$B3BD2D,155,$B3BFD6,StartTextBox,0212,Text_212_Dialog_WowThanksLotMmmmSmells,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Wow:thanks a lot. Mmmm:it smells so good.
+$03,1,$B3BD2D,158,$B3BFE3,StartTextBox,03B5,Text_3B5_Dialog_GladGivingMeNeatPresent,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,So glad. Are you giving me this neat present? Thank you.
+$03,1,$B3BD2D,161,$B3BFF0,StartTextBox,03B2,Text_3B2_Dialog_ThankLooksDelicious,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you. It looks delicious.
+$03,1,$B3BD2D,164,$B3BFFD,StartTextBox,01DA,Text_1DA_Dialog_LikeSmellMuch,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,I don't like this smell so much.
+$03,1,$B3BD2D,167,$B3C00A,StartTextBoxCopy,008E,Text_08E_Church_HaveComeListenPriestC,Church,event_dialogue_unknown_specific_owner,family_romance_dialogue_matrix,high,Oh:you have come to listen to the priest. Yes No<CHOICE_OR_WAIT>c
+$03,1,$B3BD2D,171,$B3C019,StartTextBox,008F,Text_08F_Dialog_Devout,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,You are devout.
+$03,1,$B3BD2D,174,$B3C026,StartTextBox,0090,Text_090_Animal_ThenPray,Animal,event_dialogue_unknown_specific_owner,family_romance_dialogue_matrix,high,No? then:why are you here? Oh:to pray?
+$03,1,$B3BD2D,177,$B3C033,StartTextBox,0088,Text_088_Church_WhetherGodExistsMoreBelief,Church,event_dialogue_unknown_specific_owner,family_romance_dialogue_matrix,high,"It's not whether God exists or not:it's more a ""belief"" that counts:I think."
+$03,1,$B3BD2D,187,$B3C060,StartTextBox,043E,Text_43E_Weather_SoundsGoodButNowiSunny,Weather,weather_forecast_system,family_romance_dialogue_matrix,high,What? It sounds good but nowI can't... On sunny Saturdays: I'll be waiting for you in front of…
+$03,1,$B3BD2D,189,$B3C067,StartTextBox,0176,Text_176_Dialog_YoureKidding,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,You're kidding...
+$03,2,$B3C1E4,19,$B3C23F,StartTextBox,01C9,Text_1C9_Dialog_GivingWrongPerson,Dialog,child_family_event,family_romance_dialogue_matrix,high,Hey: you are giving it to a wrong person.
+$03,2,$B3C1E4,22,$B3C24E,StartTextBox,03BC,Text_3BC_Dialog_GiveMe,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,What? Do you give it to me?
+$03,2,$B3C1E4,24,$B3C255,StartTextBox,0049,Text_049_Dialog_Entry,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,....
+$03,2,$B3C1E4,27,$B3C264,StartTextBox,007D,Text_07D_Mountain_SomeMushroomsPoisonousCareful,Sign,child_family_event,family_romance_dialogue_matrix,high,Some mushrooms are poisonous:so be careful.
+$04,0,$B3C527,14,$B3C561,StartTextBox,01C9,Text_1C9_Dialog_GivingWrongPerson,Dialog,child_family_event,family_romance_dialogue_matrix,high,Hey: you are giving it to a wrong person.
+$04,0,$B3C527,17,$B3C570,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$04,0,$B3C527,19,$B3C577,StartTextBox,03B8,Text_3B8_Dialog_Want,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,I don't want it.
+$04,0,$B3C527,23,$B3C58C,StartTextBox,0039,Text_039_Weather_PeopleTownTalkDifferentlyAccording,Weather,child_family_event;weather_context,family_romance_dialogue_matrix,high,People in town talk differently according to theweather: day: and season.
+$04,0,$B3C527,25,$B3C593,StartTextBox,03BE,Text_3BE_Weather_GettingColderWhenitRainsWinter,Weather,weather_forecast_system,family_romance_dialogue_matrix,high,Hi. It's getting colder whenit rains. In winter:grass will freeze so you'd better weed them now.
+$04,0,$B3C527,27,$B3C59A,StartTextBox,01CD,Text_1CD_Romance_MariaDadWasWrongCome,Romance,npc_maria_romance_or_family,family_romance_dialogue_matrix,high,"Oh:Maria, Your dad was wrong.Please:please come back to me,"
+$04,0,$B3C527,33,$B3C5B4,StartTextBox,01C6,Text_1C6_Romance_SillyMarried,Romance,romance_or_marriage_dialogue,family_romance_dialogue_matrix,high,Don't be silly:I'm married.
+$04,0,$B3C527,36,$B3C5C3,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$04,0,$B3C527,38,$B3C5CA,StartTextBox,03B9,Text_3B9_Dialog_Trouble,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,I could be in trouble.
+$04,0,$B3C527,44,$B3C5EB,StartTextBox,003E,Text_03E_Sign_HaveHeardWaterImpSomeone,Sign,event_dialogue_unknown_specific_owner,family_romance_dialogue_matrix,high,Have you heard of the water imp? Someone has seen it in the pond of the mountain.
+$04,0,$B3C527,46,$B3C5F2,StartTextBox,003F,Text_03F_Dialog_ThinkBadThingsIfDiscovered,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Don't think it's OK to do bad things if it's not discovered. No one is perfect. We all make mis…
+$04,0,$B3C527,48,$B3C5F9,StartTextBox,01CE,Text_1CE_Romance_UsuallyQuietGirlButReason,Romance,child_family_event,family_romance_dialogue_matrix,high,She is usually a quiet girl but...reason? ho-ho-ho: it's her father's fault.I'm sorry to troubl…
+$04,0,$B3C527,55,$B3C61D,StartTextBox,043D,Text_43D_Weather_ThankButAnsweryouRightNow,Weather,weather_forecast_system,family_romance_dialogue_matrix,high,Thank you but I can't answeryou right now. If it's sunny:I'll be waiting for you at the church…
+$04,0,$B3C527,57,$B3C624,StartTextBox,0174,Text_174_Dialog_HaventThoughtAboutitYet,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Well:I haven't thought aboutit yet...
+$04,0,$B3C527,66,$B3C65F,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$04,0,$B3C527,68,$B3C666,StartTextBox,03B0,Text_3B0_Dialog_ThThank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,......Th-thank you.
+$04,0,$B3C527,71,$B3C673,StartTextBox,0212,Text_212_Dialog_WowThanksLotMmmmSmells,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Wow:thanks a lot. Mmmm:it smells so good.
+$04,0,$B3C527,74,$B3C680,StartTextBox,03B5,Text_3B5_Dialog_GladGivingMeNeatPresent,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,So glad. Are you giving me this neat present? Thank you.
+$04,0,$B3C527,77,$B3C68D,StartTextBox,03B2,Text_3B2_Dialog_ThankLooksDelicious,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you. It looks delicious.
+$04,0,$B3C527,80,$B3C69A,StartTextBox,01D9,Text_1D9_Dialog_Rude,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,"How rude,"
+$04,0,$B3C527,83,$B3C6A7,StartTextBox,0091,Text_091_Weather_WelcomeRainHaveaLotRain,Weather,weather_forecast_system,family_romance_dialogue_matrix,high,It's a welcome rain. We havea lot of rain here in spring.
+$04,1,$B3C6AE,8,$B3C6CC,StartTextBox,01E0,Text_1E0_Animal_TraditionAreaCalledBlueFeather,Animal,event_dialogue_unknown_specific_owner,family_romance_dialogue_matrix,high,"That's a tradition in this area called ""Blue feather ofhappiness."" Use it when you make a marri…"
+$04,1,$B3C6AE,11,$B3C6DB,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$04,1,$B3C6AE,13,$B3C6E2,StartTextBox,03B0,Text_3B0_Dialog_ThThank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,......Th-thank you.
+$04,1,$B3C6AE,16,$B3C6F0,StartTextBox,005B,Text_05B_Weather_KnowConsumeYourstaminaRainyDay,Weather,weather_forecast_system,family_romance_dialogue_matrix,high,I know it won't consume yourstamina on a rainy day but you should be off. Really.
+$04,1,$B3C6AE,18,$B3C6F7,StartTextBox,01CF,Text_1CF_Romance_SeemsMariaFatherArguedOver,Romance,npc_maria_romance_or_family,family_romance_dialogue_matrix,high,It seems Maria and her father argued over you.
+$04,2,$B3C6FE,13,$B3C734,StartTextBox,01C6,Text_1C6_Romance_SillyMarried,Romance,romance_or_marriage_dialogue,family_romance_dialogue_matrix,high,Don't be silly:I'm married.
+$04,2,$B3C6FE,16,$B3C743,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$04,2,$B3C6FE,18,$B3C74A,StartTextBox,03B9,Text_3B9_Dialog_Trouble,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,I could be in trouble.
+$04,2,$B3C6FE,20,$B3C751,StartTextBox,004B,Text_04B_Weather_KindDarkRainyDaysFeels,Weather,weather_forecast_system,family_romance_dialogue_matrix,high,It's kind of dark on rainy days....feels slightly lonely:doesn't it? But the rain is good when…
+$04,2,$B3C6FE,28,$B3C778,StartTextBox,043F,Text_43F_Weather_UummmAnswerNowIfSunny,Weather,weather_forecast_system,family_romance_dialogue_matrix,high,........Uummm:well:I can't answer now. If it's sunny...will you come to the mountain on Sunday?…
+$04,2,$B3C6FE,30,$B3C77F,StartTextBox,0178,Text_178_Dialog_AfraidTooEarly,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,I'm afraid it's too early...
+$04,2,$B3C6FE,40,$B3C7C1,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$04,2,$B3C6FE,42,$B3C7C8,StartTextBox,03B2,Text_3B2_Dialog_ThankLooksDelicious,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you. It looks delicious.
+$04,2,$B3C6FE,45,$B3C7D5,StartTextBox,0212,Text_212_Dialog_WowThanksLotMmmmSmells,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Wow:thanks a lot. Mmmm:it smells so good.
+$04,2,$B3C6FE,48,$B3C7E2,StartTextBox,03B1,Text_3B1_Dialog_PickUpHerbsWithoutThinking,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Don't pick up herbs without thinking what they are for.
+$04,2,$B3C6FE,51,$B3C7EF,StartTextBox,01D9,Text_1D9_Dialog_Rude,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,"How rude,"
+$04,2,$B3C6FE,54,$B3C7FC,StartTextBox,0143,Text_143_Romance_LikeNina,Romance,npc_nina_romance_or_family,family_romance_dialogue_matrix,high,.....Do you like...Nina?
+$04,2,$B3C6FE,57,$B3C809,StartTextBox,00C0,Text_0C0_Weather_KindLikeRainyDaysLeaves,Weather,weather_forecast_system,family_romance_dialogue_matrix,high,I kind of like rainy days. Leaves look happy when it rains.
+$04,3,$B3C810,12,$B3C83F,StartTextBox,01CA,Text_1CA_Romance_HaveGiveGirlLoveGirl,Romance,romance_or_marriage_dialogue,family_romance_dialogue_matrix,high,You have to give it to the girl you love: OK? To the girl you want to marry.
+$04,3,$B3C810,15,$B3C84E,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$04,3,$B3C810,17,$B3C855,StartTextBox,0049,Text_049_Dialog_Entry,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,....
+$04,3,$B3C810,20,$B3C863,StartTextBox,0079,Text_079_Weather_FencesEasyBreakAfterRain,Weather,weather_forecast_system,family_romance_dialogue_matrix,high,Fences are easy to break after rain and snow. Please make new fences afterknocking the broken f…
+$04,3,$B3C810,22,$B3C86A,StartTextBox,01DC,Text_1DC_Weather_MadeWeatherCockFormyWife,Weather,npc_ann_romance_or_family;weather_context;wife_family_event,family_romance_dialogue_matrix,high,I made that weather-cock formy wife.so it's just like a memento for Ann. She's usually cheerful…
+$04,3,$B3C810,31,$B3C898,StartTextBox,043E,Text_43E_Weather_SoundsGoodButNowiSunny,Weather,weather_forecast_system,family_romance_dialogue_matrix,high,What? It sounds good but nowI can't... On sunny Saturdays: I'll be waiting for you in front of…
+$04,3,$B3C810,33,$B3C89F,StartTextBox,0176,Text_176_Dialog_YoureKidding,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,You're kidding...
+$04,3,$B3C810,42,$B3C8DA,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$04,3,$B3C810,44,$B3C8E1,StartTextBox,03B4,Text_3B4_Dialog_PlayingNastyTrickMe,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Are you playing a nasty trick on me?
+$04,3,$B3C810,47,$B3C8EE,StartTextBox,03B2,Text_3B2_Dialog_ThankLooksDelicious,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you. It looks delicious.
+$04,3,$B3C810,50,$B3C8FB,StartTextBox,0212,Text_212_Dialog_WowThanksLotMmmmSmells,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Wow:thanks a lot. Mmmm:it smells so good.
+$04,3,$B3C810,53,$B3C908,StartTextBox,03B4,Text_3B4_Dialog_PlayingNastyTrickMe,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Are you playing a nasty trick on me?
+$04,3,$B3C810,57,$B3C91C,StartTextBox,00A9,Text_0A9_Weather_HateRainFeelsDepressingLike,Weather,weather_forecast_system,family_romance_dialogue_matrix,high,I hate rain.It feels depressing.I like when it pours.
+$04,3,$B3C810,59,$B3C923,StartTextBox,01DE,Text_1DE_Dialog_FindAha,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,You can't find it...aha...
+$04,4,$B3C92A,20,$B3C980,StartTextBox,01C7,Text_1C7_Dialog_WhoPlayingJokeYoungMan,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Who are you playing a joke on:young man?
+$04,4,$B3C92A,23,$B3C98F,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$04,4,$B3C92A,25,$B3C996,StartTextBox,03BB,Text_3BB_Dialog_TakeKindofStuff,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,What? I can't take this kindof stuff.
+$04,4,$B3C92A,28,$B3C9A4,StartTextBox,0050,Text_050_Animal_EatSomethingTiredCakesBest,Animal,family_romance_gift_context,family_romance_dialogue_matrix,high,Eat something when you are tired. Our cakes are the best to get more energy.
+$04,4,$B3C92A,30,$B3C9AB,StartTextBox,01ED,Text_1ED_Romance_EllensBirdFlewAwayPretty,Romance,npc_ellen_romance_or_family,family_romance_dialogue_matrix,high,Ellen's bird flew away so she is pretty depressed.
+$04,4,$B3C92A,35,$B3C9C2,StartTextBox,03BC,Text_3BC_Dialog_GiveMe,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,What? Do you give it to me?
+$04,4,$B3C92A,37,$B3C9C9,StartTextBox,0054,Text_054_Weather_StartedRainingNowGeeWas,Weather,weather_forecast_system,family_romance_dialogue_matrix,high,Oh no:it started raining now...gee: I was going to work. Well:I can do nothing but stay home to…
+$04,4,$B3C92A,38,$B3C9CD,StartTextBox,0055,Text_055_Weather_SayingMatterIfRainsWork,Weather,weather_forecast_system,family_romance_dialogue_matrix,high,"What are you saying? It doesn't matter if It rains to do our work here,"
+$04,4,$B3C92A,45,$B3C9F1,StartTextBox,0440,Text_440_Weather_AhSorryButAnswerYouright,Weather,weather_forecast_system,family_romance_dialogue_matrix,high,Ah:........well:I.... sorry but I can't answer youright now.... I'm visiting the livestock deal…
+$04,4,$B3C92A,47,$B3C9F8,StartTextBox,017A,Text_17A_Dialog_AllTooSuddenKnow,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,It's all too sudden so I don't know what to do...
+$04,4,$B3C92A,57,$B3CA3B,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$04,4,$B3C92A,59,$B3CA42,StartTextBox,03B0,Text_3B0_Dialog_ThThank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,......Th-thank you.
+$04,4,$B3C92A,62,$B3CA4F,StartTextBox,03B2,Text_3B2_Dialog_ThankLooksDelicious,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you. It looks delicious.
+$04,4,$B3C92A,65,$B3CA5C,StartTextBox,03B3,Text_3B3_Dialog_ThankNowBakeCake,Dialog,family_romance_gift_context,family_romance_dialogue_matrix,high,Thank you. Now I can bake a cake with it.
+$04,4,$B3C92A,68,$B3CA69,StartTextBox,0212,Text_212_Dialog_WowThanksLotMmmmSmells,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Wow:thanks a lot. Mmmm:it smells so good.
+$04,4,$B3C92A,71,$B3CA76,StartTextBox,01DA,Text_1DA_Dialog_LikeSmellMuch,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,I don't like this smell so much.
+$04,4,$B3C92A,75,$B3CA8A,StartTextBox,00D5,Text_0D5_Dialog_TooSoakedMightCatchCold,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Oh no: you are too soaked. You might catch a cold unless you dry yourself soon.
+$04,4,$B3C92A,77,$B3CA91,StartTextBox,01EE,Text_1EE_Dialog_Aha,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Aha...
+$04,5,$B3CA98,8,$B3CAB9,StartTextBox,01CA,Text_1CA_Romance_HaveGiveGirlLoveGirl,Romance,romance_or_marriage_dialogue,family_romance_dialogue_matrix,high,You have to give it to the girl you love: OK? To the girl you want to marry.
+$04,5,$B3CA98,12,$B3CACC,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$04,5,$B3CA98,14,$B3CAD3,StartTextBox,03BB,Text_3BB_Dialog_TakeKindofStuff,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,What? I can't take this kindof stuff.
+$04,5,$B3CA98,20,$B3CAF6,StartTextBox,0062,Text_062_Romance_TheresUsefulBookOverAbout,Romance,romance_or_marriage_dialogue,family_romance_dialogue_matrix,high,There's a useful book over there: about girls:I wrote it.Better read it.
+$04,5,$B3CA98,22,$B3CAFD,StartTextBox,01D1,Text_1D1_Mountain_MariaGoWenttoExactlyNortheast,Sign,npc_maria_romance_or_family,family_romance_dialogue_matrix,high,Where did Maria go? She wentto...exactly northeast. You see a pond there.
+$04,5,$B3CA98,25,$B3CB08,StartTextBox,01DD,Text_1DD_Weather_DirectionWhichWeatherCockWent,Weather,weather_context,family_romance_dialogue_matrix,high,The Direction in which the weather-cock went to? Somewhere you can keep away from the rain.And…
+$04,5,$B3CA98,28,$B3CB13,StartTextBox,01E6,Text_1E6_Romance_MmmmGirlFellDownDark,Romance,romance_or_marriage_dialogue,family_romance_dialogue_matrix,high,Mmmm:a girl fell down in a dark: small place. Go get her right away before it's too late.
+$04,5,$B3CA98,31,$B3CB1E,StartTextBox,01EF,Text_1EF_Sign_WhichDirectionBluebirdGoThink,Sign,event_dialogue_unknown_specific_owner,family_romance_dialogue_matrix,high,Which direction did the bluebird go? Well:I think I saw it flying up towards the mountain.
+$04,5,$B3CA98,38,$B3CB3C,StartTextBox,01CB,Text_1CB_Dialog_WowBlueFeatherShowMe,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,"Wow:the blue feather, Show it to me."
+$04,5,$B3CA98,41,$B3CB4B,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$04,5,$B3CA98,43,$B3CB52,StartTextBox,03BA,Text_3BA_Dialog_WhatIsThis,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,What is this?
+$04,5,$B3CA98,45,$B3CB59,StartTextBox,0068,Text_068_Romance_YoudBetterReadBookWritten,Romance,romance_or_marriage_dialogue,family_romance_dialogue_matrix,high,You'd better read the book written by Mrs. Fortune-teller many times. It's pretty hard to captu…
+$04,6,$B3CB60,7,$B3CB7D,StartTextBox,01C9,Text_1C9_Dialog_GivingWrongPerson,Dialog,child_family_event,family_romance_dialogue_matrix,high,Hey: you are giving it to a wrong person.
+$04,6,$B3CB60,11,$B3CB90,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$04,6,$B3CB60,13,$B3CB97,StartTextBox,03BB,Text_3BB_Dialog_TakeKindofStuff,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,What? I can't take this kindof stuff.
+$04,6,$B3CB60,15,$B3CB9E,StartTextBox,005E,Text_05E_Weather_YoungBoyPutLivestockInside,Weather,weather_context,family_romance_dialogue_matrix,high,"Hey:young boy, Put your livestock inside the pen before the weather gets worse,"
+$04,7,$B3CBA5,9,$B3CBC7,StartTextBox,01C8,Text_1C8_Dialog_Come,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,"That's it, Come on,"
+$04,7,$B3CBA5,12,$B3CBD6,StartTextBox,03BC,Text_3BC_Dialog_GiveMe,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,What? Do you give it to me?
+$04,7,$B3CBA5,14,$B3CBDD,StartTextBox,03BB,Text_3BB_Dialog_TakeKindofStuff,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,What? I can't take this kindof stuff.
+$04,7,$B3CBA5,16,$B3CBE4,StartTextBox,0150,Text_150_Weather_ToughWeatherGloomy,Weather,weather_context,family_romance_dialogue_matrix,high,Hey: it's tough when the weather is gloomy.
+$05,0,$B3CC91,22,$B3CCEE,StartTextBox,01C9,Text_1C9_Dialog_GivingWrongPerson,Dialog,child_family_event,family_romance_dialogue_matrix,high,Hey: you are giving it to a wrong person.
+$05,0,$B3CC91,25,$B3CCFD,StartTextBox,03BC,Text_3BC_Dialog_GiveMe,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,What? Do you give it to me?
+$05,0,$B3CC91,27,$B3CD04,StartTextBox,03BB,Text_3BB_Dialog_TakeKindofStuff,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,What? I can't take this kindof stuff.
+$05,0,$B3CC91,36,$B3CD2D,StartTextBox,0069,Text_069_Dialog_YeahWelcomeMakeYourselfatHome,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Yeah: welcome. Make yourselfat home.
+$05,0,$B3CC91,39,$B3CD38,StartTextBox,03DD,Text_3DD_Romance_CustomersDifferentMonthlySomePeople,Romance,romance_or_marriage_dialogue,family_romance_dialogue_matrix,high,Our customers are different monthly. Some people have never been here.
+$05,0,$B3CC91,42,$B3CD43,StartTextBox,03DE,Text_3DE_Romance_HowsEveDoingBusinessHas,Romance,npc_eve_romance_or_family,family_romance_dialogue_matrix,high,Hi:how's Eve doing? Business has been down sincewe lost our drawing card.
+$05,0,$B3CC91,46,$B3CD55,StartTextBox,0069,Text_069_Dialog_YeahWelcomeMakeYourselfatHome,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Yeah: welcome. Make yourselfat home.
+$05,0,$B3CC91,49,$B3CD60,StartTextBox,03F6,Text_3F6_Dialog_WasGoodYearTryBest,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,"Hello, Was it a good year for you? Try our best next year too."
+$05,0,$B3CC91,53,$B3CD71,StartTextBox,01FB,Text_1FB_Sign_WhoEveSayGrandfatherWas,Manual,npc_eve_romance_or_family,family_romance_dialogue_matrix,high,Who? Eve? They say your grandfather was in trouble in the mountain so they are still over there.
+$05,0,$B3CC91,59,$B3CD8C,StartTextBox,03BC,Text_3BC_Dialog_GiveMe,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,What? Do you give it to me?
+$05,0,$B3CC91,62,$B3CD9A,StartTextBox,0056,Text_056_Dialog_UlpSooooGreatShesOut,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,"ulp...soooo...great, She's out.I can relax as much as I want:yeah."
+$05,0,$B3CC91,65,$B3CDA8,StartTextBox,0056,Text_056_Dialog_UlpSooooGreatShesOut,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,"ulp...soooo...great, She's out.I can relax as much as I want:yeah."
+$05,0,$B3CC91,67,$B3CDAF,StartTextBox,03FD,Text_3FD_Weather_LastJuiceDrinkSeeingSnow,Weather,weather_forecast_system,family_romance_dialogue_matrix,high,This is the last juice to drink seeing snow this year.Well:we can drink juice again seeing flow…
+$05,0,$B3CC91,75,$B3CDDC,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$05,0,$B3CC91,78,$B3CDE7,StartTextBox,03B8,Text_3B8_Dialog_Want,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,I don't want it.
+$05,0,$B3CC91,86,$B3CE15,StartTextBox,0077,Text_077_Romance_KnowMoneyImportantButMost,Romance,money_context,family_romance_dialogue_matrix,high,"I know money is important but the most important thingis love:you know: LOVE, Don't you think s…"
+$05,0,$B3CC91,89,$B3CE20,StartTextBox,03E2,Text_3E2_Dialog_MarriageWonderfulBravelyAskMarry,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Yes:marriage is wonderful. Should I bravely ask her to marry me?
+$06,0,$B3D467,15,$B3D4AD,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$06,0,$B3D467,17,$B3D4B4,StartTextBox,03B8,Text_3B8_Dialog_Want,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,I don't want it.
+$06,0,$B3D467,20,$B3D4C2,StartTextBox,0153,Text_153_Dialog_GoodLordWhatsHappeningPlace,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Good Lord: what's happening here? Hey: Is your place alright?
+$06,0,$B3D467,22,$B3D4C9,StartTextBox,0400,Text_400_Dialog_AhMrEdFieldAndmeadow,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Ah:Mr.<CTRL_FFFD>eD:is your field andmeadow all right?
+$06,0,$B3D467,28,$B3D4E8,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$06,0,$B3D467,30,$B3D4EF,StartTextBox,03B9,Text_3B9_Dialog_Trouble,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,I could be in trouble.
+$06,0,$B3D467,33,$B3D4FD,StartTextBox,0154,Text_154_Weather_SayHurricaneComingTomorrow,Weather,weather_context,family_romance_dialogue_matrix,high,They say a hurricane is coming here tomorrow.
+$06,0,$B3D467,35,$B3D504,StartTextBox,0401,Text_401_Dialog_ImportantHumanOvercomeDifficulties,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,It's important for a human to overcome difficulties.
+$06,0,$B3D467,42,$B3D528,StartTextBox,043D,Text_43D_Weather_ThankButAnsweryouRightNow,Weather,weather_forecast_system,family_romance_dialogue_matrix,high,Thank you but I can't answeryou right now. If it's sunny:I'll be waiting for you at the church…
+$06,0,$B3D467,44,$B3D52F,StartTextBox,0174,Text_174_Dialog_HaventThoughtAboutitYet,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Well:I haven't thought aboutit yet...
+$06,0,$B3D467,47,$B3D53D,StartTextBox,0155,Text_155_Dialog_WindBlowingHarderMakesMe,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,The wind is blowing harder and that makes me scared.
+$06,0,$B3D467,49,$B3D544,StartTextBox,0161,Text_161_Weather_ThankGodWasOnlySlight,Weather,weather_forecast_system,family_romance_dialogue_matrix,high,Thank God that there was only slight damage from the hurricane.
+$06,0,$B3D467,56,$B3D56F,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$06,0,$B3D467,58,$B3D576,StartTextBox,03B0,Text_3B0_Dialog_ThThank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,......Th-thank you.
+$06,0,$B3D467,61,$B3D583,StartTextBox,0212,Text_212_Dialog_WowThanksLotMmmmSmells,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Wow:thanks a lot. Mmmm:it smells so good.
+$06,0,$B3D467,64,$B3D590,StartTextBox,03B5,Text_3B5_Dialog_GladGivingMeNeatPresent,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,So glad. Are you giving me this neat present? Thank you.
+$06,1,$B3D59D,8,$B3D5C0,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$06,1,$B3D59D,10,$B3D5C7,StartTextBox,03B0,Text_3B0_Dialog_ThThank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,......Th-thank you.
+$06,1,$B3D59D,13,$B3D5D5,StartTextBox,015A,Text_15A_Weather_YoudBetterPrayGodDamage,Weather,weather_forecast_system,family_romance_dialogue_matrix,high,You'd better pray to God that there is no damage fromthe hurricane. Trust me.
+$06,1,$B3D59D,15,$B3D5DC,StartTextBox,016F,Text_16F_Dialog_WasPrettySurprised,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Oh yes:I was pretty surprised.
+$06,2,$B3D5E3,13,$B3D61E,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$06,2,$B3D5E3,15,$B3D625,StartTextBox,03B9,Text_3B9_Dialog_Trouble,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,I could be in trouble.
+$06,2,$B3D5E3,18,$B3D633,StartTextBox,0158,Text_158_Weather_WindBlowingHarderNowLike,Weather,weather_forecast_system,family_romance_dialogue_matrix,high,The wind is blowing harder now. I don't like hurricanes.
+$06,2,$B3D5E3,20,$B3D63A,StartTextBox,016B,Text_16B_Dialog_WasSurprisedRanchAlright,Dialog,ranch_livestock_context,family_romance_dialogue_matrix,high,I was surprised.Is your ranch alright?
+$06,2,$B3D5E3,28,$B3D661,StartTextBox,043F,Text_43F_Weather_UummmAnswerNowIfSunny,Weather,weather_forecast_system,family_romance_dialogue_matrix,high,........Uummm:well:I can't answer now. If it's sunny...will you come to the mountain on Sunday?…
+$06,2,$B3D5E3,30,$B3D668,StartTextBox,0178,Text_178_Dialog_AfraidTooEarly,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,I'm afraid it's too early...
+$06,2,$B3D5E3,36,$B3D68C,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$06,2,$B3D5E3,38,$B3D693,StartTextBox,03B2,Text_3B2_Dialog_ThankLooksDelicious,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you. It looks delicious.
+$06,2,$B3D5E3,41,$B3D6A0,StartTextBox,0212,Text_212_Dialog_WowThanksLotMmmmSmells,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Wow:thanks a lot. Mmmm:it smells so good.
+$06,2,$B3D5E3,44,$B3D6AD,StartTextBox,03B1,Text_3B1_Dialog_PickUpHerbsWithoutThinking,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Don't pick up herbs without thinking what they are for.
+$06,2,$B3D5E3,48,$B3D6C1,StartTextBox,0159,Text_159_Weather_RainButHurricaneBecauseBlows,Weather,weather_forecast_system,family_romance_dialogue_matrix,high,Rain is OK but not hurricane. Because it blows flowers away.
+$06,2,$B3D5E3,50,$B3D6C8,StartTextBox,0163,Text_163_Romance_GladEverybodyFine,Romance,npc_eve_romance_or_family,family_romance_dialogue_matrix,high,I'm glad everybody is fine.
+$06,3,$B3D6CF,12,$B3D703,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$06,3,$B3D6CF,14,$B3D70A,StartTextBox,0049,Text_049_Dialog_Entry,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,....
+$06,3,$B3D6CF,17,$B3D718,StartTextBox,0156,Text_156_Weather_SkyLooksThreateningProbablyHave,Weather,weather_context,family_romance_dialogue_matrix,high,Oh well: the sky looks threatening. We'll probably have a hurricane tomorrow.
+$06,3,$B3D6CF,19,$B3D71F,StartTextBox,016F,Text_16F_Dialog_WasPrettySurprised,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Oh yes:I was pretty surprised.
+$06,3,$B3D6CF,28,$B3D74D,StartTextBox,043E,Text_43E_Weather_SoundsGoodButNowiSunny,Weather,weather_forecast_system,family_romance_dialogue_matrix,high,What? It sounds good but nowI can't... On sunny Saturdays: I'll be waiting for you in front of…
+$06,3,$B3D6CF,30,$B3D754,StartTextBox,0176,Text_176_Dialog_YoureKidding,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,You're kidding...
+$06,3,$B3D6CF,38,$B3D786,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$06,3,$B3D6CF,40,$B3D78D,StartTextBox,03B4,Text_3B4_Dialog_PlayingNastyTrickMe,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Are you playing a nasty trick on me?
+$06,3,$B3D6CF,43,$B3D79A,StartTextBox,03B2,Text_3B2_Dialog_ThankLooksDelicious,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you. It looks delicious.
+$06,3,$B3D6CF,46,$B3D7A7,StartTextBox,0212,Text_212_Dialog_WowThanksLotMmmmSmells,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Wow:thanks a lot. Mmmm:it smells so good.
+$06,3,$B3D6CF,50,$B3D7BB,StartTextBox,0157,Text_157_Weather_KnowButGetExcitedSomething,Weather,weather_forecast_system,family_romance_dialogue_matrix,high,I don't know why but I get excited when something like a hurricane comes.Don't you?
+$06,3,$B3D6CF,52,$B3D7C2,StartTextBox,0162,Text_162_Weather_ThinkPreciousWeatherCockWas,Weather,weather_context,family_romance_dialogue_matrix,high,I think the precious weather-cock was blown away.
+$06,4,$B3D7C9,18,$B3D81D,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$06,4,$B3D7C9,20,$B3D824,StartTextBox,03BB,Text_3BB_Dialog_TakeKindofStuff,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,What? I can't take this kindof stuff.
+$06,4,$B3D7C9,23,$B3D832,StartTextBox,015E,Text_15E_Weather_HangingAroundKnowHurricaneComing,Weather,weather_forecast_system,family_romance_dialogue_matrix,high,What are you hanging around here for? Don't you know a hurricane is coming?
+$06,4,$B3D7C9,25,$B3D839,StartTextBox,0402,Text_402_Dialog_SuchHardTimeHadBut,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,"Such a hard time you had, But experience teaches you alot."
+$06,4,$B3D7C9,30,$B3D850,StartTextBox,03BC,Text_3BC_Dialog_GiveMe,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,What? Do you give it to me?
+$06,4,$B3D7C9,32,$B3D857,StartTextBox,0051,Text_051_Dialog_HowdyYoungBoysWhatsUp,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,"Howdy:young boys, What's up?....hic."
+$06,4,$B3D7C9,39,$B3D87B,StartTextBox,0440,Text_440_Weather_AhSorryButAnswerYouright,Weather,weather_forecast_system,family_romance_dialogue_matrix,high,Ah:........well:I.... sorry but I can't answer youright now.... I'm visiting the livestock deal…
+$06,4,$B3D7C9,41,$B3D882,StartTextBox,017A,Text_17A_Dialog_AllTooSuddenKnow,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,It's all too sudden so I don't know what to do...
+$06,4,$B3D7C9,50,$B3D8BE,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$06,4,$B3D7C9,52,$B3D8C5,StartTextBox,03B2,Text_3B2_Dialog_ThankLooksDelicious,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you. It looks delicious.
+$06,4,$B3D7C9,55,$B3D8D2,StartTextBox,03B3,Text_3B3_Dialog_ThankNowBakeCake,Dialog,family_romance_gift_context,family_romance_dialogue_matrix,high,Thank you. Now I can bake a cake with it.
+$06,4,$B3D7C9,58,$B3D8DF,StartTextBox,0212,Text_212_Dialog_WowThanksLotMmmmSmells,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Wow:thanks a lot. Mmmm:it smells so good.
+$06,4,$B3D7C9,61,$B3D8EC,StartTextBox,01DA,Text_1DA_Dialog_LikeSmellMuch,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,I don't like this smell so much.
+$06,4,$B3D7C9,65,$B3D900,StartTextBox,0158,Text_158_Weather_WindBlowingHarderNowLike,Weather,weather_forecast_system,family_romance_dialogue_matrix,high,The wind is blowing harder now. I don't like hurricanes.
+$06,4,$B3D7C9,67,$B3D907,StartTextBox,0164,Text_164_Dialog_RanchAlright,Dialog,ranch_livestock_context,family_romance_dialogue_matrix,high,Is your ranch alright?
+$06,5,$B3D90E,9,$B3D935,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$06,5,$B3D90E,11,$B3D93C,StartTextBox,03BB,Text_3BB_Dialog_TakeKindofStuff,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,What? I can't take this kindof stuff.
+$06,5,$B3D90E,14,$B3D94A,StartTextBox,015E,Text_15E_Weather_HangingAroundKnowHurricaneComing,Weather,weather_forecast_system,family_romance_dialogue_matrix,high,What are you hanging around here for? Don't you know a hurricane is coming?
+$06,5,$B3D90E,16,$B3D951,StartTextBox,0168,Text_168_Dialog_YoudBetterInspect,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,You'd better inspect here and there.
+$06,5,$B3D90E,23,$B3D977,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$06,5,$B3D90E,25,$B3D97E,StartTextBox,03BA,Text_3BA_Dialog_WhatIsThis,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,What is this?
+$06,5,$B3D90E,28,$B3D98C,StartTextBox,0154,Text_154_Weather_SayHurricaneComingTomorrow,Weather,weather_context,family_romance_dialogue_matrix,high,They say a hurricane is coming here tomorrow.
+$06,5,$B3D90E,30,$B3D993,StartTextBox,0403,Text_403_Dialog_VitalityImportantMenWorkOutside,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Vitality is important for men to work outside.
+$06,6,$B3D99B,8,$B3D9BE,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$06,6,$B3D99B,10,$B3D9C5,StartTextBox,03BB,Text_3BB_Dialog_TakeKindofStuff,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,What? I can't take this kindof stuff.
+$06,6,$B3D99B,13,$B3D9D3,StartTextBoxCopy,015B,Text_15B_Weather_SonHurricaneGettingNearHave,Weather,child_family_event,family_romance_dialogue_matrix,high,Hey:son:the hurricane is getting near. Have you put your livestock in the pen? Sure I Forgot<CH…
+$06,6,$B3D99B,17,$B3D9E2,StartTextBox,015C,Text_15C_Romance_KnowEvenIfYoung,Romance,npc_eve_romance_or_family,family_romance_dialogue_matrix,high,You know what to do even if you are young.
+$06,6,$B3D99B,19,$B3D9E9,StartTextBox,015D,Text_15D_Dialog_IdiotDoingGoHomePut,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Are you an idiot? What are you doing here? Go home and put them in the penright now.
+$06,6,$B3D99B,21,$B3D9F0,StartTextBox,016C,Text_16C_Weather_CowsSimpleKeepOutGround,Weather,livestock_cow_context,family_romance_dialogue_matrix,high,Cows are simple. So don't keep them out on the ground when it rains: snows: and a hurricane com…
+$07,0,$B3DA17,14,$B3DA51,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$07,0,$B3DA17,16,$B3DA58,StartTextBox,01C9,Text_1C9_Dialog_GivingWrongPerson,Dialog,child_family_event,family_romance_dialogue_matrix,high,Hey: you are giving it to a wrong person.
+$07,0,$B3DA17,21,$B3DA74,StartTextBox,0393,Text_393_Sign_MountainTopMysteriousPlaceRecommend,Sign,event_dialogue_unknown_specific_owner,family_romance_dialogue_matrix,high,The mountain top is a mysterious place. I recommend you plant a different seed over there when…
+$07,0,$B3DA17,23,$B3DA7B,StartTextBox,01CD,Text_1CD_Romance_MariaDadWasWrongCome,Romance,npc_maria_romance_or_family,family_romance_dialogue_matrix,high,"Oh:Maria, Your dad was wrong.Please:please come back to me,"
+$07,0,$B3DA17,25,$B3DA82,StartTextBox,02AD,Text_2AD_Animal_StarNightFestivalSupposedPray,Animal,festival_event,family_romance_dialogue_matrix,high,On the Star Night Festival you are supposed to pray forthe night when you can see the most beau…
+$07,0,$B3DA17,27,$B3DA89,StartTextBox,03EC,Text_3EC_Dialog_YearComingClose,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,This year is coming to a close.
+$07,0,$B3DA17,34,$B3DAA9,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$07,0,$B3DA17,36,$B3DAB0,StartTextBox,01C6,Text_1C6_Romance_SillyMarried,Romance,romance_or_marriage_dialogue,family_romance_dialogue_matrix,high,Don't be silly:I'm married.
+$07,0,$B3DA17,41,$B3DACC,StartTextBox,003F,Text_03F_Dialog_ThinkBadThingsIfDiscovered,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Don't think it's OK to do bad things if it's not discovered. No one is perfect. We all make mis…
+$07,0,$B3DA17,43,$B3DAD3,StartTextBox,01CE,Text_1CE_Romance_UsuallyQuietGirlButReason,Romance,child_family_event,family_romance_dialogue_matrix,high,She is usually a quiet girl but...reason? ho-ho-ho: it's her father's fault.I'm sorry to troubl…
+$07,0,$B3DA17,45,$B3DADA,StartTextBox,02AE,Text_2AE_Dialog_LookSkyItllBeautifulTomorrow,Dialog,weather_context,family_romance_dialogue_matrix,high,Look at the sky. It'll be really beautiful tomorrow night.
+$07,0,$B3DA17,47,$B3DAE1,StartTextBox,03ED,Text_3ED_Dialog_HappyLiveHealthWholeYear,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,We are happy to live in health this whole year.
+$07,0,$B3DA17,55,$B3DB0B,StartTextBox,043D,Text_43D_Weather_ThankButAnsweryouRightNow,Weather,weather_forecast_system,family_romance_dialogue_matrix,high,Thank you but I can't answeryou right now. If it's sunny:I'll be waiting for you at the church…
+$07,0,$B3DA17,57,$B3DB12,StartTextBox,0174,Text_174_Dialog_HaventThoughtAboutitYet,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Well:I haven't thought aboutit yet...
+$07,0,$B3DA17,61,$B3DB27,StartTextBox,039A,Text_39A_Dialog_WarmUpBodyCatchCold,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Hey:warm up your body.. don't catch a cold.
+$07,0,$B3DA17,63,$B3DB2E,StartTextBox,02AF,Text_2AF_Church_GoingPlayOrganChurch,Church,event_dialogue_unknown_specific_owner,family_romance_dialogue_matrix,high,I'm going to play organ at the church.
+$07,0,$B3DA17,65,$B3DB35,StartTextBox,03F8,Text_3F8_Romance_YearClosingSoonWishBecome,Romance,romance_or_marriage_dialogue,family_romance_dialogue_matrix,high,This year is closing soon. I wish to become better eachyear but... It's a hard thing to achieve.
+$07,0,$B3DA17,70,$B3DB51,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$07,0,$B3DA17,72,$B3DB58,StartTextBox,03B5,Text_3B5_Dialog_GladGivingMeNeatPresent,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,So glad. Are you giving me this neat present? Thank you.
+$07,0,$B3DA17,75,$B3DB65,StartTextBox,03B2,Text_3B2_Dialog_ThankLooksDelicious,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you. It looks delicious.
+$07,1,$B3DB72,8,$B3DB90,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$07,1,$B3DB72,10,$B3DB97,StartTextBox,01E0,Text_1E0_Animal_TraditionAreaCalledBlueFeather,Animal,event_dialogue_unknown_specific_owner,family_romance_dialogue_matrix,high,"That's a tradition in this area called ""Blue feather ofhappiness."" Use it when you make a marri…"
+$07,1,$B3DB72,15,$B3DBB3,StartTextBox,0397,Text_397_Dialog_DayLikeTodayGoodTothink,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Day like today: it's good tothink of your life a little seriously. ...Oh no: I shouldn't do tha…
+$07,1,$B3DB72,17,$B3DBBA,StartTextBox,01CF,Text_1CF_Romance_SeemsMariaFatherArguedOver,Romance,npc_maria_romance_or_family,family_romance_dialogue_matrix,high,It seems Maria and her father argued over you.
+$07,1,$B3DB72,19,$B3DBC1,StartTextBox,0405,Text_405_Church_EverybodyComeChurchPrayTomorrow,Church,npc_eve_romance_or_family;weather_context,family_romance_dialogue_matrix,high,Everybody will come to church to pray tomorrow.
+$07,1,$B3DB72,21,$B3DBC8,StartTextBox,03F0,Text_3F0_Dialog_SpringNewYearAreaSt,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Spring is New Year in this area. <CTRL_B3>st day of Spring is New Year's Day.
+$07,2,$B3DBD5,13,$B3DC0B,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$07,2,$B3DBD5,15,$B3DC12,StartTextBox,01C6,Text_1C6_Romance_SillyMarried,Romance,romance_or_marriage_dialogue,family_romance_dialogue_matrix,high,Don't be silly:I'm married.
+$07,2,$B3DBD5,19,$B3DC27,StartTextBox,0394,Text_394_Animal_SaidHappyFlowerBloomsEat,Animal,event_dialogue_unknown_specific_owner,family_romance_dialogue_matrix,high,It is said that a happy flower blooms when you eat aberry of Power Tree. It won't even die in w…
+$07,2,$B3DBD5,21,$B3DC2E,StartTextBox,02AE,Text_2AE_Dialog_LookSkyItllBeautifulTomorrow,Dialog,weather_context,family_romance_dialogue_matrix,high,Look at the sky. It'll be really beautiful tomorrow night.
+$07,2,$B3DBD5,24,$B3DC39,StartTextBox,03EF,Text_3EF_Manual_SpringFinallyReturningSellSeeds,Manual,shop_or_purchase_context;shop_or_shipping_context,family_romance_dialogue_matrix,high,Spring is finally returning.We'll sell seeds again at the shop so dropby.
+$07,2,$B3DBD5,34,$B3DC6A,StartTextBox,043F,Text_43F_Weather_UummmAnswerNowIfSunny,Weather,weather_forecast_system,family_romance_dialogue_matrix,high,........Uummm:well:I can't answer now. If it's sunny...will you come to the mountain on Sunday?…
+$07,2,$B3DBD5,36,$B3DC71,StartTextBox,0178,Text_178_Dialog_AfraidTooEarly,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,I'm afraid it's too early...
+$07,2,$B3DBD5,40,$B3DC87,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$07,2,$B3DBD5,42,$B3DC8E,StartTextBox,03B2,Text_3B2_Dialog_ThankLooksDelicious,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you. It looks delicious.
+$07,2,$B3DBD5,45,$B3DC9B,StartTextBox,0212,Text_212_Dialog_WowThanksLotMmmmSmells,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Wow:thanks a lot. Mmmm:it smells so good.
+$07,2,$B3DBD5,50,$B3DCB6,StartTextBox,039C,Text_39C_Sign_WinterMakeSomeFlowersDecorate,Sign,shop_or_purchase_context,family_romance_dialogue_matrix,high,In winter:I make some flowers to decorate the shop. I want to make the shop look nice with them.
+$07,2,$B3DBD5,52,$B3DCBD,StartTextBox,02B1,Text_2B1_Dialog_SayGoingNearestplaceStars,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Say:I'm going to the nearestplace to the stars.
+$07,2,$B3DBD5,54,$B3DCC4,StartTextBox,03FA,Text_3FA_Weather_SmellDirtGettingStrongerAs,Weather,weather_forecast_system,family_romance_dialogue_matrix,high,The smell of the dirt is getting stronger as snow melts. Spring is near.
+$07,3,$B3DCD1,12,$B3DD00,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$07,3,$B3DCD1,14,$B3DD07,StartTextBox,01CA,Text_1CA_Romance_HaveGiveGirlLoveGirl,Romance,romance_or_marriage_dialogue,family_romance_dialogue_matrix,high,You have to give it to the girl you love: OK? To the girl you want to marry.
+$07,3,$B3DCD1,18,$B3DD1C,StartTextBox,0079,Text_079_Weather_FencesEasyBreakAfterRain,Weather,weather_forecast_system,family_romance_dialogue_matrix,high,Fences are easy to break after rain and snow. Please make new fences afterknocking the broken f…
+$07,3,$B3DCD1,21,$B3DD27,StartTextBox,01DC,Text_1DC_Weather_MadeWeatherCockFormyWife,Weather,npc_ann_romance_or_family;weather_context;wife_family_event,family_romance_dialogue_matrix,high,I made that weather-cock formy wife.so it's just like a memento for Ann. She's usually cheerful…
+$07,3,$B3DCD1,23,$B3DD2E,StartTextBox,03EE,Text_3EE_Dialog_PickTargetFornextYear,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,You should pick a target fornext year.
+$07,3,$B3DCD1,33,$B3DD5F,StartTextBox,043E,Text_43E_Weather_SoundsGoodButNowiSunny,Weather,weather_forecast_system,family_romance_dialogue_matrix,high,What? It sounds good but nowI can't... On sunny Saturdays: I'll be waiting for you in front of…
+$07,3,$B3DCD1,35,$B3DD66,StartTextBox,0176,Text_176_Dialog_YoureKidding,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,You're kidding...
+$07,3,$B3DCD1,39,$B3DD7C,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$07,3,$B3DCD1,41,$B3DD83,StartTextBox,03B2,Text_3B2_Dialog_ThankLooksDelicious,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you. It looks delicious.
+$07,3,$B3DCD1,47,$B3DDA5,StartTextBox,039B,Text_39B_Dialog_ColdOutsideHaveFireplaceInthe,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,It's cold outside:isn't it? I have a fireplace inthe back room so warm yourself.
+$07,3,$B3DCD1,49,$B3DDAC,StartTextBox,01DE,Text_1DE_Dialog_FindAha,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,You can't find it...aha...
+$07,3,$B3DCD1,51,$B3DDB3,StartTextBox,02B0,Text_2B0_Dialog_TomorrowHehHehGoingWonderful,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Tomorrow? Heh-heh:I'm going to a wonderful place.
+$07,3,$B3DCD1,53,$B3DDBA,StartTextBox,03F9,Text_3F9_Romance_YearEndingDevelopCompleteGreat,Romance,romance_or_marriage_dialogue,family_romance_dialogue_matrix,high,.....this year is ending. I'll develop and complete a great machine next year.
+$07,4,$B3DDC7,19,$B3DE1A,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$07,4,$B3DDC7,21,$B3DE21,StartTextBox,01C7,Text_1C7_Dialog_WhoPlayingJokeYoungMan,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Who are you playing a joke on:young man?
+$07,4,$B3DDC7,25,$B3DE36,StartTextBox,0395,Text_395_Dialog_WorkingHardKnowFoodLazy,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Are you working hard? You know: No food for lazy workers: right?
+$07,4,$B3DDC7,27,$B3DE3D,StartTextBox,01ED,Text_1ED_Romance_EllensBirdFlewAwayPretty,Romance,npc_ellen_romance_or_family,family_romance_dialogue_matrix,high,Ellen's bird flew away so she is pretty depressed.
+$07,4,$B3DDC7,29,$B3DE44,StartTextBox,03EC,Text_3EC_Dialog_YearComingClose,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,This year is coming to a close.
+$07,4,$B3DDC7,37,$B3DE68,StartTextBox,01C8,Text_1C8_Dialog_Come,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,"That's it, Come on,"
+$07,4,$B3DDC7,39,$B3DE6F,StartTextBox,03BC,Text_3BC_Dialog_GiveMe,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,What? Do you give it to me?
+$07,4,$B3DDC7,42,$B3DE7D,StartTextBox,0396,Text_396_Dialog_AhWorkingTooHardIsnot,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,"Ah: you, Working too hard isnot good for your health: you know."
+$07,4,$B3DDC7,44,$B3DE84,StartTextBox,03FD,Text_3FD_Weather_LastJuiceDrinkSeeingSnow,Weather,weather_forecast_system,family_romance_dialogue_matrix,high,This is the last juice to drink seeing snow this year.Well:we can drink juice again seeing flow…
+$07,4,$B3DDC7,52,$B3DEAE,StartTextBox,0440,Text_440_Weather_AhSorryButAnswerYouright,Weather,weather_forecast_system,family_romance_dialogue_matrix,high,Ah:........well:I.... sorry but I can't answer youright now.... I'm visiting the livestock deal…
+$07,4,$B3DDC7,54,$B3DEB5,StartTextBox,017A,Text_17A_Dialog_AllTooSuddenKnow,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,It's all too sudden so I don't know what to do...
+$07,4,$B3DDC7,57,$B3DEC4,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$07,4,$B3DDC7,59,$B3DECB,StartTextBox,03B3,Text_3B3_Dialog_ThankNowBakeCake,Dialog,family_romance_gift_context,family_romance_dialogue_matrix,high,Thank you. Now I can bake a cake with it.
+$07,4,$B3DDC7,65,$B3DEED,StartTextBox,039D,Text_39D_Weather_HardShovelSnowButitFeels,Weather,weather_forecast_system,family_romance_dialogue_matrix,high,It's hard to shovel snow butit feels good to exercise inthe morning when it snows.
+$07,4,$B3DDC7,67,$B3DEF4,StartTextBox,02B2,Text_2B2_Church_PrayPublicSquareRomantic,Church,event_dialogue_unknown_specific_owner,family_romance_dialogue_matrix,high,We'll pray at the public square. So romantic.
+$07,4,$B3DDC7,69,$B3DEFB,StartTextBox,03FB,Text_3FB_Weather_SnowGaveUsHardTime,Weather,weather_forecast_system,family_romance_dialogue_matrix,high,Snow gave us a hard time butwill miss seeing the snow.
+$07,4,$B3DDC7,72,$B3DF08,StartTextBox,01EE,Text_1EE_Dialog_Aha,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Aha...
+$07,5,$B3DF0F,9,$B3DF31,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$07,5,$B3DF0F,11,$B3DF38,StartTextBox,01CA,Text_1CA_Romance_HaveGiveGirlLoveGirl,Romance,romance_or_marriage_dialogue,family_romance_dialogue_matrix,high,You have to give it to the girl you love: OK? To the girl you want to marry.
+$07,5,$B3DF0F,18,$B3DF5F,StartTextBox,0398,Text_398_Dialog_DieWithoutMoneyMoneyNecessary,Dialog,money_context,family_romance_dialogue_matrix,high,You won't die without money.Money is not necessary to live a full life.
+$07,5,$B3DF0F,20,$B3DF66,StartTextBox,01D1,Text_1D1_Mountain_MariaGoWenttoExactlyNortheast,Sign,npc_maria_romance_or_family,family_romance_dialogue_matrix,high,Where did Maria go? She wentto...exactly northeast. You see a pond there.
+$07,5,$B3DF0F,23,$B3DF71,StartTextBox,01DD,Text_1DD_Weather_DirectionWhichWeatherCockWent,Weather,weather_context,family_romance_dialogue_matrix,high,The Direction in which the weather-cock went to? Somewhere you can keep away from the rain.And…
+$07,5,$B3DF0F,26,$B3DF7C,StartTextBox,01E6,Text_1E6_Romance_MmmmGirlFellDownDark,Romance,romance_or_marriage_dialogue,family_romance_dialogue_matrix,high,Mmmm:a girl fell down in a dark: small place. Go get her right away before it's too late.
+$07,5,$B3DF0F,29,$B3DF87,StartTextBox,01EF,Text_1EF_Sign_WhichDirectionBluebirdGoThink,Sign,event_dialogue_unknown_specific_owner,family_romance_dialogue_matrix,high,Which direction did the bluebird go? Well:I think I saw it flying up towards the mountain.
+$07,5,$B3DF0F,36,$B3DFA5,StartTextBox,01CB,Text_1CB_Dialog_WowBlueFeatherShowMe,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,"Wow:the blue feather, Show it to me."
+$07,5,$B3DF0F,38,$B3DFAC,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$07,5,$B3DF0F,41,$B3DFBA,StartTextBox,0399,Text_399_Weather_WeatherMakesMeFeelDepressed,Weather,weather_context,family_romance_dialogue_matrix,high,This weather makes me feel depressed. It's boring...I want to sleep in winter.
+$07,5,$B3DF0F,43,$B3DFC1,StartTextBox,0324,Text_324_Animal_PlowFieldBeforeSpringBut,Animal,event_dialogue_unknown_specific_owner,family_romance_dialogue_matrix,high,You can plow the field before spring. But I hear it's a little damaged when it comes to spring.
+$07,6,$B3DFCE,8,$B3DFEC,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$07,6,$B3DFCE,11,$B3DFF7,StartTextBox,01C9,Text_1C9_Dialog_GivingWrongPerson,Dialog,child_family_event,family_romance_dialogue_matrix,high,Hey: you are giving it to a wrong person.
+$07,6,$B3DFCE,16,$B3E010,StartTextBox,005E,Text_05E_Weather_YoungBoyPutLivestockInside,Weather,weather_context,family_romance_dialogue_matrix,high,"Hey:young boy, Put your livestock inside the pen before the weather gets worse,"
+$07,6,$B3DFCE,19,$B3E01B,StartTextBox,01F0,Text_1F0_Romance_EllenDependsLookAfter,Romance,npc_ellen_romance_or_family,family_romance_dialogue_matrix,high,Ellen depends on you: doesn't she? Look after her.
+$07,6,$B3DFCE,22,$B3E026,StartTextBox,0146,Text_146_Animal_LongWinterFinallyOverAnimals,Animal,event_dialogue_unknown_specific_owner,family_romance_dialogue_matrix,high,Hey:the long winter is finally over. Animals looks so happy when springs comes too.
+$07,7,$B3E037,9,$B3E059,StartTextBox,03BC,Text_3BC_Dialog_GiveMe,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,What? Do you give it to me?
+$07,7,$B3E037,11,$B3E060,StartTextBox,01C8,Text_1C8_Dialog_Come,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,"That's it, Come on,"
+$07,7,$B3E037,14,$B3E06E,StartTextBox,0150,Text_150_Weather_ToughWeatherGloomy,Weather,weather_context,family_romance_dialogue_matrix,high,Hey: it's tough when the weather is gloomy.
+$07,7,$B3E037,16,$B3E075,StartTextBox,03F6,Text_3F6_Dialog_WasGoodYearTryBest,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,"Hello, Was it a good year for you? Try our best next year too."
+$08,0,$B3E0DF,13,$B3E11A,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$08,0,$B3E0DF,15,$B3E121,StartTextBox,03B9,Text_3B9_Dialog_Trouble,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,I could be in trouble.
+$08,0,$B3E0DF,17,$B3E128,StartTextBox,0401,Text_401_Dialog_ImportantHumanOvercomeDifficulties,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,It's important for a human to overcome difficulties.
+$08,0,$B3E0DF,24,$B3E14C,StartTextBox,043D,Text_43D_Weather_ThankButAnsweryouRightNow,Weather,weather_forecast_system,family_romance_dialogue_matrix,high,Thank you but I can't answeryou right now. If it's sunny:I'll be waiting for you at the church…
+$08,0,$B3E0DF,26,$B3E153,StartTextBox,0174,Text_174_Dialog_HaventThoughtAboutitYet,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Well:I haven't thought aboutit yet...
+$08,0,$B3E0DF,28,$B3E15A,StartTextBox,016B,Text_16B_Dialog_WasSurprisedRanchAlright,Dialog,ranch_livestock_context,family_romance_dialogue_matrix,high,I was surprised.Is your ranch alright?
+$08,0,$B3E0DF,36,$B3E18E,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$08,0,$B3E0DF,38,$B3E195,StartTextBox,0212,Text_212_Dialog_WowThanksLotMmmmSmells,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Wow:thanks a lot. Mmmm:it smells so good.
+$08,0,$B3E0DF,41,$B3E1A2,StartTextBox,03B5,Text_3B5_Dialog_GladGivingMeNeatPresent,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,So glad. Are you giving me this neat present? Thank you.
+$08,0,$B3E0DF,44,$B3E1AF,StartTextBox,03B2,Text_3B2_Dialog_ThankLooksDelicious,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you. It looks delicious.
+$08,0,$B3E0DF,47,$B3E1BC,StartTextBox,01DA,Text_1DA_Dialog_LikeSmellMuch,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,I don't like this smell so much.
+$08,1,$B3E1C9,9,$B3E1F0,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$08,1,$B3E1C9,11,$B3E1F7,StartTextBox,03B0,Text_3B0_Dialog_ThThank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,......Th-thank you.
+$08,1,$B3E1C9,13,$B3E1FE,StartTextBox,0411,Text_411_Dialog_AllRightFeelEaseKnowing,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Are you all right? I feel ease knowing no one was hurt. But... that makes us feel the fear of t…
+$08,1,$B3E1C9,19,$B3E21D,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$08,1,$B3E1C9,21,$B3E224,StartTextBox,03B8,Text_3B8_Dialog_Want,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,I don't want it.
+$08,1,$B3E1C9,23,$B3E22B,StartTextBox,016D,Text_16D_Romance_SeemsChangesEverywhereCausedEarthquake,Romance,npc_eve_romance_or_family,family_romance_dialogue_matrix,high,It seems there are changes everywhere caused by the earthquake. We were just talking of going t…
+$08,2,$B3E232,13,$B3E26D,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$08,2,$B3E232,15,$B3E274,StartTextBox,03B9,Text_3B9_Dialog_Trouble,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,I could be in trouble.
+$08,2,$B3E232,17,$B3E27B,StartTextBox,016B,Text_16B_Dialog_WasSurprisedRanchAlright,Dialog,ranch_livestock_context,family_romance_dialogue_matrix,high,I was surprised.Is your ranch alright?
+$08,2,$B3E232,25,$B3E2A2,StartTextBox,043F,Text_43F_Weather_UummmAnswerNowIfSunny,Weather,weather_forecast_system,family_romance_dialogue_matrix,high,........Uummm:well:I can't answer now. If it's sunny...will you come to the mountain on Sunday?…
+$08,2,$B3E232,27,$B3E2A9,StartTextBox,0178,Text_178_Dialog_AfraidTooEarly,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,I'm afraid it's too early...
+$08,2,$B3E232,35,$B3E2DD,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$08,2,$B3E232,37,$B3E2E4,StartTextBox,03B2,Text_3B2_Dialog_ThankLooksDelicious,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you. It looks delicious.
+$08,2,$B3E232,40,$B3E2F1,StartTextBox,0212,Text_212_Dialog_WowThanksLotMmmmSmells,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Wow:thanks a lot. Mmmm:it smells so good.
+$08,2,$B3E232,43,$B3E2FE,StartTextBox,03B1,Text_3B1_Dialog_PickUpHerbsWithoutThinking,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Don't pick up herbs without thinking what they are for.
+$08,2,$B3E232,46,$B3E30B,StartTextBox,03BA,Text_3BA_Dialog_WhatIsThis,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,What is this?
+$08,2,$B3E232,49,$B3E318,StartTextBox,0163,Text_163_Romance_GladEverybodyFine,Romance,npc_eve_romance_or_family,family_romance_dialogue_matrix,high,I'm glad everybody is fine.
+$08,3,$B3E31F,12,$B3E353,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$08,3,$B3E31F,14,$B3E35A,StartTextBox,0049,Text_049_Dialog_Entry,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,....
+$08,3,$B3E31F,16,$B3E361,StartTextBox,016F,Text_16F_Dialog_WasPrettySurprised,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Oh yes:I was pretty surprised.
+$08,3,$B3E31F,25,$B3E38F,StartTextBox,043E,Text_43E_Weather_SoundsGoodButNowiSunny,Weather,weather_forecast_system,family_romance_dialogue_matrix,high,What? It sounds good but nowI can't... On sunny Saturdays: I'll be waiting for you in front of…
+$08,3,$B3E31F,27,$B3E396,StartTextBox,0176,Text_176_Dialog_YoureKidding,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,You're kidding...
+$08,3,$B3E31F,36,$B3E3D1,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$08,3,$B3E31F,38,$B3E3D8,StartTextBox,03B4,Text_3B4_Dialog_PlayingNastyTrickMe,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Are you playing a nasty trick on me?
+$08,3,$B3E31F,41,$B3E3E5,StartTextBox,03B2,Text_3B2_Dialog_ThankLooksDelicious,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you. It looks delicious.
+$08,3,$B3E31F,44,$B3E3F2,StartTextBox,0212,Text_212_Dialog_WowThanksLotMmmmSmells,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Wow:thanks a lot. Mmmm:it smells so good.
+$08,3,$B3E31F,47,$B3E3FF,StartTextBox,03B4,Text_3B4_Dialog_PlayingNastyTrickMe,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Are you playing a nasty trick on me?
+$08,3,$B3E31F,50,$B3E40C,StartTextBox,0169,Text_169_Dialog_EarthquakeNotice,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,What? An earthquake? I didn't notice it.
+$08,4,$B3E413,20,$B3E46E,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$08,4,$B3E413,22,$B3E475,StartTextBox,03BB,Text_3BB_Dialog_TakeKindofStuff,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,What? I can't take this kindof stuff.
+$08,4,$B3E413,24,$B3E47C,StartTextBox,0402,Text_402_Dialog_SuchHardTimeHadBut,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,"Such a hard time you had, But experience teaches you alot."
+$08,4,$B3E413,29,$B3E493,StartTextBox,03BC,Text_3BC_Dialog_GiveMe,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,What? Do you give it to me?
+$08,4,$B3E413,31,$B3E49A,StartTextBox,03C9,Text_3C9_Romance_LotThingsHappenWhileAlive,Romance,romance_or_marriage_dialogue,family_romance_dialogue_matrix,high,Oh well:a lot of things happen while you are alive. You just couldn't go through your life if y…
+$08,4,$B3E413,32,$B3E49E,StartTextBox,0412,Text_412_Dialog_SurpriseUsSayingSomethingDecent,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Hey:why don't you surprise us by saying something decent.
+$08,4,$B3E413,39,$B3E4C2,StartTextBox,0440,Text_440_Weather_AhSorryButAnswerYouright,Weather,weather_forecast_system,family_romance_dialogue_matrix,high,Ah:........well:I.... sorry but I can't answer youright now.... I'm visiting the livestock deal…
+$08,4,$B3E413,41,$B3E4C9,StartTextBox,017A,Text_17A_Dialog_AllTooSuddenKnow,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,It's all too sudden so I don't know what to do...
+$08,4,$B3E413,44,$B3E4D8,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$08,4,$B3E413,46,$B3E4DF,StartTextBox,03B0,Text_3B0_Dialog_ThThank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,......Th-thank you.
+$08,4,$B3E413,48,$B3E4E6,StartTextBox,0165,Text_165_Dialog_WasAwfulOursAlright,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,That was awful. Yes: ours is alright.
+$08,5,$B3E4ED,10,$B3E516,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$08,5,$B3E4ED,12,$B3E51D,StartTextBox,03BB,Text_3BB_Dialog_TakeKindofStuff,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,What? I can't take this kindof stuff.
+$08,5,$B3E4ED,14,$B3E524,StartTextBox,0168,Text_168_Dialog_YoudBetterInspect,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,You'd better inspect here and there.
+$08,5,$B3E4ED,21,$B3E54A,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$08,5,$B3E4ED,23,$B3E551,StartTextBox,03BA,Text_3BA_Dialog_WhatIsThis,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,What is this?
+$08,5,$B3E4ED,25,$B3E558,StartTextBox,0413,Text_413_Dialog_WasTerrifiedWasMyFirst,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,I was terrified. It was my first earthquake.
+$08,6,$B3E560,9,$B3E585,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$08,6,$B3E560,11,$B3E58C,StartTextBox,03BB,Text_3BB_Dialog_TakeKindofStuff,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,What? I can't take this kindof stuff.
+$08,6,$B3E560,13,$B3E593,StartTextBox,016C,Text_16C_Weather_CowsSimpleKeepOutGround,Weather,livestock_cow_context,family_romance_dialogue_matrix,high,Cows are simple. So don't keep them out on the ground when it rains: snows: and a hurricane com…
+$08,7,$B3E59A,9,$B3E5C1,StartTextBox,03BC,Text_3BC_Dialog_GiveMe,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,What? Do you give it to me?
+$08,7,$B3E59A,11,$B3E5C8,StartTextBox,03BB,Text_3BB_Dialog_TakeKindofStuff,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,What? I can't take this kindof stuff.
+$08,7,$B3E59A,13,$B3E5CF,StartTextBox,0414,Text_414_Dialog_SeeRockUpCollapsed,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Did you see the rock up there collapsed?
+$08,7,$B3E59A,19,$B3E5EE,StartTextBox,03BC,Text_3BC_Dialog_GiveMe,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,What? Do you give it to me?
+$08,7,$B3E59A,21,$B3E5F5,StartTextBox,03BB,Text_3BB_Dialog_TakeKindofStuff,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,What? I can't take this kindof stuff.
+$08,7,$B3E59A,23,$B3E5FC,StartTextBox,0415,Text_415_Sign_HeardMysteriousSpringMountainRemember,Sign,event_dialogue_unknown_specific_owner,family_romance_dialogue_matrix,high,I've heard that there is a mysterious spring in this mountain. It is......I don't remember the…
+$0B,8,$B3EE1A,17,$B3EE55,StartTextBox,012B,Text_12B_Mountain_AnglerLivePerfectFreedomBetter,Sign,event_dialogue_unknown_specific_owner,mixed_event_script,medium,I'm an angler. I live in perfect freedom. You' better forget your work and spend some quiet tim…
+$0B,8,$B3EE1A,19,$B3EE5C,StartTextBox,012C,Text_12C_Mountain_PrepareFishingRodNextTime,Sign,event_dialogue_unknown_specific_owner,mixed_event_script,medium,I'll prepare a fishing rod for you next time.
+$0B,9,$B3EE1A,17,$B3EE55,StartTextBox,012B,Text_12B_Mountain_AnglerLivePerfectFreedomBetter,Sign,event_dialogue_unknown_specific_owner,mixed_event_script,medium,I'm an angler. I live in perfect freedom. You' better forget your work and spend some quiet tim…
+$0B,9,$B3EE1A,19,$B3EE5C,StartTextBox,012C,Text_12C_Mountain_PrepareFishingRodNextTime,Sign,event_dialogue_unknown_specific_owner,mixed_event_script,medium,I'll prepare a fishing rod for you next time.
+$0B,10,$B3EEEA,7,$B3EF03,StartTextBox,012A,Text_12A_Dialog_NowExtensionCampaignIfEnlargeyour,Dialog,house_upgrade_or_family_context,mixed_event_script,medium,Now it's an extension campaign. If you can enlargeyour house by the end of summer: you will get…
+$15,0,$B48C45,20,$B48C80,StartTextBoxCopy,0327,Text_327_Manual_RanchUseSickleTheshedHows,Manual,ranch_livestock_context,mixed_event_script,medium,Hey:are you from the ranch? Do you use the sickle in theshed? How's it working? Very good Don't…
+$15,0,$B48C45,24,$B48C8F,StartTextBox,0328,Text_328_Dialog_WowMadeHappyMakeBetter,Dialog,npc_or_event_dialogue,mixed_event_script,medium,"Wow, I made it.I'm so happy.I'll make it better. Look forward to it."
+$15,0,$B48C45,37,$B48CC9,StartTextBox,0329,Text_329_Dialog_UseMadeAllMyEnergy,Dialog,npc_or_event_dialogue,mixed_event_script,medium,"Really? Don't you use it? I made it with all my energy,"
+$15,0,$B48C45,42,$B48CDD,StartTextBox,032A,Text_32A_Dialog_ByeBye,Dialog,npc_or_event_dialogue,mixed_event_script,medium,Bye-Bye.
+$15,0,$B48C45,55,$B48D11,StartTextBox,0325,Text_325_Dialog_HasRanchBecomeLively,Dialog,ranch_livestock_context,mixed_event_script,medium,How do you do? Has your ranch become lively?
+$15,0,$B48C45,57,$B48D18,StartTextBox,032A,Text_32A_Dialog_ByeBye,Dialog,npc_or_event_dialogue,mixed_event_script,medium,Bye-Bye.
+$15,0,$B48C45,62,$B48D2D,StartTextBox,0326,Text_326_Dialog_GoOut,Dialog,npc_or_event_dialogue,mixed_event_script,medium,You can go out from here.
+$24,0,$B4A475,15,$B4A4BE,StartTextBox,0272,Text_272_Animal_FlowerFestivalTomorrowStopWork,Animal,festival_event;weather_context,mixed_event_script,medium,It's the Flower Festival tomorrow. I'll stop work earlier and come to the public square at <CTR…
+$24,0,$B4A475,17,$B4A4C5,StartTextBox,0240,Text_240_Animal_HarvestFestivalTomorrowStopWork,Animal,festival_event;festival_or_title_context;weather_context,mixed_event_script,medium,The Harvest Festival is tomorrow.I'll stop work earlier and come to the public square at <CTRL_…
+$24,0,$B4A475,19,$B4A4CC,StartTextBox,028E,Text_28E_Festival_ThanksgivingFestivalTomorrowAllHusbands,Festival,festival_event;weather_context,mixed_event_script,medium,It's the Thanksgiving Festival tomorrow. It's for all the husbands and fathers who are always w…
+$24,0,$B4A475,21,$B4A4D3,StartTextBox,026E,Text_26E_Festival_StarNightFestivaltomorrowCoupleofPlaces,Festival,festival_event;weather_context,mixed_event_script,medium,It's the Star Night Festivaltomorrow. There are a coupleof places for it so you should ask the…
+$24,0,$B4A475,23,$B4A4DA,StartTextBox,0289,Text_289_Festival_NewYearsFestivaltomorrowSayThelast,Festival,festival_event;weather_context,mixed_event_script,medium,It's the New Year's festivaltomorrow. You should say thelast hello of this year.
+$24,0,$B4A475,25,$B4A4E1,StartTextBox,0274,Text_274_Animal_EggFestivalTomorrowStopWork,Animal,festival_event;weather_context,mixed_event_script,medium,It's Egg Festival tomorrow. I'll stop work earlier and come to the public square by <CTRL_B5>:<…
+$24,1,$B4A531,8,$B4A54D,StartTextBox,047F,Text_47F_Sign_DoingMakingGreatThingNow,Sign,event_dialogue_unknown_specific_owner,mixed_event_script,medium,"Hey:how are you doing? I'm making a great thing now, It'll be completed around the <CTRL_B4><CT…"
+$24,2,$B4A55D,8,$B4A579,StartTextBox,0486,Text_486_Dialog_HeardAwfulSoundMorningAll,Dialog,npc_or_event_dialogue,mixed_event_script,medium,I heard an awful sound from here this morning. Are you all right? Has anything strange happened…
+$24,3,$B4A589,8,$B4A5A5,StartTextBox,0142,Text_142_Sign_WasScaredEarthquakeMorningCome,Sign,event_dialogue_unknown_specific_owner,mixed_event_script,medium,"Hi,I was scared by the earthquake this morning. Come up to the mountain after checking out the…"
+$26,0,$B4A62D,26,$B4A686,StartTextBox,0241,Text_241_Dialog_WelcomePutBroughtStewNow,Dialog,npc_or_event_dialogue,unknown_opcode_cluster_needs_manual_decode,low,Welcome.Put what you brought in the stew now.
+$26,0,$B4A62D,31,$B4A693,StartTextBox,0243,Text_243_Dialog_NowWaitUntilDone,Dialog,npc_or_event_dialogue,unknown_opcode_cluster_needs_manual_decode,low,Now:wait until it's done.
+$26,0,$B4A62D,36,$B4A6A1,StartTextBox,0242,Text_242_Dialog_BringAnythingAlright,Dialog,npc_or_event_dialogue,unknown_opcode_cluster_needs_manual_decode,low,Oh no:you didn't bring anything. Alright.
+$26,0,$B4A62D,37,$B4A6A5,StartTextBox,0243,Text_243_Dialog_NowWaitUntilDone,Dialog,npc_or_event_dialogue,unknown_opcode_cluster_needs_manual_decode,low,Now:wait until it's done.
+$43,0,$B58020,30,$B580D7,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Thank you.
+$43,0,$B58020,32,$B580DE,StartTextBox,03B0,Text_3B0_Dialog_ThThank,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,......Th-thank you.
+$43,0,$B58020,37,$B580F8,StartTextBox,03B2,Text_3B2_Dialog_ThankLooksDelicious,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Thank you. It looks delicious.
+$43,0,$B58020,40,$B58106,StartTextBox,03B5,Text_3B5_Dialog_GladGivingMeNeatPresent,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,So glad. Are you giving me this neat present? Thank you.
+$43,0,$B58020,43,$B58113,StartTextBox,01D9,Text_1D9_Dialog_Rude,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,"How rude,"
+$43,0,$B58020,50,$B5813B,StartTextBox,0212,Text_212_Dialog_WowThanksLotMmmmSmells,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Wow:thanks a lot. Mmmm:it smells so good.
+$43,0,$B58020,52,$B58142,StartTextBox,01BD,Text_1BD_Romance_PresentGladRememberedAnniversary,Romance,npc_ann_romance_or_family,state_gate_or_flag_router,medium,What? Present? I'm so glad that you remembered the anniversary.
+$43,0,$B58020,55,$B5814F,StartTextBox,041D,Text_41D_Dialog_CelebrationEesBirthdayYearNow,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Celebration of <CTRL_FFFD>eE's birthday. It's been a year now. Time goes too fast.
+$43,0,$B58020,58,$B5815C,StartTextBox,041E,Text_41E_Dialog_WowCakeEfsBirthday,Dialog,family_romance_gift_context,state_gate_or_flag_router,medium,Wow:cake <CTRL_FFFD>eF's birthday:isn't it?
+$43,0,$B58020,96,$B5828E,StartTextBox,0485,Text_485_Dialog_DarlingTakeCareYourself,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Darling:please take care of yourself.
+$43,0,$B58020,98,$B58295,StartTextBox,017D,Text_17D_Dialog_GoodMorningDaDarlingHappy,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Good morning....da-darling. Be happy together from now on.
+$43,0,$B58020,100,$B5829C,StartTextBox,0166,Text_166_Dialog_LetsLookAroundRanchTrouble,Dialog,ranch_livestock_context,state_gate_or_flag_router,medium,Let's look around the ranch.There will be trouble if thefences are broken.
+$43,0,$B58020,102,$B582A3,StartTextBox,015F,Text_15F_Animal_HavePutLivestockPenLets,Animal,event_dialogue_unknown_specific_owner,state_gate_or_flag_router,medium,Have you put the livestock in the pen? Let's lock the doors later and go to bed.
+$43,0,$B58020,104,$B582AA,StartTextBox,0160,Text_160_Dialog_ImpossibleGoOutToday,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,It's impossible to go out today.
+$43,0,$B58020,106,$B582B1,StartTextBox,01A0,Text_1A0_Dialog_DarlingShallPaintHouseBeautiful,Dialog,house_upgrade_context;house_upgrade_or_family_context,state_gate_or_flag_router,medium,Hey:darling:shall we paint our house in a beautiful color?
+$43,0,$B58020,108,$B582B8,StartTextBox,0493,Text_493_Dialog_DarlingForgetPaintDoor,Dialog,house_upgrade_context,state_gate_or_flag_router,medium,Darling:didn't you forget to paint the door?
+$43,0,$B58020,110,$B582BF,StartTextBox,01A2,Text_1A2_Dialog_UummmmSayUmmGuessPregnant,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Well...Uummmm...say... I...umm.. I guess I'm pregnant.
+$43,0,$B58020,116,$B582D3,StartTextBox,01A3,Text_1A3_Dialog_ItllBornSomeTimeLater,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,It'll be born some time later.
+$43,0,$B58020,122,$B582E7,StartTextBox,01A4,Text_1A4_Dialog_ThinkNameFortheBaby,Dialog,child_family_event,state_gate_or_flag_router,medium,Will you think of a name forthe baby?
+$43,0,$B58020,127,$B582F8,StartTextBox,01A5,Text_1A5_Dialog_FeelMyBodyBecomingLittle,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,I feel my body becoming a little heavier.
+$43,0,$B58020,129,$B582FF,StartTextBox,0481,Text_481_Dialog_LookCrawlingNow,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,"Look. He is crawling now,"
+$43,0,$B58020,131,$B58306,StartTextBox,0480,Text_480_Dialog_DarlingHoldChildSometimes,Dialog,child_family_event,state_gate_or_flag_router,medium,Darling:will you hold our child sometimes?
+$43,0,$B58020,133,$B5830D,StartTextBox,0484,Text_484_Dialog_VeryActiveHavePutEye,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,He is very active so I have to put on eye on him all thetime.
+$43,0,$B58020,137,$B5831A,StartTextBox,0482,Text_482_Dialog_ChildGrowsPrettyQuicklyLittle,Dialog,child_family_event,state_gate_or_flag_router,medium,This child grows pretty quickly. Just a little bit but he started to speak words.
+$43,0,$B58020,139,$B58321,StartTextBox,0443,Text_443_Dialog_MadeOverallCute,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Hey:I made this overall. Isn't it cute?
+$43,0,$B58020,141,$B58328,StartTextBox,01F3,Text_1F3_Dialog_RecentlyNothing,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,...You recently....no: nothing...
+$43,0,$B58020,143,$B5832F,StartTextBox,0049,Text_049_Dialog_Entry,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,....
+$43,0,$B58020,145,$B58336,StartTextBox,047D,Text_47D_Sign_HoneyShopClosedBecauseSaturday,Sign,shop_or_purchase_context,state_gate_or_flag_router,medium,Honey: the shop is closed because it's Saturday today.
+$43,0,$B58020,149,$B5834B,StartTextBox,0194,Text_194_Dialog_SundaysRanch,Dialog,ranch_livestock_context,state_gate_or_flag_router,medium,There are no Sundays at ranch.
+$43,0,$B58020,156,$B5836D,StartTextBox,0182,Text_182_Dialog_GotMyBestTodayalso,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,I've got to do my best todayalso.
+$43,0,$B58020,158,$B58374,StartTextBox,0206,Text_206_Festival_FlowerFestivalTomorrowAlsoCelebrate,Festival,festival_event;weather_context,state_gate_or_flag_router,medium,It's the Flower Festival tomorrow. It also celebrate the spring to come.
+$43,0,$B58020,165,$B58390,StartTextBox,0427,Text_427_Weather_RainsHavePutEgInside,Weather,house_upgrade_or_family_context,state_gate_or_flag_router,medium,When it rains: we have to put <CTRL_FFFD>eG inside the house.
+$43,0,$B58020,167,$B58397,StartTextBox,017F,Text_17F_Dialog_TooLate,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Don't be too late.
+$43,0,$B58020,169,$B5839E,StartTextBox,0183,Text_183_Diary_WorkHardGiveHouseGood,Diary,house_upgrade_or_family_context,state_gate_or_flag_router,medium,I'll work hard to give the house a good shine.
+$43,0,$B58020,177,$B583C7,StartTextBox,018D,Text_18D_Romance_WantCookDeliciousMealsEvery,Romance,npc_eve_romance_or_family,state_gate_or_flag_router,medium,I want to cook delicious meals for you every day.
+$43,0,$B58020,179,$B583CE,StartTextBox,0238,Text_238_Festival_HarvestFestivalTomorrow,Festival,festival_event;festival_or_title_context;weather_context,state_gate_or_flag_router,medium,It's the Harvest Festival tomorrow.
+$43,0,$B58020,188,$B583FF,StartTextBox,042F,Text_42F_Dialog_HopeSpringComeSoon,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,I hope spring will come soon.
+$43,1,$B584DA,29,$B5858A,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Thank you.
+$43,1,$B584DA,31,$B58591,StartTextBox,03B4,Text_3B4_Dialog_PlayingNastyTrickMe,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Are you playing a nasty trick on me?
+$43,1,$B584DA,35,$B585A5,StartTextBox,0212,Text_212_Dialog_WowThanksLotMmmmSmells,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Wow:thanks a lot. Mmmm:it smells so good.
+$43,1,$B584DA,39,$B585B9,StartTextBox,03B2,Text_3B2_Dialog_ThankLooksDelicious,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Thank you. It looks delicious.
+$43,1,$B584DA,42,$B585C6,StartTextBox,03B4,Text_3B4_Dialog_PlayingNastyTrickMe,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Are you playing a nasty trick on me?
+$43,1,$B584DA,48,$B585E8,StartTextBox,0212,Text_212_Dialog_WowThanksLotMmmmSmells,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Wow:thanks a lot. Mmmm:it smells so good.
+$43,1,$B584DA,51,$B585F5,StartTextBox,01BD,Text_1BD_Romance_PresentGladRememberedAnniversary,Romance,npc_ann_romance_or_family,state_gate_or_flag_router,medium,What? Present? I'm so glad that you remembered the anniversary.
+$43,1,$B584DA,54,$B58602,StartTextBox,041D,Text_41D_Dialog_CelebrationEesBirthdayYearNow,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Celebration of <CTRL_FFFD>eE's birthday. It's been a year now. Time goes too fast.
+$43,1,$B584DA,57,$B5860F,StartTextBox,041E,Text_41E_Dialog_WowCakeEfsBirthday,Dialog,family_romance_gift_context,state_gate_or_flag_router,medium,Wow:cake <CTRL_FFFD>eF's birthday:isn't it?
+$43,1,$B584DA,95,$B58741,StartTextBox,0485,Text_485_Dialog_DarlingTakeCareYourself,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Darling:please take care of yourself.
+$43,1,$B584DA,97,$B58748,StartTextBox,017D,Text_17D_Dialog_GoodMorningDaDarlingHappy,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Good morning....da-darling. Be happy together from now on.
+$43,1,$B584DA,99,$B5874F,StartTextBox,0166,Text_166_Dialog_LetsLookAroundRanchTrouble,Dialog,ranch_livestock_context,state_gate_or_flag_router,medium,Let's look around the ranch.There will be trouble if thefences are broken.
+$43,1,$B584DA,101,$B58756,StartTextBox,015F,Text_15F_Animal_HavePutLivestockPenLets,Animal,event_dialogue_unknown_specific_owner,state_gate_or_flag_router,medium,Have you put the livestock in the pen? Let's lock the doors later and go to bed.
+$43,1,$B584DA,103,$B5875D,StartTextBox,0160,Text_160_Dialog_ImpossibleGoOutToday,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,It's impossible to go out today.
+$43,1,$B584DA,105,$B58764,StartTextBox,01A0,Text_1A0_Dialog_DarlingShallPaintHouseBeautiful,Dialog,house_upgrade_context;house_upgrade_or_family_context,state_gate_or_flag_router,medium,Hey:darling:shall we paint our house in a beautiful color?
+$43,1,$B584DA,107,$B5876B,StartTextBox,0493,Text_493_Dialog_DarlingForgetPaintDoor,Dialog,house_upgrade_context,state_gate_or_flag_router,medium,Darling:didn't you forget to paint the door?
+$43,1,$B584DA,109,$B58772,StartTextBox,01A2,Text_1A2_Dialog_UummmmSayUmmGuessPregnant,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Well...Uummmm...say... I...umm.. I guess I'm pregnant.
+$43,1,$B584DA,115,$B58786,StartTextBox,01A4,Text_1A4_Dialog_ThinkNameFortheBaby,Dialog,child_family_event,state_gate_or_flag_router,medium,Will you think of a name forthe baby?
+$43,1,$B584DA,121,$B5879A,StartTextBox,01A6,Text_1A6_Romance_WonderIfBoyorGirl,Romance,romance_or_marriage_dialogue,state_gate_or_flag_router,medium,I wonder if it will be a boyor a girl.
+$43,1,$B584DA,127,$B587AE,StartTextBox,01A7,Text_1A7_Dialog_KnowWalkAroundMuch,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,I know.I won't walk around so much.
+$43,1,$B584DA,129,$B587B5,StartTextBox,0481,Text_481_Dialog_LookCrawlingNow,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,"Look. He is crawling now,"
+$43,1,$B584DA,131,$B587BC,StartTextBox,0480,Text_480_Dialog_DarlingHoldChildSometimes,Dialog,child_family_event,state_gate_or_flag_router,medium,Darling:will you hold our child sometimes?
+$43,1,$B584DA,133,$B587C3,StartTextBox,0484,Text_484_Dialog_VeryActiveHavePutEye,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,He is very active so I have to put on eye on him all thetime.
+$43,1,$B584DA,137,$B587D0,StartTextBox,0482,Text_482_Dialog_ChildGrowsPrettyQuicklyLittle,Dialog,child_family_event,state_gate_or_flag_router,medium,This child grows pretty quickly. Just a little bit but he started to speak words.
+$43,1,$B584DA,139,$B587D7,StartTextBox,0443,Text_443_Dialog_MadeOverallCute,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Hey:I made this overall. Isn't it cute?
+$43,1,$B584DA,141,$B587DE,StartTextBox,01F4,Text_1F4_Dialog_VeryBusy,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,"...What? I'm very busy,"
+$43,1,$B584DA,143,$B587E5,StartTextBox,0049,Text_049_Dialog_Entry,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,....
+$43,1,$B584DA,145,$B587EC,StartTextBox,047D,Text_47D_Sign_HoneyShopClosedBecauseSaturday,Sign,shop_or_purchase_context,state_gate_or_flag_router,medium,Honey: the shop is closed because it's Saturday today.
+$43,1,$B584DA,149,$B58801,StartTextBox,0195,Text_195_Dialog_WarmSuchComfortableSunday,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,It's warm. Such a comfortable Sunday.
+$43,1,$B584DA,156,$B58823,StartTextBox,0182,Text_182_Dialog_GotMyBestTodayalso,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,I've got to do my best todayalso.
+$43,1,$B584DA,158,$B5882A,StartTextBox,0207,Text_207_Festival_FlowerFestivalTomorrowGoodRelax,Festival,festival_event;weather_context,state_gate_or_flag_router,medium,It's the Flower Festival tomorrow.It's good to relax once in a while.
+$43,1,$B584DA,165,$B58846,StartTextBox,0422,Text_422_Dialog_HopeAbleCookBetterStep,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,I hope I'll be able to cook better step by step. ......please be patient.
+$43,1,$B584DA,167,$B5884D,StartTextBox,0420,Text_420_Weather_VariousDisastersHappeninSummerBetter,Weather,weather_context,state_gate_or_flag_router,medium,Various disasters can happenin summer so you better watch the weather forecast every day.
+$43,1,$B584DA,169,$B58854,StartTextBox,0426,Text_426_Animal_HearWildDogsSometimesCome,Animal,livestock_dog_context,state_gate_or_flag_router,medium,I hear wild dogs sometimes come around here. It's dangerous to keep fences broken.
+$43,1,$B584DA,177,$B5887D,StartTextBox,0423,Text_423_Weather_WishHadHadTrainedLittle,Weather,wife_family_event,state_gate_or_flag_router,medium,I wish I had had trained a little to be a wife.
+$43,1,$B584DA,179,$B58884,StartTextBox,0239,Text_239_Festival_HaveDecidedTakeFestivalWantto,Festival,festival_event,state_gate_or_flag_router,medium,Have you decided what to take to the festival? I wantto complete my machine and present it in p…
+$43,1,$B584DA,188,$B588B5,StartTextBox,042D,Text_42D_Dialog_PlayMachinesTimeBeingGoing,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,I won't play with machines for the time being. I'm going to stay at home.
+$43,2,$B58990,29,$B58A40,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Thank you.
+$43,2,$B58990,31,$B58A47,StartTextBox,03B1,Text_3B1_Dialog_PickUpHerbsWithoutThinking,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Don't pick up herbs without thinking what they are for.
+$43,2,$B58990,35,$B58A5B,StartTextBox,0212,Text_212_Dialog_WowThanksLotMmmmSmells,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Wow:thanks a lot. Mmmm:it smells so good.
+$43,2,$B58990,39,$B58A6F,StartTextBox,03B2,Text_3B2_Dialog_ThankLooksDelicious,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Thank you. It looks delicious.
+$43,2,$B58990,45,$B58A91,StartTextBox,0212,Text_212_Dialog_WowThanksLotMmmmSmells,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Wow:thanks a lot. Mmmm:it smells so good.
+$43,2,$B58990,48,$B58A9E,StartTextBox,03BA,Text_3BA_Dialog_WhatIsThis,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,What is this?
+$43,2,$B58990,51,$B58AAB,StartTextBox,01BD,Text_1BD_Romance_PresentGladRememberedAnniversary,Romance,npc_ann_romance_or_family,state_gate_or_flag_router,medium,What? Present? I'm so glad that you remembered the anniversary.
+$43,2,$B58990,54,$B58AB8,StartTextBox,041D,Text_41D_Dialog_CelebrationEesBirthdayYearNow,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Celebration of <CTRL_FFFD>eE's birthday. It's been a year now. Time goes too fast.
+$43,2,$B58990,57,$B58AC5,StartTextBox,041E,Text_41E_Dialog_WowCakeEfsBirthday,Dialog,family_romance_gift_context,state_gate_or_flag_router,medium,Wow:cake <CTRL_FFFD>eF's birthday:isn't it?
+$43,2,$B58990,95,$B58BF7,StartTextBox,0485,Text_485_Dialog_DarlingTakeCareYourself,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Darling:please take care of yourself.
+$43,2,$B58990,98,$B58C06,StartTextBox,017D,Text_17D_Dialog_GoodMorningDaDarlingHappy,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Good morning....da-darling. Be happy together from now on.
+$43,2,$B58990,100,$B58C0D,StartTextBox,0166,Text_166_Dialog_LetsLookAroundRanchTrouble,Dialog,ranch_livestock_context,state_gate_or_flag_router,medium,Let's look around the ranch.There will be trouble if thefences are broken.
+$43,2,$B58990,102,$B58C14,StartTextBox,015F,Text_15F_Animal_HavePutLivestockPenLets,Animal,event_dialogue_unknown_specific_owner,state_gate_or_flag_router,medium,Have you put the livestock in the pen? Let's lock the doors later and go to bed.
+$43,2,$B58990,104,$B58C1B,StartTextBox,0160,Text_160_Dialog_ImpossibleGoOutToday,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,It's impossible to go out today.
+$43,2,$B58990,106,$B58C22,StartTextBox,01A0,Text_1A0_Dialog_DarlingShallPaintHouseBeautiful,Dialog,house_upgrade_context;house_upgrade_or_family_context,state_gate_or_flag_router,medium,Hey:darling:shall we paint our house in a beautiful color?
+$43,2,$B58990,108,$B58C29,StartTextBox,0493,Text_493_Dialog_DarlingForgetPaintDoor,Dialog,house_upgrade_context,state_gate_or_flag_router,medium,Darling:didn't you forget to paint the door?
+$43,2,$B58990,110,$B58C30,StartTextBox,01A2,Text_1A2_Dialog_UummmmSayUmmGuessPregnant,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Well...Uummmm...say... I...umm.. I guess I'm pregnant.
+$43,2,$B58990,116,$B58C44,StartTextBox,01A4,Text_1A4_Dialog_ThinkNameFortheBaby,Dialog,child_family_event,state_gate_or_flag_router,medium,Will you think of a name forthe baby?
+$43,2,$B58990,122,$B58C58,StartTextBox,01A6,Text_1A6_Romance_WonderIfBoyorGirl,Romance,romance_or_marriage_dialogue,state_gate_or_flag_router,medium,I wonder if it will be a boyor a girl.
+$43,2,$B58990,128,$B58C6C,StartTextBox,01A8,Text_1A8_Dialog_FeelStrangeGoingHaveBaby,Dialog,child_family_event,state_gate_or_flag_router,medium,I feel strange that I'm going to have a baby soon.
+$43,2,$B58990,130,$B58C73,StartTextBox,0481,Text_481_Dialog_LookCrawlingNow,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,"Look. He is crawling now,"
+$43,2,$B58990,132,$B58C7A,StartTextBox,0480,Text_480_Dialog_DarlingHoldChildSometimes,Dialog,child_family_event,state_gate_or_flag_router,medium,Darling:will you hold our child sometimes?
+$43,2,$B58990,134,$B58C81,StartTextBox,0484,Text_484_Dialog_VeryActiveHavePutEye,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,He is very active so I have to put on eye on him all thetime.
+$43,2,$B58990,138,$B58C8E,StartTextBox,0482,Text_482_Dialog_ChildGrowsPrettyQuicklyLittle,Dialog,child_family_event,state_gate_or_flag_router,medium,This child grows pretty quickly. Just a little bit but he started to speak words.
+$43,2,$B58990,140,$B58C95,StartTextBox,0443,Text_443_Dialog_MadeOverallCute,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Hey:I made this overall. Isn't it cute?
+$43,2,$B58990,142,$B58C9C,StartTextBox,01F4,Text_1F4_Dialog_VeryBusy,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,"...What? I'm very busy,"
+$43,2,$B58990,144,$B58CA3,StartTextBox,0049,Text_049_Dialog_Entry,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,....
+$43,2,$B58990,146,$B58CAA,StartTextBox,047D,Text_47D_Sign_HoneyShopClosedBecauseSaturday,Sign,shop_or_purchase_context,state_gate_or_flag_router,medium,Honey: the shop is closed because it's Saturday today.
+$43,2,$B58990,150,$B58CBF,StartTextBox,0195,Text_195_Dialog_WarmSuchComfortableSunday,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,It's warm. Such a comfortable Sunday.
+$43,2,$B58990,157,$B58CE1,StartTextBox,0424,Text_424_Manual_SpringSpringLetsPlantSeeds,Manual,event_dialogue_unknown_specific_owner,state_gate_or_flag_router,medium,"It's spring, Spring, Let's plant seeds,"
+$43,2,$B58990,159,$B58CE8,StartTextBox,0208,Text_208_Festival_FlowerFestivalTomorrowLoveBest,Festival,festival_event;weather_context,state_gate_or_flag_router,medium,It's the Flower Festival tomorrow.I love it the best of all the festivals.
+$43,2,$B58990,166,$B58D04,StartTextBox,0425,Text_425_Dialog_MorningNiceBrightToday,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Morning. It's so nice and bright today.
+$43,2,$B58990,168,$B58D0B,StartTextBox,0423,Text_423_Weather_WishHadHadTrainedLittle,Weather,wife_family_event,state_gate_or_flag_router,medium,I wish I had had trained a little to be a wife.
+$43,2,$B58990,170,$B58D12,StartTextBox,0141,Text_141_Dialog_SayHeardRareSeedGrows,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Say:I've heard of a rare seed.It grows to be a tall bean tree that reaches all the way to the s…
+$43,2,$B58990,178,$B58D3B,StartTextBox,0423,Text_423_Weather_WishHadHadTrainedLittle,Weather,wife_family_event,state_gate_or_flag_router,medium,I wish I had had trained a little to be a wife.
+$43,2,$B58990,180,$B58D42,StartTextBox,023A,Text_23A_Dialog_WhatsGoodWonderIfherbsSpices,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Well:what's good?I wonder ifherbs or spices will be OK.
+$43,2,$B58990,189,$B58D73,StartTextBox,042F,Text_42F_Dialog_HopeSpringComeSoon,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,I hope spring will come soon.
+$43,3,$B58E4E,30,$B58F06,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Thank you.
+$43,3,$B58E4E,32,$B58F0D,StartTextBox,01D9,Text_1D9_Dialog_Rude,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,"How rude,"
+$43,3,$B58E4E,36,$B58F21,StartTextBox,03B2,Text_3B2_Dialog_ThankLooksDelicious,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Thank you. It looks delicious.
+$43,3,$B58E4E,40,$B58F35,StartTextBox,0212,Text_212_Dialog_WowThanksLotMmmmSmells,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Wow:thanks a lot. Mmmm:it smells so good.
+$43,3,$B58E4E,43,$B58F42,StartTextBox,03B3,Text_3B3_Dialog_ThankNowBakeCake,Dialog,family_romance_gift_context,state_gate_or_flag_router,medium,Thank you. Now I can bake a cake with it.
+$43,3,$B58E4E,46,$B58F4F,StartTextBox,03BA,Text_3BA_Dialog_WhatIsThis,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,What is this?
+$43,3,$B58E4E,52,$B58F71,StartTextBox,0212,Text_212_Dialog_WowThanksLotMmmmSmells,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Wow:thanks a lot. Mmmm:it smells so good.
+$43,3,$B58E4E,54,$B58F78,StartTextBox,01BD,Text_1BD_Romance_PresentGladRememberedAnniversary,Romance,npc_ann_romance_or_family,state_gate_or_flag_router,medium,What? Present? I'm so glad that you remembered the anniversary.
+$43,3,$B58E4E,57,$B58F85,StartTextBox,041D,Text_41D_Dialog_CelebrationEesBirthdayYearNow,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Celebration of <CTRL_FFFD>eE's birthday. It's been a year now. Time goes too fast.
+$43,3,$B58E4E,60,$B58F92,StartTextBox,041E,Text_41E_Dialog_WowCakeEfsBirthday,Dialog,family_romance_gift_context,state_gate_or_flag_router,medium,Wow:cake <CTRL_FFFD>eF's birthday:isn't it?
+$43,3,$B58E4E,98,$B590C4,StartTextBox,0485,Text_485_Dialog_DarlingTakeCareYourself,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Darling:please take care of yourself.
+$43,3,$B58E4E,100,$B590CB,StartTextBox,017D,Text_17D_Dialog_GoodMorningDaDarlingHappy,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Good morning....da-darling. Be happy together from now on.
+$43,3,$B58E4E,102,$B590D2,StartTextBox,0166,Text_166_Dialog_LetsLookAroundRanchTrouble,Dialog,ranch_livestock_context,state_gate_or_flag_router,medium,Let's look around the ranch.There will be trouble if thefences are broken.
+$43,3,$B58E4E,104,$B590D9,StartTextBox,015F,Text_15F_Animal_HavePutLivestockPenLets,Animal,event_dialogue_unknown_specific_owner,state_gate_or_flag_router,medium,Have you put the livestock in the pen? Let's lock the doors later and go to bed.
+$43,3,$B58E4E,106,$B590E0,StartTextBox,0160,Text_160_Dialog_ImpossibleGoOutToday,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,It's impossible to go out today.
+$43,3,$B58E4E,108,$B590E7,StartTextBox,01A0,Text_1A0_Dialog_DarlingShallPaintHouseBeautiful,Dialog,house_upgrade_context;house_upgrade_or_family_context,state_gate_or_flag_router,medium,Hey:darling:shall we paint our house in a beautiful color?
+$43,3,$B58E4E,110,$B590EE,StartTextBox,0493,Text_493_Dialog_DarlingForgetPaintDoor,Dialog,house_upgrade_context,state_gate_or_flag_router,medium,Darling:didn't you forget to paint the door?
+$43,3,$B58E4E,112,$B590F5,StartTextBox,01A2,Text_1A2_Dialog_UummmmSayUmmGuessPregnant,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Well...Uummmm...say... I...umm.. I guess I'm pregnant.
+$43,3,$B58E4E,118,$B59109,StartTextBox,01A3,Text_1A3_Dialog_ItllBornSomeTimeLater,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,It'll be born some time later.
+$43,3,$B58E4E,124,$B5911D,StartTextBox,01A4,Text_1A4_Dialog_ThinkNameFortheBaby,Dialog,child_family_event,state_gate_or_flag_router,medium,Will you think of a name forthe baby?
+$43,3,$B58E4E,130,$B59131,StartTextBox,01A5,Text_1A5_Dialog_FeelMyBodyBecomingLittle,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,I feel my body becoming a little heavier.
+$43,3,$B58E4E,132,$B59138,StartTextBox,0481,Text_481_Dialog_LookCrawlingNow,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,"Look. He is crawling now,"
+$43,3,$B58E4E,134,$B5913F,StartTextBox,0480,Text_480_Dialog_DarlingHoldChildSometimes,Dialog,child_family_event,state_gate_or_flag_router,medium,Darling:will you hold our child sometimes?
+$43,3,$B58E4E,136,$B59146,StartTextBox,0484,Text_484_Dialog_VeryActiveHavePutEye,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,He is very active so I have to put on eye on him all thetime.
+$43,3,$B58E4E,140,$B59153,StartTextBox,0482,Text_482_Dialog_ChildGrowsPrettyQuicklyLittle,Dialog,child_family_event,state_gate_or_flag_router,medium,This child grows pretty quickly. Just a little bit but he started to speak words.
+$43,3,$B58E4E,142,$B5915A,StartTextBox,0443,Text_443_Dialog_MadeOverallCute,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Hey:I made this overall. Isn't it cute?
+$43,3,$B58E4E,144,$B59161,StartTextBox,01F3,Text_1F3_Dialog_RecentlyNothing,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,...You recently....no: nothing...
+$43,3,$B58E4E,146,$B59168,StartTextBox,0049,Text_049_Dialog_Entry,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,....
+$43,3,$B58E4E,150,$B5917D,StartTextBox,0194,Text_194_Dialog_SundaysRanch,Dialog,ranch_livestock_context,state_gate_or_flag_router,medium,There are no Sundays at ranch.
+$43,3,$B58E4E,152,$B59184,StartTextBox,047D,Text_47D_Sign_HoneyShopClosedBecauseSaturday,Sign,shop_or_purchase_context,state_gate_or_flag_router,medium,Honey: the shop is closed because it's Saturday today.
+$43,3,$B58E4E,159,$B591A6,StartTextBox,018C,Text_18C_Dialog_GoodMorningSweetheartWasSparrow,Dialog,house_upgrade_or_family_context,state_gate_or_flag_router,medium,Good morning: sweetheart. There was a sparrow playing in front of our house some minutes ago. I…
+$43,3,$B58E4E,161,$B591AD,StartTextBox,0209,Text_209_Shop_BuyAllUnusualStuffFestival,Sign,festival_event;shop_or_purchase_context,state_gate_or_flag_router,medium,Don't buy all that unusual stuff at the festival.
+$43,3,$B58E4E,168,$B591C9,StartTextBox,018D,Text_18D_Romance_WantCookDeliciousMealsEvery,Romance,npc_eve_romance_or_family,state_gate_or_flag_router,medium,I want to cook delicious meals for you every day.
+$43,3,$B58E4E,170,$B591D0,StartTextBox,0426,Text_426_Animal_HearWildDogsSometimesCome,Animal,livestock_dog_context,state_gate_or_flag_router,medium,I hear wild dogs sometimes come around here. It's dangerous to keep fences broken.
+$43,3,$B58E4E,172,$B591D7,StartTextBox,0420,Text_420_Weather_VariousDisastersHappeninSummerBetter,Weather,weather_context,state_gate_or_flag_router,medium,Various disasters can happenin summer so you better watch the weather forecast every day.
+$43,3,$B58E4E,180,$B59200,StartTextBox,0192,Text_192_Romance_CookEvening,Romance,npc_eve_romance_or_family,state_gate_or_flag_router,medium,What should I cook this evening?
+$43,3,$B58E4E,182,$B59207,StartTextBox,023B,Text_23B_Dialog_TakeSomethingVeryDeliciousTomorrow,Dialog,weather_context,state_gate_or_flag_router,medium,I will take something very delicious tomorrow so pleaselook forward to it.
+$43,3,$B58E4E,191,$B59238,StartTextBox,042F,Text_42F_Dialog_HopeSpringComeSoon,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,I hope spring will come soon.
+$43,4,$B59313,30,$B593CA,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Thank you.
+$43,4,$B59313,32,$B593D1,StartTextBox,03B4,Text_3B4_Dialog_PlayingNastyTrickMe,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Are you playing a nasty trick on me?
+$43,4,$B59313,36,$B593E5,StartTextBox,03B2,Text_3B2_Dialog_ThankLooksDelicious,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Thank you. It looks delicious.
+$43,4,$B59313,40,$B593F9,StartTextBox,0212,Text_212_Dialog_WowThanksLotMmmmSmells,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Wow:thanks a lot. Mmmm:it smells so good.
+$43,4,$B59313,47,$B59421,StartTextBox,0212,Text_212_Dialog_WowThanksLotMmmmSmells,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Wow:thanks a lot. Mmmm:it smells so good.
+$43,4,$B59313,49,$B59428,StartTextBox,03BA,Text_3BA_Dialog_WhatIsThis,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,What is this?
+$43,4,$B59313,52,$B59435,StartTextBox,01BD,Text_1BD_Romance_PresentGladRememberedAnniversary,Romance,npc_ann_romance_or_family,state_gate_or_flag_router,medium,What? Present? I'm so glad that you remembered the anniversary.
+$43,4,$B59313,55,$B59442,StartTextBox,041D,Text_41D_Dialog_CelebrationEesBirthdayYearNow,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Celebration of <CTRL_FFFD>eE's birthday. It's been a year now. Time goes too fast.
+$43,4,$B59313,58,$B5944F,StartTextBox,041E,Text_41E_Dialog_WowCakeEfsBirthday,Dialog,family_romance_gift_context,state_gate_or_flag_router,medium,Wow:cake <CTRL_FFFD>eF's birthday:isn't it?
+$43,4,$B59313,96,$B59581,StartTextBox,0485,Text_485_Dialog_DarlingTakeCareYourself,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Darling:please take care of yourself.
+$43,4,$B59313,98,$B59588,StartTextBox,017D,Text_17D_Dialog_GoodMorningDaDarlingHappy,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Good morning....da-darling. Be happy together from now on.
+$43,4,$B59313,100,$B5958F,StartTextBox,0166,Text_166_Dialog_LetsLookAroundRanchTrouble,Dialog,ranch_livestock_context,state_gate_or_flag_router,medium,Let's look around the ranch.There will be trouble if thefences are broken.
+$43,4,$B59313,102,$B59596,StartTextBox,015F,Text_15F_Animal_HavePutLivestockPenLets,Animal,event_dialogue_unknown_specific_owner,state_gate_or_flag_router,medium,Have you put the livestock in the pen? Let's lock the doors later and go to bed.
+$43,4,$B59313,104,$B5959D,StartTextBox,0160,Text_160_Dialog_ImpossibleGoOutToday,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,It's impossible to go out today.
+$43,4,$B59313,106,$B595A4,StartTextBox,01A0,Text_1A0_Dialog_DarlingShallPaintHouseBeautiful,Dialog,house_upgrade_context;house_upgrade_or_family_context,state_gate_or_flag_router,medium,Hey:darling:shall we paint our house in a beautiful color?
+$43,4,$B59313,108,$B595AB,StartTextBox,0493,Text_493_Dialog_DarlingForgetPaintDoor,Dialog,house_upgrade_context,state_gate_or_flag_router,medium,Darling:didn't you forget to paint the door?
+$43,4,$B59313,110,$B595B2,StartTextBox,01A2,Text_1A2_Dialog_UummmmSayUmmGuessPregnant,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Well...Uummmm...say... I...umm.. I guess I'm pregnant.
+$43,4,$B59313,116,$B595C6,StartTextBox,01A4,Text_1A4_Dialog_ThinkNameFortheBaby,Dialog,child_family_event,state_gate_or_flag_router,medium,Will you think of a name forthe baby?
+$43,4,$B59313,122,$B595DA,StartTextBox,01A5,Text_1A5_Dialog_FeelMyBodyBecomingLittle,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,I feel my body becoming a little heavier.
+$43,4,$B59313,127,$B595EB,StartTextBox,01A7,Text_1A7_Dialog_KnowWalkAroundMuch,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,I know.I won't walk around so much.
+$43,4,$B59313,129,$B595F2,StartTextBox,0481,Text_481_Dialog_LookCrawlingNow,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,"Look. He is crawling now,"
+$43,4,$B59313,131,$B595F9,StartTextBox,0480,Text_480_Dialog_DarlingHoldChildSometimes,Dialog,child_family_event,state_gate_or_flag_router,medium,Darling:will you hold our child sometimes?
+$43,4,$B59313,133,$B59600,StartTextBox,0484,Text_484_Dialog_VeryActiveHavePutEye,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,He is very active so I have to put on eye on him all thetime.
+$43,4,$B59313,137,$B5960D,StartTextBox,0482,Text_482_Dialog_ChildGrowsPrettyQuicklyLittle,Dialog,child_family_event,state_gate_or_flag_router,medium,This child grows pretty quickly. Just a little bit but he started to speak words.
+$43,4,$B59313,139,$B59614,StartTextBox,0443,Text_443_Dialog_MadeOverallCute,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Hey:I made this overall. Isn't it cute?
+$43,4,$B59313,141,$B5961B,StartTextBox,01F4,Text_1F4_Dialog_VeryBusy,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,"...What? I'm very busy,"
+$43,4,$B59313,143,$B59622,StartTextBox,0049,Text_049_Dialog_Entry,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,....
+$43,4,$B59313,147,$B59637,StartTextBox,0195,Text_195_Dialog_WarmSuchComfortableSunday,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,It's warm. Such a comfortable Sunday.
+$43,4,$B59313,149,$B5963E,StartTextBox,047D,Text_47D_Sign_HoneyShopClosedBecauseSaturday,Sign,shop_or_purchase_context,state_gate_or_flag_router,medium,Honey: the shop is closed because it's Saturday today.
+$43,4,$B59313,156,$B59660,StartTextBox,018F,Text_18F_Dialog_SpringWonderful,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Yes:spring is wonderful.
+$43,4,$B59313,158,$B59667,StartTextBox,020A,Text_20A_Festival_HehLoveFestivalsLookingForward,Festival,festival_event,state_gate_or_flag_router,medium,Heh:I love festivals.I am Looking forward to it.
+$43,4,$B59313,165,$B59683,StartTextBox,0190,Text_190_Dialog_GraduallyGettingUsedLivingLonely,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Gradually I am getting used to living here. What? Am I lonely? Oh:come on:you are here beside m…
+$43,4,$B59313,167,$B5968A,StartTextBox,0426,Text_426_Animal_HearWildDogsSometimesCome,Animal,livestock_dog_context,state_gate_or_flag_router,medium,I hear wild dogs sometimes come around here. It's dangerous to keep fences broken.
+$43,4,$B59313,169,$B59691,StartTextBox,0420,Text_420_Weather_VariousDisastersHappeninSummerBetter,Weather,weather_context,state_gate_or_flag_router,medium,Various disasters can happenin summer so you better watch the weather forecast every day.
+$43,4,$B59313,177,$B596BA,StartTextBox,0191,Text_191_Sign_ManyKindsAnimalsMountainGive,Sign,event_dialogue_unknown_specific_owner,state_gate_or_flag_router,medium,There are many kinds of animals in the mountain. Doesnt' that give you comfort?
+$43,4,$B59313,179,$B596C1,StartTextBox,020A,Text_20A_Festival_HehLoveFestivalsLookingForward,Festival,festival_event,state_gate_or_flag_router,medium,Heh:I love festivals.I am Looking forward to it.
+$43,4,$B59313,188,$B596F2,StartTextBox,0430,Text_430_Town_BusyWorkingIwantGatherPeople,Town,event_dialogue_unknown_specific_owner,state_gate_or_flag_router,medium,We are not busy working so Iwant to gather people here to have a party.
+$44,0,$B597F1,19,$B59879,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$44,0,$B597F1,21,$B59880,StartTextBox,03B0,Text_3B0_Dialog_ThThank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,......Th-thank you.
+$44,0,$B597F1,26,$B5989A,StartTextBox,03B2,Text_3B2_Dialog_ThankLooksDelicious,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you. It looks delicious.
+$44,0,$B597F1,29,$B598A8,StartTextBox,03B5,Text_3B5_Dialog_GladGivingMeNeatPresent,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,So glad. Are you giving me this neat present? Thank you.
+$44,0,$B597F1,32,$B598B5,StartTextBox,01D9,Text_1D9_Dialog_Rude,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,"How rude,"
+$44,0,$B597F1,39,$B598DD,StartTextBox,0212,Text_212_Dialog_WowThanksLotMmmmSmells,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Wow:thanks a lot. Mmmm:it smells so good.
+$44,0,$B597F1,41,$B598E4,StartTextBox,01BD,Text_1BD_Romance_PresentGladRememberedAnniversary,Romance,npc_ann_romance_or_family,family_romance_dialogue_matrix,high,What? Present? I'm so glad that you remembered the anniversary.
+$44,0,$B597F1,44,$B598F1,StartTextBox,041D,Text_41D_Dialog_CelebrationEesBirthdayYearNow,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Celebration of <CTRL_FFFD>eE's birthday. It's been a year now. Time goes too fast.
+$44,0,$B597F1,47,$B598FE,StartTextBox,041E,Text_41E_Dialog_WowCakeEfsBirthday,Dialog,family_romance_gift_context,family_romance_dialogue_matrix,high,Wow:cake <CTRL_FFFD>eF's birthday:isn't it?
+$44,0,$B597F1,62,$B59961,StartTextBox,0166,Text_166_Dialog_LetsLookAroundRanchTrouble,Dialog,ranch_livestock_context,family_romance_dialogue_matrix,high,Let's look around the ranch.There will be trouble if thefences are broken.
+$44,0,$B597F1,64,$B59968,StartTextBox,015F,Text_15F_Animal_HavePutLivestockPenLets,Animal,event_dialogue_unknown_specific_owner,family_romance_dialogue_matrix,high,Have you put the livestock in the pen? Let's lock the doors later and go to bed.
+$44,0,$B597F1,66,$B5996F,StartTextBox,0160,Text_160_Dialog_ImpossibleGoOutToday,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,It's impossible to go out today.
+$44,0,$B597F1,68,$B59976,StartTextBox,01F3,Text_1F3_Dialog_RecentlyNothing,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,...You recently....no: nothing...
+$44,0,$B597F1,70,$B5997D,StartTextBox,0049,Text_049_Dialog_Entry,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,....
+$44,0,$B597F1,72,$B59984,StartTextBox,047D,Text_47D_Sign_HoneyShopClosedBecauseSaturday,Sign,shop_or_purchase_context,family_romance_dialogue_matrix,high,Honey: the shop is closed because it's Saturday today.
+$44,0,$B597F1,74,$B5998B,StartTextBox,0195,Text_195_Dialog_WarmSuchComfortableSunday,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,It's warm. Such a comfortable Sunday.
+$44,0,$B597F1,79,$B5999F,StartTextBox,041F,Text_41F_Dialog_WarmEnoughNowAniceDay,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,It's warm enough now. What anice day.
+$44,0,$B597F1,81,$B599A6,StartTextBox,0188,Text_188_Dialog_TimeGoesQuicklyFeelLike,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Time goes by really quickly.I feel like I met you only afew days ago.
+$44,0,$B597F1,83,$B599AD,StartTextBox,0206,Text_206_Festival_FlowerFestivalTomorrowAlsoCelebrate,Festival,festival_event;weather_context,family_romance_dialogue_matrix,high,It's the Flower Festival tomorrow. It also celebrate the spring to come.
+$44,0,$B597F1,87,$B599BA,StartTextBox,0420,Text_420_Weather_VariousDisastersHappeninSummerBetter,Weather,weather_context,family_romance_dialogue_matrix,high,Various disasters can happenin summer so you better watch the weather forecast every day.
+$44,0,$B597F1,89,$B599C1,StartTextBox,0193,Text_193_Dialog_HoneyWork,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Honey: please work well.
+$44,0,$B597F1,94,$B599D5,StartTextBox,0421,Text_421_Dialog_AutumnSkyHigh,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,It's autumn...the sky is high.
+$44,0,$B597F1,96,$B599DC,StartTextBox,0184,Text_184_Dialog_StrangeSameSkyButWind,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,It's strange. It's the same sky but the wind and the airfeel different.
+$44,0,$B597F1,98,$B599E3,StartTextBox,0238,Text_238_Festival_HarvestFestivalTomorrow,Festival,festival_event;festival_or_title_context;weather_context,family_romance_dialogue_matrix,high,It's the Harvest Festival tomorrow.
+$44,1,$B599EB,19,$B59A70,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$44,1,$B599EB,21,$B59A77,StartTextBox,03B4,Text_3B4_Dialog_PlayingNastyTrickMe,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Are you playing a nasty trick on me?
+$44,1,$B599EB,26,$B59A91,StartTextBox,0212,Text_212_Dialog_WowThanksLotMmmmSmells,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Wow:thanks a lot. Mmmm:it smells so good.
+$44,1,$B599EB,29,$B59A9F,StartTextBox,03B2,Text_3B2_Dialog_ThankLooksDelicious,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you. It looks delicious.
+$44,1,$B599EB,36,$B59AC7,StartTextBox,0212,Text_212_Dialog_WowThanksLotMmmmSmells,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Wow:thanks a lot. Mmmm:it smells so good.
+$44,1,$B599EB,38,$B59ACE,StartTextBox,01BD,Text_1BD_Romance_PresentGladRememberedAnniversary,Romance,npc_ann_romance_or_family,family_romance_dialogue_matrix,high,What? Present? I'm so glad that you remembered the anniversary.
+$44,1,$B599EB,41,$B59ADB,StartTextBox,041D,Text_41D_Dialog_CelebrationEesBirthdayYearNow,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Celebration of <CTRL_FFFD>eE's birthday. It's been a year now. Time goes too fast.
+$44,1,$B599EB,44,$B59AE8,StartTextBox,041E,Text_41E_Dialog_WowCakeEfsBirthday,Dialog,family_romance_gift_context,family_romance_dialogue_matrix,high,Wow:cake <CTRL_FFFD>eF's birthday:isn't it?
+$44,1,$B599EB,59,$B59B4B,StartTextBox,0166,Text_166_Dialog_LetsLookAroundRanchTrouble,Dialog,ranch_livestock_context,family_romance_dialogue_matrix,high,Let's look around the ranch.There will be trouble if thefences are broken.
+$44,1,$B599EB,61,$B59B52,StartTextBox,015F,Text_15F_Animal_HavePutLivestockPenLets,Animal,event_dialogue_unknown_specific_owner,family_romance_dialogue_matrix,high,Have you put the livestock in the pen? Let's lock the doors later and go to bed.
+$44,1,$B599EB,63,$B59B59,StartTextBox,0160,Text_160_Dialog_ImpossibleGoOutToday,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,It's impossible to go out today.
+$44,1,$B599EB,65,$B59B60,StartTextBox,01F4,Text_1F4_Dialog_VeryBusy,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,"...What? I'm very busy,"
+$44,1,$B599EB,67,$B59B67,StartTextBox,0049,Text_049_Dialog_Entry,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,....
+$44,1,$B599EB,69,$B59B6E,StartTextBox,047D,Text_47D_Sign_HoneyShopClosedBecauseSaturday,Sign,shop_or_purchase_context,family_romance_dialogue_matrix,high,Honey: the shop is closed because it's Saturday today.
+$44,1,$B599EB,71,$B59B75,StartTextBox,0194,Text_194_Dialog_SundaysRanch,Dialog,ranch_livestock_context,family_romance_dialogue_matrix,high,There are no Sundays at ranch.
+$44,1,$B599EB,76,$B59B89,StartTextBox,0185,Text_185_Dialog_TryMyBestMakeSomething,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,I'll try my best to make something that will help you.
+$44,1,$B599EB,78,$B59B90,StartTextBox,018F,Text_18F_Dialog_SpringWonderful,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Yes:spring is wonderful.
+$44,1,$B599EB,80,$B59B97,StartTextBox,0207,Text_207_Festival_FlowerFestivalTomorrowGoodRelax,Festival,festival_event;weather_context,family_romance_dialogue_matrix,high,It's the Flower Festival tomorrow.It's good to relax once in a while.
+$44,1,$B599EB,84,$B59BA4,StartTextBox,0186,Text_186_Dialog_TakeCareThoseToolsToo,Dialog,tool_context,family_romance_dialogue_matrix,high,I'll take care of those tools too. .....Don't worry. I won't break any.
+$44,1,$B599EB,86,$B59BAB,StartTextBox,0193,Text_193_Dialog_HoneyWork,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Honey: please work well.
+$44,1,$B599EB,91,$B59BBF,StartTextBox,0187,Text_187_Animal_AutoMilkingYogurtMakerSpecial,Animal,event_dialogue_unknown_specific_owner,family_romance_dialogue_matrix,high,"""Auto Milking <$0040> Yogurt-Maker: Special Version"" I wish it would be finished by spring..."
+$44,1,$B599EB,93,$B59BC6,StartTextBox,009A,Text_09A_Dialog_SeemsLittleDifferentPlanHad,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,It seems a little different from the plan I had but...nobig deal.
+$44,1,$B599EB,95,$B59BCD,StartTextBox,0239,Text_239_Festival_HaveDecidedTakeFestivalWantto,Festival,festival_event,family_romance_dialogue_matrix,high,Have you decided what to take to the festival? I wantto complete my machine and present it in p…
+$44,2,$B59BE3,18,$B59C64,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$44,2,$B59BE3,20,$B59C6B,StartTextBox,03B1,Text_3B1_Dialog_PickUpHerbsWithoutThinking,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Don't pick up herbs without thinking what they are for.
+$44,2,$B59BE3,24,$B59C7F,StartTextBox,0212,Text_212_Dialog_WowThanksLotMmmmSmells,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Wow:thanks a lot. Mmmm:it smells so good.
+$44,2,$B59BE3,28,$B59C93,StartTextBox,03B2,Text_3B2_Dialog_ThankLooksDelicious,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you. It looks delicious.
+$44,2,$B59BE3,31,$B59CA0,StartTextBox,03BA,Text_3BA_Dialog_WhatIsThis,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,What is this?
+$44,2,$B59BE3,37,$B59CC2,StartTextBox,0212,Text_212_Dialog_WowThanksLotMmmmSmells,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Wow:thanks a lot. Mmmm:it smells so good.
+$44,2,$B59BE3,40,$B59CCF,StartTextBox,01BD,Text_1BD_Romance_PresentGladRememberedAnniversary,Romance,npc_ann_romance_or_family,family_romance_dialogue_matrix,high,What? Present? I'm so glad that you remembered the anniversary.
+$44,2,$B59BE3,43,$B59CDC,StartTextBox,041D,Text_41D_Dialog_CelebrationEesBirthdayYearNow,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Celebration of <CTRL_FFFD>eE's birthday. It's been a year now. Time goes too fast.
+$44,2,$B59BE3,46,$B59CE9,StartTextBox,041E,Text_41E_Dialog_WowCakeEfsBirthday,Dialog,family_romance_gift_context,family_romance_dialogue_matrix,high,Wow:cake <CTRL_FFFD>eF's birthday:isn't it?
+$44,2,$B59BE3,60,$B59D49,StartTextBox,0166,Text_166_Dialog_LetsLookAroundRanchTrouble,Dialog,ranch_livestock_context,family_romance_dialogue_matrix,high,Let's look around the ranch.There will be trouble if thefences are broken.
+$44,2,$B59BE3,62,$B59D50,StartTextBox,015F,Text_15F_Animal_HavePutLivestockPenLets,Animal,event_dialogue_unknown_specific_owner,family_romance_dialogue_matrix,high,Have you put the livestock in the pen? Let's lock the doors later and go to bed.
+$44,2,$B59BE3,64,$B59D57,StartTextBox,0160,Text_160_Dialog_ImpossibleGoOutToday,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,It's impossible to go out today.
+$44,2,$B59BE3,66,$B59D5E,StartTextBox,01F4,Text_1F4_Dialog_VeryBusy,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,"...What? I'm very busy,"
+$44,2,$B59BE3,68,$B59D65,StartTextBox,0049,Text_049_Dialog_Entry,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,....
+$44,2,$B59BE3,70,$B59D6C,StartTextBox,0194,Text_194_Dialog_SundaysRanch,Dialog,ranch_livestock_context,family_romance_dialogue_matrix,high,There are no Sundays at ranch.
+$44,2,$B59BE3,72,$B59D73,StartTextBox,047D,Text_47D_Sign_HoneyShopClosedBecauseSaturday,Sign,shop_or_purchase_context,family_romance_dialogue_matrix,high,Honey: the shop is closed because it's Saturday today.
+$44,2,$B59BE3,77,$B59D87,StartTextBox,0189,Text_189_Weather_WeatherBeautifulLetsGoPicnic,Weather,weather_context,family_romance_dialogue_matrix,high,The weather is beautiful. Let's go on a picnic to the mountain top soon.
+$44,2,$B59BE3,79,$B59D8E,StartTextBox,018F,Text_18F_Dialog_SpringWonderful,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Yes:spring is wonderful.
+$44,2,$B59BE3,81,$B59D95,StartTextBox,0208,Text_208_Festival_FlowerFestivalTomorrowLoveBest,Festival,festival_event;weather_context,family_romance_dialogue_matrix,high,It's the Flower Festival tomorrow.I love it the best of all the festivals.
+$44,2,$B59BE3,85,$B59DA2,StartTextBox,018A,Text_18A_Dialog_LaLaLaLaLa,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,La-la-la-la-la... The sky is blue. I somehow feel cheerful.
+$44,2,$B59BE3,87,$B59DA9,StartTextBox,018B,Text_18B_Sign_MysteriousFlowerMountainSomedayDreaming,Sign,event_dialogue_unknown_specific_owner,family_romance_dialogue_matrix,high,That mysterious flower in the mountain:someday I'm dreaming of growing them at the ranch.
+$44,2,$B59BE3,92,$B59DBD,StartTextBox,0432,Text_432_Dialog_AllGrassGroundGoneLooks,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,All the grass on the ground is gone. It looks lonesome.
+$44,2,$B59BE3,94,$B59DC4,StartTextBox,0191,Text_191_Sign_ManyKindsAnimalsMountainGive,Sign,event_dialogue_unknown_specific_owner,family_romance_dialogue_matrix,high,There are many kinds of animals in the mountain. Doesnt' that give you comfort?
+$44,2,$B59BE3,96,$B59DCB,StartTextBox,023A,Text_23A_Dialog_WhatsGoodWonderIfherbsSpices,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Well:what's good?I wonder ifherbs or spices will be OK.
+$44,3,$B59DD3,18,$B59E54,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$44,3,$B59DD3,20,$B59E5B,StartTextBox,01D9,Text_1D9_Dialog_Rude,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,"How rude,"
+$44,3,$B59DD3,24,$B59E6F,StartTextBox,03B2,Text_3B2_Dialog_ThankLooksDelicious,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you. It looks delicious.
+$44,3,$B59DD3,28,$B59E83,StartTextBox,0212,Text_212_Dialog_WowThanksLotMmmmSmells,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Wow:thanks a lot. Mmmm:it smells so good.
+$44,3,$B59DD3,31,$B59E90,StartTextBox,03B3,Text_3B3_Dialog_ThankNowBakeCake,Dialog,family_romance_gift_context,family_romance_dialogue_matrix,high,Thank you. Now I can bake a cake with it.
+$44,3,$B59DD3,34,$B59E9D,StartTextBox,03BA,Text_3BA_Dialog_WhatIsThis,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,What is this?
+$44,3,$B59DD3,40,$B59EBF,StartTextBox,0212,Text_212_Dialog_WowThanksLotMmmmSmells,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Wow:thanks a lot. Mmmm:it smells so good.
+$44,3,$B59DD3,42,$B59EC6,StartTextBox,01BD,Text_1BD_Romance_PresentGladRememberedAnniversary,Romance,npc_ann_romance_or_family,family_romance_dialogue_matrix,high,What? Present? I'm so glad that you remembered the anniversary.
+$44,3,$B59DD3,45,$B59ED3,StartTextBox,041D,Text_41D_Dialog_CelebrationEesBirthdayYearNow,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Celebration of <CTRL_FFFD>eE's birthday. It's been a year now. Time goes too fast.
+$44,3,$B59DD3,48,$B59EE0,StartTextBox,041E,Text_41E_Dialog_WowCakeEfsBirthday,Dialog,family_romance_gift_context,family_romance_dialogue_matrix,high,Wow:cake <CTRL_FFFD>eF's birthday:isn't it?
+$44,3,$B59DD3,62,$B59F40,StartTextBox,0166,Text_166_Dialog_LetsLookAroundRanchTrouble,Dialog,ranch_livestock_context,family_romance_dialogue_matrix,high,Let's look around the ranch.There will be trouble if thefences are broken.
+$44,3,$B59DD3,64,$B59F47,StartTextBox,015F,Text_15F_Animal_HavePutLivestockPenLets,Animal,event_dialogue_unknown_specific_owner,family_romance_dialogue_matrix,high,Have you put the livestock in the pen? Let's lock the doors later and go to bed.
+$44,3,$B59DD3,66,$B59F4E,StartTextBox,0160,Text_160_Dialog_ImpossibleGoOutToday,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,It's impossible to go out today.
+$44,3,$B59DD3,68,$B59F55,StartTextBox,01F3,Text_1F3_Dialog_RecentlyNothing,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,...You recently....no: nothing...
+$44,3,$B59DD3,70,$B59F5C,StartTextBox,0049,Text_049_Dialog_Entry,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,....
+$44,3,$B59DD3,72,$B59F63,StartTextBox,0195,Text_195_Dialog_WarmSuchComfortableSunday,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,It's warm. Such a comfortable Sunday.
+$44,3,$B59DD3,74,$B59F6A,StartTextBox,047D,Text_47D_Sign_HoneyShopClosedBecauseSaturday,Sign,shop_or_purchase_context,family_romance_dialogue_matrix,high,Honey: the shop is closed because it's Saturday today.
+$44,3,$B59DD3,79,$B59F7E,StartTextBox,0427,Text_427_Weather_RainsHavePutEgInside,Weather,house_upgrade_or_family_context,family_romance_dialogue_matrix,high,When it rains: we have to put <CTRL_FFFD>eG inside the house.
+$44,3,$B59DD3,81,$B59F85,StartTextBox,041F,Text_41F_Dialog_WarmEnoughNowAniceDay,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,It's warm enough now. What anice day.
+$44,3,$B59DD3,83,$B59F8C,StartTextBox,0209,Text_209_Shop_BuyAllUnusualStuffFestival,Sign,festival_event;shop_or_purchase_context,family_romance_dialogue_matrix,high,Don't buy all that unusual stuff at the festival.
+$44,3,$B59DD3,87,$B59F99,StartTextBox,0429,Text_429_Dialog_WantRideEj,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,I want to ride on <CTRL_FFFD>eJ.
+$44,3,$B59DD3,89,$B59FA0,StartTextBox,018E,Text_18E_Dialog_EpMayDescendedOfaThoroughbred,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,<CTRL_FFFD>ep may be the descended ofa Thoroughbred. Don't you think so? It has a pretty fine c…
+$44,3,$B59DD3,94,$B59FB4,StartTextBox,0428,Text_428_Dialog_DarlingTakeEhEiWalk,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Darling: please take <CTRL_FFFD>eH or <CTRL_FFFD>eI for a walk sometimes.
+$44,3,$B59DD3,96,$B59FBB,StartTextBox,0421,Text_421_Dialog_AutumnSkyHigh,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,It's autumn...the sky is high.
+$44,3,$B59DD3,98,$B59FC2,StartTextBox,023B,Text_23B_Dialog_TakeSomethingVeryDeliciousTomorrow,Dialog,weather_context,family_romance_dialogue_matrix,high,I will take something very delicious tomorrow so pleaselook forward to it.
+$44,4,$B59FCA,21,$B5A05A,StartTextBox,0200,Text_200_Dialog_Thank,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you.
+$44,4,$B59FCA,23,$B5A061,StartTextBox,03B4,Text_3B4_Dialog_PlayingNastyTrickMe,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Are you playing a nasty trick on me?
+$44,4,$B59FCA,27,$B5A075,StartTextBox,03B2,Text_3B2_Dialog_ThankLooksDelicious,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Thank you. It looks delicious.
+$44,4,$B59FCA,31,$B5A089,StartTextBox,0212,Text_212_Dialog_WowThanksLotMmmmSmells,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Wow:thanks a lot. Mmmm:it smells so good.
+$44,4,$B59FCA,38,$B5A0B1,StartTextBox,0212,Text_212_Dialog_WowThanksLotMmmmSmells,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Wow:thanks a lot. Mmmm:it smells so good.
+$44,4,$B59FCA,40,$B5A0B8,StartTextBox,03BA,Text_3BA_Dialog_WhatIsThis,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,What is this?
+$44,4,$B59FCA,43,$B5A0C5,StartTextBox,01BD,Text_1BD_Romance_PresentGladRememberedAnniversary,Romance,npc_ann_romance_or_family,family_romance_dialogue_matrix,high,What? Present? I'm so glad that you remembered the anniversary.
+$44,4,$B59FCA,46,$B5A0D2,StartTextBox,041D,Text_41D_Dialog_CelebrationEesBirthdayYearNow,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Celebration of <CTRL_FFFD>eE's birthday. It's been a year now. Time goes too fast.
+$44,4,$B59FCA,49,$B5A0DF,StartTextBox,041E,Text_41E_Dialog_WowCakeEfsBirthday,Dialog,family_romance_gift_context,family_romance_dialogue_matrix,high,Wow:cake <CTRL_FFFD>eF's birthday:isn't it?
+$44,4,$B59FCA,63,$B5A13F,StartTextBox,0166,Text_166_Dialog_LetsLookAroundRanchTrouble,Dialog,ranch_livestock_context,family_romance_dialogue_matrix,high,Let's look around the ranch.There will be trouble if thefences are broken.
+$44,4,$B59FCA,65,$B5A146,StartTextBox,015F,Text_15F_Animal_HavePutLivestockPenLets,Animal,event_dialogue_unknown_specific_owner,family_romance_dialogue_matrix,high,Have you put the livestock in the pen? Let's lock the doors later and go to bed.
+$44,4,$B59FCA,67,$B5A14D,StartTextBox,0160,Text_160_Dialog_ImpossibleGoOutToday,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,It's impossible to go out today.
+$44,4,$B59FCA,69,$B5A154,StartTextBox,01F4,Text_1F4_Dialog_VeryBusy,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,"...What? I'm very busy,"
+$44,4,$B59FCA,71,$B5A15B,StartTextBox,0049,Text_049_Dialog_Entry,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,....
+$44,4,$B59FCA,73,$B5A162,StartTextBox,0194,Text_194_Dialog_SundaysRanch,Dialog,ranch_livestock_context,family_romance_dialogue_matrix,high,There are no Sundays at ranch.
+$44,4,$B59FCA,75,$B5A169,StartTextBox,047D,Text_47D_Sign_HoneyShopClosedBecauseSaturday,Sign,shop_or_purchase_context,family_romance_dialogue_matrix,high,Honey: the shop is closed because it's Saturday today.
+$44,4,$B59FCA,80,$B5A17D,StartTextBox,042A,Text_42A_Mountain_AhThingsLikeTemparaturePlace,Sign,event_dialogue_unknown_specific_owner,family_romance_dialogue_matrix,high,Ah:things like temparature of this place make it suitable for making berry juice.
+$44,4,$B59FCA,82,$B5A184,StartTextBox,0188,Text_188_Dialog_TimeGoesQuicklyFeelLike,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Time goes by really quickly.I feel like I met you only afew days ago.
+$44,4,$B59FCA,84,$B5A18B,StartTextBox,020A,Text_20A_Festival_HehLoveFestivalsLookingForward,Festival,festival_event,family_romance_dialogue_matrix,high,Heh:I love festivals.I am Looking forward to it.
+$44,4,$B59FCA,88,$B5A198,StartTextBox,042B,Text_42B_Animal_OneWildGrapeJuiceBayberry,Animal,livestock_cow_context,family_romance_dialogue_matrix,high,This one is wild grape juice. This is bayberry: and this is cowberry. My uncle gave them to me.…
+$44,4,$B59FCA,90,$B5A19F,StartTextBox,0193,Text_193_Dialog_HoneyWork,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,Honey: please work well.
+$44,4,$B59FCA,95,$B5A1B3,StartTextBox,042C,Text_42C_Dialog_OneMadeSpringDrinkSoon,Dialog,npc_or_event_dialogue,family_romance_dialogue_matrix,high,This is the one I made in spring. We can drink it soon.
+$44,4,$B59FCA,97,$B5A1BA,StartTextBox,0192,Text_192_Romance_CookEvening,Romance,npc_eve_romance_or_family,family_romance_dialogue_matrix,high,What should I cook this evening?
+$44,4,$B59FCA,99,$B5A1C1,StartTextBox,020A,Text_20A_Festival_HehLoveFestivalsLookingForward,Festival,festival_event,family_romance_dialogue_matrix,high,Heh:I love festivals.I am Looking forward to it.
+$45,0,$B5A205,14,$B5A263,StartTextBox,01C2,Text_1C2_Dialog_BooBoo,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Boo-boo...
+$45,0,$B5A205,17,$B5A271,StartTextBox,01C2,Text_1C2_Dialog_BooBoo,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Boo-boo...
+$45,0,$B5A205,19,$B5A278,StartTextBox,041D,Text_41D_Dialog_CelebrationEesBirthdayYearNow,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Celebration of <CTRL_FFFD>eE's birthday. It's been a year now. Time goes too fast.
+$45,0,$B5A205,22,$B5A285,StartTextBox,041E,Text_41E_Dialog_WowCakeEfsBirthday,Dialog,family_romance_gift_context,state_gate_or_flag_router,medium,Wow:cake <CTRL_FFFD>eF's birthday:isn't it?
+$45,0,$B5A205,25,$B5A292,StartTextBox,01D9,Text_1D9_Dialog_Rude,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,"How rude,"
+$45,0,$B5A205,31,$B5A2A6,StartTextBox,01C0,Text_1C0_Dialog_Dah,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Dah...
+$45,0,$B5A205,33,$B5A2AD,StartTextBox,01C2,Text_1C2_Dialog_BooBoo,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Boo-boo...
+$45,0,$B5A205,45,$B5A2E3,StartTextBox,01C1,Text_1C1_Dialog_DaDa,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Da-da...
+$45,0,$B5A205,47,$B5A2EA,StartTextBox,01C2,Text_1C2_Dialog_BooBoo,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Boo-boo...
+$45,3,$B5A484,14,$B5A4E2,StartTextBox,01C2,Text_1C2_Dialog_BooBoo,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Boo-boo...
+$45,3,$B5A484,17,$B5A4F0,StartTextBox,01C2,Text_1C2_Dialog_BooBoo,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Boo-boo...
+$45,3,$B5A484,19,$B5A4F7,StartTextBox,041D,Text_41D_Dialog_CelebrationEesBirthdayYearNow,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Celebration of <CTRL_FFFD>eE's birthday. It's been a year now. Time goes too fast.
+$45,3,$B5A484,22,$B5A504,StartTextBox,041E,Text_41E_Dialog_WowCakeEfsBirthday,Dialog,family_romance_gift_context,state_gate_or_flag_router,medium,Wow:cake <CTRL_FFFD>eF's birthday:isn't it?
+$45,3,$B5A484,25,$B5A511,StartTextBox,01D9,Text_1D9_Dialog_Rude,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,"How rude,"
+$45,3,$B5A484,31,$B5A525,StartTextBox,01C0,Text_1C0_Dialog_Dah,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Dah...
+$45,3,$B5A484,33,$B5A52C,StartTextBox,01C2,Text_1C2_Dialog_BooBoo,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Boo-boo...
+$45,3,$B5A484,45,$B5A562,StartTextBox,01C1,Text_1C1_Dialog_DaDa,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Da-da...
+$45,3,$B5A484,47,$B5A569,StartTextBox,01C2,Text_1C2_Dialog_BooBoo,Dialog,npc_or_event_dialogue,state_gate_or_flag_router,medium,Boo-boo...
+$46,12,$B5A85D,14,$B5A882,StartTextBoxAndAdvanceSlot,0444,Text_444_Dialog_MoneyHG,Dialog,npc_or_event_dialogue,mixed_event_script,medium,Money <CTRL_FFFC>h-<CTRL_B2>G
+$46,12,$B5A85D,16,$B5A889,StartTextBoxAndAdvanceSlot,0445,Text_445_Animal_CowCChickenC,Animal,livestock_chicken_context;livestock_cow_context,mixed_event_script,medium,Cow <CTRL_FFFC>c<$003F> Chicken <CTRL_FFFC>c<$0040>
+$46,12,$B5A85D,18,$B5A890,StartTextBoxAndAdvanceSlot,0446,Text_446_Dialog_StaminaD,Dialog,npc_or_event_dialogue,mixed_event_script,medium,Stamina <CTRL_FFFC>d:
+$46,12,$B5A85D,20,$B5A897,StartTextBoxAndAdvanceSlot,044D,Text_44D_Shipping_AmountShippedTomatoesD,Shipping,shipping_context,mixed_event_script,medium,Amount of shipped tomatoes <CTRL_FFFC>d<$0048>
+$46,12,$B5A85D,22,$B5A89E,StartTextBoxAndAdvanceSlot,044E,Text_44E_Shipping_AmountShippedCornD,Shipping,shipping_context,mixed_event_script,medium,Amount of shipped corn <CTRL_FFFC>d<$0049>
+$46,12,$B5A85D,24,$B5A8A5,StartTextBoxAndAdvanceSlot,044F,Text_44F_Shipping_AmountShippedPotatoesD,Shipping,shipping_context,mixed_event_script,medium,Amount of shipped potatoes <CTRL_FFFC>d<$004A>
+$46,12,$B5A85D,26,$B5A8AC,StartTextBoxAndAdvanceSlot,0450,Text_450_Shipping_AmountShippedTurnipsD,Shipping,shipping_context,mixed_event_script,medium,Amount of shipped turnips <CTRL_FFFC>dó
+$46,12,$B5A85D,28,$B5A8B3,StartTextBoxAndAdvanceSlot,0447,Text_447_Animal_CowsBestAffectionRateEk,Animal,livestock_cow_context,mixed_event_script,medium,Cow's best affection rate <CTRL_FFFD>eK <CTRL_FFFC>d<$0042>
+$46,12,$B5A85D,30,$B5A8BA,StartTextBoxAndAdvanceSlot,0448,Text_448_Romance_MariasLoveD,Romance,npc_maria_romance_or_family,mixed_event_script,medium,Maria's love <CTRL_FFFC>dá
+$46,12,$B5A85D,32,$B5A8C1,StartTextBoxAndAdvanceSlot,0449,Text_449_Romance_AnnsLoveD,Romance,npc_ann_romance_or_family,mixed_event_script,medium,Ann's love <CTRL_FFFC>dé
+$46,12,$B5A85D,34,$B5A8C8,StartTextBoxAndAdvanceSlot,044A,Text_44A_Romance_NinasLoveD,Romance,npc_nina_romance_or_family,mixed_event_script,medium,Nina's love <CTRL_FFFC>dí
+$46,12,$B5A85D,36,$B5A8CF,StartTextBoxAndAdvanceSlot,044B,Text_44B_Romance_EllensLoveD,Romance,npc_ellen_romance_or_family,mixed_event_script,medium,Ellen's love <CTRL_FFFC>d<$0046>
+$46,12,$B5A85D,38,$B5A8D6,StartTextBoxAndAdvanceSlot,044C,Text_44C_Romance_EvesLoveD,Romance,npc_eve_romance_or_family,mixed_event_script,medium,Eve's love <CTRL_FFFC>dÀ
+$46,12,$B5A85D,42,$B5A8EB,StartTextBoxAndAdvanceSlot,0451,Text_451_Sign_WoodHouse,Sign,house_upgrade_or_family_context,mixed_event_script,medium,Wood house
+$46,12,$B5A85D,44,$B5A8F2,StartTextBoxAndAdvanceSlot,0452,Text_452_Sign_SuperWoodHouse,Sign,house_upgrade_or_family_context,mixed_event_script,medium,Super wood house
+$46,12,$B5A85D,46,$B5A8F9,StartTextBoxAndAdvanceSlot,0453,Text_453_Sign_SuperDeluxeGreatWoodHouse,Sign,house_upgrade_or_family_context,mixed_event_script,medium,Super deluxe great wood house
+$46,12,$B5A85D,48,$B5A900,StartTextBoxAndAdvanceSlot,048C,Text_48C_Romance_RanchDevelopingRateD,Romance,ranch_livestock_context,mixed_event_script,medium,Ranch developing rate <CTRL_FFFC>d<$0070>&
+$46,12,$B5A85D,50,$B5A907,StartTextBoxAndAdvanceSlot,0454,Text_454_Dialog_HappinessRateD,Dialog,npc_or_event_dialogue,mixed_event_script,medium,Happiness rate <CTRL_FFFC>dú
+$46,12,$B5A85D,57,$B5A940,StartTextBoxAndAdvanceSlot,0483,Text_483_Dialog_RanchMasterRateDStill,Dialog,ranch_livestock_context,mixed_event_script,medium,Ranch master rate <CTRL_FFFC>d<$006B> Still a long way to go.
+$46,12,$B5A85D,59,$B5A947,StartTextBoxAndAdvanceSlot,0488,Text_488_Dialog_RanchMasterRateDTry,Dialog,ranch_livestock_context,mixed_event_script,medium,Ranch master rate <CTRL_FFFC>d<$006C> Try harder.
+$46,12,$B5A85D,61,$B5A94E,StartTextBoxAndAdvanceSlot,0489,Text_489_Dialog_RanchMasterRateDCome,Dialog,ranch_livestock_context,mixed_event_script,medium,"Ranch master rate <CTRL_FFFC>d<$006D> Come on:you are so close,"
+$46,12,$B5A85D,63,$B5A955,StartTextBoxAndAdvanceSlot,048A,Text_48A_Dialog_RanchMasterRateDGreat,Dialog,ranch_livestock_context,mixed_event_script,medium,"Ranch master rate <CTRL_FFFC>d<$006E> Great, But try to be the best rancher,"
+$46,12,$B5A85D,65,$B5A95C,StartTextBoxAndAdvanceSlot,048B,Text_48B_Dialog_RanchMasterRateDCongratulations,Dialog,ranch_livestock_context,mixed_event_script,medium,"Ranch master rate <CTRL_FFFC>d<$006F> Congratulations, You are the perfect rancher now,"
+$47,25,$B5C8EE,24,$B5C93F,StartTextBoxAndAdvanceSlot,0241,Text_241_Dialog_WelcomePutBroughtStewNow,Dialog,npc_or_event_dialogue,mixed_event_script,medium,Welcome.Put what you brought in the stew now.

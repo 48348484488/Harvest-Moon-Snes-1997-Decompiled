@@ -1,0 +1,10 @@
+metric,value,percent
+total_eventscript_entries,1288,100.000
+entries_closed_before_pass92,336,26.087
+entries_closed_visual_gobj_lane_pass92,41,3.183
+entries_closed_total_pass92,377,29.270
+entries_pending_after_pass92,911,70.730
+confirmation_units_total,163,100.000
+confirmation_units_closed_total_pass92,79,48.466
+confirmation_units_closed_visual_lane_pass92,9,5.521
+confirmation_units_pending_after_pass92,84,51.534

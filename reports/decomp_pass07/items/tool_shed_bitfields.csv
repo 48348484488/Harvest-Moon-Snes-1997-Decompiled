@@ -1,0 +1,27 @@
+ram_symbol,address,row,bit,mask,working_name,related_tool_id,related_counter,source_evidence
+shed_items_row_1,7F1F00,1,0,01,normal sickle,01,,gold sickle routine clears this bit when setting row3 bit0
+shed_items_row_1,7F1F00,1,1,02,normal hoe/plow,02,,gold hoe routine clears this bit when setting row3 bit1
+shed_items_row_1,7F1F00,1,2,04,normal hammer,03,,gold hammer routine clears this bit when setting row3 bit2
+shed_items_row_1,7F1F00,1,3,08,normal axe,04,,gold axe routine clears this bit when setting row3 bit3
+shed_items_row_1,7F1F00,1,4,10,corn seeds bag,05,seeds_corn_N,8184D5-818510 sets bit and increments counter
+shed_items_row_1,7F1F00,1,5,20,tomato seeds bag,06,seeds_tomato_N,818511-81854C sets bit and increments counter
+shed_items_row_1,7F1F00,1,6,40,potato seeds bag,07,seeds_potato_N,81854D-818588 sets bit and increments counter
+shed_items_row_1,7F1F00,1,7,80,turnip seeds bag,08,seeds_turnip_N,818589-8185C4 sets bit and increments counter
+shed_items_row_2,7F1F01,2,0,01,cow medicine,09,,818737-81874D sets bit
+shed_items_row_2,7F1F01,2,1,02,miracle potion,0A,,81874E-818764 sets bit
+shed_items_row_2,7F1F01,2,2,04,bell,0B,,inferred from RAM comment wrip gbmc and display routines
+shed_items_row_2,7F1F01,2,3,08,grass seeds bag,0C,seeds_grass_N,818499-8184D4 sets bit and increments counter
+shed_items_row_2,7F1F01,2,4,10,paint,0D,,8185DF-8185F5 sets bit
+shed_items_row_2,7F1F01,2,5,20,milker,0E,,8185F6-81860C sets bit
+shed_items_row_2,7F1F01,2,6,40,brush,0F,,81860D-818623 sets bit
+shed_items_row_2,7F1F01,2,7,80,watering can,10,watering_can_water,row3 sprinkler routine clears this bit
+shed_items_row_3,7F1F02,3,0,01,gold sickle,11,,818624-81865A sets bit and clears row1 bit0
+shed_items_row_3,7F1F02,3,1,02,gold hoe/plow,12,,81865B-818691 sets bit and clears row1 bit1
+shed_items_row_3,7F1F02,3,2,04,gold hammer,13,,818692-8186C8 sets bit and clears row1 bit2
+shed_items_row_3,7F1F02,3,3,08,gold axe,14,,8186C9-8186FF sets bit and clears row1 bit3
+shed_items_row_3,7F1F02,3,4,10,sprinkler,15,,818700-818736 sets bit and clears row2 bit7
+shed_items_row_3,7F1F02,3,5,20,beanstalk bean,16,,inferred from RAM comment fdbr ahps
+shed_items_row_3,7F1F02,3,6,40,blue diamond/gem,17,,inferred from RAM comment fdbr ahps
+shed_items_row_3,7F1F02,3,7,80,blue feather,18,,inferred from RAM comment fdbr ahps
+shed_items_row_4,7F1F03,4,0,01,chicken feed stock flag,19,feed_chicks_N,818765-818780 sets bit and feed_chicks_N to 0C
+shed_items_row_4,7F1F03,4,1,02,cow feed stock flag,1A,feed_cow_N,818781-81879C sets bit and feed_cow_N to 0C

@@ -1,0 +1,14 @@
+--- src/code_banks/bank_80.asm
++++ src/code_banks/bank_80.asm
+@@
+-incsrc "src/code_banks/bank_80_pointersubrutines.asm"
++incsrc "bank_80_pointersubrutines.asm"
+
+--- src/code_banks/bank_82.asm
++++ src/code_banks/bank_82.asm
+@@
+-incsrc "src/code_banks/bank_82_toolanimation_subrutines.asm"
++incsrc "bank_82_toolanimation_subrutines.asm"
+@@
+-incsrc "src/code_banks/bank_82_toolused_subrutines.asm"
++incsrc "bank_82_toolused_subrutines.asm"

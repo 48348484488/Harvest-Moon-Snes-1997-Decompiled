@@ -1,0 +1,7 @@
+/mnt/data/pass09_work/01_project_buildable/reports/rom_info.md
+Rodando: /mnt/data/pass09_work/01_project_buildable/tools/bin/linux/asar /mnt/data/pass09_work/01_project_buildable/src/main.asm /mnt/data/pass09_work/01_project_buildable/build/Harvest_Moon_USA_rebuild.sfc
+ROM reconstruido: /mnt/data/pass09_work/01_project_buildable/build/Harvest_Moon_USA_rebuild.sfc
+MD5 rebuild: c9bf36a816b6d54aed79d43a6c45111a
+MD5 original: c9bf36a816b6d54aed79d43a6c45111a
+OK: rebuild identico byte-a-byte ao original.
+Finalizado. Veja build/ e reports/.

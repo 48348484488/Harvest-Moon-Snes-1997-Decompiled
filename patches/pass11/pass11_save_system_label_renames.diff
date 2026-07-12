@@ -1,0 +1,120 @@
+diff -ur /mnt/data/pass11_work/HM-Decomp-Pass10-Organizado-Livestock/01_project_buildable/src/code_banks/bank_80.asm src/code_banks/bank_80.asm
+--- /mnt/data/pass11_work/HM-Decomp-Pass10-Organizado-Livestock/01_project_buildable/src/code_banks/bank_80.asm	2026-07-04 09:58:10.000000000 +0000
++++ src/code_banks/bank_80.asm	2026-07-04 10:10:19.988782308 +0000
+@@ -624,7 +624,7 @@
+         JSL.L ZeroesCGRAM
+         JSL.L ClearSpriteDataTables
+         JSL.L InitializeOBJs
+-        JSL.L CheckSRAMIntegrity
++        JSL.L SaveSystem_CheckSRAMIntegrity
+         %Set8bit(!M)
+         %Set16bit(!X)
+         LDA.B !INIDISP_FORCE_BLANK
+diff -ur /mnt/data/pass11_work/HM-Decomp-Pass10-Organizado-Livestock/01_project_buildable/src/code_banks/bank_82.asm src/code_banks/bank_82.asm
+--- /mnt/data/pass11_work/HM-Decomp-Pass10-Organizado-Livestock/01_project_buildable/src/code_banks/bank_82.asm	2026-07-04 09:58:10.000000000 +0000
++++ src/code_banks/bank_82.asm	2026-07-04 10:10:19.991051492 +0000
+@@ -781,7 +781,7 @@
+         LDA.B #$00
+         XBA
+         LDA.W $098E
+-        JSL.L SaveGameSlot
++        JSL.L SaveSystem_SaveSlot
+ 
+     .endgamecheat:
+         %Set16bit(!M)                          ;Check for the end credits ending
+@@ -5933,7 +5933,7 @@
+                        LDA.B #$00                           ;82E029;      ;
+                        XBA                                  ;82E02B;      ;
+                        LDA.W $098E                          ;82E02C;00098E;
+-                       JSL.L LoadGameSlotResume                      ;82E02F;83BA45;
++                       JSL.L SaveSystem_LoadSlotSummary                      ;82E02F;83BA45;
+                        %Set16bit(!MX)                             ;82E033;      ;
+                        CPX.W #$0000                         ;82E035;      ;
+                        BEQ CODE_82E03A                      ;82E038;82E03A;
+@@ -6046,7 +6046,7 @@
+           CODE_82E115:
+           %Set16bit(!M)                             ;82E115;      ;
+                        LDA.W #$0000                         ;82E117;      ;
+-                       JSL.L LoadGameSlotResume                      ;82E11A;83BA45;
++                       JSL.L SaveSystem_LoadSlotSummary                      ;82E11A;83BA45;
+                        %Set16bit(!MX)                             ;82E11E;      ;
+                        CPX.W #$0000                         ;82E120;      ;
+                        BEQ CODE_82E127                      ;82E123;82E127;
+@@ -6090,7 +6090,7 @@
+                                                             ;      ;      ;
+           CODE_82E16B: %Set16bit(!M)                             ;82E16B;      ;
+                        LDA.W #$0001                         ;82E16D;      ;
+-                       JSL.L LoadGameSlotResume                      ;82E170;83BA45;
++                       JSL.L SaveSystem_LoadSlotSummary                      ;82E170;83BA45;
+                        %Set16bit(!MX)                             ;82E174;      ;
+                        CPX.W #$0000                         ;82E176;      ;
+                        BEQ CODE_82E17D                      ;82E179;82E17D;
+@@ -6405,7 +6405,7 @@
+         %Set16bit(!MX)                             ;82E405;      ;
+         PHA                                  ;82E407;      ;
+         PHY                                  ;82E408;      ;
+-        JSL.L LoadGameSlotResume                      ;82E409;83BA45;
++        JSL.L SaveSystem_LoadSlotSummary                      ;82E409;83BA45;
+         %Set16bit(!MX)                             ;82E40D;      ;
+         PLY                                  ;82E40F;      ;
+         PLA                                  ;82E410;      ;
+@@ -6779,7 +6779,7 @@
+         LDA.B #$00
+         XBA
+         LDA.W $098E
+-        JSL.L LoadGameSlot
++        JSL.L SaveSystem_LoadFullSlot
+         JML.L SpawnAfterLoad
+ 
+ ;;;;;;;;
+diff -ur /mnt/data/pass11_work/HM-Decomp-Pass10-Organizado-Livestock/01_project_buildable/src/code_banks/bank_83.asm src/code_banks/bank_83.asm
+--- /mnt/data/pass11_work/HM-Decomp-Pass10-Organizado-Livestock/01_project_buildable/src/code_banks/bank_83.asm	2026-07-04 09:58:10.000000000 +0000
++++ src/code_banks/bank_83.asm	2026-07-04 10:10:19.995992002 +0000
+@@ -5645,7 +5645,7 @@
+ 
+ ;;;;;;;; Load game Mem slot in A
+ ;;;;;;;; Param: A: Save Slot
+-LoadGameSlot: ;83B2B1
++SaveSystem_LoadFullSlot: ;83B2B1
+         !savelocation = $72
+         !savelocationBank = $74
+ 
+@@ -6040,7 +6040,7 @@
+ 
+ ;;;;;;;; Save game Mem slot in A
+ ;;;;;;;; Param: A: Save Slot
+-SaveGameSlot: ;83B68E
++SaveSystem_SaveSlot: ;83B68E
+         !savelocation = $72
+         !savelocationBank = $74
+         !crcsum = $7E
+@@ -6428,7 +6428,7 @@
+ 
+ ;;;;;;;; Loads minimun info about the game slot
+ ;;;;;;;; Param: A: Save Slot
+-LoadGameSlotResume: ;83BA45
++SaveSystem_LoadSlotSummary: ;83BA45
+         !savelocation = $72
+         !savelocationBank = $74
+ 
+@@ -6501,7 +6501,7 @@
+ ;;;;;;;; Saves has between 3C-3F the ascii word FARM as a rudimentary check
+ ;;;;;;;; Theres also a CRC check stored on 2F
+ ;;;;;;;; Each saves is 4k, but seems that only 2k are actually used per save
+-CheckSRAMIntegrity: ;83BAD4
++SaveSystem_CheckSRAMIntegrity: ;83BAD4
+         !fails = $82
+         !pointer = $72
+         !pointerBank = $74
+diff -ur /mnt/data/pass11_work/HM-Decomp-Pass10-Organizado-Livestock/01_project_buildable/src/code_banks/bank_84.asm src/code_banks/bank_84.asm
+--- /mnt/data/pass11_work/HM-Decomp-Pass10-Organizado-Livestock/01_project_buildable/src/code_banks/bank_84.asm	2026-07-04 09:58:10.000000000 +0000
++++ src/code_banks/bank_84.asm	2026-07-04 10:10:19.997595941 +0000
+@@ -9316,7 +9316,7 @@
+                        LDA.B #$00                           ;84C3EB;      ;
+                        XBA                                  ;84C3ED;      ;
+                        LDA.W $098E                          ;84C3EE;00098E;
+-                       JSL.L LoadGameSlotResume                      ;84C3F1;83BA45;
++                       JSL.L SaveSystem_LoadSlotSummary                      ;84C3F1;83BA45;
+                        %Set16bit(!MX)                             ;84C3F5;      ;
+                        CPX.W #$0000                         ;84C3F7;      ;
+                        BEQ CODE_84C415                      ;84C3FA;84C415;

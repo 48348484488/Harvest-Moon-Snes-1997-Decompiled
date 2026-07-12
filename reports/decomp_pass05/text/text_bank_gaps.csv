@@ -1,0 +1,2 @@
+bank,start_snes,end_snes_exclusive,bytes,words,kind
+BB,BBBDF8,BC0000,16904,8452,tail_after_last_text_exported

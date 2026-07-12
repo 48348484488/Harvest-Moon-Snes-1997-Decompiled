@@ -1,0 +1,6 @@
+climate,fence,grass,crop_or_tilled,unused_4th
+Rain,60,00,00,00
+Snow,40,00,00,00
+Hurricane,08,10,04,00
+Special storm?,08,00,04,00
+New Year?,00,40,20,00
